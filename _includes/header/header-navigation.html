@@ -1,11 +1,11 @@
 {% comment %}
-Le pagine che vengono incluse in questo menù sono un sottoinsieme di
-tutte le pagine del sito che:
+Le pagine che vengono incluse in questo menù sono un sottoinsieme di tutte le pagine del sito che:
 - hanno la stessa lingua della pagina corrente
 - hanno l'attributo "order" valorizzato
+- hanno l'attributo "child_of_ref" non valorizzato (è un sottomenu)
 {% endcomment %}
 
-{% assign current_lang_menu_pages = site.pages | where: "lang", page.lang | where_exp: "page", "page.order != nil" | sort: "order" %}
+{% assign current_lang_menu_pages = site.pages | where: "lang", page.lang | where_exp: "page", "page.order != nil" | where_exp: "page", "page.child_of_ref == nil" | sort: "order" %}
 <div class="it-nav-wrapper">
   <div class="it-header-center-wrapper theme-light">
     <div class="container">
@@ -72,9 +72,39 @@ tutte le pagine del sito che:
               <div class="menu-wrapper">
                 <ul class="navbar-nav">
                   {% for menu_page in current_lang_menu_pages %}
-                  <li class="nav-item">
-                    <a class="nav-link" href="{{ site.baseurl }}{{menu_page.permalink}}"><span>{{menu_page.title}}</span></a>
-                  </li>
+
+                    {% comment %}
+                    Le pagine che vengono incluse in questo sottomenù sono un sottoinsieme di tutte le pagine del sito che:
+                    - hanno la stessa lingua della pagina corrente
+                    - hanno l'attributo "order" valorizzato
+                    - hanno l'attributo "child_of_ref" uguale a `menu_page.ref` attuale (sono quindi figlie di `menu_page`)
+                    {% endcomment %}
+                    {% assign current_lang_menu_child_pages = site.pages | where: "lang", page.lang | where_exp: "page", "page.order != nil" | where: "child_of_ref", menu_page.ref | sort: "order"%}
+                    {% if current_lang_menu_child_pages.size == 0 %}
+                    <li class="nav-item">
+                      <a class="nav-link" href="{{ site.baseurl }}{{menu_page.permalink}}"><span>{{menu_page.title}}</span></a>
+                    </li>
+                    {% else %}
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                        <span>{{menu_page.title}}</span>
+                        <svg class="icon icon-xs">
+                          <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-expand"></use>
+                        </svg>
+                      </a>
+                      <div class="dropdown-menu">
+                        <div class="link-list-wrapper">
+                          <ul class="link-list">
+                            {% for menu_child_page in current_lang_menu_child_pages %}
+                            <li><a class="list-item" href="{{ site.baseurl }}{{menu_child_page.permalink}}"><span>{{menu_child_page.title}}</span></a></li>
+                            {% endfor %}
+                            <li><span class="divider"></span></li>
+                            <li><a class="list-item" href="{{ site.baseurl }}{{menu_page.permalink}}"><span>{{menu_page.title}}</span></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    {% endif %}
                   {% endfor %}
                 </ul>
               </div>

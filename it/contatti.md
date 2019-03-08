@@ -9,5 +9,16 @@ order: 7
 ---
 
 <main class="container my-5">
-    {% include pages/contatti.html %}
+    <div class="row">
+      <div class="col-12 col-lg-8">
+        <h1>{{ page.title }}</h1>
+        <p class="lead">{{ page.description }}</p>
+        {% comment %}
+        TODO:
+        Informazioni di contatto (differenziando tra giornalisti e contatti tecnici)
+        Link al forum
+        Form newsletter
+        {% endcomment %}
+      </div>
+    </div>
 </main>

@@ -22,5 +22,5 @@ The aforementioned addition of `_config_dev.yml` is needed to run the server on 
 
 * Add a value for `google_analytics`
 * If needed, add a value for `disqus`, and test it (it hasn't been checked)
-* `meta` tags (twitter etc.)
+* Page titles, descriptions, `meta` tags
 * Anything regarding privacy policy, disclaimers and newsletter regs
