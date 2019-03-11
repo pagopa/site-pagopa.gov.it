@@ -6,8 +6,10 @@ lang: it
 ref: pubbliche-amministrazioni
 permalink: /pubbliche-amministrazioni
 order: 4
+breadcrumbs:
+  - /: Home
 ---
 
-<main class="container my-5">
-    {% include pages/pubbliche-amministrazioni.html %}
-</main>
+## Titolo paragrafo
+
+Testo, testo, testo
