@@ -7,8 +7,10 @@ layout: default
   <nav class="breadcrumb-container" aria-label="breadcrumb">
     <ol class="breadcrumb">
       {% for item in page.breadcrumbs %}
-      <li class="breadcrumb-item"><a href="{{ item[0] }}">{{ item[1] }}</a><span class="separator">&gt;</span>
+      {% for i in item %}
+      <li class="breadcrumb-item"><a href="{{ i[0] }}">{{ i[1] }}</a><span class="separator">&gt;</span>
       </li>
+      {% endfor %}
       {% endfor %}
       <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
     </ol>
