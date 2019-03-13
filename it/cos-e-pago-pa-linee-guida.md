@@ -12,6 +12,10 @@ breadcrumbs:
   - /cos-e-pago-pa: Cos'è pagoPA
 ---
 
-## Titolo paragrafo
+## Linee guida di pagoPA
 
-Testo, testo, testo
+Linee guida e documentazione tecnica per l'integrazione al sistema pagoPA.
+Le [Linee guida per l’effettuazione dei pagamenti elettronici a favore delle pubbliche amministrazioni e dei gestori di pubblici](https://docs.italia.it/italia/pagopa/lg-pagopa-docs/it/stabile/) definiscono regole, standard e specifiche tecniche che le PA e i PSP devono seguire per integrarsi al sistema pagoPA.
+Le Linee guida sono corredate da due allegati tecnici:
+* [Allegato A - Specifiche Attuative dei Codici Identificativi di versamento, riversamento e rendicontazione (versione corrente)](https://docs.italia.it/italia/pagopa/pagopa-codici-docs/it/bozza/)
+* [Allegato B - Specifiche Attuative del Nodo dei Pagamenti-SPC (versione corrente)] (https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/stabile/)
