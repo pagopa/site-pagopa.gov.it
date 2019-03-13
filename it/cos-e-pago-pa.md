@@ -29,11 +29,11 @@ L’obiettivo è quello di permettere al cittadino di scegliere metodi di pagame
 pagoPA ti permette di pagare **tributi**, **tasse**, **utenze**, **rette**, **quote associative**, **bolli** e qualsiasi altro tipo di pagamento verso le **Pubbliche Amministrazioni centrali e locali**, ma anche verso **altri soggetti**, come le aziende a partecipazione pubblica, le scuole, le università, le ASL.
 
 ## Chi può ricevere pagamenti tramite pagoPA
-Con il sistema pagoPA si possono fare pagamenti verso tutti gli Enti della Pubblica Amministrazione, tutte le società a controllo pubblico e verso società private che forniscono servizi al cittadino purché aderiscano all’iniziativa.
+Con il sistema pagoPA si possono fare pagamenti verso tutti **gli Enti della Pubblica Amministrazione**, **tutte le società a controllo pubblico** e verso **società private che forniscono servizi al cittadino** purché aderiscano all’iniziativa.
 
-Perché le Pubbliche Amministrazioni devono aderire
-Le Pubbliche Amministrazioni e le società a controllo pubblico aderiscono al sistema pagoPA perché previsto dalla legge. Il vantaggio è quello di poter fruire di un sistema di pagamento semplice, standardizzato, affidabile e non oneroso per la PA e più in linea con le esigenze dei cittadini.
+## Perché le Pubbliche Amministrazioni devono aderire
+Le Pubbliche Amministrazioni e le società a controllo pubblico **aderiscono** al sistema pagoPA **perché previsto dalla legge**. Il vantaggio è quello di poter fruire di un sistema di pagamento **semplice**, **standardizzato**, **affidabile** e non oneroso per la PA e più in linea con le esigenze dei cittadini.
 
-Perché le banche e i Prestatori di Servizi di Pagamento possono aderire
-I Prestatori di Servizi di Pagamento (PSP) aderiscono al sistema pagoPA su base volontaria per erogare servizi di pagamento ai propri clienti (cittadini e imprese) sia occasionali che abituali. Ogni PSP aderente decide quanti e quali servizi di pagamento rendere disponibili: carta di credito, addebito in conto, ecc.
+## Perché le banche e i Prestatori di Servizi di Pagamento possono aderire
+I **Prestatori di Servizi di Pagamento (PSP)** aderiscono al sistema pagoPA su base volontaria **per erogare servizi di pagamento** ai propri clienti (cittadini e imprese) sia occasionali che abituali. Ogni PSP aderente decide quanti e quali servizi di pagamento rendere disponibili: carta di credito, addebito in conto, ecc.
 
