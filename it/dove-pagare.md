@@ -1,20 +1,14 @@
 ---
-layout: default
+layout: page
 title: Dove pagare
 description: Descrizione della pagina "Dove pagare"
 lang: it
 ref: dove-pagare
 permalink: /dove-pagare
 order: 3
+breadcrumbs:
+  - /: Home
 ---
-
-<main class="container my-5">
-    <div class="row">
-      <div class="col-12 col-lg-8">
-        <h1>Dove Pagare</h1>
-      </div>
-    </div>
-</main>
 
 **pagoPA è un sistema unico per i pagamenti elettronici verso la pubblica amministrazione.**
 
