@@ -30,7 +30,7 @@ Inoltre, richiamate le crescenti difficoltà riscontrate da parte degli enti nel
 Nel ricordare il richiamato obbligo di adeguamento della PA alla disciplina derivante dalla PSD2 entro la fine del corrente anno, si sollecitano gli enti a prendere ogni necessaria iniziativa per assicurare il superamento di assetti convenzionali non più in linea con la disciplina in tema di servizi di pagamento. In questo contesto si auspica che lo schema di convenzione di tesoreria e cassa possa rappresentare un valido supporto anche per tale finalità oltre che per quelle inerenti il sistema pagoPA ed il Siope+.  
 Si rammenta da ultimo il carattere non vincolante dello schema proposto il cui unico intento è quello di agevolare l’operatività degli enti in fase di predisposizione della documentazione necessaria per l’indizione della gara.  
 Rimane pertanto inalterata ogni facoltà in capo alla stazione appaltante di predisporre una convenzione rispondente alle proprie esigenze nell’ambito della propria autonomia, aggiornando, modificando e/o integrando lo schema proposto.  
-Documentazione
-Modulistica
-Schema di convenzione per la gestione del servizio di tesoreria
 
+### Documentazione
+
+* [Schema di convenzione per la gestione del servizio di tesoreria](https://www.agid.gov.it/sites/default/files/repository_files/schema_convenzione_tesoreria.zip)
