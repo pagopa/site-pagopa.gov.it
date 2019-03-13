@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Intermediari
+title: Intermediari degli enti
 description: Descrizione della pagina "Intermediari"
 lang: it
 ref: pubbliche-amministrazioni-intermediari
@@ -11,8 +11,6 @@ breadcrumbs:
   - /: Home
   - /pubbliche-amministrazioni: Pubbliche Amministrazioni
 ---
-
-## Intermediari degli enti
 
 **Intermediari** e **Partner tecnologici** scelti dagli Enti creditori che, alla data di pubblicazione, risultano attivi su pagoPA (dati aggiornati al 20 febbraio 2019).  
 * [Elenco degli intermediari attivi su pagoPA (CSV)](https://www.agid.gov.it/sites/default/files/pagamenti_amministrazione/pagopa-intermediari.csv)
