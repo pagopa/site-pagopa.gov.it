@@ -26,14 +26,6 @@ L’obiettivo è quello di permettere al cittadino di scegliere metodi di pagame
 ** INSERIRE IL VIDEO INFORMATIVO **
 
 
-<svg class="icon">
-                  <use xlink:href="/pagopa.gov.it/assets/bootstrap-italia/dist/svg/sprite.svg#it-expand"></use>
-                </svg>
-
-<iframe width="644" height="362" src="https://www.youtube.com/embed/RHOAu5GwKnE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
 ## Cosa posso pagare con pagoPA
 pagoPA ti permette di pagare **tributi**, **tasse**, **utenze**, **rette**, **quote associative**, **bolli** e qualsiasi altro tipo di pagamento verso le **Pubbliche Amministrazioni centrali e locali**, ma anche verso **altri soggetti**, come le aziende a partecipazione pubblica, le scuole, le università, le ASL.
 
