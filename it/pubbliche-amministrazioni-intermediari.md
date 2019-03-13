@@ -12,6 +12,10 @@ breadcrumbs:
   - /pubbliche-amministrazioni: Pubbliche Amministrazioni
 ---
 
-## Titolo paragrafo
+## Intermediari degli enti
 
-Testo, testo, testo
+**Intermediari** e **Partner tecnologici** scelti dagli Enti creditori che, alla data di pubblicazione, risultano attivi su pagoPA.  
+Dati aggiornati al 20 febbraio 2019.  
+* [Elenco degli intermediari attivi su pagoPA (CSV)](https://www.agid.gov.it/sites/default/files/pagamenti_amministrazione/pagopa-intermediari.csv)
+* [Elenco degli intermediari attivi su pagoPA (XSLX)(https://www.agid.gov.it/sites/default/files/pagamenti_amministrazione/pagopa-intermediari.xlsx)
+
