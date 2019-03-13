@@ -32,12 +32,20 @@ Le Linee guida sono corredate da **due allegati tecnici**:
 * [Allegato tecnico Pagamento della Tassa Automobilistica presso i PSP (PDF e XSD)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/documentazione_collegata/bollo_auto_mod_4_0.zip)
 
 ## Materiale per sviluppatori (*)
-* WSDL versione 2.1.3 (ZIP)
-* Schema XSD versione 2.1.4 (ZIP)
-* SDK Android pagoPA (Beta version)
-* SDK iOS pagoPA (Beta version)
-* Controlli applicativi del sistema pagoPA Versione 1.0 - febbraio 2018 (PDF)
-* Kit per le immagini standard previste sull'avviso analogico
+* [WSDL versione 2.1.3 (ZIP)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/materiale_sviluppatori/wsdl_2.1.3.zip)
+* [Schema XSD versione 2.1.4 (ZIP)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/materiale_sviluppatori/xsd_2.1.4.zip)
+* [SDK Android pagoPA (Beta version)](https://github.com/italia/pagopa-android-example)
+* [SDK iOS pagoPA (Beta version)](https://github.com/italia/pagopa-ios-example)
+* [Controlli applicativi del sistema pagoPA Versione 1.0 - febbraio 2018 (PDF)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/materiale_sviluppatori/elenco_controlli_nodo_2_1_new.pdf)
+* [Kit per le immagini standard previste sull'avviso analogico](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/materiale_sviluppatori/avviso-pagopa-assets.zip)
 
 (*) ulteriore materiale sarà pubblicato su developers.italia.it
+
+## Documenti in consultazione
+* [I processi di business gestiti dal sistema pagoPA](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/best_practices/pagopa_business_processes_v1.0.pdf)
+* [Gestione dei voucher(PDF)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/best_practices/pagopa_gestione_codice_promozionale_v0.6.pdf)
+
+## Best practices
+* [Caso d'uso: pagamento di contravvenzioni del Codice della Strada](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/best_practices/multe_con_preavviso_agid.pdf)
+
 
