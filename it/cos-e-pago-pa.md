@@ -26,6 +26,10 @@ L’obiettivo è quello di permettere al cittadino di scegliere metodi di pagame
 ** INSERIRE IL VIDEO INFORMATIVO **
 
 
+<svg class="icon">
+                  <use xlink:href="/pagopa.gov.it/assets/bootstrap-italia/dist/svg/sprite.svg#it-expand"></use>
+                </svg>
+
 <iframe width="644" height="362" src="https://www.youtube.com/embed/RHOAu5GwKnE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
