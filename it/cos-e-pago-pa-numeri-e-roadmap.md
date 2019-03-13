@@ -12,6 +12,13 @@ breadcrumbs:
   - /cos-e-pago-pa: Cos'è pagoPA
 ---
 
-## Titolo paragrafo
+## Un po' di numeri
 
-Testo, testo, testo
+I dati delle dashboard vengono aggiornati su base settimanale (ultimo aggiornamento: 04/03/2019)
+
+< INSERIRE LA DASHBOARD PRESENTE SUL SITO DEL TEAM >
+
+## Roadmap
+
+< INSERIRE LA TIMELINE PRESENTE SUL SITO DEL TEAM >
+
