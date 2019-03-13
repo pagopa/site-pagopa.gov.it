@@ -12,8 +12,6 @@ breadcrumbs:
   - /pubbliche-amministrazioni: Pubbliche Amministrazioni
 ---
 
-## Amministrazioni aderenti
-
 Il sistema pagoPA è adottato dalle Amministrazioni pubbliche (Enti) che consentono il pagamento per mezzo di servizi offerti da Prestatori di Servizi di Pagamento (PSP).
 
 Di seguito l’elenco aggiornato degli Enti aderenti:  
