@@ -5,7 +5,7 @@ description: Descrizione della pagina "Elenco PSP attivi"
 lang: it
 ref: prestatori-servizi-di-pagamento-elenco-psp-attivi
 permalink: /prestatori-servizi-di-pagamento/elenco-psp-attivi
-order: 52
+order: 50
 child_of_ref: prestatori-servizi-di-pagamento
 breadcrumbs:
   - /: Home
