@@ -19,7 +19,7 @@ Per ciascun PSP puoi verificare i canali di pagamento disponibili (**sportello f
 Per saperne di più: [Cos’è e come funziona pagoPA](http://www.agid.gov.it/agenda-digitale/pubblica-amministrazione/pagamenti-elettronici)
 
 ## Elenco dei PSP
-È possibile scaricare l’**elenco dei PSP**:
+È possibile scaricare l’**elenco dei PSP** presso cui è possibile effettuare i pagamenti tramite pagoPA:
 * [Elenco dei canali degli operatori presso cui è possibile presentare un avviso di pagamento (CSV)](https://www.agid.gov.it/sites/default/files/pagamenti_amministrazione/pagopa-psp.csv)
 * [Elenco dei canali degli operatori presso cui è possibile presentare un avviso di pagamento (XSLX)](https://www.agid.gov.it/sites/default/files/pagamenti_amministrazione/pagopa-psp.xlsx)
 
