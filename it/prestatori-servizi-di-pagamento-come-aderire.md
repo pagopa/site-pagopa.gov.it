@@ -12,8 +12,6 @@ breadcrumbs:
   - /prestatori-servizi-di-pagamento: Prestatori Servizi di Pagamento
 ---
 
-## Come aderire
-
 L’Accordo di servizio deve essere compilato e sottoscritto digitalmente dal proprio legale rappresentante, o da chi ha potere di firma.  
 In seguito deve essere inviato tramite PEC all’indirizzo protocollo@pec.agid.gov.it, specificando nell’oggetto “Adesione al sistema dei Pagamenti”.  
 L’Accordo viene reso esecutivo con la definizione del relativo Piano di Attivazione.
