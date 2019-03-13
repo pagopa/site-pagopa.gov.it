@@ -24,4 +24,4 @@ breadcrumbs:
 * **Riconciliazione** automatica degli incassi.
 * **Riduzione dei costi** di transazione e processo.
 * Incasso delle somme D+1 (giorno lavorativo successivo al pagamento) direttamente sui conti di tesoreria.
-* Fornire più canali di incasso vuol dire incassare prima.
+* Fornire **più canali di incasso** vuol dire incassare prima.
