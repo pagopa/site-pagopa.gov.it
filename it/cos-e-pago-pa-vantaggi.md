@@ -12,7 +12,7 @@ breadcrumbs:
   - /cos-e-pago-pa: Cos'è pagoPA
 ---
 
-## Titolo paragrafo
+## Vantaggi per i cittadini
 
 Testo, testo, testo
 
