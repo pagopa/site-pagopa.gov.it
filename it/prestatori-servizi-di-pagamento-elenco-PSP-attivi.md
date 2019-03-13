@@ -14,6 +14,7 @@ breadcrumbs:
 
 ## Elenco dei Prestatori di Servizi di Pagamento
 
-Di seguito l'elenco dei **Prestatori di Servizi di Pagamento (PSP)** (**banche**, le **poste**, gli **istituti di pagamento** e **ogni altro soggetto abilitato ad eseguire servizi di pagamento**)
+È possibile scaricare l’elenco dei Prestatori di Servizi di Pagamento (PSP):
 
-* [Elenco dei Prestatori di Servizi di Pagamento (PSP) aderenti a pagoPA](https://www.agid.gov.it/agenda-digitale/pubblica-amministrazione/pagamenti-elettronici/psp-aderenti-elenco)
+* [Elenco dei canali degli operatori presso cui è possibile presentare un avviso di pagamento (CSV)](https://www.agid.gov.it/sites/default/files/pagamenti_amministrazione/pagopa-psp.csv)
+* [Elenco dei canali degli operatori presso cui è possibile presentare un avviso di pagamento (XSLX)](https://www.agid.gov.it/sites/default/files/pagamenti_amministrazione/pagopa-psp.xlsx)
