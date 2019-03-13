@@ -30,3 +30,14 @@ Le Linee guida sono corredate da **due allegati tecnici**:
 * [Il pagamento presso POS fisici nel sistema pagoPA Versione 1.0 - gennaio 2018 (PDF)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/documentazione_collegata/pagamentopressoposfisici_v_1_0.pdf)
 * [Allegato tecnico Agenzia delle entrate-Riscossione per integrazione su pagoPA di bollettini RAV per pagamento presso PSP (PDF)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/documentazione_collegata/agengiaentraterisc_rav_psp.pdf)
 * [Allegato tecnico Pagamento della Tassa Automobilistica presso i PSP (PDF e XSD)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/documentazione_collegata/bollo_auto_mod_4_0.zip)
+
+## Materiale per sviluppatori (*)
+* WSDL versione 2.1.3 (ZIP)
+* Schema XSD versione 2.1.4 (ZIP)
+* SDK Android pagoPA (Beta version)
+* SDK iOS pagoPA (Beta version)
+* Controlli applicativi del sistema pagoPA Versione 1.0 - febbraio 2018 (PDF)
+* Kit per le immagini standard previste sull'avviso analogico
+
+(*) ulteriore materiale sarà pubblicato su developers.italia.it
+
