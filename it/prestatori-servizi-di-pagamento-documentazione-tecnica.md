@@ -12,8 +12,6 @@ breadcrumbs:
   - /prestatori-servizi-di-pagamento: Prestatori Servizi di Pagamento
 ---
 
-## Documentazione tecnica
-
 A supporto dell'adesione e dell'attivazione dei PSP, è stata pubblicata la seguente documentazione:  
 * [Erogazione del servizio CBILL attraverso il Nodo dei Pagamenti-SPC (PDF)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/psp/adesione_psp_cbill_1_1_0.pdf), dedicato ai PSP che aderiscono attraverso il Consorzio CBI;
 * [Erogazione del servizio MyBank attraverso il Nodo dei Pagamenti-SPC (versione 2.0 - PDF)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/psp/adesione_psp_mybank_v_2.0.pdf), dedicato ai PSP che aderiscono attraverso il circuito e-commerce MyBank;
