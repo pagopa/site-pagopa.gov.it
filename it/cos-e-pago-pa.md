@@ -22,9 +22,6 @@ pagoPA **non è un sito dove pagare**, ma una nuova modalità per eseguire trami
 
 L’obiettivo è quello di permettere al cittadino di scegliere metodi di pagamento moderni, a minima frizione, e al mercato di poter integrare lo strumento, aggiungendo facilmente nuovi strumenti di pagamento innovativi, rendendo il sistema più aperto e flessibile.
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RHOAu5GwKnE"></iframe>
-</div>
 
 ** INSERIRE IL VIDEO INFORMATIVO **
 
