@@ -12,6 +12,8 @@ breadcrumbs:
   - /prestatori-servizi-di-pagamento: Prestatori Servizi di Pagamento
 ---
 
-## Titolo paragrafo
+## Elenco dei Prestatori di Servizi di Pagamento
 
-Testo, testo, testo
+Di seguito l'elenco dei **Prestatori di Servizi di Pagamento (PSP)** (**banche**, le **poste**, gli **istituti di pagamento** e **ogni altro soggetto abilitato ad eseguire servizi di pagamento**)
+
+* [Elenco dei Prestatori di Servizi di Pagamento (PSP) aderenti a pagoPA](https://www.agid.gov.it/agenda-digitale/pubblica-amministrazione/pagamenti-elettronici/psp-aderenti-elenco)
