@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Pubbliche Amministrazioni
 description: Descrizione della pagina "Pubbliche Amministrazioni"
 lang: it
