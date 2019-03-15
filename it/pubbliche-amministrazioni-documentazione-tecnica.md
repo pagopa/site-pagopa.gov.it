@@ -12,8 +12,6 @@ breadcrumbs:
   - /pubbliche-amministrazioni: Pubbliche Amministrazioni
 ---
 
-## Come gestire i servizi di tesoreria
+A supporto dell'adesione e l'attivazione delle Pubbliche Amministrazioni, è stata pubblicata la seguente documentazione:
+* [Piano dei test per l'avvio in esercizio di un Ente Creditore (PDF)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/adesione/piano_test_avvio_ec_20180615.pdf), documento che elenca le azioni di controllo da pianificare e attuare al fine di consentire l'avvio in esercizio di una PA.
 
-Schema di convenzione per la gestione del servizio di tesoreria.  
-Le pubbliche amministrazioni, inclusi gli enti locali, le istituzioni scolastiche, le Regioni e le AUSL, all’interno del più ampio processo di digitalizzazione, sono chiamate ad implementare il Sistema pagoPA, ossia la piattaforma per la gestione delle operazioni di incasso in modalità elettronica, e il SIOPE+, ossia la nuova infrastruttura che intermedierà il colloquio tra le pubbliche amministrazioni e le banche tesoriere al fine di migliorare la qualità dei dati per il monitoraggio della spesa pubblica.  
-Ancorché il tesoriere/cassiere dell’ente è certamente coinvolto nell’implementazione del SIOPE+ e non anche nell’attività di adesione a pagoPA (cfr. FAQ C4 pubblicata sul sito AgID al tag “pagoPA”), alcune amministrazioni, nel rispetto dei principi di affidamento pubblico, posso anche affidare l’attività di interconnessione al sistema pagoPA allo stesso soggetto a cui hanno affidato il servizio di tesoreria e cassa.  
