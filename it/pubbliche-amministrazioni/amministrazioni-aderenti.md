@@ -8,7 +8,7 @@ order: 42
 child_of_ref: pubbliche-amministrazioni
 breadcrumbs:
   - /: Home
-  - /pubbliche-amministrazioni: Pubbliche Amministrazioni
+  - /it/pubbliche-amministrazioni: Pubbliche Amministrazioni
 ---
 
 Il sistema pagoPA è adottato dalle Amministrazioni pubbliche (Enti) che consentono il pagamento per mezzo di servizi offerti da Prestatori di Servizi di Pagamento (PSP).

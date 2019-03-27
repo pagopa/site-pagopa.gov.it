@@ -8,7 +8,7 @@ order: 43
 child_of_ref: pubbliche-amministrazioni
 breadcrumbs:
   - /: Home
-  - /pubbliche-amministrazioni: Pubbliche Amministrazioni
+  - /it/pubbliche-amministrazioni: Pubbliche Amministrazioni
 ---
 
 ## Come gestire i servizi di tesoreria

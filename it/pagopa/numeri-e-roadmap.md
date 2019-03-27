@@ -8,7 +8,7 @@ order: 22
 child_of_ref: cos-e-pago-pa
 breadcrumbs:
   - /: Home
-  - /cos-e-pago-pa: Cos'è pagoPA
+  - /it/pagopa: Cos'è pagoPA
 ---
 
 ## Un po' di numeri

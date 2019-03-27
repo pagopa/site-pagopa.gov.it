@@ -8,7 +8,7 @@ order: 43
 child_of_ref: pubbliche-amministrazioni
 breadcrumbs:
   - /: Home
-  - /pubbliche-amministrazioni: Pubbliche Amministrazioni
+  - /it/pubbliche-amministrazioni: Pubbliche Amministrazioni
 ---
 
 Di seguito l'elenco degli **Intermediari** e dei **Partner tecnologici** scelti dagli Enti creditori che, alla data di pubblicazione, risultano attivi su pagoPA (dati aggiornati al 20 febbraio 2019).  
