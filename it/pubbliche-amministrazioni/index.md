@@ -5,8 +5,6 @@ description: Descrizione della pagina "Pubbliche Amministrazioni"
 lang: it
 ref: pubbliche-amministrazioni
 order: 4
-breadcrumbs:
-  - /: Home
 ---
 
 **Tutte le Pubbliche Amministrazioni** ed i **soggetti indicati all’articolo 2 del Codice dell’Amministrazione Digitale** (D.Lgs. n. 82/2005) devono aderire al sistema pagoPA.  

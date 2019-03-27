@@ -6,9 +6,6 @@ lang: it
 ref: prestatori-servizi-di-pagamento-come-aderire
 order: 51
 child_of_ref: prestatori-servizi-di-pagamento
-breadcrumbs:
-  - /: Home
-  - /it/prestatori-servizi-di-pagamento: Prestatori Servizi di Pagamento
 ---
 
 A supporto dell'adesione e dell'attivazione dei PSP, è stata pubblicata la seguente documentazione:  

@@ -6,9 +6,6 @@ lang: it
 ref: cos-e-pago-pa-vantaggi
 order: 21
 child_of_ref: cos-e-pago-pa
-breadcrumbs:
-  - /: Home
-  - /it/pagopa: Cos'è pagoPA
 ---
 
 #### Per i cittadini

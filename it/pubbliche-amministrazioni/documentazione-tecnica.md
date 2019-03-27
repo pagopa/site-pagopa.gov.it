@@ -6,9 +6,6 @@ lang: it
 ref: pubbliche-amministrazioni-documentazione-tecnica
 order: 43
 child_of_ref: pubbliche-amministrazioni
-breadcrumbs:
-  - /: Home
-  - /it/pubbliche-amministrazioni: Pubbliche Amministrazioni
 ---
 
 A supporto dell'adesione e l'attivazione delle Pubbliche Amministrazioni, è stata pubblicata la seguente documentazione:

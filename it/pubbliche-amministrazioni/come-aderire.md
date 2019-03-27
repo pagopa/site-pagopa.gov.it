@@ -6,9 +6,6 @@ lang: it
 ref: pubbliche-amministrazioni-come-aderire
 order: 41
 child_of_ref: pubbliche-amministrazioni
-breadcrumbs:
-  - /: Home
-  - /it/pubbliche-amministrazioni: Pubbliche Amministrazioni
 ---
 
 Per aderire a pagoPA in qualità di Ente Creditore, le PA o i gestori di pubblici servizi devono utilizzare il **Portale delle Adesioni**(PdA).  

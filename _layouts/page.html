@@ -2,21 +2,30 @@
 layout: default
 ---
 
-{% if page.breadcrumbs %}
 <div class="container my-2">
   <nav class="breadcrumb-container" aria-label="breadcrumb">
     <ol class="breadcrumb">
-      {% for item in page.breadcrumbs %}
-      {% for i in item %}
-      <li class="breadcrumb-item"><a href="{{ i[0] }}">{{ i[1] }}</a><span class="separator">&gt;</span>
-      </li>
+      {% assign breadcrumbs = '' | split: '' %}
+      {% assign parent = page.child_of_ref %}
+      {% for counter in (0..9) %}
+      {% if parent == nil %}
+      {% break %}
+      {% endif %}
+      {% assign parent_page = site.pages | where: "ref", parent %}
+      {% assign breadcrumbs = breadcrumbs | concat: parent_page %}
+      {% assign parent = parent_page[0].child_of_ref %}
       {% endfor %}
+
+      <li class="breadcrumb-item"><a href="/">Home</a><span class="separator">&gt;</span></li>
+
+      {% for item in breadcrumbs reversed %}
+      <li class="breadcrumb-item"><a href="{{ item.url }}">{{ item.title }}</a><span class="separator">&gt;</span>
+      </li>
       {% endfor %}
       <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
     </ol>
   </nav>
 </div>
-{% endif %}
 
 <article class="container my-4">
 

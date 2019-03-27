@@ -6,9 +6,6 @@ lang: it
 ref: cos-e-pago-pa-numeri-e-roadmap
 order: 22
 child_of_ref: cos-e-pago-pa
-breadcrumbs:
-  - /: Home
-  - /it/pagopa: Cos'è pagoPA
 ---
 
 ## Un po' di numeri

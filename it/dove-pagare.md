@@ -5,8 +5,6 @@ description: Descrizione della pagina "Dove pagare"
 lang: it
 ref: dove-pagare
 order: 3
-breadcrumbs:
-  - /: Home
 ---
 
 **pagoPA è un sistema unico per i pagamenti elettronici verso la pubblica amministrazione.**

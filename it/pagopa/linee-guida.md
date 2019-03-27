@@ -6,9 +6,6 @@ lang: it
 ref: cos-e-pago-pa-linee-guida
 order: 21
 child_of_ref: cos-e-pago-pa
-breadcrumbs:
-  - /: Home
-  - /it/pagopa: Cos'è pagoPA
 ---
 
 Le <a href="https://docs.italia.it/italia/pagopa/lg-pagopa-docs/it/stabile/" target="_blank">Linee guida per l’effettuazione dei pagamenti elettronici a favore delle pubbliche amministrazioni e dei gestori di pubblici</a> definiscono regole, standard e specifiche tecniche che le PA e i PSP devono seguire per integrarsi al sistema pagoPA.

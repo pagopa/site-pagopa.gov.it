@@ -5,8 +5,6 @@ description: Descrizione della pagina "Cos’è PagoPA"
 lang: it
 ref: cos-e-pago-pa
 order: 2
-breadcrumbs:
-  - /: Home
 ---
 
 pagoPA è un sistema di pagamenti elettronici realizzato per rendere più **semplice**, **sicuro** e **trasparente** qualsiasi pagamento verso la Pubblica Amministrazione. È un modo diverso, più naturale e immediato per i cittadini di pagare la Pubblica Amministrazione, il cui utilizzo comporta un risparmio economico per il Paese.

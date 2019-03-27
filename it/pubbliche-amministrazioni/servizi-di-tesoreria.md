@@ -6,9 +6,6 @@ lang: it
 ref: pubbliche-amministrazioni-servizi-di-tesoreria
 order: 43
 child_of_ref: pubbliche-amministrazioni
-breadcrumbs:
-  - /: Home
-  - /it/pubbliche-amministrazioni: Pubbliche Amministrazioni
 ---
 
 ## Come gestire i servizi di tesoreria

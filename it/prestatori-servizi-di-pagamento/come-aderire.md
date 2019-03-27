@@ -6,9 +6,6 @@ lang: it
 ref: prestatori-servizi-di-pagamento-come-aderire
 order: 51
 child_of_ref: prestatori-servizi-di-pagamento
-breadcrumbs:
-  - /: Home
-  - /it/prestatori-servizi-di-pagamento: Prestatori Servizi di Pagamento
 ---
 
 L’Accordo di servizio deve essere compilato e sottoscritto digitalmente dal proprio legale rappresentante, o da chi ha potere di firma.  
