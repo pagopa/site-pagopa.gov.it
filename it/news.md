@@ -4,7 +4,6 @@ title: News
 description: Descrizione della pagina "News"
 lang: it
 ref: news
-permalink: /news
 order: 6
 ---
 

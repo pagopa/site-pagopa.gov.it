@@ -4,7 +4,6 @@ title: Intermediari degli enti
 description: Descrizione della pagina "Intermediari"
 lang: it
 ref: pubbliche-amministrazioni-intermediari
-permalink: /pubbliche-amministrazioni/intermediari
 order: 43
 child_of_ref: pubbliche-amministrazioni
 breadcrumbs:

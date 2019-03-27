@@ -88,8 +88,7 @@ Le pagine che vengono incluse in questo menù sono un sottoinsieme di tutte le p
                   {% assign current_lang_menu_child_pages = site.pages | where: "lang", page.lang | where_exp: "page", "page.order != nil" | where: "child_of_ref", menu_page.ref | sort: "order"%}
                   {% if current_lang_menu_child_pages.size == 0 %}
                   <li class="nav-item">
-                    <a class="nav-link"
-                      href="{{ site.baseurl }}{{menu_page.permalink}}"><span>{{menu_page.title}}</span></a>
+                    <a class="nav-link" href="{{ site.baseurl }}{{menu_page.url}}"><span>{{menu_page.title}}</span></a>
                   </li>
                   {% else %}
                   <li class="nav-item dropdown">
@@ -104,11 +103,11 @@ Le pagine che vengono incluse in questo menù sono un sottoinsieme di tutte le p
                       <div class="link-list-wrapper">
                         <ul class="link-list">
                           <li><a class="list-item"
-                              href="{{ site.baseurl }}{{menu_page.permalink}}"><span>{{menu_page.title}}</span></a></li>
+                              href="{{ site.baseurl }}{{menu_page.url}}"><span>{{menu_page.title}}</span></a></li>
                           <li><span class="divider"></span></li>
                           {% for menu_child_page in current_lang_menu_child_pages %}
                           <li><a class="list-item"
-                              href="{{ site.baseurl }}{{menu_child_page.permalink}}"><span>{{menu_child_page.title}}</span></a>
+                              href="{{ site.baseurl }}{{menu_child_page.url}}"><span>{{menu_child_page.title}}</span></a>
                           </li>
                           {% endfor %}
                         </ul>

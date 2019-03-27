@@ -4,7 +4,6 @@ title: Documentazione tecnica
 description: Descrizione della pagina "Documentazione tecnica"
 lang: it
 ref: prestatori-servizi-di-pagamento-come-aderire
-permalink: /prestatori-servizi-di-pagamento/documentazione-tecnica
 order: 51
 child_of_ref: prestatori-servizi-di-pagamento
 breadcrumbs:

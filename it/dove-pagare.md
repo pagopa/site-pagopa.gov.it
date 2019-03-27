@@ -4,7 +4,6 @@ title: Dove pagare
 description: Descrizione della pagina "Dove pagare"
 lang: it
 ref: dove-pagare
-permalink: /dove-pagare
 order: 3
 breadcrumbs:
   - /: Home

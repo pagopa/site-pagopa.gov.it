@@ -4,7 +4,6 @@ title: Amministrazioni aderenti
 description: Descrizione della pagina "Amministrazioni aderenti"
 lang: it
 ref: pubbliche-amministrazioni-amministrazioni-aderenti
-permalink: /pubbliche-amministrazioni/amministrazioni-aderenti
 order: 42
 child_of_ref: pubbliche-amministrazioni
 breadcrumbs:

@@ -4,7 +4,6 @@ title: Documentazione tecnica
 description: Descrizione della pagina "Documentazione tecnica"
 lang: it
 ref: pubbliche-amministrazioni-documentazione-tecnica
-permalink: /pubbliche-amministrazioni/documentazione-tecnica
 order: 43
 child_of_ref: pubbliche-amministrazioni
 breadcrumbs:

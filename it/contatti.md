@@ -4,7 +4,6 @@ title: Contatti
 description: Descrizione della pagina "Contatti"
 lang: it
 ref: contatti
-permalink: /contatti
 order: 7
 ---
 
