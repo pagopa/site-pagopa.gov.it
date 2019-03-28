@@ -11,14 +11,15 @@ layout: default
       {% if parent == nil %}
       {% break %}
       {% endif %}
-      {% assign parent_page = site.pages | where: "ref", parent %}
+      {% assign parent_page = site.pages | where: "ref", parent | where: "lang", page.lang %}
       {% assign breadcrumbs = breadcrumbs | concat: parent_page %}
       {% assign parent = parent_page[0].child_of_ref %}
       {% endfor %}
+      {% assign breadcrumbs = breadcrumbs | reverse %}
 
       <li class="breadcrumb-item"><a href="/">Home</a><span class="separator">&gt;</span></li>
 
-      {% for item in breadcrumbs reversed %}
+      {% for item in breadcrumbs %}
       <li class="breadcrumb-item"><a href="{{ item.url }}">{{ item.title }}</a><span class="separator">&gt;</span>
       </li>
       {% endfor %}
@@ -27,11 +28,60 @@ layout: default
   </nav>
 </div>
 
+{% assign section = breadcrumbs[0] | default: page %}
+
 <article class="container my-4">
+  <div class="row">
+    <div class="col-12 col-lg-8">
+      <h1>{{ page.title }}</h1>
+      <p class="lead">{{ page.description }}</p>
 
-  <h1>{{ page.title }}</h1>
+      <div class="entry">
+        {{ content }}
+      </div>
+    </div>
 
-  <div class="entry">
-    {{ content }}
+    <div class="col-12 col-lg-4">
+      <nav class="navbar it-navscroll-wrapper navbar-expand-lg it-bottom-navscroll it-left-side affix-top">
+        <button class="custom-navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation" data-target="#navbarNav"><span class="it-list"></span>Menu
+        </button>
+        <div class="navbar-collapsable" id="navbarNav">
+          <div class="overlay"></div>
+          <div class="close-div sr-only">
+            <button class="btn close-menu" type="button"><span class="it-close"></span>Chiudi</button>
+          </div>
+          <a class="it-back-button" href="#"><svg class="icon icon-sm icon-primary align-top">
+              <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-chevron-left"></use>
+            </svg><span>Indietro </span></a>
+          <div class="menu-wrapper">
+            <div class="link-list-wrapper">
+              <h3 class="no_toc">{{ section.title }}</h3>
+              <ul class="link-list">
+                <li class="nav-item active">
+
+                  <a class="nav-link {% if section.url == page.url %}active{% endif %}"
+                    href="{{ section.url }}"><span>{{ section.title }}</span></a>
+
+                  {% assign items = site.pages | where: "child_of_ref", section.ref | where: "lang", page.lang %}
+                  {% for item in items %}
+                  <a class="nav-link {% if item.url == page.url %}active{% endif %}"
+                    href="{{ item.url }}"><span>{{ item.title }}</span></a>
+                  {% if item.url == page.url and false %}
+                  <ul class="link-list">
+                    <li class="nav-link">
+                      <a class="nav-link" href="#amministrazioni_aderenti_1"><span>Paragrafo 2.1</span></a>
+                    </li>
+                  </ul>
+                  {% endif %}
+                  {% endfor %}
+
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
   </div>
 </article>
