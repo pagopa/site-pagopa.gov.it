@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Amministrazioni aderenti
-description: Descrizione della pagina "Amministrazioni aderenti"
+description: 
 lang: it
 ref: pubbliche-amministrazioni-amministrazioni-aderenti
 order: 42

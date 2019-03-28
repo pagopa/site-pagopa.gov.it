@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Linee guida
-description: Descrizione della pagina "Linee guida"
+description: 
 lang: it
 ref: cos-e-pago-pa-linee-guida
 order: 21

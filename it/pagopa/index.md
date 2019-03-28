@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cos’è PagoPA
-description: Descrizione della pagina "Cos’è PagoPA"
+description: 
 lang: it
 ref: cos-e-pago-pa
 order: 2

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contatti
-description: Descrizione della pagina "Contatti"
+description: 
 lang: it
 ref: contatti
 order: 7

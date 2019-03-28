@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Vantaggi
-description: Descrizione della pagina "Vantaggi"
+description: 
 lang: it
 ref: cos-e-pago-pa-vantaggi
 order: 21

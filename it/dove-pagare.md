@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dove pagare
-description: Descrizione della pagina "Dove pagare"
+description: 
 lang: it
 ref: dove-pagare
 order: 3

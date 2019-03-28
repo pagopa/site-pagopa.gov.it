@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Documentazione tecnica
-description: Descrizione della pagina "Documentazione tecnica"
+description: 
 lang: it
 ref: prestatori-servizi-di-pagamento-come-aderire
 order: 51

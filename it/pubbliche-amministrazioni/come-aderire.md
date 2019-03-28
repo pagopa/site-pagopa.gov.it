@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Come aderire
-description: Descrizione della pagina "Come aderire"
+description: 
 lang: it
 ref: pubbliche-amministrazioni-come-aderire
 order: 41

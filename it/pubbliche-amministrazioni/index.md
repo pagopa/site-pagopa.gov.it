@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Pubbliche Amministrazioni
-description: Descrizione della pagina "Pubbliche Amministrazioni"
+description: 
 lang: it
 ref: pubbliche-amministrazioni
 order: 4

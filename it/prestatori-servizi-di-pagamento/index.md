@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Prestatori servizi di pagamento
-description: Descrizione della pagina "Prestatori servizi di pagamento"
+description: 
 lang: it
 ref: prestatori-servizi-di-pagamento
 order: 5

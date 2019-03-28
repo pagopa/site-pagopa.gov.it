@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Elenco PSP attivi
-description: Descrizione della pagina "Elenco PSP attivi"
+description: 
 lang: it
 ref: prestatori-servizi-di-pagamento-elenco-psp-attivi
 order: 50

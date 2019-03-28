@@ -1,7 +1,7 @@
 ---
 layout: default
 title: News
-description: Descrizione della pagina "News"
+description: 
 lang: it
 ref: news
 order: 6

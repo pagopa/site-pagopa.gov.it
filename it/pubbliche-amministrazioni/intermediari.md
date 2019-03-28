@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Intermediari degli enti
-description: Descrizione della pagina "Intermediari"
+description: 
 lang: it
 ref: pubbliche-amministrazioni-intermediari
 order: 43

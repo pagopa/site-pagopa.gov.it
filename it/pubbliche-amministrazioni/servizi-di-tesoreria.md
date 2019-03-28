@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Servizi di tesoreria
-description: Descrizione della pagina "Come gestire i servizi di tesoreria"
+description: 
 lang: it
 ref: pubbliche-amministrazioni-servizi-di-tesoreria
 order: 43
