@@ -8,13 +8,10 @@ order: 22
 child_of_ref: cos-e-pago-pa
 ---
 
-## Un po' di numeri
+I dati delle dashboard vengono aggiornati su base settimanale.
 
-I dati delle dashboard vengono aggiornati su base settimanale (ultimo aggiornamento: 04/03/2019)
-
-< INSERIRE LA DASHBOARD PRESENTE SUL SITO DEL TEAM >
+<iframe src="https://dashboard.teamdigitale.governo.it/public/dashboard/2c8ee2ee-fa84-4dbf-8b6a-e7fb5f9ca950" frameborder="0" width="100%" height="600" allowtransparency=""></iframe>
 
 ## Roadmap
 
-< INSERIRE LA TIMELINE PRESENTE SUL SITO DEL TEAM >
-
+{% include roadmap.html %}

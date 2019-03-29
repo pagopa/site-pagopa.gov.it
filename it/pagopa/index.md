@@ -19,9 +19,9 @@ pagoPA **non è un sito dove pagare**, ma una nuova modalità per eseguire trami
 
 L’obiettivo è quello di permettere al cittadino di scegliere metodi di pagamento moderni, a minima frizione, e al mercato di poter integrare lo strumento, aggiungendo facilmente nuovi strumenti di pagamento innovativi, rendendo il sistema più aperto e flessibile.
 
-
-** INSERIRE IL VIDEO INFORMATIVO **
-
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" title="Video - Pagamenti digitali PagoPA" src="https://www.youtube.com/embed/RHOAu5GwKnE"></iframe>
+</div>
 
 #### Cosa posso pagare con pagoPA
 pagoPA ti permette di pagare **tributi**, **tasse**, **utenze**, **rette**, **quote associative**, **bolli** e qualsiasi altro tipo di pagamento verso le **Pubbliche Amministrazioni centrali e locali**, ma anche verso **altri soggetti**, come le aziende a partecipazione pubblica, le scuole, le università, le ASL.
