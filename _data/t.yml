@@ -70,6 +70,6 @@ newsletter:
     title: "Iscriviti alla newsletter"
     placeholder: "Inserisci la tua email"
     submit_button: "Conferma iscrizione"
-    disclaimer: "TODO"
+    disclaimer: "<a href=\"https://teamdigitale.governo.it/it/privacy-newsletter-pagoPA.htm\">Privacy policy</a>"
 
 
