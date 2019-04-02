@@ -13,6 +13,8 @@ Per accedere al Portale delle Adesioni, gli Enti che non le hanno ancora ricevut
 Tutti i passi che dovrà compiere il Referente dei Pagamenti per l’adesione sono descritti nel [Manuale Utente del Portale delle Adesioni](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/adesione/PdA_ManualeUtente_v2.2.4.pdf).  
 L’Ente creditore, esclusivamente tramite il Portale delle Adesioni, deve inviare ad AgID la lettera di adesione, sottoscritta digitalmente dal rappresentante legale dell’Ente e successivamente potrà ultimare la procedura sul Portale specificando le modalità tecniche di adesione che preferisce (vedi di seguito) e indicando anche gli eventuali Intermediari o Partner tecnologici.
 
+* Domande frequenti: [Gruppo C - Adesione degli Enti Creditori](https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneC.html)
+
 Gli Enti Creditori possono aderire al sistema pagoPA tramite le seguenti modalità:
 ## Modalità diretta 
 * l’Ente si fa formalmente carico in proprio di tutte le attività tecniche necessarie all’attivazione e al funzionamento;
@@ -24,3 +26,4 @@ Gli Enti Creditori possono aderire al sistema pagoPA tramite le seguenti modalit
 * il Referente Tecnico viene designato direttamente dall'Intermediario o Partner Tecnologico prescelto;
 * soggetti che intendono svolgere il ruolo di Intermediario o Partner tecnologico possono manifestare tale intento indirizzando una richiesta tramite PEC ad AgID all’indirizzo [protocollo@pec.agid.gov.it](protocollo@pec.agid.gov.it)
 * è possibile che l’AgID assegni un ulteriore Intermediario o Partner tecnologico in casi particolari previsti dalla legge, per la gestione di specifici servizi.
+
