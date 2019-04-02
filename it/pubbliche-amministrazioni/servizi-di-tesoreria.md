@@ -29,6 +29,4 @@ Rimane pertanto inalterata ogni facoltà in capo alla stazione appaltante di pre
 
 ### Documentazione
 
-* [Schema di convenzione per la gestione del servizio di tesoreria](https://www.agid.gov.it/sites/default/files/repository_files/schema_convenzione_tesoreria.zip)  
-Data 16/10/2018
-
+* [Schema di convenzione per la gestione del servizio di tesoreria](../schema_convenzione_tesoreria.zip)  
