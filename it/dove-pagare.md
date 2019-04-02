@@ -19,7 +19,7 @@ Per saperne di più: [Cos’è e come funziona pagoPA](/it/pagopa/)
 
 È possibile scaricare l’**elenco dei PSP** presso cui è possibile effettuare i pagamenti tramite pagoPA:
 
-* [Elenco dei canali degli operatori presso cui è possibile presentare un avviso di pagamento (CSV)](../../../data/pagopa-psp.csv)
-* [Elenco dei canali degli operatori presso cui è possibile presentare un avviso di pagamento (XSLX)](../../../data/pagopa-psp.xlsx)
+* [Elenco dei canali degli operatori presso cui è possibile presentare un avviso di pagamento (CSV)](../../data/pagopa-psp.csv)
+* [Elenco dei canali degli operatori presso cui è possibile presentare un avviso di pagamento (XSLX)](../../data/pagopa-psp.xlsx)
 
 
