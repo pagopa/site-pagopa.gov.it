@@ -22,5 +22,5 @@ Gli Enti Creditori possono aderire al sistema pagoPA tramite le seguenti modalit
 * l’Ente demanda le attività tecniche a Intermediari tecnologici, cioè a soggetti che aderiscono sia in qualità di beneficiario dei pagamenti, sia a supporto di altre pubbliche amministrazioni (es. Regione nei confronti di Province, Comuni e ASL del territorio);
 * l’Ente demanda le attività tecniche a Partner tecnologici, cioè a soggetti che forniscono esclusivamente servizi ICT alle PA, senza però essere aderenti al sistema;
 * il Referente Tecnico viene designato direttamente dall'Intermediario o Partner Tecnologico prescelto;
-* soggetti che intendono svolgere il ruolo di Intermediario o Partner tecnologico possono manifestare tale intento indirizzando una richiesta tramite PEC ad AgID all’indirizzo protocollo@pec.agid.gov.it
+* soggetti che intendono svolgere il ruolo di Intermediario o Partner tecnologico possono manifestare tale intento indirizzando una richiesta tramite PEC ad AgID all’indirizzo protocollo@pec.pagopa.gov.it
 * è possibile che l’AgID assegni un ulteriore Intermediario o Partner tecnologico in casi particolari previsti dalla legge, per la gestione di specifici servizi.
