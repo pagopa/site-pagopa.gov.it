@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Home
-description: Questo è un esempio di homepage con utilizzo del componente "hero"
+hero_title: Pagamenti semplici e sicuri per la Pubblica Amministrazione
+hero_description: pagoPA è la piattaforma digitale che consente ai cittadini di pagare in modo più naturale, veloce e moderno e che solleva le amministrazioni dai costi e dai ritardi dei metodi di incasso tradizionali.
 lang: it
 ref: homepage
 order: 1
