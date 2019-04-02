@@ -13,7 +13,7 @@ In questa pagina puoi consultare l’**elenco aggiornato di tutti i Prestatori d
 
 Per ciascun PSP puoi verificare i canali di pagamento disponibili (**sportello fisico**, **home banking**, **app mobile**, **phone banking**, **ATM**) sia per i correntisti che per i non correntisti.
 
-Per saperne di più: [Cos’è e come funziona pagoPA](/it/pagopa/)
+Per saperne di più: [Cos’è e come funziona pagoPA]({{ site.baseurl }}/it/pagopa/)
 
 ## Elenco dei PSP
 
