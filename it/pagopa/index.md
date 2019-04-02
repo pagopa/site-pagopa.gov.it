@@ -35,3 +35,12 @@ Le Pubbliche Amministrazioni e le società a controllo pubblico **aderiscono** a
 #### Perché le banche e i Prestatori di Servizi di Pagamento possono aderire
 I **Prestatori di Servizi di Pagamento (PSP)** aderiscono al sistema pagoPA su base volontaria **per erogare servizi di pagamento** ai propri clienti (cittadini e imprese) sia occasionali che abituali. Ogni PSP aderente decide quanti e quali servizi di pagamento rendere disponibili: carta di credito, addebito in conto, ecc.
 
+#### pagoPA, quadro normativo
+Il sistema pagoPA è stato realizzato dall’**Agenzia per l’Italia Digitale (AgID)** in attuazione dell'[art. 5 del Codice dell’Amministrazione Digitale](https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/_rst/capo1_sezione2_art5.html) e del [D.L. 179/2012](https://www.agid.gov.it/sites/default/files/repository_files/leggi_decreti_direttive/dl-18-ottobre-2012-n.179_0_0.pdf), come convertito in legge.
+
+#### Domande frequenti
+* [Glossario](https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/Glossario.html)
+* [Gruppo A - Carattere generale](https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneB.html)
+* [Gruppo B - Ambito normativo](https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneB.html)
+
+
