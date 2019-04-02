@@ -10,5 +10,5 @@ child_of_ref: prestatori-servizi-di-pagamento
 
 È possibile scaricare l’elenco dei Prestatori di Servizi di Pagamento (PSP):
 
-* [Elenco dei canali degli operatori presso cui è possibile presentare un avviso di pagamento (CSV)](https://www.agid.gov.it/sites/default/files/pagamenti_amministrazione/pagopa-psp.csv)
-* [Elenco dei canali degli operatori presso cui è possibile presentare un avviso di pagamento (XSLX)](https://www.agid.gov.it/sites/default/files/pagamenti_amministrazione/pagopa-psp.xlsx)
+* [Elenco dei canali degli operatori presso cui è possibile presentare un avviso di pagamento (CSV)](../../../data/pagopa-psp.csv)
+* [Elenco dei canali degli operatori presso cui è possibile presentare un avviso di pagamento (XSLX)](../../../data/pagopa-psp.xlsx)
