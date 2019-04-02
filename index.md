@@ -31,17 +31,33 @@ order: 1
 <div class="col-12">
   <div class="section section-muted">
     <div class="section-content">
-      <!-- contenuto di esempio START -->
-      <h4 class="mb-4">Morbi fermentum amet</h4>
       <div class="card-deck">
         <div class="card shadow border-0 mg-md-4">
+          <div class="card-header">
+            Pubbliche Amministrazioni
+          </div>
           <div class="card-body">
-            <p class="card-text">Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus. Eget egestas purus viverra accumsan. Diam maecenas ultricies mi eget mauris pharetra et. </p>
+            <p class="card-text"><b>Tutte le Pubbliche Amministrazioni devono aderire al nuovo sistema per legge</b>, e possono integrarsi sia in modalità diretta che in modalità indiretta per mezzo di intermediari tecnologici.</p>
+            <a class="read-more" href="/it/pubbliche-amministrazioni">
+              <span class="text">Leggi di più</span>
+              <svg class="icon">
+                <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
+              </svg>
+            </a>
           </div>
         </div>
         <div class="card shadow border-0 mg-md-4">
+          <div class="card-header">
+            Prestatori Servizi di Pagamento
+          </div>
           <div class="card-body">
-            <p class="card-text">Etiam dignissim diam quis enim. Eu nisl nunc mi ipsum faucibus. Euismod lacinia at quis risus sed vulputate. Scelerisque purus semper eget duis at tellus at urna condimentum. Mattis enim ut tellus elementum sagittis.</p>
+            <p class="card-text">I Prestatori di Servizi di Pagamento (PSP) come <b>le banche, le poste, gli istituti di pagamento e ogni altro soggetto abilitato ad eseguire servizi di pagamento</b>, aderiscono su base volontaria al sistema pagoPA, per erogare i propri servizi di pagamento a cittadini e imprese attraverso il nodo di pagoPA.</p>
+            <a class="read-more" href="/it/prestatori-servizi-di-pagamento">
+              <span class="text">Leggi di più</span>
+              <svg class="icon">
+                <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
+              </svg>
+            </a>
           </div>
         </div>
       </div>
