@@ -36,6 +36,6 @@ Le Pubbliche Amministrazioni e le società a controllo pubblico **aderiscono** a
 I **Prestatori di Servizi di Pagamento (PSP)** aderiscono al sistema pagoPA su base volontaria **per erogare servizi di pagamento** ai propri clienti (cittadini e imprese) sia occasionali che abituali. Ogni PSP aderente decide quanti e quali servizi di pagamento rendere disponibili: carta di credito, addebito in conto, ecc.
 
 #### pagoPA, quadro normativo
-Il sistema pagoPA è stato realizzato dall’**Agenzia per l’Italia Digitale (AgID)** in attuazione dell'art. 5 del Codice dell’Amministrazione Digitale e del D.L. 179/2012, come convertito in legge.
+Il sistema pagoPA è stato realizzato dall’**Agenzia per l’Italia Digitale (AgID)** in attuazione dell'[art. 5 del Codice dell’Amministrazione Digitale](https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/_rst/capo1_sezione2_art5.html) e del [D.L. 179/2012](https://www.agid.gov.it/sites/default/files/repository_files/leggi_decreti_direttive/dl-18-ottobre-2012-n.179_0_0.pdf), come convertito in legge.
 
 
