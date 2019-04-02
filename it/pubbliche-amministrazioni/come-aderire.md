@@ -26,7 +26,7 @@ Gli Enti Creditori possono aderire al sistema pagoPA tramite le seguenti modalit
 * è possibile che l’AgID assegni un ulteriore Intermediario o Partner tecnologico in casi particolari previsti dalla legge, per la gestione di specifici servizi.  
 
 
-## Domande frequenti:  
+## Domande frequenti 
 [Gruppo C - Adesione degli Enti Creditori](https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneC.html)
 
 
