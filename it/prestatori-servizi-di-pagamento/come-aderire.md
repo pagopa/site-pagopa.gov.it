@@ -17,3 +17,6 @@ Per formalizzare l’adesione, i PSP o soggetti che vogliano erogare servizi ai 
 * [Accordo di servizio per PSP anche intermediario tecnologico](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/psp/accordo_di_servizio_psp_intermediario_2018_11_06_modulo.pdf), nel caso in cui Il PSP voglia aderire al Nodo dei Pagamenti-SPC svolgendo anche l'attività di intermediazione per altri soggetti;
 * [Accordo di servizio per solo intermediario tecnologico](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/psp/accordo_di_servizio_solo_intermediario.pdf), nel caso in cui un soggetto non PSP voglia aderire al Nodo dei Pagamenti-SPC svolgendo la sola attività di intermediazione per PSP.
 
+## Domande frequenti 
+[Gruppo D - Adesione dei Prestatori dei Servizi di Pagamento](https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneD.html)
+
