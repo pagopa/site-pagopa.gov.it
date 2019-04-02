@@ -3,6 +3,8 @@
 #
 environment: "production"
 
+name: "pagoPA"
+
 #
 # Flags below are optional
 #
