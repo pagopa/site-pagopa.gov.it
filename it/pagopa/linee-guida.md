@@ -24,8 +24,7 @@ Le Linee guida sono corredate da **due allegati tecnici**:
 * [Allegato tecnico Pagamento della Tassa Automobilistica presso i PSP (PDF e XSD)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/documentazione_collegata/bollo_auto_mod_4_0.zip)
 
 ## Materiale per sviluppatori (*)
-* [WSDL versione 2.1.3 (ZIP)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/materiale_sviluppatori/wsdl_2.1.3.zip)
-* [Schema XSD versione 2.1.4 (ZIP)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/materiale_sviluppatori/xsd_2.1.4.zip)
+* [Schemi XSD e WSDL](https://github.com/italia/pagopa-specifichepagamenti-schemi)
 * [SDK Android pagoPA (Beta version)](https://github.com/italia/pagopa-android-example)
 * [SDK iOS pagoPA (Beta version)](https://github.com/italia/pagopa-ios-example)
 * [Controlli applicativi del sistema pagoPA Versione 1.0 - febbraio 2018 (PDF)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/materiale_sviluppatori/elenco_controlli_nodo_2_1_new.pdf)
