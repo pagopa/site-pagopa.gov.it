@@ -55,16 +55,10 @@ footer-links:
     privacy-policy:
       name: "Privacy policy"
       url: "/en/privacy-policy"
-    cookie-policy:
-      name: "Cookie Policy"
-      url: "/en/cookie-policy"
   it:
     privacy-policy:
       name: "Privacy policy"
-      url: "/privacy-policy"
-    cookie-policy:
-      name: "Cookie Policy"
-      url: "/cookie-policy"
+      url: "/it/privacy-policy"
 newsletter:
   it:
     title: "Iscriviti alla newsletter"
