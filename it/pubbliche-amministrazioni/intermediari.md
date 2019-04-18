@@ -8,7 +8,8 @@ order: 43
 child_of_ref: pubbliche-amministrazioni
 ---
 
-Di seguito l'elenco degli **Intermediari** e dei **Partner tecnologici** scelti dagli Enti creditori che, alla data di pubblicazione, risultano attivi su pagoPA.  
+Di seguito l'elenco degli **Intermediari** e dei **Partner tecnologici** scelti dagli Enti creditori che, alla data di pubblicazione, risultano attivi su pagoPA*.  
 * [Elenco degli intermediari attivi su pagoPA (CSV)](../../../data/pagopa-intermediari.csv)
 * [Elenco degli intermediari attivi su pagoPA (XSLX)](../../../data/pagopa-intermediari.xlsx)
 
+*Dati aggiornati al 10 aprile 2019
