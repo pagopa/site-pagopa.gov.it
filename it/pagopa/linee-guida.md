@@ -23,6 +23,12 @@ Le Linee guida sono corredate da **due allegati tecnici**:
 * [Allegato tecnico Agenzia delle entrate-Riscossione per integrazione su pagoPA di bollettini RAV per pagamento presso PSP (PDF)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/documentazione_collegata/agengiaentraterisc_rav_psp.pdf)
 * [Allegato tecnico Pagamento della Tassa Automobilistica presso i PSP (PDF e XSD)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/documentazione_collegata/bollo_auto_mod_4_0.zip)
 
+## Regolamento logo
+* [Regolamento inerente l’uso del marchio collettivo registrato “pagoPA" (PDF)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/regolamento_logo/regolamento_uso_marchio_pagopa_2018_0_0.pdf)
+* [Allegato A al "Regolamento inerente l’uso del marchio collettivo registrato “pagoPA" (PDF)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/regolamento_logo/all_a_brandguidelines_0_0.pdf)
+* [Allegato B al "Regolamento inerente l’uso del marchio collettivo registrato “pagoPA" (PDF)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/regolamento_logo/brandguidelines_v_2_1.pdf)
+* [Richiesta di concessione del Marchio pagoPA per partner tecnologico](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/regolamento_logo/richiesta_concessione_in_uso_marchio_pagopa_per_partner_tecnologico.pdf)
+
 ## Materiale per sviluppatori (*)
 * [Schemi XSD e WSDL](https://github.com/italia/pagopa-specifichepagamenti-schemi)
 * [SDK Android pagoPA (Beta version)](https://github.com/italia/pagopa-android-example)
