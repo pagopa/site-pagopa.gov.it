@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Prestatori servizi di pagamento
+title: Prestatori Servizi di Pagamento
 description: 
 lang: it
 ref: prestatori-servizi-di-pagamento
