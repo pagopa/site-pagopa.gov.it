@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cos’è PagoPA
+title: Cos’è pagoPA
 description: 
 lang: it
 ref: cos-e-pago-pa
