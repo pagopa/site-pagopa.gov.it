@@ -11,3 +11,6 @@ it:
     date: Giugno 2018
   - title: "Rilascio WISP 2.0 per tutte le Pubbliche Amministrazioni"
     date: Gennaio 2019
+  - title: "Rilascio nuova architettura"
+    date: Giugno 2019
+    todo: true
