@@ -8,9 +8,8 @@ order: 43
 child_of_ref: pubbliche-amministrazioni
 ---
 
-## Come gestire i servizi di tesoreria
+## Schema di convenzione per la gestione del servizio di tesoreria
 
-Schema di convenzione per la gestione del servizio di tesoreria.  
 Le pubbliche amministrazioni, inclusi gli enti locali, le istituzioni scolastiche, le Regioni e le AUSL, all’interno del più ampio processo di digitalizzazione, sono chiamate ad implementare il Sistema pagoPA, ossia la piattaforma per la gestione delle operazioni di incasso in modalità elettronica, e il SIOPE+, ossia la nuova infrastruttura che intermedierà il colloquio tra le pubbliche amministrazioni e le banche tesoriere al fine di migliorare la qualità dei dati per il monitoraggio della spesa pubblica.  
 Ancorché il tesoriere/cassiere dell’ente è certamente coinvolto nell’implementazione del SIOPE+ e non anche nell’attività di adesione a pagoPA (cfr. FAQ C4 pubblicata sul sito AgID al tag “pagoPA”), alcune amministrazioni, nel rispetto dei principi di affidamento pubblico, posso anche affidare l’attività di interconnessione al sistema pagoPA allo stesso soggetto a cui hanno affidato il servizio di tesoreria e cassa.  
 Per le motivazioni appena esposte, l’AgID, con il supporto tecnico dell’ABI-Associazione Bancaria Italiana e di Poste Italiane s.p.a., ha colto l’occasione per redigere uno [schema di convenzione per la gestione del servizio di tesoreria](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/tesoreria/schema_convenzione_tesoreria.zip). Nell’elaborazione del nuovo documento, l’Agenzia ha tenuto conto di una serie di elementi tratti dallo schema di convenzione predisposto nel 2001, frutto della collaborazione tra Anci ed ABI e positivamente accolto dai competenti Ministeri.  
