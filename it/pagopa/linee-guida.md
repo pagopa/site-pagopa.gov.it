@@ -14,6 +14,7 @@ Le Linee guida sono corredate da **due allegati tecnici**:
 * [Allegato A - Specifiche Attuative dei Codici Identificativi di versamento, riversamento e rendicontazione (versione corrente)](https://docs.italia.it/italia/pagopa/pagopa-codici-docs/it/stabile/)
 * [Allegato A – Specifiche Attuative dei Codici Indentificativi di versamento, riversamento e rendicontazione (versione corrente PDF)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/allegati_tecnici_linee_guida/Specifiche_Attuative_Pagamenti_1_3_1.pdf)
 * [Allegato B - Specifiche Attuative del Nodo dei Pagamenti-SPC (versione corrente)](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/stabile/)
+* [Allegato B – Specifiche Attuative del Nodo dei Pagamenti-SPC (versione corrente PDF)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/allegati_tecnici_linee_guida/SANP_2.2.2_DocumentoCompleto.pdf)
 
 ## Documentazione tecnica collegata
 * [Il nuovo avviso di pagamento analogico nel sistema pagoPA Versione 2.2.1 - Dicembre 2018 (PDF)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/documentazione_collegata/guidatecnica_avvisoanalogico_v2.2.1_con_alleg.pdf): la guida tecnica che definisce il nuovo avviso di pagamento che sostituisce la versione 1.2.2. I soggetti aderenti dovranno obbligatoriamente adottarlo entro il 1° dicembre 2018
