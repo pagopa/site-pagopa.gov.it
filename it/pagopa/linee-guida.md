@@ -12,6 +12,7 @@ Le <a href="https://docs.italia.it/italia/pagopa/lg-pagopa-docs/it/stabile/" tar
 
 Le Linee guida sono corredate da **due allegati tecnici**:
 * [Allegato A - Specifiche Attuative dei Codici Identificativi di versamento, riversamento e rendicontazione (versione corrente)](https://docs.italia.it/italia/pagopa/pagopa-codici-docs/it/stabile/)
+* [Allegato A – Specifiche Attuative dei Codici Indentificativi di versamento, riversamento e rendicontazione (versione corrente PDF)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/allegati_tecnici_linee_guida/Specifiche_Attuative_Pagamenti_1_3_1.pdf)
 * [Allegato B - Specifiche Attuative del Nodo dei Pagamenti-SPC (versione corrente)](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/stabile/)
 
 ## Documentazione tecnica collegata
