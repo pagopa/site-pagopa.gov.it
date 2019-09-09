@@ -11,7 +11,7 @@ name: "pagoPA"
 
 # Prevent site from being indexed by search engines
 # Leave empty to publish the website
-noindex: true
+noindex:
 
 # Enter your mailup newsletter ID
 mailup_campaign: a0x0b4
