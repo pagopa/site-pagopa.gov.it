@@ -7,6 +7,9 @@ sprite-url: /assets/bootstrap-italia/dist/svg/sprite.svg
 ## Social Card [1200x630]
 social-card: /assets/images/favicons/social-card.png
 
+## Social Card square [630x630]
+social-card-square: /assets/images/favicons/social-card-square.png
+
 ## Site name
 name:
   en: ""
@@ -88,4 +91,4 @@ CollapseBtnHide:
 JobApply:
   en: "Apply for this position"
   it: "Invia il CV per questa posizione"
-  
+
