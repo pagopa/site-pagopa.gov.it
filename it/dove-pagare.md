@@ -4,6 +4,7 @@ title: Dove pagare
 description: 
 lang: it
 ref: dove-pagare
+child_of_ref: cos-e-pago-pa
 order: 3
 ---
 

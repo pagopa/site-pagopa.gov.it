@@ -3,8 +3,8 @@ layout: page
 title: Vantaggi
 description: 
 lang: it
-ref: cos-e-pago-pa-vantaggi
-order: 21
+ref: vantaggi
+order: 24
 child_of_ref: cos-e-pago-pa
 ---
 

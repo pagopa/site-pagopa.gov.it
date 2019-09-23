@@ -3,8 +3,8 @@ layout: page
 title: Linee guida
 description: 
 lang: it
-ref: cos-e-pago-pa-linee-guida
-order: 21
+ref: linee-guida
+order: 22
 child_of_ref: cos-e-pago-pa
 ---
 
