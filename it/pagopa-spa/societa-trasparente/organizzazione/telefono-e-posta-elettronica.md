@@ -8,4 +8,5 @@ order: 2
 child_of_ref: organizzazione
 ---
 
+* E-mail: [info@pagopa.it](mailto:info@pagopa.it)
 * PEC: [pagopa@pec.governo.it](mailto:pagopa@pec.governo.it)
