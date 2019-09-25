@@ -17,7 +17,7 @@ order: 1
             {% include pages/home/home-video.html %}
         </div>
     </div>
-    <div class="row">
+    <div class="row" id="newsletter">
             <div class="col-12 col-lg-8 offset-lg-2">
                 {% include pages/home/home-newsletter-box.html %}
             </div>
