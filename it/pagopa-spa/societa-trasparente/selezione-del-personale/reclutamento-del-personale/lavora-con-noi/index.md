@@ -26,8 +26,6 @@ Se hai il profilo giusto e credi come me che l’Italia diventerà un Paese inno
 ## Posizioni aperte
 {: .mt-4}
 
-Posizioni aperte fino al 27 settembre 2019, salvo estensione.
-
 <dl class="row">
   <dt class="col-sm-3">Durata</dt>
   <dd class="col-sm-9">Tempo indeterminato</dd>
@@ -39,11 +37,11 @@ Posizioni aperte fino al 27 settembre 2019, salvo estensione.
   <dd class="col-sm-9">Roma</dd>
 </dl>
 
+Posizioni aperte fino al 4 ottobre 2019, salvo estensione.
+
 {% include jobs_list.html %}
 
-{% comment %}
 ## Posizioni chiuse
 {: .mt-4}
 
 {% include jobs_list_archive.html %}
-{% endcomment %}
