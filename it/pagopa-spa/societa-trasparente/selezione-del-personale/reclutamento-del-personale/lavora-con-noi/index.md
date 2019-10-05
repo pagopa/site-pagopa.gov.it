@@ -26,6 +26,13 @@ Se hai il profilo giusto e credi come me che l’Italia diventerà un Paese inno
 ## Posizioni aperte
 {: .mt-4}
 
+{% assign jobs_pages = site.pages | where: "lang", page.lang | where: "layout", "job" | sort: "title" %}
+{% assign open_jobs_pages = jobs_pages | where_exp: "item", "item.archived == nil" %}
+{% assign closed_jobs_pages = jobs_pages | where: "archived", true %}
+
+{% if open_jobs_pages.size == 0 %}
+In questo momento non ci sono posizioni aperte. Tieni d’occhio questo sito perché nelle prossime settimane apriremo nuove posizioni.
+{% else %}
 <dl class="row">
   <dt class="col-sm-3">Durata</dt>
   <dd class="col-sm-9">Tempo indeterminato</dd>
@@ -39,9 +46,35 @@ Se hai il profilo giusto e credi come me che l’Italia diventerà un Paese inno
 
 Posizioni aperte fino al 4 ottobre 2019, salvo estensione.
 
-{% include jobs_list.html %}
+<div class="jobpositions">
+{% for one_page in open_jobs_pages %}
+    <hr>
+    <div>
+    <a href="{{ one_page.url }}" title="{{ one_page.title }}"><b>{{ one_page.title }}</b></a>
+    {% if one_page.is_new %}
+        <span style="font-size:12px;">&nbsp;New</span>
+    {% endif %}
+    </div>
+{% endfor %}
+</div>
+{% endif %}
 
+{% if closed_jobs_pages.size > 0 %}
 ## Posizioni chiuse
 {: .mt-4}
 
-{% include jobs_list_archive.html %}
+<a class="btn btn-primary btn-sm" role="button" data-toggle="collapse" href="#jobsarchive" aria-expanded="false"
+  aria-controls="jobsarchive" id="jobsarchive-collapse">
+  <span class="seeall">{{ site.data.t.CollapseBtnSee[page.lang] }}</span>
+  <span class="hideall">{{ site.data.t.CollapseBtnHide[page.lang] }}</span>
+</a>
+<div class="jobpositions archived collapse" id="jobsarchive">
+  {% for one_page in closed_jobs_pages %}
+  <div>
+    <a href="{{ one_page.url }}" title="{{ one_page.title }}"><b>{{ one_page.title }}</b></a> <span
+      style="font-size:12px;">&nbsp;Closed</span>
+  </div>
+  <hr>
+  {% endfor %}
+</div>
+{% endif %}

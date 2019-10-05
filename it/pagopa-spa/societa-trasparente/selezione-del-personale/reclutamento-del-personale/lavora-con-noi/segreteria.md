@@ -8,7 +8,8 @@ child_of_ref: lavora-con-noi
 jazz_url: 
 pec_cv: true
 iframeheight: 700
-is_new: true
+is_new: false
+archived: true
 ---
 
 ### Descrizione e responsabilità
