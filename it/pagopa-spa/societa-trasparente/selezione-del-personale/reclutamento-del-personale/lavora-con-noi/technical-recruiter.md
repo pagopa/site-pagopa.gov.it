@@ -11,13 +11,15 @@ iframeheight: 2200
 is_new: true
 ---
 
-In PagoPA vogliamo avere un processo di selezione delle risorse tecniche che sia trasparente e rigoroso, per coinvolgere i candidati migliori e valorizzare opportunamente tutti i talenti che si propongono a noi.
-
 Stiamo cercando persone dotate di passione, grinta e integrità, che condividano la nostra missione.
 
 Diamo molto valore alla diversità di vedute, al confronto e al lavoro di squadra. Cerchiamo persone attente ai dettagli, che pensano in modo rigoroso, che non hanno paura di innovare e che amano comunicare in modo semplice ed efficace sia in Italiano che in Inglese.
 
 Entra a far parte della nostra squadra!
+
+### Ruolo
+
+In PagoPA vogliamo avere un processo di selezione delle risorse tecniche che sia trasparente e rigoroso, per coinvolgere i candidati migliori e valorizzare opportunamente tutti i talenti che si propongono a noi.
 
 ### Attività Principali
 
@@ -29,11 +31,11 @@ Entra a far parte della nostra squadra!
 * Concentrarsi sulla creazione di piani strategici per l'approvvigionamento di candidati con background diversi per ciascuno dei tuoi ruoli
 * Lavorare a stretto contatto con i nostri team e le risorse umane per gestire anche il processo di onboarding dei candidati e la loro piena operatività
 
-### Esperienze essenziali 
+### Esperienze Richieste
 
 * Hai avuto modo di fare technical recruiting in un ambiente in forte crescita, come una startup
 * Hai valutato CV tecnici con la capacità di fare una prima valutazione e screening
 
-### Formazione
+### Formazione Richiesta
 
 Laurea con almeno 2 anni di esperienza nel ruolo di technical recruiter per un’azienda di sviluppo software o prodotti digitali.
