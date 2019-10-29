@@ -8,7 +8,7 @@ ref: privacy-policy
 
 ## **Informativa sul trattamento dei dati personali**
 
-La presente informativa descrive le modalità del trattamento dei dati personali degli utenti (di seguito, anche gli “Utenti”) che consultano il sito [https://www.pagopa.gov.it/](https://www.pagopa.gov.it/) (di seguito, anche “Sito”).
+La presente informativa descrive le modalità del trattamento dei dati personali degli utenti (di seguito, anche gli “Utenti”) che consultano il sito [https://www.pagopa.gov.it/](https://www.pagopa.gov.it/) (di seguito, anche “Sito”), ivi inclusi gli Utenti che ci inviano le loro candidature per lavorare con noi ed eventualmente prendono parte a un processo di selezione.
 
 L’informativa è resa ai sensi dell’art. 13 del regolamento (UE) 2016/679 (di seguito il “Regolamento”).
 
@@ -64,9 +64,11 @@ Il Sito utilizza:
 
 ## **Base giuridica del trattamento**
 
-La base giuridica di tale trattamento è da rinvenirsi nei compiti istituzionali affidati al titolare, che includono quello di fornire informazioni e aggiornamenti sull’attività e sui progetti della società.
+La base giuridica di tale trattamento è da rinvenirsi nei compiti istituzionali affidati al titolare, che includono quello di fornire informazioni e aggiornamenti sull’attività e sui progetti della società, ai sensi dell’art. 6, comma 1 lett. e) del Regolamento.
 
-La base giuridica del trattamento dei soli dati raccolti tramite cookies analitici è il consenso dell’Utente.
+La base giuridica del trattamento dei dati di chi si candida per posizioni aperte ed eventualmente prende parte al processo di selezione è la necessità di dare esecuzione ad attività pre- contrattuali e di selezione del personale, ai sensi dell’art. 6, comma 1, lett. b) del Regolamento.  
+
+La base giuridica del trattamento dei soli dati raccolti tramite cookies analitici è il consenso dell’Utente, ai sensi dell’art. 6, comma 1, lett. a) del Regolamento.
 
 
 ## **Categorie di soggetti ai quali i dati personali possono essere comunicati e finalità della comunicazione**
