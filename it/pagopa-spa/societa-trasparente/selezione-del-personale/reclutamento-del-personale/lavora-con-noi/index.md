@@ -41,7 +41,7 @@ In questo momento non ci sono posizioni aperte. Tieni d’occhio questo sito per
   <dd class="col-sm-9">Contratto nazionale di lavoro commercio, servizi e terziario</dd>
 
   <dt class="col-sm-3">Luogo di lavoro</dt>
-  <dd class="col-sm-9">Roma, Milano</dd>
+  <dd class="col-sm-9">Roma, Milano, remote working</dd>
 </dl>
 
 <div class="jobpositions">
