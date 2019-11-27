@@ -1,77 +1,78 @@
-"Denominazione";"Codice Fiscale";"Numero Enti Attivi"
-"Ministero dell'Istruzione, dell'Universita' e della Ricerca";"80185250588";"8552"
-"Unione Italiana delle Camere di Commercio Industria, Artigianato e Agricoltura";"01484460587";"1069"
-"Poste Italiane S.P.A.";"97103880585";"779"
-"E-Fil S.r.l.";"03789750100";"543"
-"Regione Lombardia";"80050050154";"471"
-"Regione del Veneto";"80007580279";"418"
-"Maggioli SPA";"06188330150";"405"
-"CREDEMTEL SpA";"01378570350";"405"
-"Lepida Spa";"02770891204";"373"
-"Banca Popolare di Sondrio, Societ‡ Cooperativa per Azioni";"00053810149";"339"
-"Provincia Autonoma di Trento";"00337460224";"334"
-"Dedagroup Public Services S.R.L.";"01727860221";"242"
-"Progetti e Soluzioni SPA";"06423240727";"188"
-"Alto Adige Riscossioni Spa";"02805390214";"181"
-"APKAPPA S.R.L.";"08543640158";"175"
-"P.A. Digitale spa";"06628860964";"161"
-"Regione Piemonte";"80087670016";"160"
-"Regione Marche";"80008630420";"157"
-"Advanced Systems S.p.A.";"03383350638";"149"
-"Regione Autonoma della Sardegna";"80002870923";"129"
-"Regione Puglia";"80017210727";"122"
-"Regione Basilicata";"80002950766";"106"
-"Regione Toscana";"01386030488";"104"
-"ANCITEL";"07196850585";"90"
-"Next Step Solution";"02554480349";"89"
-"Regione Autonoma Friuli-Venezia Giulia";"80014930327";"85"
-"PMPay s.r.l.";"08747230962";"67"
-"Intesa Sanpaolo SPA";"00799960158";"64"
-"Siscom SPA";"01778000040";"62"
-"ROMA CAPITALE";"02438750586";"58"
-"NORDCOM";"13384100155";"56"
-"Regione Umbria";"80000130544";"52"
-"Bluenext S.r.l.";"04228480408";"50"
-"Italriscossioni Societ‡ Italiana di Fiscalit‡ Locale S.r.l.";"06092371001";"48"
-"Regione Autonoma Valle D'Aosta";"80002270074";"48"
-"CINECA consorzio universitario";"00317740371";"43"
-"Consorzio I.T. Srl";"01321400192";"40"
-"UNIMATICA S.P.A";"02098391200";"39"
-"SI.net Servizi Informatici S.r.L.";"02743730125";"36"
-"Unicredit, Societa' per Azioni";"00348170101";"33"
-"DCS SOFTWARE E SERVIZI S.R.L.";"08063140019";"28"
-"Regione Liguria";"00849050109";"26"
-"Novares Spa";"12105121003";"23"
-"Numera Sistemi e Informatica SpA";"01265230902";"21"
-"Nexi SpA";"13212880150";"18"
-"Citta' Metropolitana di Roma Capitale";"80034390585";"18"
-"Regione Lazio";"80143490581";"18"
-"ANDREANI TRIBUTI srl";"01412920439";"18"
-"Comune di Palermo";"80016350821";"17"
-"Servizi Locali SpA";"03170580751";"15"
-"Si.Form Consulting srl";"03943960827";"13"
-"CrÈdit Agricole Group Solutions Societ‡ Consortile per azioni";"02771790348";"12"
-"Aric Agenzia Regionale di Informatica e Committenza";"91022630676";"10"
-"UBI Banca";"03053920165";"8"
-"Be Smart s.r.l.";"05817461006";"7"
-"ARCA Servizi s.r.l";"09106071005";"7"
-"Comune di Catania";"00137020871";"7"
-"Linea Comune Spa";"05591950489";"3"
-"Phoenix IT Solutions S.r.L";"07623321218";"3"
-"e-SED Societ‡ Cooperativa";"02695640421";"3"
-"CityPoste Payment Digital S.r.l.";"02003750672";"3"
-"Argentea S.r.l.";"02260390220";"3"
-"ISWEB S.p.A.";"01722270665";"3"
-"ICCREA Banca SpA";"04774801007";"2"
-"Ministero dello Sviluppo Economico";"80230390587";"1"
-"BANCA MONTE DEI PASCHI DI SIENA";"00884060526";"1"
-"Softline srl";"12299030150";"1"
-"Banco BPM Societ‡ per Azioni";"09722490969";"1"
-"I.C.A. - Imposte Comunali Affini ñ s.r.l.";"02478610583";"1"
-"ARGO SOFTWARE SRL";"00838520880";"1"
-"Engineering Ingegneria Informatica SpA";"00967720285";"1"
-"San Marco SPA";"04142440728";"1"
-"Noviservice srl";"02789990922";"1"
-"Agenzia Italiana del Farmaco - AIFA";"97345810580";"1"
-"MegASP S.r.l.";"09898030151";"1"
-"Societ‡ Almaviva S.p.A.";"08450891000";"1"
+Denominazione;CodiceFiscale;NumeroEntiAttivi
+Ministero dell'Istruzione, dell'Universita' e della Ricerca;80185250588;8599
+Unione Italiana delle Camere di Commercio Industria, Artigianato e Agricoltura;01484460587;1074
+Poste Italiane S.P.A.;97103880585;796
+E-Fil S.r.l.;03789750100;566
+Regione Lombardia;80050050154;493
+Maggioli SPA;06188330150;425
+Regione del Veneto;80007580279;417
+CREDEMTEL SpA;01378570350;410
+Lepida Spa;02770891204;375
+Banca Popolare di Sondrio, Societ√† Cooperativa per Azioni;00053810149;344
+Provincia Autonoma di Trento;00337460224;336
+Dedagroup Public Services S.R.L.;01727860221;245
+APKAPPA S.R.L.;08543640158;215
+Regione Piemonte;80087670016;194
+Progetti e Soluzioni SPA;06423240727;194
+Alto Adige Riscossioni Spa;02805390214;182
+Regione Marche;80008630420;166
+P.A. Digitale spa;06628860964;165
+Advanced Systems S.p.A.;03383350638;154
+Regione Autonoma della Sardegna;80002870923;129
+Regione Puglia;80017210727;123
+Regione Basilicata;80002950766;106
+Regione Toscana;01386030488;105
+Next Step Solution;02554480349;101
+Regione Autonoma Friuli-Venezia Giulia;80014930327;92
+ANCITEL;07196850585;86
+Siscom SPA;01778000040;78
+PMPay s.r.l.;08747230962;73
+Regione Autonoma Valle D'Aosta;80002270074;68
+Intesa Sanpaolo SPA;00799960158;66
+ROMA CAPITALE;02438750586;59
+NORDCOM;13384100155;56
+Regione Umbria;80000130544;52
+Italriscossioni Societ√† Italiana di Fiscalit√† Locale S.r.l.;06092371001;49
+Bluenext S.r.l.;04228480408;46
+CINECA consorzio universitario;00317740371;44
+DCS SOFTWARE E SERVIZI S.R.L.;08063140019;41
+Consorzio I.T. Srl;01321400192;40
+UNIMATICA S.P.A;02098391200;40
+SI.net Servizi Informatici S.r.L.;02743730125;36
+Unicredit, Societa' per Azioni;00348170101;33
+Regione Liguria;00849050109;26
+Numera Sistemi e Informatica SpA;01265230902;25
+Novares Spa;12105121003;24
+Citta' Metropolitana di Roma Capitale;80034390585;19
+Regione Lazio;80143490581;18
+ANDREANI TRIBUTI srl;01412920439;18
+Nexi SpA;13212880150;18
+Comune di Palermo;80016350821;17
+Servizi Locali SpA;03170580751;15
+Si.Form Consulting srl;03943960827;14
+Cr√©dit Agricole Group Solutions Societ√† Consortile per azioni;02771790348;12
+Aric Agenzia Regionale di Informatica e Committenza;91022630676;10
+Comune di Catania;00137020871;8
+UBI Banca;03053920165;8
+ARCA Servizi s.r.l;09106071005;7
+Be Smart s.r.l.;05817461006;7
+Phoenix IT Solutions S.r.L;07623321218;4
+CityPoste Payment Digital S.r.l.;02003750672;4
+Linea Comune Spa;05591950489;3
+ISWEB S.p.A.;01722270665;3
+Argentea S.r.l.;02260390220;3
+e-SED Societ√† Cooperativa;02695640421;3
+ICCREA Banca SpA;04774801007;2
+Banco BPM Societ√† per Azioni;09722490969;1
+Ministero dello Sviluppo Economico;80230390587;1
+Agenzia Italiana del Farmaco - AIFA;97345810580;1
+Noviservice srl;02789990922;1
+Banca Nazionale del Lavoro S.p.A.;09339391006;1
+ARGO SOFTWARE SRL;00838520880;1
+Softline srl;12299030150;1
+MegASP S.r.l.;09898030151;1
+Engineering Ingegneria Informatica SpA;00967720285;1
+I.C.A. - Imposte Comunali Affini ‚Äì s.r.l.;02478610583;1
+San Marco SPA;04142440728;1
+BANCA MONTE DEI PASCHI DI SIENA;00884060526;1
+Societ√† Almaviva S.p.A.;08450891000;1
