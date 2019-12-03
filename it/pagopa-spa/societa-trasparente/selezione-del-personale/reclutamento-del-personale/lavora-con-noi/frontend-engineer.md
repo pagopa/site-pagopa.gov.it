@@ -26,10 +26,10 @@ Siamo alla ricerca di professionisti attenti ai dettagli e aperti a confrontarsi
 
 * Contribuire alla realizzazione, alla manutenzione e all'ottimizzazione delle interfacce frontend di PagoPA SpA, dei siti di prodotto come IO.italia.it e dei tool interni ed esterni.
 * Creare interfacce e dashboard dinamiche che presentino dati in tempo reale attraverso l'uso di API.
-* Ottimizzare le interfacce per la fruizione da desktop e da dispositivi mobili.
-* Collaborare con i team di prodotto e di design per progettare e sviluppare nuove funzionalità ad uso interno ed esterno
-* Collaborare con altri team per progettare e sviluppare funzionalità complesse
-* Seguire alti standard ingegneristici e contribuire a garantire l’alta qualità del codice su tutti i progetti in cui andrai a lavorare
+* Ottimizzare le interfacce per la fruizione da ogni tipo di dispositivo e browser supportati.
+* Collaborare con i team di prodotto e di design per progettare e sviluppare nuove funzionalità ad uso interno ed esterno.
+* Collaborare con altri team per progettare e sviluppare funzionalità complesse, nel rispetto delle indicazioni e degli standard web.
+* Seguire alti standard ingegneristici e contribuire a garantire l’alta qualità del codice su tutti i progetti in cui andrai a lavorare.
 
 ### Esperienze Richieste
 
@@ -37,7 +37,8 @@ Siamo alla ricerca di professionisti attenti ai dettagli e aperti a confrontarsi
 * Realizzazione di siti web tramite strumenti di generazione statica come Jekyll, Hugo o Gatsby.
 * Abilità nel trasformare in breve tempo le richieste degli stakeholder in soluzioni efficienti e ad alto impatto.
 * Seguire alti standard di performance, accessibilità e qualità dell'esperienza utente.
-* Altissima attenzione ai dettagli mella scrittura del codice e dei contenuti.
+* Conoscenza degli standard web, delle web API, di limiti e possibilità dei browser.
+* Forte sensibilità di web design, con altissima attenzione ai dettagli nella scrittura del codice e dei contenuti.
 
 ### Formazione Richiesta
 
