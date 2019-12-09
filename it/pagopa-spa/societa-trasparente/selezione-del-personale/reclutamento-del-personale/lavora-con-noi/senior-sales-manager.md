@@ -41,11 +41,11 @@ PagoPA è alla ricerca di una figura commerciale in grado di gestire e promuover
 * Individuazione, gestione e valutazione di partners che partecipano ad iniziative di commercializzazione dei prodotti
 * Raggiungimento gli obiettivi di vendita
 
-### Requisiti e competenza essenziali (personali e professionali)
+### Requisiti e competenze essenziali (personali e professionali)
 
 * +8 anni di esperienza nel settore dei servizi finanziari/bancari e nei servizi di pagamento digitali 
 * Capacità e conoscenze del settore tecnologico 
-* Solide competenze tecnico-commerciale 
+* Solide competenze tecnico-commerciali
 * Pregressa esperienza in ruoli sales sia B2B che B2C
 * Conoscenza dei principali applicativi informatici e software gestionali
 * Attitudine commerciale e orientamento al cliente
