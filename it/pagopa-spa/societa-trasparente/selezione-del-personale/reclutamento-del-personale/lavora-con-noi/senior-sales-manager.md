@@ -63,3 +63,5 @@ PagoPA è alla ricerca di una figura commerciale in grado di gestire e promuover
 
 * Pregressa esperienza in banca o istituti di credito 
 * Conoscenza della lingua inglese
+
+Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il __29 Febbraio 2020__.
