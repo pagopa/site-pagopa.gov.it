@@ -69,5 +69,6 @@ L'Account Manager è il responsabile della gestione, sviluppo e mantenimento dei
 
 * Pregressa esperienza nel campo delle vendite 
 * Pregressa esperienza nel settore bancario e/o dei servizi di pagamento o in Società che vendono prodotti digitali
+* Conoscenza della lingua inglese
 
 Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il __29 Febbraio 2020__.

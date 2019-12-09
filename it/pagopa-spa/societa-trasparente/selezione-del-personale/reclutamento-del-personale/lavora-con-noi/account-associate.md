@@ -60,5 +60,6 @@ Gli addetti all’assistenza e gestione della clientela clienti hanno il compito
 * Pregressa esperienza nel settore bancario e/o dei servizi di pagamento o in Società che vendono prodotti digitali
 * Conoscenza del settore bancario e/o dei servizi di pagamento 
 * Conoscenza delle esigenze di clienti istituzionali nel settore dei servizi digitali
+* Conoscenza della lingua inglese
 
 Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il __29 Febbraio 2020__.
