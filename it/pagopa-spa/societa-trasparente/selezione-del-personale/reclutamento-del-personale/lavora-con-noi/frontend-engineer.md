@@ -7,7 +7,7 @@ ref: frontend-engineer
 child_of_ref: lavora-con-noi
 jazz_url: https://pagopa.applytojob.com/apply/CNdAuu2nNm/Frontend-Engineer
 pec_cv: false
-iframeheight: 2200
+iframeheight: 2300
 is_new: true
 ---
 

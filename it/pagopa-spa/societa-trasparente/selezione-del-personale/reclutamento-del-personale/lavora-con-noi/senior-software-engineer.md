@@ -7,7 +7,7 @@ ref: senior-software-engineer
 child_of_ref: lavora-con-noi
 jazz_url: https://pagopa.applytojob.com/apply/2RzGMmtR7Y/Senior-Software-Engineer
 pec_cv: false
-iframeheight: 2200
+iframeheight: 2300
 is_new: true
 ---
 

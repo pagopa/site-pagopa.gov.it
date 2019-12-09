@@ -7,7 +7,7 @@ ref: senior-devops-engineer
 child_of_ref: lavora-con-noi
 jazz_url: https://pagopa.applytojob.com/apply/SH20l3ztjv/Senior-Devops-Engineer
 pec_cv: false
-iframeheight: 2200
+iframeheight: 2300
 is_new: true
 ---
 
