@@ -57,7 +57,7 @@ PagoPA è alla ricerca di una figura commerciale in grado di gestire e promuover
 * Ottima dialettica e abilità di comunicazione
 * Flessibilità e attenzione al cambiamento
 * Approccio Problem-solving
-* Laurea magistrale in Economia, Marketing o simili. In ogni caso la Società si riserva di valutare laureati in altre materie con comprovata esperienza nel settore
+* Laurea magistrale in Economia, Marketing o simili. In ogni caso la Società si riserva di valutare candidati laureati in altre materie e/o con comprovata esperienza nel settore
 
 ### Requisiti preferenziali
 
