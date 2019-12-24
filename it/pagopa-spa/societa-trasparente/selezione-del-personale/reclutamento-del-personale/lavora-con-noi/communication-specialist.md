@@ -58,4 +58,4 @@ Le sue principali responsabilità sono:
 * Laurea specialistica o equivalente in Scienze della Comunicazione, Media e Pubblicità, Comunicazione d’Impresa e Relazioni Pubbliche, o aree affini. 
 * Solida conoscenza dell’inglese.
 
-Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il __2 Febbraio 2020__.
+Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il __2 Gennaio 2020__.
