@@ -1,9 +1,14 @@
 ---
 ## Main icon
-icon: "/assets/images/pagopa-logo.png"
+icon: /assets/images/pagopa-logo.png
+
+sprite-url: /assets/bootstrap-italia/dist/svg/sprite.svg
 
 ## Social Card [1200x630]
 social-card: /assets/images/favicons/social-card.png
+
+## Social Card twitter [1200x600]
+social-card-twitter: /assets/images/favicons/social-card-twitter.png
 
 ## Site name
 name:
@@ -17,25 +22,25 @@ description:
 
 ## Site author
 author:
-  en: "Digital Transformation Team"
-  it: "AGID + Presidenza del Consiglio dei Ministri + Team Digitale"
+  en: "PagoPA S.p.A."
+  it: "PagoPA S.p.A."
 
 ## Social
 social-links:
   en:
     twitter:
       name: "twitter"
-      url: "https://twitter.com/ITdigitalteam"
-    medium:
-      name: "medium"
-      url: "https://medium.com/team-per-la-trasformazione-digitale/pagopa-piattaforma-unica-pagamenti-pa/home"
+      url: "https://twitter.com/pagopa"
+    linkedin:
+      name: "linkedin"
+      url: "https://www.linkedin.com/company/pagopa/"
   it:
     twitter:
       name: "twitter"
-      url: "https://twitter.com/teamdigitaleIT"
-    medium:
-      name: "medium"
-      url: "https://medium.com/team-per-la-trasformazione-digitale/pagopa-piattaforma-unica-pagamenti-pa/home"
+      url: "https://twitter.com/pagopa"
+    linkedin:
+      name: "linkedin"
+      url: "https://www.linkedin.com/company/pagopa/"
 
 ## Labels
 italian-version:
@@ -55,15 +60,29 @@ footer-links:
     privacy-policy:
       name: "Privacy policy"
       url: "/en/privacy-policy"
+    lavora-con-noi:
+      name: "Lavora con noi"
+      url: "/it/lavora-con-noi"
   it:
     privacy-policy:
       name: "Privacy policy"
       url: "/it/privacy-policy"
+    lavora-con-noi:
+      name: "Lavora con noi"
+      url: "/it/lavora-con-noi"
 newsletter:
   it:
     title: "Iscriviti alla newsletter"
     placeholder: "Inserisci la tua email"
     submit_button: "Conferma iscrizione"
     disclaimer: "<a href=\"https://teamdigitale.governo.it/it/privacy-newsletter-pagoPA.htm\">Privacy policy</a>"
-
+CollapseBtnSee:
+  en: "See all"
+  it: "Mostra tutto"
+CollapseBtnHide:
+  en: "Hide"
+  it: "Nascondi"
+JobApply:
+  en: "Apply for this position"
+  it: "Invia il CV per questa posizione"
 

@@ -8,18 +8,18 @@ ref: privacy-policy
 
 ## **Informativa sul trattamento dei dati personali**
 
-La presente informativa descrive le modalità del trattamento dei dati personali degli utenti (di seguito, anche gli “Utenti”) che consultano il sito [https://www.pagopa.gov.it/](https://www.pagopa.gov.it/) (di seguito, anche “Sito”).
+La presente informativa descrive le modalità del trattamento dei dati personali degli utenti (di seguito, anche gli “Utenti”) che consultano il sito [https://www.pagopa.gov.it/](https://www.pagopa.gov.it/) (di seguito, anche “Sito”), ivi inclusi gli Utenti che ci inviano le loro candidature per lavorare con noi ed eventualmente prendono parte a un processo di selezione.
 
 L’informativa è resa ai sensi dell’art. 13 del regolamento (UE) 2016/679 (di seguito il “Regolamento”).
 
 La validità dell’informativa contenuta nella presente pagina è limitata al solo Sito e non si estende ad altri siti web eventualmente consultabili mediante collegamento ipertestuale.
 
+Questa informativa non include informazioni circa i dati personali trattati nell’utilizzo del prodotto pagoPA come strumento di pagamento verso le pubbliche amministrazioni; specifiche informative sono rese nel momento di tale utilizzo. 
+
 
 ## **Titolare del trattamento**
 
-Il Titolare del trattamento è il Commissario Straordinario per l’attuazione dell’Agenda Digitale, con sede in Palazzo Verospi Via della Impresa, 90 00186 Roma - Italia, email teamdigitale@governo.it, che agisce tramite la sua struttura di supporto (di seguito congiuntamente il “[Team per la trasformazione digitale](https://teamdigitale.governo.it/)” o anche solo il “Team digitale”).
-
-Il Team digitale ha nominato un proprio Responsabile della Protezione dei dati, ai sensi dell’art. 37 del Regolamento UE 2016/679, che può essere contattato al seguente indirizzo: [dpo@teamdigitale.governo.it](mailto:dpo@teamdigitale.governo.it).
+Il titolare del trattamento è la società PagoPA S.p.A. con sede in Piazza Colonna 370 00187 Roma - Italia, PEC pagopa@pec.governo.it.
 
 
 ## **Categorie di dati trattati**
@@ -41,7 +41,7 @@ Tali dati, necessari per la fruizione dei servizi web, vengono anche trattati al
 
 ### **b) Dati forniti volontariamente dall’Utente**
 
-Il Titolare acquisirà i dati personali eventualmente forniti dall’Utente attraverso il Sito in caso di iscrizione al servizio newsletter, la cui informativa privacy è [consultabile a questo indirizzo](https://teamdigitale.governo.it/it/privacy-newsletter-pagoPA.htm).
+Il titolare acquisirà i dati personali eventualmente forniti dall’Utente, ad esempio inviando la propria candidatura per una posizione aperta oppure mettendosi in contatto con noi. 
 
 
 ### **c) Cookies**
@@ -64,16 +64,18 @@ Il Sito utilizza:
 
 ## **Base giuridica del trattamento**
 
-La base giuridica di tale trattamento è da rinvenirsi nei compiti istituzionali affidati alla struttura commissariale, volti a favorire la conoscenza, lo sviluppo e la diffusione degli strumenti per l’attuazione dell’agenda digitale, nel caso specifico a fornire informazioni e aggiornamenti sull’attività e sui progetti della struttura stessa.
+La base giuridica di tale trattamento è da rinvenirsi nei compiti istituzionali affidati al titolare, che includono quello di fornire informazioni e aggiornamenti sull’attività e sui progetti della società, ai sensi dell’art. 6, comma 1 lett. e) del Regolamento.
 
-La base giuridica del trattamento dei soli dati raccolti tramite cookies analitici è il consenso dell’Utente.
+La base giuridica del trattamento dei dati di chi si candida per posizioni aperte ed eventualmente prende parte al processo di selezione è la necessità di dare esecuzione ad attività pre- contrattuali e di selezione del personale, ai sensi dell’art. 6, comma 1, lett. b) del Regolamento.  
+
+La base giuridica del trattamento dei soli dati raccolti tramite cookies analitici è il consenso dell’Utente, ai sensi dell’art. 6, comma 1, lett. a) del Regolamento.
 
 
 ## **Categorie di soggetti ai quali i dati personali possono essere comunicati e finalità della comunicazione**
 
-Il Titolare potrà comunicare, per il perseguimento delle finalità sopra indicate, alcuni dati personali anche a soggetti terzi che forniscono un servizio al titolare stesso e che tratteranno detti dati personali in qualità di responsabili del trattamento.
+Il titolare potrà comunicare, per il perseguimento delle finalità sopra indicate, alcuni dati personali anche a soggetti terzi che forniscono un servizio al titolare stesso e che tratteranno detti dati personali in qualità di responsabili del trattamento.
 
-L’elenco dei responsabili del trattamento può essere richiesto al Titolare in qualsiasi momento, scrivendo a [dpo@teamdigitale.governo.it](mailto:dpo@teamdigitale.governo.it).
+L’elenco dei responsabili del trattamento può essere richiesto al Titolare in qualsiasi momento, scrivendo a [pagopa@pec.governo.it](mailto:pagopa@pec.governo.it).
 
 
 ## **Trasferimento dati fuori dall’UE**
@@ -85,7 +87,7 @@ Alcuni dei fornitori terzi che utilizziamo risiedono negli USA. Abbiamo concluso
 
 Gli interessati hanno il diritto di ottenere, nei casi previsti, l’accesso ai propri dati personali e la rettifica o la cancellazione degli stessi o la limitazione del trattamento che li riguarda o di opporsi al trattamento (artt. 15 e ss. del Regolamento).
 
-Tali richieste potranno essere indirizzate al Titolare, scrivendo a [dpo@teamdigitale.governo.it](mailto:dpo@teamdigitale.governo.it).
+Tali richieste potranno essere indirizzate al titolare, scrivendo a [pagopa@pec.governo.it](mailto:pagopa@pec.governo.it).
 
 
 ## **Diritti di reclamo**

@@ -3,35 +3,13 @@
     <div class="container">
       <section>
         <div class="row clearfix">
-          <div class="col-6">
-            <div class="it-brand-wrapper">
-              <a href="{{ site.baseurl }}">
-                <img class="icon" src="{{ site.baseurl }}{{ site.data.t.icon }}" alt="{{ site.name }} logo"
-                  style="filter: brightness(0) invert(1);">
-                <div class="it-brand-text">
-                  <h2 class="no_toc">{{ site.data.t.name[page.lang] }}</h2>
-                  <h3 class="no_toc d-none d-md-block">{{ site.data.t.description[page.lang] }}</h3>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-6 col-md-4 d-flex">
-            <div class="it-brand-wrapper">
-              <a href="https://teamdigitale.governo.it/" target="_blank">
-                <img src="{{ site.baseurl }}/assets/images/logo-team-digitale-full.svg"
-                  alt="Team per la Trasformazione Digitale" height="48">
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="py-4 border-white border-top">
-        <div class="row">
-          <div class="col-md-6 pb-2">
+          <div class="col-12 col-sm-6 col-md-4">
             {% include footer/footer-col-1.html %}
           </div>
-          <div class="col-md-4 offset-md-2 pb-2">
+          <div class="col-12 col-sm-6 col-md-4">
+            {% include footer/footer-col-2.html %}
+          </div>
+          <div class="col-12 col-md-4">
             {% include footer/footer-col-3.html %}
           </div>
         </div>
@@ -40,13 +18,26 @@
   </div>
   <div class="it-footer-small-prints clearfix">
     <div class="container">
-      <h3 class="sr-only">Sezione Link Utili</h3>
-      <ul class="it-footer-small-prints-list list-inline mb-0 d-flex flex-column flex-md-row">
-        {% for footer-link in site.data.t.footer-links[page.lang] %}
-        <li class="list-inline-item"><a href="{{ site.baseurl }}{{ footer-link[1].url }}"
-            title="{{ footer-link[1].name }}">{{ footer-link[1].name }}</a></li>
-        {% endfor %}
-      </ul>
+      <div class="row">
+        <div class="col-12">
+          <h3 class="sr-only">Sezione Link Utili</h3>
+          <ul class="it-footer-small-prints-list list-inline mb-0 d-flex flex-column flex-md-row">
+            {% for footer-link in site.data.t.footer-links[page.lang] %}
+            <li class="list-inline-item"><a href="{{ site.baseurl }}{{ footer-link[1].url }}"
+                                            title="{{ footer-link[1].name }}">{{ footer-link[1].name }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-12">
+          <div class="mx-3 mb-5">
+            <small class="text-white">
+              PagoPA S.p.A. - società per azioni con socio unico - capitale sociale di euro 1,000,000 interamente versato - sede
+              legale in Roma, Piazza Colonna 370, CAP 00187 - n. di iscrizione a Registro Imprese di Roma, CF e P.IVA
+              15376371009
+            </small>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </footer>
