@@ -40,22 +40,23 @@ Le sue principali responsabilità sono:
 
 
 
-### Qualifiche essenziali o preferenziali
+### Qualifiche essenziali
 
 * +10 anni di esperienza nell’ideazione e nello sviluppo di piani di comunicazione integrata, a supporto di diverse aree della comunicazione aziendale (corporate e di prodotto) 
 * Esperienza pluriennale nella definizione strategica e implementazione di attività di PR e media relations, a livello nazionale locale e internazionale 
-* Profonda conoscenza del panorama mediatico, delle tecniche e degli strumenti di comunicazione, con una comprovata rete di contatti presso i principali organi d'informazione 
-* Solide competenze nella gestione di progetti e/o campagne di comunicazione a favore di realtà innovative, operanti nei settori ICT, digital, TLC e mobile 
-* Ottime capacità di scrittura ed editing, precisione e attenzione al dettaglio 
-* Capacità di gestire scenari complessi, con esperienza nella definizione di strategie di comunicazione di _issue management e crisis management_ 
+* Capacità di gestire scenari complessi, con esperienza nella definizione di strategie di comunicazione di _issue management_ e _crisis management_ 
 * Forte senso delle priorità, flessibilità e attitudine al problem solving 
 * Elevata propensione al lavoro di squadra, con esperienza nella gestione di risorse e nella supervisione di progetti realizzati attraverso il coordinamento con team di lavoro esterni alla propria organizzazione 
 * Approccio propositivo e creativo, passione, grinta e approccio etico al lavoro 
 
+### Qualifiche preferenziali
+* Solide competenze nella gestione di progetti e/o campagne di comunicazione a favore di realtà innovative, operanti nei settori ICT, digital, TLC e mobile 
+* Profonda conoscenza del panorama mediatico, delle tecniche e degli strumenti di comunicazione, con una comprovata rete di contatti presso i principali organi d'informazione 
+* Ottime capacità di scrittura ed editing, precisione e attenzione al dettaglio 
 
 ### Formazione richiesta
 
 * Laurea specialistica o equivalente in Scienze della Comunicazione, Media e Pubblicità, Comunicazione d’Impresa e Relazioni Pubbliche, o aree affini. 
 * Solida conoscenza dell’inglese.
 
-Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il __2 Gennaio 2020__.
+Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il __7 Gennaio 2020__.
