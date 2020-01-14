@@ -21,8 +21,8 @@ Le pagine che vengono incluse in questo menù sono un sottoinsieme di tutte le p
                 </div>
               </a>
             </div>
-            <div class="it-right-zone">
-              <div class="it-socials d-none d-md-flex">
+            <div class="it-right-zone flex-column">
+              <div class="it-socials d-none d-md-flex mb-md-4">
                 <span>Seguici su</span>
                 <ul>
                   {% for social-link in site.data.t.social-links[page.lang] %}
@@ -40,6 +40,14 @@ Le pagine che vengono incluse in questo menù sono un sottoinsieme di tutte le p
                   {% endfor %}
                 </ul>
               </div>
+              {% if page.ref != 'helpdesk' %}
+              <div class="it-helpdesk d-md-flex">
+                <div class="it-btn-container"><a class="btn btn-sm btn-primary" href="{{ site.baseurl }}/it/pagopa/helpdesk">
+                  <img class="icon helpdesk-icon" style="width: 24px; height: 24px; margin-right: 8px;" src="{{ site.baseurl }}/assets/images/helpdesk-icon.svg" title="Helpdesk Icon" alt="Helpdesk Icon">
+                  Serve aiuto?</a>
+                </div>
+              </div>
+              {% endif %}
               {% comment %}
               <!-- Search button -->
               <div class="it-search-wrapper">
