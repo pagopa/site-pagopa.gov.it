@@ -20,6 +20,6 @@ Puoi scegliere di **scriverci una email** o di usare l’**assistenza telefonica
     </div>
 </div>
 
-Per ulteriori informazioni puoi consultare le <a class="text-decoration-none font-weight-bold"  href="https://pagopa-doc-faq.readthedocs.io/it/latest/">FAQ di pagoPA</a>
+Per ulteriori informazioni puoi consultare le <a class="text-decoration-none font-weight-bold"  href="https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/index.html">FAQ di pagoPA</a>
 
 Se invece hai **problemi specifici legati al metodo di pagamento scelto** (Home Banking, paypal, etc.) avrai una risposta più rapida contattando direttamente l’assistenza relativa metodo di pagamento che hai utilizzato. 
