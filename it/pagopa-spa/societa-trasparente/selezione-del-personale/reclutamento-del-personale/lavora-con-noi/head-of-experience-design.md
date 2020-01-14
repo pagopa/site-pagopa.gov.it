@@ -7,7 +7,7 @@ ref: head-of-experience-design
 child_of_ref: lavora-con-noi
 jazz_url: https://pagopa.applytojob.com/apply/2MNrBwHQ6M/Head-Of-Experience-Design
 pec_cv: true
-iframeheight: 2000
+iframeheight: 2300
 is_new: true
 ---
 
