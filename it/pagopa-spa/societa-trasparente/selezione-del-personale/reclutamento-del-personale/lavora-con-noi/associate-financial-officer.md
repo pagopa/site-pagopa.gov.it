@@ -57,10 +57,4 @@ A seconda della seniority sarà valutato il compenso nonché l’inquadramento a
 - Master in business administration o business management 
 
 
-### Formazione
-
-- Laurea specialistica o equivalente in Ingegneria, Informatica, Design, Marketing, Scienze dell’Informazione, della Comunicazione o aree affini.
-- Solida conoscenza dell’inglese
-
-
 Per applicare, invia il tuo CV unitamente ad una lettera di presentazione entro e non oltre il **23 febbraio 2020**! Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
