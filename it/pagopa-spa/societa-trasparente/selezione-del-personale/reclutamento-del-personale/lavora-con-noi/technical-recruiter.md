@@ -5,10 +5,11 @@ lang: it
 layout: job
 ref: technical-recruiter
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/MpUC4im0ag/Technical-Recruiter
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 ---
 
 Stiamo cercando persone dotate di passione, grinta e integrità, che condividano la nostra missione.

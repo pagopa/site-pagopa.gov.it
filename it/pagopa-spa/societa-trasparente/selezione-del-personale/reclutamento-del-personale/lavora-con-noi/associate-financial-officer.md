@@ -57,4 +57,4 @@ A seconda della seniority sarà valutato il compenso nonché l’inquadramento a
 - Master in business administration o business management 
 
 
-Per applicare, invia il tuo CV unitamente ad una lettera di presentazione entro e non oltre il **23 febbraio 2020**! Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
+Per applicare, invia il tuo CV unitamente ad una lettera di presentazione entro e non oltre il **31 marzo 2020**! Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.

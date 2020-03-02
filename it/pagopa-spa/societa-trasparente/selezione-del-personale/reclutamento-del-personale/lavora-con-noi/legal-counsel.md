@@ -5,10 +5,11 @@ lang: it
 layout: job
 ref: legal-counsel
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/2URiWL8xDw/Legal-Counsel
+jazz_url:
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 ---
 
 

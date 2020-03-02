@@ -5,10 +5,11 @@ lang: it
 layout: job
 ref: account-manager
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/bC9zRPrtjl/Account-Manager
+jazz_url:
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 ---
 
 Stiamo cercando persone dotate di passione, grinta e integrità, che condividano la nostra missione.
