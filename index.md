@@ -46,6 +46,7 @@ order: 1
             </a>
           </div>
         </div>
+
         <div class="card shadow border-0 mg-md-4">
           <div class="card-header">
             Prestatori Servizi di Pagamento
@@ -63,5 +64,6 @@ order: 1
       </div>
       <!-- contenuto di esempio END -->
     </div>
+
   </div>
 </div>
