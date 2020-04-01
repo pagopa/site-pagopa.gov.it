@@ -5,10 +5,11 @@ lang: it
 layout: job
 ref: associate-financial-officer
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/jTMZ4phuwB/Associate-Financial-Officer
+jazz_url: 
 pec_cv: false
 iframeheight: 1800
-is_new: true
+is_new: false
+archived: true
 ---
 
 
