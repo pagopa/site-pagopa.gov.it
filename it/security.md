@@ -15,7 +15,7 @@ This policy describes how to send us vulnerability reports and how we ask securi
 If you are the first to report a verifiable security issue, we'll thank you with a place in our _hall of fame page_!
 
 ## Report a vulnerability
-E-mail your findings to [security@pagopa.it](mailto:mailto:security@pagopa.it). Encrypt your findings using our PGP key to prevent this critical information from falling into the wrong hands.
+E-mail your findings to [security@pagopa.it](mailto:security@pagopa.it). Encrypt your findings using our PGP key to prevent this critical information from falling into the wrong hands.
 
 Give adequate information allowing the vulnerability to be reproduced, so we will be able to resolve it as quickly as possible. In particular please include at least the following information: 
 
