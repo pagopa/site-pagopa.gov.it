@@ -63,6 +63,9 @@ footer-links:
     lavora-con-noi:
       name: "Lavora con noi"
       url: "/it/lavora-con-noi"
+    security:
+      name: "Security"
+      url: "/security.html"
   it:
     privacy-policy:
       name: "Privacy policy"
@@ -70,6 +73,9 @@ footer-links:
     lavora-con-noi:
       name: "Lavora con noi"
       url: "/it/lavora-con-noi"
+    security:
+      name: "Sicurezza"
+      url: "/security.html"
 newsletter:
   it:
     title: "Iscriviti alla newsletter"
