@@ -5,6 +5,6 @@ permalink: /.well-known/security.txt
 Contact: security@pagopa.it
 Encryption: https://www.pagopa.gov.it/publickey.txt
 Preferred-Languages: en, it
-Canonical: https://www.pagopa.gov.it/.well-know/security.txt
+Canonical: https://www.pagopa.gov.it/.well-known/security.txt
 Policy: https://www.pagopa.gov.it/security.html
 Hiring: https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/selezione-del-personale/reclutamento-del-personale/lavora-con-noi/
