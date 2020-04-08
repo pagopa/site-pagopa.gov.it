@@ -19,8 +19,11 @@ PagoPA S.p.A. è alla ricerca di un Esperto di Comunicazione Istituzionale, che 
 Le principali responsabilità dell’Esperto di Comunicazione Istituzionale includono:
 * supportare lo sviluppo e la realizzazione della strategia e dell’agenda di comunicazione istituzionale, in linea con il piano globale dell’azienda per gli affari pubblici e la responsabilità sociale
 * contribuire alla gestione efficace dei rapporti con gli stakeholders istituzionali, le associazioni di categoria e le autorità competenti nei settori strategici in cui opera la Società; in particolare, attraverso il coordinamento con i responsabili della comunicazione di tali soggetti in occasione di iniziative aziendali rilevanti per i rispettivi ambiti di interesse o di collaborazioni inerenti specifici progetti di PagoPA S.p.A.
-* garantire coerenza e sinergia tra le iniziative di comunicazione istituzionale e le attività  di comunicazione corporate/di prodotto, favorendo un allineamento interno costante tra le due funzioni nel rispetto degli obiettivi aziendali *supportare la definizione di strategie e iniziative di relazioni pubbliche relative a tematiche afferenti la sfera istituzionale
-* monitorare e approfondire eventuali opportunità di posizionamento e visibilità per la Società, nell’ambito di eventi o manifestazioni promossi da stakeholders istituzionali a livello nazionale e internazionale * contribuire alla redazione di testi e materiali aziendali utili all’implementazione della strategia di comunicazione istituzionale (es. position paper, statement, briefing doc a uso interno, presentazioni per meeting ed eventi, pagine dei siti aziendali, ecc.) * indirizzare e supervisionare il lavoro di eventuali risorse esterne di supporto a specifici ambiti della comunicazione istituzionale 
+* garantire coerenza e sinergia tra le iniziative di comunicazione istituzionale e le attività  di comunicazione corporate/di prodotto, favorendo un allineamento interno costante tra le due funzioni nel rispetto degli obiettivi aziendali
+* supportare la definizione di strategie e iniziative di relazioni pubbliche relative a tematiche afferenti la sfera istituzionale
+* monitorare e approfondire eventuali opportunità di posizionamento e visibilità per la Società, nell’ambito di eventi o manifestazioni promossi da stakeholders istituzionali a livello nazionale e internazionale
+* contribuire alla redazione di testi e materiali aziendali utili all’implementazione della strategia di comunicazione istituzionale (es. position paper, statement, briefing doc a uso interno, presentazioni per meeting ed eventi, pagine dei siti aziendali, ecc.)
+* indirizzare e supervisionare il lavoro di eventuali risorse esterne di supporto a specifici ambiti della comunicazione istituzionale 
 
 
 ### Requisiti e competenza essenziali (personali e professionali)
@@ -35,6 +38,7 @@ Le principali responsabilità dell’Esperto di Comunicazione Istituzionale incl
 ### Formazione Richiesta
 
 Laurea in Scienze Politiche o Giurisprudenza o in campi affini. In ogni caso la Società si riserva di valutare laureati in altre materie (es. Scienze della Comunicazione, Comunicazione d’Impresa e Relazioni Pubbliche o affini) e/o candidati con forte esperienza nel ruolo e/o nei settori di interesse.
+
 ### Requisiti preferenziali
 
 Pregressa esperienza nel ruolo di responsabile della comunicazione istituzionale a favore di realtà innovative, operanti nei settori ICT, digital, TLC e mobile, bancario e/o dei servizi pagamenti 
