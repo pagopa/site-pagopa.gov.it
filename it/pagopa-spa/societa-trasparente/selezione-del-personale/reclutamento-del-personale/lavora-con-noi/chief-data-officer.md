@@ -26,7 +26,7 @@ Il Chief Data Officer ha il compito di fornire linee guida e creare la strategia
 * Governare i progetti di Big Data Analytics & Business Intelligence.
 * Tradurre e condividere l’esito dei progetti con le Linee di Business.
 * Presidiare l’architettura tecnologica di integrazione e analisi dei dati.
-* Gestire la qualità e la sicurezza deidati.
+* Gestire la qualità e la sicurezza dei dati.
 * Supportare i diversi dipartimenti aziendali nell’individuazione delle opportunità esterne funzionali al raggiungimento degli obiettivi aziendali.
 * Sviluppare nuove soluzioni in grado di aumentare la competitività dell’azienda.
 
