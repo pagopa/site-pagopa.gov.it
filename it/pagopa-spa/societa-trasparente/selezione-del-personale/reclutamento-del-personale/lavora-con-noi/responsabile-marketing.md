@@ -60,5 +60,5 @@ Laurea in Marketing, Economia o Comunicazione o in campi affini. In ogni caso la
 * Roma
 * Remote working
 
-Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il 30 Aprile 2020. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati. 
+Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il 30 settembre 2020. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati. 
 
