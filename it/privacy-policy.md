@@ -16,10 +16,15 @@ La validità dell’informativa contenuta nella presente pagina è limitata al s
 
 Questa informativa non include informazioni circa i dati personali trattati nell’utilizzo del prodotto pagoPA come strumento di pagamento verso le pubbliche amministrazioni; specifiche informative sono rese nel momento di tale utilizzo. 
 
+## **Data protection officer (DPO) o Responsabile Protezione Dati (RPD)**
+Il DPO di PagoPA SpA può essere contattato ai seguenti recapiti:
+* mail: [dpo@pagopa.it](mailto:dpo@pagopa.it);
+* PEC: [dpo@pec.pagopa.it](mailto:dpo@pec.pagopa.it);
+* indirizzo: Via Sardegna n. 38 - 00187, ROMA (sede operativa della società)
 
 ## **Titolare del trattamento**
 
-Il titolare del trattamento è la società PagoPA S.p.A. con sede in Piazza Colonna 370 00187 Roma - Italia, PEC pagopa@pec.governo.it.
+Il titolare del trattamento è la società PagoPA S.p.A. con sede in Piazza Colonna 370 00187 Roma - Italia, PEC [pagopa@pec.governo.it](mailto:pagopa@pec.governo.it).
 
 
 ## **Categorie di dati trattati**
