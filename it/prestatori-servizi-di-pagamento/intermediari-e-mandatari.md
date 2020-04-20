@@ -23,16 +23,17 @@ Se non sei né un PSP, né un Mandatario Qualificato e desideri svolgere il ruol
 ##### Un PSP cosa deve fare per usufruire dei servizi di un Intermediario?
 Come previsto all’art. 6, comma 2, dell’accordo di adesione, il singolo PSP per ogni servizio di pagamento da lui erogato, può indicare un Intermediario tecnologico.
 Nel catalogo dati informativi sono indicate dal PSP tutte le informazioni necessarie.  
-Mandatario Qualificato
 
-### Cos’è un Mandatario?
+### Mandatario Qualificato
+
+##### Cos’è un Mandatario?
 È un soggetto che già svolge il ruolo di Intermediario tecnologico sulla piattaforma pagoPA e che, stipulando un apposito accordo con la PagoPA S.p.A., si impegna a pagare i Corrispettivi per conto dei PSP che gli hanno dato Mandato, permettendo a quest’ultimi di cumulare i propri rispettivi volumi con gli altri PSP che hanno scelto lo stesso Mandatario e, quindi, accedere a una tariffazione più vantaggiosa.
 
 _la lista dei Mandatari Qualificati_
 
 
 ##### Cosa fare per diventare Mandatario?
-Scrivici a [legal@pagopa.it](mailto:legal@pagopa.it) affinchè possa valutare la tua richiesta e, se del caso, inviarti l’accordo da stipulare con la PagoPA S.p.A
+Scrivici a [legal@pagopa.it](mailto:legal@pagopa.it) affinchè possa valutare la tua richiesta e, se del caso, inviarti l’accordo da stipulare con la PagoPA S.p.A.
 
 ##### Come un PSP può indicare un Mandatario?
 Il PSP deve: 
