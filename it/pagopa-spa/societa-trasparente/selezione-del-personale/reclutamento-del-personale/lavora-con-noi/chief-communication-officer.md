@@ -11,7 +11,6 @@ iframeheight: 2300
 is_new: true
 ---
 
-### Chief Communication Officer
 PagoPA S.p.A. è alla ricerca di un esperto in comunicazione d’impresa nel ruolo di Chief Communication Officer, che ha il compito di definire e implementare strategie di comunicazione volte a favorire il corretto posizionamento della società  presso i diversi stakeholder, veicolando all’esterno la visione strategica, le peculiarità e le finalità dei singoli progetti e dei relativi prodotti. 
 
 
