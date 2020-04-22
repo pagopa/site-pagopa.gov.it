@@ -17,4 +17,4 @@ child_of_ref: organizzazione
 * Dichiarazione dei redditi: **[file PDF](Giuseppe_Virgone_dichiarazione_redditi.pdf)**
 * Situazione patrimoniale: **[file PDF](Giuseppe_Virgone_situazione_patrimoniale.pdf)**
 * Dichiarazione redditi e situazione patrimoniale del coniuge non separato e dei parenti entro il secondo grado (oppure indicazione mancato consenso): **[file PDF](Giuseppe_Virgone_mancato_consenso.pdf)**
-* Dichiarazione sull’assenza di cause di inconferibilità ed incompatibilità: **[file PDF](AGiuseppe_Virgone_accettazione_incarico.pdf)**
+* Dichiarazione sull’assenza di cause di inconferibilità ed incompatibilità: **[file PDF](Giuseppe_Virgone_accettazione_incarico.pdf)**
