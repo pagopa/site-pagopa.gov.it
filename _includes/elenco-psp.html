@@ -1,0 +1,20 @@
+
+
+<table class="table" id="elencopsp">
+	<thead>
+		<tr>
+			<th>Denominazione</th>
+			<th>ABI</th>
+			<th >BIC</th>
+		</tr>
+	</thead>
+	<tbody>
+        {% for psp in site.data.psp %}
+		<tr >
+			<td>{{psp.Denominazione}}</td>
+			<td>{{psp.CodiceABI}}</td>
+			<td>{{psp.CodiceBIC}}</td>
+		</tr>
+        {% endfor %}
+    </tbody>
+</table>

@@ -10,5 +10,7 @@ child_of_ref: prestatori-servizi-di-pagamento
 
 È possibile scaricare l’elenco dei Prestatori di Servizi di Pagamento (PSP):
 
-* [Elenco dei canali degli operatori presso cui è possibile presentare un avviso di pagamento (CSV)](../../../data/pagopa-psp.csv)
-* [Elenco dei canali degli operatori presso cui è possibile presentare un avviso di pagamento (XSLX)](../../../data/pagopa-psp.xlsx)
+
+{:.small .my-3}
+Download Elenco PSP attivi&nbsp;&nbsp;[formato CSV](../../../data/pagopa-psp.csv)&nbsp;/&nbsp;[formato XLSX](../../../data/pagopa-psp.xlsx)
+
