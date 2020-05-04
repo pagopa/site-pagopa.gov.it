@@ -5,10 +5,10 @@ lang: it
 layout: job
 ref: esperto-comunicazione-istituzionale
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/gqKVbcwP1z/Esperto-Di-Comunicazione-Istituzionale
+jazz_url: 
 pec_cv: false
 iframeheight: 1900
-is_new: true
+archived: true
 ---
 
 PagoPA S.p.A. è alla ricerca di un Esperto di Comunicazione Istituzionale, che operi quale figura di raccordo tra le funzioni aziendali responsabili, da un lato, della Comunicazione (corporate e di prodotto) e, dall’altro lato, delle Relazioni e degli Affari Istituzionali, favorendo il corretto posizionamento della Società, dei suoi progetti e dei relativi prodotti, presso i diversi stakeholders pubblici e le autorità competenti. 

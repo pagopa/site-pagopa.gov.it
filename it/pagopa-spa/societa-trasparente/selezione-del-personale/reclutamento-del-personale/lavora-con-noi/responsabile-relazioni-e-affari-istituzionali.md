@@ -5,10 +5,10 @@ lang: it
 layout: job
 ref: responsabile-relazioni-e-affari-istituzionali
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/L0Oye3FzFU/Responsabile-Relazioni-E-Affari-Istituzionali
+jazz_url: 
 pec_cv: true
 iframeheight: 2000
-is_new: true
+archived: true
 ---
 
 
