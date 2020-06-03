@@ -1,0 +1,35 @@
+{% assign rows = site.data.partner %}
+{% assign rowsdettagli = site.data.partner-dettagli %}
+
+<table id="partners" class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Denominazione</th>
+                <th>Codice fiscale</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            {% for partner in rows %}
+            {% assign partnerdet = "" %}
+            {% for row in rowsdettagli %}
+                {% if row["CF del Partner Tecnologico"]== partner["CodiceFiscale"] %}
+                {% assign partnerdet = row %}
+                {% endif %}
+            {% endfor %}
+            <tr>
+                <td>
+                {% if partnerdet!="" %}
+                    <svg class="icon icon-primary icon-sm "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-expand"></use></svg>
+                {% endif %}
+                </td>
+                <td>{{ partner["Denominazione"]  }}</td>
+                <td>{{ partner["CodiceFiscale"]  }}</td>
+                
+            </tr>
+
+            {% endfor %}
+        </tbody>
+
+</table>
