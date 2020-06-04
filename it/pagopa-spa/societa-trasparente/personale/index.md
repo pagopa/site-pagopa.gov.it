@@ -9,4 +9,4 @@ child_of_ref: societa-trasparente
 wide: true
 ---
 
-* [Dotazione organica](dotazione-organica.pdf)
+* [Dotazione organica](dotazione-organica/)
