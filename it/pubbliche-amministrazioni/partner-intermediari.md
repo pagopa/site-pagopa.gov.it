@@ -14,6 +14,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis nisi et m
 ### Intermediari Tecnologici 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis nisi et mi pretium efficitur. Vestibulum fringilla, lacus at bibendum condimentum, est sapien feugiat turpis, a mattis lacus nisi vitae dolor. Aliquam malesuada ultrices nisl, a ultricies lorem.
 
+{% include intermediari-table.html %}
+
 ### Partner Tecnologici 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis nisi et mi pretium efficitur. Vestibulum fringilla, lacus at bibendum condimentum, est sapien feugiat turpis, a mattis lacus nisi vitae dolor. Aliquam malesuada ultrices nisl, a ultricies lorem.
 

@@ -1,0 +1,18 @@
+{% assign intermediari = site.data.intermediari %}
+{% assign numintermediari = intermediari.size %}
+{% assign division = numintermediari | divided_by:3.0 | ceil %}
+
+<div class="my-2">
+    <div class="row">
+        {% for group in (1..3) %}
+        {% assign groupset =  division | times: forloop.index0 %}
+        <div class="col-sm-4">
+            <ul>
+                {% for intermediario in intermediari limit: division offset: groupset %}
+                <li class="small text-muted">{{intermediario}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endfor %}
+    </div>
+</div>
