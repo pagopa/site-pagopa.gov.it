@@ -10,3 +10,4 @@ wide: true
 ---
 
 * [Dotazione organica](dotazione-organica/)
+* [Contrattazione collettiva](contrattazione-collettiva/)
