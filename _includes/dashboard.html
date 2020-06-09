@@ -1,0 +1,124 @@
+<div>
+    <div class="container-fluid">
+        <div class="row my-3">
+            <div class="col-md-4 py-1">
+                <div class="card" id="card-no-border">
+                    <div class="card-body text-center">
+                        <h4 style="color: rgb(0, 115, 230)">Totale transazioni</h4>
+                        <h4 id="totalt" style="color: rgb(0, 115, 230)">  # 101.499.471</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-1">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h4 style="color:rgb(0, 115, 230)">Importo totale</h4>
+                        <h4 id="totali" style="color:rgb(0, 115, 230)">€ 17.448.190.280</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-1">
+                <div class="card">
+                    <div class="card-body text-center">
+                            <h4 style="color:rgb(0, 115, 230)">Tasso di crescita  <svg class="bg-light icon icon-sm align-top"><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle"></use></svg>
+                            </h4>
+                        <h4 id="growthRate" style="color: rgb(0, 115, 230)"># </h4>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+      <div class="row my-3">
+        <div class="col-md-4 py-1">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h4 style="color:rgb(0, 115, 230)">Transazioni 2019</h4>
+                    <h4 id="2019t" style="color: rgb(0, 115, 230)"># 2154312</h4>
+                    <h4 id="2019e" style="color:rgb(0, 115, 230)">€ 8,341,588,984</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 py-1">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h4 style="color:rgb(0, 115, 230)">Transazioni 2020</h4>
+                    <h4 id="2020t" style="color: rgb(0, 115, 230)"># 2154312</h4>
+                    <h4 id="2020e" style="color:rgb(0, 115, 230)">€ 15431212121</h4>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 py-1">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h4 style="color:rgb(0, 115, 230)">Previsioni prossimi 6 mesi</h4>
+                    <h4 id="predTotal" style="color: rgb(0, 115, 230)"># </h4>
+                    <h4 id="predEuro" style="color:rgb(0, 115, 230)">€ </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row my-1">
+        <div class="col-md-12 py-1">
+            <div class="card">
+                <h5 class="card-title text-center"># Transazioni andamento e previsioni</h5>
+                <p class="card-text text-center">Andamento storico del numero totale accumulato di transazioni e intervallo previsionale dei prossimi 6 mesi.</p>
+                <div class="card-body">
+                    <canvas id="totalPred"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+      <div class="row my-1">
+        <div class="col-md-12 py-1">
+            <div class="card">
+                <h5 class="card-title text-center"># Transazioni 2019 vs 2020</h5>
+                <p class="card-text text-center"># Transazioni raggruppate per mese negl'anni 2019 e 2020</p>
+                <div class="card-body">
+                    <canvas id="byMonth"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row my-2">
+        <div class="col-md-6 py-1">
+            <div class="card">
+                <h5 class="card-title text-center"># Top 5 enti creditori</h5>
+                <div class="card-body">
+                    <canvas id="top10EdcPie"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 py-1">
+            <div class="card">
+                <h5 class="card-title text-center"># Top 5 PSP</h5>
+                <div class="card-body">
+                    <canvas id="top10PSPPie"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row my-1">
+        <div class="col-md-12 py-1">
+            <div class="card">
+                <h5 class="card-title text-center"># Top 5 enti creditori 2019 vs 2020</h5>
+                <div class="card-body">
+                    <canvas id="top10Edc"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row my-1">
+        <div class="col-md-12 py-1">
+            <div class="card">
+                <h5 class="card-title text-center"># Top 5 PSP 2019 vs 2020</h5>
+                <div class="card-body">
+                    <canvas id="top10PSP"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+</div>
