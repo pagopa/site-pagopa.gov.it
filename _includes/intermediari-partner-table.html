@@ -1,0 +1,22 @@
+{% assign partners = site.data.intermediari | where_exp: "item","item.PT == '1'"%}
+{% assign numpartners = partners.size %}
+{% assign division = numpartners | divided_by:3.0 | ceil %}
+
+<div class="my-2">
+    <div class="row">
+        {% for group in (1..3) %}
+        {% assign groupset =  division | times: forloop.index0 %}
+        <div class="col-sm-4">
+            <ul>
+                {% for partner in partners limit: division offset: groupset %}
+                <li class="small text-muted"><b>{{partner['Intermediario/Partner']}}</b>
+                    {% if partner['Esercizio'] != '' %}
+                    <br>Enti intermediati: {{partner['Esercizio']}}
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endfor %}
+    </div>
+</div>
