@@ -8,20 +8,26 @@ child_of_ref: pubbliche-amministrazioni
 order: 43
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis nisi et mi pretium efficitur. Vestibulum fringilla, lacus at bibendum condimentum, est sapien feugiat turpis, a mattis lacus nisi vitae dolor. Aliquam malesuada ultrices nisl, a ultricies lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque accumsan lacus vitae diam viverra, sit amet molestie turpis lobortis. Nam rhoncus turpis eget est congue, a dignissim ante elementum. 
+Gli Enti Creditori, si possono avvalere di uno o più soggetti terzi che, in nome e per conto dello stesso soggetto aderente, si occuperanno di gestire applicativamente il dialogo tecnico con  la piattaforma pagoPA. Le attività tecniche possono essere affidate anche a molteplici soggetti, che si distinguono in Intermediario o Partner tecnologico. 
+
+Da questa pagina  si accede all’elenco degli Intermediari e dei Partner tecnologici che sono stati scelti, almeno in un'occasione, da uno degli Enti creditori che risultano attivi su pagoPA.
 
 
 ### Intermediari Tecnologici 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis nisi et mi pretium efficitur. Vestibulum fringilla, lacus at bibendum condimentum, est sapien feugiat turpis, a mattis lacus nisi vitae dolor. Aliquam malesuada ultrices nisl, a ultricies lorem.
+L’Intermediario tecnologico è una Pubblica Amministrazione che è anche un soggetto già aderente e attivo sul Sistema e, come tale, ha già accettato e si è obbligato in proprio al rispetto delle Linee Guida e dei relativi allegati.
 
 [Approfondisci <svg class="icon icon-xs icon-primary"><use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use></svg>](../intermediari-tecnologici)
 
 ### Partner Tecnologici 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis nisi et mi pretium efficitur. Vestibulum fringilla, lacus at bibendum condimentum, est sapien feugiat turpis, a mattis lacus nisi vitae dolor. Aliquam malesuada ultrices nisl, a ultricies lorem.
+Il Partner Tecnologico è un soggetto imprenditoriale che generalmente opera nell’ambito della fornitura dei servizi IT, non necessariamente caratterizzabili. 
 
 [Approfondisci <svg class="icon icon-xs icon-primary"><use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use></svg>](../partner)
 
 ### Partner Tecnologici qualificati
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque accumsan lacus vitae diam viverra, sit amet molestie turpis lobortis. Nam rhoncus turpis eget est congue, a dignissim ante elementum. 
+I soggetti a cui si può accedere in questa sezione hanno accettato di sottoporsi a una procedura di qualificazione e di sottoscrivere un accordo di servizio con pagoPA. In base a questo da qui è possibile:
+* verificare l’aderenza dei servizi IT erogati da ciascun soggetto con il modello dei servizi elaborato da pagoPA
+* accedere alle referenze di servizi di incasso in esercizio su pagoPA
+
+I soggetti che intendono qualificarsi possono effettuare il download delle lettera di Accettazione e seguire le indicazioni contenute nella relativa procedura allegata.
 
 [Approfondisci <svg class="icon icon-xs icon-primary"><use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use></svg>](../partner-qualificati)
