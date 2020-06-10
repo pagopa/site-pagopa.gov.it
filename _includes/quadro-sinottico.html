@@ -1,0 +1,36 @@
+{% assign righe = site.data.quadro-sinottico-servizi %}
+
+<div class="d-flex mb-2">
+    <div class="px-2 border-right"><span class="text-primary font-weight-bold small">Legenda tipologia</span></div>
+    <div class="px-2">
+        <span class="font-weight-bold small mr-1">Sm:</span>
+        <span class="small">Servizi minimi, </span>
+        <span class="font-weight-bold small ml-2 mr-1">Sb:</span>
+        <span class="small">Servizi base, </span>
+        <span class="font-weight-bold small ml-2 mr-1">Sd:</span>
+        <span class="small">Servizi distintivi, </span>
+        <span class="font-weight-bold small ml-2 mr-1">Sva:</span>
+        <span class="small">Servizi a valore aggiunto </span>
+    </div>
+</div>
+<table class="table">
+    {% for riga in righe %}
+    {% if riga[0]=='' and riga[1]!='' %}
+        <thead class="thead-light ">
+        <tr class="">
+        <th scope="col" >{{riga[1]}}</th>
+        <th scope="col" >{{riga[2]}}</th>
+        <th scope="col" >{{riga[3]}}</th>
+        </tr>
+        </thead>
+    {% elsif riga[0]=='' and riga[1]==''  %}
+    {% else %}
+        <tr>
+        <td scope="col" >{{riga[1]}}</td>
+        <td scope="col" >{{riga[2]}} </td>
+        <td scope="col" >{{riga[3]}}</td>
+        </tr>
+    {% endif %}
+    {% endfor %}
+
+</table>
