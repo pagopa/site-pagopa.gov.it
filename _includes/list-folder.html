@@ -1,0 +1,13 @@
+
+<div>
+{% assign folderToList = 'assets/bandi/' | append: include.folder %}
+<ul class="list-unstyled">
+{% for f in site.static_files %}
+  {% if f.path contains folderToList %}
+    <li>
+    <a href="{{f.path}}" title="{{f.name}}" download>{{f.name}}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+</div>
