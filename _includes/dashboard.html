@@ -4,23 +4,43 @@
             <div class="col-md-4 py-1">
                 <div class="card" id="card-no-border">
                     <div class="card-body text-center">
-                        <h4 style="color: rgb(0, 115, 230)">Totale transazioni</h4>
-                        <h4 id="totalt" style="color: rgb(0, 115, 230)">  # 101.499.471</h4>
+                        <h4 style="color: rgb(0, 115, 230)"> Totale transazioni
+                            <span tabindex="0" data-toggle="tooltip" title="Numero totale di transazioni gestite dal nodo pagoPa">
+                                <svg class="icon icon-sm align-top">
+                                  <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle">
+                                  </use>
+                                </svg>
+                             </span>
+                        </h4>
+                        <h4 id="totalt" style="color: rgb(0, 115, 230)">  # </h4>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 py-1">
                 <div class="card">
                     <div class="card-body text-center">
-                        <h4 style="color:rgb(0, 115, 230)">Importo totale</h4>
-                        <h4 id="totali" style="color:rgb(0, 115, 230)">€ 17.448.190.280</h4>
+                        <h4 style="color:rgb(0, 115, 230)">Importo totale
+                            <span tabindex="0" data-toggle="tooltip" title="Miliardi di euro transati dal nodo pagoPa">
+                                <svg class="icon icon-sm align-top">
+                                  <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle">
+                                  </use>
+                                </svg>
+                             </span>
+                        </h4>
+                        <h4 id="eTotal" style="color:rgb(0, 115, 230)">€ </h4>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 py-1">
                 <div class="card">
                     <div class="card-body text-center">
-                            <h4 style="color:rgb(0, 115, 230)">Tasso di crescita  <svg class="bg-light icon icon-sm align-top"><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle"></use></svg>
+                            <h4 style="color:rgb(0, 115, 230)">Tasso di crescita  
+                                <span tabindex="0" data-toggle="tooltip" title="Tasso di crescita calcolato dal 1 gennaio 2020 ad oggi vs lo stesso periodo del 2019">
+                                  <svg class="icon icon-sm align-top">
+                                    <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle">
+                                    </use>
+                                  </svg>
+                               </span>
                             </h4>
                         <h4 id="growthRate" style="color: rgb(0, 115, 230)"># </h4>
 
@@ -32,7 +52,14 @@
         <div class="col-md-4 py-1">
             <div class="card">
                 <div class="card-body text-center">
-                    <h4 style="color:rgb(0, 115, 230)">Transazioni 2019</h4>
+                    <h4 style="color:rgb(0, 115, 230)">Transazioni 2019
+                        <span tabindex="0" data-toggle="tooltip" title="# Numero totale di transazioni e € euro gestiti dal nodo pagoPa nell'anno 2019">
+                            <svg class="icon icon-sm align-top">
+                              <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle">
+                              </use>
+                            </svg>
+                         </span>
+                    </h4>
                     <h4 id="2019t" style="color: rgb(0, 115, 230)"># 2154312</h4>
                     <h4 id="2019e" style="color:rgb(0, 115, 230)">€ 8,341,588,984</h4>
                 </div>
@@ -41,7 +68,14 @@
         <div class="col-md-4 py-1">
             <div class="card">
                 <div class="card-body text-center">
-                    <h4 style="color:rgb(0, 115, 230)">Transazioni 2020</h4>
+                    <h4 style="color:rgb(0, 115, 230)">Transazioni 2020
+                        <span tabindex="0" data-toggle="tooltip" title="# Numero totale di transazioni e € euro gestiti dal nodo pagoPa nell'anno 2020">
+                            <svg class="icon icon-sm align-top">
+                              <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle">
+                              </use>
+                            </svg>
+                         </span>
+                    </h4>
                     <h4 id="2020t" style="color: rgb(0, 115, 230)"># 2154312</h4>
                     <h4 id="2020e" style="color:rgb(0, 115, 230)">€ 15431212121</h4>
                     
@@ -51,7 +85,14 @@
         <div class="col-md-4 py-1">
             <div class="card">
                 <div class="card-body text-center">
-                    <h4 style="color:rgb(0, 115, 230)">Previsioni prossimi 6 mesi</h4>
+                    <h4 style="color:rgb(0, 115, 230)">Previsioni 2020
+                        <span tabindex="0" data-toggle="tooltip" title="Previsioni secondo i nostri modelli del numero di transazoni e di euro per l'anno 2020">
+                            <svg class="icon icon-sm align-top">
+                              <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle">
+                              </use>
+                            </svg>
+                         </span>
+                    </h4>
                     <h4 id="predTotal" style="color: rgb(0, 115, 230)"># </h4>
                     <h4 id="predEuro" style="color:rgb(0, 115, 230)">€ </h4>
                 </div>
@@ -61,8 +102,8 @@
     <div class="row my-1">
         <div class="col-md-12 py-1">
             <div class="card">
-                <h5 class="card-title text-center"># Transazioni andamento e previsioni</h5>
-                <p class="card-text text-center">Andamento storico del numero totale accumulato di transazioni e intervallo previsionale dei prossimi 6 mesi.</p>
+                <h5 class="card-title text-center"># Transazioni mensili</h5>
+                <p class="card-text text-center">Numero di transazioni mensili accumulate e gestite dal nodo pagoPa nel tempo</p>
                 <div class="card-body">
                     <canvas id="totalPred"></canvas>
                 </div>
@@ -73,7 +114,7 @@
         <div class="col-md-12 py-1">
             <div class="card">
                 <h5 class="card-title text-center"># Transazioni 2019 vs 2020</h5>
-                <p class="card-text text-center"># Transazioni raggruppate per mese negl'anni 2019 e 2020</p>
+                <p class="card-text text-center"># Numero di transazioni mensili negli anni 2019 e 2020</p>
                 <div class="card-body">
                     <canvas id="byMonth"></canvas>
                 </div>
