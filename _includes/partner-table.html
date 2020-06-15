@@ -1,0 +1,251 @@
+{% assign rowsdettagli = site.data.partner-dettagli %}
+{% assign rowsdettagli_filtered = rowsdettagli | where_exp: "item", "item['Confermo di essere in possesso dei servizi tipologia 1 minimi e 2 base']!='No'"  %}
+
+
+<div id="accordionDiv" class="collapse-div" role="tablist">
+    {% for row in rowsdettagli_filtered %}
+  <div class="collapse-header" id="heading{{forloop.index}}">
+    <button data-toggle="collapse" data-target="#accordion{{forloop.index}}" aria-expanded="false" aria-controls="accordion{{forloop.index}}">
+      <span class="h5">{{row['Ragione Sociale']}}</span>
+    </button>
+  </div>
+  <div id="accordion{{forloop.index}}" class="collapse" role="tabpanel" aria-labelledby="heading{{forloop.index}}" data-parent="#accordionDiv">
+    <div class="collapse-body">
+      
+        <div class="row">
+            <div class="col-12 my-2">
+                <div class="small text-uppercase text-muted ">Servizi di Piattaforma</div>
+            </div>
+            <div class="col col-sm-4">
+                {% if row['Messa a disposizione dei documenti scambiati con pagoPA (RT,RPT, flussi di rendicontazione) per conservazione']=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Messa a disposizione dei documenti scambiati con pagoPA (RT,RPT, flussi di rendicontazione) per conservazione</span>
+            </div>
+            <div class="col col-sm-4">
+                {% if row['Scarico flussi di rendicontazione']=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Scarico flussi di rendicontazione</span>
+            </div>
+            <div class="col col-sm-4">
+                {% if row['Front-End Pagamenti on line']=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Front-End Pagamenti on line</span>
+            </div>
+            <div class="col-12 my-2"></div>
+            <div class="col col-sm-4">
+                {% if row['Invio esito pagamento']=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Invio esito pagamento</span>
+            </div>
+            <div class="col col-sm-4">
+                {% if row['Possibilità invio PEC']=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Possibilità invio PEC</span>
+            </div>
+            <div class="col col-sm-4">
+                {% if row['Avvisatura massiva']=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Avvisatura massiva</span>
+            </div>
+            <div class="col-12 my-2"></div>
+            <div class="col col-sm-4">
+                {% if row['Invio automatico flussi al postalizzatore']=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Invio automatico flussi al postalizzatore</span>
+            </div>
+            <div class="col col-sm-4">
+                {% if row['Avvisatura singola']=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Avvisatura singola</span>
+            </div>
+            <div class="col col-sm-4">
+                {% if row['Servizi di quadratura del flusso di pagamenti']=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Servizi di quadratura del flusso di pagamenti</span>
+            </div>
+            <div class="col-12 mt-4 mb-2">
+                <div class="small text-uppercase text-muted ">Servizi di supporto e assistenza</div>
+            </div>
+            <div class="col col-sm-4">
+                {% if row['Help Desk e gestione degli incidenti']=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Help Desk e gestione degli incidenti</span>
+            </div>
+            <div class="col col-sm-4">
+                {% if row["Disponibilità di manuali per l'utenza on line"]=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Disponibilità di manuali per l'utenza on line</span>
+            </div>
+            <div class="col col-sm-4">
+                {% if row["Export dell'APA"]=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Export dell'APA</span>
+            </div>
+            <div class="col-12 my-2"></div>
+            <div class="col col-sm-4">
+                {% if row["Formazione"]=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Formazione</span>
+            </div>
+            <div class="col col-sm-4">
+                {% if row["Gestione Autorizzazione stampa in proprio"]=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Gestione Autorizzazione stampa in proprio</span>
+            </div>
+            <div class="col col-sm-4">
+                {% if row["Iniziative di diffusione"]=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Iniziative di diffusione</span>
+            </div>
+            <div class="col-12 my-2"></div>
+            <div class="col col-sm-4">
+                {% if row["Iniziative di comunicazione"]=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Iniziative di comunicazione</span>
+            </div>
+            <div class="col col-sm-4">
+                {% if row["Gestione incassi extra Nodo"]=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Gestione incassi extra Nodo</span>
+            </div>
+            <div class="col-12 mt-4 mb-2">
+                <div class="small text-uppercase text-muted ">Servizi accessori / a valore aggiunto</div>
+            </div>
+            <div class="col col-sm-4">
+                {% if row["Integrazione con piattaforma App IO"]=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Integrazione con piattaforma App IO</span>
+            </div>
+            <div class="col col-sm-4">
+                {% if row["Riconciliazione"]=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Riconciliazione</span>
+            </div>
+            <div class="col col-sm-4">
+                {% if row["Pagamento con POS"]=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Pagamento con POS</span>
+            </div>
+            <div class="col-12 my-2"></div>
+            <div class="col col-sm-4">
+                {% if row["Integrazione con ANPR"]=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Integrazione con ANPR</span>
+            </div>
+            <div class="col col-sm-4">
+                {% if row["SIOPE +"]=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">SIOPE +</span>
+            </div>
+            <div class="col col-sm-4">
+                {% if row["Dashboard per analisi pagamenti"]=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Dashboard per analisi pagamenti</span>
+            </div>
+            <div class="col-12 my-2"></div>
+            <div class="col col-sm-4">
+                {% if row["Fascicolo del cittadino"]=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Fascicolo del cittadino</span>
+            </div>
+            <div class="col col-sm-4">
+                {% if row["Interoperabilità con contabilità"]=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Interoperabilità con contabilità</span>
+            </div>
+            <div class="col col-sm-4">
+                {% if row["Interoperabilità con gestionali"]=='Si' %}
+                <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+                {% else %}
+                <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+                {% endif %}
+                <span class="small">Interoperabilità con gestionali</span>
+            </div>
+            {% if row["Multiline"]!="" %}
+            <div class="col-12 mt-4 mb-2">
+                <div class="small text-uppercase text-muted ">Referenze</div>
+            </div>
+            <div class="col-12">
+                <span class="small">{{row["Multiline"] | newline_to_br | strip_newlines}}</span>
+            </div>
+            {% endif %}
+        </div><!--row-->
+    </div><!--collapse-->
+  </div><!--accordion-->
+  {% endfor %}
+</div>

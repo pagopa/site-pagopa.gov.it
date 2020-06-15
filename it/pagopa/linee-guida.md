@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Linee guida
+title: Linee guida e regole tecniche 
 description: 
 lang: it
 ref: linee-guida
 order: 22
 child_of_ref: cos-e-pago-pa
 ---
+
+<span class="badge badge-secondary">New</span> [Il pagamento presso POS fisici nel sistema pagoPA](https://docs.google.com/document/d/1BOG-OBQm7WMXyfpyPlfRc8ZhbxFJmt-3H7INMqG_oVY/edit?usp=drivesdk)
 
 Le <a href="https://docs.italia.it/italia/pagopa/lg-pagopa-docs/it/stabile/" target="_blank">Linee guida per l’effettuazione dei pagamenti elettronici a favore delle pubbliche amministrazioni e dei gestori di pubblici</a> definiscono regole, standard e specifiche tecniche che le PA e i PSP devono seguire per integrarsi al sistema pagoPA.
 

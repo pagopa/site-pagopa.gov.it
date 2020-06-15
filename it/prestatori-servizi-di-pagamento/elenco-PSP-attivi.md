@@ -4,6 +4,7 @@ title: Elenco PSP attivi
 description: 
 lang: it
 ref: prestatori-servizi-di-pagamento-elenco-psp-attivi
+usedatatables: true
 order: 50
 child_of_ref: prestatori-servizi-di-pagamento
 ---
