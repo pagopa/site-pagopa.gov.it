@@ -22,11 +22,11 @@ var PSPBGCOLORS = [
   "rgb(223, 159, 223)",
 ];
 var PSPBGCOLORS2019 = [
-  "rgb(77, 184, 255, 0.2)",
-  "rgb(230, 179, 255, 0.2)",
-  "rgb(255, 255, 102, 0.2)",
-  "rgb(128, 255, 170, 0.2)",
-  "rgb(223, 159, 223, 0.2)",
+  "rgb(77, 184, 255, 0.5)",
+  "rgb(230, 179, 255, 0.5)",
+  "rgb(255, 255, 102, 0.5)",
+  "rgb(128, 255, 170, 0.5)",
+  "rgb(223, 159, 223, 0.5)",
 ];
 
 var ECDBGCOLORS = [
@@ -37,14 +37,14 @@ var ECDBGCOLORS = [
   "rgb(77, 255, 255)",
 ];
 var ECDBGCOLORS2019 = [
-  "rgb(77, 210, 255, 0.2)",
-  "rgb(179, 179, 230, 0.2)",
-  "rgb(255, 204, 128, 0.2)",
-  "rgb(70, 210, 70, 0.2)",
-  "rgb(77, 255, 255, 0.2)",
+  "rgb(77, 210, 255, 0.5)",
+  "rgb(179, 179, 230, 0.5)",
+  "rgb(255, 204, 128, 0.5)",
+  "rgb(70, 210, 70, 0.5)",
+  "rgb(77, 255, 255, 0.5)",
 ];
 
-var COLORS = ["rgb(51, 102, 255, 0.2)", "rgb(153, 51, 255, 0.2)"];
+var COLORS = ["rgb(51, 102, 255, 0.5)", "rgb(153, 51, 255, 0.5)"];
 
 var BORDERCOLORS = ["rgb(51, 102, 255)", "rgb(153, 51, 255)"];
 
@@ -119,15 +119,15 @@ function generateTop(topEdcs, key) {
       {
         label: "2019",
         backgroundColor: colors2019,
-        borderColor: "black",
-        borderWidth: 2,
+        borderColor: "#ccc",
+        borderWidth: 1,
         data: y2019,
       },
       {
         label: "2020",
         backgroundColor: colors,
-        borderColor: "green",
-        borderWidth: 2,
+        borderColor: "#ccc",
+        borderWidth: 1,
         data: y2020,
       },
     ],
