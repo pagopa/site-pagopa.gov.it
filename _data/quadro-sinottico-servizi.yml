@@ -1,0 +1,237 @@
+- - ''
+  - Servizi di piattaforma
+  - Tipologia
+  - Descrizione
+- - '1'
+  - Gestione Archivio Pagamenti in Attesa
+  - Sm
+  - >-
+    Sistema Funzionale che permette all'EC di creare, visualizzare, modificare
+    le proprie posizioni debitorie tramite scambio dati M2M o manualmente
+- - '2'
+  - >-
+    Messa a disposizione dei documenti scambiati con pagoPA (RT,RPT, flussi di
+    rendicontazione)  
+  - Sva
+  - >-
+    Il Parter Tecnologico mette a disposizione i flussi in formato XML all'Ente
+    per inviarle in conservazione digitale
+- - '3'
+  - Integrazione con e@bollo
+  - Sm
+  - >-
+    Integrazione del servizi di @e.bollo dell'Agenzia delle Entrate, come da
+    linee guida pagoPA
+- - '4'
+  - Scarico flussi di rendicontazione
+  - Sva
+  - >-
+    Possibilità per l'EC di scaricare un report contenente tutti i flussi di
+    rendicontazione inviati dai diversi PSP in ogni giornata operativa
+- - '5'
+  - 'Modelli di pagamento '
+  - Sm
+  - >-
+    Capacità di innescare pagamenti con ogni modello previsto da linee guida
+    pagoPAe allegati
+- - '6'
+  - Profilazione personale EC con diversi ruoli e permessi
+  - Sb
+  - >-
+    Possibilità di creare e gestire utenti differenti che abbiano visione e
+    capacità di modifica di diverse tab del back office o diversi servizi
+- - '7'
+  - Rateizzazione
+  - Sb
+  - Capacità di gestire i pagamenti rateali
+- - '8'
+  - Attualizzazione del debito
+  - Sb
+  - >-
+    Funzionalità che permette l'attualizzazione in tempo reale dell'importo del
+    debito, nel momento in cui il cittadino sta effettuando il pagamento, in
+    modo che l'importo pagato sia quello corretto perchè indicato dall'EC
+- - '9'
+  - Disponibilità della ricevuta telematica
+  - Sb
+  - >-
+    Funzione di front end che consente al pagatore di recuperare ricevuta di
+    ogni pagamento effettuato in vavore dell'EC
+- - '10'
+  - Gestione Carrello multi beneficiario multi pagatore
+  - Sb
+  - >-
+    Possibilità di effettuare molteplici pagamenti in unica soluzione, anche a
+    beneficio di diversi EC e/o con diversi soggetti pagatori
+- - '11'
+  - Front-End Pagamenti on line
+  - Sd
+  - >-
+    Funzionalità di front end che complessivamente rendono disponibili:
+    pagamenti con modello 1, creazione posizioni debitorie spontanee, conoscere
+    esito pagamento, ecc
+- - '12'
+  - Invio esito pagamento
+  - Sva
+  - >-
+    Il Partner Tecnologico è in grado di inviare tramite WS l'esito del
+    pagamento alla PA
+- - '13'
+  - Possibilità invio PEC
+  - Sva
+  - >-
+    Possibilità di collegare il back office al server di posta elettronica della
+    PA così da poter inviare gli avvisi di pagamento via PEC della PA
+- - '14'
+  - Avvisatura massiva
+  - Sva
+  - Possibilità di creare un unico PDF con più avvisi di pagamento
+- - '15'
+  - Invio automatico flussi al postalizzatore
+  - Sva
+  - >-
+    Possibilità di inviare un tracciato o un file al postalizzatore della PA
+    direttamente da back office
+- - '16'
+  - Avvisatura singola
+  - Sva
+  - >-
+    Possibilità di stampare o inviare via email un singolo avviso di pagamento
+    generato da back office
+- - '17'
+  - Servizi di quadratura del flusso di pagamenti
+  - Sd
+  - Verifica della coerenza dei dati del FdR con quelli di pagamento
+- - ''
+  - ''
+  - ''
+  - ''
+- - ''
+  - Servizi di supporto e assistenza
+  - Tipologia
+  - 'Descrizione '
+- - '1'
+  - Gestione del giornale degli eventi
+  - Sb
+  - >-
+    Gestione delle informazioni previste nella struttura "Giornale degli eventi"
+    di cui alle SANP
+- - '2'
+  - Help Desk e gestione degli incident
+  - Sd
+  - 'Presenza di un servizio di assistenza di primo e secondo livello '
+- - '3'
+  - Disponibilità di manuali per l'utenza on line
+  - Sva
+  - >-
+    Distribuzione di manuali ai cittadini o possibilità di scaricarli da front
+    end
+- - '4'
+  - Export dell'APA
+  - Sva
+  - >-
+    Funzionalità che permette di esportare come file l'archivio delle posizioni
+    debitorie
+- - '5'
+  - Formazione
+  - Sva
+  - Formazione all'EC sul sistema pagoPA e sulla soluzione tecnologica
+- - '6'
+  - Gestione Autorizzazione stampa in proprio
+  - Sva
+  - >-
+    Il Partner Tecnologico si prende in carico, nel rispetto dei vincoli
+    formali, il processo di richiesta di autorizzazione alla stampa in proprio
+    nei confronti di Poste Italiane
+- - '7'
+  - Iniziative di diffusione
+  - Sva
+  - 'Supporto all''EC per l''erogazione di iniziative di diffusione sul territorio '
+- - '8'
+  - Iniziative di comunicazione
+  - Sva
+  - >-
+    Supporto all'EC nella definizione di una strategia di comunicazione con i
+    cittadini
+- - '9'
+  - Gestione incassi extra Nodo
+  - Sd
+  - >-
+    Capacità di gestire gestire i pagamenti effettuati con servizi diversi da
+    pagoPA fra cui quelli effettuati con servizi esplicitamente derogati dalle
+    LG (per cassa, SDD, ecc) 
+- - ''
+  - ''
+  - ''
+  - ''
+- - ''
+  - Servizi accessori
+  - Tipologia
+  - Descrizione
+- - '1'
+  - Integrazione con piattaforma App IO
+  - Sd
+  - Integrazione del back office con l'app IO
+- - '2'
+  - Riconciliazione
+  - Sd
+  - >-
+    Capacità del Partner Tecnologico di fornire l'export dei dati necessari al
+    SW gestionale per effettuale la riconciliazione automatica del pagamento e
+    la produzione della reversale di incasso
+- - '3'
+  - 'Pagamento con POS '
+  - Sva
+  - Fornire all'EC la possibilità di incassare tramite POS con procedura pagoPA
+- - '4'
+  - Integrazione con ANPR
+  - Sva
+  - >-
+    Integrazione dell'Archivio posizioni debitorie con ANPR, nel rispetto dei
+    vincoli formali
+- - '5'
+  - SIOPE +
+  - Sva
+  - >-
+    Integrazione con il sistema SIOPE + in particolare import dei flussi bancari
+    dal giornale di cassa per confronto con rendicontazione incassi 
+- - '6'
+  - 'Codifica dati per analisi pagamenti '
+  - Sva
+  - >-
+    Creazione di una codifica per ogni tipologia di tributo / incasso al fine di
+    analizzare le tipolgie di entrate e la relativa diffusione 
+- - '7'
+  - Fascicolo del cittadino
+  - Sva
+  - >-
+    Possibilità per il cittadino, dopo essersi autenticato, di visionare tutte
+    le posizioni debitorie a proprio carico
+- - '8'
+  - Interoperabilità con contabilità
+  - Sva
+  - >-
+    Capacità del partner tecnologico di integrarsi con il software di
+    contabilità presente nell'Ente tramite la messa a disposizione di interfacce
+    applicative (WS) per il caricamento/interrogazione delle posizioni e delle
+    relative imputazioni contabili se presenti
+- - '9'
+  - Interoperabilità con gestionali
+  - Sva
+  - >-
+    Capacità del partner tecnologico di integrarsi con i gestionali già presenti
+    nell'Ente Creditore
+- - '10'
+  - Front end multilingue
+  - Sva
+  - 'Disponibilità di front end multilingue (inglese,francese, tedesco, sloveno)'
+- - '11'
+  - Integrabilità con altri front-end
+  - Sva
+  - >-
+    La piattaforma di pagamento può essere configurata per utilizzare front-end
+    non nativi
+- - '12'
+  - 'Bilinguismo '
+  - Sb
+  - 'Multilingue per regioni e province autonome in cui vige il bilinguismo '
