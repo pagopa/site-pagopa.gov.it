@@ -235,14 +235,14 @@ function generatePredData(dashboardData) {
         borderColor: "rgb(0, 115, 230)",
       },
       {
-        label: "# Ottimistiche",
+        label: "# Stime ottimistiche",
         data: yUpperTotals,
         borderWidth: 1,
         backgroundColor: "rgb(230, 255, 245, 0.2)",
         borderColor: "rgb(77, 255, 184)",
       },
       {
-        label: "# Pessimistiche",
+        label: "# Stime pessimistiche",
         data: yLowerTotals,
         borderWidth: 1,
         backgroundColor: "rgb(230, 255, 245, 0.8)",
