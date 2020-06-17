@@ -113,6 +113,10 @@ function generateTop(topEdcs, key) {
     colors2019 = PSPBGCOLORS2019;
   }
 
+  uniqueKeys = uniqueKeys.map(function (item) {
+    return item == "AgID" ? "MyBank" : item;
+  });
+
   return {
     labels: uniqueKeys,
     datasets: [
@@ -161,6 +165,10 @@ function generateTopForPie(keysTotalsDates, key) {
   if (key === "PSP") {
     colors = PSPBGCOLORS;
   }
+
+  uniqueKeys = uniqueKeys.map(function (item) {
+    return item == "AgID" ? "MyBank" : item;
+  });
 
   return {
     labels: uniqueKeys,
