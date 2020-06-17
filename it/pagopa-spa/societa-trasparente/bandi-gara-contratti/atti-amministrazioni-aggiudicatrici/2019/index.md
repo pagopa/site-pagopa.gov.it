@@ -15,6 +15,12 @@ bandi:
       name: "03. Affidamento diretto, ai sensi dell’art. 36, comma 2, lett. a) del D.Lgs. 50/2016 per l'acquisto di n. 10 computer modello macbook air - CIG Z0A2B64349"
     - id: "2019/04"
       name: "04. Affidamento diretto, ai sensi dell'art. 36, co. 2, lett. a) del D.lgs. 50/2016 per l'acquisto del prodotto “Attivazione Pannello per gestione PEC” a valere sul catalogo dei prodotti offerti dalla società ARUBA PEC - CIG Z8F2B09DA5"
+    - id: "2019/05"
+      name: "05. Affidamento diretto, ai sensi dell'art. 36, co. 2, lett. a) del D.lgs. 50/2016, per l'acquisto di n. 6 SSL RapidSSL (DigiCert) DV con validità di due anni, a valere sul catalogo dei prodotti offerti dalla Società Euro Servizi srl - CIG ZEE2A2258C"
+    - id: "2019/06"
+      name: "06. Affidamento diretto ai sensi dell'art. 36, co. 2, lett. a) del D.Lgs. 50/2016 dei servizi di contabilità' interna e del personale - CIG 8037975ACC"
+    - id: "2019/07"
+      name: "07. Procedura, ai sensi dell’art. 36, comma 2, lett. b) del D.Lgs. 50/2016 per l’acquisizione dei servizi professionali di revisione legale dei conti per la società PagoPA S.p.A. - CIG 808708272E"
 ---
 
 
