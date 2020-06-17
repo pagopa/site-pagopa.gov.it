@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Roadmap
+layout_wide: 1
+title: Dashboard
 description: 
 lang: it
-ref: numeri-e-roadmap
+ref: dashboard
 order: 23
 child_of_ref: cos-e-pago-pa
 ---
 
-{% include roadmap.html %}
+{% include dashboard.html %}
+
