@@ -17,7 +17,7 @@ PagoPA S.p.A. è alla ricerca di un Junior Operations Manager, che si occupi di 
 Il Junior Operations Manager attraverso un percorso di training on the job guidato dal Responsabile del Dipartimento si formerà sulle seguenti attività che sarà chiamato a seguire:
 * analisi e definizione dei vincoli per l’integrazione degli strumenti deputati all’ITSM;
 * analisi per la customizzazione degli attuali strumenti in uso da PagoPA S.p.A. (PdA. Export monitoraggio, trello etc);
-* tecniche di monitoraggio di applicazioni e sistemi informatici; e
+* tecniche di monitoraggio di applicazioni e sistemi informatici;
 * gestione ed amministrazione dei sistemi informativi.
 
 La risorsa si occuperà altresì di supportare il Team Operations nel servizio di Assistenza per i prodotti e servizi sviluppati ed offerti dalla Società.
