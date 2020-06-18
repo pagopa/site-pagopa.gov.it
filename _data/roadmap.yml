@@ -1,16 +1,65 @@
 it:
   - title: "Rilascio WISP 1.3"
-    date: Luglio 2017
-    description: ""
-  - title: "Rilascio SDK mobile WISP 2.0"
-    date: Ottobre 2017
-    description: ""
-  - title: "Rilascio in collaudo alle PA WISP 2.0 e SDK mobile"
-    date: Dicembre 2017
-  - title: "Rilascio linee guida nuovo avviso cartaceo"
-    date: Giugno 2018
-  - title: "Rilascio WISP 2.0 per tutte le Pubbliche Amministrazioni"
-    date: Gennaio 2019
-  - title: "Rilascio nuova architettura"
-    date: Giugno 2019
-    todo: true
+    date: 20173
+    description: "Presentazione dell'interfaccia web per la selezione del PSP"
+    category: Prodotto
+  - title: "RAV di Agenzia delle Entrate-Riscossione"
+    description: "I RAV emessi da Agenzia delle Entrate-Riscossione possono essere pagati su pagoPA"
+    category: Servizio
+    date: 20173
+  - title: "WISP 2.0"
+    date: 20174
+    description: "Nuova interfaccia centralizzata per la selezione del PSP"
+    category: Prodotto
+  - title: "Specifiche POS fisico"
+    description: "Presentazione di linee guida per l’integrazione di un POS fisico all’interno degli sportelli degli Enti Creditori"
+    date: 20181
+    category: Prodotto
+  - title: "Nuovo Avviso di Pagamento"
+    description: "Introduzione dell’avviso di pagamento standard pagoPA, con design più intuitivo dei bollettini anche per i pagamenti nei punti fisici"
+    category: Servizio
+    date: 20182
+  - title: "Nuovo Wisp 2.0"
+    description: "Adozione della nuova interfaccia da parte di tutte le pubbliche amministrazioni"
+    date: 20191
+    category: Servizio
+  - title: "Pagamento Bollo Auto"
+    description: "Grazie alla collaborazione con ACI, è possibile pagare attraverso pagoPA anche i bolli in scadenza per i propri veicoli"
+    category: Servizio
+    date: 20191
+  - title: "BancomatPay"
+    description: "Ai metodi di pagamento disponibili su pagoPA si aggiunge BancomatPay, ampliando le opzioni di scelta per i cittadini "
+    category: Servizio
+    date: 20192
+  - title: "Nuova Architettura"
+    description: "Aggiornamento dell’infrastruttura, finalizzato a garantire massime prestazioni in vista dell’adesione di tutte le Pubbliche Amministrazioni al nodo dei pagamenti"
+    category: Prodotto
+    date: 20193
+  - title: "Nuove Specifiche MyBank"
+    description: "Definizione di una nuova architettura per i pagamenti tramite MyBank"
+    category: Prodotto
+    date: 20193
+  - title: "Helpdesk aperto al pubblico"
+    description: "Miglioramento del servizio di assistenza dedicato a pagoPA, ora disponibile anche per i cittadini "
+    category: Servizio
+    date: 20201
+  - title: "Postepay"
+    description: "Postepay si aggiunge alla lista dei PSP aderenti a pagoPA"
+    category: Servizio
+    date: 20202
+  - title: "Personalizzazione del WISP (logo + lingua)"
+    description: " Possibilità di personalizzare la landing page di pagoPA con un proprio logo e modificare la lingua di presentazione del WISP"
+    category: Prodotto
+    date: 20202
+  - title: "Pulsante unico MyBank"
+    description: "Introduzione di un unico pulsante per tutti i pagamenti MyBank all’interno della sezione “Addebito in conto"
+    category: Servizio
+    date: 20202
+  - title: "Gestione convenzioni"
+    description: "Gestione di convenzioni tra Ente Creditore e PSP, per consentire una riduzione dei costi di commissione a carico del cittadino"
+    category: Servizio
+    date: 20203
+  - title: "Wisp Light for Mobile - SDK deprecated"
+    description: "Introduzione di una nuova interfaccia dedicata per l’esperienza mobile, che consente esclusivamente pagamenti con carta di utenti guest"
+    category: Prodotto
+    date: 20203
