@@ -59,7 +59,3 @@ it:
     description: "Gestione di convenzioni tra Ente Creditore e PSP, per consentire una riduzione dei costi di commissione a carico del cittadino"
     category: Servizio
     date: 20203
-  - title: "Wisp Light for Mobile - SDK deprecated"
-    description: "Introduzione di una nuova interfaccia dedicata per l’esperienza mobile, che consente esclusivamente pagamenti con carta di utenti guest"
-    category: Prodotto
-    date: 20203
