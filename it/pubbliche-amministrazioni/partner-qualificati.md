@@ -7,8 +7,7 @@ ref: partner-qualificati
 child_of_ref: partner-intermediari
 order: 43
 ---
+{:.small .text-muted }
+_Dati aggiornati al 22 giugno 2020_
 
-{:.lead .text-muted}
-Pagina in allestimento
-
-
+{% include partner-table.html %}
