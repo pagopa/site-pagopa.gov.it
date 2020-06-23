@@ -1,15 +1,72 @@
 {% assign rowsdettagli = site.data.partner-dettagli %}
 {% assign rowsdettagli_filtered = rowsdettagli | where_exp: "item", "item['Confermo di erogare i servizi obbligatori tipologia Sm e Sb']!='No'" | sort: 'Ragione Sociale del Contraente' %}
+{% assign filterLabels = '' %}
 
+{% for row in rowsdettagli_filtered | limit: 1 %}
+    {% for r in row %}
+        {% assign filterLab = r | first %}
+        {% unless filterLab contains 'Referenza n' or filterLab contains 'Confermo di'
+            or filterLab contains 'Ragione Sociale del'  %}
+            {% capture filterLabels %}
+                {{filterLabels}}
+                <div class="form-check col-4">
+                    <input id="checkbox{{forloop.index}}" type="checkbox" class="filter-checkbox"
+                           value="data-partner-filter-{{forloop.index}}">
+                    <label for="checkbox{{forloop.index}}">{{filterLab}}</label>
+                </div>
+            {% endcapture %}
+        {% endunless %}
+    {% endfor %}
+{% endfor %}
+
+<div class="my-4 filterPartner">
+    <div class="rounded p-3 bg-light">
+        <h6 class="m-0" style="cursor:pointer" data-toggle="collapse" data-target="#collapseFilters" aria-expanded="false" aria-controls="collapseFilters">
+        <svg class="icon icon-sm mr-1"><use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-list"></use></svg>
+        Filtra i Partner per tipologia di servizi offerti 
+        </h6>
+        <div class="collapse" id="collapseFilters">
+        <div class="my-2">
+           <div class="row">
+                
+                {{filterLabels}}
+                
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
 
 <div id="accordionDiv" class="collapse-div" role="tablist">
-    {% for row in rowsdettagli_filtered %}
-  <div class="collapse-header" id="heading{{forloop.index}}">
+  {% for row in rowsdettagli_filtered %}
+    {% assign referenze = '' %}
+    {% assign dataAttributes = '' %}
+    {% for k in row %}
+        {% assign label = k | first %}
+        {% assign value = k | last %}
+        {% comment %}Let's manage the data attributes to apply to the card ======{% endcomment %}
+        {% if value!='No' %}
+            {% capture dataAttributes %}
+                data-partner-filter-{{forloop.index}} {{dataAttributes}}
+            {% endcapture %}
+        {% endif %}
+        {% comment %}Let's manage the Reference field to display ======{% endcomment %}
+        {% if label contains 'Referenza ' %}
+            {% capture referenze %}
+            {{referenze}}
+            {% if referenze !='' %}<br>{% endif %}
+            {{value}}
+            {% endcapture %}
+        {% endif %}
+    {% endfor %}
+
+  <div class="collapse-header" id="heading{{forloop.index}}" {{dataAttributes}}>
     <button data-toggle="collapse" data-target="#accordion{{forloop.index}}" aria-expanded="false" aria-controls="accordion{{forloop.index}}">
       <span class="h5">{{row['Ragione Sociale del Contraente']}}</span>
     </button>
   </div>
-  <div id="accordion{{forloop.index}}" class="collapse" role="tabpanel" aria-labelledby="heading{{forloop.index}}" data-parent="#accordionDiv">
+  <div id="accordion{{forloop.index}}" class="collapse" role="tabpanel" aria-labelledby="heading{{forloop.index}}" data-parent="#accordionDiv"
+        {{dataAttributes}} >
     <div class="collapse-body">
       
         <div class="row">
@@ -267,12 +324,7 @@
             </div>
             <div class="col-12">
                 <span class="small">
-                {% for k in row %}
-                    {% assign label = k | first %}
-                    {% if label contains 'Referenza ' %}
-                    {{k | last}}<br>
-                    {% endif %}
-                {% endfor %}
+                {{referenze}}
                 </span>
             </div>
             {% endif %}

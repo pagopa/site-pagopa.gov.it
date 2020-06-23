@@ -59,5 +59,13 @@ $(function() {
         
     });
 
+    // FILTER PARTNERS
+    var $filterchecks = $('.filter-checkbox');
+
+    $('.filter-checkbox').change(function() {
+        console.log ($(this).val());
+    });
+
+
 
 });
