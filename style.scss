@@ -117,11 +117,21 @@
   font-size: 16px;
 }
 
-.filterPartner {
-  .form-check {
-    label {
-      font-size: 0.9rem;
-      margin-bottom: 0;
+body.page--partner-qualificati {
+  .filterPartner {
+    .form-check {
+      label {
+        font-size: 0.9rem;
+        margin-bottom: 0;
+      }
+    }
+    
+  }
+
+  .partner-unselected {
+    opacity: 0.3;
+    button {
+      pointer-events: none; 
     }
   }
 }

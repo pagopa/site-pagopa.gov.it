@@ -60,10 +60,23 @@ $(function() {
     });
 
     // FILTER PARTNERS
-    var $filterchecks = $('.filter-checkbox');
 
     $('.filter-checkbox').change(function() {
-        console.log ($(this).val());
+        var $allItems = $('[data-partner');
+        var $checked = $('.filterPartner .filter-checkbox:checked');
+        var selector = '';
+        $checked.each(function(){
+            var value = $(this).val();
+            selector += '['+value+']';
+        });
+        var $targets = $(selector);
+        if ($targets.length > 0 ) {
+            $allItems.removeClass('partner-selected').removeClass('partner-unselected');
+            $targets.addClass('partner-selected');
+            $allItems.filter(':not(.partner-selected)').addClass('partner-unselected');
+        } else {
+            $allItems.removeClass('partner-selected').removeClass('partner-unselected');
+        }
     });
 
 

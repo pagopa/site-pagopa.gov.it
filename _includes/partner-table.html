@@ -60,13 +60,13 @@
         {% endif %}
     {% endfor %}
 
-  <div class="collapse-header" id="heading{{forloop.index}}" {{dataAttributes}}>
+  <div class="collapse-header" id="heading{{forloop.index}}" data-partner {{dataAttributes}}>
     <button data-toggle="collapse" data-target="#accordion{{forloop.index}}" aria-expanded="false" aria-controls="accordion{{forloop.index}}">
       <span class="h5">{{row['Ragione Sociale del Contraente']}}</span>
     </button>
   </div>
   <div id="accordion{{forloop.index}}" class="collapse" role="tabpanel" aria-labelledby="heading{{forloop.index}}" data-parent="#accordionDiv"
-        {{dataAttributes}} >
+        data-partner {{dataAttributes}} >
     <div class="collapse-body">
       
         <div class="row">
