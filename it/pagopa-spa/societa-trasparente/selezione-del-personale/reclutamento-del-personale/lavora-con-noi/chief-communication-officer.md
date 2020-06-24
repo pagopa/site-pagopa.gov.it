@@ -9,6 +9,9 @@ jazz_url: https://pagopa.applytojob.com/apply/OjYQZRzGt7/Chief-Communication-Off
 pec_cv: false
 iframeheight: 2300
 is_new: true
+metadata:
+    apertura: 17/04/2020
+    chiusura: 30/06/2020
 ---
 
 PagoPA S.p.A. è alla ricerca di un esperto in comunicazione d’impresa nel ruolo di _Chief Communication Officer_, che ha il compito di definire e implementare strategie di comunicazione volte a favorire il corretto posizionamento della società presso i diversi stakeholder, veicolando all’esterno la visione strategica, le peculiarità e le finalità dei singoli progetti e dei relativi prodotti. 

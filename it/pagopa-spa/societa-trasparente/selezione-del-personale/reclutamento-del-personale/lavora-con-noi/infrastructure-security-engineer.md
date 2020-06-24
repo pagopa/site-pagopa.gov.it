@@ -5,10 +5,16 @@ lang: it
 layout: job
 ref: infrastructure-security-engineer
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/zF3te3WFu1/Infrastructure-Security-Engineer
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
+metadata:
+    apertura: 21/10/2019
+    chiusura: 25/06/2020
+    numricercate: 1
+    numassunte: 2
 ---
 
 Stiamo cercando persone dotate di passione, grinta e integrità, che condividano la nostra missione.

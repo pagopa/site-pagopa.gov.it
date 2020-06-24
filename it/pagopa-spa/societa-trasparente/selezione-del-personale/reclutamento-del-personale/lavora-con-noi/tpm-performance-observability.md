@@ -5,10 +5,16 @@ lang: it
 layout: job
 ref: tpm-performance-observability
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/LbI1GGTgyh/Technical-Project-Manager-Performance-Observability
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
+metadata:
+    apertura: 22/10/2019
+    chiusura: 25/06/2020
+    numricercate: 1
+    numassunte: 1
 ---
 
 Stiamo cercando persone dotate di passione, grinta e integrità, che condividano la nostra missione.

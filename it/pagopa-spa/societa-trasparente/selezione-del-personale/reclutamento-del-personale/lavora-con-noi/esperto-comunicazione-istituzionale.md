@@ -33,7 +33,7 @@ Le principali responsabilità dell’Esperto di Comunicazione Istituzionale incl
 * forti capacità  comunicative, interpersonali e di rete, con la capacità  di costruire e mantenere un sistema di connessioni in ambienti di alto livello aziendale e politico
 * esperienza nella definizione e implementazione di strategie e iniziative di relazioni pubbliche in ambito istituzionale
 * forte senso delle priorità , flessibilità e attitudine al problem solving
-* buona conoscenza dell’inglese 
+* buona conoscenza dell’inglese
 
 ### Formazione Richiesta
 

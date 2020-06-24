@@ -9,6 +9,9 @@ jazz_url: https://pagopa.applytojob.com/apply/wlIeZB5q8W/Product-Owner
 pec_cv: false
 iframeheight: 2000
 is_new: true
+metadata:
+    apertura: 08/06/2020
+    chiusura: 31/07/2020
 ---
 
 PagoPA S.p.A. è alla ricerca di un Product Owner che sotto la propria responsabilità guidi da un punto di vista sia tecnico che di business i prodotti e servizi sviluppati dalla società avendo cura di comunicare e negoziare con gli stakeholder del progetto al fine di risolvere eventuali conflitti presenti e garantire il raggiungimento degli obiettivi aziendali.

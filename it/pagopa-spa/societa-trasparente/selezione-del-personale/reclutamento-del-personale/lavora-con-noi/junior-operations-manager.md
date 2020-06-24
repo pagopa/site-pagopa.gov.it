@@ -9,6 +9,9 @@ jazz_url: https://pagopa.applytojob.com/apply/E7CILdp9xQ/Junior-Operations-Manag
 pec_cv: false
 iframeheight: 1900
 is_new: true
+metadata:
+    apertura: 05/06/2020
+    chiusura: 30/06/2020
 ---
 
 

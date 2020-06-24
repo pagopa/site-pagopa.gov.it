@@ -9,6 +9,9 @@ jazz_url: https://pagopa.applytojob.com/apply/INsaNd1xzv/Application-Security-En
 pec_cv: false
 iframeheight: 2300
 is_new: true
+metadata:
+    apertura: 22/10/2019
+    chiusura: 30/06/2020
 ---
 
 Stiamo cercando persone dotate di passione, grinta e integrità, che condividano la nostra missione.
