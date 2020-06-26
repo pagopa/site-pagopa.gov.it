@@ -11,7 +11,7 @@ order: 1
 {% include hero.html %}
 
 <main>
-<div  class="container my-5">
+<div  class="container my-5 ">
     <div class="row">
         <div class="col-12">
             {% include pages/home/home-video.html %}
@@ -22,9 +22,6 @@ order: 1
                 {% include pages/home/home-newsletter-box.html %}
             </div>
         </div>
-    <div class="row">
-        {% include pages/home/home-sections.html %}
-    </div>
     </div>
 </main>
 
@@ -46,7 +43,6 @@ order: 1
             </a>
           </div>
         </div>
-
         <div class="card shadow border-0 mg-md-4">
           <div class="card-header">
             Prestatori Servizi di Pagamento
