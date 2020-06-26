@@ -111,7 +111,7 @@
   Pagamento con POS: Si
   Integrazione con ANPR: Si
   SIOPE +: 'No'
-  "Codifica dati per analisi pagamenti": 'No'
+  "Codifica dati per analisi pagamenti": Si
   Fascicolo del cittadino: Si
   Interoperabilità con contabilità: Si
   Interoperabilità con gestionali: Si
@@ -126,7 +126,7 @@
   'Referenza n3: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': Ordine Architetti di Napoli - Quota associativa
   'Referenza n4: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': Comune di Gallarate - TA.RI.
   'Referenza n5: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': Comune di Pozzuoli - TA.RI. Et al.
-  'Referenza n6: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': Comune di Verona - Imposta di Soggiorno et al.
+  'Referenza n6: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': Comune di Verona - Imposta di Soggiorno, OSAP-ICP et al.
   'Referenza n7: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': Esatto S.p.a. (COMUNE DI TRIESTE) - Imposta di soggiorno et al.
   'Referenza n8: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': Comune di Tortorici - Rilascio C.I.E. con POS
   'Referenza n9: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': Scuola Media Gobetti - De Filippo - Quarto (NA) - Contributo volontario
