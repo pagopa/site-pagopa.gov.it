@@ -1,0 +1,59 @@
+{% assign rowsdettagli = site.data.partner-dettagli %}
+{% assign intermediari = site.data.intermediari %}
+{% assign quadrosinottico = site.data.quadro-sinottico-servizi %}
+{% assign rowsdettagli_filtered = rowsdettagli | where_exp: "item", "item['Confermo di erogare i servizi obbligatori tipologia Sm e Sb']!='No'" | sort: 'Ragione Sociale del Contraente' %}
+{% assign filterLabels = '' %}
+
+{% for row in rowsdettagli_filtered | limit: 1 %}
+    {% for r in row %}
+        {% assign filterLab = r | first %}
+        {% unless filterLab contains 'Referenza n' or filterLab contains 'Confermo di'
+            or filterLab contains 'Ragione Sociale del' or filterLab contains 'CF '  %}
+            {% capture filterLabels %}
+                {{filterLabels}}{{filterLab}}|
+            {% endcapture %}
+        {% endunless %}
+    {% endfor %}
+{% endfor %}
+
+{% assign filters_array = filterLabels|split:'|' %}
+<div class="partner-grid" style="width: 100%">
+
+    <table class="table table-striped" style="table-layout: fixed;">
+  <thead>
+    <tr>
+      <th scope="col" style="width:20%"></th>
+      {% for row in rowsdettagli_filtered %}
+        <th scope="col" style="width:auto">{{row['Ragione Sociale del Contraente']}}</th>
+      {%endfor%}
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td>Servizi minimi e di base</td>
+        {% for td in rowsdettagli_filtered %}
+        <td><svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg></td>
+        {% endfor %}
+
+    </tr>
+    {% for tr in filters_array %}
+    {% assign label = tr | strip %}
+    {% if label != '' %}
+    <tr>
+       <td>{{tr}}</td>
+       {% for row in rowsdettagli_filtered %}
+        <td>
+        {% if row[label]=='Si' %}
+            <svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg>
+        {% else %}
+            <svg class="icon icon-sm icon-warning "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use></svg>
+        {% endif %}
+        </td>
+       {% endfor %}
+    </tr>
+    {%endif%}
+    {%endfor%}
+  </tbody>
+</table>
+
+</div>
