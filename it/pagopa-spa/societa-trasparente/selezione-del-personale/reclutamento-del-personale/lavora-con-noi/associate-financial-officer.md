@@ -10,6 +10,11 @@ pec_cv: false
 iframeheight: 1800
 is_new: false
 archived: true
+metadata:
+    apertura: 24/01/2020
+    chiusura: 31/03/2020
+    numricercate: 1
+    numassunte: 2
 ---
 
 

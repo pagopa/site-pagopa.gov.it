@@ -5,11 +5,16 @@ lang: it
 layout: job
 ref: communication-specialist
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/jFx1I8prPH/Communication-Specialist
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
 is_new: false
 archived: true
+metadata:
+    apertura: 23/12/2019
+    chiusura: 07/01/2020
+    numricercate: 1
+    numassunte: 1
 ---
 
 Stiamo cercando persone dotate di passione, grinta e integrità, che condividano la nostra missione.

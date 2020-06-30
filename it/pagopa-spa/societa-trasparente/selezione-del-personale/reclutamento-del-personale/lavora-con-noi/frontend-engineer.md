@@ -5,10 +5,16 @@ lang: it
 layout: job
 ref: frontend-engineer
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/CNdAuu2nNm/Frontend-Engineer
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
+metadata:
+    apertura: 03/12/2019
+    chiusura: 25/06/2020
+    numricercate: 1
+    numassunte: 1
 ---
 
 Stiamo cercando persone dotate di passione, grinta e integrità, che condividano la nostra missione.

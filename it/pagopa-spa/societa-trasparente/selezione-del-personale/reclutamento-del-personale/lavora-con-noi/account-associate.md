@@ -10,6 +10,11 @@ pec_cv: false
 iframeheight: 2300
 is_new: false
 archived: true
+metadata:
+    apertura: 09/12/2019
+    chiusura: 29/02/2020
+    numricercate: 1
+    numassunte: 3
 ---
 
 Stiamo cercando persone dotate di passione, grinta e integrità, che condividano la nostra missione.
