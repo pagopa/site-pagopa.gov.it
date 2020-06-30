@@ -5,11 +5,10 @@ lang: it
 layout: job
 ref: tpm-site-reliability-service-quality
 child_of_ref: lavora-con-noi
-jazz_url: 
+jazz_url: https://pagopa.applytojob.com/apply/QkyGN3GLMn/Technical-Project-Manager-Site-Reliability-Service-Quality
 pec_cv: false
 iframeheight: 2300
-is_new: false
-archived: true
+is_new: true
 metadata:
     apertura: 22/10/2019
     chiusura: 30/06/2020
