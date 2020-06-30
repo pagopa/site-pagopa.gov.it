@@ -27,8 +27,10 @@ Se invece hai **problemi specifici legati al metodo di pagamento scelto** (Home 
 
 ### App IO
 Se hai domande relative all'utilizzo dell'app IO, ti invitiamo a fare riferimento ai canali di assistenza dedicati:
-- mentre usi IO, puoi consultare maggiori informazioni cliccando sull'help: il punto di domanda (?) che trovi in alto a destra in ogni schermata dell'app
-- se riscontri un problema tecnico, puoi segnalarlo direttamente nell'app tramite la funzione "Segnala un bug" 
-- se non trovi risposte alle tue domande o hai problemi in fase di installazione dell'app, puoi contattare l'assistenza anche via email scrivendo a: [assistenza@io.italia.it](mailto:assistenza@io.italia.it)
+- mentre usi IO, puoi consultare **maggiori informazioni** cliccando sull'**help**: il punto di domanda (?) che trovi in alto a destra in ogni schermata dell'app
+- se riscontri un **problema tecnico**, puoi segnalarlo direttamente nell'app tramite la funzione **"Segnala un bug"** 
+- **solo se hai problemi in fase di installazione dell'app**, puoi scrivere una email a 
+ <a class="btn btn-md btn-primary mr-md-4 mb-2 mt-2" href="mailto:assistenza@io.italia.it"><img class="icon helpdesk-icon" style="width: 24px; height: 24px; margin-right: 8px;" src="{{ site.baseurl }}/assets/images/envelope-icon.svg" title="Envelope Icon" alt="Evenlope Icon">assistenza@io.italia.it</a>
+
 
 **Per ulteriori dettagli, [consulta le FAQ sul sito di IO](https://io.italia.it/faq/)**
