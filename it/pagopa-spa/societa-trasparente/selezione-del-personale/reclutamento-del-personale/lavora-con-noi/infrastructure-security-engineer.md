@@ -12,7 +12,7 @@ is_new: false
 archived: true
 metadata:
     apertura: 21/10/2019
-    chiusura: 25/06/2020
+    chiusura: 30/06/2020
     numricercate: 1
     numassunte: 2
 ---
