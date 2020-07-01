@@ -5,10 +5,10 @@ lang: it
 layout: job
 ref: chief-communication-officer
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/OjYQZRzGt7/Chief-Communication-Officer
-pec_cv: false
+jazz_url: 
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 17/04/2020
     chiusura: 30/06/2020
