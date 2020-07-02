@@ -5,10 +5,11 @@ lang: it
 layout: job
 ref: infrastructure-security-engineer
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/VyAdFelX1r/Senior-Architect-Engineer-Payment-Systems
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 21/10/2019
     chiusura: 30/06/2020
