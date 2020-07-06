@@ -34,7 +34,16 @@
         {% for td in rowsdettagli_filtered %}
         <td><svg class="icon icon-sm icon-success "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use></svg></td>
         {% endfor %}
-
+    </tr>
+    <tr>
+        <td>Numero di Enti intermediati</td>
+        {% for row in rowsdettagli_filtered %}
+        <td>
+           {% assign entintermediati = intermediari | where_exp:"item","item.CodiceFiscale contains row['CF del Contraente']" | first %}
+           {% assign detailurl = row['Ragione Sociale del Contraente'] | datapage_url: '/it/pubbliche-amministrazioni/partner-qualificati' %}
+          <a href="{{detailurl | replace: '.',''}}" title="Enti intermediati"><b>{{entintermediati.NumeroEntiAttivi}}</b> &rarr;</a>
+        </td>
+        {% endfor %}
     </tr>
     {% for tr in filters_array %}
     {% assign label = tr | strip %}

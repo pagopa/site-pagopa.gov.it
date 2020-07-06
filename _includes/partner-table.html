@@ -67,7 +67,9 @@
                 </div>
                 {% if entintermediati.NumeroEntiAttivi %}
                 <div class="col col-md-4 ">
-                Numero Enti intermediati: <b>{{entintermediati.NumeroEntiAttivi}}</b>
+                {% assign detailurl = row['Ragione Sociale del Contraente'] | datapage_url: '/it/pubbliche-amministrazioni/partner-qualificati' %}
+                
+                <a href="{{detailurl | replace: '.',''}}" title="Enti intermediati">Numero Enti intermediati: <b>{{entintermediati.NumeroEntiAttivi}}</b></a>
                 </div>
                 {% endif %}
             </div>
