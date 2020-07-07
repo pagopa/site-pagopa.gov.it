@@ -54,17 +54,6 @@ plugins:
   - jekyll-redirect-from # Give your Jekyll posts and pages multiple URLs
 
 
-page_gen-dirs: true
-
-page_gen:
-  - data: 'partner-dettagli'
-    template: 'partner-qualificato'
-    name_expr: record['Ragione Sociale del Contraente'].gsub('.', '')
-    title: 'Ragione Sociale del Contraente'
-    dir: '/it/pubbliche-amministrazioni/partner-qualificati'
-    filter_condition: "record['Confermo di erogare i servizi obbligatori tipologia Sm e Sb']!='No'"
-    child_of_ref: 'partner-qualificati'
-    lang: 'it'
 
 # Exclude these files from your production _site
 exclude:
