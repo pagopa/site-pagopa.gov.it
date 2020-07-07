@@ -40,8 +40,7 @@
         {% for row in rowsdettagli_filtered %}
         <td>
            {% assign entintermediati = intermediari | where_exp:"item","item.CodiceFiscale contains row['CF del Contraente']" | first %}
-           {% assign detailurl = row['Ragione Sociale del Contraente'] | datapage_url: '/it/pubbliche-amministrazioni/partner-qualificati' %}
-          <a href="{{detailurl | replace: '.',''}}" title="Enti intermediati"><b>{{entintermediati.NumeroEntiAttivi}}</b> &rarr;</a>
+           {{entintermediati.NumeroEntiAttivi}}
         </td>
         {% endfor %}
     </tr>
