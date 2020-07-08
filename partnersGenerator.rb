@@ -9,5 +9,5 @@ partners.each do |partner|
     topass['lang'] = 'it'
     topass['child_of_ref'] = 'partner-qualificati'
 
-    File.open(dir+name+".md", "w") { |file| file.write(topass.to_yaml) }
+    File.open(dir+name+".md", "w") { |file| file.write(topass.to_yaml + '---') }
 end
