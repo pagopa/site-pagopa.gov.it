@@ -40,7 +40,7 @@
         {% for row in rowsdettagli_filtered %}
         <td>
            {% assign entintermediati = intermediari | where_exp:"item","item['Codice Fiscale'] contains row['CF del Contraente']" | first %}
-           {{entintermediati['Conteggio di denominazione Ente']}}
+           <a href="./{{row['CF del Contraente']}}/" title="Legg in dettaglio"><b>{{entintermediati['Conteggio di denominazione Ente']}}</b></a>
         </td>
         {% endfor %}
     </tr>
