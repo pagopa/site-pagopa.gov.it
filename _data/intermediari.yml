@@ -1,346 +1,446 @@
-- Denominazione: Ministero dell'Istruzione, Ministero dell'Universita' e della Ricerca
-  CodiceFiscale: '80185250588'
-  NumeroEntiAttivi: '8604'
-  Tipo: I
-- Denominazione: >-
-    Unione Italiana delle Camere di Commercio Industria, Artigianato e
-    Agricoltura
-  CodiceFiscale: 01484460587
-  NumeroEntiAttivi: '1102'
-  Tipo: I
-- Denominazione: Poste Italiane S.P.A.
-  CodiceFiscale: '97103880585'
-  NumeroEntiAttivi: '840'
-  Tipo: PT
-- Denominazione: E-Fil S.r.l.
-  CodiceFiscale: 03789750100
-  NumeroEntiAttivi: '781'
-  Tipo: PT
-- Denominazione: Maggioli SPA
-  CodiceFiscale: 06188330150
-  NumeroEntiAttivi: '539'
-  Tipo: PT
-- Denominazione: Regione Lombardia
-  CodiceFiscale: '80050050154'
-  NumeroEntiAttivi: '536'
-  Tipo: I
-- Denominazione: Regione del Veneto
-  CodiceFiscale: '80007580279'
-  NumeroEntiAttivi: '474'
-  Tipo: I
-- Denominazione: CREDEMTEL SpA
-  CodiceFiscale: 01378570350
-  NumeroEntiAttivi: '448'
-  Tipo: PT
-- Denominazione: 'Banca Popolare di Sondrio, Società Cooperativa per Azioni'
-  CodiceFiscale: 00053810149
-  NumeroEntiAttivi: '421'
-  Tipo: PT
-- Denominazione: Lepida Spa
-  CodiceFiscale: 02770891204
-  NumeroEntiAttivi: '382'
-  Tipo: PT
-- Denominazione: APKAPPA S.R.L.
-  CodiceFiscale: 08543640158
-  NumeroEntiAttivi: '363'
-  Tipo: PT
-- Denominazione: Provincia Autonoma di Trento
-  CodiceFiscale: '00337460224'
-  NumeroEntiAttivi: '341'
-  Tipo: I
-- Denominazione: Alto Adige Riscossioni Spa
-  CodiceFiscale: 02805390214
-  NumeroEntiAttivi: '297'
-  Tipo: I
-- Denominazione: Dedagroup Public Services S.R.L.
-  CodiceFiscale: 01727860221
-  NumeroEntiAttivi: '279'
-  Tipo: PT
-- Denominazione: Regione Piemonte
-  CodiceFiscale: '80087670016'
-  NumeroEntiAttivi: '266'
-  Tipo: I
-- Denominazione: Progetti e Soluzioni SPA
-  CodiceFiscale: '06423240727'
-  NumeroEntiAttivi: '228'
-  Tipo: PT
-- Denominazione: Regione Marche
-  CodiceFiscale: '80008630420'
-  NumeroEntiAttivi: '202'
-  Tipo: I
-- Denominazione: Advanced Systems S.p.A.
-  CodiceFiscale: 03383350638
-  NumeroEntiAttivi: '192'
-  Tipo: PT
-- Denominazione: P.A. Digitale spa
-  CodiceFiscale: 06628860964
-  NumeroEntiAttivi: '187'
-  Tipo: PT
-- Denominazione: Siscom SPA
-  CodiceFiscale: 01778000040
-  NumeroEntiAttivi: '179'
-  Tipo: PT
-- Denominazione: Regione Autonoma della Sardegna
-  CodiceFiscale: '80002870923'
-  NumeroEntiAttivi: '177'
-  Tipo: I
-- Denominazione: Next Step Solution
-  CodiceFiscale: 02554480349
-  NumeroEntiAttivi: '142'
-  Tipo: PT
-- Denominazione: Regione Puglia
-  CodiceFiscale: '80017210727'
-  NumeroEntiAttivi: '135'
-  Tipo: I
-- Denominazione: Regione Toscana
-  CodiceFiscale: 01386030488
-  NumeroEntiAttivi: '122'
-  Tipo: I
-- Denominazione: Regione Autonoma Friuli-Venezia Giulia
-  CodiceFiscale: '80014930327'
-  NumeroEntiAttivi: '114'
-  Tipo: I
-- Denominazione: Regione Basilicata
-  CodiceFiscale: '80002950766'
-  NumeroEntiAttivi: '106'
-  Tipo: I
-- Denominazione: PMPay s.r.l.
-  CodiceFiscale: 08747230962
-  NumeroEntiAttivi: '98'
-  Tipo: PT
-- Denominazione: ANCITEL
-  CodiceFiscale: 07196850585
-  NumeroEntiAttivi: '87'
-  Tipo: PT
-- Denominazione: Intesa Sanpaolo SPA
-  CodiceFiscale: 00799960158
-  NumeroEntiAttivi: '87'
-  Tipo: PT
-- Denominazione: Regione Autonoma Valle D'Aosta
-  CodiceFiscale: '80002270074'
-  NumeroEntiAttivi: '84'
-  Tipo: I
-- Denominazione: Regione Umbria
-  CodiceFiscale: '80000130544'
-  NumeroEntiAttivi: '69'
-  Tipo: I
-- Denominazione: ROMA CAPITALE
-  CodiceFiscale: 02438750586
-  NumeroEntiAttivi: '66'
-  Tipo: I
-- Denominazione: DCS SOFTWARE E SERVIZI S.R.L.
-  CodiceFiscale: 08063140019
-  NumeroEntiAttivi: '59'
-  Tipo: PT
-- Denominazione: Italriscossioni Società Italiana di Fiscalità Locale S.r.l.
-  CodiceFiscale: 06092371001
-  NumeroEntiAttivi: '57'
-  Tipo: PT
-- Denominazione: NORDCOM
-  CodiceFiscale: '13384100155'
-  NumeroEntiAttivi: '56'
-  Tipo: PT
-- Denominazione: UNIMATICA S.P.A
-  CodiceFiscale: 02098391200
-  NumeroEntiAttivi: '50'
-  Tipo: PT
-- Denominazione: Regione Liguria
-  CodiceFiscale: 00849050109
-  NumeroEntiAttivi: '49'
-  Tipo: I
-- Denominazione: Bluenext S.r.l.
-  CodiceFiscale: 04228480408
-  NumeroEntiAttivi: '48'
-  Tipo: PT
-- Denominazione: CINECA consorzio universitario
-  CodiceFiscale: '00317740371'
-  NumeroEntiAttivi: '46'
-  Tipo: PT
-- Denominazione: San Marco SPA
-  CodiceFiscale: 04142440728
-  NumeroEntiAttivi: '44'
-  Tipo: PT
-- Denominazione: 'Unicredit, Societa'' per Azioni'
-  CodiceFiscale: 00348170101
-  NumeroEntiAttivi: '43'
-  Tipo: PT
-- Denominazione: Argentea S.r.l.
-  CodiceFiscale: 02260390220
-  NumeroEntiAttivi: '42'
-  Tipo: PT
-- Denominazione: Consorzio I.T. Srl
-  CodiceFiscale: 01321400192
-  NumeroEntiAttivi: '41'
-  Tipo: I
-- Denominazione: Numera Sistemi e Informatica SpA
-  CodiceFiscale: 01265230902
-  NumeroEntiAttivi: '40'
-  Tipo: PT
-- Denominazione: Novares Spa
-  CodiceFiscale: '12105121003'
-  NumeroEntiAttivi: '39'
-  Tipo: PT
-- Denominazione: SI.net Servizi Informatici S.r.L.
-  CodiceFiscale: '02743730125'
-  NumeroEntiAttivi: '39'
-  Tipo: PT
-- Denominazione: Comune di Palermo
-  CodiceFiscale: '80016350821'
-  NumeroEntiAttivi: '24'
-  Tipo: I
-- Denominazione: ANDREANI TRIBUTI srl
-  CodiceFiscale: 01412920439
-  NumeroEntiAttivi: '22'
-  Tipo: I
-- Denominazione: Noviservice srl
-  CodiceFiscale: 02789990922
-  NumeroEntiAttivi: '22'
-  Tipo: PT
-- Denominazione: ARGO SOFTWARE SRL
-  CodiceFiscale: 00838520880
-  NumeroEntiAttivi: '19'
-  Tipo: PT
-- Denominazione: Citta' Metropolitana di Roma Capitale
-  CodiceFiscale: '80034390585'
-  NumeroEntiAttivi: '19'
-  Tipo: I
-- Denominazione: Nexi SpA
-  CodiceFiscale: '13212880150'
-  NumeroEntiAttivi: '19'
-  Tipo: PT
-- Denominazione: Regione Lazio
-  CodiceFiscale: '80143490581'
-  NumeroEntiAttivi: '18'
-  Tipo: I
-- Denominazione: Si.Form Consulting srl
-  CodiceFiscale: 03943960827
-  NumeroEntiAttivi: '17'
-  Tipo: PT
-- Denominazione: Servizi Locali SpA
-  CodiceFiscale: 03170580751
-  NumeroEntiAttivi: '16'
-  Tipo: PT
-- Denominazione: Crédit Agricole Group Solutions Società Consortile per azioni
-  CodiceFiscale: 02771790348
-  NumeroEntiAttivi: '15'
-  Tipo: PT
-- Denominazione: ARCA Servizi s.r.l
-  CodiceFiscale: 09106071005
-  NumeroEntiAttivi: '15'
-  Tipo: PT
-- Denominazione: Aric Agenzia Regionale di Informatica e Committenza
-  CodiceFiscale: '91022630676'
-  NumeroEntiAttivi: '15'
-  Tipo: I
-- Denominazione: Regione Calabria
-  CodiceFiscale: 02205340793
-  NumeroEntiAttivi: '13'
-  Tipo: I
-- Denominazione: Hera S.p.A.
-  CodiceFiscale: '04245520376'
-  NumeroEntiAttivi: '13'
-  Tipo: PT
-- Denominazione: UBI Banca
-  CodiceFiscale: 03053920165
-  NumeroEntiAttivi: '10'
-  Tipo: PT
-- Denominazione: Comune di Catania
-  CodiceFiscale: 00137020871
-  NumeroEntiAttivi: '9'
-  Tipo: I
-- Denominazione: Be Smart s.r.l.
-  CodiceFiscale: 05817461006
-  NumeroEntiAttivi: '7'
-  Tipo: PT
-- Denominazione: Open Software S.r.l.
-  CodiceFiscale: 02810000279
-  NumeroEntiAttivi: '5'
-  Tipo: PT
-- Denominazione: Phoenix IT Solutions S.r.L
-  CodiceFiscale: 07623321218
-  NumeroEntiAttivi: '4'
-  Tipo: PT
-- Denominazione: CityPoste Payment Digital S.r.l.
-  CodiceFiscale: '02003750672'
-  NumeroEntiAttivi: '4'
-  Tipo: PT
-- Denominazione: Softline srl
-  CodiceFiscale: '12299030150'
-  NumeroEntiAttivi: '3'
-  Tipo: PT
-- Denominazione: ICCREA Banca SpA
-  CodiceFiscale: 04774801007
-  NumeroEntiAttivi: '3'
-  Tipo: PT
-- Denominazione: ISWEB S.p.A.
-  CodiceFiscale: '01722270665'
-  NumeroEntiAttivi: '3'
-  Tipo: PT
-- Denominazione: e-SED Società Cooperativa
-  CodiceFiscale: 02695640421
-  NumeroEntiAttivi: '3'
-  Tipo: PT
-- Denominazione: Linea Comune Spa
-  CodiceFiscale: 05591950489
-  NumeroEntiAttivi: '3'
-  Tipo: PT
-- Denominazione: KOINE' SRL
-  CodiceFiscale: 01934790971
-  NumeroEntiAttivi: '2'
-  Tipo: PT
-- Denominazione: I.C.A. S.r.l.
-  CodiceFiscale: 02478610583
-  NumeroEntiAttivi: '2'
-  Tipo: I
-- Denominazione: Banca Nazionale del Lavoro S.p.A.
-  CodiceFiscale: 09339391006
-  NumeroEntiAttivi: '1'
-  Tipo: PT
-- Denominazione: WAN S.r.l.
-  CodiceFiscale: 03805290040
-  NumeroEntiAttivi: '1'
-  Tipo: PT
-- Denominazione: BRAV SRL
-  CodiceFiscale: 02818030369
-  NumeroEntiAttivi: '1'
-  Tipo: PT
-- Denominazione: Sogei S.p.A
-  CodiceFiscale: 02327910580
-  NumeroEntiAttivi: '1'
-  Tipo: I
-- Denominazione: Ministero dello Sviluppo Economico
-  CodiceFiscale: '80230390587'
-  NumeroEntiAttivi: '1'
-  Tipo: I
-- Denominazione: Banco BPM Società per Azioni
-  CodiceFiscale: 09722490969
-  NumeroEntiAttivi: '1'
-  Tipo: PT
-- Denominazione: Engineering Ingegneria Informatica SpA
-  CodiceFiscale: 00967720285
-  NumeroEntiAttivi: '1'
-  Tipo: PT
-- Denominazione: Mercurio Service srl
-  CodiceFiscale: 01413270669
-  NumeroEntiAttivi: '1'
-  Tipo: PT
-- Denominazione: MegASP S.r.l.
-  CodiceFiscale: 09898030151
-  NumeroEntiAttivi: '1'
-  Tipo: PT
-- Denominazione: Regione Campania
-  CodiceFiscale: '80011990639'
-  NumeroEntiAttivi: '1'
-  Tipo: I
-- Denominazione: BANCA MONTE DEI PASCHI DI SIENA
-  CodiceFiscale: 00884060526
-  NumeroEntiAttivi: '1'
-  Tipo: PT
-- Denominazione: Società Almaviva S.p.A.
-  CodiceFiscale: 08450891000
-  NumeroEntiAttivi: '1'
-  Tipo: PT
-- Denominazione: Agenzia Italiana del Farmaco - AIFA
-  CodiceFiscale: '97345810580'
-  NumeroEntiAttivi: '1'
-  Tipo: I
+I:
+  -
+      Intermediario Partner: Agenzia delle Dogane e dei Monopoli
+      Codice Fiscale: 97210890584
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: Agenzia delle Entrate - Riscossione
+      Codice Fiscale: 13756881002
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: Agenzia Italiana del Farmaco - AIFA
+      Codice Fiscale: 97345810580
+      Conteggio di denominazione Ente: 2
+  -
+      Intermediario Partner: Alto Adige Riscossioni Spa
+      Codice Fiscale: 02805390214
+      Conteggio di denominazione Ente: 298
+  -
+      Intermediario Partner: ANDREANI TRIBUTI srl
+      Codice Fiscale: 01412920439
+      Conteggio di denominazione Ente: 24
+  -
+      Intermediario Partner: Aric Agenzia Regionale di Informatica e Committenza
+      Codice Fiscale: 91022630676
+      Conteggio di denominazione Ente: 20
+  -
+      Intermediario Partner: 'Automobile Club d''Italia'
+      Codice Fiscale: 00493410583
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: 'Autorita'' Nazionale Anticorruzione - A.N.AC.'
+      Codice Fiscale: 97584460584
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: 'Citta'' Metropolitana di Roma Capitale'
+      Codice Fiscale: 80034390585
+      Conteggio di denominazione Ente: 20
+  -
+      Intermediario Partner: Comune di Catania
+      Codice Fiscale: 00137020871
+      Conteggio di denominazione Ente: 10
+  -
+      Intermediario Partner: 'Comune di Cirie'''
+      Codice Fiscale: 83000390019
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: Comune di Genova
+      Codice Fiscale: 00856930102
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: Comune di Napoli
+      Codice Fiscale: 80014890638
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: Comune di Palermo
+      Codice Fiscale: 80016350821
+      Conteggio di denominazione Ente: 27
+  -
+      Intermediario Partner: Consip Spa
+      Codice Fiscale: 05359681003
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: Consorzio Informatica e Territorio S.P.A.
+      Codice Fiscale: 01321400192
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: Gestore Dei Servizi Energetici - Gse S.P.A.
+      Codice Fiscale: 05754381001
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: I.C.A. Imposte Comunali Affini srl
+      Codice Fiscale: 02478610583
+      Conteggio di denominazione Ente: 5
+  -
+      Intermediario Partner: 'Istituto Nazionale per l''Assicurazione contro gli Infortuni sul Lavoro - INAIL'
+      Codice Fiscale: 01165400589
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: Istituto Nazionale Previdenza Sociale - INPS
+      Codice Fiscale: 80078750587
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: Linea Comune Spa
+      Codice Fiscale: 05591950489
+      Conteggio di denominazione Ente: 4
+  -
+      Intermediario Partner: Ministero degli Affari Esteri e della Cooperazione Internazionale
+      Codice Fiscale: 80213330584
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: Ministero della Difesa
+      Codice Fiscale: 80234710582
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: Ministero della Giustizia
+      Codice Fiscale: 80184430587
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: 'Ministero dell''Ambiente e della Tutela del Territorio e del Mare'
+      Codice Fiscale: 97047140583
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: 'Ministero dell''Economia e delle Finanze - Dipartimento delle Finanze'
+      Codice Fiscale: 80207790587
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: 'Ministero dell''Istruzione, Ministero dell''Universita'' e della Ricerca'
+      Codice Fiscale: 80185250588
+      Conteggio di denominazione Ente: 8605
+  -
+      Intermediario Partner: Ministero dello Sviluppo Economico
+      Codice Fiscale: 80230390587
+      Conteggio di denominazione Ente: 2
+  -
+      Intermediario Partner: 'Ministero per i beni e le attivita'' culturali e per il turismo'
+      Codice Fiscale: 97830880585
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: Novares Spa
+      Codice Fiscale: 12105121003
+      Conteggio di denominazione Ente: 42
+  -
+      Intermediario Partner: Provincia Autonoma di Trento
+      Codice Fiscale: 00337460224
+      Conteggio di denominazione Ente: 342
+  -
+      Intermediario Partner: Regione Autonoma della Sardegna
+      Codice Fiscale: 80002870923
+      Conteggio di denominazione Ente: 187
+  -
+      Intermediario Partner: Regione Autonoma Friuli-Venezia Giulia
+      Codice Fiscale: 80014930327
+      Conteggio di denominazione Ente: 129
+  -
+      Intermediario Partner: 'Regione Autonoma Valle D''Aosta'
+      Codice Fiscale: 80002270074
+      Conteggio di denominazione Ente: 85
+  -
+      Intermediario Partner: Regione Basilicata
+      Codice Fiscale: 80002950766
+      Conteggio di denominazione Ente: 107
+  -
+      Intermediario Partner: Regione Calabria
+      Codice Fiscale: 02205340793
+      Conteggio di denominazione Ente: 17
+  -
+      Intermediario Partner: Regione Campania
+      Codice Fiscale: 80011990639
+      Conteggio di denominazione Ente: 7
+  -
+      Intermediario Partner: Regione del Veneto
+      Codice Fiscale: 80007580279
+      Conteggio di denominazione Ente: 506
+  -
+      Intermediario Partner: Regione Lazio
+      Codice Fiscale: 80143490581
+      Conteggio di denominazione Ente: 19
+  -
+      Intermediario Partner: Regione Liguria
+      Codice Fiscale: 00849050109
+      Conteggio di denominazione Ente: 60
+  -
+      Intermediario Partner: Regione Lombardia
+      Codice Fiscale: 80050050154
+      Conteggio di denominazione Ente: 567
+  -
+      Intermediario Partner: Regione Marche
+      Codice Fiscale: 80008630420
+      Conteggio di denominazione Ente: 218
+  -
+      Intermediario Partner: Regione Piemonte
+      Codice Fiscale: 80087670016
+      Conteggio di denominazione Ente: 287
+  -
+      Intermediario Partner: Regione Puglia
+      Codice Fiscale: 80017210727
+      Conteggio di denominazione Ente: 140
+  -
+      Intermediario Partner: Regione Toscana
+      Codice Fiscale: 01386030488
+      Conteggio di denominazione Ente: 129
+  -
+      Intermediario Partner: Regione Umbria
+      Codice Fiscale: 80000130544
+      Conteggio di denominazione Ente: 78
+  -
+      Intermediario Partner: ROMA CAPITALE
+      Codice Fiscale: 02438750586
+      Conteggio di denominazione Ente: 67
+  -
+      Intermediario Partner: Servizio Elettrico Nazionale SpA (SEN)
+      Codice Fiscale: 09633951000
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: 'SORIS - Societa'' Riscossioni S.P.A.'
+      Codice Fiscale: 09000640012
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: Unione Italiana delle Camere di Commercio Industria, Artigianato e Agricoltura
+      Codice Fiscale: 01484460587
+      Conteggio di denominazione Ente: 1109
+  -
+      Intermediario Partner: Totale complessivo
+      Codice Fiscale: 
+      Conteggio di denominazione Ente: 13133
+PT:
+  -
+      Intermediario Partner: Abaco Spa
+      Codice Fiscale: 02391510266
+      Conteggio di denominazione Ente: 2
+  -
+      Intermediario Partner: Advanced Systems S.p.A.
+      Codice Fiscale: 03383350638
+      Conteggio di denominazione Ente: 244
+  -
+      Intermediario Partner: Anci Digitale S.p.A.
+      Codice Fiscale: 15483121008
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: ANCITEL
+      Codice Fiscale: 07196850585
+      Conteggio di denominazione Ente: 87
+  -
+      Intermediario Partner: APKAPPA S.R.L.
+      Codice Fiscale: 08543640158
+      Conteggio di denominazione Ente: 393
+  -
+      Intermediario Partner: ARCA Servizi s.r.l
+      Codice Fiscale: 09106071005
+      Conteggio di denominazione Ente: 17
+  -
+      Intermediario Partner: Argentea S.r.l.
+      Codice Fiscale: 02260390220
+      Conteggio di denominazione Ente: 43
+  -
+      Intermediario Partner: ARGO SOFTWARE SRL
+      Codice Fiscale: 00838520880
+      Conteggio di denominazione Ente: 147
+  -
+      Intermediario Partner: BANCA MONTE DEI PASCHI DI SIENA
+      Codice Fiscale: 00884060526
+      Conteggio di denominazione Ente: 4
+  -
+      Intermediario Partner: Banca Nazionale del Lavoro S.p.A.
+      Codice Fiscale: 09339391006
+      Conteggio di denominazione Ente: 2
+  -
+      Intermediario Partner: Banca Popolare di Sondrio, Societ� Cooperativa per Azioni
+      Codice Fiscale: 00053810149
+      Conteggio di denominazione Ente: 440
+  -
+      Intermediario Partner: Banco BPM Societ� per Azioni
+      Codice Fiscale: 09722490969
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: Be Smart s.r.l.
+      Codice Fiscale: 05817461006
+      Conteggio di denominazione Ente: 7
+  -
+      Intermediario Partner: Bluenext S.r.l.
+      Codice Fiscale: 04228480408
+      Conteggio di denominazione Ente: 49
+  -
+      Intermediario Partner: BRAV SRL
+      Codice Fiscale: 02818030369
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: CINECA consorzio universitario
+      Codice Fiscale: 00317740371
+      Conteggio di denominazione Ente: 47
+  -
+      Intermediario Partner: CityPoste Payment Digital S.r.l.
+      Codice Fiscale: 02003750672
+      Conteggio di denominazione Ente: 4
+  -
+      Intermediario Partner: Consorzio I.T. Srl
+      Codice Fiscale: 01321400192
+      Conteggio di denominazione Ente: 41
+  -
+      Intermediario Partner: CREDEMTEL SpA
+      Codice Fiscale: 01378570350
+      Conteggio di denominazione Ente: 459
+  -
+      Intermediario Partner: Credit Agricole Group Solutions Societ� Consortile per azioni
+      Codice Fiscale: 02771790348
+      Conteggio di denominazione Ente: 15
+  -
+      Intermediario Partner: DCS SOFTWARE E SERVIZI S.R.L.
+      Codice Fiscale: 08063140019
+      Conteggio di denominazione Ente: 70
+  -
+      Intermediario Partner: Dedagroup Public Services S.R.L.
+      Codice Fiscale: 01727860221
+      Conteggio di denominazione Ente: 293
+  -
+      Intermediario Partner: E-Fil S.r.l.
+      Codice Fiscale: 03789750100
+      Conteggio di denominazione Ente: 806
+  -
+      Intermediario Partner: Engineering Ingegneria Informatica SpA
+      Codice Fiscale: 00967720285
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: e-SED Societ� Cooperativa
+      Codice Fiscale: 02695640421
+      Conteggio di denominazione Ente: 3
+  -
+      Intermediario Partner: Hera S.p.A.
+      Codice Fiscale: 04245520376
+      Conteggio di denominazione Ente: 13
+  -
+      Intermediario Partner: ICCREA Banca SpA
+      Codice Fiscale: 04774801007
+      Conteggio di denominazione Ente: 3
+  -
+      Intermediario Partner: Intesa Sanpaolo SPA
+      Codice Fiscale: 00799960158
+      Conteggio di denominazione Ente: 109
+  -
+      Intermediario Partner: ISWEB S.p.A.
+      Codice Fiscale: 01722270665
+      Conteggio di denominazione Ente: 3
+  -
+      Intermediario Partner: Italriscossioni Societ� Italiana di Fiscalit� Locale S.r.l.
+      Codice Fiscale: 06092371001
+      Conteggio di denominazione Ente: 62
+  -
+      Intermediario Partner: 'KOINE'' SRL'
+      Codice Fiscale: 01934790971
+      Conteggio di denominazione Ente: 2
+  -
+      Intermediario Partner: Lepida Spa
+      Codice Fiscale: 02770891204
+      Conteggio di denominazione Ente: 386
+  -
+      Intermediario Partner: Maggioli SPA
+      Codice Fiscale: 06188330150
+      Conteggio di denominazione Ente: 568
+  -
+      Intermediario Partner: MegASP S.r.l.
+      Codice Fiscale: 09898030151
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: Mercurio Service srl
+      Codice Fiscale: 01413270669
+      Conteggio di denominazione Ente: 18
+  -
+      Intermediario Partner: Nexi SpA
+      Codice Fiscale: 13212880150
+      Conteggio di denominazione Ente: 19
+  -
+      Intermediario Partner: Next Step Solution
+      Codice Fiscale: 02554480349
+      Conteggio di denominazione Ente: 155
+  -
+      Intermediario Partner: NORDCOM
+      Codice Fiscale: 13384100155
+      Conteggio di denominazione Ente: 56
+  -
+      Intermediario Partner: Noviservice srl
+      Codice Fiscale: 02789990922
+      Conteggio di denominazione Ente: 28
+  -
+      Intermediario Partner: Numera Sistemi e Informatica SpA
+      Codice Fiscale: 01265230902
+      Conteggio di denominazione Ente: 44
+  -
+      Intermediario Partner: Open Software S.r.l.
+      Codice Fiscale: 02810000279
+      Conteggio di denominazione Ente: 7
+  -
+      Intermediario Partner: P.A. Digitale spa
+      Codice Fiscale: 06628860964
+      Conteggio di denominazione Ente: 205
+  -
+      Intermediario Partner: Phoenix IT Solutions S.r.L
+      Codice Fiscale: 07623321218
+      Conteggio di denominazione Ente: 4
+  -
+      Intermediario Partner: PMPay s.r.l.
+      Codice Fiscale: 08747230962
+      Conteggio di denominazione Ente: 115
+  -
+      Intermediario Partner: Poste Italiane S.P.A.
+      Codice Fiscale: 97103880585
+      Conteggio di denominazione Ente: 848
+  -
+      Intermediario Partner: Progetti e Soluzioni SPA
+      Codice Fiscale: '06423240727'
+      Conteggio di denominazione Ente: 238
+  -
+      Intermediario Partner: San Marco SPA
+      Codice Fiscale: 04142440728
+      Conteggio di denominazione Ente: 49
+  -
+      Intermediario Partner: Servizi Locali SpA
+      Codice Fiscale: 03170580751
+      Conteggio di denominazione Ente: 16
+  -
+      Intermediario Partner: Si.Form Consulting srl
+      Codice Fiscale: 03943960827
+      Conteggio di denominazione Ente: 17
+  -
+      Intermediario Partner: SI.net Servizi Informatici S.r.L.
+      Codice Fiscale: 02743730125
+      Conteggio di denominazione Ente: 39
+  -
+      Intermediario Partner: Siscom SPA
+      Codice Fiscale: 01778000040
+      Conteggio di denominazione Ente: 212
+  -
+      Intermediario Partner: Softline srl
+      Codice Fiscale: 12299030150
+      Conteggio di denominazione Ente: 3
+  -
+      Intermediario Partner: Sogei S.p.A
+      Codice Fiscale: 02327910580
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: STEP Servizi e Tecnologie Enti Pubblici srl
+      Codice Fiscale: 02104860909
+      Conteggio di denominazione Ente: 2
+  -
+      Intermediario Partner: SWD Group S.r.l.
+      Codice Fiscale: 03257851208
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: UBI Banca
+      Codice Fiscale: 03053920165
+      Conteggio di denominazione Ente: 11
+  -
+      Intermediario Partner: 'Unicredit, Societa'' per Azioni'
+      Codice Fiscale: 00348170101
+      Conteggio di denominazione Ente: 44
+  -
+      Intermediario Partner: UNIMATICA S.P.A
+      Codice Fiscale: 02098391200
+      Conteggio di denominazione Ente: 59
+  -
+      Intermediario Partner: WAN S.r.l.
+      Codice Fiscale: 03805290040
+      Conteggio di denominazione Ente: 1
+  -
+      Intermediario Partner: Totale complessivo
+      Codice Fiscale: 
+      Conteggio di denominazione Ente: 6516

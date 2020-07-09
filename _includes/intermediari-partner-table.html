@@ -1,4 +1,4 @@
-{% assign partners = site.data.intermediari |where_exp: "item","item.Tipo == 'PT'" | sort: "Denominazione" %}
+{% assign partners = site.data.intermediari['PT'] | sort: "Intermediario Partner" %}
 {% assign numpartners = partners.size %}
 {% assign division = numpartners | divided_by:2.0 | ceil %}
 
@@ -9,9 +9,9 @@
         <div class="col col-sm-6">
             <ul>
                 {% for partner in partners limit: division offset: groupset %}
-                <li class="small text-muted"><b>{{partner['Denominazione']}}</b>
-                    {% if partner['NumeroEntiAttivi'] != '' %}
-                    <br>Enti intermediati: {{partner['NumeroEntiAttivi']}}
+                <li class="small text-muted"><b>{{partner['Intermediario Partner']}}</b>
+                    {% if partner['Conteggio di denominazione Ente'] != '' %}
+                    <br>Enti intermediati: {{partner['Conteggio di denominazione Ente']}}
                     {% endif %}
                 </li>
                 {% endfor %}

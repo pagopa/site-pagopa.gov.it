@@ -1,5 +1,5 @@
 {% assign rowsdettagli = site.data.partner-dettagli %}
-{% assign intermediari = site.data.intermediari %}
+{% assign intermediari = site.data.intermediari['PT']  %}
 {% assign quadrosinottico = site.data.quadro-sinottico-servizi %}
 {% assign rowsdettagli_filtered = rowsdettagli | where_exp: "item", "item['Confermo di erogare i servizi obbligatori tipologia Sm e Sb']!='No'" | sort: 'Ragione Sociale del Contraente' %}
 {% assign filterLabels = '' %}
@@ -30,7 +30,7 @@
         {% assign referenze = '' %}
         {% assign dataAttributes = '' %}
         {% assign chiaveCF = row['CF del Contraente'] %}
-        {% assign entintermediati = intermediari | where_exp:"item","item.CodiceFiscale contains chiaveCF" | first %}
+        {% assign entintermediati = intermediari | where_exp:"item","item['Codice Fiscale'] contains row['CF del Contraente']" | first %}
         {% for k in row %}
             {% assign label = k | first %}
             {% assign value = k | last %}
@@ -65,9 +65,9 @@
                     <u class="text-success font-weight-bold">Servizi minimi e servizi di base</u>
                     </a>
                 </div>
-                {% if entintermediati.NumeroEntiAttivi %}
+                {% if entintermediati['Conteggio di denominazione Ente'] %}
                 <div class="col col-md-4 ">
-                Numero Enti intermediati: <b>{{entintermediati.NumeroEntiAttivi}}</b>
+                Numero Enti intermediati: <b>{{entintermediati['Conteggio di denominazione Ente']}}</b>
                 </div>
                 {% endif %}
             </div>
