@@ -114,9 +114,15 @@ function generateTop(topEdcs, key) {
   }
 
   uniqueKeys = uniqueKeys.map(function (item) {
-    return item == "AgID" ? "MyBank" : item;
+    if (item == "AgID") {
+      return "MyBank";
+    } else if (item.startsWith("Automobile")) {
+      return "ACI";
+    } else {
+      return item;
+    }
   });
-
+  
   return {
     labels: uniqueKeys,
     datasets: [
