@@ -114,7 +114,17 @@ function generateTop(topEdcs, key) {
   }
 
   uniqueKeys = uniqueKeys.map(function (item) {
-    return item == "AgID" ? "MyBank" : item;
+    if (item == "AgID") {
+      return "MyBank";
+    } else if (item.startsWith("Automobile")) {
+      return "ACI";
+    } else if (item.startsWith("Agenzia delle")) {
+      return "ADE";
+    } else if (item.startsWith("Istituto Nazionale")) {
+      return "INPS";
+    } else {
+      return item;
+    }
   });
 
   return {
