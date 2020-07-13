@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<div class="container my-2">
+<div class="{% if page.layout_extra == nil %}container{%endif%} my-2">
   {%- include breadcrumbs.html -%}
 </div>
 
 {% assign section = breadcrumbs[0] | default: page %}
 
-<article class="container my-4">
+<article class="{% if page.layout_extra == nil %}container{%endif%} my-4">
   <div class="row">
     <div class="col-12{% if page.layout_wide == nil %} col-lg-8{% endif %}">
       <div class="mx-md-3">

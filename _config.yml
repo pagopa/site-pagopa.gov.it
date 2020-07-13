@@ -53,6 +53,18 @@ plugins:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-redirect-from # Give your Jekyll posts and pages multiple URLs
 
+collections:
+  ptqualificati:
+    output: true
+    permalink: /it/pubbliche-amministrazioni/partner-qualificati/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "ptqualificati"
+    values:
+      layout: partner-qualificato
+
 # Exclude these files from your production _site
 exclude:
   - Gemfile

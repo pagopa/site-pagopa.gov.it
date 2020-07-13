@@ -10,6 +10,11 @@ pec_cv: false
 iframeheight: 2100
 is_new: false
 archived: true
+metadata:
+    apertura: 20/05/2020
+    chiusura: 15/06/2020
+    numricercate: 1
+    numassunte: 1
 ---
 
 PagoPA S.p.A. è alla ricerca di un Office Manager, che si occupi di supervisionare e organizzare tutte le attività finalizzate a garantire il corretto assetto organizzativo e funzionale degli uffici della Società.

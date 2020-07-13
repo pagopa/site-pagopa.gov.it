@@ -9,6 +9,9 @@ jazz_url: https://pagopa.applytojob.com/apply/FkhpYWU0cm/Technical-Operation-Man
 pec_cv: false
 iframeheight: 2100
 is_new: true
+metadata:
+    apertura: 17/06/2020
+    chiusura: 31/07/2020
 ---
 
 ### Descrizione e responsabilità

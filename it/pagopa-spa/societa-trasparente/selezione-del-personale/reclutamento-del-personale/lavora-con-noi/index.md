@@ -41,7 +41,7 @@ In questo momento non ci sono posizioni aperte. Tieni d’occhio questo sito per
   <dd class="col-sm-9">Contratto nazionale di lavoro commercio, servizi e terziario</dd>
 
   <dt class="col-sm-3">Luogo di lavoro</dt>
-  <dd class="col-sm-9">Roma, Milano, remote working</dd>
+  <dd class="col-sm-9">Roma, Milano, smart working</dd>
 </dl>
 
 <div class="jobpositions">
@@ -52,6 +52,7 @@ In questo momento non ci sono posizioni aperte. Tieni d’occhio questo sito per
     {% if one_page.is_new %}
         <span style="font-size:12px;">&nbsp;New</span>
     {% endif %}
+    <p class="text-muted" style="font-size: 0.7rem">Data apertura {{one_page.metadata.apertura}} – Data chiusura {{one_page.metadata.chiusura}} </p>
     </div>
 {% endfor %}
 </div>
@@ -71,6 +72,7 @@ In questo momento non ci sono posizioni aperte. Tieni d’occhio questo sito per
   <div>
     <a href="{{ one_page.url }}" title="{{ one_page.title }}"><b>{{ one_page.title }}</b></a> <span
       style="font-size:12px;">&nbsp;Closed</span>
+      <p class="text-muted" style="font-size: 0.7rem">Data apertura {{one_page.metadata.apertura}} – Data chiusura {{one_page.metadata.chiusura}} </p>
   </div>
   <hr>
   {% endfor %}

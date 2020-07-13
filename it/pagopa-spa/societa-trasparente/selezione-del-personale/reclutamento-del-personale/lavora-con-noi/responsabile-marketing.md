@@ -9,6 +9,9 @@ jazz_url: https://pagopa.applytojob.com/apply/k8QZfpuPTd/Responsabile-Marketing
 pec_cv: true
 iframeheight: 2000
 is_new: true
+metadata:
+    apertura: 13/01/2020
+    chiusura: 30/09/2020
 ---
 
 
