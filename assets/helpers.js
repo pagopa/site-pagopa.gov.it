@@ -126,7 +126,6 @@ function generateTop(topEdcs, key) {
       return item;
     }
   });
-
   return {
     labels: uniqueKeys,
     datasets: [

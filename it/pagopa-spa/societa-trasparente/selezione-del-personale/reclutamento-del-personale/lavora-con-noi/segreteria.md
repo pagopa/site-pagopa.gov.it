@@ -10,6 +10,11 @@ pec_cv: true
 iframeheight: 700
 is_new: false
 archived: true
+metadata:
+    apertura: 15/11/2019
+    chiusura: 05/10/2019
+    numricercate: 1
+    numassunte: 1
 ---
 
 ### Descrizione e responsabilità

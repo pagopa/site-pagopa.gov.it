@@ -5,10 +5,16 @@ lang: it
 layout: job
 ref: senior-interaction-designer
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/FpwBxyJQ8W/Senior-Interaction-Designer
+jazz_url: 
 pec_cv: false
 iframeheight: 2100
-is_new: true
+is_new: false
+archived: true
+metadata:
+    apertura: 04/05/2020
+    chiusura: 15/06/2020
+    numricercate: 1
+    numassunte: 1
 ---
 
 PagoPA è alla ricerca di un Senior Interaction Designer che progetti e migliori i servizi digitali del nostro portfolio, in modo da rispondere sia ai bisogni degli utenti che alle esigenze di business. I progetti su cui lavorerà saranno destinati sia alla cittadinanza, che alle aziende e ai dipendenti della Pubblica Amministrazione.

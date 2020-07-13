@@ -5,10 +5,16 @@ lang: it
 layout: job
 ref: junior-procurement-officer
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/kDjmklmcAv/Junior-Procurement-Officer
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
+metadata:
+    apertura: 17/04/2020
+    chiusura: 15/06/2020
+    numricercate: 1
+    numassunte: 1
 ---
 
 PagoPA S.p.A è alla ricerca di un Junior Procurement Officer, che si occupi insieme al Responsabile Ufficio Procurement dei processi di approvvigionamento aziendale e contribuisca in modo attivo all’esecuzione degli ordini di acquisto, nel rispetto del fabbisogno aziendale e delle normativa applicabile.

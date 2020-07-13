@@ -8,6 +8,7 @@ order: 25
 child_of_ref: cos-e-pago-pa
 ---
 
+### Pagamenti con pagoPA
 Contatta l’**assistenza pagoPA** nel caso in cui tu non sia riuscito a completare l’operazione di pagamento, a scegliere il metodo con cui pagare, oppure il tuo pagamento non sia andato a buon fine. 
 
 Puoi scegliere di **scriverci una email** o di usare l’**assistenza telefonica**: in entrambi i casi **raccogli prima di tutto la documentazione** in tuo possesso (es. data del pagamento, IUV, banca con cui hai effettuato il pagamento, avviso di pagamento, ricevuta o attestazione di pagamento, email ricevuta da pagoPA, screenshot)  che possono esserci utili a capire il problema e fornirti il migliore supporto possibile.
@@ -23,3 +24,13 @@ Puoi scegliere di **scriverci una email** o di usare l’**assistenza telefonica
 Per ulteriori informazioni puoi consultare le <a class="text-decoration-none font-weight-bold"  href="https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/index.html">FAQ di pagoPA</a>
 
 Se invece hai **problemi specifici legati al metodo di pagamento scelto** (Home Banking, paypal, etc.) avrai una risposta più rapida contattando direttamente l’assistenza relativa metodo di pagamento che hai utilizzato. 
+
+### App IO
+Se hai domande relative all'utilizzo dell'app IO, ti invitiamo a fare riferimento ai canali di assistenza dedicati:
+- mentre usi IO, puoi consultare **maggiori informazioni** cliccando sull'**help**: il punto di domanda (?) che trovi in alto a destra in ogni schermata dell'app
+- se riscontri un **problema tecnico**, puoi segnalarlo direttamente nell'app tramite la funzione **"Segnala un bug"** 
+- se hai **problemi in fase di installazione** dell'app o **relativi all'accessibilità**, puoi scrivere una email a <br>
+ <a class="btn btn-md btn-primary mr-md-4 mb-2 mt-2" href="mailto:assistenza@io.italia.it"><img class="icon helpdesk-icon" style="width: 24px; height: 24px; margin-right: 8px;" src="{{ site.baseurl }}/assets/images/envelope-icon.svg" title="Envelope Icon" alt="Evenlope Icon">assistenza@io.italia.it</a>
+
+
+**Per ulteriori dettagli, [consulta le FAQ sul sito di IO](https://io.italia.it/faq/)**

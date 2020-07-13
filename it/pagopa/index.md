@@ -40,7 +40,7 @@ Il sistema pagoPA è stato realizzato dall’Agenzia per l’Italia Digitale (Ag
 
 #### Domande frequenti
 * [Glossario](https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/Glossario.html)
-* [Gruppo A - Carattere generale](https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneB.html)
+* [Gruppo A - Carattere generale](https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneA.html)
 * [Gruppo B - Ambito normativo](https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneB.html)
 
 

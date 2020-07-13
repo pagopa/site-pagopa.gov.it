@@ -9,6 +9,11 @@ jazz_url:
 pec_cv: false
 iframeheight: 1900
 archived: true
+metadata:
+    apertura: 07/04/2020
+    chiusura: 30/04/2020
+    numricercate: 1
+    numassunte: selezione in corso
 ---
 
 PagoPA S.p.A. è alla ricerca di un Esperto di Comunicazione Istituzionale, che operi quale figura di raccordo tra le funzioni aziendali responsabili, da un lato, della Comunicazione (corporate e di prodotto) e, dall’altro lato, delle Relazioni e degli Affari Istituzionali, favorendo il corretto posizionamento della Società, dei suoi progetti e dei relativi prodotti, presso i diversi stakeholders pubblici e le autorità competenti. 
@@ -33,7 +38,7 @@ Le principali responsabilità dell’Esperto di Comunicazione Istituzionale incl
 * forti capacità  comunicative, interpersonali e di rete, con la capacità  di costruire e mantenere un sistema di connessioni in ambienti di alto livello aziendale e politico
 * esperienza nella definizione e implementazione di strategie e iniziative di relazioni pubbliche in ambito istituzionale
 * forte senso delle priorità , flessibilità e attitudine al problem solving
-* buona conoscenza dell’inglese 
+* buona conoscenza dell’inglese
 
 ### Formazione Richiesta
 
