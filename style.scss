@@ -140,5 +140,21 @@ body.page--partner-qualificati {
   }
 }
 
-
+.link-list {
+  .dummy {
+    a {
+      font-weight: 500;
+      pointer-events: none;
+      font-size: 0.76em;
+      @media (min-width: 992px) {
+        color: rgba(255,255,255,0.7);
+      }
+    }
+  }
+  .sub {
+    @media (min-width: 992px) {
+      padding-left: 0.5rem;
+    }
+  }
+}
 

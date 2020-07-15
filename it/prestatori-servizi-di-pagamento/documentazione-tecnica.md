@@ -6,6 +6,7 @@ lang: it
 ref: prestatori-servizi-di-pagamento-come-aderire
 order: 51
 child_of_ref: prestatori-servizi-di-pagamento
+child_of_submenu: pagoPA
 ---
 
 
