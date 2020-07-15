@@ -6,6 +6,7 @@ lang: it
 ref: intermediari-e-mandatari
 order: 61
 child_of_ref: prestatori-servizi-di-pagamento
+child_of_submenu: pagoPA
 ---
 
 
