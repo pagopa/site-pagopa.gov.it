@@ -158,3 +158,23 @@ body.page--partner-qualificati {
   }
 }
 
+.it-hero-wrapper .it-hero-text-wrapper {
+  @media (min-width: 768px) {
+    padding: 48px 34px;
+  }
+  @media (min-width: 992px) {
+    padding: 48px 40% 48px 34px;
+  }
+}
+
+.logopagopaspa {
+  width: 130px;
+  @media (min-width: 992px) {
+    width: 250px;
+  }
+}
+.logo-pagopa-circuito {
+  width: 130px;
+  margin-right: 16px;
+  
+}
