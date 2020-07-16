@@ -37,7 +37,7 @@ e **per ogni singolo servizio**:
 - Termini Aggiuntivi 
 - Documentazione Correlata 
 
-Pertanto, se sei un PSP, per aderire all’offerta dovrai sottoscrivere - senza vincoli di esclusiva - la **Lettera di Accettazione**, manifestando così di avere accettato i relativi termini e condizioni (Allegato 1 - [**T&C**](../termini-aggiuntivi-checkiban.rtf)).
+Pertanto, se sei un PSP, per aderire all’offerta dovrai sottoscrivere - senza vincoli di esclusiva - la **Lettera di Accettazione**, manifestando così di avere accettato i relativi termini e condizioni (Allegato 1 - T&C).
 
 Al fine di consentire e/o favorire l'aggregazione dei PSP per maggiori economie di scala nell’integrazione tecnologica tra il PSP e PagoPA S.p.A., la documentazione contrattuale può essere sottoscritta da un soggetto, per conto di una pluralità di PSP da esso aggregati (il Contraente Aggregatore); **solo** in tale caso, il Contraente Aggregatore dovrà compilare anche l’elenco dettagliato dei soggetti aggregati (**Allegato 2** - Elenco soggetti aggregati).
 
