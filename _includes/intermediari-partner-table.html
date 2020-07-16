@@ -1,4 +1,4 @@
-{% assign partners = site.data.intermediari['PT'] | sort: "Intermediario Partner" %}
+{% assign partners = site.data.intermediari['PT'] | where_exp:"item", "item['Intermediario Partner'] != 'Totale complessivo'" | sort: "Intermediario Partner" %}
 {% assign numpartners = partners.size %}
 {% assign division = numpartners | divided_by:2.0 | ceil %}
 
