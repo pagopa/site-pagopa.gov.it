@@ -5,13 +5,16 @@ lang: it
 layout: job
 ref: smm
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/Z5CZVwpupt/Social-Media-Manager
+jazz_url: 
 pec_cv: false
 iframeheight: 2100
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 07/07/2020
     chiusura: 31/07/2020
+    numricercate: 1
+    numassunte: selezione in corso
 ---
 
 PagoPA S.p.A. è alla ricerca di un Social Media Manager che sotto la propria responsabilità gestisca i profili social della Società con l’obiettivo di  far crescere la presenza online, migliorare la _brand awareness_ e la _reputation_ corporate e  dei singoli progetti gestiti dalla Società.
