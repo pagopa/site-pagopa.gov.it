@@ -52,4 +52,4 @@ Le principali responsabilità del Product Owner includono:
 
 * Roma
 
-Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il 31 Luglio 2020. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
+Per applicare, invia il tuo CV e la tua lettera di motivazione (facoltativa). Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati. 
