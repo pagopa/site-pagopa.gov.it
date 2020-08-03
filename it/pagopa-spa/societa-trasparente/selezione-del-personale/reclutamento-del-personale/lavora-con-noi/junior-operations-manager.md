@@ -13,7 +13,7 @@ archived: true
 metadata:
     apertura: 05/06/2020
     chiusura: 30/06/2020
-    numassunte: selezione in corso
+    numassunte: 0
 ---
 
 

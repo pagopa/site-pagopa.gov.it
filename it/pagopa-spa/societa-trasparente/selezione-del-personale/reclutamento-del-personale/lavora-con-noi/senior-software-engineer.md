@@ -43,3 +43,8 @@ PagoPA è alla ricerca di sviluppatori esperti, con esperienza nella progettazio
 ### Formazione Richiesta
 
 Laurea in Informatica o affine con almeno 5 anni di esperienza in ambienti di sviluppo di piattaforme digitali, mobile e web, oppure, in assenza di laurea, almeno 8 anni di esperienza in ambienti di sviluppo di piattaforme digitali, mobile e web.
+
+### Sede di lavoro
+- Roma
+
+Per applicare, invia il tuo CV e la tua lettera di motivazione (facoltativa). Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati. 

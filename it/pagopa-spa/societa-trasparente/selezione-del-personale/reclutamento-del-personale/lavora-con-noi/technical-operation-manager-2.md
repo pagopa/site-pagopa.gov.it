@@ -5,13 +5,16 @@ lang: it
 layout: job
 ref: technical-operation-manager-2
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/FkhpYWU0cm/Technical-Operation-Manager
+jazz_url: 
 pec_cv: false
 iframeheight: 2100
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 17/06/2020
     chiusura: 31/07/2020
+    numricercate: 1
+    numassunte: selezione in corso
 ---
 
 ### Descrizione e responsabilità

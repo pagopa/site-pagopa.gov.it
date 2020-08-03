@@ -44,3 +44,8 @@ PagoPA è alla ricerca di un esperto Devops Engineer che collabori con i team di
 ### Formazione Richiesta
 
 Laurea magistrale in Informatica o affine con almeno 5 anni di esperienza nell’industria IT come Site Reliability Engineer/ Devops, o, in assenza di laurea, almeno 8 anni di esperienza nell’industria IT come Site Reliability Engineer / Devops.
+
+### Sede di lavoro
+- Roma
+
+Per applicare, invia il tuo CV e la tua lettera di motivazione (facoltativa). Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati. 
