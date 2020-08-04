@@ -5,16 +5,13 @@ lang: it
 layout: job
 ref: technical-operation-manager-2
 child_of_ref: lavora-con-noi
-jazz_url: 
+jazz_url: https://pagopa.applytojob.com/apply/FkhpYWU0cm/Technical-Operation-Manager
 pec_cv: false
 iframeheight: 2100
-is_new: false
-archived: true
+is_new: true
 metadata:
     apertura: 17/06/2020
-    chiusura: 31/07/2020
-    numricercate: 1
-    numassunte: selezione in corso
+    chiusura: 31/12/2020
 ---
 
 ### Descrizione e responsabilità
@@ -49,4 +46,5 @@ La figura di Technical Operation Manager dovrà coordinare le attività di gesti
 
 * Roma
 
-Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il **31 Luglio 2020**. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
+Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il 31 Luglio 2020. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
+**La data di presentazione delle candidature per la presente posizione è stata prorogata dal 31 luglio 2020 al 31 dicembre 2020.**
