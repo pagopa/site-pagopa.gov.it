@@ -481,3 +481,132 @@
   'Referenza n8: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': Comune di Pimonte - TARI
   'Referenza n9: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': Comune di Petruro Irpino - TARI
   'Referenza n10: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': Comune di San Mango Piemonte - Lampade Votive
+-
+    'Messa a disposizione dei documenti scambiati con pagoPA (RT,RPT, flussi di rendicontazione) per conservazione': Si
+    'Scarico flussi di rendicontazione': Si
+    'Front-End Pagamenti on line': Si
+    'Invio esito pagamento': Si
+    'Possibilità invio PEC': Si
+    'Avvisatura massiva': Si
+    'Invio automatico flussi al postalizzatore': Si
+    'Avvisatura singola': Si
+    'Servizi di quadratura del flusso di pagamenti': Si
+    'Help Desk e gestione degli incident': Si
+    'Disponibilità di manuali per l''utenza on line': Si
+    'Export dell''APA': Si
+    Formazione: Si
+    'Gestione Autorizzazione stampa in proprio': Si
+    'Iniziative di diffusione': Si
+    'Iniziative di comunicazione': Si
+    'Integrazione con piattaforma App IO': Si
+    Riconciliazione: Si
+    'Pagamento con POS': Si
+    'Integrazione con ANPR': Si
+    'SIOPE +': Si
+    'Codifica dati per analisi pagamenti': Si
+    'Fascicolo del cittadino': Si
+    'Interoperabilità con contabilità': Si
+    'Interoperabilità con gestionali': Si
+    'CF del Contraente': '06188330150'
+    'Ragione Sociale del Contraente': 'MAGGIOLI SPA'
+    'Confermo di erogare i servizi obbligatori tipologia Sm e Sb': Si
+    'Gestione incassi extra Nodo': Si
+    'Integrazione SDI': ""
+    'Front end multilingue': Si
+    'Integrabilità con altri front-end': Si
+    'Referenza n1: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Provincia di Pisa - CDS'
+    'Referenza n2: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Salerno - Tributi, CDS et al.'
+    'Referenza n3: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Pescara - TARI et al.'
+    'Referenza n4: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Unione Comuni Valdera – CDS, Servizi Scolastici et al.'
+    'Referenza n5: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'A.R.P.A. Campania - Fatture'
+    'Referenza n6: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Ragusa - Servizio Idrico'
+    'Referenza n7: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Mantova – CDS, Servizi Scolastici et al.'
+    'Referenza n8: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Trezzo sull''Adda (MI) - CDS et al.'
+    'Referenza n9: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Cassina de Pecchi (MI) - switch off completo'
+    'Referenza n10: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Rosignano Marittimo (LI) - switch off completo'
+-
+    'Messa a disposizione dei documenti scambiati con pagoPA (RT,RPT, flussi di rendicontazione) per conservazione': Si
+    'Scarico flussi di rendicontazione': Si
+    'Front-End Pagamenti on line': Si
+    'Invio esito pagamento': Si
+    'Possibilità invio PEC': Si
+    'Avvisatura massiva': Si
+    'Invio automatico flussi al postalizzatore': Si
+    'Avvisatura singola': Si
+    'Servizi di quadratura del flusso di pagamenti': Si
+    'Help Desk e gestione degli incident': Si
+    'Disponibilità di manuali per l''utenza on line': Si
+    'Export dell''APA': Si
+    Formazione: Si
+    'Gestione Autorizzazione stampa in proprio': Si
+    'Iniziative di diffusione': Si
+    'Iniziative di comunicazione': Si
+    'Integrazione con piattaforma App IO': Si
+    Riconciliazione: Si
+    'Pagamento con POS': No
+    'Integrazione con ANPR': No
+    'SIOPE +': No
+    'Codifica dati per analisi pagamenti': Si
+    'Fascicolo del cittadino': Si
+    'Interoperabilità con contabilità': Si
+    'Interoperabilità con gestionali': Si
+    'CF del Contraente': '12105121003'
+    'Ragione Sociale del Contraente': 'NOVARES SPA'
+    'Confermo di erogare i servizi obbligatori tipologia Sm e Sb': Si
+    'Gestione incassi extra Nodo': Si
+    'Integrazione SDI': ""
+    'Front end multilingue': No
+    'Integrabilità con altri front-end': Si
+    'Referenza n1: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Castelbianco - Servizio idrico'
+    'Referenza n2: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Castelbianco - Trasporto scolastico'
+    'Referenza n3: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Castelbianco - Diritti cimiteriali'
+    'Referenza n4: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Aiga S.p.a. - Riscossione ordinaria et al.'
+    'Referenza n5: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Autorita'' di sistema portuale del Mar Tirreno centro-settentrionale - Riscossione ordinaria et al.'
+    'Referenza n6: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'S.E.A. Servizi ed Ambiente s.p.a. - Riscossione coattiva di tutte le entrate et al.'
+    'Referenza n7: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Marano Equo - Riscossione coattiva TARI-IMU et al.'
+    'Referenza n8: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Marano Equo - Riscossione ordinaria et al.'
+    'Referenza n9: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Marano Equo - Riscossione ordinaria et al.'
+    'Referenza n10: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Cineto Romano - Riscossione coattiva TARI et al.'
+-
+    'Messa a disposizione dei documenti scambiati con pagoPA (RT,RPT, flussi di rendicontazione) per conservazione': Si
+    'Scarico flussi di rendicontazione': Si
+    'Front-End Pagamenti on line': Si
+    'Invio esito pagamento': Si
+    'Possibilità invio PEC': Si
+    'Avvisatura massiva': Si
+    'Invio automatico flussi al postalizzatore': Si
+    'Avvisatura singola': Si
+    'Servizi di quadratura del flusso di pagamenti': Si
+    'Help Desk e gestione degli incident': Si
+    'Disponibilità di manuali per l''utenza on line': Si
+    'Export dell''APA': Si
+    Formazione: Si
+    'Gestione Autorizzazione stampa in proprio': Si
+    'Iniziative di diffusione': Si
+    'Iniziative di comunicazione': Si
+    'Integrazione con piattaforma App IO': Si
+    Riconciliazione: Si
+    'Pagamento con POS': Si
+    'Integrazione con ANPR': Si
+    'SIOPE +': Si
+    'Codifica dati per analisi pagamenti': Si
+    'Fascicolo del cittadino': Si
+    'Interoperabilità con contabilità': Si
+    'Interoperabilità con gestionali': Si
+    'CF del Contraente': '8543640158'
+    'Ragione Sociale del Contraente': 'APKAPPA SRL'
+    'Confermo di erogare i servizi obbligatori tipologia Sm e Sb': Si
+    'Gestione incassi extra Nodo': Si
+    'Integrazione SDI': ""
+    'Front end multilingue': No
+    'Integrabilità con altri front-end': No
+    'Referenza n1: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comuen di Corbetta - Rette Asili Nido et al.'
+    'Referenza n2: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Arzachena - TARI et al.'
+    'Referenza n3: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Castelfranco Veneto - Servizio prescuola et al.'
+    'Referenza n4: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Asti - Trasporto e Servizi Scolastivi et al.'
+    'Referenza n5: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Molfetta - Diritti di segreteria et al.'
+    'Referenza n6: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Selargius - TARI et al.'
+    'Referenza n7: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Varese - SUAP, SUE, et al.'
+    'Referenza n8: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Comune di Alessandria - Diritti di Segreteria et al.'
+    'Referenza n9: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Unione Montana dei Comuni dell''Appennino Reggiano - Trasporto scolastico et al.'
+    'Referenza n10: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)': 'Unione dei Comuni Montani della Val Trompia - Trasporto Scolastico et al.'

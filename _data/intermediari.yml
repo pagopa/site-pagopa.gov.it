@@ -120,10 +120,6 @@ I:
       Codice Fiscale: 97830880585
       Conteggio di denominazione Ente: 1
   -
-      Intermediario Partner: Novares Spa
-      Codice Fiscale: 12105121003
-      Conteggio di denominazione Ente: 42
-  -
       Intermediario Partner: Provincia Autonoma di Trento
       Codice Fiscale: 00337460224
       Conteggio di denominazione Ente: 342
@@ -356,6 +352,10 @@ PT:
       Intermediario Partner: NORDCOM
       Codice Fiscale: 13384100155
       Conteggio di denominazione Ente: 56
+  -
+      Intermediario Partner: Novares Spa
+      Codice Fiscale: 12105121003
+      Conteggio di denominazione Ente: 42
   -
       Intermediario Partner: Noviservice srl
       Codice Fiscale: 02789990922
