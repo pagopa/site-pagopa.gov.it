@@ -35,7 +35,7 @@
             {% assign label = k | first %}
             {% assign value = k | last %}
             {% comment %}Let's manage the data attributes to apply to the card ======{% endcomment %}
-            {% if value!='No' %}
+            {% if value!='No' and value!=false %}
                 {% capture dataAttributes %}
                     data-partner-filter-{{forloop.index}} {{dataAttributes}}
                 {% endcapture %}
