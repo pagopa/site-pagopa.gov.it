@@ -13,7 +13,7 @@ metadata:
     apertura: 07/04/2020
     chiusura: 30/04/2020
     numricercate: 1
-    numassunte: selezione in corso
+    numassunte: 0
 ---
 
 PagoPA S.p.A. è alla ricerca di un Esperto di Comunicazione Istituzionale, che operi quale figura di raccordo tra le funzioni aziendali responsabili, da un lato, della Comunicazione (corporate e di prodotto) e, dall’altro lato, delle Relazioni e degli Affari Istituzionali, favorendo il corretto posizionamento della Società, dei suoi progetti e dei relativi prodotti, presso i diversi stakeholders pubblici e le autorità competenti. 

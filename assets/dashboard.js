@@ -53,7 +53,7 @@ function loadJSON(callback) {
             xAxes: [
               {
                 gridLines: {
-                  display: false,
+                  display: true,
                 },
                 ticks: {
                   fontSize: 15,
@@ -68,7 +68,7 @@ function loadJSON(callback) {
                 //    drawBorder: false,
                 //  },
                 gridLines: {
-                  display: false,
+                  display: true,
                 },
                 ticks: {
                   display: false,
@@ -106,9 +106,9 @@ function loadJSON(callback) {
           scales: {
             xAxes: [
               {
-                gridLines: {
-                  display: false,
-                },
+              //  gridLines: {
+              //    display: false,
+              //  },
                 ticks: {
                   fontSize: 15,
                   fontColor: "#19191a",
@@ -118,14 +118,11 @@ function loadJSON(callback) {
             ],
             yAxes: [
               {
-                //  gridLines: {
-                //    drawBorder: false,
-                //  },
-                gridLines: {
-                  display: false,
-                },
+              //  gridLines: {
+              //    display: false,
+              //  },
                 ticks: {
-                  display: false,
+                  display: true,
                   //  beginAtZero: true,
                   fontSize: 15,
                   fontColor: "#19191a",
@@ -166,9 +163,9 @@ function loadJSON(callback) {
           scales: {
             xAxes: [
               {
-                gridLines: {
-                  display: false,
-                },
+           //     gridLines: {
+           //       display: false,
+           //     },
                 ticks: {
                   fontSize: 15,
                   fontColor: "#19191a",
@@ -178,14 +175,11 @@ function loadJSON(callback) {
             ],
             yAxes: [
               {
-                //  gridLines: {
-                //    drawBorder: false,
-                //  },
-                gridLines: {
-                  display: false,
-                },
+             //   gridLines: {
+             //     display: false,
+             //   },
                 ticks: {
-                  display: false,
+                  display: true,
                   //  beginAtZero: true,
                   fontSize: 15,
                   fontColor: "#19191a",
@@ -247,7 +241,7 @@ function loadJSON(callback) {
           xAxes: [
             {
               gridLines: {
-                display: false,
+                display: true,
               },
               ticks: {
                 fontSize: 15,
@@ -262,7 +256,7 @@ function loadJSON(callback) {
               //    drawBorder: false,
               //  },
               gridLines: {
-                display: false,
+                display: true,
               },
               ticks: {
                 display: false,
@@ -295,16 +289,16 @@ function loadJSON(callback) {
       var eTotal = eUntil31122019 + e2020;
   
       $("#2019t").text(
-        "# " + dashboardData.transactions2019[0].total.toLocaleString("en")
+        "  " + dashboardData.transactions2019[0].total.toLocaleString("it")
       );
-      $("#2020t").text("# " + t2020.toLocaleString());
-      $("#2020e").text("€ " + e2020.toLocaleString());
-      $("#totalt").text("# " + dashboardData.totalInHistory.toLocaleString());
+      $("#2020t").text("  " + t2020.toLocaleString("it"));
+      $("#2020e").text("€ " + e2020.toLocaleString("it"));
+      $("#totalt").text("  " + dashboardData.totalInHistory.toLocaleString("it"));
       $("#growthRate").text(Math.round(dashboardData.growthRate) + " %");
-      $("#predTotal").text("# " + (tPred + t2020).toLocaleString());
-      $("#predEuro").text("€ " + (predImporto + e2020).toLocaleString());
+      $("#predTotal").text("  " + (tPred + t2020).toLocaleString("it"));
+      $("#predEuro").text("€ " + (predImporto + e2020).toLocaleString("it"));
       
-      $("#eTotal").text("€ " + eTotal.toLocaleString());
+      $("#eTotal").text("€ " + eTotal.toLocaleString("it"));
   
     });
   });

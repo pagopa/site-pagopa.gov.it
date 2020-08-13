@@ -7,6 +7,7 @@ ref: prestatori-servizi-di-pagamento-elenco-psp-attivi
 usedatatables: true
 order: 50
 child_of_ref: prestatori-servizi-di-pagamento
+child_of_submenu: pagoPA
 ---
 
 È possibile scaricare l’elenco dei Prestatori di Servizi di Pagamento (PSP):

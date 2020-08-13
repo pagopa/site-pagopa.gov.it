@@ -48,3 +48,8 @@ Utilizziamo e lavoriamo con strumenti all'avanguardia, gestiamo e manteniamo l'i
 ### Formazione Richiesta
 
 Laurea in computer science o affine con almeno 4 anni di solida esperienza in ambito cybersecurity o esperienza equivalente.
+
+### Sede di lavoro
+- Roma
+
+Per applicare, invia il tuo CV e la tua lettera di motivazione (facoltativa). Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati. 

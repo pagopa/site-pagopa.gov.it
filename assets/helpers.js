@@ -118,11 +118,21 @@ function generateTop(topEdcs, key) {
       return "MyBank";
     } else if (item.startsWith("Automobile")) {
       return "ACI";
+<<<<<<< HEAD
+=======
+    } else if (item.startsWith("Agenzia delle")) {
+      return "ADE";
+    } else if (item.startsWith("Istituto Nazionale")) {
+      return "INPS";
+>>>>>>> eea9c2ac3603c4b4d0bb5da7d878e906ca70832b
     } else {
       return item;
     }
   });
+<<<<<<< HEAD
   
+=======
+>>>>>>> eea9c2ac3603c4b4d0bb5da7d878e906ca70832b
   return {
     labels: uniqueKeys,
     datasets: [
@@ -241,14 +251,14 @@ function generatePredData(dashboardData) {
         borderColor: "rgb(0, 115, 230)",
       },
       {
-        label: "# Ottimistiche",
+        label: "# Stime ottimistiche",
         data: yUpperTotals,
         borderWidth: 1,
         backgroundColor: "rgb(230, 255, 245, 0.2)",
         borderColor: "rgb(77, 255, 184)",
       },
       {
-        label: "# Pessimistiche",
+        label: "# Stime pessimistiche",
         data: yLowerTotals,
         borderWidth: 1,
         backgroundColor: "rgb(230, 255, 245, 0.8)",

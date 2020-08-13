@@ -11,7 +11,7 @@ iframeheight: 2000
 is_new: true
 metadata:
     apertura: 08/06/2020
-    chiusura: 31/07/2020
+    chiusura: 31/12/2020
 ---
 
 PagoPA S.p.A. è alla ricerca di un Product Owner che sotto la propria responsabilità guidi da un punto di vista sia tecnico che di business i prodotti e servizi sviluppati dalla società avendo cura di comunicare e negoziare con gli stakeholder del progetto al fine di risolvere eventuali conflitti presenti e garantire il raggiungimento degli obiettivi aziendali.
@@ -52,4 +52,4 @@ Le principali responsabilità del Product Owner includono:
 
 * Roma
 
-Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il 31 Luglio 2020. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
+Per applicare, invia il tuo CV e la tua lettera di motivazione (facoltativa). Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati. 
