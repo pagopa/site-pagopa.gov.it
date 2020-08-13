@@ -118,21 +118,14 @@ function generateTop(topEdcs, key) {
       return "MyBank";
     } else if (item.startsWith("Automobile")) {
       return "ACI";
-<<<<<<< HEAD
-=======
     } else if (item.startsWith("Agenzia delle")) {
       return "ADE";
     } else if (item.startsWith("Istituto Nazionale")) {
       return "INPS";
->>>>>>> eea9c2ac3603c4b4d0bb5da7d878e906ca70832b
     } else {
       return item;
     }
   });
-<<<<<<< HEAD
-  
-=======
->>>>>>> eea9c2ac3603c4b4d0bb5da7d878e906ca70832b
   return {
     labels: uniqueKeys,
     datasets: [
