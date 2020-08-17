@@ -24,7 +24,7 @@ function loadJSON(callback) {
     // Parse JSON string into object
     var dashboardData = JSON.parse(response);
   
-    var generatedByMonths = generateByMonthData(dashboardData.byMonth);
+    var generatedByMonths = generateByMonthDataPosAndNeg([dashboardData.byMonthPos,dashboardData.byMonthNeg ]);
   
     // By Month chart transactions
     var byMonth = document.getElementById("byMonth");
@@ -86,7 +86,7 @@ function loadJSON(callback) {
         },
       });
     }
-  
+
     var topEdcData = generateTop(dashboardData.dEcbyAnno, "DenominazioneEc");
   
     var top10Edc = document.getElementById("top10Edc");

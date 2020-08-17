@@ -48,37 +48,53 @@ var COLORS = ["rgb(51, 102, 255, 0.5)", "rgb(153, 51, 255, 0.5)"];
 
 var BORDERCOLORS = ["rgb(51, 102, 255)", "rgb(153, 51, 255)"];
 
-// @parameter array byMonth form dashboard-data.json
+// @parameter array byMonthPos and byMonthNeg form dashboard-data.json
 // Prepare data for byMonth chart
-function generateByMonthData(byMonthArray) {
-  const ordered = byMonthArray.sort(function (a, b) {
-    return a.monthofyear > b.monthofyear ? 1 : -1;
-  });
-  var data = {};
-  for (var i = 0; i < byMonthArray.length; i++) {
-    var record = byMonthArray[i];
-    var yearAndMonth = record.monthofyear.split("-");
-    var year = yearAndMonth[0];
-    var total = record.total;
-    if (!Object.keys(data).includes(year)) {
-      data[year] = [total];
-    } else {
-      data[year].push(total);
+function generateByMonthDataPosAndNeg(PosNegArray) {
+  function generate(pos, label, colors, borderColors) {
+    const ordered = pos.sort(function (a, b) {
+      return a.monthofyear > b.monthofyear ? 1 : -1;
+    });
+    var data = {};
+    for (var i = 0; i < ordered.length; i++) {
+      var record = ordered[i];
+      var yearAndMonth = record.monthofyear.split("-");
+      var year = yearAndMonth[0];
+      var total = record.total;
+      if (!Object.keys(data).includes(year)) {
+        data[year] = [total];
+      } else {
+        data[year].push(total);
+      }
     }
+    var keys = Object.keys(data).filter(function (year) {
+      return year === "2019" || year === "2020";
+    });
+  
+    return keys.map(function (key, idx) {
+      return {
+        label: label + " " + key,
+        data: data[key],
+        // fill: false,
+        backgroundColor: colors[idx],
+        borderColor: borderColors[idx],
+        borderWidth: 1,
+        stack: key,
+      };
+    });
   }
-  var keys = Object.keys(data).filter(function (year) {
-    return year === "2019" || year === "2020";
-  });
-  return keys.map(function (key, idx) {
-    return {
-      label: key,
-      data: data[key],
-      // fill: false,
-      backgroundColor: COLORS[idx],
-      borderColor: BORDERCOLORS[idx],
-      borderWidth: 1,
-    };
-  });
+
+  var pos = generate(PosNegArray[0], 
+    "Positive", 
+    ["rgb(51, 102, 255, 0.5)", "rgb(153, 51, 255, 0.5)"],
+    ["rgb(51, 102, 255)", "rgb(153, 51, 255)"],
+    "positive" )
+  var neg = generate(PosNegArray[1], 
+    "Negative",
+    ["rgb(51, 102, 255)", "rgb(153, 51, 255)"],
+    ["rgb(51, 102, 255)", "rgb(153, 51, 255)"])
+
+  return pos.concat(neg)
 }
 
 // @parameter array edc o psp form dashboard-data.json
