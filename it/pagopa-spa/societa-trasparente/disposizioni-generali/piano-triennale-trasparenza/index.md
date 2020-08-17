@@ -8,4 +8,4 @@ order: 3
 child_of_ref: disposizioni-generali
 ---
 
-[Il PTPCT 2020-2022 e i relativi allegati sono stati approvati con Determina dell'Amministratore Unico n. 9/2020](/it/pagopa-spa/societa-trasparente/altri-contenuti/anticorruzione/)
+[Il PTPCT 2020-2022 e i relativi allegati sono stati approvati con Determina dell'Amministratore Unico n. 9/2020 e sono visualizzabili al seguente link](/it/pagopa-spa/societa-trasparente/altri-contenuti/anticorruzione/)
