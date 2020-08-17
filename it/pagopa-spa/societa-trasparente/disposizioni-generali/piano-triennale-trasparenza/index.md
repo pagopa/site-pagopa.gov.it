@@ -8,4 +8,4 @@ order: 3
 child_of_ref: disposizioni-generali
 ---
 
-Il Piano triennale 2020-2022 è in fase di redazione.
+[Il PTPCT 2020-2022 e i relativi allegati sono stati approvati con Determina dell'Amministratore Unico n. 9/2020](/it/pagopa-spa/societa-trasparente/altri-contenuti/anticorruzione/)
