@@ -8,4 +8,5 @@ order: 25
 child_of_ref: bandi-gara-contratti
 ---
 
+* [Anno 2020](./2020)
 * [Anno 2019](./2019)
