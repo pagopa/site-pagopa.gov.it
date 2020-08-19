@@ -21,6 +21,10 @@ bandi:
       name: "06. Affidamento diretto ai sensi dell'art. 36, co. 2, lett. a) del D.Lgs. 50/2016 dei servizi di contabilità' interna e del personale - CIG 8037975ACC"
     - id: "2019/07"
       name: "07. Procedura, ai sensi dell’art. 36, comma 2, lett. b) del D.Lgs. 50/2016 per l’acquisizione dei servizi professionali di revisione legale dei conti per la società PagoPA S.p.A. - CIG 808708272E"
+    - id: "2019/08"
+      name: "08. Affidamento diretto ai sensi dell’art. 36, comma 2, lett. a) del D. Lgs. 50/2016, per l’apertura di un conto corrente intestato alla Società - CIG 80035545B2"
+    - id: "2019/09"
+      name: "09. Adesione a Convenzione Consip `SPC Cloud Lotto 2´ per l'acquisizione dei servizi di gestione delle identità digitali e sicurezza applicativa - CIG del contratto quadro: 5518849A42"
 ---
 
 
