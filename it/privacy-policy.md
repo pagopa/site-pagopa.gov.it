@@ -88,6 +88,8 @@ L’elenco dei responsabili del trattamento può essere richiesto al Titolare in
 
 Alcuni dei fornitori terzi che utilizziamo risiedono negli USA. Abbiamo concluso con tali fornitori accordi di servizio ai sensi dell’art. 28 del Regolamento. Tutti i fornitori sono conformi al Regolamento e, in assenza di altre misure di garanzia previste dal Regolamento, abbiamo concluso con loro le Clausole Contrattuali della Commissione Europea per garantire adeguati livelli di tutela. Una copia delle garanzie poste in essere può essere richiesta in qualsiasi momento, scrivendo a [dpo@pagopa.it](mailto:dpo@pagopa.it).
 
+## **Tempi di conservazione dei dati**
+I dati personali raccolti saranno conservati per un periodo di tempo non superiore a quello necessario agli scopi per i quali essi sono stati raccolti o successivamente trattati conformemente a quanto previsto dagli obblighi di legge. Per maggiori informazioni è possibile scrivere a [dpo@pagopa.it](mailto:dpo@pagopa.it).
 
 ## **Diritti degli interessati**
 
