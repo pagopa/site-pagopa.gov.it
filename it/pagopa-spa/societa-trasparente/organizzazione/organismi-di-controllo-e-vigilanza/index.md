@@ -36,5 +36,6 @@ Nello svolgimento del proprio compito il Collegio sindacale vigila sull'osservan
     - atto nomina: **[DPCM](../../disposizioni-generali/atti-generali/DPCM_costituzione.pdf), [Atto costitutivo](../../disposizioni-generali/atti-generali/Atto_costitutivo_pagoPA_SpA.pdf)**
     - **[dichiarazioni rese in sede di accettazione della carica - anno 2019](./Elena_Gazzola_accettazione.pdf)**
     - **[dichiarazione ex art. 20 D.Lgs. 39/2013 - anno 2019](./Elena_Gazzola_altri_incarichi.pdf)**
+    - **[dichiarazione ex art. 20 D.Lgs. 39/2013 - anno 2020](./Elena_Gazzola_altri_incarichi-2020.pdf)**
     - **[curriculum vitae](./Elena_Gazzola_curriculum.pdf)**
     - compenso annuo: **8.000€**
