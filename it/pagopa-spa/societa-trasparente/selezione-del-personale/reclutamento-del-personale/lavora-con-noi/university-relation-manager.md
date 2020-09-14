@@ -5,13 +5,16 @@ lang: it
 layout: job
 ref: university-relation-manager
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/B0eGxwyKqg/University-Relations-Manager
+jazz_url: 
 pec_cv: false
 iframeheight: 2000
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 28/07/2020
     chiusura: 24/08/2020
+    numricercate: 1
+    numassunte: 1
 ---
 
 PagoPA S.p.A. è alla ricerca di un University Relations Manager che abbia il compito di curare i rapporti e le relazioni tra la società e il mondo accademico e della ricerca scientifica e applicata da inserire nel team **Affari Istituzionali e Comunicazione** a diretto riporto del Chief Institutional Affairs & External Communication officer.
