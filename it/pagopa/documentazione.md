@@ -27,6 +27,7 @@ Le Linee guida sono corredate da **due allegati tecnici**:
 * [Allegato tecnico Pagamento della Tassa Automobilistica presso i PSP (PDF e XSD)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/documentazione_collegata/bollo_auto_mod_4_0.zip)
 * [MyBank Technical Specification (versione 2.0 - luglio 2019)](https://docs.google.com/document/d/1M5OEfN5RZSfBSKRuhYWX3WZkWVcivD4WpRxsjwyEUzE/edit?usp=sharing)
 * [Gestione delle convenzioni tra EC e PSP (maggio 2020)](https://docs.google.com/document/d/1nn3Tkifkwog5KYfozyix7iN0V3DjeeeVIKkJ1tMcB_c/edit?usp=sharing)
+* [Il pagamento presso POS fisici nel sistema pagoPA (giugno 2020)](https://docs.google.com/document/d/1BOG-OBQm7WMXyfpyPlfRc8ZhbxFJmt-3H7INMqG_oVY/edit?usp=sharing)
 
 ## Regolamento logo
 * [Regolamento inerente l’uso del marchio collettivo registrato "pagoPA" (PDF)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/regolamento_logo/regolamento_uso_marchio_pagopa_2018_0_0.pdf), [Allegato A](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/regolamento_logo/all_a_brandguidelines_0_0.pdf), [Allegato B](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/regolamento_logo/brandguidelines_v_2_1.pdf)
@@ -34,13 +35,18 @@ Le Linee guida sono corredate da **due allegati tecnici**:
 
 ## Materiale per sviluppatori (*)
 * [Schemi XSD e WSDL](https://github.com/italia/pagopa-specifichepagamenti-schemi)
-* [Controlli applicativi del sistema pagoPA (versione 1.0 - febbraio 2018 )](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/materiale_sviluppatori/elenco_controlli_nodo_2_1_new.pdf)
+* [Controlli applicativi del sistema pagoPA (versione 1.0 - febbraio 2018 )](https://github.com/pagopa/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/materiale_sviluppatori/elenco_controlli_nodo_2_1_new.pdf)
 * [Kit per le immagini standard previste sull'avviso analogico](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/materiale_sviluppatori/avviso-pagopa-assets.zip)
 
 (*) ulteriore materiale sarà pubblicato su <https://developers.italia.it/>
 
 ## Documentazione tecnica in consultazione
+
+Al momento non è presente documentazione in consultazione.
+
+<!--
 * <span class="badge badge-secondary">New</span> [Il pagamento presso POS fisici nel sistema pagoPA](https://docs.google.com/document/d/1BOG-OBQm7WMXyfpyPlfRc8ZhbxFJmt-3H7INMqG_oVY/edit?usp=sharing)
+-->
 
 ## Best practices
 * [Caso d'uso: pagamento di contravvenzioni del Codice della Strada](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/best_practices/multe_con_preavviso_agid.pdf)
