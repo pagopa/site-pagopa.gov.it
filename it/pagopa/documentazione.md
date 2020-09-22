@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Documentazione tecnica
+title: Documentazione
 description: 
 lang: it
-ref: documentazione-tecnica
+ref: documentazione
 order: 22
 ---
 
