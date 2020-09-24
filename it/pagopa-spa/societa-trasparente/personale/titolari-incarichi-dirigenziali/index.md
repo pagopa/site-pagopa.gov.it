@@ -28,5 +28,11 @@ child_of_ref: personale-page
 [**Fornaro Claudio**](fornaro/)
 <br><small>Chief Sales Officer - Responsabile vendite</small>
 
+[**Gambardella Massimiliano**](gambardella/)
+<br><small>University Relations Manager</small>
+
 [**Lucibello Maria Teresa**](lucibello/)
 <br><small>Direttore - Responsabile affari societari</small>
+
+[**Quaglia Michelangelo**](quaglia/)
+<br><small>Chief Data Officer</small>

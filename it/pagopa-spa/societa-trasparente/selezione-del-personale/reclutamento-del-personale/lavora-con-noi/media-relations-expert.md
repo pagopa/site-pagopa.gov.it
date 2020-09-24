@@ -5,13 +5,16 @@ lang: it
 layout: job
 ref: media-relations-expert
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/2wOgRvgMkA/Media-Relations-Expert
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 03/08/2020
     chiusura: 06/09/2020
+    numricercate: 1
+    numassunte: selezione in corso
 ---
 
 PagoPA S.p.A. è alla ricerca di un esperto di ufficio stampa, relazioni pubbliche e comunicazione d’impresa nel ruolo di __Media Relations Expert__, da inserire nel team **Affari Istituzionali e Comunicazione** a diretto riporto del __Chief Communication Officer__.

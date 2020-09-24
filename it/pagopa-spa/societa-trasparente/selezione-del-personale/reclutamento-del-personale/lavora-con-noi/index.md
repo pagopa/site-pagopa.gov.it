@@ -44,6 +44,8 @@ In questo momento non ci sono posizioni aperte. Tieni d’occhio questo sito per
   <dd class="col-sm-9">Roma, Milano, smart working</dd>
 </dl>
 
+<div class="alert alert-info" role="alert">Prima di inviare la candidatura ricorda di leggere la <a href="/it/privacy-policy/" class="font-weight-bold" >Privacy Policy</a></div>
+
 <div class="jobpositions">
 {% for one_page in open_jobs_pages %}
     <hr>
