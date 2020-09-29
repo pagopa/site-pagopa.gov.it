@@ -42,14 +42,9 @@ Le Linee guida sono corredate da **due allegati tecnici**:
 
 ## Documentazione tecnica in consultazione
 
-* <span class="badge badge-secondary">New</span> [Tassonomia dei servizi di incasso - piattaforma pagoPA](https://docs.google.com/document/d/1BOG-OBQm7WMXyfpyPlfRc8ZhbxFJmt-3H7INMqG_oVY/edit?usp=sharing)
+* <span class="badge badge-secondary">New</span> [Monografia Tassonomia dei servizi di incasso](https://docs.google.com/document/d/1OawsOwvMOxgLGB3KXNeqJTxrX2XYD7q0HZ8RNrZdimg/edit) - [Tabella tassonomica](https://drive.google.com/file/d/13xOd__Qd4pwKHr3wjE-73NAB2O7UKmIt/view)
 
-<!--
-Al momento non è presente documentazione in consultazione.
--->
-<!--
-* <span class="badge badge-secondary">New</span> [Il pagamento presso POS fisici nel sistema pagoPA](https://docs.google.com/document/d/1BOG-OBQm7WMXyfpyPlfRc8ZhbxFJmt-3H7INMqG_oVY/edit?usp=sharing)
--->
+<!-- Al momento non è presente documentazione in consultazione. -->
 
 ## Best practices
 * [Caso d'uso: pagamento di contravvenzioni del Codice della Strada](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/best_practices/multe_con_preavviso_agid.pdf)
