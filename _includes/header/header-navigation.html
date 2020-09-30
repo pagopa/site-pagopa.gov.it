@@ -93,7 +93,7 @@ Le pagine che vengono incluse in questo menù sono un sottoinsieme di tutte le p
                   `menu_page`)
                   {% endcomment %}
                   {% assign current_lang_menu_child_pages = site.pages | where: "lang", page.lang | where_exp: "page", "page.order != nil" | where: "child_of_ref", menu_page.ref | sort: "order" | group_by: "child_of_submenu" %}
-                  {% if current_lang_menu_child_pages.items.size == 0 %}
+                  {% if current_lang_menu_child_pages.size == 0 %}
                   <li class="nav-item">
                     <a class="nav-link" href="{{ site.baseurl }}{{menu_page.url}}"><span>{{menu_page.title}}</span></a>
                   </li>
