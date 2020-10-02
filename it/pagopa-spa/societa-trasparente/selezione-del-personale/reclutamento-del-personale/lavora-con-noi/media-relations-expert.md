@@ -14,7 +14,7 @@ metadata:
     apertura: 03/08/2020
     chiusura: 06/09/2020
     numricercate: 1
-    numassunte: selezione in corso
+    numassunte: 1
 ---
 
 PagoPA S.p.A. è alla ricerca di un esperto di ufficio stampa, relazioni pubbliche e comunicazione d’impresa nel ruolo di __Media Relations Expert__, da inserire nel team **Affari Istituzionali e Comunicazione** a diretto riporto del __Chief Communication Officer__.
