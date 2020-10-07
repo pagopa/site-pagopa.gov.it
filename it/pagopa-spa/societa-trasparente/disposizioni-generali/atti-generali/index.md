@@ -10,6 +10,10 @@ child_of_ref: disposizioni-generali
 
 <div class="link-list-wrapper">
   <ul class="link-list">
+    <li><a class="list-item icon-left" href="{% link it/pagopa-spa/societa-trasparente/disposizioni-generali/atti-generali/riferimenti-normativi.pdf %}" download>
+        <svg class="icon icon-primary"><use xlink:href="{{ site.baseurl }}{{ site.data.t.sprite-url }}#it-chevron-right"></use></svg>
+        <span>Riferimenti normativi (PDF)</span>
+    </a></li>
     <li><a class="list-item icon-left" href="{% link it/pagopa-spa/societa-trasparente/disposizioni-generali/atti-generali/Statuto_pagoPA_SpA.pdf %}" download>
         <svg class="icon icon-primary"><use xlink:href="{{ site.baseurl }}{{ site.data.t.sprite-url }}#it-chevron-right"></use></svg>
         <span>Statuto (PDF)</span>
