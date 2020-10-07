@@ -16,5 +16,5 @@ child_of_ref: organizzazione
 * Compenso: **€. 120.000 annui**
 * Dichiarazione dei redditi: **[Anno 2020](Giuseppe_Virgone_dichiarazione_redditi-2020.pdf)**, **[Anno 2019](Giuseppe_Virgone_dichiarazione_redditi.pdf)**
 * Situazione patrimoniale: **[Variazione situazione patrimoniale 2020](Giuseppe_Virgone_situazione_patrimoniale-2020.pdf)**, **[Situazione patrimoniale 2019](Giuseppe_Virgone_situazione_patrimoniale.pdf)**
-* Dichiarazione redditi e situazione patrimoniale del coniuge non separato e dei parenti entro il secondo grado (oppure indicazione mancato consenso): **[Anno 2020](Giuseppe_Virgone_mancato_consenso-2020.pdf)**, **[Anno 2019](Giuseppe_Virgone_mancato_consenso.pdf)**
-* Dichiarazione sull’assenza di cause di inconferibilità ed incompatibilità: **[Anno 2020](Giuseppe_Virgone_accettazione_incarico-2020.pdf)**, **[Anno 2019](Giuseppe_Virgone_accettazione_incarico.pdf)**
+* Dichiarazione redditi e situazione patrimoniale del coniuge non separato e dei parenti entro il secondo grado (oppure indicazione mancato consenso): **[Mancato consenso Anno 2020](Giuseppe_Virgone_mancato_consenso-2020.pdf)**, **[Mancato consenso Anno 2019](Giuseppe_Virgone_mancato_consenso.pdf)**
+* **[Dichiarazione sull’assenza di cause di incompatibilità Anno 2020](Giuseppe_Virgone_accettazione_incarico-2020.pdf)**, <br>**[Dichiarazione sull’assenza di cause di inconferibilità ed incompatibilità Anno 2019](Giuseppe_Virgone_accettazione_incarico.pdf)**
