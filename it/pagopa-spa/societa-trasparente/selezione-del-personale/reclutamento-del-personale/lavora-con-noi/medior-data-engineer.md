@@ -23,11 +23,14 @@ Entra a far parte della nostra squadra!
 
 ### Ruolo 
 
-PagoPA S.p.A è alla ricerca di **Le principali responsabilità del Medio Data Engineer  includono:
+PagoPA S.p.A è alla ricerca Medior Data engineer, con esperienza nella progettazione e sviluppo di procedure di elaborazione, analisi e trasformazione di grandi volumi di dati con tecnologie BigData. Siamo alla ricerca di professionisti attenti ai dettagli e aperti a confrontarsi con sfide e tecnologie diverse.
+
+### Responsabilità
+Le principali responsabilità del Medio Data Engineer includono:
+
 * Operare su un’ampia gamma di tecnologie e sistemi BigData con la capacità di risolvere problemi end-to-end.
 * Implementare e mantenere flussi di raccolta, arricchimento e trasformazione di dati.
 * Seguire alti standard ingegneristici e contribuire a garantire l’alta qualità del codice su tutti i progetti in cui andrai a lavorare.
-
 
 
 ### Requisiti e competenza essenziali (personali e professionali)
@@ -48,7 +51,7 @@ PagoPA S.p.A è alla ricerca di **Le principali responsabilità del Medio Data E
 
 
 
-### Formazione richiesta
+### Formazione richiesta (essenziale)
 
 Laurea in Informatica. In ogni caso la Società si riserva di valutare laureati in altre materie e/o candidati non laureati con forte esperienza nel ruolo e/o nei settori di interesse.
 
@@ -56,4 +59,4 @@ Laurea in Informatica. In ogni caso la Società si riserva di valutare laureati 
 
 * Roma
 
-Per applicare, invia il tuo CV e la tua lettera di motivazione (facoltativa) entro e non oltre il **31/12/2020**. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
+Per applicare, invia il tuo CV e la tua lettera di motivazione (facoltativa) entro e non oltre il **31 dicembre 2020**. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
