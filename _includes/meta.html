@@ -3,7 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description"
-    content="{% if page.excerpt %}{{ page.excerpt| strip_html }}{% else %}{{ site.data.t.description[page.lang] }}{% endif %}">
+    content="{% if page.description_og %}{{page.description_og}}{% elsif page.excerpt %}{{ page.excerpt| strip_html }}{% else %}{{ site.data.t.description[page.lang] }}{% endif %}">
 <meta name="author" content="{{ site.data.t.author[page.lang] }}">
 <meta name="generator" content="Jekyll v3.8.5">
 
@@ -29,7 +29,7 @@
 <meta property="og:url" content="{{ site.url | append: page.url }}">
 <meta property="og:title" content="{{ page.title }} - {{ site.name }}">
 <meta property="og:description"
-    content="{% if page.excerpt %}{{ page.excerpt| strip_html }}{% else %}{{ site.data.t.description[page.lang] }}{% endif %}">
+    content="{% if page.description_og %}{{page.description_og}}{% elsif page.excerpt %}{{ page.excerpt| strip_html }}{% else %}{{ site.data.t.description[page.lang] }}{% endif %}">
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{ site.url | replace: 'https://', 'http://' | append: site.data.t.social-card }}">
 <meta property="og:image:secure_url" content="{{ site.url | append: site.data.t.social-card }}">
