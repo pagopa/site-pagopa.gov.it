@@ -12,7 +12,7 @@ order: 22
 ## Documentazione tecnica in consultazione
 
 * <span class="badge badge-secondary">New</span> [Monografia Tassonomia dei servizi di incasso](https://docs.google.com/document/d/1OawsOwvMOxgLGB3KXNeqJTxrX2XYD7q0HZ8RNrZdimg/view) - [Tabella tassonomica](https://drive.google.com/file/d/13xOd__Qd4pwKHr3wjE-73NAB2O7UKmIt/view) 
-* [Survey "Contribuisci al miglioramento della Tassonomia"](https://survey-enticreditori.pagopa.it/238313)
+* [Contribuisci al miglioramento della Tassonomia](https://survey-enticreditori.pagopa.it/238313)
 
 <!-- Al momento non è presente documentazione in consultazione. -->
 
