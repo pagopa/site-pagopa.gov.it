@@ -3,7 +3,7 @@ function loadJSON(callback) {
     xobj.overrideMimeType("application/json");
     xobj.open(
       "GET",
-      "https://publicdashboard.blob.core.windows.net/public/dashboard-data.json",
+      "https://pdnd-prod-dl-1-public-data.s3.eu-central-1.amazonaws.com/dashboard/pagopa/dashboard-data.json",
       true
     ); // Replace 'my_data' with the path to your file
     xobj.onreadystatechange = function () {
