@@ -11,7 +11,7 @@ iframeheight: 2100
 is_new: true
 metadata:
     apertura: 03/09/2020
-    chiusura: 30/09/2020
+    chiusura: 30/10/2020
 ---
 
 PagoPA S.p.A. è alla ricerca di un _**Senior Procurement Officer**_, che si occupi insieme al Responsabile Ufficio Procurement dei processi di approvvigionamento aziendale e contribuisca in modo attivo all’esecuzione degli ordini di acquisto, nel rispetto del fabbisogno aziendale e delle normativa applicabile.
@@ -54,4 +54,4 @@ Laurea (triennale o specialistica) in Giurisprudenza. In ogni caso la Società s
 
 * Roma
 
-Per applicare, invia il tuo CV e la tua lettera di motivazione (facoltativa) entro e non oltre il **30 settembre 2020**. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
+Per applicare, invia il tuo CV e la tua lettera di motivazione (facoltativa) entro e non oltre il 30 settembre 2020. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati. **La data di presentazione delle candidature per la presente posizione è stata prorogata dal 15 ottobre 2020 al 30 ottobre 2020.**

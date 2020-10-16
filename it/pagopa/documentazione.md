@@ -7,8 +7,19 @@ ref: documentazione
 order: 22
 ---
 
+---
+
+## Documentazione tecnica in consultazione
+
+* <span class="badge badge-secondary">New</span> [Monografia Tassonomia dei servizi di incasso](https://docs.google.com/document/d/1OawsOwvMOxgLGB3KXNeqJTxrX2XYD7q0HZ8RNrZdimg/view) - [Tabella tassonomica](https://drive.google.com/file/d/13xOd__Qd4pwKHr3wjE-73NAB2O7UKmIt/view) 
+* [Contribuisci al miglioramento della Tassonomia](https://survey-enticreditori.pagopa.it/238313)
+
+<!-- Al momento non è presente documentazione in consultazione. -->
+
+---
+
 ## Linee guida e regole tecniche
-Le <a href="https://github.com/pagopa/lg-pagopa-docs/blob/master/pdf/lineeguidapagamenti_v_1.2.pdf" target="_blank">Linee guida per l’effettuazione dei pagamenti elettronici a favore delle pubbliche amministrazioni e dei gestori di pubblici (v1.2 - febbraio 2018)</a> definiscono regole, standard e specifiche tecniche che le PA e i PSP devono seguire per integrarsi al sistema pagoPA.	
+Le <a href="https://www.gazzettaufficiale.it/eli/id/2018/07/03/18A04494/sg" target="_blank">Linee guida per l’effettuazione dei pagamenti elettronici a favore delle pubbliche amministrazioni e dei gestori di pubblici (v1.2 - febbraio 2018)</a> definiscono regole, standard e specifiche tecniche che le PA e i PSP devono seguire per integrarsi al sistema pagoPA.	
 
 Le Linee guida sono corredate da **due allegati tecnici**:
 
@@ -39,14 +50,6 @@ Le Linee guida sono corredate da **due allegati tecnici**:
 * [Kit per le immagini standard previste sull'avviso analogico](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/materiale_sviluppatori/avviso-pagopa-assets.zip)
 
 (*) ulteriore materiale sarà pubblicato su <https://developers.italia.it/>
-
-## Documentazione tecnica in consultazione
-
-Al momento non è presente documentazione in consultazione.
-
-<!--
-* <span class="badge badge-secondary">New</span> [Il pagamento presso POS fisici nel sistema pagoPA](https://docs.google.com/document/d/1BOG-OBQm7WMXyfpyPlfRc8ZhbxFJmt-3H7INMqG_oVY/edit?usp=sharing)
--->
 
 ## Best practices
 * [Caso d'uso: pagamento di contravvenzioni del Codice della Strada](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/best_practices/multe_con_preavviso_agid.pdf)
