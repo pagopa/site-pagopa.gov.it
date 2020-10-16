@@ -11,7 +11,7 @@ iframeheight: 2300
 is_new: true
 metadata:
     apertura: 28/09/2020
-    chiusura: 15/10/2020
+    chiusura: 30/10/2020
 ---
 
 PagoPA S.p.A. è alla ricerca di un esperto di finanza, contabilità e gestione del patrimonio, da inserire nel team **Affari Societari, Amministrazione e Finanza**, a diretto riporto del **Chief Financial Officer**. Il Senior Finance & Tax Officer dovrà supportare il Chief Financial Officer e l’Organo Amministrativo della Società nella governance economica, patrimoniale e finanziaria in base alle strategie e alle politiche adottate. 
@@ -65,4 +65,4 @@ Laurea Magistrale in Economia e Commercio. In ogni caso la Società si riserva d
 ### Sede di lavoro
 - Roma
 
-Per applicare, invia il tuo CV unitamente ad una lettera di presentazione (facoltativa) entro e non oltre il **15 ottobre 2020**! Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati. 
+Per applicare, invia il tuo CV unitamente ad una lettera di presentazione (facoltativa) entro e non oltre il 15 ottobre 2020! Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.  **La data di presentazione delle candidature per la presente posizione è stata prorogata dal 15 ottobre 2020 al 30 ottobre 2020.**
