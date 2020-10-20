@@ -11,7 +11,7 @@ order: 22
 
 ## Documentazione tecnica in consultazione
 
-* <span class="badge badge-secondary">New</span> [Monografia Processo di pagamento presso il PSP con Ente multi-beneficiario](https://docs.google.com/document/d/1qmQ12SfkhjJGss--d5mQwqrcMCb9pF4JHj-k8w8X9jM/edit?usp=sharing)
+* <span class="badge badge-secondary">New</span> [Monografia Processo di pagamento presso il PSP con Ente multi-beneficiario](https://docs.google.com/document/d/1qmQ12SfkhjJGss--d5mQwqrcMCb9pF4JHj-k8w8X9jM/view)
 
 * [Monografia Tassonomia dei servizi di incasso](https://docs.google.com/document/d/1OawsOwvMOxgLGB3KXNeqJTxrX2XYD7q0HZ8RNrZdimg/view) - [Tabella tassonomica](https://drive.google.com/file/d/13xOd__Qd4pwKHr3wjE-73NAB2O7UKmIt/view) 
 * [Contribuisci al miglioramento della Tassonomia](https://survey-enticreditori.pagopa.it/238313)
@@ -38,9 +38,9 @@ Le Linee guida sono corredate da **due allegati tecnici**:
 * [Indicatori di qualità per i soggetti aderenti" (versione 2.2 - maggio 2019)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/documentazione_collegata/SLA_aderente_2.2.pdf)
 * [Allegato tecnico Agenzia delle entrate-Riscossione per integrazione su pagoPA di bollettini RAV per pagamento presso PSP (versione 1.0.0 - novembre 2017)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/documentazione_collegata/agengiaentraterisc_rav_psp.pdf)
 * [Allegato tecnico Pagamento della Tassa Automobilistica presso i PSP (PDF e XSD)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/documentazione_collegata/bollo_auto_mod_4_0.zip)
-* [MyBank Technical Specification (versione 2.0 - luglio 2019)](https://docs.google.com/document/d/1M5OEfN5RZSfBSKRuhYWX3WZkWVcivD4WpRxsjwyEUzE/edit?usp=sharing)
-* [Gestione delle convenzioni tra EC e PSP (maggio 2020)](https://docs.google.com/document/d/1nn3Tkifkwog5KYfozyix7iN0V3DjeeeVIKkJ1tMcB_c/edit?usp=sharing)
-* [Il pagamento presso POS fisici nel sistema pagoPA (giugno 2020)](https://docs.google.com/document/d/1BOG-OBQm7WMXyfpyPlfRc8ZhbxFJmt-3H7INMqG_oVY/edit?usp=sharing)
+* [MyBank Technical Specification (versione 2.0 - luglio 2019)](https://docs.google.com/document/d/1M5OEfN5RZSfBSKRuhYWX3WZkWVcivD4WpRxsjwyEUzE/view)
+* [Gestione delle convenzioni tra EC e PSP (maggio 2020)](https://docs.google.com/document/d/1nn3Tkifkwog5KYfozyix7iN0V3DjeeeVIKkJ1tMcB_c/view)
+* [Il pagamento presso POS fisici nel sistema pagoPA (giugno 2020)](https://docs.google.com/document/d/1BOG-OBQm7WMXyfpyPlfRc8ZhbxFJmt-3H7INMqG_oVY/view)
 
 ## Regolamento logo
 * [Regolamento inerente l’uso del marchio collettivo registrato "pagoPA" (PDF)](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/regolamento_logo/regolamento_uso_marchio_pagopa_2018_0_0.pdf), [Allegato A](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/regolamento_logo/all_a_brandguidelines_0_0.pdf), [Allegato B](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/regolamento_logo/brandguidelines_v_2_1.pdf)
