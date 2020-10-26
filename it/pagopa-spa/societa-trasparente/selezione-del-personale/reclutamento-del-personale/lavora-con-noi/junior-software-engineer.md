@@ -41,7 +41,7 @@ Il Junior Software Engineer si occuperà di:
 
 * Contribuire allo sviluppo di applicazioni web o mobile sia in ambito frontend che backend
 * Seguire standard ingegneristici e imparare a scrivere codice di alta qualità seguendo workshop e partecipando al processo di code review
-* Contribuire alla  progettazione delle piattaforme e nelle scelte tecniche
+* Contribuire alla  progettazione delle piattaforme e alle scelte tecniche
 
 
 ### Requisiti e competenze essenziali (personali e professionali)
