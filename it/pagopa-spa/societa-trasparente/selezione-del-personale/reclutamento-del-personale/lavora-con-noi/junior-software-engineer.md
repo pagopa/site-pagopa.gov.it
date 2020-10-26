@@ -56,7 +56,7 @@ Il Junior Software Engineer si occuperà di:
 
 * Esperienza nella partecipazione allo sviluppo di progetti e iniziative open source
 * Conoscenza applicata dei paradigmi di programmazione funzionale
-* Conoscenza dei principi S.O.L.I.D
+* Conoscenza dei principi S.O.L.I.D.
 * Esperienza di lavoro in ambiente dinamico e in forte crescita (es. startup digitale)
 
 
