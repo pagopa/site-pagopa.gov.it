@@ -5,7 +5,7 @@ lang: it
 layout: job
 ref: junior-software-engineer
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/[TBD]
+jazz_url: https://pagopa.applytojob.com/apply/mmXZfFcn75/Junior-Software-Engineer
 pec_cv: false
 iframeheight: 2300
 is_new: true
