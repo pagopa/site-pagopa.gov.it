@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PagoPA S.p.A: bene segnalazione AGCM, eliminare le incertezze per un più ampio utilizzo dei pagamenti elettronici"
+title: "PagoPA S.p.A: bene segnalazione AGCM, per un più ampio utilizzo dei pagamenti elettronici eliminare le incertezze"
 title_og: "PagoPA S.p.A. su segnalazione AGCM"
 lang: it
 excerpt_separator: <!--more-->
@@ -8,13 +8,14 @@ tags:
 child_of_ref: comunicati-stampa
 ---
 
-La Società PagoPA S.p.A. accoglie con favore [la segnalazione dell’Autorità Garante della Concorrenza e del Mercato](https://www.agcm.it/media/dettaglio?id=3ecacfce-1a6b-4a38-9b36-9b959751f6b6) in merito alla disciplina delle modalità di pagamento alle Amministrazioni Pubbliche. 
+La Società PagoPA S.p.A. accoglie con favore [la segnalazione dell’Autorità Garante della Concorrenza e del Mercato](https://www.agcm.it/media/dettaglio?id=3ecacfce-1a6b-4a38-9b36-9b959751f6b6) sulla disciplina delle modalità di pagamento alle Amministrazioni Pubbliche. 
 <!--more-->
 
-La nota, nello specifico, chiarisce un aspetto rilevante riguardo l’adesione obbligatoria alla [piattaforma pagoPA](https://www.pagopa.gov.it/) da parte degli Enti pubblici: le Amministrazioni, infatti, devono poter consentire ai cittadini di continuare a utilizzare anche i metodi di pagamento non ancora integrati su pagoPA, tra cui la domiciliazione bancaria (SDD) e il modello F24. Aspetto che, per altro, è già precisato nelle [Linee guida per l’effettuazione dei pagamenti elettronici a favore delle pubbliche amministrazioni e dei gestori di pubblici](https://www.gazzettaufficiale.it/eli/id/2018/07/03/18A04494/sg) emanate dall’Agenzia per l’Italia Digitale (**AgID**), nonché nelle domande frequenti (**FAQ**)* relative a pagoPA sia in [ambito normativo](https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneB.html) sia nell’ambito di [adesione degli Enti Creditori](https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneC.html).
+La nota chiarisce un aspetto rilevante riguardo l’adesione obbligatoria alla [piattaforma pagoPA](https://www.pagopa.gov.it/) da parte degli Enti pubblici: le Amministrazioni, infatti, devono poter consentire ai cittadini di continuare a utilizzare anche i metodi di pagamento non ancora integrati su pagoPA. Tra questi, la domiciliazione bancaria (SDD), il modello F24 ed eventuali altri servizi di pagamento  compresi i versamenti in contanti presso gli uffici appositi. Si tratta di un aspetto che, per altro, è già precisato nelle [Linee guida per l’effettuazione dei pagamenti elettronici a favore delle pubbliche amministrazioni e dei gestori di pubblici](https://www.gazzettaufficiale.it/eli/id/2018/07/03/18A04494/sg) emanate dall’Agenzia per l’Italia Digitale (**AgID**), nonché nelle domande frequenti (**FAQ**)* relative a pagoPA sia in [ambito normativo](https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneB.html) sia nell’ambito di [adesione degli Enti Creditori](https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneC.html).
 	 
-**Eliminare questo tipo di incertezze è il modo migliore per favorire un utilizzo più ampio ed efficace degli strumenti di pagamento elettronici da parte dei cittadini anche nei servizi pubblici, oltre che per accompagnare la graduale trasformazione digitale della Pubblica Amministrazione, alla base della _mission_ di PagoPA S.p.A.**		
-&#42; Per completezza di informazioni, si riporta di seguito il testo delle relative FAQ sul tema:
+**Eliminare questo tipo di incertezze è il modo migliore per favorire un utilizzo più ampio ed efficace degli strumenti di pagamento elettronici da parte dei cittadini anche nei servizi pubblici. Attenersi alle "Linee guida" è anche utile per accompagnare la graduale trasformazione digitale della Pubblica Amministrazione, alla base della _mission_ di PagoPA S.p.A.**
+
+&#42; Per completezza di informazioni, si riporta di seguito il testo delle FAQ sull'argomento [consultabili dal sito di pagoPA](https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/index.html):
 
 **[Ambito Normativo](https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneB.html)**
 
