@@ -9,7 +9,7 @@ order: 43
 ---
 
 {:.small .text-muted }
-_Dati aggiornati al 6 agosto 2020_
+_Dati aggiornati al 1 settembre 2020_
 
 {% include intermediari-table.html %}
 
