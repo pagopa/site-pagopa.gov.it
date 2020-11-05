@@ -9,6 +9,7 @@ child_of_ref: comunicati-stampa
 ---
 
 **Prestito di 30 milioni per il piano di investimenti quadriennale della Società pubblica partecipata dal MEF e vigilata dal Presidente del Consiglio dei Ministri - MID**
+<!--more-->
 
 **Obiettivo di PagoPA S.p.A. è diffondere servizi pubblici digitali sempre più a misura di cittadino, accelerando l’adozione di piattaforme tecnologiche innovative da parte di amministrazioni centrali e locali**
 
