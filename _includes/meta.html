@@ -25,13 +25,13 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@https://twitter.com/pagopa">
 <meta name="twitter:creator" content="PagoPA S.p.A.">
-<meta name="twitter:title" content="{{ page.title }} - PagoPA S.p.A.">
+<meta name="twitter:title" content="{{page.title_og | default: page.title }} - PagoPA S.p.A.">
 <meta name="twitter:description"
     content="I servizi pubblici italiani, digitali e facili da usare">
 <meta name="twitter:image" content="{{ site.url | append: site.data.t.social-card-twitter-spa }}">
 <!-- Facebook -->
 <meta property="og:url" content="{{ site.url | append: page.url }}">
-<meta property="og:title" content="{{ page.title }} - PagoPA S.p.A.">
+<meta property="og:title" content="{{page.title_og | default: page.title }} - PagoPA S.p.A.">
 <meta property="og:description"
     content="I servizi pubblici italiani, digitali e facili da usare">
 <meta property="og:type" content="website">
@@ -58,13 +58,13 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@https://twitter.com/pagopa">
 <meta name="twitter:creator" content="PagoPA S.p.A.">
-<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:title" content="{{page.title_og | default: page.title }}">
 <meta name="twitter:description"
     content="{% if page.excerpt %}{{ page.excerpt| strip_html }}{% else %}{{ site.data.t.description[page.lang] }}{% endif %}">
 <meta name="twitter:image" content="{{ site.url | append: site.data.t.social-card-twitter }}">
 <!-- Facebook -->
 <meta property="og:url" content="{{ site.url | append: page.url }}">
-<meta property="og:title" content="{{ page.title }} - {{ site.name }}">
+<meta property="og:title" content="{{page.title_og | default: page.title }} - {{ site.name }}">
 <meta property="og:description"
     content="{% if page.description_og %}{{page.description_og}}{% elsif page.excerpt %}{{ page.excerpt| strip_html }}{% else %}{{ site.data.t.description[page.lang] }}{% endif %}">
 <meta property="og:type" content="website">
