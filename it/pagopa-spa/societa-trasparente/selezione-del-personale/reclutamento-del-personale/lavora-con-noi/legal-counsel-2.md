@@ -26,11 +26,11 @@ Le principali responsabilità del _Legal Counsel_ includono:
 - garantire il costante aggiornamento sulla legislazione nazionale, europea e internazionale di settore e relativa giurisprudenza; 
 - collaborare nella gestione dei rapporti con enti governativi e di controllo, associazioni di categoria, autorità di vigilanza e magistratura;
 - curare la redazione di atti giuridici, contratti e procedure interne per gli adempimenti legali e regolamentari e controllare l’esatta osservanza, come, a titolo esemplificativo:
-    - contrattualistica varia con l’esterno (es. locazioni, forniture, partnership, sponsorship, MoU, etc. etc.));
-    - contrattualistica interna (es. contratti di collaborazione, lettere di assunzione, etc. etc.));
-    - contrattualistica e documentazione legale di prodotto (es. T&C, ToS, modelli standard di adesione, disclaimers, note legali, informative, etc. etc.));
+    - contrattualistica varia con l’esterno (es. locazioni, forniture, partnership, sponsorship, MoU, etc. etc.);
+    - contrattualistica interna (es. contratti di collaborazione, lettere di assunzione, etc. etc.);
+    - contrattualistica e documentazione legale di prodotto (es. T&C, ToS, modelli standard di adesione, disclaimers, note legali, informative, etc. etc.);
     - documentazione legale aziendale (es. procedure interne, informative, etc. etc.)
-    - documentazione di compliance & privacy (es. modello 231, registro trattamenti, DPIA,etc. etc.)).
+    - documentazione di compliance & privacy (es. modello 231, registro trattamenti, DPIA,etc. etc.).
 
 
 ### Requisiti e competenze essenziali (personali e professionali)
