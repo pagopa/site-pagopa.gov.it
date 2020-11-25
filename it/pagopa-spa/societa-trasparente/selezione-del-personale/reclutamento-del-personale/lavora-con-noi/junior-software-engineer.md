@@ -62,7 +62,7 @@ Il Junior Software Engineer si occuperà di:
 
 ### Formazione richiesta
 
-Laurea specialistica in ambito Computer Science o Software Engineering. In ogni caso la Società si riserva di valutare laureati in altre materie e/o candidati non laureati con almeno 3 anni di  esperienza professionale. 
+Laurea triennale in ambito Computer Science o Software Engineering. In ogni caso la Società si riserva di valutare laureati in altre materie e/o candidati non laureati con almeno 3 anni di  esperienza professionale. 
 
 
 ### Sede di lavoro
