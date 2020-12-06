@@ -7,7 +7,7 @@ tags:
 child_of_ref: comunicati-stampa
 ---
 
-_Lunedì 7 dicembre 2020_ - Il programma Cashback rappresenta uno dei
+Il [programma Cashback](https://io.italia.it/cashback/) rappresenta uno dei
 progetti più complessi e sfidanti che sia stato sin qui realizzato in
 Italia e in Europa. Un'intuizione d'avanguardia che dota il Paese di una
 **infrastruttura tecnologica profondamente innovativa,** che vede la
@@ -21,7 +21,7 @@ Oggi il servizio è **attivo**. Nell'ultimo periodo, con SIA S.p.A. e
 Microsoft, abbiamo intensificato le attività di potenziamento e _test_
 di tutte le componenti tecnologiche. Questo, unito all'interesse
 riscosso dall'iniziativa, ha comportato **momentanei disservizi o
-rallentamenti** nell'app IO, che abbiamo progressivamente risolto per
+rallentamenti** nell'[app IO](https://io.italia.it/cittadini/), che abbiamo progressivamente risolto per
 garantire una esperienza soddisfacente al cittadino, che è al cuore
 della nostra mission aziendale.
 
@@ -45,5 +45,6 @@ che un'iniziativa così ambiziosa richiede, così da consentirne il
 
 Ma soprattutto, vogliamo assicurare un servizio di qualità alle persone
 e con la massima trasparenza continueremo a informare tutti
-sull'evoluzione del progetto, a rispondere sui _social_ e supportare
-attraverso i canali dedicati ogni richiesta di assistenza.
+sull'evoluzione del progetto, a comunicare tramite gli account social dell’app IO e supportare attraverso i canali dedicati in app ogni richiesta di assistenza.
+
+Per maggiori informazioni sul Programma Cashback: [io.italia.it/cashback](https://io.italia.it/cashback/)
