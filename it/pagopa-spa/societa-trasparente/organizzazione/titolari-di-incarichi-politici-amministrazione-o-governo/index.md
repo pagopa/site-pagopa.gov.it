@@ -13,6 +13,9 @@ child_of_ref: organizzazione
 ##### Amministratore unico
 
 - Data conferimento incarico: **24 luglio 2019**
+
+* Curriculum vitae: **[file PDF](Giuseppe_Virgone_CV.pdf)**
+
 - Atto di nomina: **[DPCM 19.6.2019](../../disposizioni-generali/atti-generali/DPCM_costituzione.pdf)**, **[Atto costitutivo di PagoPA SpA](../../disposizioni-generali/atti-generali/Atto_costitutivo_pagoPA_SpA.pdf)**
 - Compenso: **€. 120.000 annui**
 - Dichiarazione dei redditi: **[Anno 2020](Giuseppe_Virgone_dichiarazione_redditi-2020.pdf)**, **[Anno 2019](Giuseppe_Virgone_dichiarazione_redditi.pdf)**
