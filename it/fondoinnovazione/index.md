@@ -9,7 +9,7 @@ order: 23
 permalink: /fondoinnovazione/
 ---
 
-In attuazione del Fondo per l’Innovazione Tecnologica e la Digitalizzazione, istituito con il Decreto Rilancio e gestito dal Ministro per l’innovazione tecnologica e la digitalizzazione, PagoPA S.p.A., in convenzione con il Dipartimento della Trasformazione digitale, promuove un **Avviso Pubblico** per l’assegnazione di contributi economici ai Comuni italiani per un importo complessivo di **euro 33.222.500,00**.
+In attuazione del Fondo per l’Innovazione Tecnologica e la Digitalizzazione, istituito con il Decreto Rilancio e gestito dal Ministro per l’innovazione tecnologica e la digitalizzazione, PagoPA S.p.A., in convenzione con il Dipartimento della Trasformazione digitale, promuove un **Avviso Pubblico** per l’assegnazione di contributi economici ai Comuni italiani.
 
 Tali contributi sono intesi quale supporto a beneficio dei singoli Comuni, chiamati a espletare le attività necessarie per:
 
