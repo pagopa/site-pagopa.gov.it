@@ -35,7 +35,7 @@ all'utente le transazioni che permettono il calcolo del rimborso ai fini
 del Cashback.
 
 Il sistema alla base dell\'App IO **non memorizza i dati delle carte di credito/debito aggiunte dall'utente nella sezione "Portafoglio"**:
-questi, infatti, vengono memorizzati dal fornitore [SIA S.p.A](https://www.sia.eu/en). in un ambiente protetto secondo gli
+questi, infatti, vengono memorizzati dal fornitore [SIA S.p.A](https://www.sia.eu). in un ambiente protetto secondo gli
 standard [PCI DSS](https://www.pcisecuritystandards.org/) (_Payment Card Industry Data Security Standard_) e conservati in server
 situati in Italia.
 
