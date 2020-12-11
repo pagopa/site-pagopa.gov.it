@@ -11,9 +11,11 @@ order: 22
 
 ## Documentazione tecnica in consultazione
 
+<!-- 
 - <span class="badge badge-secondary">New</span> [Monografia Processo di pagamento presso il PSP con Ente multi-beneficiario](https://docs.google.com/document/d/1qmQ12SfkhjJGss--d5mQwqrcMCb9pF4JHj-k8w8X9jM/view)
+-->
 
-<!-- Al momento non è presente documentazione in consultazione. -->
+Al momento non è presente documentazione in consultazione.
 
 ---
 
@@ -40,6 +42,7 @@ Le Linee guida sono corredate da **due allegati tecnici**:
 - [Gestione delle convenzioni tra EC e PSP (maggio 2020)](https://docs.google.com/document/d/1nn3Tkifkwog5KYfozyix7iN0V3DjeeeVIKkJ1tMcB_c/view)
 - [Il pagamento presso POS fisici nel sistema pagoPA (giugno 2020)](https://docs.google.com/document/d/1BOG-OBQm7WMXyfpyPlfRc8ZhbxFJmt-3H7INMqG_oVY/view)
 - Tassonomia dei servizi di incasso: [Monografia ](https://docs.google.com/document/d/1OawsOwvMOxgLGB3KXNeqJTxrX2XYD7q0HZ8RNrZdimg/view) - [Tabella tassonomica](https://drive.google.com/file/d/13xOd__Qd4pwKHr3wjE-73NAB2O7UKmIt/view) ([contribuisci al miglioramento della Tassonomia)](https://survey-enticreditori.pagopa.it/238313)
+- [Monografia Processo di pagamento presso il PSP con Ente multi-beneficiario](https://docs.google.com/document/d/1qmQ12SfkhjJGss--d5mQwqrcMCb9pF4JHj-k8w8X9jM/view)
 
 ## Regolamento logo
 
