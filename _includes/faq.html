@@ -1,0 +1,44 @@
+{% assign current_lang = page.lang | default: site.lang | default: 'it' %}
+{% assign faq_source = include.source | default: 'faq' %}
+{% assign faq = include.pagesource | default: site.data[faq_source][current_lang] %}
+{% assign faq_grouped = faq | group_by: 'cat' | sort: 'name' %}
+{% if include.filteredby %}
+  {% assign faq_grouped = faq_grouped | where: "name", include.filteredby %}
+{%endif%}
+<div class="page-faq">
+
+    <div class="">
+      <div id="faq" class="pb-5">
+    <div class="row p-3 justify-content-md-center">
+      <div class="col-12">
+        {% assign findex =  0 %}
+        {% for group in faq_grouped %}
+          {% assign gindex =  forloop.index %}
+          {% if gindex > 1 %}<div class="my-3 py-3"></div>{%endif%}
+
+        {% unless include.filteredby %}<h3 class="{% if gindex == 1 %}mt-0{%endif%}">{{group.name | split: '|' | last}}</h3>{%endunless%}
+        <div id="accordionDivFAQ{{gindex}}" class="collapse-faq collapse-div" role="tablist">
+          {% for f in group.items %}
+          {% capture findex %}{{ findex | plus: 1 }}{% endcapture %}
+          
+          <a name="n{{findex }}"></a>
+          <div class="collapse-header" id="heading{{findex}}">
+            <button data-toggle="collapse" data-nfaq="n{{findex}}" data-target="#accordion{{findex}}" aria-expanded="false" aria-controls="accordion{{findex}}">
+              {{f.title}}
+            </button>
+          </div>
+          <div id="accordion{{findex}}" class="collapse " role="tabpanel" aria-labelledby="heading{{findex}}" data-parent="#accordionDivFAQ{{gindex}}">
+            <div class="collapse-body">
+              {{f.body | markdownify }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+    
+  </div><!--/container-->
+
+</div><!--/page-faq-->

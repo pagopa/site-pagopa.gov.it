@@ -6,7 +6,8 @@ lang: it
 ref: fondoinnovazione
 child_of_ref: pagopa-spa
 order: 23
-permalink: /fondoinnovazione/
+redirect_from:
+  - /fondoinnovazione/
 ---
 
 <div class="mb-2"><img src="/assets/images/logo-mid.png" class="img-fluid m-2" title="MID"></div>
@@ -55,7 +56,7 @@ Per maggiori informazioni sulle piattaforme abilitanti, potrai invece essere ind
 - Accedi alla [procedura online](https://fondoinnovazione.pagopa.it/)
 - Consulta le [FAQ](./faq/)
 - Consulta le [Linee guida per la scadenza del 28 Febbraio 2021 per la Pubblica Amministrazione](https://innovazione.gov.it/it/linee-guida-decreto-semplificazione/)
-- Consulta il [Manuale operativo di SPID](/it/fondoinnovazione/Manuale_operativo_Spid.pdf)
-- Consulta il [Manuale operativo di pagoPA](/it/fondoinnovazione/Manuale_operativo_pagoPA.pdf)
-- Consulta il [Manuale operativo della App IO](/it/fondoinnovazione/Manuale_operativo_App_IO.pdf)
-- Consulta l’[Informativa Privacy](/it/fondoinnovazione/Informativa_Privacy.pdf)
+- Consulta il [Manuale operativo di SPID](./fondoinnovazione/Manuale_operativo_Spid.pdf)
+- Consulta il [Manuale operativo di pagoPA](./fondoinnovazione/Manuale_operativo_pagoPA.pdf)
+- Consulta il [Manuale operativo della App IO](./fondoinnovazione/Manuale_operativo_App_IO.pdf)
+- Consulta l’[Informativa Privacy](./fondoinnovazione/Informativa_Privacy.pdf)
