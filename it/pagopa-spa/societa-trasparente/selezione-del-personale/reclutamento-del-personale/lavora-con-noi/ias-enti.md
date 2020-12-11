@@ -13,7 +13,7 @@ metadata:
   apertura: 09/09/2020
   chiusura: 18/10/2020
   numricercate: 1
-  numassunte: selezione in corso
+  numassunte: 1
 ---
 
 PagoPA S.p.A. è alla ricerca di un _Institutional Affairs Specialist_ che abbia il compito di supportare le relazioni della società con le Regioni e gli Enti locali da inserire nel team **Affari Istituzionali e Comunicazione** a diretto riporto del Direttore Affari Istituzionali e Comunicazione.
