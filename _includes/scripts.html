@@ -2,7 +2,8 @@
 <script>window.__PUBLIC_PATH__ = '{{ site.baseurl }}/assets/bootstrap-italia/dist/fonts'</script>
 
 <!-- Bootstrap core JS -->
-<script src="{{ site.baseurl }}/assets/bootstrap-italia/dist/js/bootstrap-italia.bundle.min.js"></script>
+<script src="{{ site.baseurl }}/assets/vendors/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/assets/bootstrap-italia/dist/js/bootstrap-italia.min.js"></script>
 
 <!-- Main JS -->
 <script src="{{ site.baseurl }}/assets/main.js"></script>
@@ -10,50 +11,7 @@
 <!-- Custom --->
 {% if page.usedatatables == true %}
     <script src="{{ site.baseurl }}/assets/vendors/datatables/datatables.min.js"></script>
-    <script>
-     var it_datatables = {
-                "sInfo":           "Vista da _START_ a _END_ di _TOTAL_ elementi",
-                "sInfoFiltered":   "(filtrati da _MAX_ elementi totali)",
-                "sInfoPostFix":    "",
-                "sInfoThousands":  ".",
-                "sLengthMenu":     "Visualizza _MENU_ elementi",
-                "sLoadingRecords": "Caricamento...",
-                "sProcessing":     "Elaborazione...",
-                "sSearch":         "Cerca:",
-                "sZeroRecords":    "La ricerca non ha portato alcun risultato.",
-                "oPaginate": {
-                    "sFirst":      "Inizio",
-                    "sPrevious":   "Precedente",
-                    "sNext":       "Successivo",
-                    "sLast":       "Fine"
-                },
-                "oAria": {
-                    "sSortAscending":  ": attiva per ordinare la colonna in ordine crescente",
-                    "sSortDescending": ": attiva per ordinare la colonna in ordine decrescente"
-                }
-            };
-
-    $(document).ready(function() {
-
-    $('#elencopsp').DataTable({
-        "lengthChange": false,
-        "pageLength": 20,
-        "pagingType": "simple",
-        "language": it_datatables
-        }
-    );
-
-    $('#partners').DataTable({
-        "order": [[ 1, "asc" ]],
-        "lengthChange": false,
-        "pageLength": 20,
-        "pagingType": "simple",
-        "language": it_datatables
-        }
-    );
-    });
-    
-    </script>
+    <script src="{{ site.baseurl }}/assets/datatables/datatables-it.js"></script>
 {% endif %}
 {% if page.ref == 'dashboard' %}
     <script src="{{ site.baseurl }}/assets/vendors/Chart.bundle.js"></script>
