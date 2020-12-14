@@ -5,8 +5,19 @@
 {% if include.filteredby %}
   {% assign faq_grouped = faq_grouped | where: "name", include.filteredby %}
 {%endif%}
-<div class="page-faq">
-
+<div class="page-faq affix-parent">
+<div class="affix-top float-right border-left col-md-4 ml-4 mt-4 d-none d-md-block" >
+  <div class="p-3">
+    <ul class="m-0 list-unstyled">
+      <li class="font-weight-bold">Categorie FAQ</li>
+      {% for i in faq_grouped %}
+      <li class="my-2">
+        <a href="#faq{{i.name| split: '|' | first}}">{{i.name | split: '|' | last}}</a>
+      </li>
+      {%endfor%}
+    </ul>
+  </div>
+</div>
     <div class="">
       <div id="faq" class="pb-5">
     <div class="row p-3 justify-content-md-center">
@@ -14,9 +25,12 @@
         {% assign findex =  0 %}
         {% for group in faq_grouped %}
           {% assign gindex =  forloop.index %}
-          {% if gindex > 1 %}<div class="my-3 py-3"></div>{%endif%}
+          {% if gindex > 1 %}<div class="my-2 py-1"></div>{%endif%}
 
-        {% unless include.filteredby %}<h3 class="{% if gindex == 1 %}mt-0{%endif%}">{{group.name | split: '|' | last}}</h3>{%endunless%}
+        {% unless include.filteredby %}
+        <a name="faq{{group.name | split: '|' | first}}"></a>
+        <h3 class="{% if gindex == 1 %}mt-0{%endif%}">{{group.name | split: '|' | last}}</h3>
+        {%endunless%}
         <div id="accordionDivFAQ{{gindex}}" class="collapse-faq collapse-div" role="tablist">
           {% for f in group.items %}
           {% capture findex %}{{ findex | plus: 1 }}{% endcapture %}

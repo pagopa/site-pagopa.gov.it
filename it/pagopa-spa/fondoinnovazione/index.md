@@ -10,7 +10,7 @@ redirect_from:
   - /fondoinnovazione/
 ---
 
-<div class="mb-2"><img src="/assets/images/logo-mid.png" class="img-fluid m-2" title="MID"></div>
+<div class="mb-2 mb-md-5"><img src="/assets/images/logo-mid.png" class="img-fluid m-2" title="MID"></div>
 Per assegnare le risorse previste nel Fondo per l’Innovazione Tecnologica e la Digitalizzazione, istituito con il Decreto Rilancio e assegnato al Ministro per l’innovazione tecnologica e la digitalizzazione, PagoPA S.p.A., in convenzione con il Dipartimento della Trasformazione digitale, promuove un **Avviso Pubblico** per l’assegnazione di contributi economici ai Comuni italiani.
 
 Tali contributi sono intesi quale supporto a beneficio dei singoli Comuni, chiamati a espletare le attività necessarie per:
@@ -56,7 +56,7 @@ Per maggiori informazioni sulle piattaforme abilitanti, potrai invece essere ind
 - Accedi alla [procedura online](https://fondoinnovazione.pagopa.it/)
 - Consulta le [FAQ](./faq/)
 - Consulta le [Linee guida per la scadenza del 28 Febbraio 2021 per la Pubblica Amministrazione](https://innovazione.gov.it/it/linee-guida-decreto-semplificazione/)
-- Consulta il [Manuale operativo di SPID](./fondoinnovazione/Manuale_operativo_Spid.pdf)
-- Consulta il [Manuale operativo di pagoPA](./fondoinnovazione/Manuale_operativo_pagoPA.pdf)
-- Consulta il [Manuale operativo della App IO](./fondoinnovazione/Manuale_operativo_App_IO.pdf)
-- Consulta l’[Informativa Privacy](./fondoinnovazione/Informativa_Privacy.pdf)
+- Consulta il [Manuale operativo di SPID](./Manuale_operativo_Spid.pdf)
+- Consulta il [Manuale operativo di pagoPA](./Manuale_operativo_pagoPA.pdf)
+- Consulta il [Manuale operativo della App IO](./Manuale_operativo_App_IO.pdf)
+- Consulta l’[Informativa Privacy](./Informativa_Privacy.pdf)
