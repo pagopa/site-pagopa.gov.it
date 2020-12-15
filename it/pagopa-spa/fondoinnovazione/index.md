@@ -11,7 +11,7 @@ redirect_from:
 ---
 
 <div class="mb-2 mb-md-5"><img src="/assets/images/logo-mid.png" class="img-fluid m-2" title="MID"></div>
-Per assegnare le risorse previste nel Fondo per l’Innovazione Tecnologica e la Digitalizzazione, istituito con il Decreto Rilancio e assegnato al Ministro per l’innovazione tecnologica e la digitalizzazione, PagoPA S.p.A., in convenzione con il Dipartimento della Trasformazione digitale, promuove un **Avviso Pubblico** per l’assegnazione di contributi economici ai Comuni italiani.
+Per assegnare le risorse previste nel Fondo per l’Innovazione Tecnologica e la Digitalizzazione, istituito con il Decreto Rilancio e assegnato al Ministro per l’innovazione tecnologica e la digitalizzazione, PagoPA S.p.A., in convenzione con il Dipartimento per la Trasformazione digitale e l'Agenzia per l'Italia digitale (AgID), promuove un **[Avviso Pubblico](./avviso/)** per l’assegnazione di contributi economici ai Comuni italiani.
 
 Tali contributi sono intesi quale supporto a beneficio dei singoli Comuni, chiamati a espletare le attività necessarie per:
 
@@ -29,7 +29,7 @@ Se sei un Comune che presenta i requisiti di partecipazione all’Avviso Pubblic
 
 ### Come ottenere il contributo
 
-I contributi sono subordinati al raggiungimento di specifici obiettivi e calcolati in base all’**[assegnazione del Comune ad una fascia demografica](./Fasce_demografiche.pdf)**. Se sei un Comune ammesso all’Avviso, potrai avvalerti del supporto di [Partner Tecnologici Pubblici o Privati](/it/pubbliche-amministrazioni/partner-intermediari/) per conseguire gli obiettivi di adozione e integrazione delle piattaforme abilitanti (link all’Allegato Obiettivi).
+I contributi sono subordinati al raggiungimento di specifici obiettivi e calcolati in base all’**[assegnazione del Comune ad una fascia demografica](./Fasce_demografiche.pdf)**. Se sei un Comune ammesso all’Avviso, potrai avvalerti del supporto di [Partner Tecnologici Pubblici o Privati](/it/pubbliche-amministrazioni/partner-intermediari/) per conseguire gli obiettivi di adozione e integrazione delle piattaforme abilitanti (vedi in calce l'Allegato 1).
 
 ### Come richiedere il contributo
 
@@ -38,7 +38,7 @@ Potrai richiedere i contributi in **due fasi distinte**, in base all’obiettivo
 - **entro il 31 marzo 2021** per l’erogazione del **20%** del contributo per le **attività concluse entro il 28 Febbraio 2021** _- La relativa modulistica sarà disponibile sulla piattaforma a partire dal 1 febbraio 2021_;
 - **entro il 31 gennaio 2022** per l’erogazione dell’**80%** del contributo per le **attività concluse entro il 31 dicembre 2021** _- La relativa modulistica sarà disponibile sulla piattaforma a partire dal 30 luglio 2021_
 
-Ricorda che alle richieste di erogazione del contributo seguirà una fase istruttoria (link ad allegato istruttoria e verifica) che consisterà nella **verifica del completamento delle attività** e del raggiungimento degli obiettivi.
+Ricorda che alle richieste di erogazione del contributo seguirà una fase istruttoria (vedi in calce l'Allegato 3) che consisterà nella **verifica del completamento delle attività** e del raggiungimento degli obiettivi.
 
 ### Come ricevere assistenza
 
@@ -52,7 +52,10 @@ Per maggiori informazioni sulle piattaforme abilitanti, potrai invece essere ind
 
 ### Informazioni e materiali utili
 
-- Consulta l’Avviso Pubblico
+- [Consulta l’Avviso Pubblico](./AVVISO_PUBBLICO_FONDO_INNOVAZIONE.pdf)
+  - [Allegato 1. Obiettivi da conseguire](./ALLEGATO_1_Obiettivi_da_Conseguire.pdf)
+  - [Allegato 2. Importo del contributo e premialità](./ALLEGATO_2_Importo_del_Contributo_e_premialita.pdf)
+  - [Allegato 3. Istruttoria e verifiche](./ALLEGATO_3_Istruttoria_e_Verifiche.pdf)
 - Accedi alla [procedura online](https://fondoinnovazione.pagopa.it/)
 - Consulta le [FAQ](./faq/)
 - Consulta le [Linee guida per la scadenza del 28 Febbraio 2021 per la Pubblica Amministrazione](https://innovazione.gov.it/it/linee-guida-decreto-semplificazione/)
