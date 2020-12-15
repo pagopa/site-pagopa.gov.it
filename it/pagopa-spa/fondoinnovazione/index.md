@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fondo Innovazione
-description: Avviso Pubblico per l’assegnazione di fondi ai Comuni italiani per promuovere la diffusione delle piattaforme abilitanti Spid, pagoPA, e dell'App IO.
+description: Avviso Pubblico per l’assegnazione di fondi ai Comuni italiani per promuovere la diffusione delle piattaforme abilitanti Spid, pagoPA e dell'App IO.
 lang: it
 ref: fondoinnovazione
 child_of_ref: pagopa-spa
@@ -52,7 +52,7 @@ Per maggiori informazioni sulle piattaforme abilitanti, potrai invece essere ind
 
 ### Informazioni e materiali utili
 
-- [Consulta l’Avviso Pubblico](./AVVISO_PUBBLICO_FONDO_INNOVAZIONE.pdf)
+- Consulta l'[Avviso Pubblico](./AVVISO_PUBBLICO_FONDO_INNOVAZIONE.pdf)
   - [Allegato 1. Obiettivi da conseguire](./ALLEGATO_1_Obiettivi_da_Conseguire.pdf)
   - [Allegato 2. Importo del contributo e premialità](./ALLEGATO_2_Importo_del_Contributo_e_premialita.pdf)
   - [Allegato 3. Istruttoria e verifiche](./ALLEGATO_3_Istruttoria_e_Verifiche.pdf)
