@@ -1,12 +1,11 @@
 ---
 layout: page
 title: Comunicati stampa
-description: 
+description:
 lang: it
 ref: comunicati-stampa
 child_of_ref: pagopa-spa
-order: 23
+order: 24
 ---
-
 
 {% include posts.html %}

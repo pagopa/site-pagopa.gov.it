@@ -4,7 +4,7 @@ title: Lavora con noi
 description:
 lang: it
 ref: lavora-con-noi
-order: 25
+order: 26
 child_of_ref: [reclutamento-del-personale, pagopa-spa]
 redirect_from:
   - /lavora-con-noi
