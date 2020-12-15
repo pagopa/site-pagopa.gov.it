@@ -5,13 +5,14 @@ lang: it
 layout: job
 ref: legal-counsel-2
 child_of_ref: lavora-con-noi
-jazz_url: https://20190925103830_vfoabirmgu6pvula.applytojob.com/apply/ShVFZp2hPg/Legal-Counsel
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
-is_new: true
+archived: true
 metadata:
     apertura: 09/11/2020
     chiusura: 10/12/2020
+    numassunte: selezione in corso
 ---
 
 PagoPA S.p.A. è alla ricerca di un **Legal Counsel**, che entri a far parte del team Legal & Compliance e si occupi di gestire ogni adempimento e iniziativa per assicurare la corretta applicazione delle decisioni aziendali sotto il profilo legale.
