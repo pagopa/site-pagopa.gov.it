@@ -21,7 +21,7 @@ Tali contributi sono intesi quale supporto a beneficio dei singoli Comuni, chiam
 
 ### Chi può partecipare
 
-Possono partecipare e richiedere il contributo tutti i **Comuni italiani** che, come previsto dal Decreto Semplificazione e Innovazione digitale (DL n.76/2020), devono effettuare o completare la migrazione alla piattaforma pagoPA, l’adesione al sistema SPID e l'integrazione all'App IO, **fatta eccezione** per i Comuni che hanno aderito ad accordi Regionali con finalità analoghe a quelle individuate dall’Avviso Pubblico.
+Possono partecipare e richiedere il contributo tutti i **Comuni italiani** che, come previsto dal Decreto Semplificazione e Innovazione digitale (DL n.76/2020), devono effettuare o completare la migrazione alla piattaforma pagoPA, l’adesione al sistema SPID e l'integrazione all'App IO, **fatta eccezione** per i Comuni che sono ricompresi in accordi Regionali con finalità analoghe a quelle individuate dall’Avviso Pubblico.
 
 ### Come aderire
 
