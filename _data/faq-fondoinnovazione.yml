@@ -3,7 +3,7 @@ it:
     body: "Possono presentare domanda di adesione all'[Avviso Pubblico](../AVVISO_PUBBLICO_FONDO_INNOVAZIONE.pdf) tutti i Comuni italiani che, come previsto dal Decreto Semplificazioni n. 76/2020, entro il 28 febbraio 2021 sono tenuti a effettuare o completare l’adesione al sistema SPID e la migrazione alla piattaforma pagoPA, nonché avviare l’integrazione dei propri servizi digitali sull’App IO."
     cat: "1|Requisiti e domanda di adesione"
   - title: Un Comune che sia già stato ammesso all’Avviso per il “rafforzamento della capacità amministrativa dei piccoli Comuni”, rivolto ai Comuni con popolazione inferiore ai 5.000 abitanti, pubblicato dalla Presidenza del Consiglio dei ministri - Dipartimento della funzione pubblica - può aderire anche all’Avviso Pubblico Fondo Innovazione?
-    body: "Si, un Comune può aderire a entrambi gli Avvisi pubblici. Nel caso specifico, qualora lo stesso Comune aderisse anche all’Avviso Pubblico Fondo Innovazione, il contributo a cui avrà potenzialmente diritto sarà pari al 70% dell’[importo stabilito](/it/pagopa-spa/fondoinnovazione/Fasce_demografiche.pdf)."
+    body: "Si, un Comune può aderire a entrambi gli Avvisi pubblici. Nel caso specifico, qualora lo stesso Comune aderisse anche all’Avviso Pubblico Fondo Innovazione, il contributo a cui avrà potenzialmente diritto sarà pari al 70% dell’[importo stabilito](../Fasce_demografiche.pdf)."
     cat: "1|Requisiti e domanda di adesione"
   - title: Possono aderire i Comuni che sono già ricompresi in accordi Regionali che hanno finalità analoghe a quelle individuate nel presente Avviso Pubblico?
     body: "No, è fatto divieto di adesione all’Avviso Pubblico Fondo Innovazione ai Comuni che sono ricompresi in accordi Regionali con finalità analoghe a quelle individuate nel presente Avviso. "
@@ -30,13 +30,13 @@ it:
     body: "Si, i Comuni potranno - in ogni momento per tutto il periodo di vigenza dell’Avviso Pubblico - segnalare eventuali variazioni anagrafiche inviando una PEC al seguente indirizzo: <segnalazioni.fondoinnovazione@pec.pagopa.it>"
     cat: "1|Requisiti e domanda di adesione"
   - title: Come si aderisce a SPID?
-    body: "Per tutte le informazioni e le procedure relative all’adesione al sistema SPID, consulta il [Manuale operativo](/it/fondoinnovazione/Manuale_operativo_Spid.pdf)."
+    body: "Per tutte le informazioni e le procedure relative all’adesione al sistema SPID, consulta il [Manuale operativo](../Manuale_operativo_Spid.pdf)."
     cat: "2|Adesione alle piattaforme abilitanti SPID, pagoPA e all’app IO"
   - title: Come si aderisce a pagoPA?
-    body: "Per tutte le informazioni e le procedure relative all’adesione a pagoPA, consulta il [Manuale operativo](/it/fondoinnovazione/Manuale_operativo_pagoPA.pdf)."
+    body: "Per tutte le informazioni e le procedure relative all’adesione a pagoPA, consulta il [Manuale operativo](../Manuale_operativo_pagoPA.pdf)."
     cat: "2|Adesione alle piattaforme abilitanti SPID, pagoPA e all’app IO"
   - title: Come si aderisce all'App IO?
-    body: "Per tutte le informazioni e le procedure relative all’adesione all’App IO, consulta il [Manuale operativo](/it/fondoinnovazione/Manuale_operativo_App_IO.pdf)."
+    body: "Per tutte le informazioni e le procedure relative all’adesione all’App IO, consulta il [Manuale operativo](../Manuale_operativo_App_IO.pdf)."
     cat: "2|Adesione alle piattaforme abilitanti SPID, pagoPA e all’app IO"
   - title: Qual è la procedura per richiedere il contributo?
     body: "Le richieste di erogazione del contributo devono essere presentate secondo apposita procedura online tramite l’accesso all’area riservata della piattaforma con le credenziali ricevute nella comunicazione di ammissione all’Avviso Pubblico. I moduli per la richiesta di erogazione del contributo saranno resi disponibili sulla piattaforma."
@@ -86,7 +86,7 @@ it:
     body: "I contributi saranno erogati tramite bonifico SCT all’IBAN indicato nella richiesta di erogazione del contributo."
     cat: "5|Erogazione del contributo"
   - title: Come si calcolano gli importi dei contributi?
-    body: "A partire dalla dotazione a disposizione dell’Avviso Pubblico, gli importi dei contributi saranno calcolati suddividendo i Comuni in quattro [fasce demografiche](/it/pagopa-spa/fondoinnovazione/Fasce_demografiche.pdf), secondo la seguente classificazione che fa riferimento all’indice ISTAT provvisorio del 1° gennaio 2020:\n\n
+    body: "A partire dalla dotazione a disposizione dell’Avviso Pubblico, gli importi dei contributi saranno calcolati suddividendo i Comuni in quattro [fasce demografiche](../Fasce_demografiche.pdf), secondo la seguente classificazione che fa riferimento all’indice ISTAT provvisorio del 1° gennaio 2020:\n\n
 - da 0  a 5.000 Abitanti € 3.900\n
 - da 5.000 a 40.000 Abitanti € 7.950\n
 - da 40.000 a 200.000 Abitanti € 11.850\n
