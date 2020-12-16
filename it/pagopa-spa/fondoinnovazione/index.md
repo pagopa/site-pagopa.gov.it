@@ -35,10 +35,10 @@ I contributi sono subordinati al raggiungimento di specifici obiettivi e calcola
 
 Potrai richiedere i contributi in **due fasi distinte**, in base all’obiettivo di adozione e integrazione delle piattaforme abilitanti raggiunto. Al conseguimento degli obiettivi, potrai richiedere l’erogazione del contributo tramite l’apposita procedura online:
 
-- **entro il 31 marzo 2021** per l’erogazione del **20%** del contributo per le **attività concluse entro il 28 Febbraio 2021** _- La relativa modulistica sarà disponibile sulla piattaforma a partire dal 1 febbraio 2021_;
-- **entro il 31 gennaio 2022** per l’erogazione dell’**80%** del contributo per le **attività concluse entro il 31 dicembre 2021** _- La relativa modulistica sarà disponibile sulla piattaforma a partire dal 30 luglio 2021_
+- **entro il 31 marzo 2021** per l’erogazione del **20%** del contributo per le **attività verificate entro il 28 Febbraio 2021** _- La relativa modulistica sarà disponibile sulla piattaforma a partire dal 1 febbraio 2021_;
+- **entro il 31 gennaio 2022** per l’erogazione dell’**80%** del contributo per le **attività verificate entro il 31 dicembre 2021** _- La relativa modulistica sarà disponibile sulla piattaforma a partire dal 30 luglio 2021_
 
-Ricorda che alle richieste di erogazione del contributo seguirà una fase istruttoria (vedi in calce l'Allegato 3) che consisterà nella **verifica del completamento delle attività** e del raggiungimento degli obiettivi.
+Ricorda che alle richieste di erogazione del contributo seguirà una fase istruttoria (vedi in calce l'Allegato 3) che consisterà nella **verifica delle attività** e del raggiungimento degli obiettivi.
 
 ### Come ricevere assistenza
 
