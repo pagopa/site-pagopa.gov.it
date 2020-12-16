@@ -5,13 +5,14 @@ lang: it
 layout: job
 ref: direttore-area-tecnica
 child_of_ref: lavora-con-noi
-jazz_url: https://20190925103830_vfoabirmgu6pvula.applytojob.com/apply/tAksdWeCCF/Direttore-Aree-Strategiche-E-Tecnica
+jazz_url: 
 pec_cv: false
 iframeheight: 2100
-is_new: true
+archived: true
 metadata:
   apertura: 26/11/2020
   chiusura: 15/12/2020
+  numassunte: selezione in corso
 ---
 
 PagoPA S.p.A. è alla ricerca di un **Direttore Area Tecnica, Prodotto & Mercato** con profonda esperienza nel settore Bancario e dei Pagamenti che sarà responsabile di impostare, gestire, supervisionare e coordinare, di concerto con l’Organo Amministrativo, ogni adempimento e iniziativa volti ad assicurare la corretta applicazione delle decisioni e strategie aziendali.
