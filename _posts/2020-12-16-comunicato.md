@@ -7,7 +7,7 @@ tags:
 child_of_ref: comunicati-stampa
 ---
 
-*Mercoledì 16 dicembre 2020* - PagoPA S.p.A., società incaricata dal
+PagoPA S.p.A., società incaricata dal
 Ministero dell'Economia e delle Finanze per lo sviluppo e la gestione
 della piattaforma tecnologica alla base del Cashback, intende fornire
 alcune importanti precisazioni ai cittadini che hanno aderito al
