@@ -43,8 +43,8 @@ it:
     cat: "3|Richiesta di erogazione del contributo"
   - title: Quando è possibile richiedere il contributo?
     body: "Le richieste di erogazione del contributo devono essere presentate, a pena di irricevibilità, rispettivamente entro i seguenti termini:\n\n
-- **entro, e non oltre, il 31 marzo 2021** per la richiesta di erogazione del **20%** del contributo, a seguito della verifica del completamento delle attività previste entro la scadenza del 28 febbraio 2021;\n
-- **entro, e non oltre, il 31 gennaio 2022** per la richiesta di erogazione dell’**80%** del contributo, a seguito della verifica del completamento delle attività previste entro la scadenza del 31 dicembre 2021. "
+- **entro, e non oltre, il 31 marzo 2021** per la richiesta di erogazione del **20%** del contributo, a seguito della verifica delle attività previste entro la scadenza del 28 febbraio 2021;\n
+- **entro, e non oltre, il 31 gennaio 2022** per la richiesta di erogazione dell’**80%** del contributo, a seguito della verifica delle attività previste entro la scadenza del 31 dicembre 2021. "
     cat: "3|Richiesta di erogazione del contributo"
   - title: In che modo il Comune può monitorare lo status di accettazione della domanda di erogazione del contributo?
     body: "Accedendo all’area riservata con le credenziali ricevute nella comunicazione di ammissione all’Avviso Pubblico, il Comune potrà controllare l’avanzamento della sua richiesta di erogazione del contributo. A valle della fase di istruttoria e verifiche, il Comune riceverà via PEC una mail di conferma dell’esito positivo dell’istruttoria o una mail contenente le motivazioni di un eventuale rigetto."
@@ -53,7 +53,7 @@ it:
     body: "Entro 10 giorni dalla ricezione della richiesta di rettifica, che il Comune riceverà all'indirizzo PEC di domicilio digitale inserito nel modulo di adesione, sarà possibile correggere le informazioni errate ripetendo l’intero processo di compilazione della domanda per l’erogazione del contributo. Trascorso tale termine, la domanda sarà respinta."
     cat: "3|Richiesta di erogazione del contributo"
   - title: In cosa consiste la fase di istruttoria e verifiche ai fini dell’ottenimento del contributo?
-    body: "PagoPA S.p.A verificherà il completamento da parte dei Comuni delle seguenti attività:\n\n
+    body: "PagoPA S.p.A verificherà le seguenti attività:\n\n
 - _al 28 febbraio 2021_:<br>
 **Spid**: Abilitazione di servizi online all’accesso mediante SPID, comunicazione dei servizi attivati verso AgID come da normativa SPID;<br>
 **pagoPA**: migrazione e attivazione di 1 servizio di incasso se il Comune ha aderito alla piattaforma durante la vigenza dell'Avviso, e di 2 servizi se il Comune ha aderito alla piattaforma prima della pubblicazione dell'Avviso;<br>
@@ -62,14 +62,14 @@ it:
 **pagoPA**: migrazione e attivazione di almeno il 70% dei servizi di incasso erogati dal comune tra quelli censiti nella tabella tassonomica<br> 
 **App IO**: migrazione e attivazione di almeno 10 servizi digitali del Comune sulla App."
     cat: "4|Istruttoria e verifiche"
-  - title: Cosa succede se durante la fase di istruttoria e verifiche, il Comune non dimostra il completamento delle attività finalizzate all’ottenimento del contributo?
-    body: "Se il Comune non è in grado di dimostrare il completamento delle attività previste per la prima scadenza del 28 Febbraio 2021 perde il diritto all’erogazione del 20% del contributo, ma può comunque continuare i processi di integrazione alle piattaforme abilitanti per dimostrare di aver completato tutte le attività entro il 31 Dicembre 2021. Solo in questo modo, il Comune potrà ottenere il restante 80% del contributo. Qualora, al contrario, il Comune non fosse in grado di dimostrare nemmeno il completamento delle attività previste alla scadenza del 31 dicembre 2021, non avrà diritto ad alcun contributo. "
+  - title: Cosa succede se la fase di istruttoria e verifiche delle attività implementate dal Comune ha esito negativo? 
+    body: "Se la verifica delle attività previste per la prima scadenza del 28 Febbraio 2021 ha esito negativo, il Comune perde il diritto all’erogazione del 20% del contributo, ma può comunque continuare i processi di integrazione alle piattaforme abilitanti per superare la verifica delle attività previste entro il 31 Dicembre 2021. Solo in questo modo, il Comune potrà ottenere il restante 80% del contributo. Qualora, al contrario, anche la verifica delle attività  previste alla scadenza del 31 dicembre 2021 avesse esito negativo, il Comune non avrà diritto ad alcun contributo."
     cat: "4|Istruttoria e verifiche"
-  - title: A chi può rivolgersi il Comune per un supporto nel completamento delle attività finalizzate all’ottenimento del contributo? 
+  - title: A chi può rivolgersi il Comune per un supporto nell’implementazione delle attività finalizzate all’ottenimento del contributo? 
     body: "I Comuni ammessi all’Avviso possono avvalersi del supporto di [Partner Tecnologici Pubblici o Privati](/it/pubbliche-amministrazioni/partner-intermediari/) per conseguire gli obiettivi di adozione e integrazione delle piattaforme abilitanti."
     cat: "4|Istruttoria e verifiche"
   - title: Cosa si intende per “Full pagoPA”?
-    body: "Per “full pagoPA” si intende la migrazione e l’attivazione di almeno il 70% dei servizi di incasso erogati dal Comune, tra quelli censiti nella [tabella](https://drive.google.com/file/d/13xOd__Qd4pwKHr3wjE-73NAB2O7UKmIt/view) [“Tassonomia dei servizi di Incasso”](https://docs.google.com/document/d/1OawsOwvMOxgLGB3KXNeqJTxrX2XYD7q0HZ8RNrZdimg/view). Il 70% sarà calcolato sulla totalità dei servizi di incasso erogati dal singolo Comune e dichiarati nella domanda di richiesta di erogazione dei contributi subordinata al completamento delle attività al 31 dicembre 2021. I servizi di incasso saranno verificati tramite le transazioni sulla piattaforma pagoPA con l’indicazione del codice tassonomico."
+    body: "Per “full pagoPA” si intende la migrazione e l’attivazione di almeno il 70% dei servizi di incasso erogati dal Comune, tra quelli censiti nella [tabella](https://drive.google.com/file/d/13xOd__Qd4pwKHr3wjE-73NAB2O7UKmIt/view) [“Tassonomia dei servizi di Incasso”](https://docs.google.com/document/d/1OawsOwvMOxgLGB3KXNeqJTxrX2XYD7q0HZ8RNrZdimg/view). Il 70% sarà calcolato sulla totalità dei servizi di incasso erogati dal singolo Comune e dichiarati nella domanda di richiesta di erogazione dei contributi subordinata alla verifica delle attività al 31 dicembre 2021. I servizi di incasso saranno verificati tramite le transazioni sulla piattaforma pagoPA con l’indicazione del codice tassonomico."
     cat: "4|Istruttoria e verifiche"
   - title: Cosa si intende per “Full IO”?
     body: "Per “Full IO” si intende la migrazione e l’attivazione di almeno 10 servizi digitali sulla App IO, i quali dovranno essere resi visibili sull’App. Se il Comune integra i propri servizi digitali sulla App IO tramite un soggetto aggregatore, i 10 servizi dovranno comunque essere visibili in App per ogni singolo Comune."
@@ -79,8 +79,8 @@ it:
     cat: "4|Istruttoria e verifiche"
   - title: Quando saranno erogati i contributi?
     body: "I contributi saranno erogati:\n\n
-- per il **20%** entro il mese di **luglio 2021**, a seguito della conclusione della fase di verifica delle attività da completare entro il 28 febbraio 2021;\n
-- per l’**80%** entro il mese di **maggio 2022**, a seguito della conclusione della fase di verifica delle attività da completare entro il 31 dicembre 2021."
+- per il **20%** entro il mese di **luglio 2021**, per le attività verificate entro il 28 febbraio 2021;\n
+- per l’**80%** entro il mese di **maggio 2022**, per le attività verificate entro il 31 dicembre 2021."
     cat: "5|Erogazione del contributo"
   - title: Come saranno erogati i contributi?
     body: "I contributi saranno erogati tramite bonifico SCT all’IBAN indicato nella richiesta di erogazione del contributo."
@@ -95,7 +95,7 @@ it:
   - title: Quali sono i casi in cui sussiste una riduzione del contributo?
     body: "La riduzione del contributo è prevista in due casi:\n\n
 - se il Comune con popolazione inferiore ai 5.000 abitanti ha già aderito con esito positivo all’Avviso per l’attuazione del progetto “Rafforzamento della capacità amministrativa dei piccoli comuni”, pubblicato dal Dipartimento della Funzione Pubblica, _il contributo erogabile relativo al presente Avviso Pubblico sarà pari al 70% dell’importo previsto per quel Comune, in base alla fascia demografica di appartenenza_;\n
-- se iI Comune non ha completato le attività previste per la scadenza del 28 febbraio 2021 ma ha portato a termine tutte le attività previste per la scadenza del 31 dicembre 2021, _il contributo erogabile sarà pari all’80% dell’importo previsto per quel Comune, in base alla fascia demografica di appartenenza_.
+- se il Comune non ha superato la verifica dell eattività previste per la scadenza del 28 febbraio 2021 ma ha portato a termine tutte le attività previste per la scadenza del 31 dicembre 2021, _il contributo erogabile sarà pari all’80% dell’importo previsto per quel Comune, in base alla fascia demografica di appartenenza_.
 "
     cat: "5|Erogazione del contributo"
   - title: Quali Comuni hanno diritto alla premialità?
