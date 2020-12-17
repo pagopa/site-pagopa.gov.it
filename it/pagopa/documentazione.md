@@ -11,11 +11,11 @@ order: 22
 
 ## Documentazione tecnica in consultazione
 
-<!-- 
-- <span class="badge badge-secondary">New</span> [Monografia Processo di pagamento presso il PSP con Ente multi-beneficiario](https://docs.google.com/document/d/1qmQ12SfkhjJGss--d5mQwqrcMCb9pF4JHj-k8w8X9jM/view)
--->
+- <span class="badge badge-secondary">New</span> [Monografia - Gestione accredito e rendicontazione](https://docs.google.com/document/d/102dSzWOALRqQEkiccilUFV02cSwRf8ZvzsI__zgSoM0/edit?usp=sharing)
 
+<!--
 Al momento non è presente documentazione in consultazione.
+-->
 
 ---
 
