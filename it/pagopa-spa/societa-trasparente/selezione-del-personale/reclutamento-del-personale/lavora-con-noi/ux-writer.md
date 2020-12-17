@@ -5,7 +5,7 @@ lang: it
 layout: job
 ref: ux-writer
 child_of_ref: lavora-con-noi
-jazz_url: https://20190925103830_vfoabirmgu6pvula.applytojob.com/apply/6CDifrmNMN/UX-Copywriter
+jazz_url: https://pagopa.applytojob.com/apply/6CDifrmNMN/UX-Copywriter
 pec_cv: false
 iframeheight: 2000
 is_new: true

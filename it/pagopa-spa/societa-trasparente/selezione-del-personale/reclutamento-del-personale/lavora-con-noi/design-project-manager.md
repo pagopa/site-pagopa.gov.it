@@ -5,7 +5,7 @@ lang: it
 layout: job
 ref: design-project-manager
 child_of_ref: lavora-con-noi
-jazz_url: https://20190925103830_vfoabirmgu6pvula.applytojob.com/apply/6mD0xhD6YS/Design-Project-Manager
+jazz_url: https://pagopa.applytojob.com/apply/6mD0xhD6YS/Design-Project-Manager
 pec_cv: false
 iframeheight: 2000
 is_new: true

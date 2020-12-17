@@ -5,7 +5,7 @@ lang: it
 layout: job
 ref: impiegati-l68
 child_of_ref: lavora-con-noi
-jazz_url: https://20190925103830_vfoabirmgu6pvula.applytojob.com/apply/5MhN8VxrnQ/Impiegati-Amministrativi-E-Tecnici-Ai-Sensi-Della-L681999
+jazz_url: https://pagopa.applytojob.com/apply/5MhN8VxrnQ/Impiegati-Amministrativi-E-Tecnici-Ai-Sensi-Della-L681999
 pec_cv: false
 iframeheight: 2000
 is_new: true

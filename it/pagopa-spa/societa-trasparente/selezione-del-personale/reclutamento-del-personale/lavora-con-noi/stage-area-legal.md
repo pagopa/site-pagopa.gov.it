@@ -5,7 +5,7 @@ lang: it
 layout: job
 ref: stage-area-legal
 child_of_ref: lavora-con-noi
-jazz_url: https://20190925103830_vfoabirmgu6pvula.applytojob.com/apply/aBkcNbl48l/Stage-Curriculare-Area-Legal
+jazz_url: https://pagopa.applytojob.com/apply/aBkcNbl48l/Stage-Curriculare-Area-Legal
 pec_cv: false
 iframeheight: 2000
 is_new: true

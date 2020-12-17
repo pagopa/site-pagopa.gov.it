@@ -5,7 +5,7 @@ lang: it
 layout: job
 ref: stage-interaction
 child_of_ref: lavora-con-noi
-jazz_url: https://20190925103830_vfoabirmgu6pvula.applytojob.com/apply/XXKNHtqf4K/Stage-Curriculare-Area-Product-Design-Interaction-Design
+jazz_url: https://pagopa.applytojob.com/apply/XXKNHtqf4K/Stage-Curriculare-Area-Product-Design-Interaction-Design
 pec_cv: false
 iframeheight: 2000
 is_new: true

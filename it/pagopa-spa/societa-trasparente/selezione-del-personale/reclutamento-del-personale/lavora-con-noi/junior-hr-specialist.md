@@ -5,7 +5,7 @@ lang: it
 layout: job
 ref: junior-hr-specialist
 child_of_ref: lavora-con-noi
-jazz_url: https://20190925103830_vfoabirmgu6pvula.applytojob.com/apply/AFfnnRt49h/Junior-HR-Specialist
+jazz_url: https://pagopa.applytojob.com/apply/AFfnnRt49h/Junior-HR-Specialist
 pec_cv: false
 iframeheight: 2200
 is_new: true

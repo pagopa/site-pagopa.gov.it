@@ -5,7 +5,7 @@ lang: it
 layout: job
 ref: stage-area-account
 child_of_ref: lavora-con-noi
-jazz_url: https://20190925103830_vfoabirmgu6pvula.applytojob.com/apply/CZbb5uOb6Q/Stage-Curriculare-Area-Account
+jazz_url: https://pagopa.applytojob.com/apply/CZbb5uOb6Q/Stage-Curriculare-Area-Account
 pec_cv: false
 iframeheight: 2000
 is_new: true
