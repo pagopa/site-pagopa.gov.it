@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Avviso Pubblico Fondo Innovazione
+title: Avviso Pubblico
 description:
 lang: it
 ref: avviso-fondoinnovazione
 child_of_ref: fondoinnovazione
 omit_title: true
+order: 21
+local_navigation: true
 redirect_from:
   - /fondoinnovazione/avviso/
 ---
