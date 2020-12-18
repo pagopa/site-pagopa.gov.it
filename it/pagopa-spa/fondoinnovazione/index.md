@@ -58,7 +58,6 @@ Per maggiori informazioni sulle piattaforme abilitanti, potrai invece essere ind
   - [Allegato 2. Importo del contributo e premialità](./ALLEGATO_2_Importo_del_Contributo_e_premialita.pdf)
   - [Allegato 3. Istruttoria e verifiche](./ALLEGATO_3_Istruttoria_e_Verifiche.pdf)
 - Accedi alla [procedura online](https://fondoinnovazione.pagopa.it/)
-- Consulta le [FAQ](./faq/)
 - Consulta le [Linee guida per la scadenza del 28 Febbraio 2021 per la Pubblica Amministrazione](https://innovazione.gov.it/it/linee-guida-decreto-semplificazione/)
 - Consulta il [Manuale operativo di SPID](./Manuale_operativo_Spid.pdf)
 - Consulta il [Manuale operativo di pagoPA](./Manuale_operativo_pagoPA.pdf)
