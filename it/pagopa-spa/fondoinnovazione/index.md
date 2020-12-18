@@ -50,7 +50,6 @@ In alternativa, potrai chiamare **il numero 06-87805015**, dal lunedì al venerd
 Inoltre, potrai sempre consultare il **Manuale Operativo** disponibile sulla [piattaforma online per l’adesione](https://fondoinnovazione.pagopa.it/).
 
 Per maggiori informazioni sulle piattaforme abilitanti, potrai invece essere indirizzato agli **account territoriali di PagoPA S.p.A.** per pagoPA e App IO e alle strutture competenti dell’Agenzia per l’Italia Digitale (AgID) per SPID, che potranno affiancarti nella gestione operativa di adesione e migrazione dei servizi.
-
 ### Informazioni e materiali utili
 
 - Consulta l'[Avviso Pubblico](./AVVISO_PUBBLICO_FONDO_INNOVAZIONE.pdf)
