@@ -34,6 +34,11 @@ layout: default
           <div class="card-body">
             <h5 class="card-title">{{ page.title }}</h5>
             <p class="card-text">{{ content }}</p>
+            {% if page.attachment %}
+            <div class="mt-2">
+            <a href="{{page.attachment.url}}" title="Allegato" class="btn btn-sm btn-outline-primary">{{page.attachment.label | defulat: "Allegato"}}</a>
+            </div>
+            {% endif %}
           </div>
         </div>
       </div>

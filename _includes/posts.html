@@ -1,4 +1,9 @@
-{% assign posts = site.posts | where: "lang", page.lang %}
+{% if include.dir %}
+  {% comment %}Lista tutte le pagine include nella dir passata tranne se stessa {%endcomment%}
+  {% assign posts = site.pages | where_exp: "item", "item.dir contains include.dir and item.dir!=include.dir" %}
+{% else %}
+  {% assign posts = site.posts | where: "lang", page.lang %}
+{% endif %}
 
 <div class="container my-4">
   <div class="row">
