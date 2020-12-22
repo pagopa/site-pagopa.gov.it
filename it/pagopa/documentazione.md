@@ -60,7 +60,7 @@ Le Linee guida sono corredate da **due allegati tecnici**:
 ## Best practices
 
 - [Caso d'uso: pagamento di contravvenzioni del Codice della Strada](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/best_practices/multe_con_preavviso_agid.pdf)
-- [Best practice per l'integrazione degli EC su pagoPA (v0.9 del 15/12/2020)](https://pagopa.github.io/pagopa-toolkit-os-best-practice/)
+- [Best practice per l'integrazione degli EC su pagoPA](https://pagopa.github.io/pagopa-toolkit-os-best-practice/)
 
 ## FAQ
 
