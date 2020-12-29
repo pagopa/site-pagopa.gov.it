@@ -7,6 +7,8 @@ tags:
 child_of_ref: comunicati-stampa
 ---
 
+<!--more-->
+
 **[SumUp](https://sumup.it/)**, azienda attiva in Europa nel settore del _point-of-sale_ mobile (mPOS), in merito alla propria partecipazione al Cashback **ha precisato di aver concluso in data 19 dicembre 2020 l’adeguamento tecnologico sulla totalità dei propri lettori di carte**, per raggiungere la piena operatività tecnica nel primo periodo sperimentale del programma, detto _Extra Cashback di Natale_.
 
 A decorrere da tale data ogni pagamento, effettuato tramite un dispositivo SumUp con carte registrate e attivate per il programma, consente agli utenti iscritti al Cashback di accumulare transazioni valide ai fini del rimborso. **Prima del 19 dicembre 2020, tuttavia, possono essersi verificati disservizi ed anomalie** rispetto ad alcune transazioni, di cui la stessa SumUp si scusa.  
