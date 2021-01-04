@@ -11,7 +11,7 @@ iframeheight: 2300
 is_new: true
 metadata:
   apertura: 22/10/2019
-  chiusura: 01/06/2021
+  chiusura: 31/12/2020
 ---
 
 Stiamo cercando persone dotate di passione, grinta e integrità, che condividano la nostra missione.
