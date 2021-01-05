@@ -6,9 +6,11 @@ sprite-url: /assets/bootstrap-italia/dist/svg/sprite.svg
 
 ## Social Card [1200x630]
 social-card: /assets/images/favicons/social-card.png
+social-card-spa: /assets/images/favicons/social-card-spa.png
 
 ## Social Card twitter [1200x600]
 social-card-twitter: /assets/images/favicons/social-card-twitter.png
+social-card-twitter-spa: /assets/images/favicons/social-card-twitter-spa.png
 
 ## Site name
 name:

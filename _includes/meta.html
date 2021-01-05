@@ -2,11 +2,46 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description"
-    content="{% if page.description_og %}{{page.description_og}}{% elsif page.excerpt %}{{ page.excerpt| strip_html }}{% else %}{{ site.data.t.description[page.lang] }}{% endif %}">
-<meta name="author" content="{{ site.data.t.author[page.lang] }}">
-<meta name="generator" content="Jekyll v3.8.5">
 
+<meta name="author" content="{{ site.data.t.author[page.lang] }}">
+
+{% if page.url contains '/pagopa-spa/' or page.child_of_ref=='pagopa-spa'%}
+{% comment %} OG FOR COMPANY SIDE ONLY {%endcomment%}
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/favicons-spa/apple-touch-icon.png">
+<link rel="icon" href="{{ site.baseurl }}/assets/images/favicons-spa/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="{{ site.baseurl }}/assets/images/favicons-spa/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="mask-icon" href="{{ site.baseurl }}/assets/images/favicons-spa/safari-pinned-tab.svg" color="#0066CC">
+<link rel="manifest" href="/assets/images/favicons-spa/site.webmanifest">
+<link rel="shorcut icon" href="{{ site.baseurl }}/assets/images/favicons-spa/favicon.ico">
+<meta name="msapplication-TileColor" content="#00b5c5">
+<meta name="msapplication-config" content="{{ site.baseurl }}/assets/images/favicons-spa/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<title>{% if page.title %}{{ page.title }} – {% endif %}PagoPA S.p.A.</title>
+<meta name="description"
+    content="{% if page.description_og %}{{page.description_og}}{% elsif page.excerpt %}{{ page.excerpt| strip_html }}{% else %}I servizi pubblici italiani, digitali e facili da usare{% endif %}">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@https://twitter.com/pagopa">
+<meta name="twitter:creator" content="PagoPA S.p.A.">
+<meta name="twitter:title" content="{{page.title_og | default: page.title }} - PagoPA S.p.A.">
+<meta name="twitter:description"
+    content="I servizi pubblici italiani, digitali e facili da usare">
+<meta name="twitter:image" content="{{ site.url | append: site.data.t.social-card-twitter-spa }}">
+<!-- Facebook -->
+<meta property="og:url" content="{{ site.url | append: page.url }}">
+<meta property="og:title" content="{{page.title_og | default: page.title }} - PagoPA S.p.A.">
+<meta property="og:description"
+    content="I servizi pubblici italiani, digitali e facili da usare">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ site.url | replace: 'https://', 'http://' | append: site.data.t.social-card-spa }}">
+<meta property="og:image:secure_url" content="{{ site.url | append: site.data.t.social-card-spa }}">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+{% else %}
 <!-- Favicons -->
 <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/favicons/apple-touch-icon.png">
 <link rel="icon" href="{{ site.baseurl }}/assets/images/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
@@ -16,26 +51,29 @@
 <meta name="msapplication-config" content="{{ site.baseurl }}/assets/images/favicons/browserconfig.xml">
 <meta name="theme-color" content="#0066CC">
 
+<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+<meta name="description"
+    content="{% if page.description_og %}{{page.description_og}}{% elsif page.excerpt %}{{ page.excerpt| strip_html }}{% else %}{{ site.data.t.description[page.lang] }}{% endif %}">
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@https://twitter.com/pagopa">
 <meta name="twitter:creator" content="PagoPA S.p.A.">
-<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:title" content="{{page.title_og | default: page.title }}">
 <meta name="twitter:description"
     content="{% if page.excerpt %}{{ page.excerpt| strip_html }}{% else %}{{ site.data.t.description[page.lang] }}{% endif %}">
 <meta name="twitter:image" content="{{ site.url | append: site.data.t.social-card-twitter }}">
-
 <!-- Facebook -->
 <meta property="og:url" content="{{ site.url | append: page.url }}">
-<meta property="og:title" content="{{ page.title }} - {{ site.name }}">
+<meta property="og:title" content="{{page.title_og | default: page.title }} - {{ site.name }}">
 <meta property="og:description"
     content="{% if page.description_og %}{{page.description_og}}{% elsif page.excerpt %}{{ page.excerpt| strip_html }}{% else %}{{ site.data.t.description[page.lang] }}{% endif %}">
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{ site.url | replace: 'https://', 'http://' | append: site.data.t.social-card }}">
 <meta property="og:image:secure_url" content="{{ site.url | append: site.data.t.social-card }}">
 <meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="630">
+<meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+{% endif %}
 
 {% if site.noindex %}
 <!-- Robots -->

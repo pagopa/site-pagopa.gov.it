@@ -5,15 +5,13 @@ lang: it
 layout: job
 ref: senior-ui-designer
 child_of_ref: lavora-con-noi
-jazz_url: 
+jazz_url: https://pagopa.applytojob.com/apply/qsfahjBLlR/Senior-UI-Designer
 pec_cv: false
 iframeheight: 2300
-is_new: false
-archived: true
+is_new: true
 metadata:
     apertura: 03/08/2020
-    chiusura: 14/09/2020
-    numassunte: selezione in corso
+    chiusura: 30/11/2020
 ---
 
 PagoPA è alla ricerca di un __Senior UI Designer__ che definisca l'identità digitale dei servizi del suo portfolio, rendendolo riconoscibili e chiaro da utilizzare. I progetti su cui lavorerà saranno destinati sia alla cittadinanza, che alle aziende e ai dipendenti della Pubblica Amministrazione. Il lavoro riguarderà principalmente la realizzazione dell'interfaccia grafica dei nostri prodotti, ma potrà interessare anche aspetti di brand identity e comunicazione della società e dei prodotti stessi.
@@ -51,5 +49,6 @@ responsive design e mobile UI.
 
 ### Sede di lavoro
 - Roma
+- Milano
 
-Per applicare, invia il tuo CV, portfolio e la tua lettera di motivazione (facoltativa) entro e non oltre il **14 settembre 2020**. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
+Per applicare, invia il tuo CV, portfolio e la tua lettera di motivazione (facoltativa) entro e non oltre il **30 novembre 2020**. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati. **La data di presentazione delle candidature per la presente posizione è stata prorogata dal 14 settembre 2020 al 30 novembre 2020.**

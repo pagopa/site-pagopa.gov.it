@@ -1,7 +1,18 @@
 ---
 layout: default
 ---
+<style>
+  .card .card-body li {
+    font-size: .88889rem;
+    line-height: 1.33333rem;
+    font-family: Lora,Georgia,serif;
+    font-size: .875rem;
+    line-height: 1.2rem;
+    color: #435a70;
+  }
 
+
+</style>
 <div class="{% if page.layout_extra == nil %}container{%endif%} my-2">
   {%- include breadcrumbs.html -%}
 </div>
@@ -9,7 +20,7 @@ layout: default
 {% assign section = breadcrumbs[0] | default: page %}
 <article class="container my-5">
   <div class="row">
-    <div class="col-12 col-lg-8 offset-2">
+    <div class="col-12 col-lg-8 offset-lg-2">
       <!--start card-->
       <div class="card-wrapper card-space">
         <div class="card card-bg card-big border-bottom-card">
@@ -23,6 +34,11 @@ layout: default
           <div class="card-body">
             <h5 class="card-title">{{ page.title }}</h5>
             <p class="card-text">{{ content }}</p>
+            {% if page.attachment %}
+            <div class="mt-2">
+            <a href="{{page.attachment.url}}" title="Allegato" class="btn btn-sm btn-outline-primary">{{page.attachment.label | defulat: "Allegato"}}</a>
+            </div>
+            {% endif %}
           </div>
         </div>
       </div>

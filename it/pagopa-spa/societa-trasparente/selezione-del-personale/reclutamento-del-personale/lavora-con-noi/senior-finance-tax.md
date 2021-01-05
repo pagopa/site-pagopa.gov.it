@@ -5,13 +5,16 @@ lang: it
 layout: job
 ref: senior-finance-tax
 child_of_ref: lavora-con-noi
-jazz_url: https://20190925103830_vfoabirmgu6pvula.applytojob.com/apply/GoJa8boM3j/Senior-Finance-Tax-Officer
+jazz_url: 
 pec_cv: false
+archived: true
 iframeheight: 2300
-is_new: true
 metadata:
     apertura: 28/09/2020
     chiusura: 30/10/2020
+    numassunte: 2
+    numericercate: 1
+
 ---
 
 PagoPA S.p.A. è alla ricerca di un esperto di finanza, contabilità e gestione del patrimonio, da inserire nel team **Affari Societari, Amministrazione e Finanza**, a diretto riporto del **Chief Financial Officer**. Il Senior Finance & Tax Officer dovrà supportare il Chief Financial Officer e l’Organo Amministrativo della Società nella governance economica, patrimoniale e finanziaria in base alle strategie e alle politiche adottate. 

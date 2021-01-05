@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="en">
+<html lang="it">
 
 <head>
-  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://pdnd-prod-dl-1-public-data.s3.eu-central-1.amazonaws.com https://www.google-analytics.com; font-src 'self'; frame-src https://pagopa.applytojob.com https://www.youtube-nocookie.com; img-src 'self' data:; script-src 'self' https://www.google-analytics.com; style-src 'self' 'unsafe-inline'">
   {%- include styles.html -%}
   {%- include meta.html -%}
   {%- if jekyll.environment == 'production' -%}

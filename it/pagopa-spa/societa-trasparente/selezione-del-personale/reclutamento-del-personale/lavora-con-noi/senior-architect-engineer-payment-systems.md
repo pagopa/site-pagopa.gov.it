@@ -5,13 +5,14 @@ lang: it
 layout: job
 ref: senior-architect-engineer-payment-systems
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/VyAdFelX1r/Senior-Architect-Engineer-Payment-Systems
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
-is_new: true
+archived: true
 metadata:
     apertura: 25/11/2019
     chiusura: 30/09/2020
+    numassunte: 0
 ---
 
 Stiamo cercando persone dotate di passione, grinta e integrità, che condividano la nostra missione.
