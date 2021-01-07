@@ -1,12 +1,15 @@
 <div class="cookiebar bg-dark p-4 hide" aria-hidden="true">
   <div class="container">
     <div class="row d-flex align-items-center">
-      <div class="col-12 col-md-8">
-        <span class="text-white small">{{ site.data.t.cookie-policy-info[page.lang]}}</span>
+      <div class="col-12 col-md-7">
+        <div class="text-white small">{{ site.data.t.cookie-policy-info[page.lang]}}<br>
+          <a class="font-weight-bold text-white" href="{{ site.baseurl }}{{ site.data.t.footer-links[page.lang]['privacy-policy'].url }}">Privacy policy</a>
+        </div>
+        
       </div>
-      <div class="col-12 col-md-4 mt-4 mt-md-0 d-flex justify-content-end">
-        <a class="btn btn-link" href="{{ site.baseurl }}{{ site.data.t.footer-links[page.lang]['privacy-policy'].url }}">Privacy policy</a>
-        <button class="btn btn-primary mr-2" data-accept="cookiebar">{{ site.data.t.cookie-policy-accept-btn[page.lang] }}</button>
+      <div class="col-12 col-md-5 mt-4 mt-md-0 d-flex justify-content-center justify-content-md-end">
+        <button class="btn text-white border border-white mr-1 cookiebar__close">{{site.data.t.cookie-policy-accept-close[page.lang]}}</button>
+        <button class="btn btn-primary ml-1" data-accept="cookiebar">{{ site.data.t.cookie-policy-accept-btn[page.lang] }}</button>
       </div>
     </div>
   </div>
