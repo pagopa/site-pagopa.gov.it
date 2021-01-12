@@ -92,12 +92,33 @@ $(function() {
 
     });
 
-    // test if user says no-cookies-now
-        if (!(document.cookie.indexOf('cookies_consent=true') === -1 && document.cookie.indexOf('cookies_notnow=true') === -1 )) {
-            var $cookiebar = $('.cookiebar');
-            $cookiebar.removeClass('show').addClass('notnow').attr('aria-hidden','true');
-            
+// test if user says no-cookies-now
+    if (!(document.cookie.indexOf('cookies_consent=true') === -1 && document.cookie.indexOf('cookies_notnow=true') === -1 )) {
+        var $cookiebar = $('.cookiebar');
+        $cookiebar.removeClass('show').addClass('notnow').attr('aria-hidden','true');
+        
+    }
+
+    function getHash() {
+        var hash = window.location.hash;
+        return hash.substring(1); 
         }
+
+    if (window.location.hash!="") {
+        var accordionNumber = getHash();
+        var $accordionBtn = $("#collapse"+accordionNumber);
+        var $heading = $("#btnHeading"+accordionNumber);
+        if (accordionNumber!='' && $accordionBtn) {
+            $accordionBtn.collapse('show');
+            $heading.focus();
+        }
+    }
+    $("*[data-parent='#collapseDiv']").on('show.bs.collapse', function () {
+        var idToHash = $(this).attr('id');
+        idToHash = idToHash.replace('collapse','');
+        window.history.replaceState(null,null,'#'+idToHash);
+    });
+
 
 
 

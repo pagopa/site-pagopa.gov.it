@@ -29,21 +29,14 @@ bandi:
       name: "10. Affidamento diretto, ai sensi dell’art. 36, co. 2, lett. a) del D.Lgs. 50/2016 del servizio di redazione dell'atto costitutivo di PagoPA S.p.A. - CIG. 7970276FCF"
     - id: "2019/11"
       name: "11. Affidamento diretto, ai sensi dell’art. 36, co. 2, lett. a) del D.Lgs. 50/2016 del servizio di consulenza legale consistente nella redazione di un parere pro veritate - CIG. ZCB2B0B3B3"
+    - id: "2019/12"
+      name: "12. Affidamento diretto, ai sensi dell’art. 36, comma 2, lett. b) del D. Lgs. 50/2016, dei servizi di supporto per la capillare diffusione dei prodotti e dei servizi digitali curati da PagoPA SpA - CIG 8149859467"
+    - id: "2019/13"
+      name: "13. Affidamento, ai sensi dell’art. 63, comma 2, lett. b), punti 2 e 3, e lett c) del D.lgs. 50 del 2016, dei servizi tecnologici e di assistenza inerenti la piattaforma pagoPA - CIG 8151398A6B"
+    - id: "2019/14"
+      name: "14. Acquisizione, ai sensi dell’art. 36, comma 2, lett. a), del D.Lgs. 50/2016, di n. 100 utenze del servizio Slack - CIG ZBE2AB9054"
 ---
 
 
 
-<div id="collapseDiv" class="collapse-div" role="tablist">
-  {% for b in page.bandi %}
-  <div class="collapse-header" id="heading{{forloop.index}}">
-    <button data-toggle="collapse" data-target="#collapse{{forloop.index}}" aria-expanded="false" aria-controls="collapse{{forloop.index}}">
-      {{b.name}}
-    </button>
-  </div>
-  <div id="collapse{{forloop.index}}" class="collapse " role="tabpanel" aria-labelledby="heading{{forloop.index}}">
-    <div class="collapse-body">
-      {% include list-folder.html folder=b.id %}
-    </div>
-  </div>
-  {% endfor %}
-</div>
+{% include bandi.html bandi=page.bandi %}

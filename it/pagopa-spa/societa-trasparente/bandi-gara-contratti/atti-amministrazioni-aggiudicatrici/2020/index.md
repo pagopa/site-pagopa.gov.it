@@ -25,22 +25,33 @@ bandi:
       name: "08. Affidamento diretto, ai sensi dell’art. 36, co. 2, lett. a) del D.Lgs. 50/2016, mediante ordine di acquisto sul MePA, per la fornitura fornitura di licenze Adobe - CIG. Z322BEFDC5"
     - id: "2020/09"
       name: "09. Procedura ai sensi dell’articolo 36, co. 2, lett. b) del D.Lgs. 50/2016, per la fornitura di portatili MacBook Pro - Procedura con richiesta di offerta aperta sul MePA - CIG. 81837471AB"
+    - id: "2020/10"
+      name: "10. Affidamento diretto, ai sensi dell’articolo 36, co. 2, lett. a) del D.Lgs. 50/2016, mediante OdA sul MePA, della fornitura di 5 portatili MacBook Air - CIG ZDF2BEFD56"
+    - id: "2020/11"
+      name: "11. Affidamento diretto, ai sensi dell'art. 36, co.2, lett. a), D.Lgs. 50 del 2016, mediante trattativa diretta sul MePA, dei servizi di supporto specialistici privacy e legal - CIG 8217118449"
+    - id: "2020/12"
+      name: "12. Affidamento diretto, ai sensi dell'art. 36, co.2, lett. a), D.Lgs. 50 del 2016, di un servizio di interpretariato nell'ambito di un incontro istituzionale della PagoPA S.p.A. - CIG 82127439EA"
+    - id: "2020/13"
+      name: "13. Affidamento diretto, ai sensi dell'art. 36, co.2, lett. a), D.Lgs. 50 del 2016, mediante trattativa diretta sul MePA, dei servizi di supporto specialistici in ambito fiscale e tributario - CIG 8233230454"
+    - id: "2020/14"
+      name: "14. Affidamento, ai sensi dell’art. 63, comma 2, lett. b), n.2, del D.lgs. 50 del 2016, dei servizi di implementazione della piattaforma pagoPA con le funzionalità necessarie allo sviluppo e alla gestione dei progetti tecnologici “Fatturazione Automatica” e “Cashback” - CIG 8151398A6B"
+    - id: "2020/15"
+      name: "15. Adesione alla Convenzione Consip Spc Cloud Lotto 2 (Servizi di gestione delle identità digitali e sicurezza applicativa), per l’acquisizione di servizi di sicurezza volti alla securizzazione dell’App IO - servizi Leonardo - CIG 8216314CCB"
+    - id: "2020/16"
+      name: "16. Adesione alla Convenzione Consip “Servizi di Contact Center in Outsourcing 2 – Lotto 3” per il servizio di Contact Center per il Progetto “IO” - CIG 8330746D11"
+    - id: "2020/17"
+      name: "17. Acquisizione, ai sensi dell’articolo 36, comma 2, lettera a) del D.Lgs. 50/2016 del servizio di upgrade della velocità di invio delle email tramite gli account attivi sulla piattaforma Mailup - CIG Z322F843B3"
+    - id: "2020/18"
+      name: "18. Acquisizione di una seconda licenza d'uso della piattaforma Mailup (PACCHETTO MAILUP EDIZIONE PLUS, con 3 accessi aggiuntivi) per una durata di 12 mesi, ai sensi dell’articolo 36, comma 2, lettera a) del D.Lgs. 50/2016 - CIG Z092D52E57"
+    - id: "2020/19"
+      name: "19. Acquisizione, ai sensi dell’articolo 36, comma 2, lettera a) del D.Lgs. 50/2016 del servizio di upgrade della velocità di invio delle email tramite la piattaforma Mailup (PACCHETTO MAILUP EDIZIONE PLUS, con 3 accessi aggiuntivi) - CIG Z672CE8912"
+    - id: "2020/20"
+      name: "20. Acquisizione dei servizi premier Azure, ai sensi dell’art. 63, comma 2, lett. b), n. 2 e lett. c), del D.Lgs. 50/2016 - CIG 8151398A6B"
+    - id: "2020/21"
+      name: "21. Acquisizione di utenze per l’accesso e l’utilizzo del software Instabug, ai sensi dell’art. 36, comma 2, lettera a) del D.Lgs. 50/2016 - CIG ZBB2C86D50 e Z9E2E86E23"
+    - id: "2020/22"
+      name: "22. Acquisto del tool Mixpanel - CIG Z6C2E31A8E e Z932E31C3E"
     
 ---
 
-
-
-<div id="collapseDiv" class="collapse-div" role="tablist">
-  {% for b in page.bandi %}
-  <div class="collapse-header" id="heading{{forloop.index}}">
-    <button data-toggle="collapse" data-target="#collapse{{forloop.index}}" aria-expanded="false" aria-controls="collapse{{forloop.index}}">
-      {{b.name}}
-    </button>
-  </div>
-  <div id="collapse{{forloop.index}}" class="collapse " role="tabpanel" aria-labelledby="heading{{forloop.index}}">
-    <div class="collapse-body">
-      {% include list-folder.html folder=b.id %}
-    </div>
-  </div>
-  {% endfor %}
-</div>
+{% include bandi.html bandi=page.bandi %}
