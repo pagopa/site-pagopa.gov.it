@@ -5,13 +5,15 @@ lang: it
 layout: job
 ref: junior-hr-specialist
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/AFfnnRt49h/Junior-HR-Specialist
+jazz_url: 
 pec_cv: false
 iframeheight: 2200
-is_new: true
+is_new: false
+archived: true
 metadata:
   apertura: 09/12/2020
   chiusura: 10/01/2021
+  numassunte: selezione in corso
 ---
 
 PagoPA S.p.A. è alla ricerca di un _Junior HR Specialist_, che supporti il Direttore delle Risorse Umane ed il Team HR in tutte le attività connesse alla gestione del personale.
