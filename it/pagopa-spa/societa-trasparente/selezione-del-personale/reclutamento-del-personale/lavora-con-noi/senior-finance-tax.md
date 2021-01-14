@@ -12,8 +12,8 @@ iframeheight: 2300
 metadata:
     apertura: 28/09/2020
     chiusura: 30/10/2020
+    numricercate: 2
     numassunte: 2
-    numericercate: 1
 
 ---
 
