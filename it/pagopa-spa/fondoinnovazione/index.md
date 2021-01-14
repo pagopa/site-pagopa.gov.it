@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fondo Innovazione
-description: Avviso Pubblico per l’assegnazione di fondi ai Comuni italiani per promuovere la diffusione delle piattaforme abilitanti Spid, pagoPA e dell'App IO.
+description: Avviso Pubblico per l’assegnazione di fondi ai Comuni italiani per promuovere la diffusione delle piattaforme abilitanti Spid, CIE, pagoPA e dell'App IO.
 lang: it
 local_navigation_index: true
 ref: fondoinnovazione
@@ -12,17 +12,17 @@ redirect_from:
 ---
 
 <div class="mb-2 mb-md-5"><img src="/assets/images/logo-mid.png" class="img-fluid m-2" title="MID"></div>
-Per assegnare le risorse previste nel Fondo per l’Innovazione Tecnologica e la Digitalizzazione, istituito con il Decreto Rilancio e assegnato al Ministro per l’innovazione tecnologica e la digitalizzazione, PagoPA S.p.A., in convenzione con il Dipartimento per la Trasformazione digitale e l'Agenzia per l'Italia digitale (AgID), promuove un **[Avviso Pubblico](./avviso/)** per l’assegnazione di contributi economici ai Comuni italiani.
+Per assegnare le risorse previste nel Fondo per l’Innovazione Tecnologica e la Digitalizzazione, istituito con il Decreto Rilancio e assegnato al Ministro per l’innovazione tecnologica e la digitalizzazione, PagoPA S.p.A., in convenzione con il Dipartimento per la Trasformazione digitale, l'Agenzia per l'Italia digitale (AgID) e l’Istituto Poligrafico e Zecca dello Stato, promuove un **[Avviso Pubblico](./avviso/)** per l’assegnazione di contributi economici ai Comuni italiani.
 
 Tali contributi sono intesi quale supporto a beneficio dei singoli Comuni, chiamati a espletare le attività necessarie per:
 
-- rendere accessibili i propri servizi attraverso il sistema [SPID](https://www.spid.gov.it/);
+- rendere accessibili i propri servizi attraverso [SPID (Sistema Pubblico di Identità Digitale)](https://www.spid.gov.it/) e [CIE (Carta d’Identità Elettronica)](https://www.cartaidentita.interno.gov.it/);
 - portare a completamento il processo di migrazione dei propri servizi di incasso verso la [piattaforma pagoPA](https://www.pagopa.gov.it/);
 - rendere fruibili ai cittadini i propri servizi digitali tramite l’[App IO](https://io.italia.it).
 
 ### Chi può partecipare
 
-Possono partecipare e richiedere il contributo tutti i **Comuni italiani** che, come previsto dal Decreto Semplificazione e Innovazione digitale (DL n.76/2020), devono effettuare o completare la migrazione alla piattaforma pagoPA, l’adesione al sistema SPID e l'integrazione all'App IO, **fatta eccezione** per i Comuni che sono ricompresi in accordi Regionali con finalità analoghe a quelle individuate dall’Avviso Pubblico.
+Possono partecipare e richiedere il contributo tutti i **Comuni italiani** che, come previsto dal Decreto Semplificazione e Innovazione digitale (DL n.76/2020), devono effettuare o completare la migrazione alla piattaforma pagoPA, l’adesione ai sistemi SPID e CIE, l'integrazione all'App IO, **fatta eccezione** per i Comuni che sono ricompresi in accordi Regionali con finalità analoghe a quelle individuate dall’Avviso Pubblico.
 
 ### Come aderire
 
@@ -49,7 +49,7 @@ In alternativa, potrai chiamare **il numero 06-87805015**, dal lunedì al venerd
 
 Inoltre, potrai sempre consultare il **Manuale Operativo** disponibile sulla [piattaforma online per l’adesione](https://fondoinnovazione.pagopa.it/).
 
-Per maggiori informazioni sulle piattaforme abilitanti, potrai invece essere indirizzato agli **account territoriali di PagoPA S.p.A.** per pagoPA e App IO e alle strutture competenti dell’Agenzia per l’Italia Digitale (AgID) per SPID, che potranno affiancarti nella gestione operativa di adesione e migrazione dei servizi.
+Per maggiori informazioni sulle piattaforme abilitanti, potrai invece essere indirizzato agli **account territoriali di PagoPA S.p.A.** per pagoPA e App IO e alle strutture competenti dell’Agenzia per l’Italia Digitale (AgID) per SPID e dell’Istituto Poligrafico e Zecca dello Stato per CIE, che potranno affiancarti nella gestione operativa di adesione e migrazione dei servizi.
 ### Informazioni e materiali utili
 
 - Consulta l'[Avviso Pubblico](./AVVISO_PUBBLICO_FONDO_INNOVAZIONE.pdf)
@@ -59,6 +59,7 @@ Per maggiori informazioni sulle piattaforme abilitanti, potrai invece essere ind
 - Accedi alla [procedura online](https://fondoinnovazione.pagopa.it/)
 - Consulta le [Linee guida per la scadenza del 28 Febbraio 2021 per la Pubblica Amministrazione](https://innovazione.gov.it/it/linee-guida-decreto-semplificazione/)
 - Consulta il [Manuale operativo di SPID](./Manuale_operativo_Spid.pdf)
+- Consulta il [Manuale operativo di CIE](https://innovazione.gov.it/assets/docs/Manuale_CIE_Dipartimento_Trasformazione_digitale.pdf)
 - Consulta il [Manuale operativo di pagoPA](./Manuale_operativo_pagoPA.pdf)
 - Consulta il [Manuale operativo della App IO](./Manuale_operativo_App_IO.pdf)
 - Consulta l’[Informativa Privacy](./Informativa_Privacy.pdf)

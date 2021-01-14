@@ -36,8 +36,10 @@ layout: default
             <p class="card-text">{{ content }}</p>
             {% if page.attachment %}
             <div class="mt-2">
-            <a href="{{page.attachment.url}}" title="Allegato" class="btn btn-sm btn-outline-primary">{{page.attachment.label | defulat: "Allegato"}}</a>
-            </div>
+              {% for att in page.attachment %}
+                <a href="{{att.url}}" title="Allegato" class="btn btn-sm btn-outline-primary mr-1 mb-1 d-block d-md-inline-block">{{att.label | defulat: "Allegato"}}</a>
+              {%endfor%}
+          </div>
             {% endif %}
           </div>
         </div>
