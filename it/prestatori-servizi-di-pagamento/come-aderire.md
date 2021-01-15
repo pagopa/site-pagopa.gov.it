@@ -22,7 +22,7 @@ Esistono **due modelli alternativi di accordo di adesione**. Per aderire:
 
 Una volta inviato l’accordo firmato, puoi procedere con l’integrazione tecnologica e iniziare ad usare il servizio!
 
-Per qualsiasi chiarimento sulla procedura di adesione, puoi consultare le nostre FAQ o scrivere all’indirizzo [legal@pagopa.it](mailto:legal@pagopa.it)
+Per qualsiasi chiarimento sulla procedura di adesione, puoi consultare le nostre FAQ o scrivere all’indirizzo [account@pagopa.it](mailto:account@pagopa.it)
 
 ### Domande frequenti 
 [Gruppo D - Adesione dei Prestatori dei Servizi di Pagamento](https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneD.html)

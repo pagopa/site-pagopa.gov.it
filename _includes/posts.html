@@ -1,6 +1,6 @@
 {% if include.dir %}
   {% comment %}Lista tutte le pagine include nella dir passata tranne se stessa {%endcomment%}
-  {% assign pages = site.pages | where_exp: "item", "item.dir contains include.dir" %}
+  {% assign pages = site.pages | where_exp: "item", "item.dir contains include.dir" | sort: 'date' | reverse %}
   {% assign posts = pages | where_exp: "item", "item.dir!=include.dir" %}
 {% else %}
   {% assign posts = site.posts | where: "lang", page.lang %}

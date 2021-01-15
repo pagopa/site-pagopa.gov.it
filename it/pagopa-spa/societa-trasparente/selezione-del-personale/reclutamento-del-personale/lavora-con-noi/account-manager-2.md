@@ -8,10 +8,12 @@ child_of_ref: lavora-con-noi
 jazz_url: https://pagopa.applytojob.com/apply/95JEcw67yZ/Account-Manager
 pec_cv: false
 iframeheight: 2000
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 09/09/2020
     chiusura: 31/12/2020
+    numassunte: selezione in corso
 ---
 
 PagoPA S.p.A. è alla ricerca di Account Manager con forti competenze tecniche nel settore dei pagamenti digitali che possa programmare, supervisionare e coordinare le attività di gestione e fidelizzazione del portafoglio clienti. La risorsa sarà inserita nel **Team Sales** a diretto riporto del **Chief Sales Officer**. 
