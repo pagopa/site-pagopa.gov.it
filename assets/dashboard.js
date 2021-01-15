@@ -275,7 +275,7 @@ function loadJSON(callback) {
   
     function sixMonthPredictionTotal(forecastByMonth) {
       return forecastByMonth
-        .map((element) => Math.round(element.yhat_upper))
+        .map((element) => Math.round(element.yhat))
         .reduce((a, b) => a + b, 0);
       // .toLocaleString();
     }
@@ -287,6 +287,9 @@ function loadJSON(callback) {
       var tPred = sixMonthPredictionTotal(dashboardData.forecastByMonth);
       var predImporto = Math.round((e2020 / t2020) * tPred);
       var eTotal = eUntil31122019 + e2020;
+      var t2021 = dashboardData.transactions2021[0].total;
+      var e2021 = Math.round(dashboardData.transactions2021[0].importo / 100);
+
   
       $("#2019t").text(
         "  " + dashboardData.transactions2019[0].total.toLocaleString("it")
@@ -295,8 +298,8 @@ function loadJSON(callback) {
       $("#2020e").text("€ " + e2020.toLocaleString("it"));
       $("#totalt").text("  " + dashboardData.totalInHistory.toLocaleString("it"));
       $("#growthRate").text(Math.round(dashboardData.growthRate) + " %");
-      $("#predTotal").text("  " + (tPred + t2020).toLocaleString("it"));
-      $("#predEuro").text("€ " + (predImporto + e2020).toLocaleString("it"));
+      $("#predTotal").text("  " + (tPred + t2021).toLocaleString("it"));
+      $("#predEuro").text("€ " + (predImporto + e2021).toLocaleString("it"));
       
       $("#eTotal").text("€ " + eTotal.toLocaleString("it"));
   
