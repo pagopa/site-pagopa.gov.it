@@ -11,7 +11,7 @@ iframeheight: 2300
 is_new: true
 metadata:
   apertura: 22/10/2019
-  chiusura: 31/12/2020
+  chiusura: 31/03/2021
 ---
 
 Stiamo cercando persone dotate di passione, grinta e integrità, che condividano la nostra missione.
@@ -50,4 +50,4 @@ Laurea magistrale in Informatica o affine con almeno 5 anni di esperienza nell�
 - Roma
 - Milano
 
-Per applicare, invia il tuo CV e la tua lettera di motivazione (facoltativa). Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
+Per applicare, invia il tuo CV e la tua lettera di motivazione (facoltativa). Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.**La data di presentazione delle candidature per la presente posizione è stata prorogata dal 31 dicembre 2020 al 31 marzo 2021.**
