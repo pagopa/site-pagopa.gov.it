@@ -9,6 +9,11 @@ jazz_url:
 pec_cv: true
 iframeheight: 2000
 archived: true
+metadata:
+    apertura: 13/01/2020
+    chiusura: 30/04/2020
+    numricercate: 1
+    numassunte: 2
 ---
 
 

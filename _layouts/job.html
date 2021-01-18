@@ -13,6 +13,18 @@ layout: default
     {% endif %}
   </h2>
 
+  <div class="float-md-right bg-light p-2 p-md-4 my-2 mx-md-4" style="font-size: 0.888rem">
+    Data apertura: <b>{{page.metadata.apertura}}</b><br>
+    {% if page.metadata.chiusura %}
+    Data chiusura: <b>{{page.metadata.chiusura}}</b><br>
+    {% endif %}
+    {% if page.metadata.numricercate %}
+    Persone ricercate: <b>{{page.metadata.numricercate}}</b><br>
+    {% endif %}
+    {% if page.metadata.numassunte %}
+    Persone assunte: <b>{{page.metadata.numassunte}}</b>
+    {% endif %}
+  </div>
   {{ content }}
 
   {% include jazzhr.html %}

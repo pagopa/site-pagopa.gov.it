@@ -6,9 +6,11 @@ sprite-url: /assets/bootstrap-italia/dist/svg/sprite.svg
 
 ## Social Card [1200x630]
 social-card: /assets/images/favicons/social-card.png
+social-card-spa: /assets/images/favicons/social-card-spa.png
 
 ## Social Card twitter [1200x600]
 social-card-twitter: /assets/images/favicons/social-card-twitter.png
+social-card-twitter-spa: /assets/images/favicons/social-card-twitter-spa.png
 
 ## Site name
 name:
@@ -51,10 +53,13 @@ english-version:
   it: "Versione inglese"
 cookie-policy-info:
   en: "This site uses technical, analytics and third-party cookies <br>By continuing to browse, you accept the use of cookies."
-  it: "Questo sito utilizza cookie tecnici, analytics e di terze parti.<br>Proseguendo nella navigazione accetti l’utilizzo dei cookie."
+  it: "Questo sito utilizza cookie tecnici, nonchè cookie analitici di terze parti: puoi accettare l'utilizzo di questi cookie, o rifiutarlo chiudendo questo banner e proseguendo la navigazione."
 cookie-policy-accept-btn:
   en: "Ok"
-  it: "Accetto"
+  it: "Accetta e continua"
+cookie-policy-accept-close:
+  en: "Close"
+  it: "Chiudi"
 footer-links:
   en:
     privacy-policy:
@@ -70,6 +75,9 @@ footer-links:
     privacy-policy:
       name: "Privacy policy"
       url: "/it/privacy-policy"
+    societa-trasparente:
+      name: "Società Trasparente"
+      url: "/it/pagopa-spa/societa-trasparente"
     lavora-con-noi:
       name: "Lavora con noi"
       url: "/it/lavora-con-noi"
@@ -81,7 +89,7 @@ newsletter:
     title: "Iscriviti alla newsletter"
     placeholder: "Inserisci la tua email"
     submit_button: "Conferma iscrizione"
-    disclaimer: "<a href=\"https://teamdigitale.governo.it/it/privacy-newsletter-pagoPA.htm\">Privacy policy</a>"
+    disclaimer: '<a href="/it/privacy-policy">Privacy policy</a>'
 CollapseBtnSee:
   en: "See all"
   it: "Mostra tutto"
@@ -91,4 +99,3 @@ CollapseBtnHide:
 JobApply:
   en: "Apply for this position"
   it: "Invia il CV per questa posizione"
-

@@ -1,0 +1,17 @@
+{% assign bandi = include.bandi %}
+<div id="collapseDiv" class="collapse-div" role="tablist">
+    {% for b in bandi %}
+    <a name="{{forloop.index}}"></a>
+    <div class="collapse-header" id="heading{{forloop.index}}">
+        <button id="btnHeading{{forloop.index}}" data-toggle="collapse"
+        data-target="#collapse{{forloop.index}}" aria-expanded="false" aria-controls="collapse{{forloop.index}}">
+        {{b.name}}
+        </button>
+    </div>
+    <div id="collapse{{forloop.index}}" class="collapse " role="tabpanel" aria-labelledby="heading{{forloop.index}}" data-parent="#collapseDiv">
+        <div class="collapse-body">
+        {% include list-folder.html folder=b.id %}
+        </div>
+    </div>
+    {% endfor %}
+</div>

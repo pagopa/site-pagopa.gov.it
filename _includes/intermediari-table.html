@@ -1,4 +1,4 @@
-{% assign intermediari = site.data.intermediari | where_exp: "item","item.Tipo == 'I'" | sort: "Denominazione" %}
+{% assign intermediari = site.data.intermediari['I'] | where_exp:"item", "item['Intermediario Partner'] != 'Totale complessivo'" | sort: "Intermediario Partner" %}
 {% assign numintermediari = intermediari.size %}
 {% assign division = numintermediari | divided_by:2.0 | ceil %}
 
@@ -9,9 +9,9 @@
         <div class="col col-sm-6">
             <ul>
                 {% for intermediario in intermediari limit: division offset: groupset %}
-                <li class="small text-muted"><b>{{intermediario['Denominazione']}}</b>
-                    {% if intermediario['NumeroEntiAttivi'] != '' %}
-                    <br>Enti intermediati: {{intermediario['NumeroEntiAttivi']}}
+                <li class="small text-muted"><b>{{intermediario['Intermediario Partner']}}</b>
+                    {% if intermediario['Conteggio di denominazione Ente'] != '' %}
+                    <br>Enti intermediati: {{intermediario['Conteggio di denominazione Ente']}}
                     {% endif %}
                 </li>
                 {% endfor %}

@@ -5,10 +5,15 @@ lang: it
 layout: job
 ref: junior-operations-manager
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/E7CILdp9xQ/Junior-Operations-Manager
+jazz_url: 
 pec_cv: false
 iframeheight: 1900
-is_new: true
+is_new: false
+archived: true
+metadata:
+    apertura: 05/06/2020
+    chiusura: 30/06/2020
+    numassunte: 0
 ---
 
 

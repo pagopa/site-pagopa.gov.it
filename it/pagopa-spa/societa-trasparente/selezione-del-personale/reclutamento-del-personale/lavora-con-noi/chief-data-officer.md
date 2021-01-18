@@ -5,10 +5,16 @@ lang: it
 layout: job
 ref: chief-data-officer
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/jpksXzgZp3/Chief-Data-Officer
+jazz_url: 
 pec_cv: false
 iframeheight: 1900
-is_new: true
+is_new: false
+archived: true
+metadata:
+    apertura: 07/06/2020
+    chiusura: 10/06/2020
+    numricercate: 1
+    numassunte: 1
 ---
 
 

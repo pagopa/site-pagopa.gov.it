@@ -3,7 +3,7 @@ function loadJSON(callback) {
     xobj.overrideMimeType("application/json");
     xobj.open(
       "GET",
-      "https://publicdashboard.blob.core.windows.net/public/dashboard-data.json",
+      "https://pdnd-prod-dl-1-public-data.s3.eu-central-1.amazonaws.com/dashboard/pagopa/dashboard-data.json",
       true
     ); // Replace 'my_data' with the path to your file
     xobj.onreadystatechange = function () {
@@ -24,7 +24,7 @@ function loadJSON(callback) {
     // Parse JSON string into object
     var dashboardData = JSON.parse(response);
   
-    var generatedByMonths = generateByMonthData(dashboardData.byMonth);
+    var generatedByMonths = generateByMonthDataPosAndNeg([dashboardData.byMonthPos,dashboardData.byMonthNeg ]);
   
     // By Month chart transactions
     var byMonth = document.getElementById("byMonth");
@@ -53,7 +53,7 @@ function loadJSON(callback) {
             xAxes: [
               {
                 gridLines: {
-                  display: false,
+                  display: true,
                 },
                 ticks: {
                   fontSize: 15,
@@ -68,7 +68,7 @@ function loadJSON(callback) {
                 //    drawBorder: false,
                 //  },
                 gridLines: {
-                  display: false,
+                  display: true,
                 },
                 ticks: {
                   display: false,
@@ -106,9 +106,9 @@ function loadJSON(callback) {
           scales: {
             xAxes: [
               {
-                gridLines: {
-                  display: false,
-                },
+              //  gridLines: {
+              //    display: false,
+              //  },
                 ticks: {
                   fontSize: 15,
                   fontColor: "#19191a",
@@ -118,14 +118,11 @@ function loadJSON(callback) {
             ],
             yAxes: [
               {
-                //  gridLines: {
-                //    drawBorder: false,
-                //  },
-                gridLines: {
-                  display: false,
-                },
+              //  gridLines: {
+              //    display: false,
+              //  },
                 ticks: {
-                  display: false,
+                  display: true,
                   //  beginAtZero: true,
                   fontSize: 15,
                   fontColor: "#19191a",
@@ -166,9 +163,9 @@ function loadJSON(callback) {
           scales: {
             xAxes: [
               {
-                gridLines: {
-                  display: false,
-                },
+           //     gridLines: {
+           //       display: false,
+           //     },
                 ticks: {
                   fontSize: 15,
                   fontColor: "#19191a",
@@ -178,14 +175,11 @@ function loadJSON(callback) {
             ],
             yAxes: [
               {
-                //  gridLines: {
-                //    drawBorder: false,
-                //  },
-                gridLines: {
-                  display: false,
-                },
+             //   gridLines: {
+             //     display: false,
+             //   },
                 ticks: {
-                  display: false,
+                  display: true,
                   //  beginAtZero: true,
                   fontSize: 15,
                   fontColor: "#19191a",
@@ -247,7 +241,7 @@ function loadJSON(callback) {
           xAxes: [
             {
               gridLines: {
-                display: false,
+                display: true,
               },
               ticks: {
                 fontSize: 15,
@@ -262,7 +256,7 @@ function loadJSON(callback) {
               //    drawBorder: false,
               //  },
               gridLines: {
-                display: false,
+                display: true,
               },
               ticks: {
                 display: false,
@@ -281,7 +275,7 @@ function loadJSON(callback) {
   
     function sixMonthPredictionTotal(forecastByMonth) {
       return forecastByMonth
-        .map((element) => Math.round(element.yhat_upper))
+        .map((element) => Math.round(element.yhat))
         .reduce((a, b) => a + b, 0);
       // .toLocaleString();
     }
@@ -293,19 +287,22 @@ function loadJSON(callback) {
       var tPred = sixMonthPredictionTotal(dashboardData.forecastByMonth);
       var predImporto = Math.round((e2020 / t2020) * tPred);
       var eTotal = eUntil31122019 + e2020;
+      var t2021 = dashboardData.transactions2021[0].total;
+      var e2021 = Math.round(dashboardData.transactions2021[0].importo / 100);
+
   
       $("#2019t").text(
-        "# " + dashboardData.transactions2019[0].total.toLocaleString("en")
+        "  " + dashboardData.transactions2019[0].total.toLocaleString("it")
       );
-      $("#2020t").text("# " + t2020.toLocaleString());
-      $("#2020e").text("€ " + e2020.toLocaleString());
-      $("#totalt").text("# " + dashboardData.totalInHistory.toLocaleString());
+      $("#2020t").text("  " + t2020.toLocaleString("it"));
+      $("#2020e").text("€ " + e2020.toLocaleString("it"));
+      $("#totalt").text("  " + dashboardData.totalInHistory.toLocaleString("it"));
       $("#growthRate").text(Math.round(dashboardData.growthRate) + " %");
-      $("#predTotal").text("# " + (tPred + t2020).toLocaleString());
-      $("#predEuro").text("€ " + (predImporto + e2020).toLocaleString());
+      $("#predTotal").text("  " + (tPred + t2021).toLocaleString("it"));
+      $("#predEuro").text("€ " + (predImporto + e2021).toLocaleString("it"));
       
-      $("#eTotal").text("€ " + eTotal.toLocaleString());
-  
+      $("#eTotal").text("€ " + eTotal.toLocaleString("it"));
+
     });
   });
   

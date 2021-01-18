@@ -1,29 +1,30 @@
 ---
 ---
+
 .it-header-wrapper {
   .it-header-slim-wrapper {
     .navbar.navbar-institutional {
       background-color: transparent;
 
       .navbar-brand {
-        font-size: .778em;
+        font-size: 0.778em;
         font-weight: 400;
       }
 
       .navbar-nav {
         .nav-item {
-          padding: .5rem 0;
+          padding: 0.5rem 0;
 
           .nav-link {
             color: #06c;
             font-size: 14px;
             font-weight: 300;
-            padding: 0 .75rem;
+            padding: 0 0.75rem;
           }
 
           &:hover {
             @media (min-width: 992px) {
-              box-shadow: 0 .25rem 0 0 #06c;
+              box-shadow: 0 0.25rem 0 0 #06c;
             }
           }
 
@@ -32,7 +33,6 @@
               border-right: 1px solid #06c;
             }
           }
-
         }
       }
     }
@@ -57,7 +57,7 @@
       a.nav-link {
         @media (min-width: 992px) {
           padding: 12px;
-          font-size: .888rem;
+          font-size: 0.888rem;
         }
         @media (min-width: 1200px) {
           padding: 12px 24px;
@@ -87,7 +87,7 @@
 }
 
 #jobsarchive-collapse {
-  &[aria-expanded='false'] {
+  &[aria-expanded="false"] {
     .seeall {
       display: inline;
     }
@@ -95,7 +95,7 @@
       display: none;
     }
   }
-  &[aria-expanded='true'] {
+  &[aria-expanded="true"] {
     .seeall {
       display: none;
     }
@@ -117,6 +117,79 @@
   font-size: 16px;
 }
 
+body.page--partner-qualificati {
+  .filterPartner {
+    max-height: 65vh;
+    overflow-y: scroll;
 
+    .form-check {
+      label {
+        font-size: 0.9rem;
+        margin-bottom: 0;
+      }
+    }
+  }
 
+  .partner-unselected {
+    opacity: 0.3;
+    button {
+      pointer-events: none;
+    }
+  }
+}
 
+.link-list {
+  .dummy {
+    a {
+      font-weight: 500;
+      pointer-events: none;
+      font-size: 0.76em;
+      @media (min-width: 992px) {
+        color: rgba(255, 255, 255, 0.7);
+      }
+    }
+  }
+  .sub {
+    @media (min-width: 992px) {
+      padding-left: 0.5rem;
+    }
+  }
+}
+
+.it-hero-wrapper .it-hero-text-wrapper {
+  @media (min-width: 768px) {
+    padding: 48px 34px;
+  }
+  @media (min-width: 992px) {
+    padding: 48px 40% 48px 34px;
+  }
+}
+
+.logopagopaspa {
+  width: 130px;
+  @media (min-width: 992px) {
+    width: 250px;
+  }
+}
+.logo-pagopa-circuito {
+  width: 130px;
+  margin-right: 16px;
+}
+
+.vertical {
+  padding: 0;
+  height: 10px;
+  margin-left: 12px;
+
+  @media (min-width: 992px) {
+    border-left: 1px solid #ccc;
+    border-left-width: 1px;
+    height: 75px;
+    padding: 8px;
+    margin-left: 22px;
+  }
+}
+
+.cookiebar.show.notnow {
+  display: none !important;
+}

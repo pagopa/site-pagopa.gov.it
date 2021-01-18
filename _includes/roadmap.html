@@ -1,21 +1,43 @@
-{% assign roadmap = site.data.roadmap[page.lang] %}
+{% assign roadmap = site.data.roadmap[page.lang] | sort: 'date' %}
+<div class="text-center">
+  <span class="mr-2">Filtra la roadmap per:</span>
+  <div class="btn-group mt-2 mt-md-0" role="group" aria-label="Filtra">
+    <button type="button" class="btn btn-sm btn-secondary active"
+      data-timeline-filter="">Tutti</button>
+    <button type="button" class="btn btn-sm btn-secondary"
+      data-timeline-filter="prodotto">Prodotto</button>
+    <button type="button" class="btn btn-sm btn-secondary"
+      data-timeline-filter="servizio">Servizio</button>
+    <button type="button" class="btn btn-sm btn-secondary"
+      data-timeline-filter="next">Futuro</button>
+  </div>
+</div>
+
 <div class="it-timeline-wrapper my-5">
   <div class="row">
     {% for entry in roadmap %}
     <div class="col-12">
-      <div class="timeline-element">
-        <div class="it-pin-wrapper it-evidence">
+      <div class="timeline-element" data-timeline-{{ entry.category }}>
+        <div class="it-pin-wrapper " data-timeline="{{ entry.date }}">
           <div class="pin-icon">
             <svg class="icon">
+              {% if entry.category=='Prodotto' %}
               <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-code-circle"></use>
+              {% else %}
+              <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-star-outline"></use>
+              {% endif %}
             </svg>
           </div>
-          <div class="pin-text"><span>{{ entry.date }}</span></div>
+          <div class="pin-text"><span>{{ entry.date | slice: 4, 1 }} TRIM. {{ entry.date | slice: 0, 4 }}</span></div>
         </div>
         <div class="card-wrapper">
           <div class="card">
             <div class="card-body">
-              <p class="card-text">{{ entry.title }}</p>
+              <div class="category-top">
+                <span class="category" >{{entry.category}}</span>
+              </div>
+              <h5 class="card-title big-heading">{{entry.title}}</h5>
+              <p class="card-text">{{entry.description}}</p>
             </div>
           </div>
         </div>

@@ -1,11 +1,17 @@
-{% assign posts = site.posts | where: "lang", page.lang %}
+{% if include.dir %}
+  {% comment %}Lista tutte le pagine include nella dir passata tranne se stessa {%endcomment%}
+  {% assign pages = site.pages | where_exp: "item", "item.dir contains include.dir" | sort: 'date' | reverse %}
+  {% assign posts = pages | where_exp: "item", "item.dir!=include.dir" %}
+{% else %}
+  {% assign posts = site.posts | where: "lang", page.lang %}
+{% endif %}
 
 <div class="container my-4">
   <div class="row">
     {% for post in posts %}
     <div class="col-12 col-lg-6">
       <div class="card-wrapper">
-        <div class="card">
+        <div class="card ">
           <div class="card-body">
             <div class="head-tags">
               <div class="d-flex justify-content-between w-100">
@@ -13,12 +19,14 @@
                 <div><span class="data">{% include date.html date=post.date %}</span></div>
               </div>
             </div>
-            <h5 class="card-title big-heading">{{ post.title }}</h5>
+            <h5 class="card-title big-heading ">
+              <a href="{{ site.baseurl }}{{ post.url }}" class="text-primary">{{ post.title }}
+              </a>
+            </h5>
             <h6 class="card-subtitle">{% for category in post.categories %}{{ category }} {% endfor %}</h6>
-            <p class="card-text">{{ post.excerpt }}</p>
-            <span class="card-signature">{{ post.author }}</span>
+            <p class="card-text mt-2 mt-md-5">{{ post.excerpt }}</p>
             <a class="read-more" href="{{ site.baseurl }}{{ post.url }}">
-              <span class="text">Leggi di più</span>
+              <span class="text">Leggi tutto</span>
               <svg class="icon">
                 <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
               </svg>
@@ -28,5 +36,6 @@
       </div>
     </div>
     {% endfor %}
+    
   </div>
 </div>

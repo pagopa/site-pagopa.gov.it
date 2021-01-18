@@ -1,21 +1,26 @@
 ---
 layout: default
 ---
+<style>
+  .card .card-body li {
+    font-size: .88889rem;
+    line-height: 1.33333rem;
+    font-family: Lora,Georgia,serif;
+    font-size: .875rem;
+    line-height: 1.2rem;
+    color: #435a70;
+  }
 
 
-
-<div class="container my-2">
-  <nav class="breadcrumb-container" aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="/">Home</a><span class="separator">&gt;</span></li>
-      <li class="breadcrumb-item"><a href="/news">News</a><span class="separator">&gt;</span></li>
-      <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
-    </ol>
-  </nav>
+</style>
+<div class="{% if page.layout_extra == nil %}container{%endif%} my-2">
+  {%- include breadcrumbs.html -%}
 </div>
+
+{% assign section = breadcrumbs[0] | default: page %}
 <article class="container my-5">
   <div class="row">
-    <div class="col-12 col-lg-8 offset-2">
+    <div class="col-12 col-lg-8 offset-lg-2">
       <!--start card-->
       <div class="card-wrapper card-space">
         <div class="card card-bg card-big border-bottom-card">
@@ -24,11 +29,18 @@ layout: default
             <svg class="icon">
               <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-calendar"></use>
             </svg>
-            <span>Scritto il {% include date.html date=page.date %}</span>
+            <span>{% include date.html date=page.date %}</span>
           </div>
           <div class="card-body">
             <h5 class="card-title">{{ page.title }}</h5>
             <p class="card-text">{{ content }}</p>
+            {% if page.attachment %}
+            <div class="mt-2">
+              {% for att in page.attachment %}
+                <a href="{{att.url}}" title="Allegato" class="btn btn-sm btn-outline-primary mr-1 mb-1 d-block d-md-inline-block">{{att.label | defulat: "Allegato"}}</a>
+              {%endfor%}
+          </div>
+            {% endif %}
           </div>
         </div>
       </div>

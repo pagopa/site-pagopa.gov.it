@@ -5,7 +5,8 @@ Le pagine che vengono incluse in questo menù sono un sottoinsieme di tutte le p
 - hanno l'attributo "child_of_ref" non valorizzato (è un sottomenu)
 {% endcomment %}
 
-{% assign current_lang_menu_pages = site.pages | where: "lang", page.lang | where_exp: "page", "page.order != nil" | where_exp: "page", "page.child_of_ref == nil" | sort: "order" %}
+{% assign current_lang_menu_pages = site.pages | where: "lang", page.lang | where_exp: "page", "page.order != nil" | where_exp: "page", "page.child_of_ref == nil" | sort: "order"  %}
+
 <div class="it-nav-wrapper">
   <div class="it-header-center-wrapper theme-light">
     <div class="container">
@@ -13,12 +14,10 @@ Le pagine che vengono incluse in questo menù sono un sottoinsieme di tutte le p
         <div class="col-12">
           <div class="it-header-center-content-wrapper">
             <div class="it-brand-wrapper">
-              <a href="/">
-                <img class="icon" src="{{ site.baseurl }}{{ site.data.t.icon }}" alt="{{ site.name }} logo">
-                <div class="it-brand-text">
-                  <h2 class="no_toc">{{ site.data.t.name[page.lang] }}</h2>
-                  <h3 class="no_toc d-none d-md-block">{{ site.data.t.description[page.lang] }}</h3>
-                </div>
+              <a href="/" class="d-flex">
+                <img class="logopagopaspa" src="{{ site.baseurl }}/assets/images/logo-pagopa-spa.svg" alt="{{ site.name }} logo">
+                <div class="vertical"></div>
+                <img class="icon" src="{{ site.baseurl }}/assets/images/pagopa-logo.png" alt="{{ site.name }} logo">
               </a>
             </div>
             <div class="it-right-zone flex-column">
@@ -93,7 +92,7 @@ Le pagine che vengono incluse in questo menù sono un sottoinsieme di tutte le p
                   - hanno l'attributo "child_of_ref" uguale a `menu_page.ref` attuale (sono quindi figlie di
                   `menu_page`)
                   {% endcomment %}
-                  {% assign current_lang_menu_child_pages = site.pages | where: "lang", page.lang | where_exp: "page", "page.order != nil" | where: "child_of_ref", menu_page.ref | sort: "order"%}
+                  {% assign current_lang_menu_child_pages = site.pages | where: "lang", page.lang | where_exp: "page", "page.order != nil" | where: "child_of_ref", menu_page.ref | sort: "order" | group_by: "child_of_submenu" %}
                   {% if current_lang_menu_child_pages.size == 0 %}
                   <li class="nav-item">
                     <a class="nav-link" href="{{ site.baseurl }}{{menu_page.url}}"><span>{{menu_page.title}}</span></a>
@@ -114,9 +113,14 @@ Le pagine che vengono incluse in questo menù sono un sottoinsieme di tutte le p
                               href="{{ site.baseurl }}{{menu_page.url}}"><span>{{menu_page.title}}</span></a></li>
                           <li><span class="divider"></span></li>
                           {% for menu_child_page in current_lang_menu_child_pages %}
-                          <li><a class="list-item"
-                              href="{{ site.baseurl }}{{menu_child_page.url}}"><span>{{menu_child_page.title}}</span></a>
-                          </li>
+                            {% if menu_child_page.name != '' %}
+                              <li class="dummy"><a class="list-item">{{menu_child_page.name}}</a></li>
+                            {% endif %}
+                            {% for menu_child_page_item in menu_child_page.items %}
+                              <li class="{% if menu_child_page.name != '' %}sub{%endif%}"><a class="list-item"
+                                  href="{{ site.baseurl }}{{menu_child_page_item.url}}"><span>{{menu_child_page_item.title}}</span></a>
+                              </li>
+                            {% endfor %}
                           {% endfor %}
                         </ul>
                       </div>
