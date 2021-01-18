@@ -10,7 +10,7 @@ pec_cv: false
 iframeheight: 2300
 is_new: true
 metadata:
-    apertura: 18/01/2020
+    apertura: 18/01/2021
     chiusura: 31/03/2021
 ---
 
