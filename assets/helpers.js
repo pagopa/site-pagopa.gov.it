@@ -22,11 +22,11 @@ var PSPBGCOLORS = [
   "rgb(223, 159, 223)",
 ];
 var PSPBGCOLORS2019 = [
-  "rgb(77, 184, 255, 0.5)",
-  "rgb(230, 179, 255, 0.5)",
-  "rgb(255, 255, 102, 0.5)",
-  "rgb(128, 255, 170, 0.5)",
-  "rgb(223, 159, 223, 0.5)",
+  "rgba(77, 184, 255, 0.5)",
+  "rgba(230, 179, 255, 0.5)",
+  "rgba(255, 255, 102, 0.5)",
+  "rgba(128, 255, 170, 0.5)",
+  "rgba(223, 159, 223, 0.5)",
 ];
 var PSPBGCOLORS2021 = [
   "rgb(77, 184, 255)",
@@ -45,22 +45,22 @@ var ECDBGCOLORS = [
   "rgb(77, 255, 255)",
 ];
 var ECDBGCOLORS2019 = [
-  "rgb(77, 210, 255, 0.5)",
-  "rgb(179, 179, 230, 0.5)",
-  "rgb(255, 204, 128, 0.5)",
-  "rgb(70, 210, 70, 0.5)",
-  "rgb(77, 255, 255, 0.5)",
+  "rgba(77, 210, 255, 0.5)",
+  "rgba(179, 179, 230, 0.5)",
+  "rgba(255, 204, 128, 0.5)",
+  "rgba(70, 210, 70, 0.5)",
+  "rgba(77, 255, 255, 0.5)",
 ];
 var ECDBGCOLORS2021 = [
-  "rgb(77, 210, 255, 0.5)",
-  "rgb(179, 179, 230, 0.5)",
-  "rgb(255, 204, 128, 0.5)",
-  "rgb(70, 210, 70, 0.5)",
-  "rgb(77, 255, 255, 0.5)",
+  "rgba(77, 210, 255, 0.5)",
+  "rgba(179, 179, 230, 0.5)",
+  "rgba(255, 204, 128, 0.5)",
+  "rgba(70, 210, 70, 0.5)",
+  "rgba(77, 255, 255, 0.5)",
 ];
 
 
-var COLORS = ["rgb(51, 102, 255, 0.5)", "rgb(153, 51, 255, 0.5)", "rgb(153, 51, 255, 0.5)"];
+var COLORS = ["rgba(51, 102, 255, 0.5)", "rgba(153, 51, 255, 0.5)", "rgba(153, 51, 255, 0.5)"];
 
 var BORDERCOLORS = ["rgb(51, 102, 255)", "rgb(153, 51, 255)", "black"];
 
@@ -102,7 +102,7 @@ function generateByMonthDataPosAndNeg(PosNegArray) {
 
   var pos = generate(PosNegArray[0], 
     "Positive", 
-    ["rgb(51, 102, 255, 0.5)", "rgb(153, 51, 255, 0.5)", "rgb(0,255,0, 0.5)"],
+    ["rgba(51, 102, 255, 0.5)", "rgba(153, 51, 255, 0.5)", "rgba(0,255,0, 0.5)"],
     ["rgb(51, 102, 255)", "rgb(153, 51, 255)", "rgb(0,255,0)"],
     "positive" )
   var neg = generate(PosNegArray[1], 
@@ -287,21 +287,21 @@ function generatePredData(dashboardData) {
         label: "# Transazioni",
         data: cumTotals,
         borderWidth: 1,
-        backgroundColor: "rgb(0, 115, 230, 0.2)",
+        backgroundColor: "rgba(0, 115, 230, 0.2)",
         borderColor: "rgb(0, 115, 230)",
       },
       {
         label: "# Stime ottimistiche",
         data: yUpperTotals,
         borderWidth: 1,
-        backgroundColor: "rgb(230, 255, 245, 0.2)",
+        backgroundColor: "rgba(230, 255, 245, 0.2)",
         borderColor: "rgb(77, 255, 184)",
       },
       {
         label: "# Stime pessimistiche",
         data: yLowerTotals,
         borderWidth: 1,
-        backgroundColor: "rgb(230, 255, 245, 0.8)",
+        backgroundColor: "rgba(230, 255, 245, 0.8)",
         borderColor: "rgb(77, 255, 184)",
       },
     ],
