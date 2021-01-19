@@ -21,6 +21,31 @@ function loadJSON(callback) {
   
   //function init() {
   loadJSON(function (response) {
+    // Common options
+    var axisHidden = {
+      drawBorder: false,
+      gridLines: {
+        drawBorder: false,
+        drawTicks: false
+      },
+      ticks: {
+        display: false,
+        maxTicksLimit: 5
+      },
+    };
+
+    var axisVisible = {
+      gridLines: {
+        drawBorder: false,
+        zeroLineWidth: 0,
+      },
+      ticks: {
+        fontSize: 15,
+        fontColor: "#19191a",
+        fontFamily: "'Titillium Web', Arial",
+      },
+    };
+
     // Parse JSON string into object
     var dashboardData = JSON.parse(response);
   
@@ -50,39 +75,9 @@ function loadJSON(callback) {
         },
         options: {
           scales: {
-            xAxes: [
-              {
-                gridLines: {
-                  display: true,
-                },
-                ticks: {
-                  fontSize: 15,
-                  fontColor: "#19191a",
-                  fontFamily: "'Titillium Web', Arial",
-                },
-              },
-            ],
-            yAxes: [
-              {
-                //  gridLines: {
-                //    drawBorder: false,
-                //  },
-                gridLines: {
-                  display: true,
-                },
-                ticks: {
-                  display: false,
-                  //  beginAtZero: true,
-                  fontSize: 15,
-                  fontColor: "#19191a",
-                  fontFamily: "'Titillium Web', Arial",
-                  maxTicksLimit: 5,
-                  //   padding: 25,
-                },
-              },
-            ],
+            xAxes: [axisVisible],
+            yAxes: [axisHidden],
           },
-          //  scales: { yAxes: [{ ticks: { beginAtZero: true } }] },
         },
       });
     }
@@ -104,34 +99,8 @@ function loadJSON(callback) {
             text: "5 enti creditori con più transazioni per anno ",
           },
           scales: {
-            xAxes: [
-              {
-              //  gridLines: {
-              //    display: false,
-              //  },
-                ticks: {
-                  fontSize: 15,
-                  fontColor: "#19191a",
-                  fontFamily: "'Titillium Web', Arial",
-                },
-              },
-            ],
-            yAxes: [
-              {
-              //  gridLines: {
-              //    display: false,
-              //  },
-                ticks: {
-                  display: true,
-                  //  beginAtZero: true,
-                  fontSize: 15,
-                  fontColor: "#19191a",
-                  fontFamily: "'Titillium Web', Arial",
-                  maxTicksLimit: 5,
-                  //   padding: 25,
-                },
-              },
-            ],
+            xAxes: [axisHidden],
+            yAxes: [axisVisible],
           },
         },
       });
@@ -161,34 +130,8 @@ function loadJSON(callback) {
             text: "5 Psp con più transazioni per anno ",
           },
           scales: {
-            xAxes: [
-              {
-           //     gridLines: {
-           //       display: false,
-           //     },
-                ticks: {
-                  fontSize: 15,
-                  fontColor: "#19191a",
-                  fontFamily: "'Titillium Web', Arial",
-                },
-              },
-            ],
-            yAxes: [
-              {
-             //   gridLines: {
-             //     display: false,
-             //   },
-                ticks: {
-                  display: true,
-                  //  beginAtZero: true,
-                  fontSize: 15,
-                  fontColor: "#19191a",
-                  fontFamily: "'Titillium Web', Arial",
-                  maxTicksLimit: 5,
-                  //   padding: 25,
-                },
-              },
-            ],
+            xAxes: [axisHidden],
+            yAxes: [axisVisible],
           },
         },
       });
@@ -231,37 +174,14 @@ function loadJSON(callback) {
           text: "10 Psp con più transazioni ",
         },
         scales: {
-          xAxes: [
-            {
-              gridLines: {
-                display: true,
-              },
-              ticks: {
-                fontSize: 15,
-                fontColor: "#19191a",
-                fontFamily: "'Titillium Web', Arial",
-              },
-            },
-          ],
-          yAxes: [
-            {
-              //  gridLines: {
-              //    drawBorder: false,
-              //  },
-              gridLines: {
-                display: true,
-              },
-              ticks: {
-                display: false,
-                //  beginAtZero: true,
-                fontSize: 15,
-                fontColor: "#19191a",
-                fontFamily: "'Titillium Web', Arial",
-                maxTicksLimit: 5,
-                //   padding: 25,
-              },
-            },
-          ],
+          xAxes: [Object.assign(axisVisible, {
+            type: 'time',
+            time: {
+              stepSize: 3,
+              unit: 'month'
+            }
+          })],
+          yAxes: [axisHidden]
         },
       },
     });
