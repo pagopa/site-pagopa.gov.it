@@ -13,7 +13,14 @@ String.prototype.toRGB = function () {
   return `rgb(${rgb[0]}, ${rgb[1]}, ${rgb[2]})`;
 };
 
-//
+var GRADIENT_COLORS = [
+  "#0BD9D3",
+  "#15c5f8",
+  "rgb(0, 115, 230)",
+  "#2d489d",
+  "#00264D"
+];
+
 var PSPBGCOLORS = [
   "rgb(77, 184, 255)",
   "rgb(230, 179, 255)",
@@ -286,23 +293,26 @@ function generatePredData(dashboardData) {
       {
         label: "# Transazioni",
         data: cumTotals,
-        borderWidth: 1,
-        backgroundColor: "rgba(0, 115, 230, 0.2)",
-        borderColor: "rgb(0, 115, 230)",
-      },
-      {
-        label: "# Stime ottimistiche",
-        data: yUpperTotals,
-        borderWidth: 1,
-        backgroundColor: "rgba(230, 255, 245, 0.2)",
-        borderColor: "rgb(77, 255, 184)",
+        borderWidth: 3,
+        pointBorderWidth: 2,
+        backgroundColor: "#fff",
+        borderColor: GRADIENT_COLORS[2],
       },
       {
         label: "# Stime pessimistiche",
         data: yLowerTotals,
-        borderWidth: 1,
-        backgroundColor: "rgba(230, 255, 245, 0.8)",
-        borderColor: "rgb(77, 255, 184)",
+        borderWidth: 3,
+        pointBorderWidth: 2,
+        backgroundColor: "#fff",
+        borderColor: GRADIENT_COLORS[0]
+      },
+      {
+        label: "# Stime ottimistiche",
+        data: yUpperTotals,
+        borderWidth: 3,
+        pointBorderWidth: 2,
+        backgroundColor: GRADIENT_COLORS[0],
+        borderColor: GRADIENT_COLORS[0],
       },
     ],
   };
