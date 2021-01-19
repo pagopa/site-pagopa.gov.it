@@ -27,56 +27,6 @@ var POS_NEG_COLOR_RANGE = [
   GRADIENT_COLORS[3]
 ]
 
-var PSPBGCOLORS = [
-  "rgb(77, 184, 255)",
-  "rgb(230, 179, 255)",
-  "rgb(255, 255, 102",
-  "rgb(128, 255, 170)",
-  "rgb(223, 159, 223)",
-];
-var PSPBGCOLORS2019 = [
-  "rgba(77, 184, 255, 0.5)",
-  "rgba(230, 179, 255, 0.5)",
-  "rgba(255, 255, 102, 0.5)",
-  "rgba(128, 255, 170, 0.5)",
-  "rgba(223, 159, 223, 0.5)",
-];
-var PSPBGCOLORS2021 = [
-  "rgb(77, 184, 255)",
-  "rgb(230, 179, 255)",
-  "rgb(255, 255, 102",
-  "rgb(128, 255, 170)",
-  "rgb(223, 159, 223)",
-];
-
-
-var ECDBGCOLORS = [
-  "rgb(77, 210, 255)",
-  "rgb(179, 179, 230)",
-  "rgb(255, 204, 128)",
-  "rgb(70, 210, 70)",
-  "rgb(77, 255, 255)",
-];
-var ECDBGCOLORS2019 = [
-  "rgba(77, 210, 255, 0.5)",
-  "rgba(179, 179, 230, 0.5)",
-  "rgba(255, 204, 128, 0.5)",
-  "rgba(70, 210, 70, 0.5)",
-  "rgba(77, 255, 255, 0.5)",
-];
-var ECDBGCOLORS2021 = [
-  "rgba(77, 210, 255, 0.5)",
-  "rgba(179, 179, 230, 0.5)",
-  "rgba(255, 204, 128, 0.5)",
-  "rgba(70, 210, 70, 0.5)",
-  "rgba(77, 255, 255, 0.5)",
-];
-
-
-var COLORS = ["rgba(51, 102, 255, 0.5)", "rgba(153, 51, 255, 0.5)", "rgba(153, 51, 255, 0.5)"];
-
-var BORDERCOLORS = ["rgb(51, 102, 255)", "rgb(153, 51, 255)", "black"];
-
 // @parameter array byMonthPos and byMonthNeg form dashboard-data.json
 // Prepare data for byMonth chart
 function generateByMonthDataPosAndNeg(PosNegArray) {
@@ -156,15 +106,6 @@ function generateTop(topEdcs, key) {
     y2020.push(psp2021 ? psp2021.total : null);
   });
 
-  var colors = ECDBGCOLORS;
-  var colors2019 = ECDBGCOLORS2019;
-  var colors2021 = ECDBGCOLORS2021;
-  if (key === "PSP") {
-    colors = PSPBGCOLORS;
-    colors2019 = PSPBGCOLORS2019;
-    colors2021 = PSPBGCOLORS2021
-  }
-
   uniqueKeys = uniqueKeys.map(function (item) {
     if (item == "AgID") {
       return "MyBank";
@@ -183,23 +124,17 @@ function generateTop(topEdcs, key) {
     datasets: [
       {
         label: "2019",
-        backgroundColor: colors2019,
-        borderColor: "#ccc",
-        borderWidth: 1,
+        backgroundColor: GRADIENT_COLORS[0],
         data: y2019,
       },
       {
         label: "2020",
-        backgroundColor: colors,
-        borderColor: "#ccc",
-        borderWidth: 1,
+        backgroundColor: GRADIENT_COLORS[2],
         data: y2020,
       },
       {
         label: "2021",
-        backgroundColor: colors2021,
-        borderColor: "#ccc",
-        borderWidth: 1,
+        backgroundColor: GRADIENT_COLORS[4],
         data: y2021,
       }
     ],
