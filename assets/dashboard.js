@@ -275,7 +275,7 @@ function loadJSON(callback) {
   
     function sixMonthPredictionTotal(forecastByMonth) {
       return forecastByMonth
-        .map((element) => Math.round(element.yhat))
+        .map((element) => Math.round(element.yhat_upper))
         .reduce((a, b) => a + b, 0);
       // .toLocaleString();
     }
