@@ -21,6 +21,12 @@ var GRADIENT_COLORS = [
   "#00264D"
 ];
 
+var POS_NEG_COLOR_RANGE = [
+  GRADIENT_COLORS[1],
+  GRADIENT_COLORS[2],
+  GRADIENT_COLORS[3]
+]
+
 var PSPBGCOLORS = [
   "rgb(77, 184, 255)",
   "rgb(230, 179, 255)",
@@ -98,24 +104,23 @@ function generateByMonthDataPosAndNeg(PosNegArray) {
       return {
         label: label + " " + key,
         data: data[key],
-        // fill: false,
         backgroundColor: colors[idx],
         borderColor: borderColors[idx],
-        borderWidth: 1,
+        borderWidth: 2,
         stack: key,
       };
     });
   }
 
-  var pos = generate(PosNegArray[0], 
-    "Positive", 
-    ["rgba(51, 102, 255, 0.5)", "rgba(153, 51, 255, 0.5)", "rgba(0,255,0, 0.5)"],
-    ["rgb(51, 102, 255)", "rgb(153, 51, 255)", "rgb(0,255,0)"],
+  var pos = generate(PosNegArray[0],
+    "Positive",
+    POS_NEG_COLOR_RANGE,
+    POS_NEG_COLOR_RANGE,
     "positive" )
-  var neg = generate(PosNegArray[1], 
+  var neg = generate(PosNegArray[1],
     "Negative",
-    ["rgb(51, 102, 255)", "rgb(153, 51, 255)", "rgb(34,139,34)"],
-    ["rgb(51, 102, 255)", "rgb(153, 51, 255)", "rgb(34,139,34)"])
+    ["#fff", "#fff", "#fff"],
+    POS_NEG_COLOR_RANGE)
 
   return pos.concat(neg)
 }
