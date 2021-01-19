@@ -229,13 +229,16 @@ function generateTopForPie(keysTotalsDates, key) {
     return keysTotal[item];
   });
 
-  var colors = ECDBGCOLORS;
-  if (key === "PSP") {
-    colors = PSPBGCOLORS;
-  }
+  var colors = GRADIENT_COLORS;
 
   uniqueKeys = uniqueKeys.map(function (item) {
-    return item == "AgID" ? "MyBank" : item;
+    if (item == "AgID") {
+      return "MyBank";
+    } else if (item.startsWith("Istituto Nazionale")) {
+      return "INPS";
+    } else {
+      return item;
+    }
   });
 
   return {
@@ -244,13 +247,6 @@ function generateTopForPie(keysTotalsDates, key) {
       {
         data: dataPoint,
         backgroundColor: colors,
-        hoverBackgroundColor: [
-          "#FF5A5E",
-          "#5AD3D1",
-          "#FFC870",
-          "#A8B3C5",
-          "#616774",
-        ],
       },
     ],
   };
