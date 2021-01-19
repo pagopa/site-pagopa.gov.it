@@ -8,10 +8,12 @@ child_of_ref: lavora-con-noi
 jazz_url: https://pagopa.applytojob.com/apply/VB3ChncwFO/Senior-Service-Designer
 pec_cv: false
 iframeheight: 2000
-is_new: true
+is_new: false
+archived: true
 metadata:
-    apertura: 22/10/2020
-    chiusura: 30/11/2020
+  apertura: 22/10/2020
+  chiusura: 30/11/2020
+  numassunte: selezione in corso
 ---
 
 PagoPA S.p.A. è alla ricerca di un *Senior Service Designer* che, rispondendo direttamente all’**Head of Service Design**, si occupi dell'attività di progettazione dei servizi digitali del nostro portfolio, in modo che rispondano alle esigenze dei cittadini, delle amministrazioni e degli altri stakeholder coinvolti in ciascun progetto. 

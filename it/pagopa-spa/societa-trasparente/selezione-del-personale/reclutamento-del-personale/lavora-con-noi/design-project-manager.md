@@ -5,13 +5,15 @@ lang: it
 layout: job
 ref: design-project-manager
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/6mD0xhD6YS/Design-Project-Manager
+jazz_url: 
 pec_cv: false
 iframeheight: 2000
-is_new: true
+is_new: false
+archived: true
 metadata:
-    apertura: 22/10/2020
-    chiusura: 30/11/2020
+  apertura: 22/10/2020
+  chiusura: 30/11/2020
+  numassunte: selezione in corso
 ---
 
 PagoPA S.p.A. è alla ricerca di un _Design Project Manager_ da inserire nel Team di Design che, riportando al **Chief Product Owner**, si occupi di gestire le relazioni con le pubbliche amministrazioni (i principali interlocutori e intermediari coinvolti nell'erogazione dei servizi della Società  verso il cittadino), al fine di raccogliere le loro esigenze e accompagnare i singoli enti nel percorso di progettazione ed evoluzione dei servizi da veicolare attraverso piattaforme e strumenti messi a disposizione dalla Società.
