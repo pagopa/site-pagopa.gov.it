@@ -11,14 +11,14 @@ iframeheight: 2000
 is_new: true
 metadata:
     apertura: 26/10/2020
-    chiusura: 31/12/2020
+    chiusura: 31/03/2021
 ---
 
 
 PagoPA S.p.A. è alla ricerca di risorse che appartengono alla categoria di soggetti indicati all’**art.1 e dall’ art. 18 L.68/1999** e successive modifiche e  integrazioni al fine di potenziare l’organico aziendale.
 
 _Di seguito il dettaglio_:
-* N. 3 appartenenti all’art. 1 L. 68/99
+* N. 3 appartenenti all’art. 1 L. 68/99, ai quali si aggiunge un ulteriore posizione per un totlae di 4 risorse
 * N. 1 appartenente all’art. 18 L. 68/99
 Nel seguito sono indicate le Aree per le quali è possibile presentare la propria candidatura. 
 
@@ -87,6 +87,8 @@ Diploma di scuola secondaria superiore in Perito Informatico, con forte passione
 * invia il tuo CV da cui si evince l’appartenenza alla legge 68/99; 
 * **Inserisci nella lettera di motivazione la posizione per la quale ti stai candidando**
 
-entro e non oltre il **31 dicembre 2020**. Si precisa che la Società valuterà i CV dei soli candidati appartenenti alle categorie protette ai sensi dell’art.1 e art 18. L.68/1999 e successive modifiche e  integrazioni, e che valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
+entro e non oltre il **31 dicembre 2020**.**La data di presentazione delle candidature per la presente posizione è stata prorogata dal 31 dicembre 2020 al 31 marzo 2021.** 
+
+Si precisa che la Società valuterà i CV dei soli candidati appartenenti alle categorie protette ai sensi dell’art.1 e art 18. L.68/1999 e successive modifiche e  integrazioni, e che valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
 
 Se hai problemi di accessibilità a questa modalità di candidatura, scrivi al seguente indirizzo email [jobs@pagopa.it](mailto:jobs@pagopa.it) e sarà nostra cura supportarti.
