@@ -204,6 +204,8 @@ function loadJSON(callback) {
   
     $(function () {
       var eUntil31122019 = 11129053683
+      var e2019 = 8341588984;
+      var t2019 = dashboardData.transactions2019[0].total;
       var e2020 = Math.round(dashboardData.transactions2020[0].importo / 100);
       var t2020 = dashboardData.transactions2020[0].total;
       var tPred = sixMonthPredictionTotal(dashboardData.forecastByMonth);
@@ -212,10 +214,8 @@ function loadJSON(callback) {
       var t2021 = dashboardData.transactions2021[0].total;
       var e2021 = Math.round(dashboardData.transactions2021[0].importo / 100);
 
-  
-      $("#2019t").text(
-        "  " + dashboardData.transactions2019[0].total.toLocaleString("it")
-      );
+      $("#2019t").text(t2019.toLocaleString("it"));
+      $("#2019e").text("€ " + e2019.toLocaleString("it"));
       $("#2020t").text("  " + t2020.toLocaleString("it"));
       $("#2020e").text("€ " + e2020.toLocaleString("it"));
       $("#2021t").text(t2021.toLocaleString("it"));
