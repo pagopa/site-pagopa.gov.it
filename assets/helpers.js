@@ -248,7 +248,7 @@ function generatePredData(dashboardData) {
         borderWidth: 3,
         pointBorderWidth: 2,
         backgroundColor: GRADIENT_COLORS[0],
-        borderColor: GRADIENT_COLORS[0],
+        borderColor: "#f5f9fc"
       },
     ],
   };
