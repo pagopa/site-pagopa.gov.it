@@ -91,9 +91,6 @@ function loadJSON(callback) {
         data: topEdcData,
         options: {
           responsive: true,
-          legend: {
-            position: "right",
-          },
           title: {
             display: false,
             text: "5 enti creditori con più transazioni per anno ",
@@ -115,9 +112,6 @@ function loadJSON(callback) {
         data: topPspData,
         options: {
           responsive: true,
-          legend: {
-            position: "right",
-          },
           title: {
             display: false,
             text: "5 Psp con più transazioni per anno ",
