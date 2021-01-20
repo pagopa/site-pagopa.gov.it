@@ -13,6 +13,26 @@ String.prototype.toRGB = function () {
   return `rgb(${rgb[0]}, ${rgb[1]}, ${rgb[2]})`;
 };
 
+function formatNumberIntl(n) {
+  return new Intl.NumberFormat().format(n);
+}
+
+function tooltipLabelCallbackNumber(tooltipItem, data) {
+  var dataLabel = data.datasets[tooltipItem.datasetIndex].label;
+  return dataLabel + ": " + formatNumberIntl(+tooltipItem.value);
+}
+
+function tooltipLabelCallbackArcNumber(tooltipItem, data) {
+  var dataLabel = data.labels[tooltipItem.index];
+  var value = data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index];
+  var sum = data.datasets[0].data.reduce((a, b) => a + b, 0) || 1;
+  var percentage = new Intl.NumberFormat({ style: "percent", maximumFractionDigits: 0 }).format(value * 100 / sum) + "%";
+  return [
+    dataLabel + ": " + formatNumberIntl(value),
+    percentage
+  ];
+}
+
 var GRADIENT_COLORS = [
   "#0BD9D3",
   "#15c5f8",

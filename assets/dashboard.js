@@ -46,6 +46,22 @@ function loadJSON(callback) {
       },
     };
 
+    var tooltipIndex = {
+      mode: 'index',
+      intersect: false,
+      callbacks: {
+        label: tooltipLabelCallbackNumber
+      }
+    };
+
+    var tooltipArc = {
+      callbacks: {
+        mode: 'nearest',
+        intersect: false,
+        label: tooltipLabelCallbackArcNumber
+      }
+    }
+
     // Parse JSON string into object
     var dashboardData = JSON.parse(response);
   
@@ -78,6 +94,7 @@ function loadJSON(callback) {
             xAxes: [axisVisible],
             yAxes: [axisHidden],
           },
+          tooltips: tooltipIndex
         },
       });
     }
@@ -99,6 +116,7 @@ function loadJSON(callback) {
             xAxes: [axisHidden],
             yAxes: [axisVisible],
           },
+          tooltips: tooltipIndex
         },
       });
     }
@@ -120,6 +138,7 @@ function loadJSON(callback) {
             xAxes: [axisHidden],
             yAxes: [axisVisible],
           },
+          tooltips: tooltipIndex
         },
       });
     }
@@ -131,6 +150,7 @@ function loadJSON(callback) {
       data: dataForPspPie,
       options: {
         responsive: true,
+        tooltips: tooltipArc
       },
     });
   
@@ -146,6 +166,7 @@ function loadJSON(callback) {
       data: dataForEdcPie,
       options: {
         responsive: true,
+        tooltips: tooltipArc
       },
     });
   
@@ -170,6 +191,7 @@ function loadJSON(callback) {
           })],
           yAxes: [axisHidden]
         },
+        tooltips: tooltipIndex
       },
     });
   
