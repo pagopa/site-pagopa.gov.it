@@ -218,6 +218,8 @@ function loadJSON(callback) {
       );
       $("#2020t").text("  " + t2020.toLocaleString("it"));
       $("#2020e").text("€ " + e2020.toLocaleString("it"));
+      $("#2021t").text(t2021.toLocaleString("it"));
+      $("#2021e").text("€ " + e2021.toLocaleString("it"));
       $("#totalt").text("  " + dashboardData.totalInHistory.toLocaleString("it"));
       $("#growthRate").text(Math.round(dashboardData.growthRate) + " %");
       $("#predTotal").text("  " + (tPred + t2021).toLocaleString("it"));
