@@ -27,7 +27,7 @@ Le transazioni che rientrano nelle casistiche descritte sopra **non possono esse
     - Di norma, prima che un acquisto sia visualizzato sull’app IO ai fini del Cashback, **deve essere contabilizzato dalla banca**; in media, possono passare tre giorni lavorativi dalla sua contabilizzazione, ma in alcuni casi possono occorrere tempi più lunghi (ad es. se l’acquisto avviene a ridosso del weekend o durante festività).
     - In altri casi, la non visualizzazione può essere condizionata da **rallentamenti all'effettiva ricezione nel sistema Cashback delle transazioni inviate dagli Acquirer a PagoPA**. 
 
-Si tratta di tempistiche tecniche **indipendenti dall'app IO e che in nessun modo inficiano sull'eventuale diritto al rimborso**. In questi casi, le transazioni valide per il Cashback saranno sempre recuperate dal sistema. 
+Si tratta di tempistiche tecniche **indipendenti dall'app IO e che in nessun modo inficiano sull'eventuale diritto al rimborso**. In questi casi, le transazioni valide per il Cashback potranno essere recuperate dal sistema fino allo scadere dei termini per l’accredito dei rimborsi in ciascuno dei periodi in cui si articola il programma. 
 
 Proprio per la natura automatizzata del “Centro Stella dei pagamenti elettronici” alla base del programma, infatti, nell’ambito del Cashback **non possono sussistere altre cause e situazioni** di mancata acquisizione di transazioni. 
 
