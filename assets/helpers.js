@@ -14,6 +14,7 @@ String.prototype.toRGB = function () {
 };
 
 function formatNumberIntl(n) {
+  if (isNaN(n)) return '-';
   return new Intl.NumberFormat().format(n);
 }
 
