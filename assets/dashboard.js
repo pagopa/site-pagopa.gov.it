@@ -210,7 +210,7 @@ function loadJSON(callback) {
       var t2020 = dashboardData.transactions2020[0].total;
       var tPred = sixMonthPredictionTotal(dashboardData.forecastByMonth);
       var predImporto = Math.round((e2020 / t2020) * tPred);
-      var eTotal = eUntil31122019 + e2020;
+      var eTotal = eUntil31122019 + e2020 + e2021;
       var t2021 = dashboardData.transactions2021[0].total;
       var e2021 = Math.round(dashboardData.transactions2021[0].importo / 100);
 
