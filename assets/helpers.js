@@ -123,7 +123,7 @@ function generateTop(topEdcs, key) {
     });
     y2019.push(psp2019 ? psp2019.total : null);
     y2020.push(psp2020 ? psp2020.total : null);
-    y2020.push(psp2021 ? psp2021.total : null);
+    y2021.push(psp2021 ? psp2021.total : null);
   });
 
   uniqueKeys = uniqueKeys.map(function (item) {
