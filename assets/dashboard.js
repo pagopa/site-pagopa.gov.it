@@ -98,9 +98,14 @@ function loadJSON(callback) {
         },
       });
     }
-  
-    var topEdcData = generateTop(dashboardData.dEcbyAnno, "DenominazioneEc");
-  
+
+    var topEdcDataOld = dashboardData.dEcbyAnno;
+    var topEdcDataNew = dashboardData.dEcbyAnno_pd_new
+      .filter(function(d) { return d.anno === "2021" })
+      .map(function(d) { return { DenominazioneEc: d.denominazioneec, Anno: d.anno, total: d.total } });
+    var topEdcDataAll = topEdcDataOld.concat(topEdcDataNew);
+    var topEdcData = generateTop(topEdcDataAll, "DenominazioneEc");
+
     var top10Edc = document.getElementById("top10Edc");
     if (top10Edc) {
       new Chart(top10Edc, {
