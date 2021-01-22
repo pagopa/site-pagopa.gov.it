@@ -132,7 +132,7 @@ function generateTop(topEdcs, key) {
     } else if (item.startsWith("Automobile")) {
       return "ACI";
     } else if (item.startsWith("Agenzia delle")) {
-      return "ADE";
+      return "ADE - Riscossione";
     } else if (item.startsWith("Istituto Nazionale")) {
       return "INPS";
     } else {
