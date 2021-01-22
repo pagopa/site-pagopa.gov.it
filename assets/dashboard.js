@@ -185,7 +185,7 @@ function loadJSON(callback) {
           xAxes: [Object.assign(axisVisible, {
             type: 'time',
             time: {
-              stepSize: 3,
+              stepSize: 6,
               unit: 'month'
             }
           })],
