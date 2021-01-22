@@ -5,7 +5,7 @@
                 <div class="card h-100 border-0 no-after primary-color" id="card-no-border">
                     <div class="card-body text-center">
                         <h6>Totale transazioni
-                            <span tabindex="0" data-toggle="tooltip" title="Numero totale di transazioni gestite dal nodo pagoPa da quando è stato attivato nel 2016">
+                            <span tabindex="0" data-toggle="tooltip" title="Numero totale di transazioni gestite dal nodo pagoPa dalla sua attivazione.">
                                 <svg class="icon icon-sm icon-primary align-top">
                                     <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle">
                                     </use>
@@ -20,7 +20,7 @@
                 <div class="card h-100 border-0 no-after primary-color">
                     <div class="card-body text-center">
                         <h6>Importo totale
-                            <span tabindex="0" data-toggle="tooltip" title="Miliardi di euro transati dal nodo pagoPa da quando è stato attivato">
+                            <span tabindex="0" data-toggle="tooltip" title="Euro transati dal nodo pagoPa dalla sua attivazione.">
                                 <svg class="icon icon-sm icon-primary align-top">
                                     <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle">
                                     </use>
@@ -117,7 +117,7 @@
 
     <div class="card my-3 pt-4 no-after shadow border-0">
         <h5 class="card-title text-center"># Transazioni mensili</h5>
-        <div class="card-text text-center">Numero di transazioni mensili accumulate e gestite dal nodo pagoPa nel tempo</div>
+        <div class="card-text text-center">Numero di transazioni mensili cumulate e gestite dal nodo pagoPa nel tempo</div>
         <div class="card-body">
             <canvas id="totalPred"></canvas>
         </div>
@@ -135,7 +135,15 @@
         <div class="col-md-6">
             <div class="card h-100 border-0 no-after shadow pt-4">
                 <h5 class="card-title text-center"># Top 5 enti creditori</h5>
-                <div class="card-text text-center">Numero di transazioni totali</div>
+                <div class="card-text text-center">
+                    Numero di transazioni totali
+                    <span tabindex="0" data-toggle="tooltip" title="Totale di transazioni gestite dal nodo pagoPa dalla sua attivazione.">
+                        <svg class="icon icon-sm align-top">
+                            <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle">
+                            </use>
+                        </svg>
+                    </span>
+                </div>
                 <div class="card-body">
                     <canvas id="top10EdcPie"></canvas>
                 </div>
@@ -144,7 +152,15 @@
         <div class="col-md-6 mt-3 mt-md-0">
             <div class="card h-100 border-0 no-after shadow pt-4">
                 <h5 class="card-title text-center"># Top 5 PSP</h5>
-                <div class="card-text text-center">Numero di transazioni totali</div>
+                <div class="card-text text-center">
+                    Numero di transazioni totali
+                    <span tabindex="0" data-toggle="tooltip" title="Totale di transazioni gestite dal nodo pagoPa dalla sua attivazione.">
+                        <svg class="icon icon-sm align-top">
+                            <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle">
+                            </use>
+                        </svg>
+                    </span>
+                </div>
                 <div class="card-body">
                     <canvas id="top10PSPPie"></canvas>
                 </div>
