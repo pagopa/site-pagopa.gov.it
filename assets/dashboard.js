@@ -101,6 +101,10 @@ function loadJSON(callback) {
 
     var top5Sorting = dashboardData.top5_ec.map(function(d) { return d.codicefiscaleec })
     var topEdcDataAll = dashboardData.top5_ec_by_anno
+      .sort(function(a, b) {
+        // sort by overall top 5
+        return top5Sorting.indexOf(a.codicefiscaleec) - top5Sorting.indexOf(b.codicefiscaleec);
+      })
       .map(function(d) { return {
         // normalize name because data is indexed by cf
         DenominazioneEc: dashboardData.top5_ec_by_anno.find(function(o) { return d.codicefiscaleec === o.codicefiscaleec }).denominazioneec,
