@@ -62,6 +62,12 @@ function loadJSON(callback) {
       }
     }
 
+    var legendPoint = {
+      labels: {
+        usePointStyle: true
+      }
+    };
+
     // Parse JSON string into object
     var dashboardData = JSON.parse(response);
   
@@ -163,6 +169,7 @@ function loadJSON(callback) {
       data: dataForPspPie,
       options: {
         responsive: true,
+        legend: legendPoint,
         tooltips: tooltipArc
       },
     });
@@ -176,6 +183,7 @@ function loadJSON(callback) {
       data: dataForEdcPie,
       options: {
         responsive: true,
+        legend: legendPoint,
         tooltips: tooltipArc
       },
     });
@@ -201,6 +209,7 @@ function loadJSON(callback) {
           })],
           yAxes: [axisHidden]
         },
+        legend: legendPoint,
         tooltips: tooltipIndex
       },
     });
