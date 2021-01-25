@@ -19,7 +19,7 @@
             <div class="col-lg-6 mb-3">
                 <div class="card h-100 border-0 no-after primary-color">
                     <div class="card-body text-center">
-                        <h6>Importo totale
+                        <h6>Valore totale transato
                             <span tabindex="0" data-toggle="tooltip" title="Euro transati da pagoPA dal 2016.">
                                 <svg class="icon icon-sm icon-primary align-top">
                                     <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle">
@@ -68,7 +68,7 @@
                 <div class="card h-100 border-0 no-after bg-dark text-white">
                     <div class="card-body text-center">
                         <h6>Transazioni 2021
-                            <span tabindex="0" data-toggle="tooltip" title="# Numero totale di transazioni ed euro gestiti da pagoPA nell'anno 2021">
+                            <span tabindex="0" data-toggle="tooltip" title="Numero totale di transazioni ed euro gestiti da pagoPA nell'anno 2021">
                                 <svg class="icon icon-sm icon-white align-top">
                                     <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle">
                                     </use>
@@ -100,8 +100,8 @@
             <div class="col-xl-6 mb-3">
                 <div class="card h-100 border-0 no-after bg-dark text-white">
                     <div class="card-body text-center">
-                        <h6>Tasso di crescita
-                            <span tabindex="0" data-toggle="tooltip" title="Confronto numero di transazioni gestite durante il periodo Year To Date anno corrente (dal 1° gennaio ad oggi) vs YTD anno precedente">
+                        <h6>Tasso di crescita transazioni
+                            <span tabindex="0" data-toggle="tooltip" title="Confronto rispetto allo stesso periodo dell'anno precedente">
                                 <svg class="icon icon-sm icon-white align-top">
                                 <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle">
                                 </use>
@@ -154,7 +154,7 @@
                 <h5 class="card-title text-center"># Top 5 PSP</h5>
                 <div class="card-text text-center">
                     Numero di transazioni totali
-                    <span tabindex="0" data-toggle="tooltip" title="Totale delle transazioni gestite da pagoPA tramite il singolo PSP, dalla sua adesione alla piattaforma.">
+                    <span tabindex="0" data-toggle="tooltip" title="Totale delle transazioni gestite da pagoPA tramite il singolo Prestatore di Servizio di Pagamento, dalla sua adesione alla piattaforma.">
                         <svg class="icon icon-sm align-top">
                             <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle">
                             </use>
@@ -181,7 +181,15 @@
         <div class="col-md-6 mt-3 mt-md-0">
             <div class="card h-100 border-0 no-after shadow pt-4">
                 <h5 class="card-title text-center"># Confronto Top 5 PSP</h5>
-                <div class="card-text text-center">Numero di transazioni durante gli ultimi 3 anni</div>
+                <div class="card-text text-center">
+                    Numero di transazioni durante gli ultimi 3 anni
+                    <span tabindex="0" data-toggle="tooltip" title="Transazioni gestite da pagoPA tramite il singolo Prestatore di Servizio di Pagamento, dalla sua adesione alla piattaforma.">
+                        <svg class="icon icon-sm align-top">
+                            <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle">
+                            </use>
+                        </svg>
+                    </span>
+                </div>
                 <div class="card-body">
                     <canvas id="top10PSP" height="300"></canvas>
                 </div>
