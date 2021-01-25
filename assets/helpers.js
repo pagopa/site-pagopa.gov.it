@@ -42,6 +42,12 @@ var GRADIENT_COLORS = [
   "#00264D"
 ];
 
+var GRADIENT_COLORS_50 = [
+  "#8BE3FB",
+  "#73B9FF",
+  "#889CDD",
+];
+
 var POS_NEG_COLOR_RANGE = [
   GRADIENT_COLORS[1],
   GRADIENT_COLORS[2],
@@ -90,7 +96,7 @@ function generateByMonthDataPosAndNeg(PosNegArray) {
     "positive" )
   var neg = generate(PosNegArray[1],
     "Negative",
-    ["#fff", "#fff", "#fff"],
+    GRADIENT_COLORS_50,
     POS_NEG_COLOR_RANGE)
 
   return pos.concat(neg)
