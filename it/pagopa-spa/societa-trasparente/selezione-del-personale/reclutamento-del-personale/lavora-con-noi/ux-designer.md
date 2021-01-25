@@ -12,7 +12,7 @@ archived: true
 metadata:
   apertura: 02/10/2020
   chiusura: 15/11/2020
-  numricercate:1
+  numricercate: 1
   numassunte: 1
 ---
 
