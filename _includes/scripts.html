@@ -3,6 +3,10 @@
 
 <!-- Bootstrap core JS -->
 <script src="{{ site.baseurl }}/assets/vendors/jquery.min.js"></script>
+{% if page.ref == 'dashboard' %}
+    <!-- Needed for tooltip: https://italia.github.io/bootstrap-italia/docs/componenti/tooltip/ -->
+    <script src="{{ site.baseurl }}/assets/vendors/popper.min.js"></script>
+{% endif %}
 <script src="{{ site.baseurl }}/assets/bootstrap-italia/dist/js/bootstrap-italia.min.js"></script>
 
 <!-- Main JS -->
@@ -16,7 +20,9 @@
 {% if page.ref == 'dashboard' %}
     <script src="{{ site.baseurl }}/assets/vendors/Chart.bundle.js"></script>
     <script src="{{ site.baseurl }}/assets/vendors/moment.min.js"></script>
-    
+    <script src="{{ site.baseurl }}/assets/vendors/moment-locale-it.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/vendors/chartjs-adapter-moment.min.js"></script>
+
     <script src="{{ site.baseurl }}/assets/helpers.js"></script>
     <script src="{{ site.baseurl }}/assets/dashboard.js"></script>
 {% endif %}

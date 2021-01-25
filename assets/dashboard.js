@@ -21,6 +21,53 @@ function loadJSON(callback) {
   
   //function init() {
   loadJSON(function (response) {
+    // Common options
+    var axisHidden = {
+      drawBorder: false,
+      gridLines: {
+        drawBorder: false,
+        drawTicks: false
+      },
+      ticks: {
+        display: false,
+        maxTicksLimit: 5
+      },
+    };
+
+    var axisVisible = {
+      gridLines: {
+        drawBorder: false,
+        zeroLineWidth: 0,
+      },
+      ticks: {
+        fontSize: 15,
+        fontColor: "#19191a",
+        fontFamily: "'Titillium Web', Arial",
+      },
+    };
+
+    var tooltipIndex = {
+      mode: 'index',
+      intersect: false,
+      callbacks: {
+        label: tooltipLabelCallbackNumber
+      }
+    };
+
+    var tooltipArc = {
+      callbacks: {
+        mode: 'nearest',
+        intersect: false,
+        label: tooltipLabelCallbackArcNumber
+      }
+    }
+
+    var legendPoint = {
+      labels: {
+        usePointStyle: true
+      }
+    };
+
     // Parse JSON string into object
     var dashboardData = JSON.parse(response);
   
@@ -50,45 +97,29 @@ function loadJSON(callback) {
         },
         options: {
           scales: {
-            xAxes: [
-              {
-                gridLines: {
-                  display: true,
-                },
-                ticks: {
-                  fontSize: 15,
-                  fontColor: "#19191a",
-                  fontFamily: "'Titillium Web', Arial",
-                },
-              },
-            ],
-            yAxes: [
-              {
-                //  gridLines: {
-                //    drawBorder: false,
-                //  },
-                gridLines: {
-                  display: true,
-                },
-                ticks: {
-                  display: false,
-                  //  beginAtZero: true,
-                  fontSize: 15,
-                  fontColor: "#19191a",
-                  fontFamily: "'Titillium Web', Arial",
-                  maxTicksLimit: 5,
-                  //   padding: 25,
-                },
-              },
-            ],
+            xAxes: [axisVisible],
+            yAxes: [axisHidden],
           },
-          //  scales: { yAxes: [{ ticks: { beginAtZero: true } }] },
+          tooltips: tooltipIndex
         },
       });
     }
 
-    var topEdcData = generateTop(dashboardData.dEcbyAnno, "DenominazioneEc");
-  
+    var top5Sorting = dashboardData.top5_ec.map(function(d) { return d.codicefiscaleec })
+    var topEdcDataAll = dashboardData.top5_ec_by_anno
+      .sort(function(a, b) {
+        // sort by overall top 5
+        return top5Sorting.indexOf(a.codicefiscaleec) - top5Sorting.indexOf(b.codicefiscaleec);
+      })
+      .map(function(d) { return {
+        // normalize name because data is indexed by cf
+        DenominazioneEc: dashboardData.top5_ec_by_anno.find(function(o) { return d.codicefiscaleec === o.codicefiscaleec }).denominazioneec,
+        Anno: d.anno,
+        total: d.total
+      }
+    });
+    var topEdcData = generateTop(topEdcDataAll, "DenominazioneEc");
+
     var top10Edc = document.getElementById("top10Edc");
     if (top10Edc) {
       new Chart(top10Edc, {
@@ -96,43 +127,15 @@ function loadJSON(callback) {
         data: topEdcData,
         options: {
           responsive: true,
-          legend: {
-            position: "right",
-          },
           title: {
             display: false,
             text: "5 enti creditori con più transazioni per anno ",
           },
           scales: {
-            xAxes: [
-              {
-              //  gridLines: {
-              //    display: false,
-              //  },
-                ticks: {
-                  fontSize: 15,
-                  fontColor: "#19191a",
-                  fontFamily: "'Titillium Web', Arial",
-                },
-              },
-            ],
-            yAxes: [
-              {
-              //  gridLines: {
-              //    display: false,
-              //  },
-                ticks: {
-                  display: true,
-                  //  beginAtZero: true,
-                  fontSize: 15,
-                  fontColor: "#19191a",
-                  fontFamily: "'Titillium Web', Arial",
-                  maxTicksLimit: 5,
-                  //   padding: 25,
-                },
-              },
-            ],
+            xAxes: [axisHidden],
+            yAxes: [axisVisible],
           },
+          tooltips: tooltipIndex
         },
       });
     }
@@ -145,51 +148,16 @@ function loadJSON(callback) {
         type: "horizontalBar",
         data: topPspData,
         options: {
-          // Elements options apply to all of the options unless overridden in a dataset
-          // In this case, we are setting the border of each horizontal bar to be 2px wide
-          elements: {
-            rectangle: {
-              borderWidth: 2,
-            },
-          },
           responsive: true,
-          legend: {
-            position: "right",
-          },
           title: {
             display: false,
             text: "5 Psp con più transazioni per anno ",
           },
           scales: {
-            xAxes: [
-              {
-           //     gridLines: {
-           //       display: false,
-           //     },
-                ticks: {
-                  fontSize: 15,
-                  fontColor: "#19191a",
-                  fontFamily: "'Titillium Web', Arial",
-                },
-              },
-            ],
-            yAxes: [
-              {
-             //   gridLines: {
-             //     display: false,
-             //   },
-                ticks: {
-                  display: true,
-                  //  beginAtZero: true,
-                  fontSize: 15,
-                  fontColor: "#19191a",
-                  fontFamily: "'Titillium Web', Arial",
-                  maxTicksLimit: 5,
-                  //   padding: 25,
-                },
-              },
-            ],
+            xAxes: [axisHidden],
+            yAxes: [axisVisible],
           },
+          tooltips: tooltipIndex
         },
       });
     }
@@ -201,13 +169,12 @@ function loadJSON(callback) {
       data: dataForPspPie,
       options: {
         responsive: true,
+        legend: legendPoint,
+        tooltips: tooltipArc
       },
     });
-  
-    var dataForEdcPie = generateTopForPie(
-      dashboardData.dEcbyAnno,
-      "DenominazioneEc"
-    );
+
+    var dataForEdcPie = generateTopForPie(dashboardData.top5_ec, "denominazioneec", true);
     var top10PEdcPieElem = document
       .getElementById("top10EdcPie")
       .getContext("2d");
@@ -216,6 +183,8 @@ function loadJSON(callback) {
       data: dataForEdcPie,
       options: {
         responsive: true,
+        legend: legendPoint,
+        tooltips: tooltipArc
       },
     });
   
@@ -225,51 +194,23 @@ function loadJSON(callback) {
       type: "line",
       data: predData,
       options: {
-        // Elements options apply to all of the options unless overridden in a dataset
-        // In this case, we are setting the border of each horizontal bar to be 2px wide
-        elements: {
-          rectangle: {
-            borderWidth: 2,
-          },
-        },
         responsive: true,
         title: {
           display: false,
           text: "10 Psp con più transazioni ",
         },
         scales: {
-          xAxes: [
-            {
-              gridLines: {
-                display: true,
-              },
-              ticks: {
-                fontSize: 15,
-                fontColor: "#19191a",
-                fontFamily: "'Titillium Web', Arial",
-              },
-            },
-          ],
-          yAxes: [
-            {
-              //  gridLines: {
-              //    drawBorder: false,
-              //  },
-              gridLines: {
-                display: true,
-              },
-              ticks: {
-                display: false,
-                //  beginAtZero: true,
-                fontSize: 15,
-                fontColor: "#19191a",
-                fontFamily: "'Titillium Web', Arial",
-                maxTicksLimit: 5,
-                //   padding: 25,
-              },
-            },
-          ],
+          xAxes: [Object.assign(axisVisible, {
+            type: 'time',
+            time: {
+              stepSize: 6,
+              unit: 'month'
+            }
+          })],
+          yAxes: [axisHidden]
         },
+        legend: legendPoint,
+        tooltips: tooltipIndex
       },
     });
   
@@ -282,27 +223,29 @@ function loadJSON(callback) {
   
     $(function () {
       var eUntil31122019 = 11129053683
+      var e2019 = 8341588984;
+      var t2019 = dashboardData.transactions2019[0].total;
       var e2020 = Math.round(dashboardData.transactions2020[0].importo / 100);
       var t2020 = dashboardData.transactions2020[0].total;
       var tPred = sixMonthPredictionTotal(dashboardData.forecastByMonth);
       var predImporto = Math.round((e2020 / t2020) * tPred);
-      var eTotal = eUntil31122019 + e2020;
       var t2021 = dashboardData.transactions2021[0].total;
       var e2021 = Math.round(dashboardData.transactions2021[0].importo / 100);
+      var eTotal = eUntil31122019 + e2020 + e2021;
 
-  
-      $("#2019t").text(
-        "  " + dashboardData.transactions2019[0].total.toLocaleString("it")
-      );
+      $("#2019t").text(t2019.toLocaleString("it"));
+      $("#2019e").text("€ " + e2019.toLocaleString("it"));
       $("#2020t").text("  " + t2020.toLocaleString("it"));
       $("#2020e").text("€ " + e2020.toLocaleString("it"));
+      $("#2021t").text(t2021.toLocaleString("it"));
+      $("#2021e").text("€ " + e2021.toLocaleString("it"));
       $("#totalt").text("  " + dashboardData.totalInHistory.toLocaleString("it"));
-      $("#growthRate").text(Math.round(dashboardData.growthRate) + " %");
+      $("#growthRate").text((dashboardData.growthRate > 0 ? "+" : "") + Math.round(dashboardData.growthRate) + " %");
       $("#predTotal").text("  " + (tPred + t2021).toLocaleString("it"));
       $("#predEuro").text("€ " + (predImporto + e2021).toLocaleString("it"));
       
       $("#eTotal").text("€ " + eTotal.toLocaleString("it"));
-  
+
     });
   });
   

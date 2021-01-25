@@ -13,56 +13,46 @@ String.prototype.toRGB = function () {
   return `rgb(${rgb[0]}, ${rgb[1]}, ${rgb[2]})`;
 };
 
-//
-var PSPBGCOLORS = [
-  "rgb(77, 184, 255)",
-  "rgb(230, 179, 255)",
-  "rgb(255, 255, 102",
-  "rgb(128, 255, 170)",
-  "rgb(223, 159, 223)",
-];
-var PSPBGCOLORS2019 = [
-  "rgb(77, 184, 255, 0.5)",
-  "rgb(230, 179, 255, 0.5)",
-  "rgb(255, 255, 102, 0.5)",
-  "rgb(128, 255, 170, 0.5)",
-  "rgb(223, 159, 223, 0.5)",
-];
-var PSPBGCOLORS2021 = [
-  "rgb(77, 184, 255)",
-  "rgb(230, 179, 255)",
-  "rgb(255, 255, 102",
-  "rgb(128, 255, 170)",
-  "rgb(223, 159, 223)",
+function formatNumberIntl(n) {
+  if (isNaN(n)) return '-';
+  return new Intl.NumberFormat().format(n);
+}
+
+function tooltipLabelCallbackNumber(tooltipItem, data) {
+  var dataLabel = data.datasets[tooltipItem.datasetIndex].label;
+  return dataLabel + ": " + formatNumberIntl(+tooltipItem.value);
+}
+
+function tooltipLabelCallbackArcNumber(tooltipItem, data) {
+  var dataLabel = data.labels[tooltipItem.index];
+  var value = data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index];
+  var sum = data.datasets[0].data.reduce((a, b) => a + b, 0) || 1;
+  var percentage = new Intl.NumberFormat({ style: "percent", maximumFractionDigits: 0 }).format(value * 100 / sum) + "%";
+  return [
+    dataLabel + ": " + formatNumberIntl(value),
+    percentage
+  ];
+}
+
+var GRADIENT_COLORS = [
+  "#0BD9D3",
+  "#15c5f8",
+  "rgb(0, 115, 230)",
+  "#2d489d",
+  "#00264D"
 ];
 
-
-var ECDBGCOLORS = [
-  "rgb(77, 210, 255)",
-  "rgb(179, 179, 230)",
-  "rgb(255, 204, 128)",
-  "rgb(70, 210, 70)",
-  "rgb(77, 255, 255)",
-];
-var ECDBGCOLORS2019 = [
-  "rgb(77, 210, 255, 0.5)",
-  "rgb(179, 179, 230, 0.5)",
-  "rgb(255, 204, 128, 0.5)",
-  "rgb(70, 210, 70, 0.5)",
-  "rgb(77, 255, 255, 0.5)",
-];
-var ECDBGCOLORS2021 = [
-  "rgb(77, 210, 255, 0.5)",
-  "rgb(179, 179, 230, 0.5)",
-  "rgb(255, 204, 128, 0.5)",
-  "rgb(70, 210, 70, 0.5)",
-  "rgb(77, 255, 255, 0.5)",
+var GRADIENT_COLORS_50 = [
+  "#8BE3FB",
+  "#73B9FF",
+  "#889CDD",
 ];
 
-
-var COLORS = ["rgb(51, 102, 255, 0.5)", "rgb(153, 51, 255, 0.5)", "rgb(153, 51, 255, 0.5)"];
-
-var BORDERCOLORS = ["rgb(51, 102, 255)", "rgb(153, 51, 255)", "black"];
+var POS_NEG_COLOR_RANGE = [
+  GRADIENT_COLORS[1],
+  GRADIENT_COLORS[2],
+  GRADIENT_COLORS[3]
+]
 
 // @parameter array byMonthPos and byMonthNeg form dashboard-data.json
 // Prepare data for byMonth chart
@@ -91,24 +81,23 @@ function generateByMonthDataPosAndNeg(PosNegArray) {
       return {
         label: label + " " + key,
         data: data[key],
-        // fill: false,
         backgroundColor: colors[idx],
         borderColor: borderColors[idx],
-        borderWidth: 1,
+        borderWidth: 2,
         stack: key,
       };
     });
   }
 
-  var pos = generate(PosNegArray[0], 
-    "Positive", 
-    ["rgb(51, 102, 255, 0.5)", "rgb(153, 51, 255, 0.5)", "rgb(0,255,0, 0.5)"],
-    ["rgb(51, 102, 255)", "rgb(153, 51, 255)", "rgb(0,255,0)"],
+  var pos = generate(PosNegArray[0],
+    "Positive",
+    POS_NEG_COLOR_RANGE,
+    POS_NEG_COLOR_RANGE,
     "positive" )
-  var neg = generate(PosNegArray[1], 
+  var neg = generate(PosNegArray[1],
     "Negative",
-    ["rgb(51, 102, 255)", "rgb(153, 51, 255)", "rgb(34,139,34)"],
-    ["rgb(51, 102, 255)", "rgb(153, 51, 255)", "rgb(34,139,34)"])
+    GRADIENT_COLORS_50,
+    POS_NEG_COLOR_RANGE)
 
   return pos.concat(neg)
 }
@@ -141,17 +130,8 @@ function generateTop(topEdcs, key) {
     });
     y2019.push(psp2019 ? psp2019.total : null);
     y2020.push(psp2020 ? psp2020.total : null);
-    y2020.push(psp2021 ? psp2021.total : null);
+    y2021.push(psp2021 ? psp2021.total : null);
   });
-
-  var colors = ECDBGCOLORS;
-  var colors2019 = ECDBGCOLORS2019;
-  var colors2021 = ECDBGCOLORS2021;
-  if (key === "PSP") {
-    colors = PSPBGCOLORS;
-    colors2019 = PSPBGCOLORS2019;
-    colors2021 = PSPBGCOLORS2021
-  }
 
   uniqueKeys = uniqueKeys.map(function (item) {
     if (item == "AgID") {
@@ -159,7 +139,7 @@ function generateTop(topEdcs, key) {
     } else if (item.startsWith("Automobile")) {
       return "ACI";
     } else if (item.startsWith("Agenzia delle")) {
-      return "ADE";
+      return "ADE - Riscossione";
     } else if (item.startsWith("Istituto Nazionale")) {
       return "INPS";
     } else {
@@ -171,59 +151,59 @@ function generateTop(topEdcs, key) {
     datasets: [
       {
         label: "2019",
-        backgroundColor: colors2019,
-        borderColor: "#ccc",
-        borderWidth: 1,
+        backgroundColor: GRADIENT_COLORS[0],
         data: y2019,
       },
       {
         label: "2020",
-        backgroundColor: colors,
-        borderColor: "#ccc",
-        borderWidth: 1,
+        backgroundColor: GRADIENT_COLORS[2],
         data: y2020,
       },
       {
         label: "2021",
-        backgroundColor: colors2021,
-        borderColor: "#ccc",
-        borderWidth: 1,
+        backgroundColor: GRADIENT_COLORS[4],
         data: y2021,
       }
     ],
   };
 }
 
-function generateTopForPie(keysTotalsDates, key) {
+function generateTopForPie(keysTotalsDates, key, isTotal) {
   var uniqueKeys = keysTotalsDates
     .map(function (item) {
       return item[key];
-    })
-    .filter(function (v, i, a) {
-      return a.indexOf(v) === i;
-    })
-    .slice(0, 5);
+    });
 
-  var keysTotal = {};
-  keysTotalsDates.forEach(function (d) {
-    if (keysTotal.hasOwnProperty(d[key])) {
-      keysTotal[d[key]] = keysTotal[d[key]] + d.total;
-    } else {
-      keysTotal[d[key]] = d.total;
-    }
-  });
+  if (!isTotal) {
+    uniqueKeys = uniqueKeys.filter(function (v, i, a) {
+        return a.indexOf(v) === i;
+      })
+      .slice(0, 5);
 
-  var dataPoint = uniqueKeys.map(function (item) {
-    return keysTotal[item];
-  });
-
-  var colors = ECDBGCOLORS;
-  if (key === "PSP") {
-    colors = PSPBGCOLORS;
+    var keysTotal = {};
+    keysTotalsDates.forEach(function (d) {
+      if (keysTotal.hasOwnProperty(d[key])) {
+        keysTotal[d[key]] = keysTotal[d[key]] + d.total;
+      } else {
+        keysTotal[d[key]] = d.total;
+      }
+    });
   }
 
+  var dataPoint = isTotal
+    ? keysTotalsDates.map(function (item) { return item.total })
+    : uniqueKeys.map(function (item) { return keysTotal[item] });
+
+  var colors = GRADIENT_COLORS;
+
   uniqueKeys = uniqueKeys.map(function (item) {
-    return item == "AgID" ? "MyBank" : item;
+    if (item == "AgID") {
+      return "MyBank";
+    } else if (item.startsWith("Istituto Nazionale")) {
+      return "INPS";
+    } else {
+      return item;
+    }
   });
 
   return {
@@ -232,13 +212,6 @@ function generateTopForPie(keysTotalsDates, key) {
       {
         data: dataPoint,
         backgroundColor: colors,
-        hoverBackgroundColor: [
-          "#FF5A5E",
-          "#5AD3D1",
-          "#FFC870",
-          "#A8B3C5",
-          "#616774",
-        ],
       },
     ],
   };
@@ -286,23 +259,26 @@ function generatePredData(dashboardData) {
       {
         label: "# Transazioni",
         data: cumTotals,
-        borderWidth: 1,
-        backgroundColor: "rgb(0, 115, 230, 0.2)",
-        borderColor: "rgb(0, 115, 230)",
-      },
-      {
-        label: "# Stime ottimistiche",
-        data: yUpperTotals,
-        borderWidth: 1,
-        backgroundColor: "rgb(230, 255, 245, 0.2)",
-        borderColor: "rgb(77, 255, 184)",
+        borderWidth: 3,
+        pointBorderWidth: 2,
+        backgroundColor: "#fff",
+        borderColor: GRADIENT_COLORS[2],
       },
       {
         label: "# Stime pessimistiche",
         data: yLowerTotals,
-        borderWidth: 1,
-        backgroundColor: "rgb(230, 255, 245, 0.8)",
-        borderColor: "rgb(77, 255, 184)",
+        borderWidth: 3,
+        pointBorderWidth: 2,
+        backgroundColor: "#fff",
+        borderColor: GRADIENT_COLORS[0]
+      },
+      {
+        label: "# Stime ottimistiche",
+        data: yUpperTotals,
+        borderWidth: 3,
+        pointBorderWidth: 2,
+        backgroundColor: "#9ff5f2",
+        borderColor: GRADIENT_COLORS[0]
       },
     ],
   };
