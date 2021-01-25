@@ -231,7 +231,7 @@ function loadJSON(callback) {
       $("#2021t").text(t2021.toLocaleString("it"));
       $("#2021e").text("€ " + e2021.toLocaleString("it"));
       $("#totalt").text("  " + dashboardData.totalInHistory.toLocaleString("it"));
-      $("#growthRate").text(Math.round(dashboardData.growthRate) + " %");
+      $("#growthRate").text((dashboardData.growthRate > 0 ? "+" : "") + Math.round(dashboardData.growthRate) + " %");
       $("#predTotal").text("  " + (tPred + t2021).toLocaleString("it"));
       $("#predEuro").text("€ " + (predImporto + e2021).toLocaleString("it"));
       
