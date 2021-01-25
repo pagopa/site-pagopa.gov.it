@@ -158,11 +158,8 @@ function loadJSON(callback) {
         tooltips: tooltipArc
       },
     });
-  
-    var dataForEdcPie = generateTopForPie(
-      dashboardData.dEcbyAnno,
-      "DenominazioneEc"
-    );
+
+    var dataForEdcPie = generateTopForPie(dashboardData.top5_ec, "denominazioneec", true);
     var top10PEdcPieElem = document
       .getElementById("top10EdcPie")
       .getContext("2d");

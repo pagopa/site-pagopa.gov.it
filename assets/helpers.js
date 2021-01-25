@@ -162,28 +162,31 @@ function generateTop(topEdcs, key) {
   };
 }
 
-function generateTopForPie(keysTotalsDates, key) {
+function generateTopForPie(keysTotalsDates, key, isTotal) {
   var uniqueKeys = keysTotalsDates
     .map(function (item) {
       return item[key];
-    })
-    .filter(function (v, i, a) {
-      return a.indexOf(v) === i;
-    })
-    .slice(0, 5);
+    });
 
-  var keysTotal = {};
-  keysTotalsDates.forEach(function (d) {
-    if (keysTotal.hasOwnProperty(d[key])) {
-      keysTotal[d[key]] = keysTotal[d[key]] + d.total;
-    } else {
-      keysTotal[d[key]] = d.total;
-    }
-  });
+  if (!isTotal) {
+    uniqueKeys = uniqueKeys.filter(function (v, i, a) {
+        return a.indexOf(v) === i;
+      })
+      .slice(0, 5);
 
-  var dataPoint = uniqueKeys.map(function (item) {
-    return keysTotal[item];
-  });
+    var keysTotal = {};
+    keysTotalsDates.forEach(function (d) {
+      if (keysTotal.hasOwnProperty(d[key])) {
+        keysTotal[d[key]] = keysTotal[d[key]] + d.total;
+      } else {
+        keysTotal[d[key]] = d.total;
+      }
+    });
+  }
+
+  var dataPoint = isTotal
+    ? keysTotalsDates.map(function (item) { return item.total })
+    : uniqueKeys.map(function (item) { return keysTotal[item] });
 
   var colors = GRADIENT_COLORS;
 
