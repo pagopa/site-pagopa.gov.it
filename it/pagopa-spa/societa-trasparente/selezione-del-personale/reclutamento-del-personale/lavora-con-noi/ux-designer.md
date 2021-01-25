@@ -12,7 +12,8 @@ archived: true
 metadata:
   apertura: 02/10/2020
   chiusura: 15/11/2020
-  numassunte: selezione in corso
+  numricercate: 1
+    numassunte: 1
 ---
 
 PagoPA è alla ricerca di uno _UX Designer_ di media esperienza che collabori alla progettazione e al miglioramento dei servizi digitali del nostro portfolio, in modo da rispondere sia ai bisogni degli utenti che alle esigenze di business. I progetti su cui lavorerà saranno destinati sia alla cittadinanza, che alle aziende e ai dipendenti della Pubblica Amministrazione.
