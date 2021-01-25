@@ -99,11 +99,15 @@ function loadJSON(callback) {
       });
     }
 
-    var topEdcDataOld = dashboardData.dEcbyAnno;
-    var topEdcDataNew = dashboardData.dEcbyAnno_pd_new
-      .filter(function(d) { return d.anno === "2021" })
-      .map(function(d) { return { DenominazioneEc: d.denominazioneec, Anno: d.anno, total: d.total } });
-    var topEdcDataAll = topEdcDataOld.concat(topEdcDataNew);
+    var top5Sorting = dashboardData.top5_ec.map(function(d) { return d.codicefiscaleec })
+    var topEdcDataAll = dashboardData.top5_ec_by_anno
+      .map(function(d) { return {
+        // normalize name because data is indexed by cf
+        DenominazioneEc: dashboardData.top5_ec_by_anno.find(function(o) { return d.codicefiscaleec === o.codicefiscaleec }).denominazioneec,
+        Anno: d.anno,
+        total: d.total
+      }
+    });
     var topEdcData = generateTop(topEdcDataAll, "DenominazioneEc");
 
     var top10Edc = document.getElementById("top10Edc");
