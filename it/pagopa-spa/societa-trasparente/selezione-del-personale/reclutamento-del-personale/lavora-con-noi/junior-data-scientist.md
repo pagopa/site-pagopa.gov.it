@@ -8,10 +8,13 @@ child_of_ref: lavora-con-noi
 jazz_url: https://pagopa.applytojob.com/apply/3jmc9F1rEM/Junior-Data-Scientist
 pec_cv: false
 iframeheight: 2000
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 28/09/2020
     chiusura: 31/12/2020
+    numricercate: 1
+    numassunte: 1
 ---
 
 Stiamo cercando persone dotate di passione, grinta e integrità, che condividano la nostra missione.
