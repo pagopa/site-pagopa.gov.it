@@ -8,10 +8,13 @@ child_of_ref: lavora-con-noi
 jazz_url: https://pagopa.applytojob.com/apply/10yDc3Mkwt/Medior-Data-Engineer
 pec_cv: false
 iframeheight: 2000
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 28/09/2020
     chiusura: 31/12/2020
+    numricercate: 3
+    numassunte: selezione in corso
 ---
 
 Stiamo cercando persone dotate di passione, grinta e integrità, che condividano la nostra missione.
