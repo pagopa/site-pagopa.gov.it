@@ -59,7 +59,7 @@ Per maggiori informazioni sulle piattaforme abilitanti, potrai invece essere ind
 - Accedi alla [procedura online](https://fondoinnovazione.pagopa.it/)
 - Consulta le [Linee guida per la scadenza del 28 Febbraio 2021 per la Pubblica Amministrazione](https://innovazione.gov.it/it/linee-guida-decreto-semplificazione/)
 - Consulta il [Manuale operativo di SPID](./Manuale_operativo_Spid.pdf)
-- Consulta il [Manuale operativo di CIE](https://innovazione.gov.it/assets/docs/Manuale_CIE_Dipartimento_Trasformazione_digitale.pdf)
+- Consulta il [Manuale operativo di CIE](./Manuale_operativo_CIE.pdf)
 - Consulta il [Manuale operativo di pagoPA](./Manuale_operativo_pagoPA.pdf)
 - Consulta il [Manuale operativo della App IO](./Manuale_operativo_App_IO.pdf)
 - Consulta l’[Informativa Privacy](./Informativa_Privacy.pdf)

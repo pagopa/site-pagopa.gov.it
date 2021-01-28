@@ -41,9 +41,9 @@ it:
     cat: "1|Requisiti e domanda di adesione"
   - title: Come si aderisce a SPID?
     body: "Per tutte le informazioni e le procedure relative all’adesione al sistema SPID, consulta il [Manuale operativo](../Manuale_operativo_Spid.pdf)."
-    cat: "2|Adesione alle piattaforme abilitanti SPID, pagoPA e all’app IO"
+    cat: "2|Adesione alle piattaforme abilitanti SPID, CIE, pagoPA e all’app IO"
   - title: Come si aderisce a CIE?
-    body: "Per tutte le informazioni e le procedure relative all’adesione al sistema CIE, consulta il [Manuale operativo](https://innovazione.gov.it/assets/docs/Manuale_CIE_Dipartimento_Trasformazione_digitale.pdf)."
+    body: "Per tutte le informazioni e le procedure relative all’adesione al sistema CIE, consulta il [Manuale operativo](../Manuale_operativo_CIE.pdf)."
     cat: "2|Adesione alle piattaforme abilitanti SPID, pagoPA e all’app IO"
   - title: Come si aderisce a pagoPA?
     body: "Per tutte le informazioni e le procedure relative all’adesione a pagoPA, consulta il [Manuale operativo](../Manuale_operativo_pagoPA.pdf)."
