@@ -9,3 +9,4 @@ child_of_ref: societa-trasparente
 ---
 
 * [Atti delle amministrazioni aggiudicatrici e degli enti aggiudicatori distintamente per ogni procedura](./atti-amministrazioni-aggiudicatrici)
+* [Informazioni sulle singole procedure in formato tabellare](./tabelle/)

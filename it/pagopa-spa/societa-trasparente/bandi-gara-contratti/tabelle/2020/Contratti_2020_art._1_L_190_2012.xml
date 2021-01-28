@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:pubblicazione xmlns:ns2="legge190_1_0">
+    <metadata>
+        <titolo>Pubblicazione 1 legge 190</titolo>
+        <abstract>Pubblicazione 1 
+legge 190</abstract>
+        <dataPubblicazioneDataset>2021-12-31</dataPubblicazioneDataset>
+        <entePubblicatore>PagoPA S.p.A.</entePubblicatore>
+        <dataUltimoAggiornamentoDataset>2021-01-31</dataUltimoAggiornamentoDataset>
+        <annoRiferimento>2020</annoRiferimento>
+        <urlFile>http://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/tabelle/2020/Contratti_2020_art._1_L_190_2012.xml</urlFile>
+        <licenza>IODL</licenza>
+    </metadata>
+    <data>
+        <lotto>
+            <cig>8086277EDD</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>15376371009</codiceFiscaleProp>
+                <denominazione>PAGOPA S.P.A.</denominazione>
+            </strutturaProponente>
+            <oggetto>Acquisizione, con il criterio di selezione del minor prezzo, di  2376 unità di prodotto “Azure Monetary Commitment”</oggetto>
+            <sceltaContraente>33-PROCEDURA NEGOZIATA PER AFFIDAMENTI SOTTO SOGLIA</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00488410010</codiceFiscale>
+                    <ragioneSociale>TIM SPA</ragioneSociale>
+                </partecipante>
+                <partecipante>
+                    <codiceFiscale>02991230588</codiceFiscale>
+                    <ragioneSociale>G.D. GRAFIDATA SRL</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00488410010</codiceFiscale>
+                    <ragioneSociale>TIM SPA</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>299455.75</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2019-12-16</dataInizio>
+                <dataUltimazione>2022-12-15</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>200368.0</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>8161290D8D</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>15376371009</codiceFiscaleProp>
+                <denominazione>PAGOPA S.P.A.</denominazione>
+            </strutturaProponente>
+            <oggetto>Adesione alla Convenzione Consip SPC Cloud - Lotto 2 Servizi di consulenza per securitizzazione App IO</oggetto>
+            <sceltaContraente>26-AFFIDAMENTO DIRETTO IN ADESIONE AD ACCORDO QUADRO/CONVENZIONE</sceltaContraente>
+            <partecipanti>
+                <raggruppamento>
+                    <membro>
+                        <codiceFiscale>01442240030</codiceFiscale>
+                        <ragioneSociale>IBM ITALIA SPA</ragioneSociale>
+                        <ruolo>01-MANDANTE</ruolo>
+                    </membro>
+                    <membro>
+                        <codiceFiscale>12878470157</codiceFiscale>
+                        <ragioneSociale>FASTWEB SPA</ragioneSociale>
+                        <ruolo>01-MANDANTE</ruolo>
+                    </membro>
+                    <membro>
+                        <codiceFiscale>06310880585</codiceFiscale>
+                        <ragioneSociale>SISTEMI INFORMATIVI SRL</ragioneSociale>
+                        <ruolo>01-MANDANTE</ruolo>
+                    </membro>
+                    <membro>
+                        <codiceFiscale>00401990585</codiceFiscale>
+                        <ragioneSociale>LEONARDO SPA</ragioneSociale>
+                        <ruolo>02-MANDATARIA</ruolo>
+                    </membro>
+                </raggruppamento>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatarioRaggruppamento>
+                    <membro>
+                        <codiceFiscale>01442240030</codiceFiscale>
+                        <ragioneSociale>IBM ITALIA SPA</ragioneSociale>
+                        <ruolo>01-MANDANTE</ruolo>
+                    </membro>
+                    <membro>
+                        <codiceFiscale>12878470157</codiceFiscale>
+                        <ragioneSociale>FASTWEB SPA</ragioneSociale>
+                        <ruolo>01-MANDANTE</ruolo>
+                    </membro>
+                    <membro>
+                        <codiceFiscale>06310880585</codiceFiscale>
+                        <ragioneSociale>SISTAMI INFORMATIVI SRL</ragioneSociale>
+                        <ruolo>01-MANDANTE</ruolo>
+                    </membro>
+                    <membro>
+                        <codiceFiscale>00401990585</codiceFiscale>
+                        <ragioneSociale>LEONARDO SPA</ragioneSociale>
+                        <ruolo>02-MANDATARIA</ruolo>
+                    </membro>
+                </aggiudicatarioRaggruppamento>
+            </aggiudicatari>
+            <importoAggiudicazione>159890.0</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2020-01-01</dataInizio>
+                <dataUltimazione>2020-06-30</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>159890.0</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>84872425A9</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>15376371009</codiceFiscaleProp>
+                <denominazione>PAGOPA S.P.A.</denominazione>
+            </strutturaProponente>
+            <oggetto>Fornitura di un gestionale CRM e ulteriori eventuali moduli gestionali connessi</oggetto>
+            <sceltaContraente>23-AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>02601420926</codiceFiscale>
+                    <ragioneSociale>Avantune srl</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>02601420926</codiceFiscale>
+                    <ragioneSociale>Avantune srl</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>74500.0</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2020-12-29</dataInizio>
+                <dataUltimazione>2024-01-01</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.0</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>85377137A5</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>15376371009</codiceFiscaleProp>
+                <denominazione>PAGOPA S.P.A.</denominazione>
+            </strutturaProponente>
+            <oggetto>RdO aperta sul MePA per l’affidamento del contratto per l’acquisizione di servizi “Cloudera Data Platform (CDP) Public Cloud service”</oggetto>
+            <sceltaContraente>04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>04596040966</codiceFiscale>
+                    <ragioneSociale>Sirti SpA</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>04596040966</codiceFiscale>
+                    <ragioneSociale>Sirti SpA</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>213900.0</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2020-12-28</dataInizio>
+                <dataUltimazione>2023-01-01</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.0</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>8554241EF9</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>15376371009</codiceFiscaleProp>
+                <denominazione>PAGOPA S.P.A.</denominazione>
+            </strutturaProponente>
+            <oggetto>Implementazione e fruizione di una piattaforma Web e acquisto di servizi necessari alla gestione dell’Avviso Pubblico per la digitalizzazione e innovazione dei Comuni Italiani</oggetto>
+            <sceltaContraente>04-PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00967720285</codiceFiscale>
+                    <ragioneSociale>ENGINEERING INGEGNERIA INFORMATICA SPA</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00967720285</codiceFiscale>
+                    <ragioneSociale>ENGINEERING INGEGNERIA INFORMATICA SPA</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>289000.0</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2020-12-11</dataInizio>
+                <dataUltimazione>2022-07-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.0</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>8559578338</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>15376371009</codiceFiscaleProp>
+                <denominazione>PAGOPA S.P.A.</denominazione>
+            </strutturaProponente>
+            <oggetto>Ordine di acquisto di n. 10 MacBook Air con estensione garanzia in Adesione al lotto 4 della Convenzione Consip PC Portatili e tablet</oggetto>
+            <sceltaContraente>26-AFFIDAMENTO DIRETTO IN ADESIONE AD ACCORDO QUADRO/CONVENZIONE</sceltaContraente>
+            <partecipanti>
+                <raggruppamento>
+                    <membro>
+                        <codiceFiscale>00929440592</codiceFiscale>
+                        <ragioneSociale>INFORDATA SPA</ragioneSociale>
+                        <ruolo>02-MANDATARIA</ruolo>
+                    </membro>
+                    <membro>
+                        <codiceFiscale>08619670584</codiceFiscale>
+                        <ragioneSociale>ITALWARE SRL</ragioneSociale>
+                        <ruolo>01-MANDANTE</ruolo>
+                    </membro>
+                </raggruppamento>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatarioRaggruppamento>
+                    <membro>
+                        <codiceFiscale>00929440592</codiceFiscale>
+                        <ragioneSociale>INFORDATA SPA</ragioneSociale>
+                        <ruolo>02-MANDATARIA</ruolo>
+                    </membro>
+                    <membro>
+                        <codiceFiscale>08619670584</codiceFiscale>
+                        <ragioneSociale>ITALWARE SRL</ragioneSociale>
+                        <ruolo>01-MANDANTE</ruolo>
+                    </membro>
+                </aggiudicatarioRaggruppamento>
+            </aggiudicatari>
+            <importoAggiudicazione>10150.0</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2020-12-18</dataInizio>
+                <dataUltimazione>2023-12-17</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.0</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z6C2E31A8E</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>15376371009</codiceFiscaleProp>
+                <denominazione>PAGOPA S.P.A.</denominazione>
+            </strutturaProponente>
+            <oggetto>Acquisto ed attivazione del tool Mixpanel - Servizi di analisi aziendale</oggetto>
+            <sceltaContraente>23-AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <identificativoFiscaleEstero>Tax ID 27-0231379</identificativoFiscaleEstero>
+                    <ragioneSociale>MIXPANEL INC</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <identificativoFiscaleEstero>Tax ID 27-0231379</identificativoFiscaleEstero>
+                    <ragioneSociale>MIXPANEL INC</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>39900.0</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2020-02-28</dataInizio>
+                <dataUltimazione>2021-03-01</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>39053.04</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>ZC12DFCFB6</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>15376371009</codiceFiscaleProp>
+                <denominazione>PAGOPA S.P.A.</denominazione>
+            </strutturaProponente>
+            <oggetto>Acquisto del tool Fellow App di gestione aziendale (agenda, goal, feedback)</oggetto>
+            <sceltaContraente>23-AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <identificativoFiscaleEstero>SoggettoExtraUE</identificativoFiscaleEstero>
+                    <ragioneSociale>Fellow Insights Inc.</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <identificativoFiscaleEstero>SoggettoExtraUE</identificativoFiscaleEstero>
+                    <ragioneSociale>Fellow Insights Inc.</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>1100.0</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2020-04-08</dataInizio>
+                <dataUltimazione>2021-04-08</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>1019.99</importoSommeLiquidate>
+        </lotto>
+    </data>
+</ns2:pubblicazione>
