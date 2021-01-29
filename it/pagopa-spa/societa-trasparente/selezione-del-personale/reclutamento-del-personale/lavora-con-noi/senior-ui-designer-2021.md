@@ -3,13 +3,12 @@ title: Senior UI Designer
 description:
 lang: it
 layout: job
-ref: senior-ui-designer
+ref: senior-ui-designer-2021
 child_of_ref: lavora-con-noi
 jazz_url: https://pagopa.applytojob.com/apply/IVN6ezREhi/Senior-UI-Designer
 pec_cv: false
 iframeheight: 2300
-is_new: false
-archived: true
+is_new: true
 metadata:
     apertura: 29/01/2021
     chiusura: 28/02/2022
