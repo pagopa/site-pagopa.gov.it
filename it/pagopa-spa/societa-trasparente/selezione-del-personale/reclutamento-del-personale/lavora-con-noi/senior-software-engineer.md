@@ -44,9 +44,11 @@ PagoPA è alla ricerca di sviluppatori esperti, con esperienza nella progettazio
 
 Laurea in Informatica o affine con almeno 5 anni di esperienza in ambienti di sviluppo di piattaforme digitali, mobile e web, oppure, in assenza di laurea, almeno 8 anni di esperienza in ambienti di sviluppo di piattaforme digitali, mobile e web.
 
-### Sede di lavoro
+### Sede di Lavoro
 
 - Roma
 - Milano
 
-Per applicare, invia il tuo CV e la tua lettera di motivazione (facoltativa). Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.**La data di presentazione delle candidature per la presente posizione è stata prorogata dal 31 dicembre 2020 al 31 marzo 2021.**
+Per applicare, invia il tuo CV e la tua lettera di motivazione (facoltativa). Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
+
+**La data di presentazione delle candidature per la presente posizione è stata prorogata dal 31 dicembre 2020 al 31 marzo 2021.**
