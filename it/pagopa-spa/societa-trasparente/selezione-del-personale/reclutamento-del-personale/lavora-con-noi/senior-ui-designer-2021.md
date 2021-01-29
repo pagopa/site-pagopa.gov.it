@@ -11,7 +11,7 @@ iframeheight: 2300
 is_new: true
 metadata:
     apertura: 29/01/2021
-    chiusura: 28/02/2022
+    chiusura: 28/02/2021
     
 ---
 
@@ -52,4 +52,4 @@ responsive design e mobile UI.
 - Roma
 - Milano
 
-Per applicare, invia il tuo CV, portfolio e la tua lettera di motivazione (facoltativa) entro e non oltre il **28 febbario 2021**. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate. 
+Per applicare, invia il tuo CV, portfolio e la tua lettera di motivazione (facoltativa) entro e non oltre il **28 febbraio 2021**. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate. 
