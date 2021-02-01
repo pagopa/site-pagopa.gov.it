@@ -13,7 +13,7 @@ archived: true
 metadata:
     apertura: 17/06/2020
     chiusura: 31/12/2020
-    Persone assunte: selezione in corso
+    numassunte: selezione in corso
 ---
 
 ### Descrizione e responsabilità
