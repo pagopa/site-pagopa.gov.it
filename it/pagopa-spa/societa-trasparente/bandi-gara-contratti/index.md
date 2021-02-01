@@ -9,3 +9,4 @@ child_of_ref: societa-trasparente
 ---
 
 * [Atti delle amministrazioni aggiudicatrici e degli enti aggiudicatori distintamente per ogni procedura](./atti-amministrazioni-aggiudicatrici)
+* [Pubblicazioni ex art. 1, comma 32, L. 190/2012](./tabelle/)
