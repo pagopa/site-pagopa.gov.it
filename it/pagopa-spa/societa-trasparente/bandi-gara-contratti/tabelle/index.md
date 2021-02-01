@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Informazioni sulle singole procedure in formato tabellare
+title: Pubblicazioni ex art. 1, comma 32, L. 190/2012
 description: 
 lang: it
 ref: bandi-tabelle
