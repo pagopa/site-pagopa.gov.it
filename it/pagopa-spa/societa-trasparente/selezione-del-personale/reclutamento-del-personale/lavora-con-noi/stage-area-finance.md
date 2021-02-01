@@ -36,7 +36,8 @@ sostenuto esami e/o frequentato corsi nelle seguenti discipline:
 - contabilità e bilancio;
 - controllo di gestione;
 - diritto commerciale;
-- statistica.
+- statistica
+
   e se hai:
 - predisposizione a lavorare in team
 - buone capacità comunicative
