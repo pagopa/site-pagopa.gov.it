@@ -5,13 +5,16 @@ lang: it
 layout: job
 ref: tech-support
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/pT9FyNtToI/Senior-Technical-Support-Engineer
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 10/11/2020
     chiusura: 31/12/2020
+    numricercate: 2
+    numassunte: selezione in corso
 ---
 
 PagoPA S.p.A. è alla ricerca di un _Senior Technical Support Engineer_ che operi all’interno dell’area _Support & Operation_ per svolgere attività di supporto applicativo di secondo livello per i prodotti sviluppati dalla Società.
