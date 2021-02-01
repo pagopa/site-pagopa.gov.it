@@ -9,4 +9,3 @@ child_of_ref: bandi-tabelle
 ---
 
 * [Contratti_2020_art._1_L_190_2012.xml](./Contratti_2020_art._1_L_190_2012.xml)
-* [Contratti_2020_art._1_L_190_2012.xls](./Contratti_2020_art._1_L_190_2012.xls)
