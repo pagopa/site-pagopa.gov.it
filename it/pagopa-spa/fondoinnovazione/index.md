@@ -49,7 +49,7 @@ A supporto dell’iniziativa è stato costituito un **helpdesk dedicato** per as
 
 In alternativa, potrai chiamare **il numero 06-87805015**, dal lunedì al venerdì dalle ore 08:30 alle ore 18:00 (esclusi i giorni festivi) oppure **prenotare un appuntamento in video** tramite i canali disponibili sulla piattaforma.
 
-Inoltre, potrai sempre consultare il **Manuale Operativo** disponibile sulla [piattaforma online per l’adesione](https://fondoinnovazione.pagopa.it/).
+Inoltre, potrai sempre consultare il **Manuale Operativo** disponibile sulla [piattaforma online](https://fondoinnovazione.pagopa.it/).
 
 Per maggiori informazioni sulle piattaforme abilitanti, potrai invece essere indirizzato agli **account territoriali di PagoPA S.p.A.** per pagoPA e App IO e alle strutture competenti dell’Agenzia per l’Italia Digitale (AgID) per SPID e dell’Istituto Poligrafico e Zecca dello Stato per CIE, che potranno affiancarti nella gestione operativa di adesione e migrazione dei servizi.
 ### Informazioni e materiali utili
