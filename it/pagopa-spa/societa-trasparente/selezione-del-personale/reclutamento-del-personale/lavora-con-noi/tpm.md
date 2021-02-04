@@ -5,13 +5,15 @@ lang: it
 layout: job
 ref: tpm
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/Y3iDIupNdV/Technical-Project-Manager
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 07/08/2020
     chiusura: 31/12/2020
+    numassunte: selezione in corso
 ---
 
 PagoPA S.p.A. è alla ricerca di un _Technical Project Manager_ che si occupi di supportare la gestione e il coordinamento dello sviluppo della piattaforma digitale pagoPA.
