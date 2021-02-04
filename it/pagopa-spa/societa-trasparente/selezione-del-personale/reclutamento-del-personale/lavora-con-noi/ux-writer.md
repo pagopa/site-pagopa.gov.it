@@ -5,13 +5,17 @@ lang: it
 layout: job
 ref: ux-writer
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/6CDifrmNMN/UX-Copywriter
+jazz_url:
 pec_cv: false
 iframeheight: 2000
-is_new: true
+is_new: false
+archived: true
 metadata:
   apertura: 14/12/2020
   chiusura: 31/01/2021
+  numricercate: 1
+  numassunte: selezione in corso
+  
 ---
 
 PagoPA S.p.A. è alla ricerca di un UX Copywriter che si unisca al nostro team di Design e che, in collaborazione con i colleghi della UX e UI, parteciperà alle attività di progettazione dei prodotti della Società.
