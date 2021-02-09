@@ -116,7 +116,7 @@
   Pagamento con POS: Si
   Integrazione con ANPR: Si
   SIOPE +: "No"
-  "Codifica dati per analisi pagamenti": "No"
+  "Codifica dati per analisi pagamenti": "Si"
   Fascicolo del cittadino: Si
   Interoperabilità con contabilità: Si
   Interoperabilità con gestionali: Si
@@ -680,3 +680,48 @@
   : >-
     A.M.A. AZIENDA MOBILITA' AQUILANA - SANZIONE PER MANCANZA DI VALIDO TITOLO
     DI VIAGGIO
+
+    ---
+- Informazioni cronologiche: 2/4/2021 11:39:11
+  Messa a disposizione dei documenti scambiati con pagoPA (RT,RPT, flussi di rendicontazione) per conservazione: Si
+  Scarico flussi di rendicontazione: Si
+  Front-End Pagamenti on line: Si
+  Invio esito pagamento: Si
+  Possibilità invio PEC: Si
+  Avvisatura massiva: Si
+  Invio automatico flussi al postalizzatore: Si
+  Avvisatura singola: Si
+  Servizi di quadratura del flusso di pagamenti: Si
+  Help Desk e gestione degli incident: Si
+  Disponibilità di manuali per l'utenza on line: Si
+  Export dell'APA: Si
+  Formazione: Si
+  Gestione Autorizzazione stampa in proprio: Si
+  Iniziative di diffusione: Si
+  Iniziative di comunicazione: Si
+  Integrazione con piattaforma App IO: Si
+  Riconciliazione: Si
+  Pagamento con POS: Si
+  Integrazione con ANPR: No
+  SIOPE +: Si
+  Codifica dati per analisi pagamenti: Si
+  Fascicolo del cittadino: No
+  Interoperabilità con contabilità: si
+  Interoperabilità con gestionali: Si
+  CF del Contraente: 00799960158
+  Ragione Sociale del Contraente: Intesa Sanpaolo S.p.A.
+  Confermo di erogare i servizi obbligatori tipologia Sm e Sb: Si
+  Gestione incassi extra Nodo: Si
+  Integrazione SDI: ""
+  Front end multilingue: No
+  Integrabilità con altri front-end: Si
+  "Referenza n1: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)": Comune di Milano 01199250158 - Ta.Ri./Cosap
+  "Referenza n2: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)": Università di Milano 80012650158 - Tasse Universitarie
+  "Referenza n3: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)": Città Metropolitana di Bologna 03428581205 - Cosap
+  "Referenza n4: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)": Metropolitane Milanesi 01742310152 - Servizio Idrico
+  "Referenza n5: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)": SORARIS S.p.A. 00857440242 - Ta.Ri.
+  "Referenza n6: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)": Garda Uno S.p.A. 87007530170 - IGIENE URBANA/VOTIVE
+  "Referenza n7: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)": Veritas 03341820276 - VOTIVE/SERVIZI TESORERIA
+  "Referenza n8: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)": A.S.A. - Azienda Servizi Ambientali S.P.A. 01177760491 - Servizi Ambientali
+  "Referenza n9: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)": OPI Napoli 80019280637 - Quote associative/iscrizioni
+  "Referenza n10: indicare ragione sociale Ente Creditore e tipo servizio attivato (es. comune di XX - Ta.Ri.)": "Istituto Zooprofilattico dell'Abruzzo e del Molise 80006470670 - Incassi Vari (prestazioni veterinarie, esami clinici)"
