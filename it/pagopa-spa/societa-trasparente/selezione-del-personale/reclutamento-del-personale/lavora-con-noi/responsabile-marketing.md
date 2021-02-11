@@ -5,13 +5,16 @@ lang: it
 layout: job
 ref: responsabile-marketing
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/k8QZfpuPTd/Responsabile-Marketing
+jazz_url:
 pec_cv: true
 iframeheight: 2000
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 13/01/2020
     chiusura: 30/09/2020
+    numricercate: 1
+    numassunte: 0
 ---
 
 
