@@ -5,7 +5,7 @@ lang: it
 layout: job
 ref: sproman-si
 child_of_ref: lavora-con-noi
-jazz_url: https:https://pagopa.applytojob.com/apply/t0sb0PTIvb/Senior-Product-Manager-Strategic-Innovation
+jazz_url: https://pagopa.applytojob.com/apply/t0sb0PTIvb/Senior-Product-Manager-Strategic-Innovation
 pec_cv: false
 iframeheight: 2300
 is_new: true
