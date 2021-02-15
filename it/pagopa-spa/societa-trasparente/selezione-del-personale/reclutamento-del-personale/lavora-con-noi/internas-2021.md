@@ -22,7 +22,7 @@ Il confronto e il lavoro di squadra sono al centro della nostra quotidianità. C
  
 Entra a far parte della nostra squadra!
 
- #### Responsabilità
+### Responsabilità
 
 L’***International Affairs Specialist*** ha il compito di supportare l’azione del Dipartimento Affari Istituzionali e Comunicazione nei rapporti verso gli stakeholder internazionali, pubblici e privati che, in ragione della mission della Società, riguardano principalmente il settore del digitale e del credito.  
 
