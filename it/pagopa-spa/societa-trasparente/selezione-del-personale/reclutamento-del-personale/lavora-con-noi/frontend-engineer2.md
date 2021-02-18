@@ -11,10 +11,10 @@ iframeheight: 2300
 is_new: true
 metadata:
     apertura: 18/01/2021
-    chiusura: 31/03/2021
+    chiusura: 31/05/2021
 ---
 
-Stiamo cercando persone dotate di passione, grinta e integrità, che condividano la nostra missione.
+Stiamo cercando **persone dotate di passione**, grinta e integrità, che condividano la nostra missione.
 
 Diamo molto valore alla diversità di vedute, al confronto e al lavoro di squadra. Cerchiamo persone attente ai dettagli, che pensano in modo rigoroso, che non hanno paura di innovare e che amano comunicare in modo semplice ed efficace sia in Italiano che in Inglese.
 
