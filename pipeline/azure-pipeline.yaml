@@ -43,7 +43,7 @@ jobs:
           failOnStandardError: false
           script: |
             bundle install
-            bundle exec jekyll serve --config _config.yml
+            bundle exec jekyll build
       # 3. Deploy
       - task: AzureCLI@2
         displayName: Deploy
