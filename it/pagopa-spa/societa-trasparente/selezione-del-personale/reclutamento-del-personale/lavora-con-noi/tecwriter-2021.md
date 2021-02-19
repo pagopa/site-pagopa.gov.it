@@ -1,5 +1,5 @@
 ---
-title: Techincal Writer
+title: Technical Writer, Strategic Innovation
 description:
 lang: it
 layout: job
