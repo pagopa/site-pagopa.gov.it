@@ -15,7 +15,7 @@ pool:
   endpoint: 'pagopa'
 
 jobs:
-  - job: install_and_run_terraform
+  - job: build_and_deploy_website
     steps:
       # 1. Install Jekyll
       - task: Bash@3
@@ -29,7 +29,7 @@ jobs:
             echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
             echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
             source ~/.bashrc
-            gem install jekyll bundler
+            sudo gem install jekyll bundler
       # 2. Build.
       - task: Bash@3
         displayName: Build
