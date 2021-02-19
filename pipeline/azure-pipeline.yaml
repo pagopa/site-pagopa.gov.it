@@ -29,7 +29,10 @@ jobs:
             echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
             echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
             source ~/.bashrc
-            sudo gem install jekyll bundler
+            echo "Install jekyll"
+            sudo gem install jekyll
+            echo "Install bundler"
+            sudo gem install bundler
       # 2. Build.
       - task: Bash@3
         displayName: Build
