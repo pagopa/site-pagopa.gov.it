@@ -1,0 +1,51 @@
+trigger:
+  branches:
+    include:
+      - master
+
+parameters:
+  - name: 'SUBSCRIPTION'
+    displayName: 'Azure subscription hosting the infrastructure built with terraform'
+    type: string
+    default: PAGOPA-SERVICE-CONN
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+  endpoint: 'pagopa'
+
+jobs:
+  - job: install_and_run_terraform
+    steps:
+      # 1. Install Jekyll
+      - task: Bash@3
+        displayName: Install Jekyll
+        inputs:
+          targetType: 'inline'
+          failOnStderr: true
+          script: |
+            sudo apt-get install ruby-full build-essential zlib1g-dev
+            echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+            echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+            echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+            source ~/.bashrc
+            gem install jekyll bundler
+      # 2. Build.
+      - task: Bash@3
+        displayName: Build
+        inputs:
+          targetType: 'inline'
+          failOnStandardError: false
+          script: |
+            bundle install
+            bundle exec jekyll build -config _config.yml
+      # 3. Deploy
+      - task: AzureCLI@2
+        displayName: Deploy
+        inputs:
+          azureSubscription: '${{ parameters.SUBSCRIPTION }}'
+          scriptType: 'bash'
+          scriptLocation: 'inlineScript'
+          failOnStandardError: false
+          inlineScript: |
+            echo "#TODO copy to the storage account."
