@@ -22,7 +22,7 @@ jobs:
         displayName: Install Jekyll
         inputs:
           targetType: 'inline'
-          failOnStderr: true
+          failOnStderr: false
           script: |
             sudo apt-get install ruby-full build-essential zlib1g-dev
             echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
