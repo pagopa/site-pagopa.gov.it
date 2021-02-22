@@ -73,7 +73,12 @@ it:
 **App IO**: Adesione e integrazione di almeno 1 servizio digitale del Comune sull’app IO.\n
 - _al 31 dicembre 2021_:<br>
 **pagoPA**: migrazione e attivazione di almeno il 70% dei servizi di incasso erogati dal comune tra quelli censiti nella tabella tassonomica<br> 
-**App IO**: migrazione e attivazione di almeno 10 servizi digitali del Comune sulla App."
+**App IO**: migrazione e attivazione di almeno 10 servizi digitali del Comune sulla App.\n\n
+In particolare, PagoPA S.p.A. verificherà - durante il periodo di istruttoria di cui all’art. 8 dell’Avviso Pubblico:\n
+- **per la piattaforma pagoPA**: le transazioni (con relativo codice tassonomico) - risultanti durante il suddetto periodo di istruttoria - relative ai servizi di incasso migrati e attivati dal Comune;\n
+- **per l’APP IO**: la visibilità in App - durante il suddetto periodo di istruttoria - dei servizi integrati dal Comune.\n\n
+PagoPA S.p.A. effettuerà, comunque, ogni controllo necessario e adeguato ai fini della verifica delle attività di cui all’all. 3 dell’Avviso, dichiarate dai Comuni nei moduli di richiesta di erogazione del contributo.
+"
     cat: "4|Istruttoria e verifiche"
   - title: Cosa succede se la fase di istruttoria e verifiche delle attività implementate dal Comune ha esito negativo? 
     body: "Se la verifica delle attività previste al 28 Febbraio 2021 ha esito negativo, il Comune perde il diritto all’erogazione del 20% del contributo, ma può comunque continuare i processi di integrazione alle piattaforme abilitanti per superare la verifica delle attività previste al 31 Dicembre 2021. Solo in questo modo, il Comune potrà ottenere il restante 80% del contributo. Qualora, al contrario, anche la verifica delle attività al 31 dicembre 2021 avesse esito negativo, il Comune non avrà diritto ad alcun contributo."
