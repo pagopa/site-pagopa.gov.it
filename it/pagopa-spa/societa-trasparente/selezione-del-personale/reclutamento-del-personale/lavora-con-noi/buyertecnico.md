@@ -5,13 +5,13 @@ lang: it
 layout: job
 ref: buyertecnico
 child_of_ref: lavora-con-noi
-jazz_url:https://pagopa.applytojob.com/apply/VYH35NOReg/Buyer-Tecnico
+jazz_url: https://pagopa.applytojob.com/apply/VYH35NOReg/Buyer-Tecnico
 pec_cv: false
 iframeheight: 2300
 is_new: true
 metadata:
-    apertura: 24/02/2021
-    chiusura: 25/03/2021
+    apertura: 24/02/2021
+    chiusura: 25/03/2021
 ---
 
 PagoPA S.p.A. è alla ricerca di un **Buyer Tecnico**, che si occupi insieme al Responsabile Gare & Acquisti di assicurare l’acquisizione e la gestione di beni e servizi ICT, attraverso lo sviluppo del processo di gara, partendo dalle esigenze definite dalla programmazione. 
