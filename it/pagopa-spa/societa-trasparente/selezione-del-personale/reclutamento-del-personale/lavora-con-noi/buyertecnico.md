@@ -5,7 +5,7 @@ lang: it
 layout: job
 ref: buyertecnico
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/VYH35NOReg/Buyer-Tecnico
+jazz_url:https://pagopa.applytojob.com/apply/VYH35NOReg/Buyer-Tecnico
 pec_cv: false
 iframeheight: 2300
 is_new: true
