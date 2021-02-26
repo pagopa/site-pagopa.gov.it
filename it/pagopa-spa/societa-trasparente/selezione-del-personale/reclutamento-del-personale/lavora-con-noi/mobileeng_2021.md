@@ -78,7 +78,7 @@ Il _Mobile Software Engineer_ si occuperà di:
 
 * Conoscenza applicata dei paradigmi di programmazione funzionale
 
-* Confidenza con i principi S.O.L.I.D
+* Confidenza con i principi S.O.L.I.D.
 
 * Esperienza nella partecipazione allo sviluppo di progetti e iniziative open source
 
