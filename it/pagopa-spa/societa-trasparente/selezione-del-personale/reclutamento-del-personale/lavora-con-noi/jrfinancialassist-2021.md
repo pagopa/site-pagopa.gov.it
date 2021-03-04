@@ -5,7 +5,7 @@ lang: it
 layout: job
 ref: jrfinancialassist-2021
 child_of_ref: lavora-con-noi
-jazz_url:https://pagopa.applytojob.com/apply/BGDCxSNNgk/Junior-Financial-Assistant
+jazz_url: https://pagopa.applytojob.com/apply/BGDCxSNNgk/Junior-Financial-Assistant
 pec_cv: false
 iframeheight: 2300
 is_new: true
