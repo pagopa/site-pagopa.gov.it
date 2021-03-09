@@ -18,7 +18,7 @@ Qui trovi informazioni sulle **principali novità** sulla piattaforma dei pagame
 
 ---
 
-### Modello di pagamento presso PSP con Ente multi-beneficiario
+### Modello di pagamento presso PSP con Ente multi&#8209;beneficiario
 
 Qui trovi la documentazione in merito al nuovo workflow di pagamento con avviso che rimuove la limitazione di un unico beneficiario, cioè consente la possibilità di gestire con un unico avviso anche i casi in cui l’importo pagato sia accreditato, in quota parte, su conti di diversi Enti beneficiari (es: TARI/TEFA). 
 
