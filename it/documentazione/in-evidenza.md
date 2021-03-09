@@ -12,7 +12,7 @@ Qui trovi informazioni sulle **principali novità** sulla piattaforma dei pagame
 
 ### Documentazione tecnica in consultazione
 
-- [Monografia - Gestione accredito e rendicontazione](https://docs.google.com/document/d/102dSzWOALRqQEkiccilUFV02cSwRf8ZvzsI__zgSoM0/edit?usp=sharing)<span class="badge badge-secondary">New</span>
+<span class="badge badge-secondary">Nuovo</span> [Monografia - Gestione accredito e rendicontazione](https://docs.google.com/document/d/102dSzWOALRqQEkiccilUFV02cSwRf8ZvzsI__zgSoM0/edit?usp=sharing)
 
 <!-- Al momento non è presente documentazione in consultazione. -->
 
@@ -28,11 +28,11 @@ Qui trovi la documentazione in merito al nuovo workflow di pagamento con avviso 
 - [Repository delle interfacce](https://github.com/pagopa/pagopa-api) (esposte e richieste) per la connessione con il sistema pagoPA.
 - [FAQ tematiche]() relative al nuovo modello di pagamento (NB: documento in evoluzione)
 
-**Segnalazioni/Chiarimenti**
+##### Segnalazioni/Chiarimenti
 
 Si prega di inserire tutte le segnalazioni e/o richieste di chiarimento utilizzando _esclusivamente_ le [apposite issues in Github](https://github.com/pagopa/pagopa-api/issues/).
 
-**Roadmap**
+##### Roadmap
 
 Riprendendo quanto anticipato in [§2.2 della Monografia][monografia]:
 
