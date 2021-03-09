@@ -4,7 +4,6 @@ title: Comunicato "Pagamento TARI-TEFA mediante l’utilizzo della piattaforma p
 description:
 lang: it
 ref: documentazione-comunicato-taritefa
-order: 22
 permalink: /it/pagopa/documentazione/comunicato-tari-tefa
 child_of_ref: documentazione
 ---
