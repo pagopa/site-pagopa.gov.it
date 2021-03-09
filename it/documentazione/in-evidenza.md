@@ -10,7 +10,7 @@ order: 23
 
 Qui trovi informazioni sulle **principali novità** sulla piattaforma dei pagamenti pagoPA.
 
-## Documentazione tecnica in consultazione
+### Documentazione tecnica in consultazione
 
 - [Monografia - Gestione accredito e rendicontazione](https://docs.google.com/document/d/102dSzWOALRqQEkiccilUFV02cSwRf8ZvzsI__zgSoM0/edit?usp=sharing)<span class="badge badge-secondary">New</span>
 
@@ -18,7 +18,7 @@ Qui trovi informazioni sulle **principali novità** sulla piattaforma dei pagame
 
 ---
 
-## Modello di pagamento presso PSP con Ente multi-beneficiario
+### Modello di pagamento presso PSP con Ente multi-beneficiario
 
 Qui trovi la documentazione in merito al nuovo workflow di pagamento con avviso che rimuove la limitazione di un unico beneficiario, cioè consente la possibilità di gestire con un unico avviso anche i casi in cui l’importo pagato sia accreditato, in quota parte, su conti di diversi Enti beneficiari (es: TARI/TEFA). 
 
@@ -45,7 +45,7 @@ Riprendendo quanto anticipato in [§2.2 della Monografia][monografia]:
 
 ---
 
-## Tassonomia dei Servizi
+### Tassonomia dei Servizi
 
 Qui trovi la documentazione in merito alla "Tassonomia dei servizi erogati" che consente ad ogni Ente Creditore di identificare uniformemente i servizi di incasso e le rispettive posizioni debitorie che transitano tramite la Piattaforma pagoPA.
 
