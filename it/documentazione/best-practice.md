@@ -5,7 +5,7 @@ description:
 lang: it
 ref: best-practice
 child_of_ref: documentazione
-order: 25
+order: 26
 ---
 
 Qui trovi alcune best practice sulla piattaforma pagoPA.

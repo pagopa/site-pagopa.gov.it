@@ -5,7 +5,7 @@ description:
 lang: it
 ref: faq
 child_of_ref: documentazione
-order: 26
+order: 27
 ---
 
 Qui trovi le FAQ sul sistema pagoPA.
