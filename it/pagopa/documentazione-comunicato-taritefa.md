@@ -1,16 +1,16 @@
 ---
-layout: post
-title: "Pagamento TARI-TEFA mediante l’utilizzo della piattaforma pagoPA – D.M. 21 ottobre 2020"
+layout: page
+title: Comunicato "Pagamento TARI-TEFA mediante l’utilizzo della piattaforma pagoPA – D.M. 21 ottobre 2020"
+description:
 lang: it
-excerpt_separator: <!--more-->
-tags:
-child_of_ref: comunicati-stampa
+ref: documentazione-comunicato-taritefa
+order: 22
+permalink: /it/pagopa/documentazione/comunicato-tari-tefa
+child_of_ref: documentazione
 ---
 
-<!--more-->
-
 Il [D. M. 21 ottobre 2020](https://www.gazzettaufficiale.it/eli/id/2020/11/06/20A05962/sg) del Ministero dell’economia e delle finanze ha definito le modalità di versamento unificato, per le annualità 2021 e seguenti, della tassa sui rifiuti (TARI), della tariffa corrispettiva e del tributo per l'esercizio delle funzioni di tutela, protezione e igiene dell'ambiente (TEFA) mediante la piattaforma pagoPA. 
-In considerazione di quanto stabilito da tale provvedimento, PagoPA spa ha introdotto una nuova modalità di pagamento “multi-beneficiario” per il versamento automatico delle somme ai rispettivi Enti impositori - Comuni per la TARI e Province/Città Metropolitane per il TEFA (cfr. [monografia](https://docs.google.com/document/d/1qmQ12SfkhjJGss--d5mQwqrcMCb9pF4JHj-k8w8X9jM/view) e [Specifiche Attuative Nodo Pagamenti PagoPA](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.4.0-rc/index.html)). 
+In considerazione di quanto stabilito da tale provvedimento, PagoPA spa ha introdotto una nuova modalità di pagamento “multi-beneficiario” per il versamento automatico delle somme ai rispettivi Enti impositori - Comuni per la TARI e Province/Città Metropolitane per il TEFA (cfr. [monografia](https://docs.google.com/document/d/1qmQ12SfkhjJGss--d5mQwqrcMCb9pF4JHj-k8w8X9jM/view) e [Specifiche Attuative Nodo Pagamenti PagoPA](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.4.0/index.html)). 
 
 Per l'incasso congiunto delle suddette entrate, quindi, i Comuni, le Città Metropolitane e le Province – tramite i loro Partner tecnologici – e i Prestatori di Servizi di Pagamento (PSP), dovranno prevedere un piano di adeguamento delle proprie procedure per l’attuazione delle misure di cui sopra. 
 
