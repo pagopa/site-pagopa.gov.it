@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Novità
+title: Documentazione
 description: 
 lang: it
 ref: documentazione
