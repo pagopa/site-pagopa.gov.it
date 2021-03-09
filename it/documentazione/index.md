@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Documentazione
+title: Novità
 description: 
 lang: it
 ref: documentazione
@@ -11,7 +11,7 @@ Qui trovi informazioni sulle **principali novità** sulla piattaforma dei pagame
 
 ## Documentazione tecnica in consultazione
 
-- <span class="badge badge-secondary">New</span> [Monografia - Gestione accredito e rendicontazione](https://docs.google.com/document/d/102dSzWOALRqQEkiccilUFV02cSwRf8ZvzsI__zgSoM0/edit?usp=sharing)
+- [Monografia - Gestione accredito e rendicontazione](https://docs.google.com/document/d/102dSzWOALRqQEkiccilUFV02cSwRf8ZvzsI__zgSoM0/edit?usp=sharing)<span class="badge badge-secondary">New</span>
 
 <!-- Al momento non è presente documentazione in consultazione. -->
 
