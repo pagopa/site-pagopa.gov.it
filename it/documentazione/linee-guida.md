@@ -5,11 +5,8 @@ description:
 lang: it
 ref: linee-guida
 child_of_ref: documentazione
-order: 23
+order: 24
 ---
-
-# Linee guida e regole tecniche
-
 Le <a href="https://www.gazzettaufficiale.it/eli/id/2018/07/03/18A04494/sg" target="_blank">Linee guida per l’effettuazione dei pagamenti elettronici a favore delle pubbliche amministrazioni e dei gestori di pubblici (v1.2 - febbraio 2018)</a> definiscono regole, standard e specifiche tecniche che le PA e i PSP devono seguire per integrarsi al sistema pagoPA.
 
 Le Linee guida sono corredate da **due allegati tecnici**:
