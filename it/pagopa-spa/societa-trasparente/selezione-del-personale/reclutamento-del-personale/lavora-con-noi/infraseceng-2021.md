@@ -11,7 +11,7 @@ iframeheight: 2300
 is_new: true
 metadata:
     apertura: 05/02/2021
-    chiusura: 05/03/2021
+    chiusura: 30/04/2021
 ---
 ###  Infrastructure Security Engineer
 
@@ -51,4 +51,4 @@ Laurea triennale o Magistrale in ambito Computer Science o Software Engineering.
 ###  Sede di lavoro
 * Roma
 
-Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il 5 marzo 2021. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti indicati.
+Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il 5 marzo 2021. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti indicati.**La data di presentazione delle candidature per la presente posizione è stata prorogata dal 05 marzo 2021 al 30 aprile 2021.**
