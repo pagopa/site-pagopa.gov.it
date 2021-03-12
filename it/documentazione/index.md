@@ -7,4 +7,11 @@ ref: documentazione
 order: 22
 ---
 
-Qui serve un testo molto breve, di fatto questa pagina serve soltanto a dare la giusta etichetta nel menu in alto.
+
+---
+
+<span class="badge badge-secondary">New</span> [Comunicato: Pagamento TARI-TEFA mediante l’utilizzo della piattaforma pagoPA – D.M. 21 ottobre 2020](/it/pagopa/documentazione/comunicato-tari-tefa)
+
+---
+
+In questa sezione trovi la documentazione di riferimento per la piattaforma dei pagamenti pagoPA. Si è preferito suddividerla in varie sotto-sezioni per facilitarne la fruibilità.

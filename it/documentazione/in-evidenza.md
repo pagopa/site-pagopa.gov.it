@@ -29,7 +29,7 @@ Qui trovi la documentazione in merito al nuovo workflow di pagamento con avviso 
 
 ##### Serve aiuto?
 
-<a class="btn btn-md btn-primary mr-md-4 mb-2 mt-2" href="">Domande frequenti</a><a class="btn btn-md btn-outline-primary mr-md-4 mb-2 mt-2" href="https://github.com/pagopa/pagopa-api/issues/">Apri segnalazione</a><br>
+<a class="btn btn-md btn-primary mr-md-4 mb-2 mt-2" href="https://docs.google.com/document/d/1KXYAvhXNDjOurZtlDjsiQ1jdpJHI5DhGX6fgigEd2jg">Domande frequenti</a><a class="btn btn-md btn-outline-primary mr-md-4 mb-2 mt-2" href="https://github.com/pagopa/pagopa-api/issues/">Apri segnalazione</a><br>
 
 ##### Roadmap
 
@@ -41,6 +41,7 @@ Riprendendo quanto anticipato in [§2.2 della Monografia][monografia]:
 
 ###### entro il 01/05/2021
 - I PSP devono aver adeguato i propri sistemi alle nuove interfacce.
+
 ###### entro il 31/12/2021
 - Gli EC devono aver adeguato i propri sistemi alle nuove interfacce.
 
@@ -52,9 +53,11 @@ Riprendendo quanto anticipato in [§2.2 della Monografia][monografia]:
 
 Qui trovi la documentazione in merito alla "Tassonomia dei servizi erogati" che consente ad ogni Ente Creditore di identificare uniformemente i servizi di incasso e le rispettive posizioni debitorie che transitano tramite la Piattaforma pagoPA.
 
-- Monografia sulla [**Tassonomia dei servizi di incasso**](https://docs.google.com/document/d/1OawsOwvMOxgLGB3KXNeqJTxrX2XYD7q0HZ8RNrZdimg/view)
+- [~~Monografia sulla Tassonomia dei servizi di incasso~~](https://docs.google.com/document/d/1OawsOwvMOxgLGB3KXNeqJTxrX2XYD7q0HZ8RNrZdimg/view) <span class="badge badge-secondary">Deprecato</span>
 -  [**Specifiche Attuative del Nodo dei Pagamenti-SPC**](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.4.0/_docs/sezione2-gestione-posizione-debitoria/2_01_00_gestione_posizione_debitoria.html#tassonomia-dei-servizi) (SANP 2.4.0) - Allegato B
-- [**Tabella tassonomica**](https://drive.google.com/file/d/13xOd__Qd4pwKHr3wjE-73NAB2O7UKmIt/view) e sua versione in [formato XML]()
+- [**Tabella tassonomica**](https://drive.google.com/file/d/13xOd__Qd4pwKHr3wjE-73NAB2O7UKmIt/view) 
+
+<!-- e sua versione in [formato XML]() -->
 
 ##### Desideri contribuire al miglioramento della Tassonomia?
 

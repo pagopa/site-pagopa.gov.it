@@ -12,7 +12,7 @@ Le <a href="https://www.gazzettaufficiale.it/eli/id/2018/07/03/18A04494/sg" targ
 Le Linee guida sono corredate da **due allegati tecnici**:
 
 - Allegato A - "Specifiche Attuative dei Codici Identificativi di versamento, riversamento e rendicontazione" ([versione corrente](https://docs.italia.it/italia/pagopa/pagopa-codici-docs/it/stabile/) \| [PDF](https://docs.italia.it/projects/pagopa-codici-docs/downloads/pdf/stabile/))
-- Allegato B - "Specifiche Attuative del Nodo dei Pagamenti-SPC" ([versione corrente](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/stabile/) \| [PDF](https://docs.italia.it/projects/pagopa-specifichepagamenti-docs/downloads/pdf/stabile/))
+- Allegato B - "Specifiche Attuative del Nodo dei Pagamenti-SPC" ([versione corrente](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.4.0/index.html) \| [PDF](https://docs.italia.it/projects/pagopa-specifichepagamenti-docs/downloads/pdf/v2.4.0/))
 
 ## Documentazione tecnica collegata
 
