@@ -51,6 +51,8 @@ bandi:
       name: "21. Acquisizione di utenze per l’accesso e l’utilizzo del software Instabug, ai sensi dell’art. 36, comma 2, lettera a) del D.Lgs. 50/2016 - CIG ZBB2C86D50 e Z9E2E86E23"
     - id: "2020/22"
       name: "22. Acquisto del tool Mixpanel - CIG Z6C2E31A8E e Z932E31C3E"
+    - id: "2020/23"
+      name: "23. Prova bando nuovo - CIG XXXXX"
     
 ---
 
