@@ -8,7 +8,7 @@ child_of_ref: lavora-con-noi
 jazz_url:
 pec_cv: false
 iframeheight: 2300
-is_new: faulse
+is_new: false
 archived: true
 metadata:
     apertura: 15/02/2021
