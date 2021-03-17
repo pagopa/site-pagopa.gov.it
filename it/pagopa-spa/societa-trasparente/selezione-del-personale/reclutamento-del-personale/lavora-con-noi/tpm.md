@@ -13,7 +13,8 @@ archived: true
 metadata:
     apertura: 07/08/2020
     chiusura: 31/12/2020
-    numassunte: selezione in corso
+    numricercate: 1
+    numassunte: 2 alla luce delle aggiornate necessità aziendali
 ---
 
 PagoPA S.p.A. è alla ricerca di un _Technical Project Manager_ che si occupi di supportare la gestione e il coordinamento dello sviluppo della piattaforma digitale pagoPA.
