@@ -13,7 +13,8 @@ archived: true
 metadata:
   apertura: 09/12/2020
   chiusura: 10/01/2021
-  numassunte: selezione in corso
+  numricercate: 1
+  numassunte: 2 alla luce delle aggiornate necessità aziendali
 ---
 
 PagoPA S.p.A. è alla ricerca di un _Junior HR Specialist_, che supporti il Direttore delle Risorse Umane ed il Team HR in tutte le attività connesse alla gestione del personale.
