@@ -5,13 +5,16 @@ lang: it
 layout: job
 ref: cm
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/9c43q7enxF/Community-Manager
+jazz_url:
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 15/02/2021
     chiusura: 15/03/2021
+    numricercate: 1
+    numassunte: selezione in corso
 ---
 
 PagoPA S.p.A. è alla ricerca di un **Community Manager** da inserire nel Dipartimento Affari Istituzionali e Comunicazione a diretto riporto del Responsabile della Comunicazione Digitale. La risorsa avrà la responsabilità di curare e gestire le community sviluppate sui social media, con l’obiettivo di migliorare la brand awareness e la reputazione corporate e dei singoli progetti gestiti dalla Società.
