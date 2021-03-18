@@ -12,7 +12,8 @@ archived: true
 metadata:
     apertura: 03/09/2020
     chiusura: 30/10/2020
-    numassunte: selezione in corso
+    numricercate: 1
+    numassunte: 1
 ---
 
 PagoPA S.p.A. è alla ricerca di un _**Senior Procurement Officer**_, che si occupi insieme al Responsabile Ufficio Procurement dei processi di approvvigionamento aziendale e contribuisca in modo attivo all’esecuzione degli ordini di acquisto, nel rispetto del fabbisogno aziendale e delle normativa applicabile.
