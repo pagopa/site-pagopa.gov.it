@@ -6,6 +6,7 @@ lang: it
 ref: documentazione-comunicato-taritefa
 permalink: /it/pagopa/documentazione/comunicato-tari-tefa
 child_of_ref: documentazione
+order: 22
 ---
 
 Il [D. M. 21 ottobre 2020](https://www.gazzettaufficiale.it/eli/id/2020/11/06/20A05962/sg) del Ministero dell’economia e delle finanze ha definito le modalità di versamento unificato, per le annualità 2021 e seguenti, della tassa sui rifiuti (TARI), della tariffa corrispettiva e del tributo per l'esercizio delle funzioni di tutela, protezione e igiene dell'ambiente (TEFA) mediante la piattaforma pagoPA. 
