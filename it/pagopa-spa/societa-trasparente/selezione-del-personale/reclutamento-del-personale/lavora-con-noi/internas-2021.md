@@ -5,13 +5,16 @@ lang: it
 layout: job
 ref: internas-2021
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/VGp5IjfTWv/International-Affairs-Specialist
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 15/02/2021
     chiusura: 15/03/2021
+    numricercate: 1
+    numassunte: selezione in corso
 ---
 
 PagoPA S.p.A. è alla ricerca di un (n.1) **International Affairs Specialist** da inserire nel Dipartimento Affari Istituzionali e Comunicazione a diretto riporto del Direttore Affari Istituzionali e Comunicazione, il cui compito sarà quello  di supportare le relazioni della società con gli stakeholder internazionali e in special modo europei.
