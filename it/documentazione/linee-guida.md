@@ -7,26 +7,9 @@ ref: linee-guida
 child_of_ref: documentazione
 order: 24
 ---
-<<<<<<< HEAD:it/documentazione/linee-guida.md
-=======
-
----
-
-<span class="badge badge-secondary">New</span> [Comunicato: Pagamento TARI-TEFA mediante l’utilizzo della piattaforma pagoPA – D.M. 21 ottobre 2020](/it/pagopa/documentazione/comunicato-tari-tefa)
-
-## Documentazione tecnica in consultazione
-
-- <span class="badge badge-secondary">New</span> [Monografia - Gestione accredito e rendicontazione](https://docs.google.com/document/d/102dSzWOALRqQEkiccilUFV02cSwRf8ZvzsI__zgSoM0/edit?usp=sharing)
-
-<!--
-Al momento non è presente documentazione in consultazione.
--->
-
----
 
 ## Linee guida e regole tecniche
 
->>>>>>> origin/master:it/pagopa/documentazione.md
 Le <a href="https://www.gazzettaufficiale.it/eli/id/2018/07/03/18A04494/sg" target="_blank">Linee guida per l’effettuazione dei pagamenti elettronici a favore delle pubbliche amministrazioni e dei gestori di pubblici (v1.2 - febbraio 2018)</a> definiscono regole, standard e specifiche tecniche che le PA e i PSP devono seguire per integrarsi al sistema pagoPA.
 
 Le Linee guida sono corredate da **due allegati tecnici**:
