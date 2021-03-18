@@ -63,7 +63,7 @@ Qui trovi la documentazione in merito alla "Tassonomia dei servizi erogati" che 
 
 ##### Desideri contribuire al miglioramento della Tassonomia?
 
-<a class="btn btn-md btn-outline-primary mr-md-4 mb-2 mt-2" href="https://survey-enticreditori.pagopa.it/238313">Invia suggerimento</a><br>
+<a class="btn btn-md btn-outline-primary mr-md-4 mb-2 mt-2" href="https://survey.pagopa.it/238313">Invia suggerimento</a><br>
 
 ###### Nota
 A partire **dal 01/03/2021** PagoPA S.p.A. inserirà dei controlli per verificare l’effettiva messa in esercizio dell’indicazione della tipologia di servizio come specificato.
