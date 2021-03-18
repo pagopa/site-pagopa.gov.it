@@ -9,6 +9,8 @@ order: 22
 
 ---
 
+<span class="badge badge-secondary">New</span> [Comunicato: Pagamento TARI-TEFA mediante l’utilizzo della piattaforma pagoPA – D.M. 21 ottobre 2020](/it/pagopa/documentazione/comunicato-tari-tefa)
+
 ## Documentazione tecnica in consultazione
 
 - <span class="badge badge-secondary">New</span> [Monografia - Gestione accredito e rendicontazione](https://docs.google.com/document/d/102dSzWOALRqQEkiccilUFV02cSwRf8ZvzsI__zgSoM0/edit?usp=sharing)

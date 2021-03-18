@@ -63,4 +63,5 @@ Laurea in materie tecnico-scientifiche. In ogni caso la Società si riserva di v
 
 Roma
 
-Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il **25 marzo 2021**. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
+Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il **25 marzo 2021**. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati. **Nota di aggiornamento al 17 marzo 2021** La Società è alla ricerca di massimo **n.2** risorse per questa posizione.
+
