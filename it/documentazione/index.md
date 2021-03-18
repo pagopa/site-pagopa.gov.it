@@ -14,4 +14,4 @@ order: 22
 
 ---
 
-In questa sezione trovi la documentazione di riferimento per la piattaforma dei pagamenti pagoPA. Si è preferito suddividerla in varie sotto-sezioni per facilitarne la fruibilità.
+In questa sezione trovi la documentazione di riferimento per la piattaforma dei pagamenti pagoPA.
