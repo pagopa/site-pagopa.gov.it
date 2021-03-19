@@ -29,8 +29,7 @@ Qui trovi la documentazione, e gli aggiornamenti, in merito al nuovo workflow di
 
 ##### Serve aiuto?
 
-<!--
-<a class="btn btn-md btn-primary mr-md-4 mb-2 mt-2" href="https://docs.google.com/document/d/1KXYAvhXNDjOurZtlDjsiQ1jdpJHI5DhGX6fgigEd2jg">Domande frequenti</a> --> <a class="btn btn-md btn-outline-primary mr-md-4 mb-2 mt-2" href="https://github.com/pagopa/pagopa-api/issues/">Apri segnalazione</a><br>
+<a class="btn btn-md btn-primary mr-md-4 mb-2 mt-2" href="https://docs.google.com/document/d/1vUjmJMD183i4aYwWCQMsG_VXL9fxNPzG8_5manzW2Og">Domande frequenti</a><a class="btn btn-md btn-outline-primary mr-md-4 mb-2 mt-2" href="https://github.com/pagopa/pagopa-api/issues/">Apri segnalazione</a><br>
 
 ##### Roadmap
 
