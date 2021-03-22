@@ -25,7 +25,7 @@ Qui trovi la documentazione, e gli aggiornamenti, in merito al nuovo workflow di
 - [**Specifiche Attuative del Nodo dei Pagamenti-SPC**](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.4.0/index.html) (SANP-2.4.0) - Allegato B
 - [**Informazioni di dettaglio per gli sviluppatori**](https://pagopa.github.io/pagopa-api/) (DevPortal)
 - [**Repository delle interfacce**](https://github.com/pagopa/pagopa-api/tree/develop) in update (esposte e richieste) per la connessione con il sistema pagoPA
-- [~~Monografia Processo di pagamento presso il PSP con Ente multi-beneficiario~~][monografia] <span class="badge badge-secondary">Deprecato</span>
+- [**Monografia** Processo di pagamento presso il PSP con Ente multi-beneficiario][monografia] recepita nelle SANP-2.4.0
 
 ##### Serve aiuto?
 
@@ -39,7 +39,7 @@ Qui trovi la documentazione, e gli aggiornamenti, in merito al nuovo workflow di
 - Disponibilità delle nuove interfacce in ambiente di Test. Le attuali interfacce (rif. [SANP-2.3.0](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/2.3.0/index.html)) vengono deprecate, ma continueranno a coesistere con le nuove per un tempo sufficientemente congruo prima di essere dismesse.
 - Vengono rilasciate le [SANP-2.4.0](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.4.0/index.html)
 
-###### 22/03/2021
+###### entro il 29/03/2021
 - Disponibilità dei Piani di Test aggiornati alle nuove interfacce - "Piani di Test per Modello di pagamento presso PSP con Ente multi‑beneficiario (Nuovo Modello 3)"
 
 ###### entro il 01/05/2021
