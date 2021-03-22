@@ -59,3 +59,20 @@ it:
     description: "Gestione di convenzioni tra Ente Creditore e PSP, per consentire una riduzione dei costi di commissione a carico del cittadino"
     category: Servizio
     date: 20204
+  - title: "Tassonomia dei servizi di Incasso"
+    description: "La \"Tassonomia dei servizi erogati\" consente agli Ente di identificare uniformemente i servizi di incasso e le rispettive posizioni debitorie."
+    category: Prodotto
+    date: 20211
+  - title: "Modello di pagamento con Ente multi-beneficiario"
+    description: "Nuovo modello di pagamento presso PSP con Ente multi-beneficiario"
+    category: Prodotto
+    date: 20212
+  - title: "Canone Unico"
+    description: "Gestione del Canone Unico, secondo la Legge 27/12/2019, n.160, per la fornitura di servizi di pubblica utilità"
+    category: Servizio
+    date: 20212
+  - title: "API delle Posizioni Debitorie"
+    description: "API, rivolte agli Enti, per gestire le Posizioni Debitorie presso il Nodo"
+    category: Prodotto
+    date: 20213
+
