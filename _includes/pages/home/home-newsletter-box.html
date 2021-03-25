@@ -1,6 +1,11 @@
 <h2 class="mt-5">{{ site.data.t.newsletter[page.lang].title }}</h2>
-<form method="GET" action="https://{{ site.mailup_campaign }}.emailsp.com/frontend/subscribe.aspx"
+<form method="POST" action="#" id="newsletter-form"
   class="newsletter-form">
+  <div class="g-recaptcha"
+      data-sitekey="{{site.google_captcha}}"
+      data-callback="submitNewsletter"
+      data-size="invisible">
+</div>
   <input type="hidden" name="list" value="{{ site.mailup_list }}">
   <div class="form-group my-4">
     <div class="input-group">
@@ -12,8 +17,15 @@
       <label for="email">{{ site.data.t.newsletter[page.lang].placeholder }}</label>
       <input type="email" class="form-control" id="email" name="email">
       <div class="input-group-append">
-        <button class="btn btn-primary" type="submit">{{ site.data.t.newsletter[page.lang].submit_button }}</button>
+        <button class="btn btn-primary" id="newsletter-button" 
+        type="submit">{{ site.data.t.newsletter[page.lang].submit_button }}</button>
       </div>
+    </div>
+    <div class="bg-success rounded p-2 small shadow my-4 text-white  text-center" style="display:none"  role="alert" id="newsletter-ok">
+      Iscrizione alla newsletter avvenuta con successo!
+    </div>
+    <div class="bg-warning rounded p-2 small shadow my-4 text-white text-center" style="display:none" role="alert" id="newsletter-ko">
+      Ci sono problemi di comunicazione col sistema, non siamo riusciti a iscriverti alla newsletter. Riprova più tardi
     </div>
   </div>
 </form>
