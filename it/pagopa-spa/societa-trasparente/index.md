@@ -59,5 +59,5 @@ Questa sezione contiene documenti, informazioni e dati organizzati secondo lo sc
 <hr>
 
 <div class="small" role="alert">
-<b>Contatore visite</b> (dati aggiornati a dicembre 2020): numero di accessi 23. 561, tempo medio di permanenza 46''.
+<b>Dati di accesso a questa sezione</b> (aggiornati al 31/12/2020): numero di accessi 23. 561, tempo medio di permanenza 46''.
 </div>
