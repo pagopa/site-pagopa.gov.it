@@ -14,6 +14,7 @@ function newsletterResponse(success) {
 
 function submitNewsletter(token) {
     var subscriptionUrl = "https://api.io.italia.it/api/payportal/v1/newsletters/pagopa/lists/2/recipients";
+    var email = $("#newsletteremail").val().trim();
     var data = { "recaptchaToken" : token, "email" : email };
     $.ajax({url: subscriptionUrl,
             type: "post",
