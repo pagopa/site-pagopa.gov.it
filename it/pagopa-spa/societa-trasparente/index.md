@@ -55,3 +55,9 @@ Questa sezione contiene documenti, informazioni e dati organizzati secondo lo sc
 </div>
  
 **Privacy**: i dati personali pubblicati sono riutilizzabili solo alle condizioni previste dalla normativa vigente sul riuso dei dati pubblici (direttiva comunitaria 2003/98/CE e D.Lgs. 36/2006 di recepimento della stessa) in termini compatibili con gli scopi per i quali sono stati raccolti e nel rispetto delle norme sulla protezione dei dati personali.
+
+<hr>
+
+<div class="small" role="alert">
+<b>Contatore visite</b> (dati aggiornati a dicembre 2020): numero di accessi 23. 561, tempo medio di permanenza 46''.
+</div>
