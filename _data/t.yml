@@ -89,7 +89,7 @@ newsletter:
     title: "Iscriviti alla newsletter"
     placeholder: "Inserisci la tua email"
     submit_button: "Conferma iscrizione"
-    disclaimer: '<a href="/it/privacy-policy">Privacy policy</a>'
+    disclaimer: '<a href="/it/privacy-policy">Privacy policy newsletter</a>'
 CollapseBtnSee:
   en: "See all"
   it: "Mostra tutto"

@@ -1,3 +1,38 @@
+function newsletterResponse(success) {
+    var ko = $("#newsletter-ko");
+    var ok = $("#newsletter-ok");
+
+    if (success==true) {
+        ko.hide();
+        ok.fadeIn();
+    } else {
+        ok.hide();
+        ko.fadeIn();
+    }
+    $("#newsletter-button").hide();
+}
+
+function submitNewsletter(token) {
+    var subscriptionUrl = "https://api.io.italia.it/api/payportal/v1/newsletters/pagopa/lists/2/recipients";
+    var email = $("#email").val().trim();
+    var data = { "recaptchaToken" : token, "email" : email };
+    $.ajax({url: subscriptionUrl,
+            type: "post",
+            data: JSON.stringify(data),
+            success: function(data, textStatus, xhr) {
+                if (xhr.status==200 && xhr.statusText=="OK") {
+                    newsletterResponse(true);
+                } else {
+                    newsletterResponse(false);
+                }
+            },
+            error: function(data, textStatus, xhr) {
+                newsletterResponse(false);
+            },
+
+           });
+}
+
 $(function() {
     // get "the monday" of a Date
     function getMonday(d) {
@@ -119,7 +154,10 @@ $(function() {
         window.history.replaceState(null,null,'#'+idToHash);
     });
 
-
+    $("#newsletter-form").on("submit" , function(e) {
+        e.preventDefault();
+        grecaptcha.execute();
+    })
 
 
 });
