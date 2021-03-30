@@ -32,7 +32,13 @@ child_of_ref: personale-page
 <br><small>University Relations Manager</small>
 
 [**Lucibello Maria Teresa**](lucibello/)
-<br><small>Direttore - Responsabile affari societari</small>
+<br><small>Direttore Finanza & Amministrazione</small>
+
+[**Menotti Stefano**](menotti/)
+<br><small>Product Owner e Responsabile Service Line Pagamenti & Servizi</small>
+
+[**Russo Francesco**](russo/)
+<br><small>Responsabile Service Sviluppo & Architettura</small>
 
 [**Quaglia Michelangelo**](quaglia/)
 <br><small>Chief Data Officer</small>

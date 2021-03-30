@@ -31,6 +31,10 @@ Questa sezione contiene documenti, informazioni e dati organizzati secondo lo sc
       <svg class="icon icon-primary"><use xlink:href="{{ site.baseurl }}{{ site.data.t.sprite-url }}#it-chevron-right"></use></svg>
       <span>Personale</span>
     </a></li>
+    <li><a class="list-item icon-left" href="{% link it/pagopa-spa/societa-trasparente/consulenti-e-collaboratori/index.md %}">
+      <svg class="icon icon-primary"><use xlink:href="{{ site.baseurl }}{{ site.data.t.sprite-url }}#it-chevron-right"></use></svg>
+      <span>Consulenti e collaboratori</span>
+    </a></li>
     <li><a class="list-item icon-left" href="{% link it/pagopa-spa/societa-trasparente/selezione-del-personale/index.md %}">
       <svg class="icon icon-primary"><use xlink:href="{{ site.baseurl }}{{ site.data.t.sprite-url }}#it-chevron-right"></use></svg>
       <span>Selezione del personale</span>
