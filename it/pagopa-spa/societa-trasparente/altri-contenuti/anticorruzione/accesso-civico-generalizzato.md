@@ -48,7 +48,7 @@ c) interessi economici e commerciali della persona fisica o giuridica, ivi inclu
 L’accesso civico generalizzato, inoltre, è rifiutato nei casi di segreto di Stato e negli altri casi di volta in volta previsti dalla Legge.
 
 ### Cosa fare in caso di diniego?
-Se la Società oppone un diniego totale o parziale all’accesso o nel caso di mancata risposta, l’istante può presentare istanza di riesame entro il termine di trenta giorni, inviando il seguente modulo:
+Se la Società oppone un diniego totale o parziale all’accesso o nel caso di mancata risposta, l’istante può presentare istanza di riesame entro il termine di trenta giorni, inviando il seguente [modulo](../modulo-istanza-potere-esecutivo-generalizzato.rtf):
 - a mezzo mail: <poteresostitutivo@pagopa.it>
 - a mezzo posta ordinaria o a mani: presso la sede operativa della Società, sita in Roma, alla Via Sardegna n. 38 - CAP 00187;
 - a mezzo PEC all’indirizzo pagopa@pec.governo.it scrivendo nell’oggetto _“riesame accesso civico generalizzato”_.
