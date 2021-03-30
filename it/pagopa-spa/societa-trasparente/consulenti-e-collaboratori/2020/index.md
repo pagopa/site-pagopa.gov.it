@@ -15,6 +15,7 @@ Primo co.co.co
 * Data di inizio: 1 febbraio 2020
 * Data di chiusura: 1 agosto 2020
 * Compenso: 40.000 euro
+
 Secondo co.co.co 
 * Consulenza per SDK - Progetto IO
 * Data di inizio: 1 settembre 2020
