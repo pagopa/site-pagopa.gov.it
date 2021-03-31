@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lucibello Maria Teresa
-description: Direttore - Responsabile affari societari
+description: Direttore Finanza & Amministrazione
 lang: it
 ref: lucibello-maria-teresa
 order: 25
