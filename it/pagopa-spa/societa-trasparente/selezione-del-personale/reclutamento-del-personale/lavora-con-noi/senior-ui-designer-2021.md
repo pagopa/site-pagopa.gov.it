@@ -5,13 +5,15 @@ lang: it
 layout: job
 ref: senior-ui-designer-2021
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/IVN6ezREhi/Senior-UI-Designer
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 29/01/2021
     chiusura: 31/03/2021
+    numassunte: selezione in corso
     
 ---
 
