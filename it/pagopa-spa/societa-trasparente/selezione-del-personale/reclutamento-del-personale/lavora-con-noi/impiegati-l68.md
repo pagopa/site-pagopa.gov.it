@@ -5,13 +5,16 @@ lang: it
 layout: job
 ref: impiegati-l68
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/5MhN8VxrnQ/Impiegati-Amministrativi-E-Tecnici-Ai-Sensi-Della-L681999
+jazz_url: 
 pec_cv: false
 iframeheight: 2000
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 26/10/2020
     chiusura: 31/03/2021
+    numricercate: 4
+    numassunte: selezione in corso
 ---
 
 
