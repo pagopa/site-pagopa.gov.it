@@ -1,0 +1,28 @@
+it:
+  - title: Come posso accedere al  servizio Canone Unico?
+    body: "Per poter utilizzare il servizio Canone Unico, devi procedere alla sua sottoscrizione scaricando e compilando il [presente modulo](./modulo-adesione-canone-unico-corporate.rtf) e inviarlo via PEC all’indirizzo <pagamenticorporate@pec.pagopa.it>. In questo modo PagoPA SpA acquisisce le informazioni necessarie per predisporre la generazione degli avvisi di pagamento. Riceverai in risposta la conferma dell’avvenuta adesione, un file CSV da compilare e le linee guida della procedura."
+    cat: "1|Corporate"
+  - title: Come posso utilizzare il  servizio Canone Unico?
+    body: "Dopo aver ricevuto risposta alla domanda di adesione, dovrai compilare i campi di tua competenza del file CSV di cui sopra ([esempio](./esempio-dati-canone-unico.xlsx)) ed inviarlo sempre tramite PEC all’indirizzo <pagamenticorporate@pec.pagopa.it>. La compilazione del file dovrà rispettare alcuni requisiti minimi che sono dettagliati nelle specifiche tecniche.\n\n
+    In questo modo la società Corporate comunica in autodichiarazione gli importi verso gli Enti (Comuni e Province) per cui deve effettuare i versamenti del Canone Unico.\n\n
+    Entro qualche giorno riceverai risposta alla mail con il medesimo file compilato nei campi di competenza di PagoPA SpA e, in particolare, con i numeri avviso."
+    cat: "1|Corporate"
+  - title: Come effettuo i pagamenti?
+    body: "Con il file CSV ricevuto da PagoPA SpA completo di tutti i dati, potrai rivolgerti ad un qualsiasi PSP abilitato alla gestione massiva dei pagamenti pagoPA. Dovrai a questo punto fornire al tuo PSP, sulla base del file ricevuto via PEC, le informazioni necessarie ad instradare il pagamento massivo delle posizioni debitorie originate da PagoPA SpA."
+    cat: "1|Corporate"
+  - title: Come comunico agli Enti Creditori (Comuni e Province) i pagamenti effettuati?
+    body: "Ai sensi del Comma 831, art. 1, Legge 160/2019 così come modificato dal comma 838, art. 1, Legge 178/2020, dovrai comunicare all’Ente creditore l’importo che hai calcolato in autoliquidazione, quindi da pagare o già pagato.\n\n
+    Le società Corporate possono adottare soluzioni di comunicazione differenziate verso gli Enti creditori: alcune effettuano la comunicazione in via preventiva e successivamente procedono al pagamento, in questo caso la comunicazione di avvenuto pagamento è informativa e potrà essere effettuata anche dopo la scadenza del 30 aprile. Altre, prima effettuano il pagamento e successivamente inviano comunicazione (di avvenuto pagamento) sempre entro il termine del 30 aprile.\n\n
+    In entrambi i casi, una volta ottenuta la posizione debitoria da pagoPA SpA, potrai comunicare all’Ente, via PEC, il prossimo o l’avvenuto pagamento."
+    cat: "1|Corporate"
+  - title: Come posso aderire alla soluzione Canone Unico e ricevere i pagamenti da parte delle Corporate?
+    body: "Non è richiesta alcuna attività da parte degli Enti creditori. La soluzione è automaticamente a disposizione di tutti gli Enti (Comuni e Province)."
+    cat: "1|Enti (Comuni e Province)"
+  - title: Dove riceverò gli accrediti del Canone Unico?
+    body: "Gli accrediti verranno veicolati sull’ultimo conto corrente censito dal Referente dei Pagamenti sul Portale delle Adesioni della piattaforma pagoPA."
+    cat: "1|Enti (Comuni e Province)"
+  - title: Quali informazioni ricevo in merito ai pagamenti del Canone Unico?
+    body: "Attraverso la soluzione Canone Unico avrai a disposizione:\n\n
+- le Ricevute Telematiche corrispondenti ai versamenti effettuati, solo per questa prima scadenza, tramite PEC/mail;\n
+- i flussi di rendicontazione sulla piattaforma pagoPA.\n"
+    cat: "1|Enti (Comuni e Province)"
