@@ -5,13 +5,15 @@ lang: it
 layout: job
 ref: product-owner2
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/YYsLH1vx7s/Product-Owner
+jazz_url: 
 pec_cv: false
 iframeheight: 2000
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 27/01/2021
     chiusura: 31/03/2021
+    numassunte: selezione in corso
 ---
 
 PagoPA S.p.A. è alla ricerca di n. 1  Product Owner che sotto la propria responsabilità guidi da un punto di vista sia tecnico che di business i prodotti e servizi sviluppati dalla società avendo cura di comunicare e negoziare con gli stakeholder del progetto al fine di risolvere eventuali conflitti presenti e garantire il raggiungimento degli obiettivi aziendali.
