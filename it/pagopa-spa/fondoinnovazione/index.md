@@ -36,9 +36,9 @@ I contributi sono infatti subordinati al raggiungimento di specifici obiettivi e
 
 Se sei un Comune ammesso all’Avviso, potrai richiedere i contributi in **due fasi distinte**,  in base all’obiettivo di adozione e integrazione delle piattaforme abilitanti raggiunto. 
 
-Al conseguimento degli obiettivi, potrai richiedere l’erogazione del contributo tramite l’apposita procedura online:
+Al conseguimento degli obiettivi, potrai richiedere l’erogazione del contributo tramite l’apposita [piattaforma online](https://fondoinnovazione.pagopa.it/dici/#/secure/login):
 
-- **entro il 31 marzo 2021** per l’erogazione del **20%** del contributo per le attività verificate al 28 Febbraio 2021;<br><span class="badge badge-secondary">NEW</span> _È ora disponibile sulla [piattaforma online](https://fondoinnovazione.pagopa.it/dici/#/secure/login) il modulo per la richiesta di erogazione del contributo_
+- **entro il 31 marzo 2021** per l’erogazione del **20%** del contributo per le attività verificate al 28 Febbraio 2021;
 - **entro il 31 gennaio 2022** per l’erogazione dell’**80%** del contributo per le attività verificate al 31 dicembre 2021 - _La modulistica sarà disponibile a partire dal 30 luglio 2021_
 
 Ricorda che alle richieste di erogazione del contributo seguirà una **fase istruttoria** (vedi in calce l'Allegato 3) che consisterà nella verifica delle attività e del raggiungimento degli obiettivi.
