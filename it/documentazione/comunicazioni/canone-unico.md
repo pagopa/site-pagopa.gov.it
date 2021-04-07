@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 child_of_ref: documentazione-comunicazioni
 ---
 
-Tramite la Soluzione “Canone Unico”, le società Corporate potranno effettuare pagamenti del Canone Unico in modalità massiva ed integrata all’interno dei sistemi di fatturazione passiva.
+Come [comunicato](https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/Fiscalita-locale/comunicato-versamento-canone-unico-24.03.2021.pdf) dal Dipartimento delle Finanze del MEF in data 25 marzo, tramite la Soluzione “Canone Unico”, le società Corporate potranno effettuare pagamenti del Canone Unico in modalità massiva ed integrata all’interno dei sistemi di fatturazione passiva.
  
 La Legge del 27 dicembre 2019, n. 160 (legge di bilancio 2020), ha introdotto il Canone Unico anche per le occupazioni permanenti con cavi e condutture per la fornitura di servizi di pubblica utilità, la cui scadenza è prevista per il 30 aprile di ogni anno, a decorrere dal 2021.
  
