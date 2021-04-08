@@ -1,5 +1,5 @@
 ---
-title: data strategy associate
+title: Data Strategy Associate
 description:
 lang: it
 layout: job
