@@ -31,7 +31,8 @@ In questo momento non ci sono posizioni aperte. Tieni d’occhio questo sito per
 
 <dl class="row">
   <dt class="col-sm-3">Durata</dt>
-  <dd class="col-sm-9">Tempo indeterminato</dd>
+  <dd class="col-sm-9">Tempo Indeterminato, Tempo Determinato, Apprendistato.<br>
+  <small>La tipologia di inquadramento sarà determinata tenendo conto delle caratteristiche e dei requisiti specifici posseduti dal candidato/i  selezionati.</small></dd>
 
   <dt class="col-sm-3">Tipo di contratto</dt>
   <dd class="col-sm-9">Contratto nazionale di lavoro commercio, servizi e terziario</dd>
