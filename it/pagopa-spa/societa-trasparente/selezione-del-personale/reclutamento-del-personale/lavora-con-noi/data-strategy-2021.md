@@ -1,10 +1,10 @@
 ---
-title: data strategy associate
+title: Data Strategy Associate
 description:
 lang: it
 layout: job
-ref: jlc-2021
-child_of_ref: data-strategy
+ref: data-strategy-2021
+child_of_ref: lavora-con-noi
 jazz_url: https://pagopa.applytojob.com/apply/IICdpx0P1i/Data-Strategy-Associate
 pec_cv: false
 iframeheight: 2300
