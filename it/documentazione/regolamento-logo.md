@@ -5,7 +5,7 @@ description:
 lang: it
 ref: regolamento-logo
 child_of_ref: documentazione
-order: 25
+order: 27
 ---
 
 Qui trovi informazioni sull'uso del logo pagoPA.

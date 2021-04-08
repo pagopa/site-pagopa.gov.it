@@ -6,6 +6,7 @@
   {% assign faq_grouped = faq_grouped | where: "name", include.filteredby %}
 {%endif%}
 <div class="page-faq affix-parent">
+{% unless include.narrow %}
 <div class="affix-top float-right border-left col-md-4 ml-4 mt-4 d-none d-md-block" >
   <div class="p-3">
     <ul class="m-0 list-unstyled">
@@ -18,9 +19,10 @@
     </ul>
   </div>
 </div>
+{%endunless%}
     <div class="">
       <div id="faq" class="pb-5">
-    <div class="row p-3 justify-content-md-center">
+    <div class="row justify-content-md-center {% unless include.narrow %}p-3{%endunless%}">
       <div class="col-12">
         {% assign findex =  0 %}
         {% for group in faq_grouped %}
@@ -29,12 +31,11 @@
 
         {% unless include.filteredby %}
         <a name="faq{{group.name | split: '|' | first}}"></a>
-        <h3 class="{% if gindex == 1 %}mt-0{%endif%}">{{group.name | split: '|' | last}}</h3>
+        <h3 class="{% if include.narrow %}h4 {% endif %} {% if gindex == 1 %}mt-0{%endif%}">{{group.name | split: '|' | last}}</h3>
         {%endunless%}
         <div id="accordionDivFAQ{{gindex}}" class="collapse-faq collapse-div" role="tablist">
           {% for f in group.items %}
           {% capture findex %}{{ findex | plus: 1 }}{% endcapture %}
-          
           <a name="n{{findex }}"></a>
           <div class="collapse-header" id="heading{{findex}}">
             <button data-toggle="collapse" data-nfaq="n{{findex}}" data-target="#accordion{{findex}}" aria-expanded="false" aria-controls="accordion{{findex}}">
