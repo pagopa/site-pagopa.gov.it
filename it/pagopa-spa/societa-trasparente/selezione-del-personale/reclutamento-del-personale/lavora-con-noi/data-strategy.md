@@ -5,7 +5,7 @@ lang: it
 layout: job
 ref: jlc-2021
 child_of_ref: data-strategy
-jazz_url:https://pagopa.applytojob.com/apply/IICdpx0P1i/Data-Strategy-Associate
+jazz_url: https://pagopa.applytojob.com/apply/IICdpx0P1i/Data-Strategy-Associate
 pec_cv: false
 iframeheight: 2300
 is_new: true
