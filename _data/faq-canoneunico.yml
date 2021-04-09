@@ -3,7 +3,7 @@ it:
     body: "Per poter utilizzare il servizio Canone Unico, devi procedere alla sua sottoscrizione scaricando e compilando il [presente modulo](/it/documentazione/comunicazioni/modulo-adesione-canone-unico-corporate.rtf) e inviarlo via PEC all’indirizzo <pagamenticorporate@pec.pagopa.it>. In questo modo PagoPA SpA acquisisce le informazioni necessarie per predisporre la generazione degli avvisi di pagamento. Riceverai in risposta la conferma dell’avvenuta adesione, un file CSV da compilare e le linee guida della procedura."
     cat: "1|Corporate"
   - title: Come posso utilizzare il  servizio Canone Unico?
-    body: "Dopo aver ricevuto risposta alla domanda di adesione, dovrai compilare i campi di tua competenza del file CSV di cui sopra ([esempio](/it/documentazione/comunicazioni/esempio-dati-canone-unico.xlsx)) ed inviarlo sempre tramite PEC all’indirizzo <pagamenticorporate@pec.pagopa.it>. La compilazione del file dovrà rispettare alcuni requisiti minimi che sono dettagliati nelle specifiche tecniche.\n\n
+    body: "Dopo aver ricevuto risposta alla domanda di adesione, dovrai compilare i campi di tua competenza del file CSV di cui sopra ([esempio](/it/documentazione/comunicazioni/esempio-dati-canone-unico.xlsx)) ed inviarlo sempre tramite PEC all’indirizzo <pagamenticorporate@pec.pagopa.it>. La compilazione del file dovrà rispettare alcuni requisiti minimi dettagliati nel file di esempio.\n\n
     In questo modo la società Corporate comunica in autodichiarazione gli importi verso gli Enti (Comuni e Province) per cui deve effettuare i versamenti del Canone Unico.\n\n
     Entro qualche giorno riceverai risposta alla mail con il medesimo file compilato nei campi di competenza di PagoPA SpA e, in particolare, con i numeri avviso."
     cat: "1|Corporate"
@@ -19,12 +19,15 @@ In ogni caso, detta comunicazione non va confusa con l’autodichiarazione del n
     cat: "1|Corporate"
   - title: Come posso aderire alla soluzione Canone Unico e ricevere i pagamenti da parte delle Corporate?
     body: "Non è richiesta alcuna attività da parte degli Enti creditori. La soluzione è automaticamente a disposizione di tutti gli Enti (Comuni e Province)."
-    cat: "1|Enti (Comuni e Province)"
+    cat: "2|Enti (Comuni e Province)"
   - title: Dove riceverò gli accrediti del Canone Unico?
     body: "Gli accrediti verranno veicolati sull’ultimo conto corrente censito dal Referente dei Pagamenti sul Portale delle Adesioni della piattaforma pagoPA."
-    cat: "1|Enti (Comuni e Province)"
+    cat: "2|Enti (Comuni e Province)"
   - title: Quali informazioni ricevo in merito ai pagamenti del Canone Unico?
     body: "Attraverso la soluzione Canone Unico avrai a disposizione:\n\n
-- le Ricevute Telematiche corrispondenti ai versamenti effettuati, solo per questa prima scadenza, tramite PEC/mail;\n
+- le Ricevute Telematiche corrispondenti ai versamenti effettuati, solo per questa prima scadenza, verranno inviate dalla società Corporate tramite PEC;\n
 - i flussi di rendicontazione sulla piattaforma pagoPA.\n"
-    cat: "1|Enti (Comuni e Province)"
+    cat: "2|Enti (Comuni e Province)"
+  - title: Cosa comunico agli Enti Creditori (Comuni e Province)?
+    body: "All’Ente dovrai inviare la Ricevuta Telematica (RT) che riporta l’esito di avvenuto pagamento. La RT ti verrà fornita da PagoPA SpA, inviandola all’indirizzo email che hai indicato all’interno del file CSV nel campo “debtor_email”. La comunicazione di avvenuto pagamento che invierai all’Ente via PEC, dovrà contenere in allegato la RT."
+    cat: "1|Corporate"
