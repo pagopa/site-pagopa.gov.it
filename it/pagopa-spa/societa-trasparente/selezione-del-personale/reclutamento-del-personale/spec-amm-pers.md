@@ -1,11 +1,11 @@
 ---
-title: Specialista - Amministrazione -del - personale
+title: Specialista Amministrazione del Personale
 description:
 lang: it
 layout: job
-ref: jlc-2021
-child_of_ref: specialista-amministrazione -personale
-jazz_url:https://pagopa.applytojob.com/apply/qlF4gOCZjD/Specialista-Amministrazione-Del-Personale
+ref: spec-amm-pers
+child_of_ref: specialista-amministrazione-personale
+jazz_url: https://pagopa.applytojob.com/apply/qlF4gOCZjD/Specialista-Amministrazione-Del-Personale
 pec_cv: false
 iframeheight: 2300
 is_new: true
