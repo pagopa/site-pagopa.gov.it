@@ -24,20 +24,13 @@ Qui trovi la documentazione, e gli aggiornamenti, in merito al nuovo workflow di
 
 ##### Roadmap
 
-<!-- Riprendendo quanto anticipato in [§2.2 della Monografia][monografia]: --> 
-
 ###### 05/03/2021
 - Disponibilità delle nuove interfacce in ambiente di Test. Le attuali interfacce (rif. [SANP-2.3.0](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/2.3.0/index.html)) vengono deprecate, ma continueranno a coesistere con le nuove per un tempo sufficientemente congruo prima di essere dismesse.
 - Vengono rilasciate le [SANP-2.4.0](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.4.0/index.html)
-
-###### entro il 09/04/2021
-- Disponibilità dei Piani di Test aggiornati alle nuove interfacce - "Piani di Test per Modello di pagamento presso PSP con Ente multi‑beneficiario (Nuovo Modello 3)"
 
 ###### entro il 01/05/2021
 - I PSP devono aver adeguato i propri sistemi alle nuove interfacce.
 
 ###### entro il 31/12/2021
 - Gli EC devono aver adeguato i propri sistemi alle nuove interfacce.
-
-[monografia]: https://docs.google.com/document/d/1qmQ12SfkhjJGss--d5mQwqrcMCb9pF4JHj-k8w8X9jM/view#heading=h.39m7i6bxg7aa
 

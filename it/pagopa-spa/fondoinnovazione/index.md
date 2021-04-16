@@ -45,11 +45,9 @@ Ricorda che alle richieste di erogazione del contributo seguirà una **fase istr
 
 ### Come ricevere assistenza
 
-A supporto dell’iniziativa è stato costituito un **helpdesk dedicato** per assistenza tecnica e amministrativa. Per tutto il periodo di vigenza dell’Avviso Pubblico, **puoi contattarci scrivendo una mail a [fondomid@eng.it](mailto:fondomid@eng.it)**, alla quale riceverai risposta in tempi rapidi.
+A supporto dell’iniziativa è stato costituito un **helpdesk dedicato** per assistenza tecnica e amministrativa. Per tutto il periodo di vigenza dell’Avviso Pubblico, **puoi contattarci scrivendo una mail a [fondomid@eng.it](mailto:fondomid@eng.it)**.
 
-In alternativa, potrai chiamare **il numero 06-87805015**, dal lunedì al venerdì dalle ore 08:30 alle ore 18:00 (esclusi i giorni festivi) oppure **prenotare un appuntamento in video** tramite i canali disponibili sulla piattaforma.
-
-Inoltre, potrai sempre consultare il **Manuale Operativo** disponibile sulla [piattaforma online](https://fondoinnovazione.pagopa.it/).
+Oppure **prenotando un appuntamento telefonico o in video** tramite la [piattaforma online](https://fondoinnovazione.pagopa.it/dici/#/secure/login), sulla quale inoltre potrai sempre consultare il **Manuale Operativo**.
 
 Per maggiori informazioni sulle piattaforme abilitanti, potrai invece essere indirizzato agli **account territoriali di PagoPA S.p.A.** per pagoPA e App IO e alle strutture competenti dell’Agenzia per l’Italia Digitale (AgID) per SPID e dell’Istituto Poligrafico e Zecca dello Stato per CIE, che potranno affiancarti nella gestione operativa di adesione e migrazione dei servizi.
 ### Informazioni e materiali utili
