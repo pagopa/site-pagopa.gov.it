@@ -26,11 +26,5 @@ Qui trovi la documentazione, e gli aggiornamenti, in merito al nuovo workflow di
 
 ###### 05/03/2021
 - Disponibilità delle nuove interfacce in ambiente di Test. Le attuali interfacce (rif. [SANP-2.3.0](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/2.3.0/index.html)) vengono deprecate, ma continueranno a coesistere con le nuove per un tempo sufficientemente congruo prima di essere dismesse.
-- Vengono rilasciate le [SANP-2.4.0](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.4.0/index.html)
-
-###### entro il 01/05/2021
-- I PSP devono aver adeguato i propri sistemi alle nuove interfacce.
-
-###### entro il 31/12/2021
-- Gli EC devono aver adeguato i propri sistemi alle nuove interfacce.
+- Rilasciate [SANP-2.4.0](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.4.0/index.html)
 
