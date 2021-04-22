@@ -13,7 +13,7 @@ metadata:
     apertura: 09/11/2020
     chiusura: 10/12/2020
     numricercate: 1
-    numassunte: 3 alla luce delle aggiornate necessità aziendali
+    numassunte: 4 alla luce delle aggiornate necessità aziendali
 ---
 
 PagoPA S.p.A. è alla ricerca di un **Legal Counsel**, che entri a far parte del team Legal & Compliance e si occupi di gestire ogni adempimento e iniziativa per assicurare la corretta applicazione delle decisioni aziendali sotto il profilo legale.
