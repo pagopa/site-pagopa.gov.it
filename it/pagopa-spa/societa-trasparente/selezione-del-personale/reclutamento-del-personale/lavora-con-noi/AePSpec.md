@@ -3,7 +3,7 @@ title: Administrative&Procurement Specialist
 description:
 lang: it
 layout: job
-ref: A&PSpec
+ref: AePSpec
 child_of_ref: lavora-con-noi
 jazz_url: https://pagopa.applytojob.com/apply/fNzozDxCa0/AdministrativeProcurement-Specialist
 pec_cv: false
