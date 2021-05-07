@@ -42,14 +42,10 @@ Le principali responsabilità del _Administrative&Procurement Specialist_ includ
 - ottima conoscenza della lingua Inglese.
 
 ### Formazione richiesta 
-Laurea in Giurisprudenza
+Laurea in Giurisprudenza. In ogni caso la Società si riserva di valutare laureati in altre materie e/o candidati non laureati con forte esperienza nel ruolo e/o nei settori di interesse. 
 
 ### Requisito preferenziale
 Formazione post laurea (master di I o di II livello o dottorato di ricerca)in materie pubblicistiche.
- 
-### Sede di lavoro:
-
-- Roma
 
  
 Per applicare, invia il tuo CV e la tua lettera di motivazione (facoltativa) entro e non oltre il **23/05/2021**. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate.
