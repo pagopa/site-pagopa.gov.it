@@ -3,9 +3,9 @@ title: Business Developer
 description:
 lang: it
 layout: job
-ref: A&PSpec
+ref: BusinessDev
 child_of_ref: lavora-con-noi
-jazz_url: https://20190925103830_vfoabirmgu6pvula.applytojob.com/apply/Vl9U1O4GDO/Business-Developer
+jazz_url: https://pagopa.applytojob.com/apply/Vl9U1O4GDO/Business-Developer
 pec_cv: false
 iframeheight: 2300
 is_new: true
