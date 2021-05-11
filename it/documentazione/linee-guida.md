@@ -44,7 +44,7 @@ Qui trovi la documentazione in merito alla "Tassonomia dei servizi erogati" che 
 
 - [**Monografia** sulla Tassonomia dei servizi di incasso](https://docs.google.com/document/d/1OawsOwvMOxgLGB3KXNeqJTxrX2XYD7q0HZ8RNrZdimg/view) recepita nelle SANP-2.4.0
 -  [**Specifiche Attuative del Nodo dei Pagamenti-SPC**](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.4.0/_docs/sezione2-gestione-posizione-debitoria/2_01_00_gestione_posizione_debitoria.html#tassonomia-dei-servizi) (SANP 2.4.0) - Allegato B
-- [**Tabella tassonomica**](https://drive.google.com/file/d/13xOd__Qd4pwKHr3wjE-73NAB2O7UKmIt/view) e sua versione in [formato XML](https://github.com/pagopa/pagopa-api/blob/develop/general/paymentCategory.xsd) (in aggiornamento)
+- [**Tabella tassonomica**](https://drive.google.com/file/d/13xOd__Qd4pwKHr3wjE-73NAB2O7UKmIt/view) e sua versione in [formato JSON](https://github.com/pagopa/pagopa-api/blob/develop/taxonomy/tassonomia.json) (in aggiornamento)
 
 ##### Desideri contribuire al miglioramento della Tassonomia?
 

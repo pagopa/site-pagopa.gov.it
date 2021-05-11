@@ -5,13 +5,16 @@ lang: it
 layout: job
 ref: tpm
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/5z4Tp2lMSz/Infrastructure-Security-Engineer
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 05/02/2021
     chiusura: 30/04/2021
+    numricercate: max. 2
+    numassunte: selezione in corso
 ---
 ###  Infrastructure Security Engineer
 

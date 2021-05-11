@@ -5,13 +5,15 @@ lang: it
 layout: job
 ref: junior-software-engineer
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/mmXZfFcn75/Junior-Software-Engineer
+jazz_url:
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 metadata:
   apertura: 26/10/2020
   chiusura: 30/04/2021
+  numassunte: selezione in corso
 ---
 
 Stiamo cercando persone dotate di passione, grinta e integrità, che condividano la nostra missione.
