@@ -31,7 +31,7 @@ Le principali responsabilità del _Business Developer_ includono:
 
 ### Requisiti minimi (personali e professionali)
 
-- almeno 5 di esperienza consolidata nel settore dei pagamenti, con ampia conoscenza del mercato di riferimento, del quadro normativo, di bisogni e prerogative dei vari attori coinvolti (provider, banche, aziende), di value chain e prodotti; oppure preferibilmente almeno 5 anni di consulenza nel ruolo di Business Analyst;
+- almeno 5 di esperienza consolidata nel settore dei pagamenti, con ampia conoscenza del mercato di riferimento, del quadro normativo, di bisogni e prerogative dei vari attori coinvolti (provider, banche, aziende), di value chain e prodotti; oppure preferibilmente almeno 5 anni di consulenza;
 - capacità di elaborare e interpretare le informazioni tecniche e commerciali, con marcato orientamento all’innovazione, grazie ad esperienze nel lancio di progetti/prodotti/iniziative innovative;
 - esperienza in progetti con team eterogenei per lo sviluppo di piattaforme digitali e applicazioni mobile con una particolare attenzione dell’esperienza utente;
 - esperienza nella gestione e il coordinamento di diverse fasi di sviluppo (architettura, design, sviluppo, realizzazione, fornitura, monitoraggio e gestione operativa);
