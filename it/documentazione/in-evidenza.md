@@ -14,7 +14,7 @@ Qui trovi informazioni sulle **principali novità** sulla piattaforma dei pagame
 
 Qui trovi la documentazione, e gli aggiornamenti, in merito al nuovo workflow di pagamento con avviso che rimuove la limitazione di un unico beneficiario, cioè consente la possibilità di gestire con un unico avviso anche i casi in cui l’importo pagato sia accreditato, in quota parte, su conti di diversi Enti beneficiari (es: tributo TARI/TEFA).
 
-- [**Specifiche Attuative del Nodo dei Pagamenti-SPC**](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.4.0/index.html) (SANP-2.4.0) - Allegato B
+- [**Specifiche Attuative del Nodo dei Pagamenti-SPC**](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.4.1/index.html) (SANP-2.4.1) - Allegato B
 - [**Informazioni di dettaglio per gli sviluppatori**](https://pagopa.github.io/pagopa-api/) (DevPortal)
 - [**Repository delle interfacce**](https://github.com/pagopa/pagopa-api/tree/develop) in update (esposte e richieste) per la connessione con il sistema pagoPA
 
