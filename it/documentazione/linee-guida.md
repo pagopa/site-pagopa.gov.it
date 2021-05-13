@@ -1,14 +1,12 @@
 ---
 layout: page
 title: Linee Guida
-description:
+description: Linee guida e regole tecniche
 lang: it
 ref: linee-guida
 child_of_ref: documentazione
-order: 24
+order: 25
 ---
-
-## Linee guida e regole tecniche
 
 Le <a href="https://www.gazzettaufficiale.it/eli/id/2018/07/03/18A04494/sg" target="_blank">Linee guida per l’effettuazione dei pagamenti elettronici a favore delle pubbliche amministrazioni e dei gestori di pubblici (v1.2 - febbraio 2018)</a> definiscono regole, standard e specifiche tecniche che le PA e i PSP devono seguire per integrarsi al sistema pagoPA.
 
@@ -38,3 +36,21 @@ Le Linee guida sono corredate da **due allegati tecnici**:
 - [Kit per le immagini standard previste sull'avviso analogico](https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/materiale_sviluppatori/avviso-pagopa-assets.zip)
 
 (\*) ulteriore materiale sarà pubblicato su <https://developers.italia.it/>
+
+
+## Tassonomia dei Servizi
+
+Qui trovi la documentazione in merito alla "Tassonomia dei servizi erogati" che consente ad ogni Ente Creditore di identificare uniformemente i servizi di incasso e le rispettive posizioni debitorie che transitano tramite la Piattaforma pagoPA.
+
+- [**Monografia** sulla Tassonomia dei servizi di incasso](https://docs.google.com/document/d/1OawsOwvMOxgLGB3KXNeqJTxrX2XYD7q0HZ8RNrZdimg/view) recepita nelle SANP-2.4.0
+-  [**Specifiche Attuative del Nodo dei Pagamenti-SPC**](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.4.0/_docs/sezione2-gestione-posizione-debitoria/2_01_00_gestione_posizione_debitoria.html#tassonomia-dei-servizi) (SANP 2.4.0) - Allegato B
+- [**Tabella tassonomica**](https://drive.google.com/file/d/13xOd__Qd4pwKHr3wjE-73NAB2O7UKmIt/view) e sua versione in [formato JSON](https://github.com/pagopa/pagopa-api/blob/develop/taxonomy/tassonomia.json) (in aggiornamento)
+
+##### Desideri contribuire al miglioramento della Tassonomia?
+
+<a class="btn btn-md btn-outline-primary mr-md-4 mb-2 mt-2" href="https://survey.pagopa.it/238313">Invia suggerimento</a><br>
+
+###### Nota
+A partire **dal 01/03/2021** PagoPA S.p.A. inserirà dei controlli per verificare l’effettiva messa in esercizio dell’indicazione della tipologia di servizio come specificato.
+
+Le posizioni debitorie emesse **prima del 28/02/2021**, che hanno una data di scadenza successiva al 28/02/2021, dovranno essere adeguate ai codici tassonomici pubblicati da PagoPA S.p.A.

@@ -36,20 +36,18 @@ I contributi sono infatti subordinati al raggiungimento di specifici obiettivi e
 
 Se sei un Comune ammesso all’Avviso, potrai richiedere i contributi in **due fasi distinte**,  in base all’obiettivo di adozione e integrazione delle piattaforme abilitanti raggiunto. 
 
-Al conseguimento degli obiettivi, potrai richiedere l’erogazione del contributo tramite l’apposita procedura online:
+Al conseguimento degli obiettivi, potrai richiedere l’erogazione del contributo tramite l’apposita [piattaforma online](https://fondoinnovazione.pagopa.it/dici/#/secure/login):
 
-- **entro il 31 marzo 2021** per l’erogazione del **20%** del contributo per le attività verificate al 28 Febbraio 2021;<br><span class="badge badge-secondary">NEW</span> _È ora disponibile sulla [piattaforma online](https://fondoinnovazione.pagopa.it/dici/#/secure/login) il modulo per la richiesta di erogazione del contributo_
+- **entro il 31 marzo 2021** per l’erogazione del **20%** del contributo per le attività verificate al 28 Febbraio 2021;
 - **entro il 31 gennaio 2022** per l’erogazione dell’**80%** del contributo per le attività verificate al 31 dicembre 2021 - _La modulistica sarà disponibile a partire dal 30 luglio 2021_
 
 Ricorda che alle richieste di erogazione del contributo seguirà una **fase istruttoria** (vedi in calce l'Allegato 3) che consisterà nella verifica delle attività e del raggiungimento degli obiettivi.
 
 ### Come ricevere assistenza
 
-A supporto dell’iniziativa è stato costituito un **helpdesk dedicato** per assistenza tecnica e amministrativa. Per tutto il periodo di vigenza dell’Avviso Pubblico, **puoi contattarci scrivendo una mail a [fondomid@eng.it](mailto:fondomid@eng.it)**, alla quale riceverai risposta in tempi rapidi.
+A supporto dell’iniziativa è stato costituito un **helpdesk dedicato** per assistenza tecnica e amministrativa. Per tutto il periodo di vigenza dell’Avviso Pubblico, **puoi contattarci scrivendo una mail a [fondomid@eng.it](mailto:fondomid@eng.it)**.
 
-In alternativa, potrai chiamare **il numero 06-87805015**, dal lunedì al venerdì dalle ore 08:30 alle ore 18:00 (esclusi i giorni festivi) oppure **prenotare un appuntamento in video** tramite i canali disponibili sulla piattaforma.
-
-Inoltre, potrai sempre consultare il **Manuale Operativo** disponibile sulla [piattaforma online](https://fondoinnovazione.pagopa.it/).
+Oppure **prenotando un appuntamento telefonico o in video** tramite la [piattaforma online](https://fondoinnovazione.pagopa.it/dici/#/secure/login), sulla quale inoltre potrai sempre consultare il **Manuale Operativo**.
 
 Per maggiori informazioni sulle piattaforme abilitanti, potrai invece essere indirizzato agli **account territoriali di PagoPA S.p.A.** per pagoPA e App IO e alle strutture competenti dell’Agenzia per l’Italia Digitale (AgID) per SPID e dell’Istituto Poligrafico e Zecca dello Stato per CIE, che potranno affiancarti nella gestione operativa di adesione e migrazione dei servizi.
 ### Informazioni e materiali utili

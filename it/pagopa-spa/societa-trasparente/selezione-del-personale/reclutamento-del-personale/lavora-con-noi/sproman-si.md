@@ -55,5 +55,5 @@ orientamento all’analisi ed implementazione di processi scalabili.
 - Laurea in Ingegneria o Economia, in ogni caso la Società si riserva di valutare laureati in altre materie e/o candidati con forte esperienza nel ruolo e/o nel settore di interesse.
 - Inglese eccellente (scritto e parlato).
  
-Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il _12 maggio 2021_ . Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione dei candidati ideali e che rispondono ai requisiti individuati.
+Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il _12 maggio 2021_ . Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione dei candidati ideali e che rispondono ai requisiti individuati. **Nota di aggiornamento al 31 marzo 2021** La Società è alla ricerca di massimo **n.4** risorse per questa posizione.
 
