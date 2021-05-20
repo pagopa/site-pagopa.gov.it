@@ -22,7 +22,7 @@ Cerchiamo persone attente ai dettagli, che pensano in modo rigoroso, che non han
 
 Entra a far parte della nostra squadra!
  
-PagoPA è alla ricerca di massimo n. 2 **Functional Programmer ** da inserire nel _Dipartimento Tecnologia & Servizi_ nella _Service Line PDND & Interoperabilità_. La risorsa avrà la responsabilità di progettare e sviluppare prodotti e sistemi complessi. 
+PagoPA è alla ricerca di massimo n. 2 **Functional Programmer** da inserire nel _Dipartimento Tecnologia & Servizi_ nella _Service Line PDND & Interoperabilità_. La risorsa avrà la responsabilità di progettare e sviluppare prodotti e sistemi complessi. 
 
 
 ### Responsabilità
