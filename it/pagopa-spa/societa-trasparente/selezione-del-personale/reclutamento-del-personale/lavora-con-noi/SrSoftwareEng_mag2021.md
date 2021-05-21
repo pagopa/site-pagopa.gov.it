@@ -47,7 +47,7 @@ Come _Senior Software Engineer_ le tue principali responsabilità includono:
   - Metodologia aglie (stime a grana grossa, raffinamento incrementale, stories break-down, planning games, retrospectives)
   - Leadership: capacità di crescere, guidare ed ispirare membri meno senior del proprio team
 
- ### Completano il profilo:
+### Completano il profilo:
 - capacità di adattarsi ad un ambiente dinamico;
 - ottime doti comunicative, interpersonali e analitiche;
 - capacità di comunicare chiaramente concetti complessi;
