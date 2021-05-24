@@ -11,7 +11,7 @@ iframeheight: 2300
 is_new: true
 metadata:
     apertura: 07/05/2021
-    chiusura: 31/05/2021
+    chiusura: 30/05/2021
 ---
 
 Stiamo cercando persone altamente motivate, dotate di autonomia, passione, grinta e integrità e che condividano la nostra missione di diffondere i servizi digitali nel Paese. 
