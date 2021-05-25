@@ -5,13 +5,15 @@ lang: it
 layout: job
 ref: cloudeng_si
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/JpvHRkePLG/Cloud-Native-Platform-Engineer-Strategic-Innovation
+jazz_url:
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 24/02/2021
     chiusura: 24/05/2021
+    numassunte: selezione in corso
 ---
 
 Il dipartimento di Innovazione Strategica di PagoPA S.p.A. è alla ricerca di un **Cloud Native Platform Engineer** che contribuisca alla realizzazione di nuovi prodotti e iniziative digitali di rilevanza strategica.
