@@ -13,7 +13,7 @@ metadata:
     apertura: 24/02/2021
     chiusura: 25/03/2021
     numricercate: max. 2
-    numassunte: selezione in corso
+    numassunte: 1
 
 ---
 

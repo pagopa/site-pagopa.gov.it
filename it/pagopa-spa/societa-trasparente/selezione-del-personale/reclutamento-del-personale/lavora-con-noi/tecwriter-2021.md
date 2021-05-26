@@ -5,13 +5,15 @@ lang: it
 layout: job
 ref: tecwriter-2021
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/cVyzwcLFop/Technical-Writer
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 18/02/2021
     chiusura: 12/05/2021
+    numassunte: selezione in corso
 ---
 
 Il dipartimento di Innovazione Strategica di PagoPA S.p.A. è alla ricerca di un Technical Writer.
