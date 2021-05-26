@@ -51,6 +51,10 @@ Questa sezione contiene documenti, informazioni e dati organizzati secondo lo sc
       <svg class="icon icon-primary"><use xlink:href="{{ site.baseurl }}{{ site.data.t.sprite-url }}#it-chevron-right"></use></svg>
       <span>Beni immobili e gestione patrimonio</span>
     </a></li>
+    <li><a class="list-item icon-left" href="{% link it/pagopa-spa/societa-trasparente/controlli-rilievi/index.md %}">
+      <svg class="icon icon-primary"><use xlink:href="{{ site.baseurl }}{{ site.data.t.sprite-url }}#it-chevron-right"></use></svg>
+      <span>Controlli e rilievi sull'amministrazione</span>
+    </a></li>
     <li><a class="list-item icon-left" href="{% link it/pagopa-spa/societa-trasparente/altri-contenuti/anticorruzione/index.md %}">
       <svg class="icon icon-primary"><use xlink:href="{{ site.baseurl }}{{ site.data.t.sprite-url }}#it-chevron-right"></use></svg>
       <span>Altri contenuti</span>
