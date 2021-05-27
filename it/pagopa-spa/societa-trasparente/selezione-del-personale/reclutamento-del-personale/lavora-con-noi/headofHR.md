@@ -5,13 +5,16 @@ lang: it
 layout: job
 ref: headofHR
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/I8A46yPtaX/Head-Of-Human-Resources
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 05/05/2021
     chiusura: 26/05/2021
+    numricercate: 1
+    numassunte: selezione in corso
 ---
 
 Stiamo cercando persone altamente motivate, dotate di autonomia, passione, grinta e integrità e che condividano la nostra missione di diffondere i servizi digitali nel Paese. 
