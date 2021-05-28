@@ -11,7 +11,7 @@ iframeheight: 2300
 is_new: true
 metadata:
     apertura: 07/05/2021
-    chiusura: 30/05/2021
+    chiusura: 01/07/2021
 ---
 Stiamo cercando persone altamente motivate, dotate di autonomia, passione, grinta e integrità e che condividano la nostra missione di diffondere i servizi digitali nel Paese. 
 Il confronto e il lavoro di squadra sono al centro della nostra quotidianità. 
@@ -56,7 +56,10 @@ Laurea in Ingegneria. In ogni caso la Società si riserva di valutare laureati i
  
 Per applicare, invia il tuo CV e la tua lettera di motivazione (facoltativa) entro e non oltre il 30 maggio 2021. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
  
-Tipologia di contratto: Tempo Indeterminato. La tipologia di inquadramento sarà determinata tenendo conto delle caratteristiche e dei requisiti specifici posseduti dal candidato/i selezionati e dalle esigenze aziendali.
+### Tipologia di contratto:  
+Tempo Indeterminato. La tipologia di inquadramento sarà determinata tenendo conto delle caratteristiche e dei requisiti specifici posseduti dal candidato/i selezionati e dalle esigenze aziendali.
 Ci riserviamo la facoltà di prorogare, modificare, sospendere o revocare in tutto o in parte questo avviso di selezione in caso di:  (i)  numero di domande presentate ritenuto insufficiente o non corrispondenti alle esigenze aziendali, (ii) nuove esigenze organizzative o economiche o finanziarie aziendali che richiedano la sospensione/cancellazione degli inserimenti pianificati e ad oggi approvati (iii) nuove esigenze organizzative che rendano opportuno un reclutamento di organico ulteriore rispetto a quello inizialmente programmato. 
+
 Si precisa che i curriculum saranno inseriti all’interno di un data base dal quale la Società attingerà in caso di esigenze future di personale con le medesime caratteristiche della presente posizione.
+***Nota di aggiornamento al 28 maggio 2021.*** La data di presentazione delle candidature per la presente posizione è stata prorogata dal 30 maggio 2021 al ***1 luglio 2021.***
 
