@@ -36,3 +36,4 @@ Con determina dell'Amministratore Unico del 26 Marzo 2020, è stata nominata qua
 In conformità al "regolamento interno recante misure organizzative sull'accesso civico semplice e l'accesso civico generalizzato" si riportano di seguito i criteri e le modalità per l’esercizio dell’accesso civico:
 * [Accesso civico](./accesso-civico/)
 * [Accesso civico generalizzato](./accesso-civico-generalizzato/)
+* [Elenco delle richieste di accesso](./registro_accessi.pdf)
