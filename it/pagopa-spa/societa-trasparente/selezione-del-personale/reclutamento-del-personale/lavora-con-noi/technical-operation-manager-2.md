@@ -13,7 +13,8 @@ archived: true
 metadata:
     apertura: 17/06/2020
     chiusura: 31/12/2020
-    numassunte: selezione in corso
+    numricercate: 1
+    numassunte: 3 a fronte delle esigenze aziendali
 ---
 
 ### Descrizione e responsabilità
