@@ -28,4 +28,13 @@ Qui trovi la documentazione, e gli aggiornamenti, in merito al nuovo workflow di
 - Disponibilità delle nuove interfacce in ambiente di Test. Le attuali interfacce (rif. [SANP-2.3.0](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/2.3.0/index.html)) vengono deprecate, ma continueranno a coesistere con le nuove per un tempo sufficientemente congruo prima di essere dismesse.
 - Rilasciate [SANP-2.4.0](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.4.0/index.html)
 
+###### 13/05/2021
 
+- Rilasciate [SANP-2.4.2](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.4.2/index.html) contenenti chiarimenti: sul nuovo processo di pagamento presso il PSP, sulla modalità d’uso dei conti correnti postali e precisazioni sui Flussi di Rendicontazione.
+- update del [DevPortal](https://pagopa.github.io/pagopa-api/#section/Introduction) con diagrammi esplicativi e istruzione per utilizzare il ["mockPA"](https://github.com/pagopa/pagopa-api/blob/develop/mockPA/README.md), utile per semplificare il testing da parte dei PSP.
+
+###### entro il 01/07/2021
+- I PSP devono aver adeguato i propri sistemi alle nuove interfacce.
+
+###### entro il 31/12/2021
+- Gli EC devono aver adeguato i propri sistemi alle nuove interfacce.
