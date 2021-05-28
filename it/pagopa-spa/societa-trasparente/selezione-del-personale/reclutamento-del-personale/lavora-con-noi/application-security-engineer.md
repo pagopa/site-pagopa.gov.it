@@ -14,7 +14,7 @@ metadata:
     apertura: 22/10/2019
     chiusura: 31/12/2020
     numricercate: 4
-    numassunte: selezione in corso
+    numassunte: 2
 ---
 
 Stiamo cercando persone dotate di passione, grinta e integrità, che condividano la nostra missione.
