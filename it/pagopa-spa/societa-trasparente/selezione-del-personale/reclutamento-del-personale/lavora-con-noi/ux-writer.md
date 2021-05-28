@@ -14,7 +14,7 @@ metadata:
   apertura: 14/12/2020
   chiusura: 31/01/2021
   numricercate: 1
-  numassunte: selezione in corso
+  numassunte: 0
   
 ---
 
