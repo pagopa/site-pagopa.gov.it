@@ -43,7 +43,7 @@ Completano il profilo:
 
 ### Requisiti minimi (personali e professionali)
 * Laurea in Economia. In ogni caso la Società si riserva di valutare laureati in altre materie e/o candidati non laureati con forte esperienza nel ruolo e/o nei settori di interesse.   
-* Pregressa esperienza di almeno 10  anni nel ruolo o in ruoli di simili responsabilità e competenza.  
+* Pregressa esperienza di almeno 7  anni nel ruolo o in ruoli di simili responsabilità e competenza.  
 * Pregressa esperienza in contesti aziendali di medie dimensioni operanti nei settori Telco, IT, Servizi, Banche e Assicurazioni. 
 * Pregressa esperienza in contesti in rapida evoluzione. 
 * Capacità di operare nel modo più valido ed efficace in rapporto alla situazione, arricchendosi nel confronto con interlocutori con opinioni diverse dalla propria. 
