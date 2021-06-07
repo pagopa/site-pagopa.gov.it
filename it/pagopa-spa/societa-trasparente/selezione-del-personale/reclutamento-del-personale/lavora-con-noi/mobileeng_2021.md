@@ -11,7 +11,7 @@ iframeheight: 2300
 is_new: true
 metadata:
     apertura: 24/02/2021
-    chiusura: 05/06/2021
+    chiusura: 25/06/2021
 ---
 
 Stiamo cercando persone dotate di passione, grinta ed integrità, che condividano la nostra missione.
@@ -96,5 +96,5 @@ Laurea in Ingegneria Informatica o Informatica . In ogni caso la Società si ris
 
 * Milano
 
-Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il **24 maggio 2021** . Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione dei candidati ideali e che rispondono ai requisiti individuati.
-La data di presentazione delle candidature per la presente posizione è stata prorogata dal 24 maggio 2021 al 5 giugno 2021.
+Per applicare, invia il tuo CV e la tua lettera di motivazione entro e non oltre il **05 giugno 2021** . Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione dei candidati ideali e che rispondono ai requisiti individuati.
+La data di presentazione delle candidature per la presente posizione è stata prorogata dal 5 giugno 2021 al 25 giugno 2021.
