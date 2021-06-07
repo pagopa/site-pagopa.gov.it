@@ -9,7 +9,7 @@ jazz_url:
 pec_cv: false
 iframeheight: 2300
 is_new: false
-archived:true
+archived: true
 metadata:
     apertura: 05/05/2021
     chiusura: 31/05/2021
