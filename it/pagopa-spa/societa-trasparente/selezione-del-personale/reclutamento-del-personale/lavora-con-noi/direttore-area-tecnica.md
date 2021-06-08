@@ -12,7 +12,8 @@ archived: true
 metadata:
   apertura: 26/11/2020
   chiusura: 15/12/2020
-  numassunte: selezione in corso
+  numricercate: 1
+  numassunte: 1
 ---
 
 PagoPA S.p.A. è alla ricerca di un **Direttore Area Tecnica, Prodotto & Mercato** con profonda esperienza nel settore Bancario e dei Pagamenti che sarà responsabile di impostare, gestire, supervisionare e coordinare, di concerto con l’Organo Amministrativo, ogni adempimento e iniziativa volti ad assicurare la corretta applicazione delle decisioni e strategie aziendali.
