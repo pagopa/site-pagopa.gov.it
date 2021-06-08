@@ -11,7 +11,7 @@ iframeheight: 2300
 is_new: true
 metadata:
     apertura: 18/05/2021
-    chiusura: 31/05/2021
+    chiusura: 11/06/2021
 ---
 
 Stiamo cercando persone altamente motivate, dotate di autonomia, passione, grinta e integrità e che condividano la nostra missione di diffondere i servizi digitali nel Paese. 
@@ -58,7 +58,7 @@ Laurea in Informatica o affine. In ogni caso la Società si riserva di valutare 
  
  
 Per applicare, invia il tuo CV e la tua lettera di motivazione (facoltativa) entro e non oltre il **31 maggio 2021**.
-Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
+Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati. La data di presentazione delle candidature per la presente posizione è stata prorogata dal **31 maggio 2021 al 11 giugno 2021**.
 
 
 **Tipologia di contratto**: Tempo Indeterminato. La tipologia di inquadramento sarà determinata tenendo conto delle caratteristiche e dei requisiti specifici posseduti dal candidato/i selezionati e dalle esigenze aziendali.

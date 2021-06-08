@@ -14,4 +14,4 @@ wide: true
 * [Organismi di controllo e vigilanza](organismi-di-controllo-e-vigilanza)
 * [Dotazione organica e costo del personale](./dotazione-organica.pdf)
 * [Tassi di assenza](./tassi-assenza.pdf)
-* [Organigramma](./organigramma.jpeg)
+* [Organigramma](./organigramma.pdf)

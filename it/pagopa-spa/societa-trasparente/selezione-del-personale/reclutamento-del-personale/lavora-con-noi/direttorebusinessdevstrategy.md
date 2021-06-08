@@ -5,13 +5,16 @@ lang: it
 layout: job
 ref: direttorebusinessdevstrategy
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/J92Qc6FXDk/Direttore-Business-Development-Strategy
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
 is_new: true
+archived: true
 metadata:
     apertura: 07/05/2021
     chiusura: 30/05/2021
+    numricercate: 1
+    numassunte: selezione in corso
 ---
 
 Stiamo cercando persone altamente motivate, dotate di autonomia, passione, grinta e integrità e che condividano la nostra missione di diffondere i servizi digitali nel Paese. 
