@@ -14,7 +14,7 @@ metadata:
     apertura: 16/03/2021
     chiusura: 16/04/2021
     numricercate: max. 11
-    numassunte: selezione in corso
+    numassunte: 7
 ---
 
 L’Area Operations di PagoPA S.p.a. è alla ricerca di massimo n. 11 **Operations Specialist** che contribuiscano alla gestione e all’efficientamento del servizio clienti della Società.
