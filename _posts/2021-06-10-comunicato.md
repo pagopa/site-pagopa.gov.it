@@ -7,6 +7,8 @@ tags:
 child_of_ref: comunicati-stampa
 ---
 
+<!--more-->
+
 <div class="row my-4">
     <div class="col text-center">
         <img class="img-fluid"  src="/assets/images/logo-mitd.png" alt="Logo MITD">
