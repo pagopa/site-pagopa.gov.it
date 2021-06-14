@@ -7,64 +7,44 @@ Le pagine che vengono incluse in questo menù sono un sottoinsieme di tutte le p
 
 {% assign current_lang_menu_pages = site.pages | where: "lang", page.lang | where_exp: "page", "page.order != nil" | where_exp: "page", "page.child_of_ref == nil" | sort: "order"  %}
 
+
 <div class="it-nav-wrapper">
-  <div class="it-header-center-wrapper theme-light">
+  <div class="it-header-center-wrapper">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <div class="it-header-center-content-wrapper">
             <div class="it-brand-wrapper">
-              <a href="/" class="d-flex">
-                <img class="logopagopaspa" src="{{ site.baseurl }}/assets/images/logo-pagopa-spa.svg" alt="{{ site.name }} logo">
-                <div class="vertical"></div>
-                <img class="icon" src="{{ site.baseurl }}/assets/images/pagopa-logo.png" alt="{{ site.name }} logo">
+              <a href="/" title="Torna in home">
+                <img class="" src="{{ site.baseurl }}/assets/images/logo-pagopa-bianco.svg" alt="pagoPA">
+                <div class="it-brand-text ml-3">
+                  <h2 class="no_toc d-none d-md-block">pagoPA</h2>
+                  <h3 class="no_toc d-none d-md-block mt-1">Paga come vuoi, quando vuoi</h3>
+                </div>
               </a>
             </div>
             <div class="it-right-zone flex-column">
-              <div class="it-socials d-none d-md-flex mb-md-4">
-                <span>Seguici su</span>
-                <ul>
-                  {% for social-link in site.data.t.social-links[page.lang] %}
-                  <li class="list-inline-item">
-                    <a rel="noreferrer" href="{{ social-link[1].url }}" title="{{ social-link[1].name }}"
-                      target="_blank">
-                      <svg class="icon">
-                        <use
-                          xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-{{ social-link[1].name }}">
-                        </use>
-                      </svg>
-                      <span class="sr-only">{{ social-link[1].name }}</span>
-                    </a>
-                  </li>
-                  {% endfor %}
-                </ul>
-              </div>
               {% if page.ref != 'helpdesk' %}
               <div class="it-helpdesk d-md-flex">
-                <div class="it-btn-container"><a class="btn btn-sm btn-primary" href="{{ site.baseurl }}/it/pagopa/helpdesk">
-                  <img class="icon helpdesk-icon" style="width: 24px; height: 24px; margin-right: 8px;" src="{{ site.baseurl }}/assets/images/helpdesk-icon.svg" title="Helpdesk Icon" alt="Helpdesk Icon">
-                  Serve aiuto?</a>
+                <div class="it-btn-container">
+                  <a class="d-block it-helpdesk-anchor" href="{{ site.baseurl }}/it/pagopa/helpdesk">
+                  <span class="mr-2">Serve aiuto?</span>
+                  <svg class="icon icon-primary it-helpdesk-icon">
+                    <use
+                      xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-comment">
+                    </use>
+                  </svg>
+                  </a>
                 </div>
               </div>
               {% endif %}
-              {% comment %}
-              <!-- Search button -->
-              <div class="it-search-wrapper">
-                <span class="d-none d-md-block">Cerca</span>
-                <a class="search-link rounded-icon" href="#" aria-label="Cerca">
-                  <svg class="icon">
-                    <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-search"></use>
-                  </svg>
-                </a>
-              </div>
-              {% endcomment %}
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="it-header-navbar-wrapper  theme-light-desk">
+  <div class="it-header-navbar-wrapper">
     <div class="container">
       <div class="row">
         <div class="col-12">
