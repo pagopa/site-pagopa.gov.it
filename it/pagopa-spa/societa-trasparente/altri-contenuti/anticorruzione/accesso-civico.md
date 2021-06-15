@@ -29,6 +29,6 @@ L’istanza è gratuita e può essere inoltrata compilando il presente **[modulo
 ### Qual è il risultato dell’istanza?
 A seguito dell’istanza, qualora sia accertata l’omessa pubblicazione del documento, del dato o dell’informazione, la Società provvederà all’adempimento della pubblicazione e invierà al richiedente l’URL del sito web contenente le pubblicazioni richieste.
 
-Nel caso in cui siano trascorsi più di 30 giorni dal perfezionamento dell’invio dell’istanza, oppure qualora la stessa sia rimasta completamente o parzialmente inevasa, il richiedente potrà reiterare l’istanza al Titolare del Potere Sostitutivo, il Direttore Finanza & Amministrazione, inoltrando il seguente [modulo](../modulo-istanza-potere-esecutivo-semplice.rtf) all’indirizzo mail: <poteresostitutivo@pagopa.it>.
+Nel caso in cui siano trascorsi più di 30 giorni dal perfezionamento dell’invio dell’istanza, oppure qualora la stessa sia rimasta completamente o parzialmente inevasa, il richiedente potrà reiterare l’istanza al Titolare del Potere Sostitutivo, il Direttore Finanza & Amministrazione,l'avv. Maria Teresa Lucibello, inoltrando il seguente [modulo](../modulo-istanza-potere-esecutivo-semplice.rtf) all’indirizzo mail: <poteresostitutivo@pagopa.it>.
 
 Il titolare del potere sostitutivo risponderà all’istanza di riesame entro il termine di 20 giorni.
