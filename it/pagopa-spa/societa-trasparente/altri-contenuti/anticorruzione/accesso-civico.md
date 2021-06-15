@@ -27,7 +27,7 @@ L’istanza è gratuita e può essere inoltrata compilando il presente **[modulo
 - indicazione specifica dei documenti, dei dati o delle informazioni dei quali si richiede la pubblicazione.
 
 ### Qual è il risultato dell’istanza?
-A seguito dell’istanza, qualora sia accertata l’omessa pubblicazione del documento, del dato o dell’informazione, la Società provvederà all’adempimento della pubblicazione e invierà al richiedente l’URL del sito web contenente le pubblicazioni richieste.
+A seguito dell’istanza, qualora sia accertata l’omessa pubblicazione del documento, del dato o dell’informazione, la Società, eventualmente per il tramite del RPTC l'avv. Marta Colonna, provvederà all’adempimento della pubblicazione e invierà al richiedente l’URL del sito web contenente le pubblicazioni richieste.
 
 Nel caso in cui siano trascorsi più di 30 giorni dal perfezionamento dell’invio dell’istanza, oppure qualora la stessa sia rimasta completamente o parzialmente inevasa, il richiedente potrà reiterare l’istanza al Titolare del Potere Sostitutivo, il Direttore Finanza & Amministrazione, inoltrando il seguente [modulo](../modulo-istanza-potere-esecutivo-semplice.rtf) all’indirizzo mail: <poteresostitutivo@pagopa.it>.
 
