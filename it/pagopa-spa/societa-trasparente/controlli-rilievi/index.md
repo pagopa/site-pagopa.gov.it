@@ -14,6 +14,7 @@ Le funzioni di Organismo Indipendente di Valutazione sono svolte ad interim dal 
 ### Organi di revisione amministrativa e contabile
 * [Relazione sulla revisione contabile del bilancio d’esercizio al 31.12.2019](./relazione_revisione_bilancio_31-12-2019.pdf)
 * [Relazione del collegio sindacale al bilancio al 31.12.2019](./relazione_CS_bilancio_31-12-2019.pdf)
+* [Relazioni ai bilancio di esercizio al 31.12.2020](/it/pagopa-spa/societa-trasparente/bilanci/)
 
 ### Corte dei conti
 Al momento non sono stati inoltrati rilievi da parte della Corte dei conti riguardanti l'organizzazione e l'attività e gli uffici di PagoPA
