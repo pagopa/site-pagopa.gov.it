@@ -1,11 +1,5 @@
-{% comment %}
-Le pagine che vengono incluse in questo menù sono un sottoinsieme di tutte le pagine del sito che:
-- hanno la stessa lingua della pagina corrente
-- hanno l'attributo "order" valorizzato
-- hanno l'attributo "child_of_ref" non valorizzato (è un sottomenu)
-{% endcomment %}
+{% assign current_lang_menu_pages = site.data.t.navigation[page.lang] %}
 
-{% assign current_lang_menu_pages = site.pages | where: "lang", page.lang | where_exp: "page", "page.order != nil" | where_exp: "page", "page.child_of_ref == nil" | sort: "order"  %}
 
 
 <div class="it-nav-wrapper">
@@ -17,10 +11,6 @@ Le pagine che vengono incluse in questo menù sono un sottoinsieme di tutte le p
             <div class="it-brand-wrapper">
               <a href="/" title="Torna in home">
                 <img class="" src="{{ site.baseurl }}/assets/images/logo-pagopa-bianco.svg" alt="pagoPA">
-                <div class="it-brand-text ml-3">
-                  <h2 class="no_toc d-none d-md-block">pagoPA</h2>
-                  <h3 class="no_toc d-none d-md-block mt-1">Paga come vuoi, quando vuoi</h3>
-                </div>
               </a>
             </div>
             <div class="it-right-zone flex-column">
@@ -63,7 +53,8 @@ Le pagine che vengono incluse in questo menù sono un sottoinsieme di tutte le p
               <div class="menu-wrapper">
                 <ul class="navbar-nav">
                   {% for menu_page in current_lang_menu_pages %}
-
+                  {% assign menu_page_data = menu_page | last %}
+                  {% assign menu_page_ref = menu_page | first %}
                   {% comment %}
                   Le pagine che vengono incluse in questo sottomenù sono un sottoinsieme di tutte le pagine del sito
                   che:
@@ -72,16 +63,16 @@ Le pagine che vengono incluse in questo menù sono un sottoinsieme di tutte le p
                   - hanno l'attributo "child_of_ref" uguale a `menu_page.ref` attuale (sono quindi figlie di
                   `menu_page`)
                   {% endcomment %}
-                  {% assign current_lang_menu_child_pages = site.pages | where: "lang", page.lang | where_exp: "page", "page.order != nil" | where: "child_of_ref", menu_page.ref | sort: "order" | group_by: "child_of_submenu" %}
+                  {% assign current_lang_menu_child_pages = site.pages | where: "lang", page.lang | where_exp: "page", "page.order != nil" | where: "child_of_ref", menu_page_ref | sort: "order" | group_by: "child_of_submenu" %}
                   {% if current_lang_menu_child_pages.size == 0 %}
                   <li class="nav-item">
-                    <a class="nav-link" href="{{ site.baseurl }}{{menu_page.url}}"><span>{{menu_page.title}}</span></a>
+                    <a class="nav-link" href="{{menu_page_data.url}}"><span>{{menu_page_data.name}}</span></a>
                   </li>
                   {% else %}
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
-                      <span>{{menu_page.title}}</span>
-                      <svg class="icon icon-xs">
+                      <span>{{menu_page_data.name}}</span>
+                      <svg class="icon icon-xs ml-2">
                         <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-expand">
                         </use>
                       </svg>

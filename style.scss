@@ -1,6 +1,19 @@
 ---
 ---
 
+h1,
+h2,
+h3 {
+  color: #17324d;
+}
+
+a.read-more {
+  text-decoration: none;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+}
 .it-header-wrapper {
   .it-header-slim-wrapper {
     .navbar.navbar-institutional {
@@ -225,4 +238,140 @@ body.page--partner-qualificati {
 .it-logo-pagopa {
   height: 54px;
   width: auto;
+}
+
+.page-title {
+  font-size: 2.25rem;
+  line-height: 2.4rem;
+  color: #17324d;
+  margin-top: 2rem;
+}
+.page-desc {
+  color: #17324d;
+  font-size: 1.35rem;
+  line-height: 2rem;
+  margin: 1rem 0;
+}
+
+.component-grid {
+  .card-wrapper {
+    @media (min-width: 992px) {
+      height: 100%;
+    }
+    .read-more {
+      text-decoration: none;
+    }
+    .card-pretitle {
+      color: #0073e6;
+      font-size: 1.5rem;
+      line-height: 1;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    .card-body .card-text {
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #17324d;
+    }
+  }
+  &__container {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+  &__item {
+    flex-basis: 100%;
+    padding: 10px;
+    &.by-2 {
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: 50%;
+      @media (min-width: 992px) {
+        max-width: 50%;
+      }
+    }
+    &.by-3 {
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: 33.3%;
+      @media (min-width: 992px) {
+        max-width: 33.3%;
+      }
+    }
+    &.by-4 {
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: 25%;
+      @media (min-width: 992px) {
+        max-width: 25%;
+      }
+    }
+  }
+}
+.component-grid-by-step {
+  &__number {
+    color: #0073e6;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    line-height: 1.1;
+    @media (min-width: 992px) {
+      margin: 0;
+    }
+  }
+  &__title {
+    color: #17324d;
+    font-size: 1.5rem;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 0.5rem 0;
+  }
+}
+.component-grid-paragraph {
+  &__par p {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: #17324d;
+    margin: 0.5rem 0 1rem 0;
+    padding-right: 0;
+    text-align: center;
+    @media (min-width: 992px) {
+      padding-right: 0.5rem;
+      font-size: 1.8rem;
+      text-align: left;
+    }
+  }
+}
+.component-footer-banner {
+  background-color: #f2f7fc;
+  padding: 2rem 0;
+  @media (min-width: 992px) {
+    padding: 3rem 0;
+  }
+
+  &__title {
+    font-size: 1.4rem;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+    color: #0066cc;
+    margin: 1rem 0;
+    @media (min-width: 992px) {
+      font-size: 1.8rem;
+    }
+  }
+  &__desc {
+    text-align: center;
+    color: #0066cc;
+    padding: 0 1rem;
+    p {
+      margin: 0;
+    }
+  }
+  &__cta {
+    margin: 1rem 0;
+  }
+}
+
+.heading-border-bottom {
+  box-shadow: 0px 1px 0px #e6e9f2;
 }

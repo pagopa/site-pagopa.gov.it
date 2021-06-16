@@ -1,0 +1,40 @@
+{% assign columns = include.columns | default: 3 %}
+
+<div class="component-grid {{include.css_wrapper}}">
+    <div class="d-lg-flex align-items-stretch flex-wrap component-grid__container">
+        {% for item in include.source %}
+        <div class="component-grid__item by-{{columns}}">
+            <!--start card-->
+            <div class="card-wrapper card-space">
+                <div class="card card-bg card-big">
+                <div class="card-body">
+                    {% if item.img %}
+                    <div class="top-icon">
+                    <svg class="icon">
+                        <use xlink:href="/bootstrap-italia/dist/svg/sprite.svg#it-card"></use>
+                    </svg>
+                    </div>
+                    {% endif %}
+                    {% if item.pretitle %}
+                    <div class="card-pretitle">{{item.pretitle}}</div>
+                    {% endif %}
+                    <h5 class="card-title">{{item.title}}</h5>
+                    {% if item.desc %}
+                        <div class="card-text text-sans-serif">{{item.desc | markdownify}}</div>
+                    {% endif %}
+                    {% if item.more %}
+                    <a class="read-more" href="{{item.more.url }}">
+                    <span class="text">{{item.more.label }}</span>
+                    <svg class="icon">
+                        <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
+                    </svg>
+                    </a>
+                    {% endif %}
+                </div>
+                </div>
+            </div>
+            <!--end card-->
+        </div>
+        {% endfor %}
+    </div>
+</div>

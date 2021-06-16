@@ -111,3 +111,18 @@ topright-links:
     io:
       name: "IO"
       url: "https://io.italia.it/"
+navigation:
+  en:
+  it:
+    cittadini:
+      name: "Cittadini"
+      url: "#"
+    pubbliche-amministrazioni:
+      name: "Pubbliche Amministrazioni"
+      url: "#"
+    prestatori-servizi-di-pagamento:
+      name: "Prestatori Servizi di Pagamento"
+      url: "#"
+    news:
+      name: "News"
+      url: "/it/news/"

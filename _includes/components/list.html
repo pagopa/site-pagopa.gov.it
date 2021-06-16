@@ -1,0 +1,19 @@
+<div class="it-list-wrapper">
+    <ul class="it-list">
+      {% for item in include.source %}
+      <li>
+        <a href="{{item.url}}">
+          {% if include.icon %}
+          <div class="it-rounded-icon">
+            <svg class="icon icon-m">
+              <use xlink:href="{{include.icon }}"></use>
+            </svg>
+          </div>
+          {% endif %}
+          <div class="it-right-zone border-0"><span class="text">{{item.label}}</span>
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
