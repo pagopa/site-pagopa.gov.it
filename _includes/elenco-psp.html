@@ -1,20 +1,33 @@
+{% assign psp = site.data.psp %}
+<div class="row">
+	<div class="col-md-8 mb-2 mb-md-4">
+		<h1 class="page-title" >{{ page.title_hero | default: page.title }}</h1>
+		<div class="small text-muted">Ultimo aggiornamento: 25 maggio 2021</div>
+	</div>
+	<div class="col-md-4">
+	</div>
+</div>
 
-
-<table class="table" id="elencopsp">
+<table id="elencopsp" class="display w-100">
 	<thead>
 		<tr>
-			<th>Denominazione</th>
-			<th>ABI</th>
-			<th >BIC</th>
+			<th >Nome</th>
+			<th>Ultimo aggiornamento</th>
+			<th></th>
 		</tr>
 	</thead>
 	<tbody>
-        {% for psp in site.data.psp %}
-		<tr >
-			<td>{{psp.Denominazione}}</td>
-			<td>{{psp.CodiceABI}}</td>
-			<td>{{psp.CodiceBIC}}</td>
-		</tr>
-        {% endfor %}
-    </tbody>
+		{% for item in psp %}
+			<tr>
+				<td class="elencopsp__denominazione">{{item.Denominazione }}</td>
+				<td class="elencopsp__data">01/06/2021</td>
+				<td>
+					{% if forloop.index < 5 %}
+						<span class="badge badge-pill">Multibeneficiario</span>
+					{% endif %}
+				</td>
+			</tr>
+		{% endfor %}
+	</tbody>
+
 </table>

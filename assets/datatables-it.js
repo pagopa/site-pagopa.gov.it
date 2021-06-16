@@ -23,19 +23,21 @@ var it_datatables = {
 $(document).ready(function() {
 
 $('#elencopsp').DataTable({
-"lengthChange": false,
-"pageLength": 20,
-"pagingType": "simple",
-"language": it_datatables
-}
-);
+    "lengthChange": false,
+    "pageLength": 20,
+    "pagingType": "numbers",
+    "searching": false,
+    "ordering": false,
+    "language": it_datatables
+    }
+    );
 
 $('#partners').DataTable({
-"order": [[ 1, "asc" ]],
-"lengthChange": false,
-"pageLength": 20,
-"pagingType": "simple",
-"language": it_datatables
-}
-);
+    "order": [[ 1, "asc" ]],
+    "lengthChange": false,
+    "pageLength": 20,
+    "pagingType": "simple",
+    "language": it_datatables
+    }
+    );
 });

@@ -1,15 +1,20 @@
 <div class="it-list-wrapper">
+    {% if include.title %}
+    <h3 class="heading-border-bottom pb-2">{{include.title }}</h3>
+    {% endif %}
     <ul class="it-list">
       {% for item in include.source %}
       <li>
         <a href="{{item.url}}">
-          {% if include.icon %}
+          {% assign iconurl = "/assets/bootstrap-italia/dist/svg/sprite.svg#it-file" %}
+          {% if item.url contains '://' %}
+            {% assign iconurl = "/assets/bootstrap-italia/dist/svg/sprite.svg#it-external-link" %}
+          {% endif %}
           <div class="it-rounded-icon">
             <svg class="icon icon-m">
-              <use xlink:href="{{include.icon }}"></use>
+              <use xlink:href="{{iconurl}}"></use>
             </svg>
           </div>
-          {% endif %}
           <div class="it-right-zone border-0"><span class="text">{{item.label}}</span>
           </div>
         </a>

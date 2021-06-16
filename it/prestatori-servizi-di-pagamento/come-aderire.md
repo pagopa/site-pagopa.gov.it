@@ -12,7 +12,7 @@ footerbanner:
   title: Hai domande o dubbi?
   desc: Leggi le domande frequenti sull’adesione a pagoPA da parte dei Prestatori di Servizi di Pagamento
   cta: Leggi le FAQ
-  url: "#"
+  url: "https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneD.html"
 passi:
     -
       title: Scegli il modello di accordo
@@ -78,6 +78,5 @@ docs:
   </div>
 </div>
 {%include components/list.html
-          icon="/assets/bootstrap-italia/dist/svg/sprite.svg#it-file"
           source=page.docs
           %}
