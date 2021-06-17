@@ -63,7 +63,7 @@
                   - hanno l'attributo "child_of_ref" uguale a `menu_page.ref` attuale (sono quindi figlie di
                   `menu_page`)
                   {% endcomment %}
-                  {% assign current_lang_menu_child_pages = site.pages | where: "lang", page.lang | where_exp: "page", "page.order != nil" | where: "child_of_ref", menu_page_ref | sort: "order" | group_by: "child_of_submenu" %}
+                  {% assign current_lang_menu_child_pages = site.pages | where: "lang", page.lang | where_exp: "page", "page.order != nil" | where: "child_of_ref", menu_page_ref | sort: "order" %}
                   {% if current_lang_menu_child_pages.size == 0 %}
                   <li class="nav-item">
                     <a class="nav-link" href="{{menu_page_data.url}}"><span>{{menu_page_data.name}}</span></a>
@@ -79,19 +79,12 @@
                     </a>
                     <div class="dropdown-menu">
                       <div class="link-list-wrapper">
-                        <ul class="link-list">
-                          <li><a class="list-item"
-                              href="{{ site.baseurl }}{{menu_page.url}}"><span>{{menu_page.title}}</span></a></li>
-                          <li><span class="divider"></span></li>
+                        <ul class="link-list py-3">
                           {% for menu_child_page in current_lang_menu_child_pages %}
-                            {% if menu_child_page.name != '' %}
-                              <li class="dummy"><a class="list-item">{{menu_child_page.name}}</a></li>
-                            {% endif %}
-                            {% for menu_child_page_item in menu_child_page.items %}
-                              <li class="{% if menu_child_page.name != '' %}sub{%endif%}"><a class="list-item"
-                                  href="{{ site.baseurl }}{{menu_child_page_item.url}}"><span>{{menu_child_page_item.title}}</span></a>
-                              </li>
-                            {% endfor %}
+                            <li class="">
+                              <a class="list-item"
+                                  href="{{ site.baseurl }}{{menu_child_page.url}}"><span>{{menu_child_page.title}}</span></a>
+                            </li>
                           {% endfor %}
                         </ul>
                       </div>

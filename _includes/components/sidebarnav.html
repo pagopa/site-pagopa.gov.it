@@ -1,4 +1,4 @@
-<nav class="navbar it-navscroll-wrapper navbar-expand-lg it-bottom-navscroll it-left-side affix-top">
+<nav class="component-sidebarnav navbar it-navscroll-wrapper navbar-expand-lg it-bottom-navscroll it-left-side affix-top">
     <button class="custom-navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false"
       aria-label="Toggle navigation" data-target="#navbarNav"><span class="it-list"></span>Menu
     </button>
@@ -17,8 +17,8 @@
             {% assign items = include.source %}
             {% for item in items %}
             <li class="">
-              <a class="list-item"
-                href="#{{forloop.index}}"><span>{{ item.title }}</span></a>
+              <a class="list-item forward" data-attribute="forward" aria-hidden="true"
+                href="#n{{forloop.index}}"><span>{{ item.title }}</span></a>
             </li>
             {% endfor %}
           </ul>

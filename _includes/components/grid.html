@@ -6,13 +6,11 @@
         <div class="component-grid__item by-{{columns}}">
             <!--start card-->
             <div class="card-wrapper card-space">
-                <div class="card card-bg card-big">
+                <div class="card {% unless item.noshadow %}card-bg{%endunless%} card-big">
                 <div class="card-body">
                     {% if item.img %}
                     <div class="top-icon">
-                    <svg class="icon">
-                        <use xlink:href="/bootstrap-italia/dist/svg/sprite.svg#it-card"></use>
-                    </svg>
+                        <img src="{{item.img}}" alt="Icona {{item.title | escape}}">
                     </div>
                     {% endif %}
                     {% if item.pretitle %}
@@ -21,6 +19,15 @@
                     <h5 class="card-title">{{item.title}}</h5>
                     {% if item.desc %}
                         <div class="card-text text-sans-serif">{{item.desc | markdownify}}</div>
+                    {% endif %}
+                    {% if item.buttons %}
+                        {% for button in item.buttons %}
+                        <div class="my-3">
+                            <a href="{{button.url}}" 
+                               class="btn btn-xs btn-primary d-lg-block text-uppercase px-5"
+                               title="{{button.label | escape}}">{{button.label}}</a>
+                        </div>
+                        {% endfor %}
                     {% endif %}
                     {% if item.more %}
                     <a class="read-more" href="{{item.more.url }}">

@@ -12,14 +12,17 @@ vantaggi:
     -
       title: Effetto vetrina
       desc: "Aderire a pagoPA è il modo migliore per offrire ai tuoi clienti e prospect un’esperienza semplice, veloce e trasparente. Ogni PSP aderente decide quanti e quali servizi di pagamento rendere disponibili: carta di credito, carta di debito, addebito in conto ecc. Fatti notare con pagoPA!"
+      img: "/assets/images/pictograms/piggybank.svg"
     -
       title: Micropagamenti
       desc: "Implementare l’uso dei micropagamenti significa portare due vantaggi importanti: praticità e sicurezza. Comprare il biglietto dell’autobus, una rivista o il pranzo, diventa pratico e soprattutto veloce. 
 Prediligere il pagamento con carta di debito o di credito, evita di avere con sé contanti ma allo stesso tempo avere disponibilità di denaro nella quantità presente sul conto corrente. "
+      img: "/assets/images/pictograms/abacus.svg"
     -
       title: È il cittadino a scegliere
       desc: "E proprio così! pagoPA consente al cittadino di scegliere il PSP a lui più vantaggioso in termini di risparmio dei costi delle commissioni e del tempi. 
 Aderire alla piattaforma significa mettere a disposizione dei tuoi clienti tutti i canali utili per semplificare e velocizzare il pagamento in maniera sicura e trasparente."
+      img: "/assets/images/pictograms/abacus.svg"
 
 ---
 

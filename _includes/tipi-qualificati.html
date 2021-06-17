@@ -1,0 +1,26 @@
+{% assign items = site.data.quadro-sinottico-servizi.items | where_exp: "item", "include.types contains item.type" | group_by: 'func'  %}
+{% assign functionalities = site.data.quadro-sinottico-servizi.functionalities %}
+{% for group in items %}
+<div class="tipi-qualificati py-3 py-md-4 ">
+    <div class="row">
+
+        <div class="col-12 col-lg-3">
+            <h4 class="tipi-qualificati__title pr-lg-4">{{functionalities[group.name]}}</h4>
+        </div>
+        <div class="col-12 col-lg-9">
+            <div class="row">
+                {% assign items_sorted = group.items | sort: 'label'  %}
+                {% for item in items_sorted %}
+                <div class="col-lg-6">
+                    <div class="mb-2 pr-lg-4">
+                        <div class="font-weight-bold py-2">{{item.label}}</div>
+                        <div class="">{{item.desc}}</div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endfor %}
