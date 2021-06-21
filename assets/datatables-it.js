@@ -40,4 +40,17 @@ $('#partners').DataTable({
     "language": it_datatables
     }
     );
+
+$('#partnertable').DataTable({
+    "order": [[ 1, "asc" ]],
+    "lengthChange": false,
+    "pageLength": 30,
+    "pagingType": "simple",
+    "searching": false,
+    "ordering": false,
+    "language": it_datatables,
+    "paging":   false,
+    "info": false,
+    }
+    );
 });

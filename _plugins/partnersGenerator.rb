@@ -17,10 +17,10 @@ Jekyll::Hooks.register :site, :after_init do |doc, payload|
     end
 
     partners.each do |partner|
-        name = partner['CF del Contraente']
+        name = partner['CF']
         topass = Hash.new
-        topass['CF del Contraente'] = partner['CF del Contraente']
-        topass['title'] = partner['Ragione Sociale del Contraente']
+        topass['CF del Contraente'] = partner['CF']
+        topass['title'] = partner['ragionesociale']
         topass['lang'] = 'it'
         topass['child_of_ref'] = 'partner-qualificati'
 

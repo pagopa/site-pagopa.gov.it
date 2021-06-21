@@ -10,6 +10,7 @@ items:
     desc: Sistema Funzionale che permette all'EC di creare, visualizzare, modificare le proprie posizioni debitorie tramite scambio dati M2M o manualmente
   - 
     label: Il Parter Tecnologico mette a disposizione i flussi in formato XML all'Ente per inviarle in conservazione digitale
+    alias: dispdocumenti
     type: Sva
     func: "1"
     desc: Messa a disposizione dei documenti scambiati con pagoPA (RT,RPT, flussi di rendicontazione) 
@@ -20,6 +21,7 @@ items:
     desc: Integrazione del servizi di @e.bollo dell'Agenzia delle Entrate, come da linee guida pagoPA
   - 
     label: Scarico flussi di rendicontazione
+    alias: flussirendicont
     type: Sva
     func: "1"
     desc: Possibilità per l'EC di scaricare un report contenente tutti i flussi di rendicontazione inviati dai diversi PSP in ogni giornata operativa
@@ -55,36 +57,43 @@ items:
     desc: Possibilità di effettuare molteplici pagamenti in unica soluzione, anche a beneficio di diversi EC e/o con diversi soggetti pagatori
   - 
     label: Front-End Pagamenti on line
+    alias: fepagonline
     type: Sd
     func: "1"
     desc: "Funzionalità di front end che complessivamente rendono disponibili: pagamenti con modello 1, creazione posizioni debitorie spontanee, conoscere esito pagamento, ecc"
   - 
     label: Invio esito pagamento
+    alias: esitopag
     type: Sva
     func: "1"
     desc: Il Partner Tecnologico è in grado di inviare tramite WS l'esito del pagamento alla PA
   - 
     label: Possibilità invio PEC
+    alias: inviopec
     type: Sva
     func: "1"
     desc: Possibilità di collegare il back office al server di posta elettronica della PA così da poter inviare gli avvisi di pagamento via PEC della PA
   - 
     label: Avvisatura massiva
+    alias: avvisaturamassiva
     type: Sva
     func: "1"
     desc: Possibilità di creare un unico PDF con più avvisi di pagamento
   - 
     label: Invio automatico flussi al postalizzatore
+    alias: inviopostalizzatore
     type: Sva
     func: "1"
     desc: Possibilità di inviare un tracciato o un file al postalizzatore della PA direttamente da back office
   - 
     label: Avvisatura singola
+    alias: avvisaturasingola
     type: Sva
     func: "1"
     desc: Possibilità di stampare o inviare via email un singolo avviso di pagamento generato da back office
   - 
     label: Servizi di quadratura del flusso di pagamenti
+    alias: quadraturaflusso
     type: Sd
     func: "1"
     desc: Verifica della coerenza dei dati del FdR con quelli di pagamento
@@ -95,96 +104,115 @@ items:
     desc: Gestione delle informazioni previste nella struttura "Giornale degli eventi" di cui alle SANP
   - 
     label: Help Desk e gestione degli incident
+    alias: hdincident
     type: Sd
     func: "2"
     desc: Presenza di un servizio di assistenza di primo e secondo livello
   - 
     label: Disponibilità di manuali per l'utenza on line
+    alias: manualiutenza
     type: Sva
     func: "2"
     desc: Distribuzione di manuali ai cittadini o possibilità di scaricarli da front end
   - 
     label: Export dell'APA
+    alias: exportapa
     type: Sva
     func: "2"
     desc: Funzionalità che permette di esportare come file l'archivio delle posizioni debitorie
   - 
     label: Formazione
+    alias: formazione
     type: Sva
     func: "2"
     desc: Formazione all'EC sul sistema pagoPA e sulla soluzione tecnologica
   - 
     label: Gestione Autorizzazione stampa in proprio
+    alias: autstampa
     type: Sva
     func: "2"
     desc: Il Partner Tecnologico si prende in carico, nel rispetto dei vincoli formali, il processo di richiesta di autorizzazione alla stampa in proprio nei confronti di Poste Italiane
   - 
     label: Iniziative di diffusione
+    alias: diffusione
     type: Sva
     func: "2"
     desc: Supporto all'EC per l'erogazione di iniziative di diffusione sul territorio 
   - 
     label: Iniziative di comunicazione
+    alias: comunicazione
     type: Sva
     func: "2"
     desc: Supporto all'EC nella definizione di una strategia di comunicazione con i cittadini
   - 
     label: Gestione incassi extra Nodo
+    alias: extranodo
     type: Sd
     func: "2"
     desc: Capacità di gestire gestire i pagamenti effettuati con servizi diversi da pagoPA fra cui quelli effettuati con servizi esplicitamente derogati dalle LG (per cassa, SDD, ecc) 
   - 
     label: Integrazione con piattaforma App IO
+    alias: appio
     type: Sd
     func: "3"
     desc: Integrazione del back office con l'app IO
   - 
     label: Riconciliazione
+    alias: riconciliazione
     type: Sd
     func: "3"
     desc: Capacità del Partner Tecnologico di fornire l'export dei dati necessari al SW gestionale per effettuale la riconciliazione automatica del pagamento e la produzione della reversale di incasso
   - 
     label: Pagamento con POS
+    alias: pos
     type: Sva
     func: "3"
     desc: Fornire all'EC la possibilità di incassare tramite POS con procedura pagoPA
   - 
     label: Integrazione con ANPR
+    alias: anpr
     type: Sva
     func: "3"
     desc: Integrazione dell'Archivio posizioni debitorie con ANPR, nel rispetto dei vincoli formali
   - 
     label: "SIOPE +"
+    alias: siope
     type: Sva
     func: "3"
     desc: Integrazione con il sistema SIOPE + in particolare import dei flussi bancari dal giornale di cassa per confronto con rendicontazione incassi 
   - 
     label: Codifica dati per analisi pagamenti
+    alias: coddatipag
     type: Sva
     func: "3"
     desc: Creazione di una codifica per ogni tipologia di tributo / incasso al fine di analizzare le tipolgie di entrate e la relativa diffusione 
   - 
     label: Fascicolo del cittadino
+    alias: fasccittadino
     type: Sva
     func: "3"
     desc: Possibilità per il cittadino, dopo essersi autenticato, di visionare tutte le posizioni debitorie a proprio carico
   - 
     label: Interoperabilità con contabilità
+    alias: intercontabilita
     type: Sva
     func: "3"
     desc: Capacità del partner tecnologico di integrarsi con il software di contabilità presente nell'Ente tramite la messa a disposizione di interfacce applicative (WS) per il caricamento/interrogazione delle posizioni e delle relative imputazioni contabili se presenti
   - 
     label: Interoperabilità con gestionali
+    alias: itnergest
     type: Sva
     func: "3"
     desc: Capacità del partner tecnologico di integrarsi con i gestionali già presenti nell'Ente Creditore
   - 
     label: Front end multilingue
+    alias: femultilingue
     type: Sva
     func: "3"
     desc: Disponibilità di front end multilingue (inglese,francese, tedesco, sloveno)
   - 
     label: Integrabilità con altri front-end
+    alias: altrife
     type: Sva
     func: "3"
     desc: La piattaforma di pagamento può essere configurata per utilizzare front-end non nativi

@@ -17,7 +17,7 @@ footerbanner:
 ---
 
 <div class="mb-5 ">
-<a href="#" class="btn btn-xs btn-primary px-5">SCOPRI I PARTNER QUALIFICATI</a>
+<a href="../partner-qualificati-elenco/" class="btn btn-xs btn-primary px-5">SCOPRI I PARTNER QUALIFICATI</a>
 </div>
 
 ### Funzionalità minime e di base
