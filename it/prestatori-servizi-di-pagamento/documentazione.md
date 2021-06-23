@@ -15,6 +15,7 @@ child_of_submenu: pagoPA
 <div class="col-12 col-lg-3 affix-parent">
     {% include components/sidebarnav.html
        title="Argomenti"
+       menustring="Naviga per argomento"
        source=docs %}
 </div>
 <div class="col-12 col-lg-9">

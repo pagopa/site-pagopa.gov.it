@@ -94,26 +94,6 @@ $(function() {
         
     });
 
-    // FILTER PARTNERS
-
-    $('.filter-checkbox').change(function() {
-        var $allItems = $('[data-partner');
-        var $checked = $('.filterPartner .filter-checkbox:checked');
-        var selector = '';
-        $checked.each(function(){
-            var value = $(this).val();
-            selector += '['+value+']';
-        });
-        var $targets = $(selector);
-        if ($targets.length > 0 ) {
-            $allItems.removeClass('partner-selected').removeClass('partner-unselected');
-            $targets.addClass('partner-selected');
-            $allItems.filter(':not(.partner-selected)').addClass('partner-unselected');
-        } else {
-            $allItems.removeClass('partner-selected').removeClass('partner-unselected');
-        }
-    });
-
     $('.cookiebar__close').on('click', function(e) {
         var $cookiebar = $('.cookiebar');
         var date = new Date();
@@ -158,6 +138,52 @@ $(function() {
         e.preventDefault();
         grecaptcha.execute();
     })
+
+    $(".playvideo").click( function(e) {
+        e.preventDefault();
+        var src = $(this).attr("data-url");
+        var replace = $(this).attr("data-replace");
+        var $elVideoWrapper = $(this).siblings(".videoWrapper");
+        var $button = $(this);
+        
+        if (replace) {
+            var elToReplace = $(replace);
+            $elVideoWrapper.children("iframe").attr("src",src);
+            elToReplace.fadeOut( 1000, function() {
+                $button.hide();
+                $elVideoWrapper.removeClass('d-none');
+                
+              });
+        } else {
+            $(".overlay-video").show();
+            $("#player").attr("src", src);
+            setTimeout(function() {
+                $(".overlay-video").addClass("o1");
+                
+            }, 100);
+        }
+    });
+    
+    $(".overlay-video").click(function(event) {
+        if (!$(event.target).closest(".videoWrapperExt").length) {
+            var PlayingVideoSrc = $("#player").attr("src").replace("&autoplay=1", "");
+            $("#player").attr("src", PlayingVideoSrc);
+            $(".overlay-video").removeClass("o1");
+            setTimeout(function() {
+                $(".overlay-video").hide();
+            }, 600);
+        }
+    });
+    
+    $(".videoWrapper__close").click(function(event) {
+            var PlayingVideoSrc = $("#player").attr("src").replace("&autoplay=1", "");
+            $("#player").attr("src", PlayingVideoSrc);
+            $(".overlay-video").removeClass("o1");
+            setTimeout(function() {
+                $(".overlay-video").hide();
+            }, 600);
+    
+    });
 
 
 });

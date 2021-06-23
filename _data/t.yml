@@ -102,9 +102,6 @@ JobApply:
 topright-links:
   en:
   it:
-    dashboard:
-      name: "Dashboard"
-      url: "/it/pagopa/dashboard/"
     pianotriennale:
       name: "Piano Triennale"
       url: "https://pianotriennale-ict.italia.it/"
@@ -124,5 +121,5 @@ navigation:
       name: "Prestatori Servizi di Pagamento"
       url: "#"
     news:
-      name: "News"
-      url: "/it/news/"
+      name: "Notizie"
+      url: "/it/notizie/"

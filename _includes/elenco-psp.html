@@ -1,10 +1,19 @@
-{% assign psp = site.data.psp %}
+{% assign psp = site.data.psp | sort: 'Denominazione' %}
 <div class="row">
 	<div class="col-md-8 mb-2 mb-md-4">
 		<h1 class="page-title" >{{ page.title_hero | default: page.title }}</h1>
 		<div class="small text-muted">Ultimo aggiornamento: 25 maggio 2021</div>
 	</div>
-	<div class="col-md-4">
+	<div class="col-md-4 d-flex align-items-center">
+		<div class="form-group m-0 elencopsp__search__wrapper">
+			<div class="input-group">
+			  <label for="elencopsp__search">Cerca per nome o CF</label>
+			  <input type="text" class="form-control" id="elencopsp__search" name="elencopsp__search">
+			  <div class="input-group-append align-items-center">
+				<svg class="icon icon-sm  "><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-search"></use></svg>
+			  </div>
+			</div>
+		  </div>
 	</div>
 </div>
 
@@ -12,6 +21,7 @@
 	<thead>
 		<tr>
 			<th >Nome</th>
+			<th data-visible="false" >CF</th>
 			<th>Aggiornato il</th>
 			<th></th>
 		</tr>
@@ -20,6 +30,7 @@
 		{% for item in psp %}
 			<tr>
 				<td class="elencopsp__denominazione">{{item.Denominazione }}</td>
+				<td class="elencopsp__cf" >{{item.CodiceFiscale }}</td>
 				<td class="elencopsp__data">01/06/2021</td>
 				<td>
 					{% if forloop.index < 5 %}

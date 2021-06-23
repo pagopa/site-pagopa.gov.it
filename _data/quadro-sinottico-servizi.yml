@@ -5,6 +5,7 @@ functionalities:
 items: 
   - 
     label: Gestione Archivio Pagamenti in Attesa
+    alias: gestarchpagatt
     type: Sm
     func: "1"
     desc: Sistema Funzionale che permette all'EC di creare, visualizzare, modificare le proprie posizioni debitorie tramite scambio dati M2M o manualmente
@@ -16,6 +17,7 @@ items:
     desc: Messa a disposizione dei documenti scambiati con pagoPA (RT,RPT, flussi di rendicontazione) 
   - 
     label: Integrazione con e@bollo
+    alias: ebollo
     type: Sm
     func: "1"
     desc: Integrazione del servizi di @e.bollo dell'Agenzia delle Entrate, come da linee guida pagoPA
@@ -27,31 +29,37 @@ items:
     desc: Possibilità per l'EC di scaricare un report contenente tutti i flussi di rendicontazione inviati dai diversi PSP in ogni giornata operativa
   - 
     label: Modelli di pagamento
+    alias: modpagamento
     type: Sm
     func: "1"
     desc: Capacità di innescare pagamenti con ogni modello previsto da linee guida pagoPA e allegati
   - 
     label: Profilazione personale EC con diversi ruoli e permessi
+    alias: profpermessi
     type: Sb
     func: "1"
     desc: Possibilità di creare e gestire utenti differenti che abbiano visione e capacità di modifica di diverse tab del back office o diversi servizi
   - 
     label: Rateizzazione
+    alias: rateizzazione
     type: Sb
     func: "1"
     desc: Capacità di gestire i pagamenti rateali
   - 
     label: Attualizzazione del debito
+    alias: attdebito
     type: Sb
     func: "1"
     desc: Funzionalità che permette l'attualizzazione in tempo reale dell'importo del debito, nel momento in cui il cittadino sta effettuando il pagamento, in modo che l'importo pagato sia quello corretto perchè indicato dall'EC
   - 
     label: Disponibilità della ricevuta telematica
+    alias: disprictel
     type: Sb
     func: "1"
     desc: Funzione di front end che consente al pagatore di recuperare ricevuta di ogni pagamento effettuato in vavore dell'EC
   - 
     label: Gestione Carrello multi beneficiario multi pagatore
+    alias: gestcarrmulti
     type: Sb
     func: "1"
     desc: Possibilità di effettuare molteplici pagamenti in unica soluzione, anche a beneficio di diversi EC e/o con diversi soggetti pagatori
@@ -99,6 +107,7 @@ items:
     desc: Verifica della coerenza dei dati del FdR con quelli di pagamento
   - 
     label: Gestione del giornale degli eventi
+    alias: gesteventi
     type: Sb
     func: "2"
     desc: Gestione delle informazioni previste nella struttura "Giornale degli eventi" di cui alle SANP
@@ -218,6 +227,7 @@ items:
     desc: La piattaforma di pagamento può essere configurata per utilizzare front-end non nativi
   - 
     label: Bilinguismo
+    alias: bilingue
     type: Sb
     func: "3"
     desc: Multilingue per regioni e province autonome in cui vige il bilinguismo
