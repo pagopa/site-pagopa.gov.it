@@ -53,7 +53,7 @@ Se la Società oppone un diniego totale o parziale all’accesso o nel caso di m
 - a mezzo posta ordinaria o a mani: presso la sede operativa della Società, sita in Roma, alla Via Sardegna n. 38 - CAP 00187;
 - a mezzo PEC all’indirizzo pagopa@pec.governo.it scrivendo nell’oggetto _“riesame accesso civico generalizzato”_.
 
-Sull’istanza di riesame si pronuncia il RPTC, oppure il Direttore Finanza & Amministrazione, in qualità di titolare del potere sostitutivo, nel caso in cui i dati/documenti/informazioni oggetto dell’istanza di Accesso civico generalizzato siano detenuti dal RPCT che, pertanto, è competente a decidere in sede di prima istanza.
+Sull’istanza di riesame si pronuncia il RPTC, oppure il Direttore Finanza & Amministrazione, l'avv. Maria Teresa Lucibello, in qualità di titolare del potere sostitutivo, nel caso in cui i dati/documenti/informazioni oggetto dell’istanza di Accesso civico generalizzato siano detenuti dal RPCT, l'avv. Marta Colonna, che, pertanto, è competente a decidere in sede di prima istanza.
 
 Il RPCT o il titolare del potere sostitutivo si pronunciano entro il termine di 20 giorni dal ricevimento della stessa.
 

@@ -5,13 +5,15 @@ lang: it
 layout: job
 ref: srsoftwareengSI_2021
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/w3DcheWVXC/Senior-Software-Engineer-Strategic-Innovation
+jazz_url:
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 16/03/2021
     chiusura: 16/06/2021
+    numassunte: selezione in corso
 ---
 
 Il dipartimento di Innovazione Strategica di PagoPA S.p.A. è alla ricerca di massimo n. 5 **Senior Software Engineer** che contribuiscano alla realizzazione di nuovi prodotti e iniziative digitali di rilevanza strategica.
