@@ -4,12 +4,16 @@
     {% endif %}
     <ul class="it-list">
       {% for item in include.source %}
-      <li>
-        <a href="{{item.url}}">
+        {%comment%}UGLY method to check if a doc is internal or external, using a whitelist of domains{%endcomment%}
+        {% assign iconurl = "/assets/bootstrap-italia/dist/svg/sprite.svg#it-external-link" %}
+        {% for whiteurl in site.docwhitelist %}
+          {% if item.url contains whiteurl %}
           {% assign iconurl = "/assets/bootstrap-italia/dist/svg/sprite.svg#it-file" %}
-          {% if item.url contains '://' %}
-            {% assign iconurl = "/assets/bootstrap-italia/dist/svg/sprite.svg#it-external-link" %}
           {% endif %}
+        {% endfor %}
+
+      <li>
+        <a href="{{item.url}}" title="{{item.label | escape}}">
           <div class="it-rounded-icon">
             <svg class="icon icon-m">
               <use xlink:href="{{iconurl}}"></use>

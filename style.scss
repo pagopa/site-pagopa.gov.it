@@ -323,7 +323,8 @@ body.page--partner-qualificati-elenco {
   margin: 1rem 0;
 }
 
-.component-grid {
+.component-grid,
+.component-grid-simple {
   .card {
     &:after {
       display: none;
@@ -353,6 +354,11 @@ body.page--partner-qualificati-elenco {
     margin-right: -5px;
     margin-left: -5px;
   }
+  .with-border {
+    @media (min-width: 992px) {
+      border-right: 1px solid #e6e9f2;
+    }
+  }
   &__item {
     flex-basis: 100%;
     padding: 10px;
@@ -378,6 +384,27 @@ body.page--partner-qualificati-elenco {
       flex-basis: 25%;
       @media (min-width: 992px) {
         max-width: 25%;
+      }
+    }
+    &__title {
+      font-size: 1.3rem;
+      line-height: 1.2;
+      font-weight: 600;
+      margin: 0.5rem 0;
+      color: #17324d;
+      @media (min-width: 992px) {
+        margin: 1rem 0;
+      }
+    }
+    &__text {
+      color: #17324d;
+    }
+    &__wrapper {
+      padding-right: 1rem;
+      padding-left: 1rem;
+      @media (min-width: 992px) {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
       }
     }
   }
@@ -558,6 +585,7 @@ body.page--partner-qualificati-elenco {
       @media (min-width: 992px) {
         position: absolute;
         right: 0;
+        z-index: 1;
       }
     }
   }

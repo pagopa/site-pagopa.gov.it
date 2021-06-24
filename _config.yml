@@ -48,6 +48,12 @@ version: v3.8.5
 sass:
   style: :compressed # You might prefer to minify using :compressed
 
+# whitelist to use to refer a doc as external or not
+docwhitelist:
+  - https://github.com/pagopa/
+  - https://raw.githubusercontent.com/pagopa/
+  - https://docs.italia.it/
+
 # Use the following plug-ins
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
