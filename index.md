@@ -1,65 +1,64 @@
 ---
 layout: default
 title: Home
-hero_title: Pagamenti semplici e sicuri per la Pubblica Amministrazione
-hero_description: pagoPA è la piattaforma digitale che consente ai cittadini di pagare in modo più naturale, veloce e moderno e che solleva le amministrazioni dai costi e dai ritardi dei metodi di incasso tradizionali.
+hero_title: Paga quando vuoi,<br>dove vuoi!
+hero_description: pagoPA è la piattaforma digitale che permette ai cittadini di effettuare pagamenti verso la Pubblica Amministrazione, in maniera trasparente e intuitiva.
 lang: it
 ref: homepage
 order: 1
+blocks: 
+  - title: Un sistema semplice e trasparente per i tuoi pagamenti verso le PA
+    label: Per i cittadini
+    body: "Qui serve un testo che spiega la value proposition di pagoPA per il cittadino: grazie a pagoPA puoi scegliere dove pagare, a chi dare i costi di commissione e non devi preoccuparti della ricevuta."
+    buttons:
+      - label: Scopri di più
+        url: "#"
+        css: "btn  btn-primary px-5 d-block d-lg-inline mr-lg-3 mb-2"
+      - label: Dove pagare
+        url: "#"
+        css: "btn btn-outline-primary px-5 d-block d-lg-inline"
+    img: "/assets/images/jonas-leupe-426231-unsplash.jpg"
+  - title: Un modo più semplice per gestire e rendicontare i pagamenti
+    label: Per le Pubbliche Amministrazioni
+    body: "pagoPA permette alle Pubbliche Amministrazioni di gestire i pagamenti in modo centralizzato, offrendo servizi automatici di rendicontazione e riconciliazione con un significativo risparmio nei costi di gestione."
+    buttons:
+      - label: Scopri di più
+        url: "#"
+        css: "btn  btn-primary px-5 d-block d-lg-inline mr-lg-3 mb-2"
+      - label: Come aderire
+        url: "#"
+        css: "btn btn-outline-primary px-5 d-block d-lg-inline"
+    img: "/assets/images/jonas-leupe-426231-unsplash.jpg"
+  - title: Main value proposition per i Prestatori di Servizi di Pagamento
+    label: Per i PSP
+    body: "Qui serve un testo che spiega la value proposition di pagoPA per i PSP: aumento prospect? possibilità di offrire servizi a valore aggiunto? unico interlocutore?"
+    buttons:
+      - label: Scopri di più
+        url: "#"
+        css: "btn  btn-primary px-5 d-block d-lg-inline mr-lg-3 mb-2"
+      - label: Come aderire
+        url: "#"
+        css: "btn btn-outline-primary px-5 d-block d-lg-inline"
+    img: "/assets/images/jonas-leupe-426231-unsplash.jpg"
 ---
 
 {% include hero.html %}
 
 <main>
-<div  class="container my-5 ">
-    <div class="row">
-        <div class="col-12">
-            {% include pages/home/home-video.html %}
-        </div>
-    </div>
-    <div class="row" id="newsletter">
+<div  class="container my-3 my-md-5 ">
+    <section class="my-3 my-lg-5">
+      {% for block in page.blocks %}
+        {% capture alt %}{% cycle "odd","even" %}{%endcapture%}
+        {% include components/text-block.html alt=alt source=block %}
+      {%endfor%}
+    </section>
+    <section class="">
+      {% include components/grid-posts.html %}
+    </section>
+    <section class="row" id="newsletter">
             <div class="col-12 col-lg-8 offset-lg-2">
                 {% include pages/home/home-newsletter-box.html %}
             </div>
-        </div>
+    </section>
     </div>
 </main>
-
-<div class="col-12">
-  <div class="section section-muted">
-    <div class="section-content">
-      <div class="card-deck">
-        <div class="card shadow border-0 mg-md-4">
-          <div class="card-header">
-            Pubbliche Amministrazioni
-          </div>
-          <div class="card-body">
-            <p class="card-text"><b>Tutte le Pubbliche Amministrazioni devono aderire al nuovo sistema per legge</b>, e possono integrarsi sia in modalità diretta che in modalità indiretta per mezzo di intermediari tecnologici.</p>
-            <a class="read-more" href="{{ site.baseurl }}/it/pubbliche-amministrazioni">
-              <span class="text">Leggi di più</span>
-              <svg class="icon">
-                <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div class="card shadow border-0 mg-md-4">
-          <div class="card-header">
-            Prestatori Servizi di Pagamento
-          </div>
-          <div class="card-body">
-            <p class="card-text">I Prestatori di Servizi di Pagamento (PSP) come <b>le banche, le poste, gli istituti di pagamento e ogni altro soggetto abilitato ad eseguire servizi di pagamento</b>, aderiscono su base volontaria al sistema pagoPA, per erogare i propri servizi di pagamento a cittadini e imprese attraverso il nodo di pagoPA.</p>
-            <a class="read-more" href="{{ site.baseurl }}/it/prestatori-servizi-di-pagamento">
-              <span class="text">Leggi di più</span>
-              <svg class="icon">
-                <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- contenuto di esempio END -->
-    </div>
-
-  </div>
-</div>

@@ -1,0 +1,34 @@
+<div class="component-text-block px-3 px-lg-0 py-2 py-lg-5">
+    <div class="row">
+        <div class="col-12 col-lg-6 {% if include.alt=="odd" %}order-lg-2{%endif%}">
+            {% if include.source.img %}
+            <div class="component-text-block__img__wrapper">
+                <div class="component-text-block__img__inner">
+                    <div class="component-text-block__img">
+                        <img src="{{include.source.img}}" alt="{{include.source.title | escape}}">
+                    </div>
+                </div>
+            </div>
+            {%endif%}
+        </div>
+        <div class="col-12 col-lg-6 {% if include.alt=="odd" %}order-lg-1{%endif%}">
+            <div class="{% if include.alt=="odd" %}pr-lg-4{%else%}pl-lg-4{%endif%} pt-3 pt-lg-0">
+                <div class="component-text-block__label">{{include.source.label}}</div>
+                <div class="component-text-block__title">{{include.source.title}}</div>
+                <div class="component-text-block__body">{{include.source.body}}</div>
+                {% if include.source.buttons %}
+                <div class="my-4">
+                {% for btn in include.source.buttons %}
+                    <a href="{{btn.url}}"
+                       title="{{btn.label | escape}}"
+                       class="{{btn.css}}">
+                    {{btn.label}}
+                </a>
+                {%endfor%}
+            </div>
+                {%endif%}
+            </div>
+        </div>
+        
+    </div>
+</div>
