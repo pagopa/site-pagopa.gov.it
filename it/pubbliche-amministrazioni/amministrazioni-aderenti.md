@@ -12,6 +12,5 @@ Il sistema pagoPA è adottato dalle Amministrazioni pubbliche (Enti) che consent
 
 Di seguito l’elenco aggiornato degli Enti aderenti:  
 * [Elenco degli enti creditori aderenti a pagoPA (CSV)](../../../data/pagopa-ec.csv)
-* [Elenco degli enti creditori aderenti a pagoPA (XSLX)](../../../data/pagopa-ec.xlsx)
 
 
