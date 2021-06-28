@@ -5,10 +5,11 @@ lang: it
 layout: job
 ref: mobileeng_2021
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/kmCAAUOnhn/Mobile-Software-Engineer
+jazz_url:
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 24/02/2021
     chiusura: 25/06/2021
