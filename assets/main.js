@@ -12,6 +12,10 @@ function newsletterResponse(success) {
     $("#newsletter-button").hide();
 }
 
+function isEmail(email) {
+    return /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(email);
+}
+
 function submitNewsletter(token) {
     var subscriptionUrl = "https://api.io.italia.it/api/payportal/v1/newsletters/pagopa/lists/2/recipients";
     var email = $("#email").val().trim();
@@ -32,6 +36,22 @@ function submitNewsletter(token) {
 
            });
 }
+
+// URL params
+function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+};
 
 $(function() {
     // get "the monday" of a Date
@@ -137,7 +157,38 @@ $(function() {
     $("#newsletter-form").on("submit" , function(e) {
         e.preventDefault();
         grecaptcha.execute();
-    })
+    });
+
+    function onFieldsChange() {
+        var groupOtionsChecked = [];
+        $('.js-nl-groups .js-nl-group-option').each(function (el) {
+            if ($(this).is(":checked"))
+                groupOtionsChecked.push($(this).data('value'));
+        });
+
+        // Sets the #group element value to a comma-separated list of ids as per
+        // http://help.mailup.com/display/mailupapi/HTTP+API+Specifications#HTTPAPISpecifications-Groups
+        if (document.getElementById('group') != null)
+            document.getElementById('group').value = groupOtionsChecked.toString();
+
+        // Enables submit button when at least one option is selected and the input field is filled with an actual email
+        $('.js-newsletter-submit')
+            .prop('disabled', (groupOtionsChecked.length == 0) || (!isEmail($('.js-newsletter-email').val())));
+    }
+
+    var UrlParameterEmail = getUrlParameter('email');
+
+    // If ?email=email@example.com, pre-populates email input field
+    // TODO pre-populate entire user data
+    if (UrlParameterEmail && isEmail(UrlParameterEmail)) {
+        $('.js-newsletter-email')[0].value = UrlParameterEmail;
+        onFieldsChange();
+    }
+
+    $('.js-newsletter-email')
+        .on('input', onFieldsChange);
+    $('.js-nl-groups .js-nl-group-option')
+        .on('change', onFieldsChange);
 
     $(".playvideo").click( function(e) {
         e.preventDefault();

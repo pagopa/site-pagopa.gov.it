@@ -515,7 +515,6 @@ body.page--partner-qualificati-elenco {
     }
   }
   &__img__wrapper {
-    background-color: #00cf86;
     width: 100%;
     height: 25vh;
     overflow: hidden;
@@ -542,6 +541,38 @@ body.page--partner-qualificati-elenco {
       height: 100%;
       -o-object-fit: cover;
       object-fit: cover;
+    }
+  }
+}
+.component-dashboard {
+  &__item {
+    @media (min-width: 992px) {
+      margin-right: 3rem;
+    }
+    &__value {
+      color: #0073e6;
+      font-size: 2.2rem;
+      line-height: 1;
+      font-weight: 700;
+      margin: 1rem 0;
+    }
+    &__desc {
+      color: #17324d;
+      font-weight: 600;
+      line-height: 1.1;
+    }
+  }
+}
+.component-posts {
+  &__item {
+    &__title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #1c2024;
+    }
+    &__date {
+      color: #475a6d;
+      font-size: 0.888rem;
     }
   }
 }
@@ -735,5 +766,62 @@ body.page--partner-qualificati-elenco {
   z-index: 9999;
   @media (max-width: 767px) and (orientation: landscape) {
     display: none;
+  }
+}
+
+.section-newsletter {
+  background-color: #005ebd;
+  .verysmall {
+    font-size: 0.7rem;
+  }
+  .text-white {
+    a {
+      color: #fff;
+    }
+  }
+  .extraprivacy {
+    color: #fff;
+    opacity: 0.6;
+    a {
+      color: #fff;
+    }
+  }
+  &__title {
+    color: #fff;
+    text-align: center;
+    font-size: 1.75rem;
+  }
+  &__image {
+    margin: 0 auto;
+    display: block;
+  }
+  .form-check [type="checkbox"]:not(:checked) + label::after {
+    border-color: #fff;
+  }
+  .form-group {
+    @media (min-width: 992px) {
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    label {
+      z-index: 1;
+      width: 100%;
+      font-weight: normal;
+      color: #5c6f82;
+      font-size: 0.88rem;
+      &.active {
+        display: none;
+      }
+    }
+    #newsletteremail {
+      border-bottom-right-radius: 0.5rem !important;
+      border-top-right-radius: 0.5rem !important;
+    }
+    .input-group-prepend .input-group-text {
+      border-bottom-left-radius: 0.5rem !important;
+      border-top-left-radius: 0.5rem !important;
+      padding-left: 1rem;
+    }
   }
 }

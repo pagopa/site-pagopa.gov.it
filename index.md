@@ -52,13 +52,21 @@ blocks:
         {% include components/text-block.html alt=alt source=block %}
       {%endfor%}
     </section>
-    <section class="">
+    <section class="my-3 my-md-5">
       {% include components/grid-posts.html %}
     </section>
-    <section class="row" id="newsletter">
-            <div class="col-12 col-lg-8 offset-lg-2">
-                {% include pages/home/home-newsletter-box.html %}
-            </div>
+    <section class="my-3 my-md-5">
+      {% include components/dashboard.html %}
     </section>
     </div>
 </main>
+<div class="py-3"></div>
+<section id="newsletter" class="section-newsletter" >
+        <div class="container py-3 py-lg-5">
+          <div class="row">
+            <div class="col-12 col-lg-8 offset-lg-2">
+                {% include pages/home/home-newsletter-box.html %}
+            </div>
+          </div>
+        </div>
+</section>

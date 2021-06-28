@@ -1,36 +1,51 @@
-<h2 class="mt-5">{{ site.data.t.newsletter[page.lang].title }}</h2>
+<img src="/assets/images/icon-newsletter.svg" alt="Iscriviti alla newsletter" class="section-newsletter__image my-3">
+<h2 class="my-1 section-newsletter__title">{{ site.data.t.newsletter[page.lang].title }}</h2>
 <form method="POST" action="#" id="newsletter-form"
-  class="newsletter-form">
-  <div class="g-recaptcha"
-      data-sitekey="{{site.google_captcha}}"
-      data-callback="submitNewsletter"
-      data-size="invisible">
-</div>
+  class=" section-newsletter__form newsletter-form">
   <input type="hidden" name="list" value="{{ site.mailup_list }}">
-  <div class="form-group my-4">
+  <input id="group" name="group" type="hidden" value="">
+  <div class="form-group my-3 my-md-5 px-3">
     <div class="input-group">
       <div class="input-group-prepend">
         <div class="input-group-text"><svg class="icon icon-sm icon-primary">
             <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-mail"></use>
           </svg></div>
       </div>
-      <label for="email">{{ site.data.t.newsletter[page.lang].placeholder }}</label>
-      <input type="email" class="form-control" id="email" name="email">
-      <div class="input-group-append">
-        <button class="btn btn-primary" id="newsletter-button" 
-        type="submit">{{ site.data.t.newsletter[page.lang].submit_button }}</button>
-      </div>
+      <label for="newsletteremail">{{ site.data.t.newsletter[page.lang].placeholder }}</label>
+      <input type="email" class="form-control" id="newsletteremail" name="newsletteremail" >
     </div>
     <div class="bg-success rounded p-2 small shadow my-4 text-white  text-center" style="display:none"  role="alert" id="newsletter-ok">
-      Iscrizione alla newsletter avvenuta con successo!
+      {{ site.data.t.newsletter[page.lang].success }}
     </div>
     <div class="bg-warning rounded p-2 small shadow my-4 text-white text-center" style="display:none" role="alert" id="newsletter-ko">
-      Ci sono problemi di comunicazione col sistema, non siamo riusciti a iscriverti alla newsletter. Riprova più tardi
+      {{ site.data.t.newsletter[page.lang].problem }}
     </div>
-  </div>
+    <div class="my-3 my-md-5">
+      <div class="text-white small py-3">{{ site.data.t.newsletter[page.lang].first_par }}*:</div>
+      <div class="js-nl-groups">
+        {% for group in site.data.t.newsletter[page.lang].groups %}
+        <div class="form-check form-check-group">
+          <input class="js-nl-group-option" id="group-option-{{group.title | slugify}}" data-value="{{group.id}}" type="checkbox">
+          <label class="text-white" for="group-option-{{group.title | slugify}}">{{group.title}}</label>
+        </div>
+        {% endfor %}
+
+      </div><!--/js-nl-groups-->
+      <div class="text-white font-italic verysmall">* {{ site.data.t.newsletter[page.lang].second_par }}</div>
+
+      <div class="my-3 my-md-5 text-center">
+        <button disabled type="button" class="js-newsletter-submit btn btn-sm bg-white text-primary px-5 text-uppercase g-recaptcha" 
+        data-sitekey="{{site.google_captcha}}" data-callback="submitNewsletter">
+        {{site.data.t.newsletter[page.lang].submit_button}}</button>
+      </div>
+    </div>
+    <div class="text-center">
+      <div class="text-white verysmall mb-2">{{ site.data.t.newsletter[page.lang].disclaimer | markdownify }}</div>
+      <div class="extraprivacy verysmall">
+        Form protetto tramite reCAPTCHA e <a href="https://policies.google.com/privacy" target="_blank" class="text-discreet">Google Privacy Policy</a> 
+        e <a href="https://policies.google.com/terms" target="_blank" class="text-discreet">Termini di servizio applicati</a>.
+      </div>
+    </div>
+  </div><!--/form-group-->
 </form>
-<p class="text-center">
-  <small class="font-weight-bold">{{ site.data.t.newsletter[page.lang].disclaimer }}</small><small class="text-discreet"> &middot; Form protetto tramite reCAPTCHA e Google 
-  (<a href="https://policies.google.com/privacy" target="_blank" class="text-discreet">Privacy Policy</a> e
-  <a href="https://policies.google.com/terms" target="_blank" class="text-discreet">Termini di servizio</a>)</small>
-</p>
+

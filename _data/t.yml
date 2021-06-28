@@ -86,10 +86,25 @@ footer-links:
       url: "/security.html"
 newsletter:
   it:
-    title: "Iscriviti alla newsletter"
-    placeholder: "Inserisci la tua email"
-    submit_button: "Conferma iscrizione"
-    disclaimer: '<a href="/it/privacy-policy">Privacy policy newsletter</a>'
+    title: "Resta aggiornato, iscriviti alla newsletter!"
+    placeholder: "Inserisci il tuo indirizzo e-mail"
+    submit_button: "Iscriviti"
+    disclaimer: "Inserendo il tuo indirizzo email stai accettando la nostra [informativa sul trattamento dei dati personali per la newsletter](/it/privacy-policy/)."
+    first_par: Vorrei ricevere novità di pagoPA per
+    second_par: campo obbligatorio, con possibilità di risposta multipla
+    success: Iscrizione alla newsletter avvenuta con successo!
+    problem: Ci sono problemi di comunicazione col sistema, non siamo riusciti a iscriverti alla newsletter. Riprova più tardi
+    groups: 
+      - title: "Cittadini"
+        id: "30"
+      - title: "Pubbliche Amministrazioni"
+        id: "40"
+      - title: "Prestatori di Servizi di Pagamento"
+        id: "50"
+      - title: "Aziende"
+        id: "60"
+      - title: "Giornalisti"
+        id: "70"
 CollapseBtnSee:
   en: "See all"
   it: "Mostra tutto"
