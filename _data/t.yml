@@ -84,6 +84,9 @@ footer-links:
     security:
       name: "Sicurezza"
       url: "/security.html"
+    accessibilita:
+      name: "Dichiarazione di accessibilità"
+      url: "/it/accessibilita/"
 newsletter:
   it:
     title: "Resta aggiornato, iscriviti alla newsletter!"

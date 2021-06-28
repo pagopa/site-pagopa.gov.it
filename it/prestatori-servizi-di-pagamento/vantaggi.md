@@ -5,7 +5,7 @@ title_hero: 28 milioni di cittadini e 1,2 milioni di imprese non vedono l’ora 
 description: Con pagoPA i Prestatori di Servizi di Pagamento (PSP) hanno  la possibilità di offrire in modo facile e sicuro più servizi ai propri clienti, accedere ad una vasta platea di nuovi utenti e promuovere i propri servizi a valore aggiunto.
 lang: it
 ref: prestatori-servizi-di-pagamento-vantaggi
-order: 51
+order: 1
 child_of_ref: prestatori-servizi-di-pagamento
 child_of_submenu: pagoPA
 vantaggi:

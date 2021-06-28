@@ -4,7 +4,7 @@ title: I vantaggi
 description: Con pagoPA Pubbliche Amministrazioni, Ministeri, Enti centrali e locali possono utilizzare un sistema semplice, centralizzato, non oneroso per ricevere qualsiasi tipo di pagamento.
 lang: it
 ref: pubbliche-amministrazioni-vantaggi
-order: 51
+order: 1
 child_of_ref: pubbliche-amministrazioni
 vantaggi:
     -

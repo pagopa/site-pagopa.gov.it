@@ -5,7 +5,7 @@ title_hero: Paga come vuoi, quando vuoi
 description: "pagoPA è un sistema unico, semplice, rapido e trasparente per effettuare qualsiasi tipo di pagamento verso la Pubblica Amministrazione e altri soggetti, come le aziende a partecipazione pubblica, le scuole, le università, 
 le ASL e verso società private aderenti che forniscono servizi al cittadino."
 lang: it
-order: 4
+order: 1
 ref: cittadini-vantaggi
 child_of_ref: cittadini
 redirect_from:

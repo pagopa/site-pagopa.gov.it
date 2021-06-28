@@ -335,7 +335,11 @@ body.page--partner-qualificati-elenco {
     &:after {
       display: none;
     }
+    &.card-big .card-body {
+      padding: 1.33rem;
+    }
   }
+
   .card-wrapper {
     @media (min-width: 992px) {
       height: 100%;
@@ -416,9 +420,18 @@ body.page--partner-qualificati-elenco {
   }
 }
 .component-grid-by-step {
+  .with-border {
+    @media (min-width: 992px) {
+      border-right: 1px solid #e6e9f2;
+    }
+  }
+  &__inner {
+    padding: 0 1rem;
+  }
   &__number {
     color: #0073e6;
-    font-size: 1.5rem;
+    font-weight: 600;
+    font-size: 1.55rem;
     margin: 0.5rem 0;
     line-height: 1.1;
     @media (min-width: 992px) {
@@ -427,10 +440,10 @@ body.page--partner-qualificati-elenco {
   }
   &__title {
     color: #17324d;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.1;
-    font-weight: 600;
-    margin: 0.5rem 0;
+    font-weight: 700;
+    margin: 0.5rem 0 1rem 0;
   }
 }
 .component-grid-paragraph {

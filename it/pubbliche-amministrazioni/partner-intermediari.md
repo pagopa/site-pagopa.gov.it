@@ -6,7 +6,7 @@ Le attività tecniche possono essere affidate anche a molteplici soggetti, che s
 lang: it
 ref: partner-intermediari
 child_of_ref: pubbliche-amministrazioni
-order: 43
+order: 3
 footerbanner:
   title: Vuoi diventare un Partner Tecnologico?
   desc: Qui va un testo descrittivo che spiega la procedura di accreditamento e certificazione da parte di PagoPA Sp.A.
