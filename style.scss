@@ -346,6 +346,12 @@ body.page--partner-qualificati-elenco {
     }
     .read-more {
       text-decoration: none;
+      position: relative;
+      bottom: auto;
+      margin-top: 3rem;
+      @media (min-width: 992px) {
+        margin-top: 2rem;
+      }
     }
     .card-pretitle {
       color: #0073e6;
