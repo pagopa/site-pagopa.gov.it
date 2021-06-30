@@ -13,6 +13,7 @@ archived: true
 metadata:
     apertura: 24/02/2021
     chiusura: 25/06/2021
+    numassunte: selezioni in corso
 ---
 
 Stiamo cercando persone dotate di passione, grinta ed integrità, che condividano la nostra missione.
