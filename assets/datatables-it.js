@@ -58,7 +58,7 @@ $(document).ready(function() {
         }
         );
 
-    $('.filter-checkbox').change(function() {
+    $('.filterPartner .filter-checkbox').change(function() {
         if (!this.checked) {
             $partnertable.column( $(this).val() ).search('').draw();
         }
@@ -84,5 +84,34 @@ $(document).ready(function() {
         }
     });
 
+    var $intermediaritable = $('#intermediaritable').DataTable({
+        "order": [[ 0, "asc" ]],
+        "lengthChange": false,
+        "pageLength": 30,
+        "language": it_datatables,
+        "paging": true,
+        }
+        );
+
+    $('.orderIntermediari__radio').change(function() {
+        var value = $(this).val();
+        var col = value.split(":")[0];
+        var dir = value.split(":")[1];
+        if (this.checked) {
+            $intermediaritable.column( col ).order(dir).draw();
+        }
+    });
+    $('.filterIntermediario .filter-checkbox').change(function() {
+        var value = $(this).val();
+        if (!this.checked) {
+            $intermediaritable.column( 2 ).search('').draw();
+        }
+        var $checked = $('.filterIntermediario .filter-checkbox:checked');
+        if ($checked.length > 0) {
+            $intermediaritable.column(2).search(value).draw();
+        } else {
+            $intermediaritable.column(2).search('').draw();
+        }
+    });
 
 });

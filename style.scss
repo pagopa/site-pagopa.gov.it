@@ -138,8 +138,10 @@ a.read-more {
   font-size: 16px;
 }
 
-body.page--partner-qualificati-elenco {
-  .filterPartner {
+body.page--partner-qualificati-elenco,
+body.page--partner-intermediari-elenco {
+  .filterPartner,
+  .filterIntermediario {
     .form-check {
       margin: 0;
       label {
@@ -179,7 +181,8 @@ body.page--partner-qualificati-elenco {
       }
     }
   }
-  .orderPartner {
+  .orderPartner,
+  .orderIntermediari {
     &__title {
       text-transform: uppercase;
       font-weight: 600;
