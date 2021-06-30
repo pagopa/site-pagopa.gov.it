@@ -44,7 +44,7 @@ Come _Senior Software Engineer_ le tue principali responsabilità includono:
   - Coding: algoritmi, strutture dati , OOD
   - Datastores: object-stores, KV stores, RDBMS
   - Operational Excellence: CI/CD, distributed-logging, metrics, alarms, dashboards, on-call
-  - Metodologia aglie (stime a grana grossa, raffinamento incrementale, stories break-down, planning games, retrospectives)
+  - Metodologia agile (stime a grana grossa, raffinamento incrementale, stories break-down, planning games, retrospectives)
   - Leadership: capacità di crescere, guidare ed ispirare membri meno senior del proprio team
 
 ### Completano il profilo:
