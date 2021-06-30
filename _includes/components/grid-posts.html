@@ -6,7 +6,9 @@
     </h3>
     <div class="row">
     {% for post in posts limit:3 %}
-        <article class="component-posts__item col-12 col-lg-4 d-flex flex-column">
+        <article class="col-12 col-lg-4">
+        <a class="component-posts__item  d-flex flex-column text-decoration-none" title="Leggi {{post.title | inspect}}"
+           href="{{ site.baseurl }}{{ post.url }}" >
             {% if post.image %}
             <div class="component-posts__item__img my-3">
                         <img src="{{post.image}}" class="img-fluid" alt="{{post.title | escape}}">
@@ -14,12 +16,7 @@
             {%endif%}
             <div class="component-posts__item__date ">{% include date.html date=post.date %}</div>
             <div class="component-posts__item__title my-2 pr-2">{{post.title}}</div>
-            <div class="component-posts__item__read py-3 mt-auto">
-                <a href="{{ site.baseurl }}{{ post.url }}" 
-                   title="Leggi {{post.title | inspect}}"
-                   class="text-primary read-more">Leggi di più &rarr;
-                </a>
-            </div>
+        </a>
         </article>
     {% endfor %}
     </div>

@@ -324,9 +324,13 @@ body.page--partner-qualificati-elenco {
 }
 .page-desc {
   color: #17324d;
-  font-size: 1.35rem;
-  line-height: 2rem;
+  font-size: 1.34rem;
+  line-height: 1.4;
   margin: 1rem 0;
+  p {
+    margin-bottom: 0.25rem;
+    line-height: 1.4;
+  }
 }
 
 .component-grid,

@@ -22,9 +22,10 @@
                     {% endif %}
                     {% if item.buttons %}
                         {% for button in item.buttons %}
+                        {% assign style = button.css | default: "btn btn-xs btn-primary d-lg-block text-uppercase px-5" %}
                         <div class="my-3">
                             <a href="{{button.url}}" 
-                               class="btn btn-xs btn-primary d-lg-block text-uppercase px-5"
+                               class="{{style}}"
                                title="{{button.label | escape}}">{{button.label}}</a>
                         </div>
                         {% endfor %}

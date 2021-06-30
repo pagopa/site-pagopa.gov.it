@@ -23,7 +23,7 @@ layout: default
             <h1 class="page-title" >{{ page.title_hero | default: page.title }}</h1>
           {%endunless%}
           {% if page.description %}
-            <p class="page-desc">{{ page.description }}</p>
+            <div class="page-desc">{{ page.description | markdownify }}</div>
           {% endif %}
           </div>
         {% endunless %}

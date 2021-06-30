@@ -1,8 +1,8 @@
 ---
 layout: page
 title: I vantaggi
-title_hero: 28 milioni di cittadini e 1,2 milioni di imprese non vedono l’ora di scoprire i tuoi servizi
-description: Con pagoPA i Prestatori di Servizi di Pagamento (PSP) hanno  la possibilità di offrire in modo facile e sicuro più servizi ai propri clienti, accedere ad una vasta platea di nuovi utenti e promuovere i propri servizi a valore aggiunto.
+title_hero: Raggiungi milioni di cittadini e imprese con i tuoi servizi per la PA
+description: Con pagoPA, hai un accesso diretto al settore dei pagamenti per i servizi pubblici e puoi promuovere la tua offerta multicanale da un'unica piattaforma, portando valore aggiunto a una vasta platea di nuovi utenti.
 lang: it
 ref: prestatori-servizi-di-pagamento-vantaggi
 order: 1
@@ -10,19 +10,17 @@ child_of_ref: prestatori-servizi-di-pagamento
 child_of_submenu: pagoPA
 vantaggi:
     -
+      title: Convenienza
+      desc: "pagoPA ti permette un accesso semplificato all'intero settore dei pagamenti per i servizi pubblici: grazie a un unico accordo di adesione, potrai offrire i tuoi servizi di incasso a beneficio di tutti gli enti creditori aderenti alla piattaforma."
+      img: "/assets/images/pictograms/completed.svg"
+    -
       title: Effetto vetrina
-      desc: "Aderire a pagoPA è il modo migliore per offrire ai tuoi clienti e prospect un’esperienza semplice, veloce e trasparente. Ogni PSP aderente decide quanti e quali servizi di pagamento rendere disponibili: carta di credito, carta di debito, addebito in conto ecc. Fatti notare con pagoPA!"
-      img: "/assets/images/pictograms/piggybank.svg"
+      desc: "pagoPA ti offre l'opportunità di far conoscere i tuoi diversi servizi di pagamento attraverso un'unica piattaforma. Decidi tu quali rendere disponibili lasciando al cittadino la possibilità di scegliere quale usare."
+      img: "/assets/images/pictograms/search.svg"
     -
-      title: Micropagamenti
-      desc: "Implementare l’uso dei micropagamenti significa portare due vantaggi importanti: praticità e sicurezza. Comprare il biglietto dell’autobus, una rivista o il pranzo, diventa pratico e soprattutto veloce. 
-Prediligere il pagamento con carta di debito o di credito, evita di avere con sé contanti ma allo stesso tempo avere disponibilità di denaro nella quantità presente sul conto corrente. "
-      img: "/assets/images/pictograms/abacus.svg"
-    -
-      title: È il cittadino a scegliere
-      desc: "E proprio così! pagoPA consente al cittadino di scegliere il PSP a lui più vantaggioso in termini di risparmio dei costi delle commissioni e del tempi. 
-Aderire alla piattaforma significa mettere a disposizione dei tuoi clienti tutti i canali utili per semplificare e velocizzare il pagamento in maniera sicura e trasparente."
-      img: "/assets/images/pictograms/abacus.svg"
+      title: Volumi
+      desc: "La qualità e la multicanalità del servizio che metti a disposizione dei cittadini attraverso pagoPA, ti consentono di ampliare la tua clientela e gestire un numero sempre maggiore di transazioni verso la PA, offrendo un'esperienza più competitiva anche in termini di costi."
+      img: "/assets/images/pictograms/volumi.svg"
 
 ---
 

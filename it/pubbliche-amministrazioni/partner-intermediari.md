@@ -19,11 +19,11 @@ vantaggi:
       buttons:
         -
          label: Scopri di più
-         url: "#"
+         url: "../partner-qualificati/"
       img: "/assets/images/pictograms/piggybank.svg"
       more:
         label: Vedi i partner qualificati 
-        url: "../partner-qualificati/"
+        url: "../partner-qualificati-elenco/"
     -
       title: Partner tecnologico
       noshadow: true
