@@ -14,7 +14,7 @@ metadata:
     apertura: 04/03/2021
     chiusura: 05/04/2021
     numricercate: 2
-    numassunte: selezione in corso
+    numassunte: 2
 ---
  
 PagoPA S.p.A. è alla ricerca di massimo n. 2 **Junior Financial Assistant** a supporto del Team Finanza, Controllo & Affari Societari (nel seguito “Team), del Chief Financial Officer e dell’Organo Amministrativo della Società nella governance economica, patrimoniale e finanziaria sulla base di quanto definito dalla strategia e dalle politiche societarie. 
