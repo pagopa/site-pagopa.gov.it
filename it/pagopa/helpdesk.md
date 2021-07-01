@@ -17,29 +17,23 @@ gridbody:
     img: "/assets/images/pictograms/ricevute.svg"
     title: Leggi le domande frequenti
     desc: "Abbiamo provato a dare risposta alle domande più frequenti relative ai problemi durante un pagamento."
-    buttons:
-      -
-        label: Leggi le FAQ
-        url: "https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/index.html"
-        css: "btn btn-xs btn-outline-primary px-5"
+    more:
+      label: Leggi le FAQ
+      url: "https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/index.html"
   -
     img: "/assets/images/pictograms/mail.svg"
     title: Scrivi a helpdesk@pagopa.it
     desc: "Allega dati utili per capire meglio il tuo problema, come ad esempio i dati del pagamento, il metodo scelto e screenshot."
-    buttons:
-      -
-        label: Invia un’email
-        url: "mailto:helpdesk@pagopa.it"
-        css: "btn btn-xs btn-outline-primary px-5"
+    more:
+      label: Invia un’email
+      url: "mailto:helpdesk@pagopa.it"
   -
     img: "/assets/images/pictograms/telefono.svg"
     title: Chiamaci allo 02/66897805
     desc: "Tieni a portata la documentazione in tuo possesso, così gli operatori potranno aiutarti al meglio."
-    buttons:
-      -
-        label: Chiama
-        url: "tel://+390266897805"
-        css: "btn btn-xs btn-outline-primary px-5"
+    more:
+      label: Chiama
+      url: "tel://+390266897805"
 ---
 
 {%include components/grid-simple.html 
