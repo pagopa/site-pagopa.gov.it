@@ -37,7 +37,7 @@ Per pagare, inquadra il codice QR con l’app IO o la tua app preferita. In alte
       desc: "Con pagoPA puoi salvare i tuoi strumenti di pagamento in pochi clic e pagare in totale sicurezza: la piattaforma e tutti i PSP (Prestatori di Servizi di Pagamento) aderenti, infatti, rispettano gli standard europei in materia di trattamento dei dati e tutela della privacy dei propri utenti."
       more:
         label: Scopri di più
-        url: "#"
+        url: "https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneA.html#a29-qual-e-il-livello-di-sicurezza-dei-pagamenti-che-avvengono-su-pagopa"
 ---
 
 
