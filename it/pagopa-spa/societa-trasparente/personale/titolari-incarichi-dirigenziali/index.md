@@ -22,6 +22,9 @@ child_of_ref: personale-page
 [**De Santi Matteo**](de-santi/)
 <br><small>Chief Product Owner</small>
 
+[**Fatarella Maurizio**](fatarella/)
+<br><small>Direttore Area Prodotto Tecnologia e Mercato</small>
+
 [**Feroldi Federico**](feroldi/)
 <br><small>Chief Technology Officer</small>
 
