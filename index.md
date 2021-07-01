@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-hero_title: Paga quando vuoi,<br>dove vuoi!
+hero_title: Paga come vuoi,<br>quando vuoi!
 hero_description: pagoPA è la piattaforma digitale che permette ai cittadini di effettuare pagamenti verso la Pubblica Amministrazione, in maniera trasparente e intuitiva.
 lang: it
 ref: homepage

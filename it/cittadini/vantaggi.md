@@ -12,7 +12,7 @@ redirect_from:
 vantaggi:
     -
       img: "/assets/images/pictograms/trasparente.svg"
-      title: È trasparente
+      title: Trasparente
       desc: "Con pagoPA, sei tu a decidere quale Prestatore di Servizi di Pagamento (PSP) ti conviene di più: prima di pagare, confronta i costi associati a ciascuna delle modalità disponibili e scegli con quale effettuare l’operazione, in tutta libertà."
     -
       img: "/assets/images/pictograms/semplice.svg"
