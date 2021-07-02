@@ -851,3 +851,12 @@ body.page--partner-intermediari-elenco {
     }
   }
 }
+
+body.layout--simple {
+  .entry p,
+  .entry p + ul li {
+    font-family: Lora, Times;
+    color: #17324d;
+    line-height: 1.6;
+  }
+}

@@ -6,6 +6,8 @@ lang: it
 ref: pubbliche-amministrazioni-vantaggi
 order: 1
 child_of_ref: pubbliche-amministrazioni
+redirect_from:
+  - /it/pubbliche-amministrazioni/
 vantaggi:
     -
       img: "/assets/images/pictograms/piggybank.svg"

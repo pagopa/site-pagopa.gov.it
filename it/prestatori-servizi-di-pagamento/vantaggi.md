@@ -8,6 +8,8 @@ ref: prestatori-servizi-di-pagamento-vantaggi
 order: 1
 child_of_ref: prestatori-servizi-di-pagamento
 child_of_submenu: pagoPA
+redirect_from:
+  - /it/prestatori-servizi-di-pagamento/
 vantaggi:
     -
       title: Convenienza
