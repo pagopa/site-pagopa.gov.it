@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Dove pagare
-title_hero: Dove pagare? Sei tu a scegliere!
-description: "Velocizza il tui pagamenti e scegli il canale più adatto alle tue esigenze, online o fisico:  pagoPA è integrato nei principali servizi di pagamento."
+title_hero: Sei tu a scegliere dove pagare!
+description: "Con pagoPA puoi gestire i tuoi pagamenti verso la Pubblica Amministrazione in modo semplice e immediato, sui canali fisici e su quelli online: verifica le opzioni disponibili e scegli quelle più adatte alle tue esigenze."
 lang: it
 order: 2
 ref: cittadini-dove-pagare

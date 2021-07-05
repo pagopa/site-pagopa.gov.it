@@ -23,7 +23,21 @@ vantaggi:
       title: Volumi
       desc: "La qualità e la multicanalità del servizio che metti a disposizione dei cittadini attraverso pagoPA, ti consentono di ampliare la tua clientela e gestire un numero sempre maggiore di transazioni verso la PA, offrendo un'esperienza più competitiva anche in termini di costi."
       img: "/assets/images/pictograms/volumi.svg"
-
+altriprodotti:
+  -
+    img: "/assets/images/logo-check-iban.svg"
+    title: Check IBAN
+    desc: "Aiuta gli Enti Creditori a validare gli IBAN comunicati dai cittadini beneficiari dell’erogazione di un determinato servizio."
+    more:
+        label: Scopri di più
+        url: "https://pagopa.it"
+  -
+    img: "/assets/images/logo-io-novita.svg"
+    title: IO, l'app dei servizi pubblici
+    desc: "Gestisci i pagamenti degli utenti di app IO, il punto unico d’accesso ai servizi nazionali e locali."
+    more:
+        label: Scopri di più
+        url: "https://io.italia.it"
 ---
 
 {:.heading-border-bottom .pb-2}
@@ -33,4 +47,13 @@ vantaggi:
           source=page.vantaggi
           columns=3
           css_wrapper="my-3 my-md-4"
+          %}
+
+{:.heading-border-bottom .pb-2}
+### Scopri gli altri prodotti di PagoPA S.p.A.
+
+{%include components/grid-simple.html 
+          source=page.altriprodotti
+          columns=3
+          css_wrapper="my-3 my-md-5"
           %}
