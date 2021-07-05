@@ -9,37 +9,37 @@ order: 1
 blocks: 
   - title: Un sistema semplice e trasparente per i tuoi pagamenti verso le PA
     label: Per i cittadini
-    body: "Qui serve un testo che spiega la value proposition di pagoPA per il cittadino: grazie a pagoPA puoi scegliere dove pagare, a chi dare i costi di commissione e non devi preoccuparti della ricevuta."
+    body: "pagoPA è la piattaforma nazionale che ti permette di scegliere, secondo le tue abitudini e preferenze, come pagare tributi, imposte o rette verso la Pubblica Amministrazione e altri soggetti aderenti che forniscono servizi al cittadino."
     buttons:
       - label: Scopri di più
-        url: "#"
+        url: "/it/cittadini/vantaggi/"
         css: "btn  btn-primary px-5 d-block d-lg-inline mr-lg-3 mb-2"
       - label: Dove pagare
-        url: "#"
+        url: "/it/cittadini/dove-pagare/"
         css: "btn btn-outline-primary px-5 d-block d-lg-inline"
-    img: "/assets/images/jonas-leupe-426231-unsplash.jpg"
+    img: "/assets/images/home/home-1.jpg"
   - title: Un modo più semplice per gestire e rendicontare i pagamenti
     label: Per le Pubbliche Amministrazioni
-    body: "pagoPA permette alle Pubbliche Amministrazioni di gestire i pagamenti in modo centralizzato, offrendo servizi automatici di rendicontazione e riconciliazione con un significativo risparmio nei costi di gestione."
+    body: "pagoPA permette alle Pubbliche Amministrazioni di gestire gli incassi in modo centralizzato, offrendo servizi automatici di rendicontazione e riconciliazione con un significativo risparmio nei costi di gestione."
     buttons:
       - label: Scopri di più
-        url: "#"
+        url: "/it/pubbliche-amministrazioni/vantaggi/"
         css: "btn  btn-primary px-5 d-block d-lg-inline mr-lg-3 mb-2"
       - label: Come aderire
-        url: "#"
+        url: "/it/pubbliche-amministrazioni/come-aderire/"
         css: "btn btn-outline-primary px-5 d-block d-lg-inline"
-    img: "/assets/images/jonas-leupe-426231-unsplash.jpg"
-  - title: Main value proposition per i Prestatori di Servizi di Pagamento
+    img: "/assets/images/home/home-2.jpg"
+  - title: Milioni di cittadini e imprese da raggiungere con i tuoi servizi
     label: Per i PSP
-    body: "Qui serve un testo che spiega la value proposition di pagoPA per i PSP: aumento prospect? possibilità di offrire servizi a valore aggiunto? unico interlocutore?"
+    body: "Con pagoPA, hai un accesso diretto al settore dei pagamenti per i servizi pubblici e puoi promuovere la tua offerta multicanale da un'unica piattaforma, portando valore aggiunto a una vasta platea di nuovi utenti."
     buttons:
       - label: Scopri di più
-        url: "#"
+        url: "/it/prestatori-servizi-di-pagamento/vantaggi/"
         css: "btn  btn-primary px-5 d-block d-lg-inline mr-lg-3 mb-2"
       - label: Come aderire
-        url: "#"
+        url: "/it/prestatori-servizi-di-pagamento/come-aderire/"
         css: "btn btn-outline-primary px-5 d-block d-lg-inline"
-    img: "/assets/images/jonas-leupe-426231-unsplash.jpg"
+    img: "/assets/images/home/home-3.jpg"
 ---
 
 {% include hero.html %}
