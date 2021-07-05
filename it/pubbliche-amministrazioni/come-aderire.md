@@ -20,7 +20,7 @@ passi:
     - title: Scarica e invia la Lettera di Adesione
       desc: "Fai sottoscrivere la lettera dal tuo rappresentante legale e inviala tramite l’apposita funzione all’interno del Portale."
     - title: Scegli la modalità diretta o indiretta
-      desc: "Puoi farti carico di tutte le attività d’implementazione, oppure nominare un [Intermediario o Partner tecnologico](./partner-intermediari/)."
+      desc: "Puoi farti carico di tutte le attività d’implementazione, oppure nominare un [Intermediario o Partner tecnologico](../partner-intermediari/)."
 docs: 
     -
      label: Portale delle Adesioni - Manuale Utente

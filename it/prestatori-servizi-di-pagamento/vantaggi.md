@@ -46,7 +46,7 @@ altriprodotti:
 {%include components/grid.html 
           source=page.vantaggi
           columns=3
-          css_wrapper="my-3 my-md-4"
+          css_wrapper="my-3 my-md-4 img-64"
           %}
 
 {:.heading-border-bottom .pb-2}
@@ -55,5 +55,5 @@ altriprodotti:
 {%include components/grid-simple.html 
           source=page.altriprodotti
           columns=3
-          css_wrapper="my-3 my-md-5"
+          css_wrapper="my-3 my-md-5 img-64"
           %}

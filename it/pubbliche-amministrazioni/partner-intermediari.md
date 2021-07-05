@@ -46,5 +46,5 @@ vantaggi:
 {%include components/grid.html 
           source=page.vantaggi
           columns=3
-          css_wrapper="my-3 my-md-4"
+          css_wrapper="my-3 my-md-4 img-64"
           %}

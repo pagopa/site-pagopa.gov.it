@@ -22,7 +22,7 @@ Jekyll::Hooks.register :site, :after_init do |doc, payload|
         topass['CF del Contraente'] = partner['CF']
         topass['title'] = partner['ragionesociale']
         topass['lang'] = 'it'
-        topass['child_of_ref'] = 'partner-qualificati'
+        topass['child_of_ref'] = 'partner-qualificati-elenco'
 
         File.open(dir+name+".md", "w") { |file| file.write(topass.to_yaml + '---') }
     end

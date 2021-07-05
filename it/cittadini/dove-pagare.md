@@ -56,7 +56,7 @@ pagaoffline:
 {%include components/grid-simple.html 
           source=page.pagaonline
           columns=4
-          css_wrapper="my-3 my-md-5"
+          css_wrapper="my-3 my-md-5 img-64"
           %}
 
 
@@ -68,6 +68,6 @@ pagaoffline:
 {%include components/grid-simple.html 
           source=page.pagaoffline
           columns=4
-          css_wrapper="my-3 my-md-5"
+          css_wrapper="my-3 my-md-5 img-64"
           %}
 

@@ -39,5 +39,5 @@ gridbody:
 {%include components/grid-simple.html 
           source=page.gridbody
           columns=3
-          css_wrapper="my-3 my-md-5"
+          css_wrapper="my-3 my-md-5 img-64"
           %}
