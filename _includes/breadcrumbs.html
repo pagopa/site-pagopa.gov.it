@@ -34,6 +34,6 @@
             class="separator">&gt;</span>
     </li>
     {% endfor %}
-    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.title | truncate: 50 }}</li>
   </ol>
 </nav>

@@ -1,18 +1,67 @@
 ---
 layout: default
 ---
-<style>
-  .card .card-body li {
-    font-size: .88889rem;
-    line-height: 1.33333rem;
-    font-family: Lora,Georgia,serif;
-    font-size: .875rem;
-    line-height: 1.2rem;
-    color: #435a70;
-  }
 
 
-</style>
+<div class="container my-2 my-md-4">
+  {%- include breadcrumbs.html -%}
+</div>
+{% if page.local_navigation %}
+  {% assign section = breadcrumbs[-1] | default: breadcrumbs[0] | default: page %}
+{% elsif page.local_navigation_index %}
+  {% assign section = page %}
+{% else %}
+  {% assign section = breadcrumbs[0] | default: page %}
+{% endif %}
+<article class="postapage {% if page.layout_extra == nil %}container{%endif%} my-4">
+  <div class="row ">
+    <div class="col-12 col-lg-8 offset-lg-2">
+      <div class="mx-3 mx-lg-5">
+        <div class="postpage__date">{% include date.html date=page.date %}</div>
+        {% unless page.omit_pagehead %}
+          {% unless page.omit_title %}
+            <h1 class="page-title" >{{ page.title_hero | default: page.title }}</h1>
+          {%endunless%}
+          {% if page.description %}
+            <div class="page-desc">{{ page.description | markdownify }}</div>
+          {% endif %}
+        {% endunless %}
+      </div>
+    </div><!--col-8-->
+  </div><!--row-->
+  {% if page.image %}
+  <div class="row">
+    <div class="col-12 col-lg-10 offset-lg-1">
+      <div class="postpage__img mx-lg-3">
+      <img src="{{page.image}}" alt="{{page.title | escape}}" >
+      </div>
+    </div>
+  </div>
+  {% endif %}
+  <div class="row  align-items-center">
+    <div class="col-12 col-lg-8 offset-lg-2">
+      <div class="postpage__entry entry mx-3 mx-lg-5">
+        {{ content }}
+      </div>
+    </div>
+  </div><!--/row-->
+  {% if page.faq %}
+  <div class="postpage__faq row my-4">
+    <div class="col-12 col-lg-10 offset-lg-1">
+    <div class="mx-3">
+    {% include faq.html source=page.faq narrow=true %}
+    </div>
+    </div>
+  </div>
+
+  {%endif%}
+</article>
+{% if page.footerbanner %}
+  {% include components/footer-banner.html %}
+{% endif %}
+
+
+{%comment%}
 <div class="{% if page.layout_extra == nil %}container{%endif%} my-2">
   {%- include breadcrumbs.html -%}
 </div>
@@ -49,3 +98,4 @@ layout: default
   </div>
   {% include disqus.html %}
 </article>
+{%endcomment%}

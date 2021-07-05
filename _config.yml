@@ -68,7 +68,7 @@ collections:
     permalink: /it/pubbliche-amministrazioni/partner-qualificati/:name
   posts:
     output: true
-    permalink: /it/pagopa-spa/comunicati-stampa/:name
+    permalink: /it/notizie/:name
 
 defaults:
   - scope:

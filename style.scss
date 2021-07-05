@@ -860,3 +860,42 @@ body.layout--simple {
     line-height: 1.6;
   }
 }
+
+.postpage {
+  &__date {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #17324d;
+    & + .page-title {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+  }
+  &__entry {
+    font-family: Lora, Times;
+    color: #17324d;
+  }
+  &__img {
+    margin-bottom: 2rem;
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+  &__faq {
+    .collapse-header button {
+      padding-left: 0;
+      padding-right: 0;
+      &:focus,
+      &:focus-visible {
+        box-shadow: none;
+        outline: none;
+      }
+    }
+    .collapse-body {
+      padding: 1rem 0;
+      font-size: 0.88rem;
+    }
+  }
+}

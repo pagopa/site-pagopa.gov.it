@@ -11,7 +11,7 @@
            href="{{ site.baseurl }}{{ post.url }}" >
             {% if post.image %}
             <div class="component-posts__item__img my-3">
-                        <img src="{{post.image}}" class="img-fluid" alt="{{post.title | escape}}">
+                        <img src="{{post.image_thumb | default: post.image}}" class="img-fluid" alt="{{post.title | escape}}">
             </div>
             {%endif%}
             <div class="component-posts__item__date ">{% include date.html date=post.date %}</div>
