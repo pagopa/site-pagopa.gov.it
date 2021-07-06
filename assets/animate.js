@@ -3,11 +3,9 @@ function callback(entries) {
    const target = entries[0].target;
    target.classList.add('fade-in-bottom');
 }
-const options = {
-    threshold: 1,
-  }; 
+
   
-let observer = new IntersectionObserver(callback, options);
+let observer = new IntersectionObserver(callback);
 animateEls.forEach( el => {
    observer.observe(el); 
 });
