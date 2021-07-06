@@ -22,7 +22,7 @@ passi:
       desc: "Scarica il modulo, firmalo digitalmente e invialo via PEC a: <accordipsp@pec.pagopa.it>"
     -
       title: Inizia l’integrazione con pagoPA
-      desc: Una volta inviato l’accordo firmato, puoi procedere con l’integrazione tecnologica e iniziare ad usare il servizio!
+      desc: Se non vuoi farti carico delle attività d’implementazione, puoi nominare un soggetto già aderente alla piattaforma.
     -
       title: Hai bisogno d’aiuto?
       desc: "Consulta le domande frequenti o scrivi a: <account@pagopa.it>"
@@ -42,6 +42,18 @@ Il modello A permette, su richiesta del PSP, di cumulare i propri volumi alterna
       more: 
         label: SCARICA L’ACCORDO
         url: "../PagoPA_Accordo_di_servizio_Modello_B_v07-02-20_s.pdf"
+tariffe:
+    -
+      title: Diventa Mandatario Qualificato
+      desc: "Se hai già aderito a pagoPA, puoi diventare Mandatario di altri PSP e impegnarti a pagare a PagoPA S.p.A. i Corrispettivi per loro conto.<br>In questo modo potrai cumulare i volumi dei PSP di cui hai mandato e, quindi, accedere a una tariffazione più vantaggiosa."
+      more:
+        label: Contattaci
+        url: "#"
+        css: "mt-3"
+    -
+      title: Unisciti ad un Mandatario esistente
+      desc: "Se sei un PSP aderente a pagoPA, puoi indicare i servizi di pagamento per i quali intendi usufruire di un Mandatario e del relativo cumulo delle rispettive transazioni.\n\n
+      Per maggiori informazioni, contatta uno dei Mandatari Qualificati."
 docs:
     -
      label: Portale delle Adesioni - Manuale Utente
@@ -65,6 +77,14 @@ docs:
           columns=2
           %}
 
+{:.heading-border-bottom .pb-2 .mb-3 .mt-3 .mt-lg-5}
+### Desideri accedere ad una tariffa più vantaggiosa?
+
+{%include components/grid-simple.html 
+          source=page.tariffe
+          columns=2
+          css_wrapper="my-3 my-md-5"
+          %}
 
 <div class="d-flex align-items-center heading-border-bottom my-4">
   <h3>Risorse utili</h3>

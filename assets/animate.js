@@ -4,7 +4,7 @@ function callback(entries) {
    target.classList.add('fade-in-bottom');
 }
 const options = {
-    threshold: 0.5,
+    threshold: 1,
   }; 
   
 let observer = new IntersectionObserver(callback, options);
