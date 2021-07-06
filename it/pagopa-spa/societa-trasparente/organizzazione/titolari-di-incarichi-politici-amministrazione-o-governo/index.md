@@ -23,3 +23,4 @@ child_of_ref: organizzazione
 - Dichiarazione redditi e situazione patrimoniale del coniuge non separato e dei parenti entro il secondo grado (oppure indicazione mancato consenso): **[Mancato consenso Anno 2020](Giuseppe_Virgone_mancato_consenso-2020.pdf)**, **[Mancato consenso Anno 2019](Giuseppe_Virgone_mancato_consenso.pdf)**
 - **[Dichiarazione sull’assenza di cause di incompatibilità Anno 2021](Giuseppe_Virgone_accettazione_incarico-2021.pdf)**, <br>**[Dichiarazione sull’assenza di cause di incompatibilità Anno 2020](Giuseppe_Virgone_accettazione_incarico-2020.pdf)**, <br>**[Dichiarazione sull’assenza di cause di inconferibilità ed incompatibilità Anno 2019](Giuseppe_Virgone_accettazione_incarico.pdf)**
 - **[Importi di viaggio, di servizio e di missioni - anno 2020](Giuseppe_Virgone_viaggi-missioni.pdf)**
+- **[Importi di viaggio, di servizio e di missioni - anno 2021](Giuseppe_Virgone_viaggi-missioni-2021.pdf)**

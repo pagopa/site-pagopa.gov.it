@@ -5,13 +5,16 @@ lang: it
 layout: job
 ref: spec-amm-pers
 child_of_ref: specialista-amministrazione-personale
-jazz_url: https://pagopa.applytojob.com/apply/qlF4gOCZjD/Specialista-Amministrazione-Del-Personale
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 09/04/2021
     chiusura: 30/04/2021
+    numricercate: 1
+    numassunte: 1
 ---
 
 

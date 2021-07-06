@@ -5,13 +5,16 @@ lang: it
 layout: job
 ref: sproman-si
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/t0sb0PTIvb/Senior-Product-Manager-Strategic-Innovation
+jazz_url:
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 12/02/2021
     chiusura: 12/05/2021
+    numricercate: 4
+    numassunte: 3
 ---
 
 Il dipartimento di Innovazione Strategica di PagoPA S.p.a. è alla ricerca di un _Senior Product Manager_ che contribuisca alla realizzazione di nuovi prodotti e iniziative digitali di rilevanza strategica.

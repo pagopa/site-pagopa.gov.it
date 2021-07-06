@@ -5,13 +5,16 @@ lang: it
 layout: job
 ref: operationspecialist_2021
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/3Znft3ARCX/Operations-Specialist
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new: false
+archived: true
 metadata:
     apertura: 16/03/2021
     chiusura: 16/04/2021
+    numricercate: max. 11
+    numassunte: 7
 ---
 
 L’Area Operations di PagoPA S.p.a. è alla ricerca di massimo n. 11 **Operations Specialist** che contribuiscano alla gestione e all’efficientamento del servizio clienti della Società.
