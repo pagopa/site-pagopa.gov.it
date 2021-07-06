@@ -5,13 +5,16 @@ lang: it
 layout: job
 ref: BusinessDev
 child_of_ref: lavora-con-noi
-jazz_url: https://pagopa.applytojob.com/apply/Vl9U1O4GDO/Business-Developer
+jazz_url: 
 pec_cv: false
 iframeheight: 2300
-is_new: true
+is_new:
+archived: true
 metadata:
     apertura: 07/05/2021
     chiusura: 01/07/2021
+    numricercate: max. 4
+    numassunte: selezione in corso
 ---
 Stiamo cercando persone altamente motivate, dotate di autonomia, passione, grinta e integrità e che condividano la nostra missione di diffondere i servizi digitali nel Paese. 
 Il confronto e il lavoro di squadra sono al centro della nostra quotidianità. 
