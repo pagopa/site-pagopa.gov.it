@@ -26,8 +26,8 @@ docs:
      label: Portale delle Adesioni - Manuale Utente
      url: "https://github.com/pagopa/lg-pagopa-docs/raw/master/documentazione_tecnica_collegata/adesione/"
     -
-     label: "Lettera di esenzione"
-     url: "#"
+     label: "Elenco degli Enti Creditori Aderenti a pagoPA"
+     url: "https://www.pagopa.gov.it/data/pagopa-ec.csv"
 ---
 
 
