@@ -9,6 +9,7 @@ order: 1
 child_of_ref: pubbliche-amministrazioni
 redirect_from:
   - /it/pubbliche-amministrazioni/
+  - /it/pubbliche-amministrazioni/amministrazioni-aderenti/
 vantaggi:
     -
       img: "/assets/images/pictograms/veloce.svg"
