@@ -16,12 +16,10 @@
     <script src="{{ site.baseurl }}/assets/vendors/datatables/datatables.min.js"></script>
     <script src="{{ site.baseurl }}/assets/datatables-it.js"></script>
 {% endif %}
-{% if page.ref == 'dashboard' %}
-    <script src="{{ site.baseurl }}/assets/vendors/Chart.bundle.js"></script>
-    <script src="{{ site.baseurl }}/assets/vendors/moment.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/vendors/moment-locale-it.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/vendors/chartjs-adapter-moment.min.js"></script>
+{% if page.ref == 'homepage' or page.ref == 'dashboard' %}
+    <link href="{{ site.baseurl }}/assets/dashboard/app/js/app.js" rel="preload" as="script">
+    <link href="{{ site.baseurl }}/assets/dashboard/app/js/chunk-vendors.js" rel="preload" as="script">
 
-    <script src="{{ site.baseurl }}/assets/helpers.js"></script>
-    <script src="{{ site.baseurl }}/assets/dashboard.js"></script>
+    <script src="{{ site.baseurl }}/assets/dashboard/app/js/chunk-vendors.js"></script>
+    <script src="{{ site.baseurl }}/assets/dashboard/app/js/app.js"></script>
 {% endif %}

@@ -1,3 +1,9 @@
+{% if page.ref == 'homepage' or page.ref == 'dashboard' %}
+    <!-- Allow Bootstrap override -->
+    <link href="{{ site.baseurl }}/assets/dashboard/app/css/app.css" rel="preload" as="style">
+    <link href="{{ site.baseurl }}/assets/dashboard/app/css/app.css" rel="stylesheet">
+{% endif %}
+
 <!-- Bootstrap core CSS -->
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/bootstrap-italia/dist/css/bootstrap-italia.min.css">
 
