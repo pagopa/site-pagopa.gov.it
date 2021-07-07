@@ -8,7 +8,7 @@ order: 51
 child_of_ref: pubbliche-amministrazioni
 ---
 
-{% assign docs = site.data.psp-documentazione %}
+{% assign docs = site.data.pa-documentazione %}
 <div class="row ">
 <div class="col-12 col-lg-3 affix-parent">
     {% include components/sidebarnav.html

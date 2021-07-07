@@ -7,6 +7,9 @@ lang: it
 ref: pubbliche-amministrazioni-vantaggi
 order: 1
 child_of_ref: pubbliche-amministrazioni
+redirect_from:
+  - /it/pubbliche-amministrazioni/
+  - /it/pubbliche-amministrazioni/amministrazioni-aderenti/
 vantaggi:
     -
       img: "/assets/images/pictograms/veloce.svg"
@@ -26,12 +29,12 @@ vantaggi:
       desc: "Con pagoPA, il tuo Ente risparmia sui costi diretti di gestione del sistema di incasso. Inoltre, riduce i costi indiretti derivanti da una non corretta gestione dei pagamenti (pagamento in contanti, spostamenti, recupero del credito, sanzioni, etc.)."
     -
       img: "/assets/images/pictograms/digitalpayments.svg"
-      title: Digitalizzazione dell’avviso
+      title: Tracciabilità
       desc: "Utilizzando pagoPA, il tuo Ente favorisce la diminuzione dell’uso del contante a favore dei pagamenti con moneta elettronica e contribuisce alla transizione verso la completa digitalizzazione degli avvisi di pagamento."
     -
       img: "/assets/images/pictograms/sustainable.svg"
       title: Sostenibilità ambientale
-      desc: "Aderire a pagoPA permette al tuo Ente di contribuire alle strategie nazionali ed europee in tema di rispetto e salvaguardia dell'ambiente, grazie ai benefici in termini di sostenibilità dei pagamenti elettronici."
+      desc: "Aderire a pagoPA, permette di contribuire alle strategie nazionali ed europee in tema di rispetto e salvaguardia dell'ambiente, grazie al risparmio di risorse (es. carta, inchiostro, ecc.) legato all'uso di avvisi di pagamento digitali e moneta elettronica."
 altriprodotti:
   -
     img: "/assets/images/logo-check-iban.svg"

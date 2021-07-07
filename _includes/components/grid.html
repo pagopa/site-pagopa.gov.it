@@ -30,7 +30,7 @@
                         {% endfor %}
                     {% endif %}
                     {% if item.more %}
-                    <a class="read-more" href="{{item.more.url }}">
+                    <a class="read-more {{item.more.css}}" href="{{item.more.url }}">
                     <span class="text">{{item.more.label }}</span>
                     <svg class="icon">
                         <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
