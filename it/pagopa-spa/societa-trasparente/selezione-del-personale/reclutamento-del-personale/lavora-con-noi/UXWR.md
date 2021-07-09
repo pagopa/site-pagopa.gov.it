@@ -3,7 +3,7 @@ title: UX Writer
 description:
 lang: it
 layout: job
-ref: Assistentedidirezione
+ref: uxwrit
 child_of_ref: lavora-con-noi
 jazz_url: https://pagopa.applytojob.com/apply/8TUL5K2iYm/UX-Writer
 pec_cv: false
