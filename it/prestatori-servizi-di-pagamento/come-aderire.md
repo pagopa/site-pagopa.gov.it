@@ -16,7 +16,11 @@ footerbanner:
 passi:
     -
       title: Scegli il modello di accordo
-      desc: Confronta i due modelli e scegli quello che meglio risponde alle tue necessità.
+      buttons:
+        -
+         label: Scarica il modello
+         url: "#"
+         css: "btn btn-xs btn-outline-primary d-lg-block px-5"
     -
       title: Firma l’accordo digitalmente
       desc: "Scarica il modulo, firmalo digitalmente e invialo via PEC a: <accordipsp@pec.pagopa.it>"
@@ -26,34 +30,29 @@ passi:
     -
       title: Hai bisogno d’aiuto?
       desc: "Consulta le domande frequenti o scrivi a: <account@pagopa.it>"
-modelli:
-    -
-      pretitle: A
-      title: Modello a tariffa fissa
-      desc: "Premia i grandi volumi, con uno sconto al raggiungimento di determinati obiettivi.<br>
-Il modello A permette, su richiesta del PSP, di cumulare i propri volumi alternativamente con altri PSP del medesimo gruppo societario o tramite un Mandatario Qualificato, al fine di accedere a tariffe migliori ed eventualmente a sconti."
-      more: 
-        label: SCARICA L’ACCORDO
-        url: "../PagoPA_Accordo_di_servizio_ModelloA_v07-02-2020_s.pdf"
-    -
-      pretitle: B
-      title: Modello per grandi volumi
-      desc: "Questo modello si basa su un modello di tariffazione che prevede una flat fee per alcune casistiche."
-      more: 
-        label: SCARICA L’ACCORDO
-        url: "../PagoPA_Accordo_di_servizio_Modello_B_v07-02-20_s.pdf"
 tariffe:
     -
       title: Diventa Mandatario Qualificato
       desc: "Se hai già aderito a pagoPA, puoi diventare Mandatario di altri PSP e impegnarti a pagare a PagoPA S.p.A. i Corrispettivi per loro conto.<br>In questo modo potrai cumulare i volumi dei PSP di cui hai mandato e, quindi, accedere a una tariffazione più vantaggiosa."
       more:
         label: Contattaci
-        url: "#"
-        css: "mt-3"
+        url: "mailto:account@pagopa.it"
+        css: "pt-3 mt-auto"
     -
       title: Unisciti ad un Mandatario esistente
       desc: "Se sei un PSP aderente a pagoPA, puoi indicare i servizi di pagamento per i quali intendi usufruire di un Mandatario e del relativo cumulo delle rispettive transazioni.\n\n
       Per maggiori informazioni, contatta uno dei Mandatari Qualificati."
+      more:
+        label: Vedi tutti i mandatari
+        url: "../mandatari-elenco/"
+        css: "pt-3 mt-auto"
+    -
+      title: Non sei un PSP?
+      desc: "Per svolgere il ruolo di Intermediario tecnologico, scrivici per richiedere l’accordo da stipulare con PagoPA S.p.A."
+      more:
+        label: Contattaci
+        url: "mailto:account@pagopa.it"
+        css: "pt-3 mt-auto"
 docs:
     -
      label: Portale delle Adesioni - Manuale Utente
@@ -71,18 +70,14 @@ docs:
 
 
 {% include components/grid-by-step.html source=page.passi %}
-{%include components/grid-paragraph.html
-          paragraph="Scopri di più sui modelli di accordo di adesione:"
-          source=page.modelli
-          columns=2
-          %}
+
 
 {:.heading-border-bottom .pb-2 .mb-3 .mt-3 .mt-lg-5}
-### Desideri accedere ad una tariffa più vantaggiosa?
+### Potrebbe interessarti
 
 {%include components/grid-simple.html 
           source=page.tariffe
-          columns=2
+          columns=3
           css_wrapper="my-3 my-md-5"
           %}
 

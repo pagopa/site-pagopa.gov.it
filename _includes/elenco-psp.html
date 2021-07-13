@@ -22,8 +22,6 @@
 		<tr>
 			<th >Nome</th>
 			<th data-visible="false" >CF</th>
-			<th>Aggiornato il</th>
-			<th></th>
 		</tr>
 	</thead>
 	<tbody>
@@ -31,12 +29,6 @@
 			<tr>
 				<td class="elencopsp__denominazione">{{item.Denominazione }}</td>
 				<td class="elencopsp__cf" >{{item.CodiceFiscale }}</td>
-				<td class="elencopsp__data">01/06/2021</td>
-				<td>
-					{% if forloop.index < 5 %}
-						<span class="badge badge-pill">Multibeneficiario</span>
-					{% endif %}
-				</td>
 			</tr>
 		{% endfor %}
 	</tbody>

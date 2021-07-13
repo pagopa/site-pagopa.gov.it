@@ -31,7 +31,7 @@ pagaoffline:
     - 
       img: "/assets/images/pictograms/banca.svg"
       title: In banca
-      desc: "Presso la tua filiale o tutti gli sportelli ATM abilitati."
+      desc: "Presso le filiali aderenti o gli sportelli ATM abilitati."
     - 
       img: "/assets/images/pictograms/posteitaliane.svg"
       title: In ufficio postale
