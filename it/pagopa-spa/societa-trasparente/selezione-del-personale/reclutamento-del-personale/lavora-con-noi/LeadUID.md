@@ -66,9 +66,9 @@ laurea in Design, Media Arts o esperienza lavorativa equivalente. In ogni caso l
 - Buoni Pasto Elettronici
 - Assicurazione Sanitaria Integrativa come da CCNL del Commercio;
 
-Per candidarti, invia [**QUI**](https://www.the-district.com/offerta-di-lavoro/remote/lead-ui-designer.html) il tuo CV e la tua lettera di motivazione (facoltativa). Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
+Per candidarti, invia [**QUI**](https://www.the-district.com/offerta-di-lavoro/remote/lead-ui-designer) il tuo CV e la tua lettera di motivazione (facoltativa). Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
  
 La suddetta selezione sarà condotta dalla società [The District](https://www.the-district.com/) che convocherà alle prove selettive i soli candidati in possesso di un profilo maggiormente in linea con quello ricercato comunicando loro le modalità di svolgimento della selezione.
 Non sono ammesse altre forme di invio delle domande di partecipazione alla selezione e, pertanto, non saranno ritenute valide le domande presentate con modalità diverse da quella indicata, a pena di esclusione.
 I dati personali inviati in sede di candidatura saranno trattati dalla società The District in qualità di Responsabile del trattamento Titolare ai sensi e per gli effetti della normativa Privacy vigente.
-L’Informativa ex art. 13 del Regolamento UE 2016/679 è presente sul sito [The district privacy - Informativa Privacy](https://www.the-district.com/informativa-sul-trattamento-dei-dati-personali-openings-pagopa.html)
+L’Informativa ex art. 13 del Regolamento UE 2016/679 è presente sul sito [The district privacy - Informativa Privacy](https://www.the-district.com/informativa-sul-trattamento-dei-dati-personali-openings-pagopa)
