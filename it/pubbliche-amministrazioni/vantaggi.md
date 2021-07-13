@@ -49,7 +49,7 @@ altriprodotti:
     desc: "Comunica in modo più semplice e offri un’esperienza di qualità ai tuoi cittadini."
     more:
         label: Scopri di più
-        url: "https://io.italia.it"
+        url: "https://io.italia.it/pubbliche-amministrazioni/"
 ---
 
 {:.heading-border-bottom .pb-2}
