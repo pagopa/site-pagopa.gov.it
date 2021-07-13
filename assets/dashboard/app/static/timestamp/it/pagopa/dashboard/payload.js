@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/it/pagopa/dashboard", {data:[{}],fetch:{},mutations:void 0});
