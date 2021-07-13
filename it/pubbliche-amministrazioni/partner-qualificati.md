@@ -10,8 +10,8 @@ order: 43
 firsttypes: ['Sm', 'Sb']
 secondtypes: ['Sva', 'Sd']
 footerbanner:
-  title: Vuoi diventare un Partner Tecnologico?
-  desc: Qui va un testo descrittivo che spiega la procedura di accreditamento e certificazione da parte di PagoPA Sp.A.
+  title: Vuoi diventare un Partner tecnologico qualificato?
+  desc: "Scarica il modulo, firmalo digitalmente e invialo via PEC all’indirizzo: account@pec.pagopa.it"
   cta: Scarica il modulo
   url: "/it/pubbliche-amministrazioni/lettera-accettazione-qualificazione.rtf"
 ---
