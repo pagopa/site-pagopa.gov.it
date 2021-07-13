@@ -3,7 +3,7 @@ title: Junior Facility Specialist
 description:
 lang: it
 layout: job
-ref: JuniorSoftwareEng_mag2021
+ref: JRFacility
 child_of_ref: lavora-con-noi
 jazz_url: https://pagopa.applytojob.com/apply/tkecKTnEpf/Junior-Facility-Specialist
 pec_cv: false
