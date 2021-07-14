@@ -4,7 +4,7 @@ title: Indicazioni per l’incasso del tributo TEFA
 description:
 lang: it
 excerpt_separator: <!--more-->
-image: 
+image: /assets/images/posts/taritefa2.png
 image_thumb: 
 child_of_ref: notizie
 ---

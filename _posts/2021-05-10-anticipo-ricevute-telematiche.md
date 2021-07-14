@@ -4,7 +4,7 @@ title: Soluzione Canone Unico - Anticipo delle Ricevute Telematiche da parte di 
 description:
 lang: it
 excerpt_separator: <!--more-->
-image: 
+image: /assets/images/posts/canone-unico2.png
 image_thumb: 
 child_of_ref: notizie
 ---
