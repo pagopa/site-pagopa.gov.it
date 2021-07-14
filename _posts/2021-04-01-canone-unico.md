@@ -4,8 +4,9 @@ title: Soluzione “Canone Unico”
 description:
 lang: it
 excerpt_separator: <!--more-->
-image: 
-image_thumb: 
+child_of_ref: documentazione-comunicazioni
+image: /assets/images/posts/canone-unico.png
+image_thumb: /assets/images/posts/canone-unico-t.png
 child_of_ref: notizie
 faq: "faq-canoneunico"
 ---

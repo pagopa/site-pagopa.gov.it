@@ -4,6 +4,8 @@ title: Notizie
 lang: it
 ref: notizie
 order: 4
+redirect_from:
+    - /it/documentazione/comunicazioni/
 submenu: 
     - title: Notizie
     - title: Risorse per i media
