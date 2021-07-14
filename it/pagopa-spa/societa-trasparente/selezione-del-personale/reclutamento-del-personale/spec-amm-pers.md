@@ -14,7 +14,7 @@ metadata:
     apertura: 09/04/2021
     chiusura: 30/04/2021
     numricercate: 1
-    numassunte: selezione in corso
+    numassunte: 1
 ---
 
 

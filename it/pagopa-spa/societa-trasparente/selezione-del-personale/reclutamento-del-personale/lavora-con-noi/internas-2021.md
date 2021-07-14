@@ -14,7 +14,7 @@ metadata:
     apertura: 15/02/2021
     chiusura: 15/03/2021
     numricercate: 1
-    numassunte: selezione in corso
+    numassunte: 1
 ---
 
 PagoPA S.p.A. è alla ricerca di un (n.1) **International Affairs Specialist** da inserire nel Dipartimento Affari Istituzionali e Comunicazione a diretto riporto del Direttore Affari Istituzionali e Comunicazione, il cui compito sarà quello  di supportare le relazioni della società con gli stakeholder internazionali e in special modo europei.

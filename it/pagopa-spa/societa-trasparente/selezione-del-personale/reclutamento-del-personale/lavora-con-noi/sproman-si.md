@@ -13,7 +13,8 @@ archived: true
 metadata:
     apertura: 12/02/2021
     chiusura: 12/05/2021
-    numassunte: selezione in corso
+    numricercate: 4
+    numassunte: 3
 ---
 
 Il dipartimento di Innovazione Strategica di PagoPA S.p.a. è alla ricerca di un _Senior Product Manager_ che contribuisca alla realizzazione di nuovi prodotti e iniziative digitali di rilevanza strategica.
