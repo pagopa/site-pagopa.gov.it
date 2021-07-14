@@ -6,6 +6,8 @@ date: 2021-04-01
 lang: it
 excerpt_separator: <!--more-->
 child_of_ref: documentazione-comunicazioni
+image: /assets/images/posts/canone-unico.png
+image_thumb: /assets/images/posts/canone-unico-t.png
 ---
 
 Come [comunicato](https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/Fiscalita-locale/comunicato-versamento-canone-unico-24.03.2021.pdf) dal Dipartimento delle Finanze del MEF in data 25 marzo, tramite la Soluzione “Canone Unico”, le società Corporate potranno effettuare pagamenti del Canone Unico in modalità massiva ed integrata all’interno dei sistemi di fatturazione passiva.
