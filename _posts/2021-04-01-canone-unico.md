@@ -1,11 +1,11 @@
 ---
 layout: post
-title: PagoPA lancia il servizio di pagamento del Canone Unico tramite piattaforma pagoPA
+title: Soluzione “Canone Unico”
+description:
 lang: it
 excerpt_separator: <!--more-->
-tags: 
-image: "/assets/images/posts/image2.jpg"
-image_thumb: "/assets/images/posts/image2_thumb.jpg"
+image: 
+image_thumb: 
 child_of_ref: notizie
 faq: "faq-canoneunico"
 ---
@@ -25,4 +25,3 @@ Tramite la soluzione “Canone Unico”, le società Corporate potranno comunica
 PagoPA SpA, contestualmente alla richiesta da parte delle società Corporate, genererà i numeri avvisi dell’importo dichiarato dalle società stesse e comunicherà i dati del referente dei pagamenti (email, anagrafica e PEC istituzionale) per agevolare la comunicazione.
 La richiesta di generazione degli avvisi avverrà a mezzo posta elettronica certificata (PEC) allegando un file in formato CSV contenente un tracciato definito da PagoPA SpA.
 Gli Enti riceveranno una comunicazione da parte delle società Corporate sulla PEC dell’Ente come previsto dal Comma 831, art. 1, Legge 160/2019 così come modificato dal comma 838, art. 1, Legge 178/2020 contenente le Ricevute Telematiche dei pagamenti tramite PEC dalle società Corporate.
-
