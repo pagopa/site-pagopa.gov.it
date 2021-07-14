@@ -8,6 +8,8 @@ excerpt_separator: <!--more-->
 child_of_ref: documentazione-comunicazioni
 redirect_from:
   - /it/pagopa/documentazione/comunicato-tari-tefa
+image: /assets/images/posts/taritefa.png
+image_thumb: /assets/images/posts/taritefa-t.png
 ---
 
 
