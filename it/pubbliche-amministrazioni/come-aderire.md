@@ -9,7 +9,7 @@ order: 2
 child_of_ref: pubbliche-amministrazioni
 footerbanner:
     title: Hai domande o dubbi?
-    desc: Leggi le domande frequenti sull’adesione a pagoPA da parte degli Enti Creditori
+    desc: "Leggi le domande frequenti sull’adesione a pagoPA da parte degli Enti Creditori, oppure scrivi a: account@pagopa.it"
     cta: Leggi le FAQ
     url: "https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneC.html"
 passi:
