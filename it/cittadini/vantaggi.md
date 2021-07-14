@@ -9,6 +9,7 @@ ref: cittadini-vantaggi
 child_of_ref: cittadini
 redirect_from:
   - /it/cittadini/
+  - /it/pagopa/vantaggi/
 vantaggi:
     -
       img: "/assets/images/pictograms/trasparente.svg"
