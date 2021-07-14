@@ -1,9 +1,9 @@
 it:
   - title: Come posso accedere al  servizio Canone Unico?
-    body: "Per poter utilizzare il servizio Canone Unico, devi procedere alla sua sottoscrizione scaricando e compilando il [presente modulo](/it/documentazione/comunicazioni/modulo-adesione-canone-unico-corporate.rtf) e inviarlo via PEC all’indirizzo <pagamenticorporate@pec.pagopa.it>. In questo modo PagoPA SpA acquisisce le informazioni necessarie per predisporre la generazione degli avvisi di pagamento. Riceverai in risposta la conferma dell’avvenuta adesione, un file CSV da compilare e le linee guida della procedura."
+    body: "Per poter utilizzare il servizio Canone Unico, devi procedere alla sua sottoscrizione scaricando e compilando il [presente modulo](/assets/download/modulo-adesione-canone-unico-corporate.rtf) e inviarlo via PEC all’indirizzo <pagamenticorporate@pec.pagopa.it>. In questo modo PagoPA SpA acquisisce le informazioni necessarie per predisporre la generazione degli avvisi di pagamento. Riceverai in risposta la conferma dell’avvenuta adesione, un file CSV da compilare e le linee guida della procedura."
     cat: "1|Domande frequenti per le Corporate"
   - title: Come posso utilizzare il  servizio Canone Unico?
-    body: "Dopo aver ricevuto risposta alla domanda di adesione, dovrai compilare i campi di tua competenza del file CSV di cui sopra ([esempio](/it/documentazione/comunicazioni/esempio-dati-canone-unico.xlsx)) ed inviarlo sempre tramite PEC all’indirizzo <pagamenticorporate@pec.pagopa.it>. La compilazione del file dovrà rispettare alcuni requisiti minimi dettagliati nel file di esempio.\n\n
+    body: "Dopo aver ricevuto risposta alla domanda di adesione, dovrai compilare i campi di tua competenza del file CSV di cui sopra ([esempio](/assets/download/esempio-dati-canone-unico.xlsx)) ed inviarlo sempre tramite PEC all’indirizzo <pagamenticorporate@pec.pagopa.it>. La compilazione del file dovrà rispettare alcuni requisiti minimi dettagliati nel file di esempio.\n\n
     In questo modo la società Corporate comunica in autodichiarazione gli importi verso gli Enti (Comuni e Province) per cui deve effettuare i versamenti del Canone Unico.\n\n
     Entro qualche giorno riceverai risposta alla mail con il medesimo file compilato nei campi di competenza di PagoPA SpA e, in particolare, con i numeri avviso."
     cat: "1|Domande frequenti per le Corporate"
