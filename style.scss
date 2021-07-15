@@ -875,6 +875,7 @@ body.page--partner-intermediari-elenco {
 
 body.layout--simple {
   .entry p,
+  .entry p + ol li,
   .entry p + ul li {
     font-family: Lora, Times;
     color: #17324d;
