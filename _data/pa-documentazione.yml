@@ -24,9 +24,6 @@
       label: Repository su Github
       url: 'https://github.com/pagopa/pagopa-api/tree/develop'
     - 
-      label: Specifiche di connessione
-      url: "https://github.com/pagopa/site-pagopa.gov.it/tree/master/data"
-    - 
       label: Toolkit per la generazione di posizioni debitorie e avvisi di pagamento
       url: "https://github.com/pagopa/pagopa-api/tree/develop"
 - title: Tassonomia
