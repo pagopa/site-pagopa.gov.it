@@ -10,7 +10,6 @@ child_of_ref: prestatori-servizi-di-pagamento
 child_of_submenu: pagoPA
 redirect_from:
   - /it/prestatori-servizi-di-pagamento/
-  - /it/prestatori-servizi-di-pagamento/intermediari-e-mandatari/
   - /it/prestatori-servizi-di-pagamento/servizi-erogati-a-pagopa/
 vantaggi:
     -

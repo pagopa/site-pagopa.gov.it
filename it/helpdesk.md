@@ -9,6 +9,7 @@ order: 25
 child_of_ref: cos-e-pago-pa
 redirect_from:
   - /it/pagopa/helpdesk/
+  - /it/documentazione/faq/
 footerbanner:
   title: Sei un Ente Creditore o PSP?
   desc: Per domande tecniche relative all’implementazione di pagoPA, puoi aprire una segnalazione direttamente su GitHub

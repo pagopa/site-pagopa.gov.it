@@ -5,6 +5,8 @@ title_hero: Come aderire a pagoPA
 description: Per legge, tutte le PA (centrali, locali e autorità amministrative indipendenti), i gestori di pubblici servizi e le società a controllo pubblico (non quotate), devono aderire a pagoPA. Usa il Portale delle Adesioni (PdA) per aderire in qualità di Ente creditore.
 lang: it
 ref: pubbliche-amministrazioni-come-aderire
+redirect_from:
+ - /it/pubbliche-amministrazioni/lettera-accettazione-qualificazione.rtf
 order: 2
 child_of_ref: pubbliche-amministrazioni
 footerbanner:

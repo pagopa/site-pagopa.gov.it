@@ -8,6 +8,7 @@ order: 51
 child_of_ref: pubbliche-amministrazioni
 redirect_from:
   - /pubbliche-amministrazioni/servizi-di-tesoreria/
+  - /it/documentazione/best-practice/
 ---
 
 {% assign docs = site.data.pa-documentazione %}

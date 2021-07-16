@@ -4,6 +4,8 @@ title: Come aderire
 title_hero: Come aderire a pagoPA
 description: Per aderire a pagoPA in qualità di Prestatore di Servizi di Pagamento, è necessario firmare un accordo con PagoPA S.p.A. Quest’ultimo prevede, da parte del PSP aderente, il pagamento di un corrispettivo in base al numero di transazioni effettuate dal PSP (all’aumentare del volume delle transazioni corrisponde un corrispettivo per transazione inferiore).
 lang: it
+redirect_from:
+  - /it/prestatori-servizi-di-pagamento/intermediari-e-mandatari/
 ref: prestatori-servizi-di-pagamento-come-aderire
 order: 2
 child_of_ref: prestatori-servizi-di-pagamento
