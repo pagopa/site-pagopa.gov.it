@@ -5,8 +5,24 @@ TAKING DATA FROM _DATA/PARTNER-DETTAGLI.YML AND PUTTING THEM AS SINGLE MD PAGE
 IN _PTQUALIFICATI FOLDER
 =end
 require 'yaml'
+require 'down'
+
+downloadHost = "https://pdnd-prod-dl-1-public-data.s3.eu-central-1.amazonaws.com/dashboard/pagopa/"
+downloadFiles = ["ec_pt.yml","intermediari.yml"]
 
 Jekyll::Hooks.register :site, :after_init do |doc, payload|
+
+    # DOWLOAD DATA FROM REPO
+    begin
+        downloadFiles.each do |fileName| 
+            dirname = "_data/"
+            fileitem = Down.download(downloadHost + fileName, open_timeout: 5)
+            File.write(dirname + fileName, fileitem.read)
+        end
+    rescue
+        # fallback in case we cannot download the source file
+        puts "Files unreachable"
+    end
 
     dir = "_ptqualificati/"
     partners = YAML.load_file('_data/partner-dettagli.yml')
