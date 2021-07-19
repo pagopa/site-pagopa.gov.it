@@ -39,8 +39,8 @@ Come _Software Engineer_ le tue principali responsabilità includono :
     - Networking: HTTP, REST
     - OS: Linux
     - Virtualisation: Docker, K8s
-    - Linguaggi: (almeno uno fra) Java, Kotlin, Scala, Swift, Rust
-    - Scripting: (almeno uno fra) Bash, Python, JavaScript
+    - Linguaggi: (almeno uno fra) Java, Kotlin, Scala, Swift, Rust, Javascript/Typescript
+    - Scripting: (almeno uno fra) Bash, Python
     - Design: micro-servizi, DDD
     - Coding: algoritmi, strutture dati , OOD
     - Datastores: object-stores, KV stores, RDBMS
