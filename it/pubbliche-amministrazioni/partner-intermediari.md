@@ -20,7 +20,7 @@ vantaggi:
         -
          label: Scopri di più
          url: "../partner-qualificati/"
-      img: "/assets/images/pictograms/piggybank.svg"
+      img: "/assets/images/pictograms/completed.svg"
       more:
         label: Vedi i partner qualificati 
         url: "../partner-qualificati-elenco/"
