@@ -30,6 +30,9 @@ docs:
     -
      label: "Elenco degli Enti Creditori Aderenti a pagoPA"
      url: "https://www.pagopa.gov.it/data/pagopa-ec.csv"
+    -
+     label: "È obbligatorio aderire a pagoPA?"
+     url: "../obbligatorieta/"
 ---
 
 
