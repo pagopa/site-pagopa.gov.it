@@ -35,7 +35,7 @@ order: 1
           </div>
           <div class="card-body">
             <p class="card-text"><b>Tutte le Pubbliche Amministrazioni devono aderire al nuovo sistema per legge</b>, e possono integrarsi sia in modalità diretta che in modalità indiretta per mezzo di intermediari tecnologici.</p>
-            <a class="read-more" href="{{ site.baseurl }}/it/pubbliche-amministrazioni">
+            <a class="read-more" href="{{ site.url }}/it/pubbliche-amministrazioni">
               <span class="text">Leggi di più</span>
               <svg class="icon">
                 <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
@@ -49,7 +49,7 @@ order: 1
           </div>
           <div class="card-body">
             <p class="card-text">I Prestatori di Servizi di Pagamento (PSP) come <b>le banche, le poste, gli istituti di pagamento e ogni altro soggetto abilitato ad eseguire servizi di pagamento</b>, aderiscono su base volontaria al sistema pagoPA, per erogare i propri servizi di pagamento a cittadini e imprese attraverso il nodo di pagoPA.</p>
-            <a class="read-more" href="{{ site.baseurl }}/it/prestatori-servizi-di-pagamento">
+            <a class="read-more" href="{{ site.url }}/it/prestatori-servizi-di-pagamento">
               <span class="text">Leggi di più</span>
               <svg class="icon">
                 <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
