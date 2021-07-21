@@ -64,23 +64,23 @@ footer-links:
   en:
     privacy-policy:
       name: "Privacy policy"
-      url: "/en/privacy-policy"
+      url: "/en/privacy-policy/"
     lavora-con-noi:
       name: "Lavora con noi"
-      url: "/it/lavora-con-noi"
+      url: "/it/lavora-con-noi/"
     security:
       name: "Security"
       url: "/security.html"
   it:
     privacy-policy:
       name: "Privacy policy"
-      url: "/it/privacy-policy"
+      url: "/it/privacy-policy/"
     societa-trasparente:
       name: "Società Trasparente"
-      url: "/it/pagopa-spa/societa-trasparente"
+      url: "/it/pagopa-spa/societa-trasparente/"
     lavora-con-noi:
       name: "Lavora con noi"
-      url: "/it/lavora-con-noi"
+      url: "/it/lavora-con-noi/"
     security:
       name: "Sicurezza"
       url: "/security.html"
@@ -92,7 +92,7 @@ newsletter:
     title: "Iscriviti alla newsletter"
     placeholder: "Inserisci la tua email"
     submit_button: "Conferma iscrizione"
-    disclaimer: '<a href="/it/privacy-policy">Privacy policy newsletter</a>'
+    disclaimer: '<a href="/it/privacy-policy/">Privacy policy newsletter</a>'
 CollapseBtnSee:
   en: "See all"
   it: "Mostra tutto"

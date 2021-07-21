@@ -7,7 +7,7 @@ lang: it
 excerpt_separator: <!--more-->
 child_of_ref: documentazione-comunicazioni
 redirect_from:
-  - /it/pagopa/documentazione/comunicato-tari-tefa
+  - /it/pagopa/documentazione/comunicato-tari-tefa/
 ---
 
 

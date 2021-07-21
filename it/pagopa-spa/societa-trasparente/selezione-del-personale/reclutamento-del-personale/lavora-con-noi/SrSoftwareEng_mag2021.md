@@ -38,8 +38,8 @@ Come _Senior Software Engineer_ le tue principali responsabilità includono:
   * Networking: TPC/IP, routing, segmentazione di reti, firewalls, HTTP, REST
   - OS: Linux
   - Virtualisation: Docker, K8s
-  - Linguaggi: (almeno uno fra) Java, Kotlin, Scala, Swift, Rust
-  - Scripting: (almeno uno fra) Bash, Python, JavaScript
+  - Linguaggi compilati: (almeno uno fra) Java, Kotlin, Scala, Swift, Rust
+  - Linguaggi interpretati: (almeno uno fra) Bash, Python, JavaScript, Typescript
   - Design: sistemi distribuiti, micro-servizi, DDD
   - Coding: algoritmi, strutture dati , OOD
   - Datastores: object-stores, KV stores, RDBMS

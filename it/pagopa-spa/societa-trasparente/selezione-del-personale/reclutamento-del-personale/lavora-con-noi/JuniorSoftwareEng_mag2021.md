@@ -38,8 +38,8 @@ Come _Junior Software Engineer_ le tue principali responsabilità includono :
 - massimo 3 anni di comprovata esperienza relativamente a:
     - Networking: TPC/IP, HTTP
     - OS: Linux
-    - Linguaggi: (almeno uno fra) Java, Kotlin, Scala, Swift, Rust
-    - Scripting: (almeno uno fra) Bash, Python, JavaScript
+    - Linguaggi compilati: (almeno uno fra) Java, Kotlin, Scala, Swift, Rust
+    - Linguaggi interpretati: (almeno uno fra) Bash, Python, JavaScript, Typescript
     - Coding: algoritmi, strutture dati , OOD
     - Datastores: RDBMS
 - forte base accademica;
