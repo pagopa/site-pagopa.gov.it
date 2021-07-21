@@ -7,8 +7,8 @@ ref: lavora-con-noi
 order: 26
 child_of_ref: [reclutamento-del-personale, pagopa-spa]
 redirect_from:
-  - /lavora-con-noi
-  - /it/lavora-con-noi
+  - /lavora-con-noi/
+  - /it/lavora-con-noi/
 layout_wide: true
 ---
 

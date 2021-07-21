@@ -7,8 +7,8 @@ ref: societa-trasparente
 order: 26
 child_of_ref: pagopa-spa
 redirect_from:
-  - /societa-trasparente
-  - /it/societa-trasparente
+  - /societa-trasparente/
+  - /it/societa-trasparente/
 ---
 
 Questa sezione contiene documenti, informazioni e dati organizzati secondo lo schema indicato da:
