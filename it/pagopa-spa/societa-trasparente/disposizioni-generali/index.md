@@ -9,7 +9,7 @@ child_of_ref: societa-trasparente
 wide: true
 ---
 
-[Atti generali](atti-generali)
+[Atti generali](atti-generali/)
 
 
-[Piano Triennale per la prevenzione della corruzione e per la trasparenza](piano-triennale-trasparenza)
+[Piano Triennale per la prevenzione della corruzione e per la trasparenza](piano-triennale-trasparenza/)
