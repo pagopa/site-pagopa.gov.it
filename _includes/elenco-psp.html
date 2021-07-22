@@ -1,8 +1,9 @@
-{% assign psp = site.data.psp | sort: 'Denominazione' %}
+{% assign psp = site.data.psp | where_exp: "item", "item.Denominazione != nil" |  sort: 'Denominazione' %}
+{% assign last_update = psp[1].last_update %}
 <div class="row">
 	<div class="col-md-8 mb-2 mb-md-4">
 		<h1 class="page-title" >{{ page.title_hero | default: page.title }}</h1>
-		<div class="small text-muted">Ultimo aggiornamento: 25 maggio 2021</div>
+		<div class="small text-muted">Ultimo aggiornamento: {% include date.html date=last_update %}</div>
 	</div>
 	<div class="col-md-4 d-flex align-items-center">
 		<div class="form-group m-0 elencopsp__search__wrapper">
