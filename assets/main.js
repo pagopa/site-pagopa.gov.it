@@ -18,9 +18,10 @@ function isEmail(email) {
 
 function submitNewsletter(token) {
     var subscriptionUrl = "https://api.io.italia.it/api/payportal/v1/newsletters/pagopa/lists/2/recipients";
-    var email = $("#email").val().trim();
-    var data = { "recaptchaToken" : token, "email" : email };
-    $.ajax({url: subscriptionUrl,
+    var email = $("#newsletteremail").val().trim();
+    var groups = $("#group").val().split(',');
+    var data = { "recaptchaToken" : token, "email" : email, "groups": groups };
+    var ajaxreq = $.ajax({url: subscriptionUrl,
             type: "post",
             data: JSON.stringify(data),
             success: function(data, textStatus, xhr) {
@@ -154,10 +155,6 @@ $(function() {
         window.history.replaceState(null,null,'#'+idToHash);
     });
 
-    $("#newsletter-form").on("submit" , function(e) {
-        e.preventDefault();
-        grecaptcha.execute();
-    });
 
     function onFieldsChange() {
         var groupOtionsChecked = [];

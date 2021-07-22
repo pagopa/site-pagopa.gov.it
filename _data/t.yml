@@ -99,15 +99,15 @@ newsletter:
     problem: Ci sono problemi di comunicazione col sistema, non siamo riusciti a iscriverti alla newsletter. Riprova più tardi
     groups: 
       - title: "Cittadini"
-        id: "30"
-      - title: "Pubbliche Amministrazioni"
         id: "40"
+      - title: "Pubbliche Amministrazioni"
+        id: "41"
       - title: "Prestatori di Servizi di Pagamento"
-        id: "50"
+        id: "42"
       - title: "Aziende"
-        id: "60"
+        id: "43"
       - title: "Giornalisti"
-        id: "70"
+        id: "44"
 CollapseBtnSee:
   en: "See all"
   it: "Mostra tutto"
