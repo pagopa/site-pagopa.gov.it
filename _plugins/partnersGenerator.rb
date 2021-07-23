@@ -8,7 +8,7 @@ require 'yaml'
 require 'down'
 
 downloadHost = "https://pdnd-prod-dl-1-public-data.s3.eu-central-1.amazonaws.com/dashboard/pagopa/"
-downloadFiles = ["ec_pt.yml","intermediari.yml"]
+downloadFiles = ["ec_pt.yml","intermediari.yml", "psp.csv"]
 
 Jekyll::Hooks.register :site, :after_init do |doc, payload|
 
