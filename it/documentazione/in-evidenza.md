@@ -10,6 +10,12 @@ order: 23
 
 Qui trovi informazioni sulle **principali novità** sulla piattaforma dei pagamenti pagoPA.
 
+### Portale TARI/TEFA
+
+E' disponibile, per i Comuni aventi diritto e che ne faranno esplicita richiesta, il Portale TARI/TEFA. L'iniziativa, in sussidiarietà, offre un'interfaccia verso la piattaforma pagoPA per la gestione delle Posizioni Debitorie relative al solo tributo TARI/TEFA (2021).
+
+Tutti i dettagli e le modalità per l'adesione si trovano nel documento ["Monografia - Portale TARI/TEFA"](https://docs.google.com/document/d/1cWPVb7nwOEiWMinjCuaAq4PiXJ5Zt2TBD7ZCHytilcQ/edit?usp=sharing).
+
 ### Modello di pagamento presso PSP con Ente multi&#8209;beneficiario
 
 Qui trovi la documentazione, e gli aggiornamenti, in merito al nuovo workflow di pagamento con avviso che rimuove la limitazione di un unico beneficiario, cioè consente la possibilità di gestire con un unico avviso anche i casi in cui l’importo pagato sia accreditato, in quota parte, su conti di diversi Enti beneficiari (es: tributo TARI/TEFA).
