@@ -15,7 +15,7 @@ docs:
      url: "#"
     -
      label: "Fact sheet"
-     url: "#"
+     url: "/assets/download/pagopa_fact_sheet.pdf"
 ---
 
 <div class="row ">
