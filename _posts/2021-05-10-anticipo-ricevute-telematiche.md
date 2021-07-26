@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Soluzione Canone Unico - Anticipo delle Ricevute Telematiche da parte di PagoPA S.p.A.
+title: "Canone Unico: Anticipo delle Ricevute telematiche"
 description:
 lang: it
 excerpt_separator: <!--more-->
