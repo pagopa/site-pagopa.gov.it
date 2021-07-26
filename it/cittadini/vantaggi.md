@@ -31,7 +31,7 @@ Per pagare, inquadra il codice QR con l’app IO o la tua app preferita. In alte
     -
       img: "/assets/images/pictograms/completed.svg"
       title: Immediata
-      desc: "Per ogni pagamento andato a buon fine, pagoPA ti invia subito la quietanza liberatoria: è la conferma che l'Ente Creditore ha incassato l'importo e non devi più preoccuparti di nulla!  Se paghi dall'app IO, lo storico delle operazioni è sempre a portata di mano."
+      desc: "Per ogni pagamento, pagoPA ti invia subito l'esito: se è andato a buon fine, è la conferma che l'Ente Creditore incasserà l'importo. Se paghi dall'app IO, lo storico delle operazioni è sempre a portata di mano."
     -
       img: "/assets/images/pictograms/bank.svg"
       title: Sicura
