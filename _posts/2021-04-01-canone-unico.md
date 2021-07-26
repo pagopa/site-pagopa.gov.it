@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Soluzione “Canone Unico”
+title: "Canone Unico, una soluzione a misura di Corporate"
 description:
 lang: it
 excerpt_separator: <!--more-->

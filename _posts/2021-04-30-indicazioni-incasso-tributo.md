@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Indicazioni per l’incasso del tributo TEFA
+title: "TEFA: indicazioni per l’incasso"
 description:
 lang: it
 excerpt_separator: <!--more-->
