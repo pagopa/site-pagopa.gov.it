@@ -13,7 +13,8 @@ archived: true
 metadata:
     apertura: 08/04/2021
     chiusura: 30/04/2021
-    numassunte: selezione in corso
+    numricercate: 2
+    numassunte: 4 alla luce delle aggiornate necessità aziendali
 ---
 
 Stiamo cercando persone dotate di passione, grinta e integrità, che condividano la nostra missione.
