@@ -11,7 +11,7 @@ iframeheight: 2300
 is_new: true
 metadata:
     apertura: 06/07/2021
-    chiusura: 26/07/2021
+    chiusura: 06/08/2021
 ---
 
 Stiamo cercando persone altamente motivate, dotate di autonomia, passione, grinta e integrità e che condividano la nostra missione di diffondere i servizi digitali nel Paese. 
@@ -56,4 +56,4 @@ Completano il profilo:
  
 Per candidarti, invia il tuo CV e la tua lettera di motivazione (facoltativa) entro e non oltre il **26 luglio 2021**. Si precisa che la Società valuterà le candidature mano a mano che vengono inviate e che la posizione rimarrà aperta fino all’individuazione del candidato ideale e che risponde ai requisiti individuati.
 Tipologia di contratto: Tempo Indeterminato/Tempo Determinato/ Apprendistato. La tipologia di inquadramento sarà determinata tenendo conto delle caratteristiche e dei requisiti specifici posseduti dal candidato/i selezionati e dalle esigenze aziendali.
-I curriculum saranno inseriti all’interno di un data base dal quale la Società attinge in caso di esigenze future di personale con le medesime caratteristiche della presente posizione.
+I curriculum saranno inseriti all’interno di un data base dal quale la Società attinge in caso di esigenze future di personale con le medesime caratteristiche della presente posizione. **Nota di aggiornamento al 26 luglio 2021**: La data di presentazione delle candidature per la presente posizione è stata prorogata dal **26 luglio 2021 al 06 agosto 2021**.
