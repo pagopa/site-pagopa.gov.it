@@ -6,7 +6,7 @@
   min-height: auto;
   video {
     width: 100vw;
-    height: auto;
+    height: unset;
     aspect-ratio: auto 16 / 9;
     @media (min-width: 768px) {
       width: 100%;
@@ -290,6 +290,30 @@ body.page--partner-intermediari-elenco {
 .it-footer {
   a.text-muted {
     color: #9bb7cb !important;
+  }
+}
+.videobuttons {
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+  padding: 1rem;
+  width: 100%;
+
+  img {
+    height: 16px;
+    width: auto;
+  }
+  .playing &__play {
+    display: none;
+  }
+  .playing &__pause {
+    display: inline;
+  }
+  .stopped &__play {
+    display: inline;
+  }
+  .stopped &__pause {
+    display: none;
   }
 }
 

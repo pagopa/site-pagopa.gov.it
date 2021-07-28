@@ -233,6 +233,21 @@ $(function() {
     
     });
 
+    $("#videocommand").click(function(event) {
+        event.preventDefault();
+        var btn = $(this);
+        var video = document.getElementById("homevideo");
+
+        if (video.paused) {
+            video.play();
+            btn.removeClass("stopped").addClass("playing");
+        } else {
+            video.pause();
+            btn.removeClass("playing").addClass("stopped");
+        }
+        
+    });
+
 
 });
 

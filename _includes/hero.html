@@ -2,9 +2,7 @@
   <div class="img-responsive-wrapper">
     <div class="img-responsive">
       <div class="img-wrapper">
-        <!--<img src="{{ site.baseurl }}/assets/images/jonas-leupe-426231-unsplash.jpg"
-          title="Introduzione a pagopa" alt="Introduzione a pagopa">-->
-          <video controls autoplay muted loop >
+          <video controls autoplay muted loop id="homevideo">
             <source src="/assets/videos/videodemo.mp4" type="video/mp4">
           </video>
         </div>
@@ -24,6 +22,14 @@
             </div>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="videobuttons">
+    <div class="container d-flex flex-column align-items-end">
+      <a href="#" title="Ferma e riavvia il video" class="text-white playing" id="videocommand">
+        <img src="/assets/images/pause.svg" class="videobuttons__pause" alt="pausa">
+        <img src="/assets/images/play.svg" class="videobuttons__play" alt="avvia">
+      </a>
     </div>
   </div>
 </div>
