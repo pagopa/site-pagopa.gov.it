@@ -1,5 +1,5 @@
 {% assign current_lang_menu_pages = site.data.t.navigation[page.lang] %}
-
+{% assign toprightlinks = site.data.t.topright-links[page.lang] %}
 
 
 <div class="it-nav-wrapper">
@@ -10,7 +10,7 @@
           <div class="it-header-center-content-wrapper">
             <div class="it-brand-wrapper">
               <a href="/" title="Torna in home">
-                <img class="" src="{{ site.baseurl }}/assets/images/logo-pagopa-bianco.svg" alt="pagoPA">
+                <img class="" id="mainlogo" src="{{ site.baseurl }}/assets/images/logo-pagopa-bianco.svg" alt="pagoPA">
               </a>
             </div>
             <div class="it-right-zone flex-column">
@@ -18,7 +18,7 @@
                 <div class="it-btn-container">
                   <a class="d-block it-helpdesk-anchor" href="{{ site.baseurl }}/it/helpdesk/">
                   <span class="mr-2">Serve aiuto?</span>
-                  <svg class="icon icon-primary it-helpdesk-icon">
+                  <svg class="icon icon-primary it-helpdesk-icon d-none d-lg-inline">
                     <use
                       xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-comment">
                     </use>
@@ -48,7 +48,7 @@
               <div class="close-div sr-only">
                 <button class="btn close-menu" type="button"><span class="it-close"></span>close</button>
               </div>
-              <div class="menu-wrapper">
+              <div class="menu-wrapper d-flex d-lg-block flex-column">
                 <ul class="navbar-nav">
                   {% for menu_page in current_lang_menu_pages %}
                   {% assign menu_page_data = menu_page | last %}
@@ -90,6 +90,17 @@
                     </div>
                   </li>
                   {% endif %}
+                  {% endfor %}
+                </ul>
+                <ul class="navbar-nav navbar-other mt-auto mb-3 d-lg-none">
+                  <li class="nav-item py-0 ">
+                    <a class="nav-link  px-3 py-2 font-weight-normal" href="https://www.pagopa.it" title="Visita il sito web aziendale">PagoPA S.p.A.</a>
+                  </li>
+                  {% for link in toprightlinks %}
+                    {% assign linkdata = link | last %}
+                    <li class="nav-item py-0">
+                      <a class="nav-link  px-3 py-2 font-weight-normal" href="{{linkdata.url}}" title="{{linkdata.name}}">{{linkdata.name}}</a>
+                    </li>
                   {% endfor %}
                 </ul>
               </div>

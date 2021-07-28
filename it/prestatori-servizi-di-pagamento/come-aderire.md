@@ -84,10 +84,10 @@ docs:
           %}
 
 <div class="d-flex align-items-center heading-border-bottom my-4">
-  <h3>Risorse utili</h3>
+  <h4>Risorse utili</h4>
   <div class="ml-auto">
     <a href="../documentazione/" class="read-more" title="Vedi tutti i documenti">
-      <span class="text">Vedi tutti i documenti</span>
+      <span class="text">Tutti i documenti</span>
       <svg class="icon">
           <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right" /></use>
       </svg>
