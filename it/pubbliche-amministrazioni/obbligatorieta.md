@@ -7,6 +7,7 @@ lang: it
 ref: pubbliche-amministrazioni-obbligatorietà
 order: 43
 child_of_ref: pubbliche-amministrazioni
+not_on_menu: true
 ---
 
 {:.mb-4}

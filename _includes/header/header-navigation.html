@@ -57,11 +57,12 @@
                   Le pagine che vengono incluse in questo sottomenù sono un sottoinsieme di tutte le pagine del sito
                   che:
                   - hanno la stessa lingua della pagina corrente
+                  - NON hanno attributo not_on_menu
                   - hanno l'attributo "order" valorizzato
                   - hanno l'attributo "child_of_ref" uguale a `menu_page.ref` attuale (sono quindi figlie di
                   `menu_page`)
                   {% endcomment %}
-                  {% assign current_lang_menu_child_pages = site.pages | where: "lang", page.lang | where_exp: "page", "page.order != nil" | where: "child_of_ref", menu_page_ref | sort: "order" %}
+                  {% assign current_lang_menu_child_pages = site.pages | where: "lang", page.lang | where_exp: "page", "page.not_on_menu != true" | where_exp: "page", "page.order != nil" | where: "child_of_ref", menu_page_ref | sort: "order" %}
                   {% if current_lang_menu_child_pages.size == 0 %}
                   <li class="nav-item">
                     <a class="nav-link" href="{{menu_page_data.url}}"><span>{{menu_page_data.name}}</span></a>
