@@ -2,7 +2,7 @@
 layout: page
 title: Serve aiuto?
 description: "Contatta l’assistenza di pagoPA se hai provato ad effettuare un pagamento dal sito del tuo Ente Creditore e non è andato a buon fine.\n\n
-**Se invece hai pagato altrove, come ad esempio il tuo home banking o la tua app di pagamenti, rivolgiti all’assistenza del canale che hai utilizzato.**"
+**Per problemi tecnici nell’utilizzo di uno specifico canale, come ad esempio la tua app di pagamenti, puoi invece rivolgerti all’assistenza del canale stesso.**"
 lang: it
 ref: helpdesk
 order: 25
