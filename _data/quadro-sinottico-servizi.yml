@@ -10,11 +10,11 @@ items:
     func: "1"
     desc: Sistema Funzionale che permette all'EC di creare, visualizzare, modificare le proprie posizioni debitorie tramite scambio dati M2M o manualmente
   - 
-    label: Il Parter Tecnologico mette a disposizione i flussi in formato XML all'Ente per inviarle in conservazione digitale
+    label: Messa a disposizione dei documenti scambiati con pagoPA (RT,RPT, flussi di rendicontazione)
     alias: dispdocumenti
     type: Sva
     func: "1"
-    desc: Messa a disposizione dei documenti scambiati con pagoPA (RT,RPT, flussi di rendicontazione) 
+    desc: Il Parter Tecnologico mette a disposizione i flussi in formato XML all'Ente per inviarle in conservazione digitale
   - 
     label: Integrazione con e@bollo
     alias: ebollo
