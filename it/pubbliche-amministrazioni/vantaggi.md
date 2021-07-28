@@ -42,7 +42,7 @@ altriprodotti:
     desc: "Controlla in tempo reale gli IBAN comunicati dai cittadini beneficiari dell’erogazione di un determinato servizio."
     more:
         label: Scopri di più
-        url: "https://pagopa.it"
+        url: "https://www.pagopa.it/it/prodotti-e-servizi/check-iban"
   -
     img: "/assets/images/logo-io-novita.svg"
     title: IO, l'app dei servizi pubblici
