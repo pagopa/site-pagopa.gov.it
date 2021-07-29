@@ -11,7 +11,10 @@ if (!('IntersectionObserver' in window) ||
       el.classList.add('fade-in-bottom');
    });
 } else {
-   let observer = new IntersectionObserver(callback);
+   let observer = new IntersectionObserver(callback,  {
+   rootMargin: "300px",
+   threshold: 0
+   });
    animateEls.forEach( el => {
       observer.observe(el); 
    });
