@@ -47,3 +47,8 @@
     - 
       label: Asset grafici
       url: "https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/materiale_sviluppatori/avviso-pagopa-assets.zip"
+- title: "Portale TARI/TEFA"
+  docs:
+    - 
+      label: "Portale TARI/TEFA - Termini e Condizioni"
+      url: "https://www.pagopa.gov.it/it/pubbliche-amministrazioni/portale-TARI-TEFA_Termini-e-Condizioni-v1.0.pdf"

@@ -22,7 +22,7 @@ vantaggi:
       img: "/assets/images/pictograms/search.svg"
     -
       title: Volumi
-      desc: "La qualità e la multicanalità del servizio che metti a disposizione dei cittadini attraverso pagoPA, ti consentono di ampliare la tua clientela e gestire un numero sempre maggiore di transazioni verso la PA, offrendo un'esperienza più competitiva anche in termini di costi."
+      desc: "La qualità e la multicanalità del servizio che metti a disposizione dei cittadini attraverso pagoPA, ti consentono di ampliare la tua clientela e gestire un numero sempre maggiore di transazioni verso la PA e non solo, offrendo un'esperienza più competitiva anche in termini di costi."
       img: "/assets/images/pictograms/volumi.svg"
 altriprodotti:
   -

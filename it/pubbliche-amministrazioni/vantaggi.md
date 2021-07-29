@@ -18,7 +18,7 @@ vantaggi:
     -
       img: "/assets/images/pictograms/abacus.svg"
       title: Riconciliazione automatica
-      desc: "Con pagoPA, il tuo Ente può monitorare in tempo reale tutti gli incassi e, grazie alla riconciliazione automatica del pagamento rispetto alla posizione debitoria, ha sempre la certezza che le somme dovute allo Stato da parte dei cittadini siano state pagate ed incassate."
+      desc: "Con pagoPA, il tuo Ente può monitorare in tempo reale tutti gli incassi e, grazie alla riconciliazione automatica del pagamento rispetto alla posizione debitoria, ha sempre la certezza che le somme dovute da parte dei cittadini siano state pagate ed incassate."
     -
       img: "/assets/images/pictograms/fireworks.svg"
       title: Esperienza d’uso  
@@ -30,11 +30,11 @@ vantaggi:
     -
       img: "/assets/images/pictograms/digitalpayments.svg"
       title: Tracciabilità
-      desc: "Utilizzando pagoPA, il tuo Ente favorisce la diminuzione dell’uso del contante a favore dei pagamenti con moneta elettronica e contribuisce alla transizione verso la completa digitalizzazione degli avvisi di pagamento."
+      desc: "Utilizzando pagoPA, il tuo Ente favorisce la diminuzione dell’uso del contante a favore dei pagamenti con moneta elettronica e contribuisce alla transizione verso la completa digitalizzazione degli avvisi di pagamento e rientra tra i metodi di pagamento tracciabili previsti dalla legge."
     -
       img: "/assets/images/pictograms/sustainable.svg"
       title: Sostenibilità ambientale
-      desc: "Aderire a pagoPA, permette di contribuire alle strategie nazionali ed europee in tema di rispetto e salvaguardia dell'ambiente, grazie al risparmio di risorse (es. carta, inchiostro, ecc.) legato all'uso di avvisi di pagamento digitali e moneta elettronica."
+      desc: "Aderire a pagoPA, permette di contribuire alle strategie nazionali ed europee in tema di rispetto e salvaguardia dell'ambiente, grazie al risparmio di risorse (es. carta, inchiostro, ecc.) legato all'uso di avvisi di pagamento digitali e moneta elettronica"
 altriprodotti:
   -
     img: "/assets/images/logo-check-iban.svg"
