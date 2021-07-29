@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Fatarella Maurizio
-description: Direttore Area Prodotto Tecnologia e Mercato
+description: Direttore Area Tecnica, Prodotto & Mercato
 lang: it
 ref: fatarella-maurizio
 order: 25
