@@ -25,7 +25,7 @@
       url: 'https://github.com/pagopa/pagopa-api/tree/develop'
     - 
       label: Toolkit per la generazione di posizioni debitorie e avvisi di pagamento
-      url: "https://github.com/pagopa/pagopa-api/tree/develop"
+      url: "https://github.com/pagopa/pagopa-toolkit-os-codebase"
 - title: Tassonomia
   docs:
    - 
@@ -47,19 +47,3 @@
     - 
       label: Asset grafici
       url: "https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/materiale_sviluppatori/avviso-pagopa-assets.zip"
-- title: Brand Assets
-  docs:
-    - 
-      label: Regolamento uso del marchio pagoPA
-      url: "https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/regolamento_logo/regolamento_uso_marchio_pagopa_2018_0_0.pdf"
-    - 
-      label: Asset grafici e linee guida
-      url: '#'
-    - 
-      label: Modulo richiesta di concessione del marchio pagoPA
-      url: "https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/regolamento_logo/richiesta_concessione_in_uso_marchio_pagopa_per_partner_tecnologico.pdf"
-- title: Tesoreria
-  docs:
-    - 
-      label: Schema di convenzione per la gestione del servizio di tesoreria
-      url: "#"
