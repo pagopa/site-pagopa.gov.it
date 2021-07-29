@@ -56,18 +56,12 @@ tariffe:
         url: "mailto:account@pagopa.it"
         css: "pt-3 mt-auto"
 docs:
-    -
-     label: Portale delle Adesioni - Manuale Utente
-     url: "#"
-    -
-     label: Portale delle Adesioni - Manuale Utente
-     url: "#"
-    -
-     label: Portale delle Adesioni - Manuale Utente
-     url: "#"
-    -
-     label: Portale delle Adesioni - Manuale Utente
-     url: "#"
+    - 
+      label: SACI - Specifiche attuative dei codici identificativi di versamento, riversamento e rendicontazione
+      url: "https://docs.italia.it/italia/pagopa/pagopa-codici-docs/it/stabile/index.html"
+    - 
+      label: SANP - Specifiche Attuative del Nodo dei Pagamenti-SPC
+      url: 'https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/master/index.html'
 ---
 
 
