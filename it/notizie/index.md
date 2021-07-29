@@ -11,10 +11,7 @@ submenu:
     - title: Risorse per i media
 docs: 
     -
-     label: Piattaforma pagoPA - Mockup ambientati
-     url: "#"
-    -
-     label: "Fact sheet"
+     label: "Piattaforma pagoPA - Fact sheet"
      url: "/assets/download/pagopa_fact_sheet.pdf"
 ---
 
