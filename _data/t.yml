@@ -80,7 +80,7 @@ footer-links:
       url: "/it/pagopa-spa/societa-trasparente/"
     lavora-con-noi:
       name: "Lavora con noi"
-      url: "/it/lavora-con-noi/"
+      url: "https://www.pagopa.it/it/lavora-con-noi"
     security:
       name: "Sicurezza"
       url: "/security.html"
