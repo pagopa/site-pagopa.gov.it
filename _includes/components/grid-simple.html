@@ -1,0 +1,48 @@
+{% assign columns = include.columns | default: 3 %}
+
+<div class="component-grid-simple {{include.css_wrapper}}">
+    <div class="d-lg-flex align-items-stretch flex-wrap component-grid__container">
+        {% for item in include.source %}
+        <div class="component-grid__item {%unless forloop.last%}with-border{%endunless%} by-{{columns}}">
+
+            <div class="component-grid__item__wrapper h-100 d-flex flex-column">
+                <div class="component-grid__item__inner">
+                <div class="component-grid__item__body">
+                    {% if item.img %}
+                    <div class="top-icon">
+                        <img src="{{item.img}}" alt="Icona {{item.title | escape}}">
+                    </div>
+                    {% endif %}
+                    {% if item.pretitle %}
+                    <div class="component-grid__item__pretitle">{{item.pretitle}}</div>
+                    {% endif %}
+                    <h5 class="component-grid__item__title">{{item.title}}</h5>
+                    {% if item.desc %}
+                        <div class="component-grid__item__text">{{item.desc | markdownify}}</div>
+                    {% endif %}
+                    {% if item.buttons %}
+                        {% for button in item.buttons %}
+                        {% assign style = button.css | default: "btn btn-xs btn-primary d-lg-block text-uppercase px-5" %}
+                        <div class="my-3 ">
+                            <a href="{{button.url}}" 
+                               class="{{style}}"
+                               title="{{button.label | escape}}">{{button.label}}</a>
+                        </div>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+                </div>
+                {% if item.more %}
+                    <a class="read-more {{item.more.css | default: 'mt-auto'}}" href="{{item.more.url }}">
+                    <span class="text">{{item.more.label }}</span>
+                    <svg class="icon">
+                        <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
+                    </svg>
+                    </a>
+                {% endif %}
+            </div>
+
+        </div>
+        {% endfor %}
+    </div>
+</div>

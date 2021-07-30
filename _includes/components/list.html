@@ -1,0 +1,28 @@
+<div class="it-list-wrapper">
+    {% if include.title %}
+    <h3 class="heading-border-bottom pb-2">{{include.title }}</h3>
+    {% endif %}
+    <ul class="it-list">
+      {% for item in include.source %}
+        {%comment%}UGLY method to check if a doc is internal or external, using a whitelist of domains{%endcomment%}
+        {% assign iconurl = "/assets/bootstrap-italia/dist/svg/sprite.svg#it-external-link" %}
+        {% for whiteurl in site.docwhitelist %}
+          {% if item.url contains whiteurl %}
+          {% assign iconurl = "/assets/bootstrap-italia/dist/svg/sprite.svg#it-file" %}
+          {% endif %}
+        {% endfor %}
+
+      <li>
+        <a href="{{item.url}}" title="{{item.label | escape}}">
+          <div class="it-rounded-icon">
+            <svg class="icon icon-m">
+              <use xlink:href="{{iconurl}}"></use>
+            </svg>
+          </div>
+          <div class="it-right-zone border-0"><span class="text">{{item.label}}</span>
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>

@@ -1,0 +1,64 @@
+{% assign intermediari = site.data.intermediari  %}
+
+<div class="row">
+<div class="col-12 col-lg-3">
+    <div class="orderIntermediari">
+        <div class="p-3">
+            <div class="orderIntermediari__title" >
+                Ordina per
+                </div>
+            <div class="form-check">
+                <input name="gruppo1" class="orderIntermediari__radio" type="radio" id="radio1" value="0:asc" checked>
+                <label for="radio1">Nome</label>
+              </div>
+              <div class="form-check">
+                <input name="gruppo1" class="orderIntermediari__radio"  type="radio" id="radio2" value="1:desc">
+                <label for="radio2">Enti intermediati</label>
+              </div>
+        </div>
+    </div>
+    <div class="filterIntermediario">
+        <div class="rounded p-3">
+            <div class="filterIntermediario__title" >
+            Filtra per
+            </div>
+
+            <div class="my-2">
+                <div class="form-check ">
+                    <input name="filtergroup" id="checkbox1" type="radio" class="filter-checkbox" value="PT">
+                    <label for="checkbox1">Partner</label>
+                </div>
+                <div class="form-check ">
+                    <input name="filtergroup" id="checkbox2" type="radio" class="filter-checkbox" value="I">
+                    <label for="checkbox2">Intermediari</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!--/col-lg-3-->
+<div class="col-12 col-lg-9">
+    <table id="intermediaritable" class="table dt-responsive nowrap w-100">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Enti intermediati</th>
+                <th data-visible="false">Tipo</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for intermediariotype in intermediari %}
+                {% for intermediario in intermediariotype[1] %}
+                <tr>
+                    <td>{{intermediario['Intermediario Partner']}}</td>
+                    <td>{{intermediario['Conteggio di denominazione Ente']}}</td>
+                    <td>{{intermediariotype[0]}}</td>
+                </tr>
+                {%endfor%}
+            {%endfor%}
+        </tbody>
+    
+    </table>
+</div><!--/col-lg-10-->
+</div><!--/row-->
+
+

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="{% if page.layout_extra == nil %}container{%endif%} my-2">
+<div class="container my-2 my-md-4">
   {%- include breadcrumbs.html -%}
 </div>
 {% if page.local_navigation %}
@@ -15,17 +15,25 @@ layout: default
 
 <article class="{% if page.layout_extra == nil %}container{%endif%} my-4">
   <div class="row">
-    <div class="col-12{% if page.layout_wide == nil %} col-lg-8{% endif %}">
-      <div class="mx-md-3">
-        {% unless page.omit_title %}<h1>{{ page.title }}</h1>{%endunless%}
-        <p class="lead">{{ page.description }}</p>
-
+    <div class="col-12">
+      <div class="mx-3">
+        {% unless page.omit_pagehead %}
+          <div class="col-12 col-md-8 mb-2 mb-md-4">
+          {% unless page.omit_title %}
+            <h1 class="page-title" >{{ page.title_hero | default: page.title }}</h1>
+          {%endunless%}
+          {% if page.description %}
+            <div class="page-desc">{{ page.description | markdownify }}</div>
+          {% endif %}
+          </div>
+        {% endunless %}
+        <div class="py-2"></div>
         <div class="entry">
           {{ content }}
         </div>
       </div>
     </div>
-    {% if page.layout_wide == nil %}
+    {% comment %}
     <div class="col-12 col-lg-4">
       <nav class="navbar it-navscroll-wrapper navbar-expand-lg it-bottom-navscroll it-left-side affix-top">
         <button class="custom-navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false"
@@ -61,7 +69,10 @@ layout: default
         </div><!--navbarNAv-->
       </nav>
     </div>
-    {% endif %}
+    {% endcomment %}
 
   </div>
 </article>
+{% if page.footerbanner %}
+  {% include components/footer-banner.html %}
+{% endif %}

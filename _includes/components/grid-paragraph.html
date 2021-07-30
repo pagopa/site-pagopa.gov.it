@@ -1,0 +1,14 @@
+<div class="component-grid-paragraph">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="component-grid-paragraph__par">
+            {{include.paragraph | markdownify}}
+            </div>
+        </div>
+        <div class="col-lg-8">
+        {% include components/grid.html 
+            source=include.source
+            columns=2 %}
+        </div>
+    </div>
+</div>

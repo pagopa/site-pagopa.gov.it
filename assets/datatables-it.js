@@ -22,20 +22,96 @@ var it_datatables = {
 
 $(document).ready(function() {
 
-$('#elencopsp').DataTable({
-"lengthChange": false,
-"pageLength": 20,
-"pagingType": "simple",
-"language": it_datatables
-}
-);
+    var $elencopsp = $('#elencopsp').DataTable({
+        "lengthChange": false,
+        "pageLength": 20,
+        "pagingType": "numbers",
+        "ordering": false,
+        "language": it_datatables,
+        "dom": "tip",
+        }
+        );
+    $('#elencopsp__search').keyup(function() {
+        var value = $(this).val();
+        $elencopsp.search(value).draw();
+        
+    });
 
-$('#partners').DataTable({
-"order": [[ 1, "asc" ]],
-"lengthChange": false,
-"pageLength": 20,
-"pagingType": "simple",
-"language": it_datatables
-}
-);
+    $('#partners').DataTable({
+        "order": [[ 1, "asc" ]],
+        "lengthChange": false,
+        "pageLength": 20,
+        "pagingType": "simple",
+        "language": it_datatables
+        }
+        );
+
+    var $partnertable = $('#partnertable').DataTable({
+        "order": [[ 0, "asc" ]],
+        "lengthChange": false,
+        "pageLength": 30,
+        "pagingType": "simple",
+        "language": it_datatables,
+        "paging":   false,
+        "info": false,
+        "dom": "tip",
+        }
+        );
+
+    $('.filterPartner .filter-checkbox').change(function() {
+        if (!this.checked) {
+            $partnertable.column( $(this).val() ).search('').draw();
+        }
+        var $checked = $('.filterPartner .filter-checkbox:checked');
+        var selector = [];
+        $checked.each(function(){
+            var value = $(this).val();
+            selector.push(value);
+        });
+        if (selector.length > 0) {
+            $partnertable.columns(selector).search('1').draw();
+        } else {
+            $partnertable.columns().search('').draw();
+        }
+    });
+
+    $('.orderPartner__radio').change(function() {
+        var value = $(this).val();
+        var col = value.split(":")[0];
+        var dir = value.split(":")[1];
+        if (this.checked) {
+            $partnertable.column( col ).order(dir).draw();
+        }
+    });
+
+    var $intermediaritable = $('#intermediaritable').DataTable({
+        "order": [[ 0, "asc" ]],
+        "lengthChange": false,
+        "pageLength": 30,
+        "language": it_datatables,
+        "paging": true,
+        }
+        );
+
+    $('.orderIntermediari__radio').change(function() {
+        var value = $(this).val();
+        var col = value.split(":")[0];
+        var dir = value.split(":")[1];
+        if (this.checked) {
+            $intermediaritable.column( col ).order(dir).draw();
+        }
+    });
+    $('.filterIntermediario .filter-checkbox').change(function() {
+        var value = $(this).val();
+        if (!this.checked) {
+            $intermediaritable.column( 2 ).search('').draw();
+        }
+        var $checked = $('.filterIntermediario .filter-checkbox:checked');
+        if ($checked.length > 0) {
+            $intermediaritable.column(2).search(value).draw();
+        } else {
+            $intermediaritable.column(2).search('').draw();
+        }
+    });
+
 });

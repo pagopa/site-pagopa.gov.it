@@ -1,4 +1,4 @@
-<nav class="breadcrumb-container" aria-label="breadcrumb">
+<nav class="breadcrumb-container px-2 px-md-4" aria-label="breadcrumb">
   <ol class="breadcrumb">
     {% assign breadcrumbs = '' | split: '' %}
     {% comment %}
@@ -34,6 +34,6 @@
             class="separator">&gt;</span>
     </li>
     {% endfor %}
-    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.title | truncate: 50 }}</li>
   </ol>
 </nav>

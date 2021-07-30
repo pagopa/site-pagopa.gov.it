@@ -45,7 +45,7 @@ Non previste.
 
 Il meccanismo di feedback è previsto. Il soggetto erogatore accetta segnalazioni attinenti all’accessibilità attraverso tutti i canali di comunicazione messi a disposizione del pubblico. Inoltre, il meccanismo di feedback è comune con il canale di assistenza relativo alla piattaforma pagoPA e consiste in un numero telefonico (02-6689-7805) e indirizzo e-mail ([helpdesk@pagopa.it](mailto:helpdesk@pagopa.it)) dedicati.
 
-Link al meccanismo di feedback: <https://www.pagopa.gov.it/it/pagopa/helpdesk/>
+Link al meccanismo di feedback: <https://www.pagopa.gov.it/it/pagopa/helpdesk>
 
 Email della persona responsabile dell'accessibilità: [helpdesk@pagopa.it](mailto:helpdesk@pagopa.it)
 
