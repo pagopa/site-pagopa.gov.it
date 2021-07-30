@@ -25,10 +25,7 @@
       url: "https://pagopa.github.io/pagopa-api/"
     - 
       label: Repository su Github
-      url: 'https://github.com/pagopa/pagopa-api/tree/develop'
-    - 
-      label: Toolkit per la generazione di posizioni debitorie e avvisi di pagamento
-      url: "https://github.com/pagopa/pagopa-api/tree/develop"
+      url: 'https://github.com/pagopa/pagopa-api'
 - title: Piani di test
   docs:
     - 
