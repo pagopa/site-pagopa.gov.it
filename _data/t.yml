@@ -67,7 +67,7 @@ footer-links:
       url: "/en/privacy-policy/"
     lavora-con-noi:
       name: "Lavora con noi"
-      url: "/it/lavora-con-noi/"
+      url: "https://www.pagopa.it/it/lavora-con-noi"
     security:
       name: "Security"
       url: "/security.html"
