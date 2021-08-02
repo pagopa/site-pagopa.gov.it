@@ -7,8 +7,8 @@ description_og: Tutti i dati della piattaforma pagoPA, aggiornati quotidianament
 lang: it
 ref: dashboard
 order: 23
+child_of_ref: cos-e-pago-pa
 redirect_from:
-  - /it/dashboard/
   - /it/pagopa/dashboard/
   - /it/pagopa/numeri-e-roadmap/
 ---
