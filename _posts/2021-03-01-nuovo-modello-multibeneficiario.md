@@ -14,9 +14,8 @@ child_of_ref: notizie
 
 Qui trovi la documentazione in merito al **nuovo workflow di pagamento** con avviso che rimuove la limitazione di un unico beneficiario:
 
-- [Specifiche Attuative del Nodo dei Pagamenti-SPC ](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.4.2/index.html)(SANP-2.4.2) - Allegato B
+- [Specifiche Attuative del Nodo dei Pagamenti-SPC](https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/v2.4.2/index.html)(SANP-2.4.2) - Allegato B
 - [Informazioni di dettaglio per gli sviluppatori](https://pagopa.github.io/pagopa-api/) (DevPortal)
 - [Repository delle interfacce](https://github.com/pagopa/pagopa-api/tree/develop) in update (esposte e richieste) per la connessione con il sistema pagoPA
 - [Domande frequenti](https://docs.google.com/document/d/1vUjmJMD183i4aYwWCQMsG_VXL9fxNPzG8_5manzW2Og/edit) 
 - [Apri segnalazione](https://github.com/pagopa/pagopa-api/issues/)
-
