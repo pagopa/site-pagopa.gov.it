@@ -938,6 +938,11 @@ body.layout--simple {
 }
 
 .postpage {
+  &__caption {
+    color: #475a6d;
+    font-size: 0.888rem;
+    margin-top: 0.5rem;
+  }
   &__date {
     font-size: 1rem;
     font-weight: 600;

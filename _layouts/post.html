@@ -33,7 +33,12 @@ layout: default
   <div class="row">
     <div class="col-12 col-lg-10 offset-lg-1">
       <div class="postpage__img mx-lg-3">
-      <img src="{{page.image}}" alt="{{page.title | escape}}" >
+        <img src="{{page.image}}" alt="{{page.title | escape}}" >
+        {% if page.caption %}
+        <div class="postpage__caption ">
+          {{page.caption | escape}}
+        </div>
+        {% endif %}
       </div>
     </div>
   </div>
