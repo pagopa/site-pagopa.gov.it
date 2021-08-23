@@ -1,0 +1,2455 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+  <meta http-equiv="Content-Security-Policy" 
+        content="default-src 'self'; connect-src 'self' https://pdnd-prod-dl-1-public-data.s3.eu-central-1.amazonaws.com https://www.google-analytics.com https://api.io.italia.it; font-src 'self'; frame-src https://www.youtube.com https://pagopa.applytojob.com https://www.youtube-nocookie.com  https://www.google.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/; img-src 'self' data:; script-src 'self' https://www.google-analytics.com  https://www.gstatic.com https://www.google.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/; style-src 'self' 'unsafe-inline'">
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="/assets/bootstrap-italia/dist/css/bootstrap-italia.min.css">
+
+<!-- Main styles -->
+<link rel="alternate" type="application/rss+xml" title="pagoPA - " href="/feed.xml" />
+<link rel="stylesheet" type="text/css" href="/style.css" />
+
+<!-- Custom -->
+
+    <link rel="stylesheet" type="text/css" href="/assets/vendors/datatables/datatables.min.css" />
+
+
+
+
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta name="author" content="PagoPA S.p.A.">
+
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="/assets/images/favicons/apple-touch-icon.png">
+<link rel="icon" href="/assets/images/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/assets/images/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#0066CC">
+<link rel="icon" href="/assets/images/favicons/favicon.ico">
+<meta name="msapplication-config" content="/assets/images/favicons/browserconfig.xml">
+<meta name="theme-color" content="#0066CC">
+
+<title>PSP aderenti – pagoPA</title>
+<meta name="description"
+    content="Paga come vuoi, quando vuoi">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@https://twitter.com/pagopa">
+<meta name="twitter:creator" content="PagoPA S.p.A.">
+<meta name="twitter:title" content="PSP aderenti">
+<meta name="twitter:description"
+    content="Paga come vuoi, quando vuoi">
+<meta name="twitter:image" content="https://www.pagopa.gov.it/assets/images/favicons/social-card-twitter.png">
+<!-- Facebook -->
+<meta property="og:url" content="https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/elenco-PSP-attivi/">
+<meta property="og:title" content="PSP aderenti - pagoPA">
+<meta property="og:description"
+    content="Paga come vuoi, quando vuoi">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://www.pagopa.gov.it/assets/images/favicons/social-card.png">
+<meta property="og:image:secure_url" content="https://www.pagopa.gov.it/assets/images/favicons/social-card.png">
+
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+
+
+
+
+<script src="/assets/analytics.js"></script>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body class="page--prestatori-servizi-di-pagamento-elenco-psp-attivi layout--page"><div class="it-header-wrapper">
+  
+<div class="it-header-slim-wrapper d-none d-lg-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="it-header-slim-wrapper-content">
+          <a class="d-none d-lg-block navbar-brand" title="Visita il sito aziendale"
+            href="https://www.pagopa.it">PagoPA S.p.A.</a>
+
+          <nav class="navbar-institutional navbar navbar-expand-lg navbar-dark py-1">
+            <a class="it-opener d-lg-none" data-toggle="collapse" href="#menu1" role="button" aria-expanded="false"
+              aria-controls="menu1">
+              <span>PagoPA S.p.A.</span>
+              <svg class="icon">
+                <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-expand"></use>
+              </svg>
+            </a>
+            <div class="collapse navbar-collapse" id="menu1">
+              <ul class="navbar-nav ml-auto mr-0 border-right-0">
+                
+                
+                <li class="nav-item py-0 py-md-3 nav-item-w-divider">
+                  <a class="nav-link text-white px-0 py-2 py-md-0 px-md-3" href="https://pianotriennale-ict.italia.it/" title="Piano Triennale">Piano Triennale</a>
+                </li>
+                
+                
+                <li class="nav-item py-0 py-md-3 ">
+                  <a class="nav-link text-white px-0 py-2 py-md-0 px-md-3" href="https://io.italia.it/" title="IO">IO</a>
+                </li>
+                
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+
+
+<div class="it-nav-wrapper">
+  <div class="it-header-center-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="it-header-center-content-wrapper">
+            <div class="it-brand-wrapper">
+              <a href="/" title="Torna in home">
+                <img class="" id="mainlogo" src="/assets/images/logo-pagopa-bianco.svg" alt="pagoPA">
+              </a>
+            </div>
+            <div class="it-right-zone flex-column">
+              <div class="it-helpdesk d-md-flex">
+                <div class="it-btn-container">
+                  <a class="d-block it-helpdesk-anchor" href="/it/helpdesk/">
+                  <span class="mr-2">Serve aiuto?</span>
+                  <svg class="icon icon-primary it-helpdesk-icon d-none d-lg-inline">
+                    <use
+                      xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-comment">
+                    </use>
+                  </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="it-header-navbar-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg has-megamenu">
+            <button class="custom-navbar-toggler" type="button" aria-controls="nav10" aria-expanded="false"
+              aria-label="Toggle navigation" data-target="#nav10">
+              <svg class="icon">
+                <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-burger"></use>
+              </svg>
+            </button>
+            <div class="navbar-collapsable" id="nav10">
+              <div class="overlay"></div>
+              <div class="close-div sr-only">
+                <button class="btn close-menu" type="button"><span class="it-close"></span>close</button>
+              </div>
+              <div class="menu-wrapper d-flex d-lg-block flex-column">
+                <ul class="navbar-nav">
+                  
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                      <span>Cittadini</span>
+                      <svg class="icon icon-xs ml-2">
+                        <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-expand">
+                        </use>
+                      </svg>
+                    </a>
+                    <div class="dropdown-menu">
+                      <div class="link-list-wrapper">
+                        <ul class="link-list py-3">
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/cittadini/vantaggi/"><span>I vantaggi</span></a>
+                            </li>
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/cittadini/dove-pagare/"><span>Dove pagare</span></a>
+                            </li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                      <span>Pubbliche Amministrazioni</span>
+                      <svg class="icon icon-xs ml-2">
+                        <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-expand">
+                        </use>
+                      </svg>
+                    </a>
+                    <div class="dropdown-menu">
+                      <div class="link-list-wrapper">
+                        <ul class="link-list py-3">
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/pubbliche-amministrazioni/vantaggi/"><span>I vantaggi</span></a>
+                            </li>
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/pubbliche-amministrazioni/come-aderire/"><span>Come aderire</span></a>
+                            </li>
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/pubbliche-amministrazioni/partner-intermediari/"><span>Partner e Intermediari</span></a>
+                            </li>
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/pubbliche-amministrazioni/documentazione/"><span>Documentazione</span></a>
+                            </li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                      <span>Prestatori Servizi di Pagamento</span>
+                      <svg class="icon icon-xs ml-2">
+                        <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-expand">
+                        </use>
+                      </svg>
+                    </a>
+                    <div class="dropdown-menu">
+                      <div class="link-list-wrapper">
+                        <ul class="link-list py-3">
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/prestatori-servizi-di-pagamento/vantaggi/"><span>I vantaggi</span></a>
+                            </li>
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/prestatori-servizi-di-pagamento/come-aderire/"><span>Come aderire</span></a>
+                            </li>
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/prestatori-servizi-di-pagamento/elenco-PSP-attivi/"><span>PSP aderenti</span></a>
+                            </li>
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/prestatori-servizi-di-pagamento/documentazione/"><span>Documentazione</span></a>
+                            </li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="/it/notizie/"><span>Notizie</span></a>
+                  </li>
+                  
+                  
+                </ul>
+                <ul class="navbar-nav navbar-other mt-auto mb-3 d-lg-none">
+                  <li class="nav-item py-0 ">
+                    <a class="nav-link  px-3 py-2 font-weight-normal" href="https://www.pagopa.it" title="Visita il sito web aziendale">PagoPA S.p.A.</a>
+                  </li>
+                  
+                    
+                    <li class="nav-item py-0">
+                      <a class="nav-link  px-3 py-2 font-weight-normal" href="https://pianotriennale-ict.italia.it/" title="Piano Triennale">Piano Triennale</a>
+                    </li>
+                  
+                    
+                    <li class="nav-item py-0">
+                      <a class="nav-link  px-3 py-2 font-weight-normal" href="https://io.italia.it/" title="IO">IO</a>
+                    </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container my-2 my-md-4"><nav class="breadcrumb-container px-2 px-md-4" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    
+    
+
+    
+
+    
+      
+      
+    
+
+    
+
+    <li class="breadcrumb-item"><a href="/">Home</a><span class="separator">&gt;</span></li>
+
+    
+    <li class="breadcrumb-item"><a href="/it/prestatori-servizi-di-pagamento/">Prestatori Servizi di Pagamento</a><span
+            class="separator">&gt;</span>
+    </li>
+    
+    <li class="breadcrumb-item active" aria-current="page">PSP aderenti</li>
+  </ol>
+</nav>
+</div>
+
+
+<article class="container my-4">
+  <div class="row">
+    <div class="col-12">
+      <div class="mx-3">
+        
+        <div class="py-2"></div>
+        <div class="entry">
+          
+<div class="row">
+	<div class="col-md-8 mb-2 mb-md-4">
+		<h1 class="page-title">PSP aderenti</h1>
+		<div class="small text-muted">Ultimo aggiornamento: 10
+
+
+
+Agosto
+
+
+
+2021
+</div>
+	</div>
+	<div class="col-md-4 d-flex align-items-center">
+		<div class="form-group m-0 elencopsp__search__wrapper">
+			<div class="input-group">
+			  <label for="elencopsp__search">Cerca per nome o CF</label>
+			  <input type="text" class="form-control" id="elencopsp__search" name="elencopsp__search" />
+			  <div class="input-group-append align-items-center">
+				<svg class="icon icon-sm  "><use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-search"></use></svg>
+			  </div>
+			</div>
+		  </div>
+	</div>
+</div>
+
+<table id="elencopsp" class="display w-100 table table-responsive">
+	<thead>
+		<tr>
+			<th>Nome</th>
+			<th data-visible="false">CF</th>
+		</tr>
+	</thead>
+	<tbody>
+		
+			<tr>
+				<td class="elencopsp__denominazione">A-TONO PAYMENT INSTITUTE SPA</td>
+				<td class="elencopsp__cf">09217250969</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">ADMIRAL PAY  ISTITUTO DI PAGAMENTO - SOCIETÃ€ A RESPONSABILITÃ€ LIMITATA</td>
+				<td class="elencopsp__cf">04335420404</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">AFONE_PAIEMENT</td>
+				<td class="elencopsp__cf">09828070962</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">AIGIS BANCA S.P.A.</td>
+				<td class="elencopsp__cf">06150120720</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">ALLIANZ BANK FINANCIAL ADVISORS S.P.A.</td>
+				<td class="elencopsp__cf">09733300157</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">ALTO ADIGE BANCA S.P.A.</td>
+				<td class="elencopsp__cf">11658880155</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">AMERICAN EXPRESS PAYMENTS EUROPE S.L.</td>
+				<td class="elencopsp__cf">ES B88021431</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">AXEPTA SPA</td>
+				<td class="elencopsp__cf">05963231005</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">B.C.C. DEL GARDA - BANCA DI CREDITO COOPERATIVO COLLI MORENICI DEL GARDA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00285660171</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA 2021  CREDITO COOPERATIVO DEL CILENTO, VALLO DI DIANO E DELLA LUCANIA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">02596790655</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA ADRIA COLLI EUGANEI - CREDITO COOPERATIVO SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01369230295</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA AGRICOLA POPOLARE DI RAGUSA SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00026870881</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA ALPI MARITTIME CREDITO COOPERATIVO CARRU' - SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00195530043</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA ALTA TOSCANA CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00138580477</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA ALTO VICENTINO - CREDITO COOPERATIVO DI SCHIO, PEDEMONTE E ROANA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00210200242</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA CAMBIANO 1884 S.P.A.</td>
+				<td class="elencopsp__cf">02599341209</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA CAPASSO ANTONIO - S.P.A.</td>
+				<td class="elencopsp__cf">00095310611</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA CARIGE S.P.A. - CASSA DI RISPARMIO DI GENOVA E IMPERIA (IN FORMA ABBREVIATA CARIGE S.P.A.)</td>
+				<td class="elencopsp__cf">03285880104</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA CASSA DI RISPARMIO DI SAVIGLIANO S.P.A.</td>
+				<td class="elencopsp__cf">00204500045</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA CENTRO EMILIA - CREDITO COOPERATIVO' SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01402600389</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA CENTRO LAZIO CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00697880581</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA CENTRO-CREDITO COOPERATIVO TOSCANA-UMBRIA SOC.COOPERATIVA</td>
+				<td class="elencopsp__cf">03518350545</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA CENTROPADANA CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">12514870158</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA CESARE PONTI S.P.A.</td>
+				<td class="elencopsp__cf">07051880966</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA CONSULIA S.P.A.</td>
+				<td class="elencopsp__cf">01733820037</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA CREMASCA E MANTOVANA - CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01230590190</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DEI SIBILLINI-CREDITO COOPERATIVO DI CASAVECCHIA-SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00118970433</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DEL CATANZARESE - CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">03402920791</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DEL FUCINO - S.P.A.</td>
+				<td class="elencopsp__cf">04256050875</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DEL GRAN SASSO D'ITALIA, BANCA DI CREDITO COOPERATIVO SOCIETÃ€ COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">90016030679</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DEL MONTE DI LUCCA S.P.A.</td>
+				<td class="elencopsp__cf">01459540462</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DEL PICENO CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00143690444</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DEL PIEMONTE S.P.A.</td>
+				<td class="elencopsp__cf">00821100013</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DEL SUD S.P.A.</td>
+				<td class="elencopsp__cf">05479261215</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DEL TERRITORIO LOMBARDO CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00436650170</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DEL VALDARNO - CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00135410512</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DELL'ALTA MURGIA CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">05175940724</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DELL'ELBA CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01221550492</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DELLA MARCA CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">03669140265</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DELLA VALSASSINA CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00337470132</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI ANCONA E FALCONARA MARITTIMA CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00982770422</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI ANDRIA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA PER AZIONI A RESPONSABILITA' LIMITATA</td>
+				<td class="elencopsp__cf">06059120722</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI ANGHIARI E STIA - CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01622460515</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI BOLOGNA CREDITO COOPERATIVO SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00415760370</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CARAGLIO, DEL CUNEESE E DELLA RIVIERA DEI FIORI - CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00245130042</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CIVIDALE SOCIETA' COOPERATIVA PER AZIONI O IN FORMA ABBREVIATA CIVIBANK</td>
+				<td class="elencopsp__cf">00249360306</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO 'G. TONIOLO' DI SAN CATALDO (CALTANISSETTA) SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00055510853</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO 'S. GIUSEPPE' DELLE MADONIE - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00223510827</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO ABRUZZESE - CAPPELLE SUL TAVO SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00091530683</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO AGRIGENTINO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">02428850842</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO AGROBRESCIANO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00284980174</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO BERGAMASCA E OROBICA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">04074830169</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO BERGAMO E VALLI - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00312270168</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO BRIANZA E LAGHI - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00318030137</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DEGLI ULIVI - TERRA DI BARI - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00274050723</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DEI CASTELLI E DEGLI IBLEI SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01617330855</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DEI CASTELLI ROMANI E DEL TUSCOLO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">07311521004</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DEI COLLI ALBANI - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01103500581</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DEL BASSO SEBINO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00278750179</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DEL CIRCEO E PRIVERNATE - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01710450592</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DEL METAURO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">81004820411</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DEL VELINO - COMUNE DI POSTA PROVINCIA DI RIETI - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00036100576</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DELL'ADRIATICO TERAMANO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01469670671</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DELL'ALTO TIRRENO DELLA CALABRIA VERBICARO (PROVINCIA DI COSENZA) - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00945950780</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DELL'OGLIO E DEL SERIO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">02249360161</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DELLA PROVINCIA ROMANA SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01025110584</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DELLA ROMAGNA OCCIDENTALE - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00068200393</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DELLA VALLE DEL FITALIA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00427910831</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DELLA VALLE DEL TRIGNO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00674390703</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI ALBEROBELLO E SAMMICHELE DI BARI - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00380000729</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI ALTOFONTE E CACCAMO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00193930823</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI ANAGNI SOCIETA' COOPERATIVA (IN BREVE BANCANAGNI CREDITO COOPERATIVO)</td>
+				<td class="elencopsp__cf">00088800602</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI AQUARA SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00639000652</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI ARBOREA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00359060951</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI AVETRANA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00120540737</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI BARI - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">04499160721</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI BARLASSINA (MILANO) - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01434500151</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI BASCIANO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00658270673</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI BELLEGRA SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01041710581</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI BORGHETTO LODIGIANO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00781330154</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI BRESCIA - SOCIETA' COOPERATIVA (ABBR. CREDITO COOPERATIVO DI BRESCIA - SOCIETA' COOP.)</td>
+				<td class="elencopsp__cf">00385040175</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI BUCCINO E DEI COMUNI CILENTANI - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">03685090650</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI BUONABITACOLO SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">92000250651</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI BUSTO GAROLFO E BUGUGGIATE -SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00688150150</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI CAGLIARI SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">02742900927</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI CANOSA - LOCONIA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00387040728</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI CAPACCIO PAESTUM E SERINO- SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00258720655</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI CARATE BRIANZA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01309550158</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI CASALGRASSO E SANT'ALBANO STURA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00167420041</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI CASSANO DELLE MURGE E TOLVE - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00407800721</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI CASTAGNETO CARDUCCI SOCIETA'COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00149160491</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI CASTIGLIONE MESSER RAIMONDO E PIANELLA - SOCIETA' COOPERATIVA A RESPONSABILITA' LIMITATA</td>
+				<td class="elencopsp__cf">00925980674</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI CHERASCO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00204710040</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI CITTANOVA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00087180808</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI CONVERSANO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00334280724</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI FANO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00131220410</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI FLUMERI - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00686880642</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI GAMBATESA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00068860709</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI GAUDIANO DI LAVELLO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">93000870761</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI LEVERANO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00143270759</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI LEZZENO (COMO) - SOCIETA' COOPERATIVA A RESPONSABILITA' LIMITATA</td>
+				<td class="elencopsp__cf">00287860134</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI LOCOROTONDO CASSA RURALE E ARTIGIANA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00369440722</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI MARINA DI GINOSA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00133340737</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI MASSAFRA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">02425620735</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI MILANO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01132850155</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI MONOPOLI - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">04787450727</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI MONTEPAONE SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01661590792</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI MOZZANICA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00264910167</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI NAPOLI SOCIETA' COOPERATIVA PER AZIONI (IN SIGLA B.C.C. DI NAPOLI)</td>
+				<td class="elencopsp__cf">05587171215</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI NETTUNO SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00386990584</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI OPPIDO LUCANO E RIPACANDIDA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00101730760</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI OSTRA E MORRO D'ALBA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01440090429</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI OSTRA VETERE SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00172010423</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI OSTUNI - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00059520742</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI PACHINO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00078210895</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI PERGOLA E CORINALDO SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00141120410</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI PIANFEI E ROCCA DE' BALDI - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00167840040</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI PONTASSIEVE - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00409340486</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI PRATOLA PELIGNA (L'AQUILA) -SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00092420660</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI PUTIGNANO - SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">06570340726</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI RECANATI E COLMURANO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01176450433</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI ROMA SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01275240586</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI SAN BIAGIO PLATANI, SOCIETA'COOPERATIVA</td>
+				<td class="elencopsp__cf">00098180847</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI SAN GIOVANNI ROTONDO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00149260713</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI SAN MARCO DEI CAVOTI E DEL SANNIO-CALVI - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00064400625</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI SAN MARZANO DI SAN GIUSEPPE - TARANTO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00130830730</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI SANTERAMO IN COLLE - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00256750720</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI SARSINA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00127840403</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI SCAFATI E CETARA SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00252880653</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI SPELLO E BETTONA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00228700548</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI SPINAZZOLA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00256810722</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI STARANZANO E VILLESSE - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00064500317</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI TERRA D'OTRANTO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00198480758</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI TRIUGGIO E DELLA VALLE DEL LAMBRO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00698390150</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI TURRIACO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00065880312</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DI VENEZIA, PADOVA E ROVIGO - BANCA ANNIA SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00285800280</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO DON STELLA DI RESUTTANO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00073560856</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO LA RISCOSSA DI REGALBUTO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00037750866</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO LAUDENSE - LODI SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">09900240152</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO MUTUO SOCCORSO DI GANGI - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00101550820</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO PORDENONESE E MONSILE - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00091700930</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO SAN GIUSEPPE DI MUSSOMELI - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00056550858</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO SAN MICHELE DI CALTANISSETTA E PIETRAPERZIA - SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00041190851</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO SAN MICHELE DI CALTANISSETTA E PIETRAPERZIA - SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00041190851</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO SANGRO TEATINA DI ATESSA</td>
+				<td class="elencopsp__cf">00086890696</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO TERRA DI LAVORO - S. VINCENZO DE' PAOLI SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00094970613</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO VALDOSTANA - COOPERATIVE DE CREDIT VALDOTAINE - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00365360072</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO VALLE DEL TORTO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00101580827</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO COOPERATIVO VICENTINO - POJANA MAGGIORE (VICENZA) - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00152400248</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO PELORITANO S.P.A.</td>
+				<td class="elencopsp__cf">03104290832</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI CREDITO POPOLARE', SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00423310630</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI FILOTTRANO - CREDITO COOPERATIVO DI FILOTTRANO E CAMERANO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00135400422</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI IMOLA S.P.A.</td>
+				<td class="elencopsp__cf">00293070371</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI PESARO CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00128830411</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI PESCIA E CASCINA - CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00158450478</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI PIACENZA - SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00144060332</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI PISA E FORNACETTE CREDITO COOPERATIVO - SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00179660501</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI RIPATRANSONE E DEL FERMANO - CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00096910443</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI SCONTO E CONTI CORRENTI DI SANTA MARIA CAPUA VETERE- S.P.A.</td>
+				<td class="elencopsp__cf">00136290616</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI TARANTO - BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">02389630738</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI UDINE CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00252520309</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DI VERONA CREDITO COOPERATIVO CADIDAVID SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00319990230</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA DON RIZZO - CREDITO COOPERATIVO DELLA SICILIA OCCIDENTALE - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00071310817</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA EUROMOBILIARE S.P.A.</td>
+				<td class="elencopsp__cf">08935810153</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA FINANZIARIA INTERNAZIONALE S.P.A.</td>
+				<td class="elencopsp__cf">04040580963</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA FINNAT EURAMERICA S.P.A. (IN FORMA ABBREVIATA BANCA FINNAT S.P.A. OVVERO BANCA EURAMERICA S.P.A.)</td>
+				<td class="elencopsp__cf">00168220069</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA GALILEO S.P.A.</td>
+				<td class="elencopsp__cf">03639870967</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA GENERALI - SOCIETA' PER AZIONI (IN FORMA ABBREVIATA GENERBANCA)</td>
+				<td class="elencopsp__cf">00409920584</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA IFIGEST - S.P.A.</td>
+				<td class="elencopsp__cf">03712110588</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA IFIS S.P.A. (OVVERO IFIS BANCA S.P.A. O IN FORMA ABBREVIATA IFIS S.P.A.)</td>
+				<td class="elencopsp__cf">02505630109</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA INTERMOBILIARE DI INVESTIMENTI E GESTIONI SOCIETA' PER AZIONI</td>
+				<td class="elencopsp__cf">02751170016</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA LAZIO NORD CREDITO COOPERATIVO - SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00057680563</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA MACERATA S.P.A. (IN FORMA ABBREVIATA BPRM S.P.A.)</td>
+				<td class="elencopsp__cf">01541180434</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA MALATESTIANA - CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">03310710409</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA MEDIOLANUM S.P.A.</td>
+				<td class="elencopsp__cf">02124090164</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA MONTE DEI PASCHI DI SIENA S.P.A.</td>
+				<td class="elencopsp__cf">00884060526</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA MONTE PRUNO - CREDITO COOPERATIVO DI FISCIANO, ROSCIGNO E LAURINO- SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00269570651</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA NAZIONALE DEL LAVORO S.P.A. (IN FORMA CONTRATTA BNL S.P.A.)</td>
+				<td class="elencopsp__cf">09339391006</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA PASSADORE &amp; C. S.P.A.</td>
+				<td class="elencopsp__cf">00316380104</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA PATAVINA CREDITO COOPERATVO DI SANT'ELENA E PIOVE DI SACCO, SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00311340285</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA PATRIMONI SELLA &amp; C. S.P.A. (IN SIGLA B.P.A. S.P.A.)</td>
+				<td class="elencopsp__cf">08301100015</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA PER LO SVILUPPO DELLA COOPERAZIONE DI CREDITO S.P.A. E, IN FORMA ABBREVIATA 'BANCA SVILUPPO S.P.A.'</td>
+				<td class="elencopsp__cf">05852011005</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA PICCOLO CREDITO VALTELLINESE, SOCIETA' PER AZIONI</td>
+				<td class="elencopsp__cf">00043260140</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA POPOLARE DEL CASSINATE SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00121930606</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA POPOLARE DEL FRUSINATE SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">01781530603</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA POPOLARE DEL LAZIO SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">04781291002</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA POPOLARE DEL MEDITERRANEO SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">03547120612</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA POPOLARE DELL'ALTO ADIGE SOCIETA' PER AZIONI (IN TEDESCO SUDTIROLER VOLKSBANK A.G.)</td>
+				<td class="elencopsp__cf">00129730214</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA POPOLARE DELLE PROVINCE MOLISANE - SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">01561760701</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA POPOLARE DI BARI - SOCIETA' COOPERATIVA PER AZIONI IN A.S.</td>
+				<td class="elencopsp__cf">00254030729</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA POPOLARE DI CORTONA - SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00121760516</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA POPOLARE DI FONDI - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00076260595</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA POPOLARE DI LAJATICO SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00139860506</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA POPOLARE DI PUGLIA E BASILICATA - SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00604840777</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA POPOLARE DI SONDRIO, SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00053810149</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA POPOLARE ETICA - SOCIETA' COOPERATIVA PER AZIONI (IN FORMA ABBREVIATA BANCA ETICA O BPE)</td>
+				<td class="elencopsp__cf">01029710280</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA POPOLARE PUGLIESE - SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">02848590754</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA POPOLARE SANT'ANGELO, SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00089160840</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA POPOLARE VALCONCA - SOCIETA' PER AZIONI</td>
+				<td class="elencopsp__cf">00125680405</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA POPOLARE VESUVIANA SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">06412660638</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA PREALPI SANBIAGIO CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00254520265</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA PROMOS S.P.A.</td>
+				<td class="elencopsp__cf">03321720637</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA REALE S.P.A.</td>
+				<td class="elencopsp__cf">07760860010</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA REGIONALE DI SVILUPPO S.P.A. IN FORMA ABBREVIATA 'BRS S.P.A.'</td>
+				<td class="elencopsp__cf">07634270636</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA SAN FRANCESCO CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00097080840</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA SAN GIORGIO QUINTO VALLE AGNO - CREDITO COOPERATIVO - SOC. COOP.</td>
+				<td class="elencopsp__cf">00232120246</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA SANTA GIULIA S.P.A.</td>
+				<td class="elencopsp__cf">01994680179</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA SELLA - S.P.A.</td>
+				<td class="elencopsp__cf">02224410023</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA SICANA - CREDITO COOPERATIVO DI SOMMATINO, SERRADIFALCO E SAMBUCA DI SICILIA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01438930859</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA SISTEMA S.P.A.</td>
+				<td class="elencopsp__cf">‭12870770158</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA STABIESE - S.P.A.</td>
+				<td class="elencopsp__cf">00275490639</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA UBAE S.P.A.</td>
+				<td class="elencopsp__cf">00716130588</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA VALDICHIANA - CREDITO COOPERATIVO DI CHIUSI E MONTEPULCIANO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01433000526</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA VALSABBINA SOCIETA' COOPERATIVA PER AZIONI (IN BREVE LA VALSABBINA)</td>
+				<td class="elencopsp__cf">00283510170</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA VERONESE CREDITO COOPERATIVO DI CONCAMARISE SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00326490232</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCA VERSILIA LUNIGIANA E GARFAGNANA - CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00174600460</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCATER CREDITO COOPERATIVO FVG  - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00251640306</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCO BPM SOCIETA' PER AZIONI</td>
+				<td class="elencopsp__cf">09722490969</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCO DELLE TRE VENEZIE S.P.A. (CON ACRONIMO B.T.V. SPA)</td>
+				<td class="elencopsp__cf">04147080289</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCO DI CREDITO P.AZZOAGLIO - S.P.A.</td>
+				<td class="elencopsp__cf">00166050047</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCO DI DESIO E DELLA BRIANZA - SOCIETA' PER AZIONI</td>
+				<td class="elencopsp__cf">01181770155</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCO DI LUCCA E DEL TIRRENO S.P.A. (IN FORMA ABBREVIATA BANCO DI LUCCA S.P.A.)</td>
+				<td class="elencopsp__cf">01880620461</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCO DI SARDEGNA S.P.A.</td>
+				<td class="elencopsp__cf">01564560900</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCO FIORENTINO - MUGELLO IMPRUNETA SIGNA - CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">06657430481</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BANCO MARCHIGIANO CREDITO COOPERATIVO</td>
+				<td class="elencopsp__cf">00096960430</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BCC BASILICATA - CREDITO COOPERATIVO DI LAURENZANA E COMUNI LUCANI - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00114980766</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BCC CAMPANIA CENTRO - CASSA RURALE ED ARTIGIANA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00258900653</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BCC DI ALBA, LANGHE, ROERO E DEL CANAVESE S.C.</td>
+				<td class="elencopsp__cf">00236570040</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BCC FELSINEA - BANCA DI CREDITO COOPERATIVO DAL1902 - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00389400375</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BENE BANCA CREDITO COOPERATIVO DI BENE VAGIENNA (CUNEO) - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00167340041</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BFF BANK SPA</td>
+				<td class="elencopsp__cf">07960110158</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BLU BANCA SPA</td>
+				<td class="elencopsp__cf">02078470560</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">BPER BANCA S.P.A.</td>
+				<td class="elencopsp__cf">01153230360</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CABEL IP S.P.A.</td>
+				<td class="elencopsp__cf">06078740484</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA CENTRALE BANCA - CREDITO COOPERATIVO ITALIANOSOCIETA' PER AZIONI (IN SIGLA CASSA CENTRALE BANCA)</td>
+				<td class="elencopsp__cf">00232480228</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA CENTRALE RAIFFEISEN DELL'ALTO ADIGE - RAIFFEISEN-LANDESBANK SUEDTIROL A.G.</td>
+				<td class="elencopsp__cf">00194450219</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA DI RISPARMIO DI ASTI S.P.A. (IN FORMA ABBREVIATA BANCA C.R. ASTI S.P.A.)</td>
+				<td class="elencopsp__cf">00060550050</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA DI RISPARMIO DI BIELLA E VERCELLI - BIVERBANCA SPA</td>
+				<td class="elencopsp__cf">01807130024</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA DI RISPARMIO DI BOLZANO S.P.A. - SUDTIROLER SPARKASSE AG</td>
+				<td class="elencopsp__cf">00152980215</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA DI RISPARMIO DI BRA S.P.A.</td>
+				<td class="elencopsp__cf">00200060044</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA DI RISPARMIO DI CENTO S.P.A.</td>
+				<td class="elencopsp__cf">01208920387</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA DI RISPARMIO DI FERMO S.P.A. (IN FORMA ABBREVIATA CARIFERMO S.P.A.)</td>
+				<td class="elencopsp__cf">00112540448</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA DI RISPARMIO DI FOSSANO S.P.A.</td>
+				<td class="elencopsp__cf">00166910042</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA DI RISPARMIO DI ORVIETO S.P.A.</td>
+				<td class="elencopsp__cf">00063960553</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA DI RISPARMIO DI SALUZZO S.P.A.</td>
+				<td class="elencopsp__cf">00243830049</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA DI RISPARMIO DI VOLTERRA S.P.A.</td>
+				<td class="elencopsp__cf">01225610508</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA DI SOVVENZIONI E RISPARMIO FRA IL PERSONALE DELLA BANCA D'ITALIA - SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00532040581</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA DI TRENTO, LAVIS, MEZZOCORONA E VALLE DI CEMBRA - BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00107860223</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA LOMBARDA - S.P.A.</td>
+				<td class="elencopsp__cf">00714590155</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA PADANA BANCA DI CREDITO COOPERATIVO SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01741030983</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN ALTA PUSTERIA SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE HOCHPUSTERTAL GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00143210219</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN ALTA VENOSTA SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE OBERVINSCHGAU GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00137230215</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN BASSA ATESINA (IN LINGUA TEDESCA RAIFFEISENKASSE UNTERLAND)</td>
+				<td class="elencopsp__cf">00143480218</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN BASSA VALL'ISARCO SOCIETA' COOPERATIVA (IN TEDESCO RAIFFEISENKASSE UNTEREISACKTAL GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00181170218</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN BASSA VALL'ISARCO SOCIETA' COOPERATIVA (IN TEDESCO RAIFFEISENKASSE UNTEREISACKTAL GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00198330219</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN BASSA VENOSTA SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE UNTERVINSCHGAU GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00159550219</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN CAMPO DI TRENS SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE FREIENFELD GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00143170215</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN CASTELROTTO - ORTISEI SOC. COOPERATIVA - RAIFFEISENKASSE KASTELRUTH - ST. ULRICH GENOSSENSCHAFT</td>
+				<td class="elencopsp__cf">00170970214</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN DELLA VAL PASSIRIA SOCIETA' COOPERATIVA ( IN LINGUA TEDESCA RAIFFEISENKASSE PASSEIER GENOSSENSHAFT)</td>
+				<td class="elencopsp__cf">00202890216</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN DI BRUNICO SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE BRUNECK GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00198190217</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN DI DOBBIACO SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE TOBLACH GENOSSENSHAFT)</td>
+				<td class="elencopsp__cf">00174900217</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN DI FUNES SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE VILLNOESS GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00159510213</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN DI LAGUNDO SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE ALGUND GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00163310212</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN DI LASA SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE LAAS GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00163250210</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN DI MARLENGO SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE MARLING GENOSSENSHAFT)</td>
+				<td class="elencopsp__cf">00147690218</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN DI MONGUELFO-CASIES-TESIDO SOCIETA' COOPERATIVA (RAIFFEISENKASSE WELSBERG-GSIES-TAISTEN GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00171380215</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN DI NOVA PONENTE-ALDINO SOCIETA' COOPERATIVA(IN TEDESCO RAIFFEISENKASSE DEUTSCHNOFEN-ALDEIN GEN.)</td>
+				<td class="elencopsp__cf">00163220213</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN DI PARCINES SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE PARTSCHINS GENOSSENSHAFT)</td>
+				<td class="elencopsp__cf">00169290210</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN DI SAN MARTINO IN PASSIRIA SOCIETA' COOPERATIVA (RAIFFEISENKASSE ST. MARTIN IN PASSEIER GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00143190213</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN DI SCENA SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE SCHENNA GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00143180214</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN DI TESIMO SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE TISENS GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00146490214</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN DI VANDOIES SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE VINTL GENOSSENSHAFT)</td>
+				<td class="elencopsp__cf">00181320219</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN DI VILLABASSA SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE NIEDERDORF GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00138880216</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN ETSCHTAL SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE ETSCHTAL GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00158030213</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN LACES SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE LATSCH GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00147150213</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN LANA SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE LANA GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00186510210</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN MERANO SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE MERAN GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00179580212</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN OLTRADIGE SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE UBERETSCH GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00142030212</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN PRATO-TUBRE SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE PRAD-TAUFERS GENOSSENSHAFT)</td>
+				<td class="elencopsp__cf">00161920210</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN SCHLERN - ROSENGARTEN SOCIETA' COOPERATIVA (IN TED. RAIFFEISENKASSE SCHLERN-ROSENGARTEN GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00182930214</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN SILANDRO SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE SCHLANDERS GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00171320211</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN TIROLO SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE TIROL GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00129600219</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN TURES-AURINA SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE TAUFERER-AHRNTAL GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00193730215</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN ULTIMO - S. PANCRAZIO - LAUREGNO SOCIETA' COOPERATIVA (RAIFFEISENKASSE ULTEN-ST.PANKRAZ-LAUREIN GEN.)</td>
+				<td class="elencopsp__cf">00137770210</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN VAL BADIA SOCIETA' COOPERATIVA - GENOSSENSCHAFT</td>
+				<td class="elencopsp__cf">00181060211</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN VAL GARDENA SOCIETA' COOPERATIVA (RAIFFEISENKASSE GRODEN GENOSSENSCHAFT - CASSA RAIFFEISEN GHERDEINA)</td>
+				<td class="elencopsp__cf">00134590215</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN VAL SARENTINO SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE SARNTAL GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00181040213</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RAIFFEISEN WIPPTAL SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE WIPPTAL GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00165630211</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE  VAL DI FIEMME - BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00104040225</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE - BANCA DI CREDITO COOPERATIVO DI TREVIGLIO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00255130163</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE ADAMELLO BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00210910220</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE ALTA VALLAGARINA E LIZZANA - BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00158340224</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE ALTA VALSUGANA - BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00109850222</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE ALTO GARDA - BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00105910228</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE DI BOLZANO SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE BOZEN GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00180630212</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE DI LEDRO - BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00106040223</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE DI ROVERETO - BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00106190226</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE DI SALORNO SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE SALURN GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00147330211</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE DOLOMITI DI FASSA PRIMIERO E BELLUNO - BANCA DICREDITO COOPERATIVO - SOCIETÃ€ COOPERATIVA</td>
+				<td class="elencopsp__cf">00135870228</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE E ARTIGIANA DI BRENDOLA CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00275710242</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE ED ARTIGIANA DELL'AGRO PONTINO - BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00076300599</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE ED ARTIGIANA DI BINASCO - CREDITO COOPERATIVO SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00772010153</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE ED ARTIGIANA DI BORGO SAN GIACOMO (BRESCIA) - CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00453000176</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE ED ARTIGIANA DI BOVES - BANCA DI CREDITO COOPERATIVO (BOVES-CUNEO) - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00254540040</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE ED ARTIGIANA DI CANTU' BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00196950133</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE ED ARTIGIANA DI CASTELLANA GROTTE CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00382410728</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE ED ARTIGIANA DI RIVAROLO MANTOVANO (MANTOVA) CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00191230200</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE ED ARTIGIANA DI VESTENANOVA - CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01538480235</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE GIUDICARIE VALSABBIA PAGANELLA - BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00158520221</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE NOVELLA E ALTA ANAUNIA - BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00105000228</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE RENON SOCIETA' COOPERATIVA (IN LINGUA TEDESCA RAIFFEISENKASSE RITTEN GENOSSENSCHAFT)</td>
+				<td class="elencopsp__cf">00182850214</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE ROTALIANA E GIOVO - BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00158680223</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE VAL DI NON - BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00104570221</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE VAL DI SOLE - BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01258070224</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE VALLAGARINA - BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00148270226</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CASSA RURALE VALSUGANA E TESINO - BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00103230223</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CBI SCPA</td>
+				<td class="elencopsp__cf">97249640588</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CENTROMARCA BANCA - CREDITO COOPERATIVO DI TREVISO E VENEZIA, SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00176640266</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CENTROVENETO BASSANO BANCA - CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01405390244</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CEREABANCA 1897 CREDITO COOPERATIVO SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00326500238</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CHEBANCA! S.P.A.</td>
+				<td class="elencopsp__cf">10359360152</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CHIANTIBANCA - CREDITO COOPERATIVO S.C.</td>
+				<td class="elencopsp__cf">01292880521</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CITYPOSTE PAYMENT SPA - CPP SPA</td>
+				<td class="elencopsp__cf">01806800676</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CORTINABANCA - CREDITO COOPERATIVO - SOCIETÃ€ COOPERATIVA</td>
+				<td class="elencopsp__cf">00078700259</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CREDIT AGRICOLE FRIULADRIA S.P.A.</td>
+				<td class="elencopsp__cf">01369030935</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CREDIT AGRICOLE ITALIA S.P.A.</td>
+				<td class="elencopsp__cf">02113530345</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CREDITO COOP.VO ROMAGNOLO - BCC DI CESENA E GATTEO - S.C.</td>
+				<td class="elencopsp__cf">04241970401</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CREDITO COOPERATIVO - CASSA RURALE ED ARTIGIANA DEL FRIULI VENEZIA GIULIA (ABBREVIATO CASSA RURALE FVG) - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00074360314</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CREDITO COOPERATIVO CASSA RURALE ED ARTIGIANA DI ERCHIE - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00082900747</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CREDITO COOPERATIVO CASSA RURALE ED ARTIGIANA DI PALIANO SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00134660604</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CREDITO COOPERATIVO CENTRO CALABRIA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01935780799</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CREDITO COOPERATIVO DI CARAVAGGIO ADDA E CREMASCO - CASSA RURALE - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">04159640160</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CREDITO COOPERATIVO DI SAN CALOGERO E MAIERATO - BCC DEL VIBONESE SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">03401240795</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CREDITO COOPERATIVO DI TRIESTE E GORIZIA</td>
+				<td class="elencopsp__cf">00093160323</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CREDITO COOPERATIVO FRIULI (ABBREVIATO CREDIFRIULI) - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">02216020301</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CREDITO COOPERATIVO MEDIOCRATI - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">02300410780</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CREDITO COOPERATIVO RAVENNATE, FORLIVESE E IMOLESE SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01445030396</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CREDITO COOPERATIVO VALDARNO FIORENTINO BANCA DI CASCIA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00645190489</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CREDITO EMILIANO S.P.A.</td>
+				<td class="elencopsp__cf">01806740153</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CREDITO ETNEO - BANCA DI CREDITO COOPERATIVO, SOCIETA' COOPERATIVA A RESPONSABILITA' LIMITATA</td>
+				<td class="elencopsp__cf">03724410877</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CREDITO LOMBARDO VENETO S.P.A.</td>
+				<td class="elencopsp__cf">03515830168</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CREDITO PADANO BANCA DI CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01039280191</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">CREDITO TREVIGIANO - BANCA DI CREDITO COOPERATIVO - SOCIETA'COOPERATIVA</td>
+				<td class="elencopsp__cf">00274980267</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">DEUTSCHE BANK S.P.A.</td>
+				<td class="elencopsp__cf">01340740156</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">DINERS CLUB ITALIA S.R.L.</td>
+				<td class="elencopsp__cf">00472710581</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">EFG BANK (LUXEMBOURG) SA</td>
+				<td class="elencopsp__cf">08097770963</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">EMIL BANCA - CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">02888381205</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">ENEL X FINANCIAL SERVICES S.R.L.</td>
+				<td class="elencopsp__cf">14897511003</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">FACTORCOOP SPA</td>
+				<td class="elencopsp__cf">03339200374</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">FARBANCA S.P.A.</td>
+				<td class="elencopsp__cf">01795501202</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">FIDEURAM - INTESA SANPAOLO PRIVATE BANKING S.P.A.</td>
+				<td class="elencopsp__cf">00714540150</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">FINECOBANK BANCA FINECO S.P.A. (IN BREVE FINECOBANK S.P.A. OVVERO BANCA FINECO S.P.A. OVVERO FINECO BANCA S.P.A.)</td>
+				<td class="elencopsp__cf">01392970404</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">FLOWE SPA SOCIETA' BENEFIT</td>
+				<td class="elencopsp__cf">10917120965</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">FRIULOVEST BANCA - CREDITO COOPERATIVO - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00067610931</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">HYPE_SPA</td>
+				<td class="elencopsp__cf">02686590023</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">HYPO TIROL BANK AG</td>
+				<td class="elencopsp__cf">94065180211</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">IBL ISTITUTO BANCARIO DEL LAVORO S.P.A. (IN FORMA ABBREVIATA IBL BANCA)</td>
+				<td class="elencopsp__cf">00452550585</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">ICONTO S.R.L.</td>
+				<td class="elencopsp__cf">14847241008</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">IGEA BANCA S.P.A.</td>
+				<td class="elencopsp__cf">00694710583</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">ILLIMITY BANK S.P.A.</td>
+				<td class="elencopsp__cf">03192350365</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">IMPREBANCA S.P.A.</td>
+				<td class="elencopsp__cf">09994611003</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">ING BANK N.V.</td>
+				<td class="elencopsp__cf">11241140158</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">INTESA SANPAOLO PRIVATE BANKING S.P.A.</td>
+				<td class="elencopsp__cf">00460870348</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">INTESA SANPAOLO S.P.A.</td>
+				<td class="elencopsp__cf">00799960158</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">INVEST BANCA SOCIETA' PER AZIONI</td>
+				<td class="elencopsp__cf">02586460582</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">IW BANK S.P.A.</td>
+				<td class="elencopsp__cf">00485260459</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">LA BCC DEL CROTONESE - CREDITO COOPERATIVO SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">03382760795</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">LA CASSA DI RAVENNA S.P.A.</td>
+				<td class="elencopsp__cf">01188860397</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">LIS Pay Spa</td>
+				<td class="elencopsp__cf">08658331007</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">MONEYNET SPA</td>
+				<td class="elencopsp__cf">05221390825</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">MOONEY SPA</td>
+				<td class="elencopsp__cf">06529501006</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">NEXI PAYMENTS S.P.A.</td>
+				<td class="elencopsp__cf">04107060966</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">PAYTIPPER SPA</td>
+				<td class="elencopsp__cf">07338820967</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">POSTE ITALIANE S.P.A.</td>
+				<td class="elencopsp__cf">97103880585</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">POSTEPAY S.P.A.</td>
+				<td class="elencopsp__cf">06874351007</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">PRIMACASSA - CREDITO COOPERATIVO FVG - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">00249930306</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">RIVIERABANCA - CREDITO COOPERATIVO DI RIMINI E GRADARA - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">04241950403</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">ROMAGNABANCA CREDITO COOPERATIVO ROMAGNA EST E SALA DI CESENATICO S.C.</td>
+				<td class="elencopsp__cf">04302260403</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">ROVIGOBANCA CREDITO COOPERATIVO - SOC. COOP</td>
+				<td class="elencopsp__cf">01088920291</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">SANFELICE 1893 BANCA POPOLARE SOCIETA' COOPERATIVA PER AZIONI</td>
+				<td class="elencopsp__cf">00264720368</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">SATISPAY</td>
+				<td class="elencopsp__cf">92298050284</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">SE.PA.FIN. SPA</td>
+				<td class="elencopsp__cf">07783020725</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">SIAPAY SRL</td>
+				<td class="elencopsp__cf">06556440961</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">SOISY SPA</td>
+				<td class="elencopsp__cf">08946260968</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">SOLUTION BANK S.P.A.</td>
+				<td class="elencopsp__cf">03374640401</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">TELEPASS PAY S.P.A.</td>
+				<td class="elencopsp__cf">14070851002</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">TERRE ETRUSCHE E DI MAREMMA C.C. - SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01602230532</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">UNICREDIT, SOCIETA' PER AZIONI</td>
+				<td class="elencopsp__cf">00348170101</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">UNIONE DI BANCHE ITALIANE SOCIETA' PER AZIONI (IN FORMA ABBREVIATA UBI BANCA)</td>
+				<td class="elencopsp__cf">03053920165</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">VALPOLICELLA BENACO BANCA CREDITO COOPERATIVO (VERONA) SOCIETA' COOPERATIVA</td>
+				<td class="elencopsp__cf">01548170230</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">VIVAL BANCA - BANCA DI CREDITO COOPERATIVO DI MONTECATINI TERME, BIENTINA E S. PIETRO IN VINCIO S.C.</td>
+				<td class="elencopsp__cf">00088180476</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">VIVI PAYMENTS SERVICES S.A.</td>
+				<td class="elencopsp__cf">10671810967</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">VIVIBANCA S.P.A.</td>
+				<td class="elencopsp__cf">04255700652</td>
+			</tr>
+		
+			<tr>
+				<td class="elencopsp__denominazione">WISE DIALOG BANK S.P.A.</td>
+				<td class="elencopsp__cf">08447330963</td>
+			</tr>
+		
+	</tbody>
+
+</table>
+
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+</article>
+<footer class="it-footer">
+  <div class="it-footer-small-prints">
+    <div class="container pt-3 pt-md-4">
+      <div class="row px-3">
+        <div class="col-12 col-md-2 d-md-flex align-items-center">
+          <img src="/assets/images/logo-pagopa-spa-bianco.svg" class="img-fluid" alt="PagoPA SpA" width="150" >
+        </div>
+        <div class="col-12 col-md-10">
+            
+            <small class="text-white mt-2 mt-md-0">
+              PagoPA S.p.A. - società per azioni con socio unico - capitale sociale di euro 1,000,000 interamente versato - sede
+              legale in Roma, Piazza Colonna 370, CAP 00187 - n. di iscrizione a Registro Imprese di Roma, CF e P.IVA
+              15376371009
+            </small>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-12">
+            <h3 class="sr-only">Sezione Link Utili</h3>
+            <ul class="it-footer-small-prints-list list-inline mb-0 d-flex flex-column flex-md-row">
+              
+              <li class="list-inline-item"><a href="/it/privacy-policy/"
+                                              class="text-muted"
+                                              title="Privacy policy">Privacy policy</a></li>
+              
+              <li class="list-inline-item"><a href="/it/pagopa-spa/societa-trasparente/"
+                                              class="text-muted"
+                                              title="Società Trasparente">Società Trasparente</a></li>
+              
+              <li class="list-inline-item"><a href="https://www.pagopa.it/it/lavora-con-noi"
+                                              class="text-muted"
+                                              title="Lavora con noi">Lavora con noi</a></li>
+              
+              <li class="list-inline-item"><a href="/security.html"
+                                              class="text-muted"
+                                              title="Sicurezza">Sicurezza</a></li>
+              
+              <li class="list-inline-item"><a href="https://form.agid.gov.it/view/382576b5-a353-42ae-9fa2-2e87c3f1efcf/"
+                                              class="text-muted"
+                                              title="Dichiarazione di accessibilità">Dichiarazione di accessibilità</a></li>
+              
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="cookiebar bg-dark p-4 hide" aria-hidden="true">
+  <div class="container">
+    <div class="row d-flex align-items-center">
+      <div class="col-12 col-md-7">
+        <div class="text-white small">Questo sito utilizza cookie tecnici, nonchè cookie analitici di terze parti: puoi accettare l'utilizzo di questi cookie, o rifiutarlo chiudendo questo banner e proseguendo la navigazione.<br>
+          <a class="font-weight-bold text-white" href="/it/privacy-policy/">Privacy policy</a>
+        </div>
+        
+      </div>
+      <div class="col-12 col-md-5 mt-4 mt-md-0 d-flex justify-content-center justify-content-md-end">
+        <button class="btn text-white border border-white mr-1 cookiebar__close">Chiudi</button>
+        <button class="btn btn-primary ml-1" data-accept="cookiebar">Accetta e continua</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- window.__PUBLIC_PATH__ points to fonts folder location -->
+<script src="/assets/fonts.js"></script>
+
+<!-- Bootstrap core JS -->
+<script src="/assets/vendors/jquery.min.js"></script>
+<script src="/assets/vendors/popper.min.js"></script>
+
+<script src="/assets/bootstrap-italia/dist/js/bootstrap-italia.min.js"></script>
+
+<!-- Main JS -->
+<script src="/assets/main.js"></script>
+<script src="/assets/animate.js"></script>
+
+<!-- Custom --->
+
+    <script src="/assets/vendors/datatables/datatables.min.js"></script>
+    <script src="/assets/datatables-it.js"></script>
+
+
+</body>
+
+</html>

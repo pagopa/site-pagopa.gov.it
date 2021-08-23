@@ -1,0 +1,1382 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+  <meta http-equiv="Content-Security-Policy" 
+        content="default-src 'self'; connect-src 'self' https://pdnd-prod-dl-1-public-data.s3.eu-central-1.amazonaws.com https://www.google-analytics.com https://api.io.italia.it; font-src 'self'; frame-src https://www.youtube.com https://pagopa.applytojob.com https://www.youtube-nocookie.com  https://www.google.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/; img-src 'self' data:; script-src 'self' https://www.google-analytics.com  https://www.gstatic.com https://www.google.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/; style-src 'self' 'unsafe-inline'">
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="/assets/bootstrap-italia/dist/css/bootstrap-italia.min.css">
+
+<!-- Main styles -->
+<link rel="alternate" type="application/rss+xml" title="pagoPA - " href="/feed.xml" />
+<link rel="stylesheet" type="text/css" href="/style.css" />
+
+<!-- Custom -->
+
+    <link rel="stylesheet" type="text/css" href="/assets/vendors/datatables/datatables.min.css" />
+
+
+
+
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta name="author" content="PagoPA S.p.A.">
+
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="/assets/images/favicons/apple-touch-icon.png">
+<link rel="icon" href="/assets/images/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/assets/images/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#0066CC">
+<link rel="icon" href="/assets/images/favicons/favicon.ico">
+<meta name="msapplication-config" content="/assets/images/favicons/browserconfig.xml">
+<meta name="theme-color" content="#0066CC">
+
+<title>Elenco aderenti – pagoPA</title>
+<meta name="description"
+    content="Paga come vuoi, quando vuoi">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@https://twitter.com/pagopa">
+<meta name="twitter:creator" content="PagoPA S.p.A.">
+<meta name="twitter:title" content="Elenco aderenti">
+<meta name="twitter:description"
+    content="Paga come vuoi, quando vuoi">
+<meta name="twitter:image" content="https://www.pagopa.gov.it/assets/images/favicons/social-card-twitter.png">
+<!-- Facebook -->
+<meta property="og:url" content="https://www.pagopa.gov.it/it/pubbliche-amministrazioni/partner-intermediari-elenco/">
+<meta property="og:title" content="Elenco aderenti - pagoPA">
+<meta property="og:description"
+    content="Paga come vuoi, quando vuoi">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://www.pagopa.gov.it/assets/images/favicons/social-card.png">
+<meta property="og:image:secure_url" content="https://www.pagopa.gov.it/assets/images/favicons/social-card.png">
+
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+
+
+
+
+<script src="/assets/analytics.js"></script>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body class="page--partner-intermediari-elenco layout--page"><div class="it-header-wrapper">
+  
+<div class="it-header-slim-wrapper d-none d-lg-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="it-header-slim-wrapper-content">
+          <a class="d-none d-lg-block navbar-brand" title="Visita il sito aziendale"
+            href="https://www.pagopa.it">PagoPA S.p.A.</a>
+
+          <nav class="navbar-institutional navbar navbar-expand-lg navbar-dark py-1">
+            <a class="it-opener d-lg-none" data-toggle="collapse" href="#menu1" role="button" aria-expanded="false"
+              aria-controls="menu1">
+              <span>PagoPA S.p.A.</span>
+              <svg class="icon">
+                <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-expand"></use>
+              </svg>
+            </a>
+            <div class="collapse navbar-collapse" id="menu1">
+              <ul class="navbar-nav ml-auto mr-0 border-right-0">
+                
+                
+                <li class="nav-item py-0 py-md-3 nav-item-w-divider">
+                  <a class="nav-link text-white px-0 py-2 py-md-0 px-md-3" href="https://pianotriennale-ict.italia.it/" title="Piano Triennale">Piano Triennale</a>
+                </li>
+                
+                
+                <li class="nav-item py-0 py-md-3 ">
+                  <a class="nav-link text-white px-0 py-2 py-md-0 px-md-3" href="https://io.italia.it/" title="IO">IO</a>
+                </li>
+                
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+
+
+<div class="it-nav-wrapper">
+  <div class="it-header-center-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="it-header-center-content-wrapper">
+            <div class="it-brand-wrapper">
+              <a href="/" title="Torna in home">
+                <img class="" id="mainlogo" src="/assets/images/logo-pagopa-bianco.svg" alt="pagoPA">
+              </a>
+            </div>
+            <div class="it-right-zone flex-column">
+              <div class="it-helpdesk d-md-flex">
+                <div class="it-btn-container">
+                  <a class="d-block it-helpdesk-anchor" href="/it/helpdesk/">
+                  <span class="mr-2">Serve aiuto?</span>
+                  <svg class="icon icon-primary it-helpdesk-icon d-none d-lg-inline">
+                    <use
+                      xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-comment">
+                    </use>
+                  </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="it-header-navbar-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg has-megamenu">
+            <button class="custom-navbar-toggler" type="button" aria-controls="nav10" aria-expanded="false"
+              aria-label="Toggle navigation" data-target="#nav10">
+              <svg class="icon">
+                <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-burger"></use>
+              </svg>
+            </button>
+            <div class="navbar-collapsable" id="nav10">
+              <div class="overlay"></div>
+              <div class="close-div sr-only">
+                <button class="btn close-menu" type="button"><span class="it-close"></span>close</button>
+              </div>
+              <div class="menu-wrapper d-flex d-lg-block flex-column">
+                <ul class="navbar-nav">
+                  
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                      <span>Cittadini</span>
+                      <svg class="icon icon-xs ml-2">
+                        <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-expand">
+                        </use>
+                      </svg>
+                    </a>
+                    <div class="dropdown-menu">
+                      <div class="link-list-wrapper">
+                        <ul class="link-list py-3">
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/cittadini/vantaggi/"><span>I vantaggi</span></a>
+                            </li>
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/cittadini/dove-pagare/"><span>Dove pagare</span></a>
+                            </li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                      <span>Pubbliche Amministrazioni</span>
+                      <svg class="icon icon-xs ml-2">
+                        <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-expand">
+                        </use>
+                      </svg>
+                    </a>
+                    <div class="dropdown-menu">
+                      <div class="link-list-wrapper">
+                        <ul class="link-list py-3">
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/pubbliche-amministrazioni/vantaggi/"><span>I vantaggi</span></a>
+                            </li>
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/pubbliche-amministrazioni/come-aderire/"><span>Come aderire</span></a>
+                            </li>
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/pubbliche-amministrazioni/partner-intermediari/"><span>Partner e Intermediari</span></a>
+                            </li>
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/pubbliche-amministrazioni/documentazione/"><span>Documentazione</span></a>
+                            </li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                      <span>Prestatori Servizi di Pagamento</span>
+                      <svg class="icon icon-xs ml-2">
+                        <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-expand">
+                        </use>
+                      </svg>
+                    </a>
+                    <div class="dropdown-menu">
+                      <div class="link-list-wrapper">
+                        <ul class="link-list py-3">
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/prestatori-servizi-di-pagamento/vantaggi/"><span>I vantaggi</span></a>
+                            </li>
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/prestatori-servizi-di-pagamento/come-aderire/"><span>Come aderire</span></a>
+                            </li>
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/prestatori-servizi-di-pagamento/elenco-PSP-attivi/"><span>PSP aderenti</span></a>
+                            </li>
+                          
+                            <li class="">
+                              <a class="list-item"
+                                  href="/it/prestatori-servizi-di-pagamento/documentazione/"><span>Documentazione</span></a>
+                            </li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="/it/notizie/"><span>Notizie</span></a>
+                  </li>
+                  
+                  
+                </ul>
+                <ul class="navbar-nav navbar-other mt-auto mb-3 d-lg-none">
+                  <li class="nav-item py-0 ">
+                    <a class="nav-link  px-3 py-2 font-weight-normal" href="https://www.pagopa.it" title="Visita il sito web aziendale">PagoPA S.p.A.</a>
+                  </li>
+                  
+                    
+                    <li class="nav-item py-0">
+                      <a class="nav-link  px-3 py-2 font-weight-normal" href="https://pianotriennale-ict.italia.it/" title="Piano Triennale">Piano Triennale</a>
+                    </li>
+                  
+                    
+                    <li class="nav-item py-0">
+                      <a class="nav-link  px-3 py-2 font-weight-normal" href="https://io.italia.it/" title="IO">IO</a>
+                    </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container my-2 my-md-4"><nav class="breadcrumb-container px-2 px-md-4" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    
+    
+
+    
+
+    
+      
+      
+    
+      
+      
+    
+
+    
+
+    <li class="breadcrumb-item"><a href="/">Home</a><span class="separator">&gt;</span></li>
+
+    
+    <li class="breadcrumb-item"><a href="/it/pubbliche-amministrazioni/">Pubbliche Amministrazioni</a><span
+            class="separator">&gt;</span>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="/it/pubbliche-amministrazioni/partner-intermediari/">Partner e Intermediari</a><span
+            class="separator">&gt;</span>
+    </li>
+    
+    <li class="breadcrumb-item active" aria-current="page">Elenco aderenti</li>
+  </ol>
+</nav>
+</div>
+
+
+<article class="container my-4">
+  <div class="row">
+    <div class="col-12">
+      <div class="mx-3">
+        
+          <div class="col-12 col-md-8 mb-2 mb-md-4">
+          
+            <h1 class="page-title" >Partner e intermediari tecnologici</h1>
+          
+          
+          </div>
+        
+        <div class="py-2"></div>
+        <div class="entry">
+          
+<div class="row">
+<div class="col-12 col-lg-3">
+    <div class="orderIntermediari">
+        <div class="p-3">
+            <div class="orderIntermediari__title">
+                Ordina per
+                </div>
+            <div class="form-check">
+                <input name="gruppo1" class="orderIntermediari__radio" type="radio" id="radio1" value="0:asc" checked="" />
+                <label for="radio1">Nome</label>
+              </div>
+              <div class="form-check">
+                <input name="gruppo1" class="orderIntermediari__radio" type="radio" id="radio2" value="1:desc" />
+                <label for="radio2">Enti intermediati</label>
+              </div>
+        </div>
+    </div>
+    <div class="filterIntermediario">
+        <div class="rounded p-3">
+            <div class="filterIntermediario__title">
+            Filtra per
+            </div>
+
+            <div class="my-2">
+                <div class="form-check ">
+                    <input name="filtergroup" id="checkbox1" type="radio" class="filter-checkbox" value="PT" />
+                    <label for="checkbox1">Partner</label>
+                </div>
+                <div class="form-check ">
+                    <input name="filtergroup" id="checkbox2" type="radio" class="filter-checkbox" value="I" />
+                    <label for="checkbox2">Intermediari</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!--/col-lg-3-->
+<div class="col-12 col-lg-9">
+    <table id="intermediaritable" class="table dt-responsive nowrap w-100">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Enti intermediati</th>
+                <th data-visible="false">Tipo</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+                
+                <tr>
+                    <td>Roma Capitale</td>
+                    <td>49</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Ministero per i beni e le attivita' culturali</td>
+                    <td>2</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Regione Umbria</td>
+                    <td>74</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Iren Mercato S.p.A.</td>
+                    <td>5</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Regione Puglia</td>
+                    <td>156</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>AIFA</td>
+                    <td>2</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Regione Friuli Venezia Giulia</td>
+                    <td>233</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Regione Veneto</td>
+                    <td>661</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Soris S.P.A.</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Regione Campania</td>
+                    <td>54</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Regione Lombardia</td>
+                    <td>717</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>STEP Servizi e Tecnologie Enti Pubblici srl</td>
+                    <td>13</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>ACI Automobile Club Italia</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Azienda Pluriservizi Macerata</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Provincia Autonoma di Trento</td>
+                    <td>370</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Regione Marche</td>
+                    <td>253</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Consorzio IT Srl</td>
+                    <td>46</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>SILFI Spa</td>
+                    <td>22</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Astea S.P.A.</td>
+                    <td>2</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>CRESET Crediti Servizi e Tecnologie Spa</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Municipia Spa</td>
+                    <td>11</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Società Metropolitana Acque Torino S.p.A.</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Abaco Spa</td>
+                    <td>36</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Regione Siciliana</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>UnionCamere</td>
+                    <td>1023</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>SO.G.E.T. S.P.A.</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Regione Liguria</td>
+                    <td>97</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Ministero Sviluppo Economico - MISE</td>
+                    <td>2</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Servizio Elettrico Nazionale SpA</td>
+                    <td>3</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>EDYNA S.r.l.</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Publiacqua spa</td>
+                    <td>3</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Ministero dell'Economia e delle Finanze - Dipartimento delle Finanze</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Citta' Metropolitana di Roma Capitale</td>
+                    <td>20</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Comune di Palermo</td>
+                    <td>22</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Comune di Catania</td>
+                    <td>17</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Comune di Genova</td>
+                    <td>9</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Societa Locale di Riscossione Spa</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>ACI Automobile Club Italia </td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>ANDREANI TRIBUTI srl</td>
+                    <td>113</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Istituto Superiore di Sanita' - ISS</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Ministero dell'Ambiente della Tutela del Territorio e del Mare</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Regione Piemonte</td>
+                    <td>282</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Regione Calabria</td>
+                    <td>61</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Universita' degli Studi di Roma La Sapienza</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Distribuzione Elettrica Adriatica Spa</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Alto Adige Riscossioni SpA</td>
+                    <td>252</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Comune di Napoli</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Ministero Giustizia</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Gestore dei Servizi Energetici - GSE S.p.A.</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Agenzia delle Dogane e dei Monopoli</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Regione Autonoma Valle D'Aosta</td>
+                    <td>98</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Agenzia delle entrate-Riscossione</td>
+                    <td>2</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>I.C.A. IMPOSTE COMUNALI AFFINI S.R.L.</td>
+                    <td>176</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Consip S.p.A.</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Lepida - Reg. Emilia Romagna</td>
+                    <td>215</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>INPS Istituto Nazionale Previdenza</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Ministero Difesa</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Regione Basilicata</td>
+                    <td>44</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>INAIL</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Autorita' Nazionale Anticorruzione - A.N.AC.</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Ministero degli Affari Esteri e della Cooperazione Internazionale</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>MIUR</td>
+                    <td>3107</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Regione Autonoma della Sardegna</td>
+                    <td>252</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Regione Lazio</td>
+                    <td>18</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Comune di Prato</td>
+                    <td>1</td>
+                    <td>I</td>
+                </tr>
+                
+                <tr>
+                    <td>Regione Toscana</td>
+                    <td>143</td>
+                    <td>I</td>
+                </tr>
+                
+            
+                
+                <tr>
+                    <td>Istituto Centrale delle Banche Popolari Italiane</td>
+                    <td>2</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Fintel Engineering S.r.l.</td>
+                    <td>1</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Mercurio Service srl</td>
+                    <td>31</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>ARCA Servizi</td>
+                    <td>54</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Argentea S.r.l.</td>
+                    <td>36</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Unicredit S.p.A.</td>
+                    <td>48</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>ARGO SOFTWARE SRL</td>
+                    <td>1418</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>CA Group Solutions CR Parma</td>
+                    <td>16</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>UNIMATICA S.P.A</td>
+                    <td>106</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>UBI Banca</td>
+                    <td>13</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Banca Nazionale del Lavoro S.p.A.</td>
+                    <td>5</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>PagoPA SpA</td>
+                    <td>7958</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Archidata srl</td>
+                    <td>20</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>SWD Group S.r.l.</td>
+                    <td>3</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Hpa Srls</td>
+                    <td>1</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Etruria p.a. S.r.l.</td>
+                    <td>42</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>APKAPPA S.R.L.</td>
+                    <td>595</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Internet Soluzioni Srl</td>
+                    <td>1</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Ancitel</td>
+                    <td>36</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>FlagPay Srl</td>
+                    <td>2</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Sintax s.r.l.</td>
+                    <td>4</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Servizi Locali</td>
+                    <td>30</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Si.Form Consulting srl</td>
+                    <td>24</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Numera Sistemi e Informatica SpA</td>
+                    <td>109</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Noviservice srl</td>
+                    <td>71</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>PMPay s.r.l.</td>
+                    <td>50</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Linea Comune Spa</td>
+                    <td>5</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Open Software S.r.l.</td>
+                    <td>65</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>NETTuno S.r.l.</td>
+                    <td>1</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>PA Digitale</td>
+                    <td>292</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Bluenext S.r.l.</td>
+                    <td>41</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>ICCREA Banca SpA</td>
+                    <td>8</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Intesa Sanpaolo S.p.A.</td>
+                    <td>138</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Optimia Srls</td>
+                    <td>36</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>P.R.T. S.p.A.</td>
+                    <td>3</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Banca Popolare di Sondrio</td>
+                    <td>489</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Technical Design s.r.l.</td>
+                    <td>32</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Next Step Solution</td>
+                    <td>162</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Credemtel SpA</td>
+                    <td>461</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Hera S.p.A.</td>
+                    <td>15</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>BRAV SRL</td>
+                    <td>10</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Trisoft Executive Services S.R.L.</td>
+                    <td>4</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>NORDCOM S.P.A</td>
+                    <td>29</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Banco BPM</td>
+                    <td>5</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Aric Agenzia Regionale di Informatica e Committenza</td>
+                    <td>38</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Publiservizi srl</td>
+                    <td>14</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>KOINE' SRL</td>
+                    <td>6</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>eRemind srl – PMPAY</td>
+                    <td>103</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>SiNet</td>
+                    <td>25</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Cineca</td>
+                    <td>56</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>ITALSET SRL</td>
+                    <td>20</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>San Marco SPA</td>
+                    <td>76</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>WAN S.r.l.</td>
+                    <td>2</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Engineering Ingegneria Informatica SpA</td>
+                    <td>16</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Maggioli</td>
+                    <td>851</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>E-Fil</td>
+                    <td>1055</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>ASSIST SPA</td>
+                    <td>122</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>e-SED Società Cooperativa</td>
+                    <td>1</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Dedagroup Public Services S.R.L.</td>
+                    <td>340</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>CityPoste Payment Digital S.r.l.</td>
+                    <td>4</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Softline srl</td>
+                    <td>17</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Siscom</td>
+                    <td>819</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>MegASP S.r.l.</td>
+                    <td>4</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Be Smart s.r.l.</td>
+                    <td>7</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Poste Italiane x Incassi Evoluti</td>
+                    <td>606</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Progetti e Soluzioni</td>
+                    <td>338</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Exetesis srl</td>
+                    <td>2</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Phoenix IT Solutions S.r.L</td>
+                    <td>3</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Italriscossioni Società Italiana di Fiscalità Locale S.r.l.</td>
+                    <td>87</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>DCS SOFTWARE E SERVIZI S.R.L.</td>
+                    <td>101</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>AP Systems</td>
+                    <td>268</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Novares</td>
+                    <td>65</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Anci Digitale S.p.A.</td>
+                    <td>14</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Clesius srl</td>
+                    <td>1</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Advanced Systems s.r.l.</td>
+                    <td>404</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Publisys SPA</td>
+                    <td>1</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Sogei S.p.A.</td>
+                    <td>3</td>
+                    <td>PT</td>
+                </tr>
+                
+                <tr>
+                    <td>Monte dei Paschi di Siena</td>
+                    <td>11</td>
+                    <td>PT</td>
+                </tr>
+                
+            
+        </tbody>
+    
+    </table>
+</div><!--/col-lg-10-->
+</div>
+<!--/row-->
+
+
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+</article>
+<footer class="it-footer">
+  <div class="it-footer-small-prints">
+    <div class="container pt-3 pt-md-4">
+      <div class="row px-3">
+        <div class="col-12 col-md-2 d-md-flex align-items-center">
+          <img src="/assets/images/logo-pagopa-spa-bianco.svg" class="img-fluid" alt="PagoPA SpA" width="150" >
+        </div>
+        <div class="col-12 col-md-10">
+            
+            <small class="text-white mt-2 mt-md-0">
+              PagoPA S.p.A. - società per azioni con socio unico - capitale sociale di euro 1,000,000 interamente versato - sede
+              legale in Roma, Piazza Colonna 370, CAP 00187 - n. di iscrizione a Registro Imprese di Roma, CF e P.IVA
+              15376371009
+            </small>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-12">
+            <h3 class="sr-only">Sezione Link Utili</h3>
+            <ul class="it-footer-small-prints-list list-inline mb-0 d-flex flex-column flex-md-row">
+              
+              <li class="list-inline-item"><a href="/it/privacy-policy/"
+                                              class="text-muted"
+                                              title="Privacy policy">Privacy policy</a></li>
+              
+              <li class="list-inline-item"><a href="/it/pagopa-spa/societa-trasparente/"
+                                              class="text-muted"
+                                              title="Società Trasparente">Società Trasparente</a></li>
+              
+              <li class="list-inline-item"><a href="https://www.pagopa.it/it/lavora-con-noi"
+                                              class="text-muted"
+                                              title="Lavora con noi">Lavora con noi</a></li>
+              
+              <li class="list-inline-item"><a href="/security.html"
+                                              class="text-muted"
+                                              title="Sicurezza">Sicurezza</a></li>
+              
+              <li class="list-inline-item"><a href="https://form.agid.gov.it/view/382576b5-a353-42ae-9fa2-2e87c3f1efcf/"
+                                              class="text-muted"
+                                              title="Dichiarazione di accessibilità">Dichiarazione di accessibilità</a></li>
+              
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="cookiebar bg-dark p-4 hide" aria-hidden="true">
+  <div class="container">
+    <div class="row d-flex align-items-center">
+      <div class="col-12 col-md-7">
+        <div class="text-white small">Questo sito utilizza cookie tecnici, nonchè cookie analitici di terze parti: puoi accettare l'utilizzo di questi cookie, o rifiutarlo chiudendo questo banner e proseguendo la navigazione.<br>
+          <a class="font-weight-bold text-white" href="/it/privacy-policy/">Privacy policy</a>
+        </div>
+        
+      </div>
+      <div class="col-12 col-md-5 mt-4 mt-md-0 d-flex justify-content-center justify-content-md-end">
+        <button class="btn text-white border border-white mr-1 cookiebar__close">Chiudi</button>
+        <button class="btn btn-primary ml-1" data-accept="cookiebar">Accetta e continua</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- window.__PUBLIC_PATH__ points to fonts folder location -->
+<script src="/assets/fonts.js"></script>
+
+<!-- Bootstrap core JS -->
+<script src="/assets/vendors/jquery.min.js"></script>
+<script src="/assets/vendors/popper.min.js"></script>
+
+<script src="/assets/bootstrap-italia/dist/js/bootstrap-italia.min.js"></script>
+
+<!-- Main JS -->
+<script src="/assets/main.js"></script>
+<script src="/assets/animate.js"></script>
+
+<!-- Custom --->
+
+    <script src="/assets/vendors/datatables/datatables.min.js"></script>
+    <script src="/assets/datatables-it.js"></script>
+
+
+</body>
+
+</html>
