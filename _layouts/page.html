@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
-
+{% unless page.omit_breadcrumbs %}
 <div class="container my-2 my-md-4">
   {%- include breadcrumbs.html -%}
 </div>
+{% endunless %}
 {% if page.local_navigation %}
   {% assign section = breadcrumbs[-1] | default: breadcrumbs[0] | default: page %}
 {% elsif page.local_navigation_index %}
