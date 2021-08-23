@@ -7,6 +7,7 @@ excerpt_separator: <!--more-->
 image: /assets/images/posts/canone-unico2.png
 image_thumb: 
 child_of_ref: notizie
+caption: "Foto di Fré Sonneveld (da Unsplash)"
 ---
 
 Come [comunicato](https://www.finanze.gov.it/export/sites/finanze/.galleries/Documenti/Fiscalita-locale/comunicato-versamento-canone-unico-24.03.2021.pdf) dal Dipartimento delle Finanze del MEF in data 25 marzo, tramite la Soluzione “Canone Unico”, è stato consentito alle società Corporate, Utility, Multiservizi e Telco in particolare, di effettuare pagamenti del Canone Unico in modalità massiva.

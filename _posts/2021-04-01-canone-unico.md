@@ -8,6 +8,7 @@ child_of_ref: documentazione-comunicazioni
 image: /assets/images/posts/canone-unico.png
 image_thumb: /assets/images/posts/canone-unico-t.png
 child_of_ref: notizie
+caption: "Foto di Christian Stamati (da Unsplash)"
 faq: "faq-canoneunico"
 ---
 

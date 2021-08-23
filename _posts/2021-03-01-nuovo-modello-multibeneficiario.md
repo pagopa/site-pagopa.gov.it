@@ -5,6 +5,7 @@ lang: it
 excerpt_separator: <!--more-->
 image: /assets/images/posts/multibeneficiario.png
 child_of_ref: notizie
+caption: "Foto di Marcel Strauß (da Unsplash)"
 ---
 È disponibile il nuovo modello di pagamento presso PSP con Ente **multi-beneficiario** che consente la possibilità di gestire con un unico avviso i casi in cui l’importo pagato sia accreditato, in quota parte, su conti di diversi Enti beneficiari (es: tributo TARI/TEFA).
 

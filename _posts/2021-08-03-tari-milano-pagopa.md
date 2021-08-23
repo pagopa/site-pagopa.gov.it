@@ -5,6 +5,7 @@ lang: it
 excerpt_separator: <!--more-->
 image: /assets/images/posts/tari-milano-pagopa.png
 child_of_ref: notizie
+caption: "Foto di Michele Bitetto (da Unsplash)"
 ---
 
 3 agosto 2021 – Con pagoPA, gestire in digitale l’intero flusso di pagamento di un servizio pubblico fa risparmiare tempo e denaro a cittadini e Pubblica Amministrazione. Uno scenario che a Milano è già realtà: per la TARI, in un solo anno è quasi raddoppiato il numero di bollettini spediti direttamente sulla posta elettronica dei contribuenti, che possono così saldare l'importo in pochi clic. Ciò permette una riduzione dei costi a carico dei contribuenti, un impiego più efficiente del personale amministrativo con risparmi per le casse dell’ente e un minore consumo di carta. 
