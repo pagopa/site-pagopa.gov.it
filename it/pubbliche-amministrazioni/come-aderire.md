@@ -28,8 +28,11 @@ docs:
      label: Portale delle Adesioni - Manuale Utente
      url: "https://github.com/pagopa/lg-pagopa-docs/raw/master/documentazione_tecnica_collegata/adesione/"
     -
-     label: "Elenco degli Enti Creditori Aderenti a pagoPA"
+     label: "Elenco degli Enti Creditori aderenti a pagoPA"
      url: "https://www.pagopa.gov.it/data/pagopa-ec.csv"
+    -
+     label: "Enti Creditori aderenti al servizio CBILL"
+     url: "https://www.cbill.it/chi-puoi-pagare"
     -
      label: "È obbligatorio aderire a pagoPA?"
      url: "../obbligatorieta/"
