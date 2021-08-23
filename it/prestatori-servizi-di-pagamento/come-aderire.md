@@ -50,7 +50,7 @@ tariffe:
         css: "pt-3 mt-auto"
     -
       title: Non sei un PSP?
-      desc: "Per svolgere il ruolo di Intermediario tecnologico, scrivici per richiedere l’accordo da stipulare con PagoPA S.p.A."
+      desc: "Per svolgere il ruolo di Intermediario tecnologico, scrivi al nostro team per ricevere maggiori informazioni."
       more:
         label: Contattaci
         url: "mailto:account@pagopa.it"
