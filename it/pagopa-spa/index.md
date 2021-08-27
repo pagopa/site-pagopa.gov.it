@@ -1,0 +1,48 @@
+---
+title: PagoPA S.p.A.
+redirect_to: https://www.pagopa.it/
+redirect_from:
+  - /it/pagopa-spa/
+  - /it/pagopa-spa/checkIban-analisi-funzionale-V.1.1._17_06_2020_firma.pdf
+  - /it/pagopa-spa/comunicati-stampa/
+  - /it/pagopa-spa/comunicati-stampa/2020-07-22-comunicato
+  - /it/pagopa-spa/comunicati-stampa/2020-11-05-comunicato
+  - /it/pagopa-spa/comunicati-stampa/2020-12-07-comunicato
+  - /it/pagopa-spa/comunicati-stampa/2020-12-11-comunicato
+  - /it/pagopa-spa/comunicati-stampa/2020-12-16-comunicato
+  - /it/pagopa-spa/comunicati-stampa/2020-12-22-comunicato
+  - /it/pagopa-spa/comunicati-stampa/2020-12-29-comunicato
+  - /it/pagopa-spa/comunicati-stampa/2021-01-21-comunicato
+  - /it/pagopa-spa/comunicati-stampa/2021-01-26-comunicato
+  - /it/pagopa-spa/comunicati-stampa/2021-02-26-comunicato
+  - /it/pagopa-spa/comunicati-stampa/2021-03-19-comunicato
+  - /it/pagopa-spa/comunicati-stampa/2021-05-19-comunicato
+  - /it/pagopa-spa/comunicati-stampa/2021-06-10-comunicato
+  - /it/pagopa-spa/comunicati-stampa/2021-06-16-comunicato
+  - /it/pagopa-spa/fondoinnovazione/
+  - /it/pagopa-spa/fondoinnovazione/ALLEGATO_1_Obiettivi_da_Conseguire_vers_1.pdf
+  - /it/pagopa-spa/fondoinnovazione/ALLEGATO_1_Obiettivi_da_Conseguire.pdf
+  - /it/pagopa-spa/fondoinnovazione/ALLEGATO_2_Importo_del_Contributo_e_premialita_vers_1.pdf
+  - /it/pagopa-spa/fondoinnovazione/ALLEGATO_2_Importo_del_Contributo_e_premialita.pdf
+  - /it/pagopa-spa/fondoinnovazione/ALLEGATO_3_Istruttoria_e_Verifiche.pdf
+  - /it/pagopa-spa/fondoinnovazione/AVVISO_PUBBLICO_FONDO_INNOVAZIONE.pdf
+  - /it/pagopa-spa/fondoinnovazione/avviso/
+  - /it/pagopa-spa/fondoinnovazione/comunicati/
+  - /it/pagopa-spa/fondoinnovazione/comunicati/2020-12-18/
+  - /it/pagopa-spa/fondoinnovazione/comunicati/2021-01-14/
+  - /it/pagopa-spa/fondoinnovazione/comunicati/2021-02-08/
+  - /it/pagopa-spa/fondoinnovazione/comunicati/2021-07-20/
+  - /it/pagopa-spa/fondoinnovazione/comunicati/comunicato_08022021.pdf
+  - /it/pagopa-spa/fondoinnovazione/comunicati/comunicato_14012021.pdf
+  - /it/pagopa-spa/fondoinnovazione/comunicati/comunicato_18122020.pdf
+  - /it/pagopa-spa/fondoinnovazione/comunicati/comunicato_20072021.pdf
+  - /it/pagopa-spa/fondoinnovazione/faq/
+  - /it/pagopa-spa/fondoinnovazione/Fasce_demografiche.pdf
+  - /it/pagopa-spa/fondoinnovazione/Informativa_Privacy.pdf
+  - /it/pagopa-spa/fondoinnovazione/Manuale_operativo_App_IO.pdf
+  - /it/pagopa-spa/fondoinnovazione/Manuale_operativo_CIE.pdf
+  - /it/pagopa-spa/fondoinnovazione/Manuale_operativo_pagoPA.pdf
+  - /it/pagopa-spa/fondoinnovazione/Manuale_operativo_Spid.pdf
+  - /it/pagopa-spa/servizi-psp/
+  - /it/pagopa-spa/visione/
+---
