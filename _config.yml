@@ -114,3 +114,4 @@ jekyll-minifier:
   preserve_patterns:                # Default: (empty)
   uglifier_args:
     harmony: true
+    
