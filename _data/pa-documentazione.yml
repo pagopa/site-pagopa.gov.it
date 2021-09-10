@@ -5,7 +5,7 @@
       url: "https://docs.italia.it/italia/pagopa/pagopa-codici-docs/it/stabile/index.html"
     - 
       label: SANP - Specifiche Attuative del Nodo dei Pagamenti-SPC
-      url: 'https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/master/index.html'
+      url: 'https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs'
     - 
       label: Specifiche di connessione
       url: "https://github.com/pagopa/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/documentazione_collegata/Sistema_pagoPA_-_Specifiche%20connessione_2.3.pdf"
