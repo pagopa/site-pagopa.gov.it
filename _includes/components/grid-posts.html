@@ -21,6 +21,7 @@
         </a>
         {% if include.readmore %}
         <a class="component-posts__item__readmore mt-auto read-more"
+            href="{{ site.baseurl }}{{ post.url }}"
            title="{{post.title | escape}}">Leggi di più &rarr;
         </a>{% endif %}
         </article>
