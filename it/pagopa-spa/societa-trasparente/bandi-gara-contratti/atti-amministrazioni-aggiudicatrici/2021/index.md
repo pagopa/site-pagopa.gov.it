@@ -13,6 +13,8 @@ bandi:
       name: "02. Appalto per l'acquisizione dei servizi di contact center e servizi correlati - CIG 8798796428"
     - id: "2021/03"
       name: "03. Convenzione Consip Contact Center 2 e Ordini di fornitura n.5 e n.6 - CIG derivato 8330746D11"
+    - id: "2021/04"
+      name: "04. Indagine di mercato per acquisire manifestazioni di interesse finalizzate all’affidamento dell’appalto dei \"servizi vulnerability assessment/penetration test e security consulting\" "
 ---
 
 {% include bandi.html bandi=page.bandi %}
