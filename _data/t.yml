@@ -77,7 +77,7 @@ footer-links:
       url: "/it/privacy-policy/"
     societa-trasparente:
       name: "Società Trasparente"
-      url: "/it/pagopa-spa/societa-trasparente/"
+      url: "https://pagopa.portaleamministrazionetrasparente.it/"
     lavora-con-noi:
       name: "Lavora con noi"
       url: "https://www.pagopa.it/it/lavora-con-noi"

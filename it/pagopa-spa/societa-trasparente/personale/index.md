@@ -7,6 +7,73 @@ ref: personale-page
 order: 25
 child_of_ref: societa-trasparente
 wide: true
+redirect_to: https://pagopa.portaleamministrazionetrasparente.it/pagina713_personale.html
+redirect_from: 
+  - /it/pagopa-spa/societa-trasparente/personale/contrattazione-collettiva/
+  - /it/pagopa-spa/societa-trasparente/personale/contrattazione-collettiva/ccnl-dirigenti-rinnovo.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/contrattazione-collettiva/ccnl-dirigenti.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/contrattazione-collettiva/ccnl-quadri-impiegati-accordo-aumento.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/contrattazione-collettiva/ccnl-quadri-impiegati.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/caligiuri/
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/caligiuri/art-14.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/caligiuri/art-20.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/caligiuri/compenso.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/caligiuri/curriculum.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/calvaresi/
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/calvaresi/art-14.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/calvaresi/art-20.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/calvaresi/compenso.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/calvaresi/curriculum.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/colonna/
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/colonna/art-14.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/colonna/art-20.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/colonna/compenso.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/colonna/curriculum.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/de-santi/
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/de-santi/art-14.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/de-santi/art-20.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/de-santi/compenso.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/de-santi/curriculum.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/fatarella/
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/fatarella/art-14.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/fatarella/art-20.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/fatarella/curriculum.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/feroldi/
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/feroldi/art-14.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/feroldi/art-20.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/feroldi/compenso.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/feroldi/curriculum.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/feroldi/emolumenti-2019.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/fornaro/
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/fornaro/art-14.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/fornaro/art-20.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/fornaro/compenso.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/fornaro/curriculum.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/fornaro/viaggi-missioni.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/gambardella/
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/gambardella/art-14.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/gambardella/art-20.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/gambardella/compenso.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/gambardella/curriculum.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/lucibello/
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/lucibello/art-14.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/lucibello/art-20.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/lucibello/compenso.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/lucibello/curriculum.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/menotti/
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/menotti/art-14.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/menotti/art-20.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/menotti/compenso.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/menotti/curriculum.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/quaglia/
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/quaglia/art-14.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/quaglia/art-20.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/quaglia/compenso.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/quaglia/curriculum.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/russo/
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/russo/art-14.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/russo/art-20.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/russo/compenso.pdf
+  - /it/pagopa-spa/societa-trasparente/personale/titolari-incarichi-dirigenziali/russo/curriculum.pdf
 ---
-* [Titolari di incarichi dirigenziali](titolari-incarichi-dirigenziali/)
-* [Contrattazione collettiva](contrattazione-collettiva/)
