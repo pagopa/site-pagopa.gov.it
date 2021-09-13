@@ -1,11 +1,3 @@
-- title: Adesione
-  docs:
-    - 
-      label: Accordo di servizio per l’adesione al sistema dei pagamenti elettronici pagoPA
-      url: "https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/pagopa-accordo-psp.pdf"
-    - 
-      label: Service Agreement for Subscription to the pagoPA Electronic Payments System
-      url: 'https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/pagopa-accordo-psp-en.pdf'
 - title: Linee guida e specifiche
   docs:
     - 
@@ -39,3 +31,11 @@
     - 
       label: Piano dei test per l’avvio in esercizio di un PSP
       url: "https://github.com/pagopa/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/psp/Piano_test_PSP.docx"
+- title: Adesione
+  docs:
+    - 
+      label: Accordo di servizio per l’adesione al sistema dei pagamenti elettronici pagoPA
+      url: "https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/pagopa-accordo-psp.pdf"
+    - 
+      label: Service Agreement for Subscription to the pagoPA Electronic Payments System
+      url: 'https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/pagopa-service-agreement-psp.pdf'
