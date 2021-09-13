@@ -58,7 +58,7 @@ tariffe:
 docs:
     - 
       label: pagoPA Service Agreement (English)
-      url: "pagopa-service-agreement-psp.pdf"
+      url: "https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/pagopa-service-agreement-psp.pdf"
     - 
       label: SACI - Specifiche attuative dei codici identificativi di versamento, riversamento e rendicontazione
       url: "https://docs.italia.it/italia/pagopa/pagopa-codici-docs/it/stabile/index.html"
