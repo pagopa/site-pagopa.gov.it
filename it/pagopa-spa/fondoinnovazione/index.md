@@ -1,5 +1,6 @@
 ---
 title: Fondo Innovazione
+sitemap: false
 redirect_to: https://www.pagopa.it/it/opportunita/fondo-innovazione
 redirect_from:
   - /it/pagopa-spa/fondoinnovazione/ALLEGATO_1_Obiettivi_da_Conseguire_vers_1.pdf
