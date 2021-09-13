@@ -6,6 +6,7 @@ lang: it
 ref: controlli-rilievi
 order: 65
 child_of_ref: societa-trasparente
+sitemap: false
 redirect_to: https://pagopa.portaleamministrazionetrasparente.it/pagina736_controlli-e-rilievi-sullamministrazione.html
 redirect_from:
   - /it/pagopa-spa/societa-trasparente/controlli-rilievi/documento-di-attestazione-2021.pdf

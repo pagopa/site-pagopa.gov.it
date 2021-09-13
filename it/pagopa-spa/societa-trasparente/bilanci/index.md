@@ -6,6 +6,7 @@ lang: it
 ref: bilanci
 order: 25
 child_of_ref: societa-trasparente
+sitemap: false
 redirect_to: https://pagopa.portaleamministrazionetrasparente.it/pagina730_bilanci.html
 redirect_from:
   - /it/pagopa-spa/societa-trasparente/bilanci/bilancio/

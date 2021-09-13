@@ -1,5 +1,6 @@
 ---
 title: Comunicati Stampa
+sitemap: false
 redirect_to: https://www.pagopa.it/it/media/comunicati-stampa
 redirect_from:
   - /it/pagopa-spa/comunicati-stampa/2020-07-22-comunicato

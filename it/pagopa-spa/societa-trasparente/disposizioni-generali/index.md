@@ -6,6 +6,7 @@ lang: it
 ref: disposizioni-generali
 order: 25
 child_of_ref: societa-trasparente
+sitemap: false
 wide: true
 redirect_to: https://pagopa.portaleamministrazionetrasparente.it/pagina711_disposizioni-generali.html
 redirect_from: 

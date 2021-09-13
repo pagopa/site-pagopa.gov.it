@@ -6,6 +6,7 @@ lang: it
 ref: anticorruzione
 order: 3
 child_of_ref: altri-contenuti
+sitemap: false
 redirect_to: https://pagopa.portaleamministrazionetrasparente.it/pagina746_altri-contenuti.html
 redirect_from:
   - /it/pagopa-spa/societa-trasparente/altri-contenuti/anticorruzione/

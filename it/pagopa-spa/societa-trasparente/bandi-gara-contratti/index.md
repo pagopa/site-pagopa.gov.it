@@ -6,6 +6,7 @@ lang: it
 ref: bandi-gara-contratti
 order: 25
 child_of_ref: societa-trasparente
+sitemap: false
 redirect_to: https://pagopa.portaleamministrazionetrasparente.it/pagina566_bandi-di-gara-e-contratti.html
 redirect_from:
   - /it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/

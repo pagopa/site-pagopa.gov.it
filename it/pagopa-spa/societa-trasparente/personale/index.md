@@ -6,6 +6,7 @@ lang: it
 ref: personale-page
 order: 25
 child_of_ref: societa-trasparente
+sitemap: false
 wide: true
 redirect_to: https://pagopa.portaleamministrazionetrasparente.it/pagina713_personale.html
 redirect_from: 

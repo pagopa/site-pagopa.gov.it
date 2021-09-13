@@ -1,5 +1,6 @@
 ---
 title: Fondo Innovazione – Comunicati
+sitemap: false
 redirect_to: https://www.pagopa.it/it/opportunita/fondo-innovazione/comunicati
 redirect_from:
   - /it/pagopa-spa/fondoinnovazione/comunicati/2020-12-18/

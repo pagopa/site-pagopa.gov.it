@@ -6,6 +6,7 @@ lang: it
 ref: societa-trasparente
 order: 26
 child_of_ref: pagopa-spa
+sitemap: false
 redirect_to: https://pagopa.portaleamministrazionetrasparente.it/
 redirect_from:
   - /societa-trasparente/
