@@ -9,7 +9,6 @@ child_of_ref: altri-contenuti
 sitemap: false
 redirect_to: https://pagopa.portaleamministrazionetrasparente.it/pagina746_altri-contenuti.html
 redirect_from:
-  - /it/pagopa-spa/societa-trasparente/altri-contenuti/anticorruzione/
   - /it/pagopa-spa/societa-trasparente/altri-contenuti/anticorruzione/accesso-civico-generalizzato/
   - /it/pagopa-spa/societa-trasparente/altri-contenuti/anticorruzione/accesso-civico/
   - /it/pagopa-spa/societa-trasparente/altri-contenuti/anticorruzione/Nomina-RPCT.pdf
