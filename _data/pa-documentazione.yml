@@ -34,6 +34,9 @@
    - 
       label: Tassonomia dei servizi (formato JSON)
       url: 'https://github.com/pagopa/pagopa-api/blob/develop/taxonomy/tassonomia.json'
+   - 
+      label: Contribuisci al miglioramento della Tassonomia
+      url: 'https://survey.pagopa.it/238313'
 - title: Piani di test
   docs:
     - 
