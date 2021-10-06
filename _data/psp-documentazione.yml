@@ -1,0 +1,41 @@
+- title: Linee guida e specifiche
+  docs:
+    - 
+      label: SACI - Specifiche attuative dei codici identificativi di versamento, riversamento e rendicontazione
+      url: "https://docs.italia.it/italia/pagopa/pagopa-codici-docs/it/stabile/index.html"
+    - 
+      label: SANP - Specifiche Attuative del Nodo dei Pagamenti-SPC
+      url: 'https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs'
+    - 
+      label: Specifiche di connessione
+      url: "https://github.com/pagopa/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/documentazione_collegata/Sistema_pagoPA_-_Specifiche%20connessione_2.3.pdf"
+    - 
+      label: Indicatori di qualità per i soggetti aderenti
+      url: "https://github.com/pagopa/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/documentazione_collegata/SLA_aderente_2.2.pdf"
+    - 
+      label: Pagamento della Tassa Automobilistica
+      url: 'https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/documentazione_collegata/bollo_auto_mod_4_0.zip'
+    - 
+      label: Linee Guida pubblicate sulla Gazzetta Ufficiale
+      url: "https://www.gazzettaufficiale.it/eli/id/2018/07/03/18A04494/sg"
+- title: API e materiali per gli sviluppatori
+  docs:
+    - 
+      label: pagoPA API
+      url: "https://pagopa.github.io/pagopa-api/"
+    - 
+      label: Repository su Github
+      url: 'https://github.com/pagopa/pagopa-api'
+- title: Piani di test
+  docs:
+    - 
+      label: Piano dei test per l’avvio in esercizio di un PSP
+      url: "https://github.com/pagopa/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/psp/Piano_test_PSP.docx"
+- title: Adesione
+  docs:
+    - 
+      label: Accordo di servizio per l’adesione al sistema dei pagamenti elettronici pagoPA
+      url: "https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/pagopa-accordo-psp.pdf"
+    - 
+      label: Service Agreement for Subscription to the pagoPA Electronic Payments System
+      url: 'https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/pagopa-service-agreement-psp.pdf'

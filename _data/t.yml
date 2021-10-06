@@ -67,7 +67,7 @@ footer-links:
       url: "/en/privacy-policy/"
     lavora-con-noi:
       name: "Lavora con noi"
-      url: "/it/lavora-con-noi/"
+      url: "https://www.pagopa.it/it/lavora-con-noi"
     security:
       name: "Security"
       url: "/security.html"
@@ -77,22 +77,37 @@ footer-links:
       url: "/it/privacy-policy/"
     societa-trasparente:
       name: "Società Trasparente"
-      url: "/it/pagopa-spa/societa-trasparente/"
+      url: "https://pagopa.portaleamministrazionetrasparente.it/"
     lavora-con-noi:
       name: "Lavora con noi"
-      url: "/it/lavora-con-noi/"
+      url: "https://www.pagopa.it/it/lavora-con-noi"
     security:
       name: "Sicurezza"
       url: "/security.html"
     accessibilita:
       name: "Dichiarazione di accessibilità"
-      url: "/it/accessibilita/"
+      url: "https://form.agid.gov.it/view/382576b5-a353-42ae-9fa2-2e87c3f1efcf/"
 newsletter:
   it:
-    title: "Iscriviti alla newsletter"
-    placeholder: "Inserisci la tua email"
-    submit_button: "Conferma iscrizione"
-    disclaimer: '<a href="/it/privacy-policy/">Privacy policy newsletter</a>'
+    title: "Resta aggiornato, iscriviti alla newsletter!"
+    placeholder: "Inserisci il tuo indirizzo e-mail"
+    submit_button: "Iscriviti"
+    disclaimer: "Inserendo il tuo indirizzo email stai accettando la nostra [informativa sul trattamento dei dati personali per la newsletter](/it/privacy-policy/)."
+    first_par: Vorrei ricevere novità di pagoPA per
+    second_par: campo obbligatorio, con possibilità di risposta multipla
+    success: Iscrizione alla newsletter avvenuta con successo!
+    problem: Ci sono problemi di comunicazione col sistema, non siamo riusciti a iscriverti alla newsletter. Riprova più tardi
+    groups: 
+      - title: "Cittadini"
+        id: "40"
+      - title: "Pubbliche Amministrazioni"
+        id: "41"
+      - title: "Prestatori di Servizi di Pagamento"
+        id: "42"
+      - title: "Aziende"
+        id: "43"
+      - title: "Giornalisti"
+        id: "44"
 CollapseBtnSee:
   en: "See all"
   it: "Mostra tutto"
@@ -102,3 +117,27 @@ CollapseBtnHide:
 JobApply:
   en: "Apply for this position"
   it: "Invia il CV per questa posizione"
+topright-links:
+  en:
+  it:
+    pianotriennale:
+      name: "Piano Triennale"
+      url: "https://pianotriennale-ict.italia.it/"
+    io:
+      name: "IO"
+      url: "https://io.italia.it/"
+navigation:
+  en:
+  it:
+    cittadini:
+      name: "Cittadini"
+      url: "#"
+    pubbliche-amministrazioni:
+      name: "Pubbliche Amministrazioni"
+      url: "#"
+    prestatori-servizi-di-pagamento:
+      name: "Prestatori Servizi di Pagamento"
+      url: "#"
+    news:
+      name: "Notizie"
+      url: "/it/notizie/"

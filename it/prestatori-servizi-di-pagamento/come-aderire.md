@@ -1,29 +1,96 @@
 ---
 layout: page
 title: Come aderire
-description: 
+title_hero: Come aderire a pagoPA
+description: Per aderire a pagoPA in qualità di Prestatore di Servizi di Pagamento, è necessario firmare un accordo con PagoPA S.p.A. Quest’ultimo prevede, da parte del PSP aderente, il pagamento di un corrispettivo in base al numero di transazioni effettuate dal PSP (all’aumentare del volume delle transazioni corrisponde un corrispettivo per transazione inferiore).
 lang: it
+redirect_from:
+  - /it/prestatori-servizi-di-pagamento/intermediari-e-mandatari/
 ref: prestatori-servizi-di-pagamento-come-aderire
-order: 51
+order: 2
 child_of_ref: prestatori-servizi-di-pagamento
 child_of_submenu: pagoPA
+footerbanner:
+  title: Hai domande o dubbi?
+  desc: Leggi le domande frequenti sull’adesione a pagoPA da parte dei Prestatori di Servizi di Pagamento
+  cta: Leggi le FAQ
+  url: "https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneD.html"
+passi:
+    -
+      title: Scarica il modello di accordo
+      buttons:
+        -
+         label: Scarica il modello
+         url: "/it/prestatori-servizi-di-pagamento/pagopa-accordo-psp.pdf"
+         css: "btn btn-xs btn-outline-primary d-lg-block px-5"
+    -
+      title: Firma l’accordo digitalmente
+      desc: "Scarica il modulo, firmalo digitalmente e invialo via PEC a: <accordipsp@pec.pagopa.it>"
+    -
+      title: Inizia l’integrazione con pagoPA
+      desc: Se non vuoi farti carico delle attività d’implementazione, puoi nominare un soggetto già aderente alla piattaforma.
+    -
+      title: Hai bisogno d’aiuto?
+      desc: "Consulta le domande frequenti o scrivi a: <account@pagopa.it>"
+tariffe:
+    -
+      title: Diventa Mandatario Qualificato
+      desc: "Se hai già aderito a pagoPA, puoi diventare Mandatario di altri PSP e impegnarti a pagare a PagoPA S.p.A. i Corrispettivi per loro conto.<br>In questo modo potrai cumulare i volumi dei PSP di cui hai mandato e, quindi, accedere a una tariffazione più vantaggiosa."
+      more:
+        label: Contattaci
+        url: "mailto:account@pagopa.it"
+        css: "pt-3 mt-auto"
+    -
+      title: Unisciti ad un Mandatario esistente
+      desc: "Se sei un PSP aderente a pagoPA, puoi indicare i servizi di pagamento per i quali intendi usufruire di un Mandatario e del relativo cumulo delle rispettive transazioni.\n\n
+      Per maggiori informazioni, contatta uno dei Mandatari Qualificati."
+      more:
+        label: Vedi tutti i mandatari
+        url: "../mandatari-elenco/"
+        css: "pt-3 mt-auto"
+    -
+      title: Non sei un PSP?
+      desc: "Per svolgere il ruolo di Intermediario tecnologico, scrivi al nostro team per ricevere maggiori informazioni."
+      more:
+        label: Contattaci
+        url: "mailto:account@pagopa.it"
+        css: "pt-3 mt-auto"
+docs:
+    - 
+      label: pagoPA Service Agreement (English)
+      url: "https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/pagopa-service-agreement-psp.pdf"
+    - 
+      label: SACI - Specifiche attuative dei codici identificativi di versamento, riversamento e rendicontazione
+      url: "https://docs.italia.it/italia/pagopa/pagopa-codici-docs/it/stabile/index.html"
+    - 
+      label: SANP - Specifiche Attuative del Nodo dei Pagamenti-SPC
+      url: 'https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/master/index.html'
 ---
 
-Per avviare la procedura di adesione a pagoPA, devi firmare un accordo con PagoPA S.p.A. Quest’ultimo prevede, da parte del PSP aderente, il pagamento di un corrispettivo in base al numero di transazioni effettuate dal PSP (all’aumentare del volume delle transazioni corrisponde un corrispettivo per transazione inferiore). 
 
-Esistono **due modelli alternativi di accordo di adesione**. Per aderire:
+{% include components/grid-by-step.html source=page.passi %}
 
-{:.list-unstyled}
-- **1) scegli il modello di accordo** che meglio risponde alle tue necessità: 
-    * **[Modello A](../PagoPA_Accordo_di_servizio_ModelloA_v07-02-2020_s.pdf)**: questo modello premia i grandi volumi, prevedendo uno sconto al raggiungimento di determinati obiettivi. Per questo motivo, il modello A permette, su richiesta del PSP, di cumulare i propri volumi alternativamente con altri PSP appartenenti al medesimo gruppo societario o tramite un Mandatario Qualificato, al fine di accedere a tariffe migliori ed eventualmente a sconti. 
-    * **[Modello B](../PagoPA_Accordo_di_servizio_Modello_B_v07-02-20_s.pdf)**: questo modello si basa su un modello di tariffazione che prevede una flat fee per alcune casistiche.
 
-- **2) scarica il modulo** relativo al modello di accordo da te prescelto, firmalo digitalmente e invialo tramite pec a: [accordipsp@pec.pagopa.it](mailto:accordipsp@pec.pagopa.it)
+{:.heading-border-bottom .pb-2 .mb-3 .mt-3 .mt-lg-5}
+### Potrebbe interessarti
 
-Una volta inviato l’accordo firmato, puoi procedere con l’integrazione tecnologica e iniziare ad usare il servizio!
+{%include components/grid-simple.html 
+          source=page.tariffe
+          columns=3
+          css_wrapper="my-3 my-md-5"
+          %}
 
-Per qualsiasi chiarimento sulla procedura di adesione, puoi consultare le nostre FAQ o scrivere all’indirizzo [account@pagopa.it](mailto:account@pagopa.it)
-
-### Domande frequenti 
-[Gruppo D - Adesione dei Prestatori dei Servizi di Pagamento](https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneD.html)
-
+<div class="d-flex align-items-center heading-border-bottom my-4">
+  <h4>Risorse utili</h4>
+  <div class="ml-auto">
+    <a href="../documentazione/" class="read-more" title="Vedi tutti i documenti">
+      <span class="text">Tutti i documenti</span>
+      <svg class="icon">
+          <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right" /></use>
+      </svg>
+    </a>
+  </div>
+</div>
+{%include components/list.html
+          source=page.docs
+          %}

@@ -1,14 +1,5 @@
 ---
-layout: page
-title: FAQ 
-description: Fondo Innovazione
-lang: it
-layout_wide: true
-ref: faq-fondoinnovazione
-child_of_ref: fondoinnovazione
-order: 25
-redirect_from:
-  - /fondoinnovazione/faq/
+title: Fondo Innovazione – FAQ
+sitemap: false
+redirect_to: https://www.pagopa.it/it/opportunita/fondo-innovazione/faq
 ---
-
-{% include faq.html source="faq-fondoinnovazione" %}

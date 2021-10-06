@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-{% assign partner = site.data.partner-dettagli | where_exp:"item","item['Ragione Sociale del Contraente'] == page.title" | first %}
-{% assign enti = site.data.ec_pt | where_exp: "item", "item['Codice Fiscale'] contains partner['CF del Contraente']"  %}
+{% assign partner = site.data.partner-dettagli | where_exp:"item","item['ragionesociale'] == page.title" | first %}
+{% assign enti = site.data.ec_pt | where_exp: "item", "item['Codice Fiscale'] contains partner['CF']"  %}
 {% assign enti_group = enti | sort: "denominazione Ente" | group_by_exp: "name","name['denominazione Ente'] | slice: 0,1"  %}
 
 <div class="{% if page.layout_extra == nil %}container{%endif%} my-2">

@@ -1,0 +1,40 @@
+{% assign items = site.data.quadro-sinottico-servizi.items | where_exp: "item", "include.types contains item.type" | group_by: 'func'  %}
+{% assign functionalities = site.data.quadro-sinottico-servizi.functionalities %}
+{% assign comparedata = include.comparedata %}
+{% for group in items %}
+<div class="tipi-qualificati py-3 {% unless comparedata%}py-md-4{%endunless%}">
+    <div class="row">
+
+        <div class="col-12 {% unless comparedata%} col-lg-3{%endunless%}">
+            <h4 class="tipi-qualificati__title {% unless comparedata%}pr-lg-4{%endunless%}">{{functionalities[group.name]}}</h4>
+        </div>
+        <div class="col-12 {% unless comparedata%} col-lg-9{%endunless%}">
+            <div class="row">
+                {% assign items_sorted = group.items | sort: 'label'  %}
+                {% for item in items_sorted %}
+                <div class="col-lg-6">
+                    <div class="{% unless comparedata%}mb-2{%endunless%} pr-lg-4">
+                        <div class="{% unless comparedata%}font-weight-bold{%endunless%} py-2">
+                        {% if comparedata %}
+                            {% if comparedata[item.alias] %}
+                            <svg class="icon icon-success icon-xs mr-2">
+                                <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-check-circle"></use>
+                            </svg>
+                            {% else %}
+                            <svg class="icon icon-danger icon-xs mr-1">
+                                <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-close-circle"></use>
+                            </svg>
+                            {% endif %}
+                        {% endif %}
+                        <span class="tipi-qualificati__label">{{item.label}}</span>
+                        </div>
+                        {% unless comparedata%}<div class="">{{item.desc}}</div>{%endunless%}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endfor %}

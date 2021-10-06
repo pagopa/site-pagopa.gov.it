@@ -1,0 +1,25 @@
+{% assign mandatari = site.data.mandatari %}
+<div class="row">
+	<div class="col-md-12 mb-2 mb-md-4">
+		<h1 class="page-title" >{{ page.title_hero | default: page.title }}</h1>
+		<div class="small text-muted">Ultimo aggiornamento: {{mandatari.update}}</div>
+	</div>
+</div>
+
+<table  class="table">
+	<thead>
+		<tr>
+			<th >Nome</th>
+			<th data-visible="false" >CF</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for item in mandatari.items %}
+			<tr>
+				<td class="elencopsp__denominazione">{{item.Denominazione }}</td>
+				<td class="elencopsp__cf" >{{item.CF }}</td>
+			</tr>
+		{% endfor %}
+	</tbody>
+
+</table>

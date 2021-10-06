@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="container my-2 my-md-4">
+  {%- include breadcrumbs.html -%}
+</div>
+{% if page.local_navigation %}
+  {% assign section = breadcrumbs[-1] | default: breadcrumbs[0] | default: page %}
+{% elsif page.local_navigation_index %}
+  {% assign section = page %}
+{% else %}
+  {% assign section = breadcrumbs[0] | default: page %}
+{% endif %}
+
+<article class="{% if page.layout_extra == nil %}container{%endif%} my-4">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-8 ">
+      <div class="mx-3">
+        {% unless page.omit_pagehead %}
+          <div class="col-12 col-md-8 mb-2 mb-md-4">
+          {% unless page.omit_title %}
+            <h1 class="page-title" >{{ page.title_hero | default: page.title }}</h1>
+          {%endunless%}
+          {% if page.description %}
+            <div class="page-desc">{{ page.description | markdownify }}</div>
+          {% endif %}
+          </div>
+        {% endunless %}
+        <div class="py-2"></div>
+        <div class="entry">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+  </div>
+</article>
+{% if page.footerbanner %}
+  {% include components/footer-banner.html %}
+{% endif %}
