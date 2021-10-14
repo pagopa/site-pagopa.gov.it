@@ -2,3 +2,6 @@
 .DS_Store
 _site
 .jekyll-metadata
+_data/ec_pt.yml
+_data/intermediari.yml
+_data/psp.csv

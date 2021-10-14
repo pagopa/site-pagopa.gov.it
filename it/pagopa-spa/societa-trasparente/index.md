@@ -1,71 +1,200 @@
 ---
 layout: page
-title: Società trasparente
+title: Società trasparente - Nuovo portale
 description: 
 lang: it
 ref: societa-trasparente
 order: 26
 child_of_ref: pagopa-spa
+sitemap: false
+redirect_to: https://pagopa.portaleamministrazionetrasparente.it/
 redirect_from:
-  - /societa-trasparente
-  - /it/societa-trasparente
+  - /societa-trasparente/
+  - /it/societa-trasparente/
+  - /assets/bandi/2019/01/01.%20Determina%20a%20contrarre.pdf
+  - /assets/bandi/2019/01/02.%20Capitolato%20descrittivo%20e%20prestazionale%20RdO%20aperta%20G-SUITE%20(1).pdf
+  - /assets/bandi/2019/01/03.%20Condizioni%20particolari%20di%20contratto.pdf
+  - /assets/bandi/2019/01/04.%20Scheda%20di%20riepilogo%20mePA.pdf
+  - /assets/bandi/2019/02/01.%20Determina%20a%20contrarre%20AZURE.pdf
+  - /assets/bandi/2019/02/02.%20Capitolato%20descrittivo%20e%20prestazionale%20AZURE.pdf
+  - /assets/bandi/2019/02/03.%20Condizioni%20particolari%20di%20contratto%20AZURE.pdf
+  - /assets/bandi/2019/02/04.%20Riepilogo%20mePA%20AZURE.pdf
+  - /assets/bandi/2019/02/05.%20Comunicazione%20aggiudicatario%20AZURE.pdf
+  - /assets/bandi/2019/02/07.%20Modulo_sottoscrizione_programma_s.pdf
+  - /assets/bandi/2019/02/08.%20Enterprise%20Agreement.pdf
+  - /assets/bandi/2019/02/09.%20Microsoft%20Business%20and%20Services%20Agreement.pdf
+  - /assets/bandi/2019/02/10.%20Determina%20aumento%20contratto%20RdO%202433716.pdf
+  - /assets/bandi/2019/02/11.%20Aumento%20Contratto%20controfirmato%20TIM_Redacted.pdf
+  - /assets/bandi/2019/02/12.%20Microsoft_DPA%20Dec%202020.pdf
+  - /assets/bandi/2019/03/01.%20Determina%20a%20contrarre%20COMPUTER.pdf
+  - /assets/bandi/2019/04/01.%20Determina%20di%20acquisto.pdf
+  - /assets/bandi/2019/05/01.%20Determina%20acquisto%20certificazioni%20SSL_signed.pdf
+  - /assets/bandi/2019/06/02.%20Capitolato%20descrittivo%20e%20prestazionale%20-%20KPMG.pdf
+  - /assets/bandi/2019/06/03.%20All.%201%20-%20Descrizione%20servizi%20richiesti.pdf
+  - /assets/bandi/2019/06/05.%20all.%203%20-%20Condizioni%20particolari%20di%20contratto%20-%20KPMG.pdf
+  - /assets/bandi/2019/06/07.%20Riepilogo%20procedura%20-%20KPMG.pdf
+  - /assets/bandi/2019/07/02.%20Capitolato.pdf
+  - /assets/bandi/2019/07/03.%20Condizioni%20particolari%20di%20contratto.pdf
+  - /assets/bandi/2019/07/04.%20Riepilogo%20procedura.pdf
+  - /assets/bandi/2019/07/05.%20Comunicazione%20aggiudicazione%20Concorrenti.pdf_signed.pdf
+  - /assets/bandi/2019/07/06.%20Comunicazione%20Aggiudicatario.pdf_signed.pdf
+  - /assets/bandi/2019/08/01.%20Determina%20a%20contrarre%20-%20signed.pdf
+  - /assets/bandi/2019/09/01.%20Determina%20adesione%20SPC%20Lotto%202%20-%20RTI%20Leonardo-IBM.pdf_signed.pdf
+  - /assets/bandi/2019/10/01.%20Determina%20a%20contrarre.pdf
+  - /assets/bandi/2019/11/01.%20Determina%20affidamento%20servizio%20consulenza%20legale.pdf
+  - /assets/bandi/2019/12/01.%20Determina_signed.pdf
+  - /assets/bandi/2019/12/02.%20Contratto_signed_Redacted.pdf
+  - /assets/bandi/2019/12/03.%20Determina_atto_modificativo_signed.pdf
+  - /assets/bandi/2019/12/04.%20Atto_modificativo_signed.pdf
+  - /assets/bandi/2019/13/01.%20Determina_contratto%20SIA_signed.pdf
+  - /assets/bandi/2019/13/02.%20Schema_contratto_allegato_determina.pdf
+  - /assets/bandi/2019/13/03.%20Contratto_SIA_PagoPA_signed.pdf
+  - /assets/bandi/2019/13/04.%20Allegato_1_Contratto_signed.pdf
+  - /assets/bandi/2019/13/05.%20Allegato_1bis_Contratto_signed.pdf
+  - /assets/bandi/2019/13/06.%20Allegato_2_Contratto_signed.pdf
+  - /assets/bandi/2019/13/07.%20Allegato_3_parte_A_Contratto_signed.pdf
+  - /assets/bandi/2019/13/08.%20Allegato_3_parte_B_Contratto_signed.pdf
+  - /assets/bandi/2019/13/09.%20Allegato_4_Contratto_signed.pdf
+  - /assets/bandi/2019/14/02.%20Slack%20-%20DPA.pdf
+  - /assets/bandi/2020/01/01.%20Determina%20A.U.%20di%20adesione%20alla%20convenzione%20Consip%20SPC%20Lotto%201.pdf
+  - /assets/bandi/2020/01/02.%20Contratto%20Esecutivo%20n.%202015376371009002COE.pdf
+  - /assets/bandi/2020/02/01.%20Determina%20a%20contrarre%20-%20signed.pdf
+  - /assets/bandi/2020/03/01.%20Capitolato%20descrittivo%20e%20prestazionale.pdf
+  - /assets/bandi/2020/03/02.%20Determina%20a%20contrarre.pdf
+  - /assets/bandi/2020/03/04.%20Contratto%20di%20licenza%20d'uso%20della%20piattaforma%20MailUp.pdf
+  - /assets/bandi/2020/04/01.%20Determina%20a%20contrarre.pdf
+  - /assets/bandi/2020/04/02.%20Ordine%20di%20acquisto%20-%20signed.pdf
+  - /assets/bandi/2020/05/01.%20Determina%20a%20contrarre-signed.pdf
+  - /assets/bandi/2020/06/Determina%20a%20contrarre-signed.pdf
+  - /assets/bandi/2020/07/01.%20Determina%20a%20contrarre.pdf
+  - /assets/bandi/2020/07/02.%20allegato_offerta_signed_Redacted.pdf
+  - /assets/bandi/2020/08/01.%20Determina%20a%20contrarre.pdf
+  - /assets/bandi/2020/09/01.%20Determina%20a%20contrarre-signed.pdf
+  - /assets/bandi/2020/09/02.%20Riepilogo%20RdO%20n.%202496775.pdf
+  - /assets/bandi/2020/09/03.%20Capitolato%20descrittivo%20e%20prestazionale.pdf
+  - /assets/bandi/2020/09/04.%20Condizioni%20particolari%20contratto.pdf
+  - /assets/bandi/2020/09/05.%20Comunicazione%20aggiudicazione%20MED%20COMPUTER-signed.pdf
+  - /assets/bandi/2020/09/06.%20Comunicazione%20di%20avvenuta%20aggiudicazione%20agli%20operatori%20concorrenti.pdf_signed.pdf
+  - /assets/bandi/2020/09/08.%20Determina%20a%20contrarre%20-%20aumento%20fornitura.pdf
+  - /assets/bandi/2020/10/01_DETERMINA-OdA_TD%20MePA%20integrazione%20mac_S.pdf
+  - /assets/bandi/2020/11/01.%20Determina_s.pdf
+  - /assets/bandi/2020/11/02.%20Capitolato.pdf
+  - /assets/bandi/2020/11/04.%20determina%20di%20aumento%20prestazioni%20HL_s-2.pdf
+  - /assets/bandi/2020/12/01.%20determina_s.pdf
+  - /assets/bandi/2020/12/02.%20Preventivo_s.pdf
+  - /assets/bandi/2020/13/01.%20Determina_signed.pdf
+  - /assets/bandi/2020/13/02.%20Capitolato.pdf
+  - /assets/bandi/2020/14/00.%20Determina_SIA%20-%20Atto%20aggiuntivo%20Cashback%20e%20FA%20-%20signed.pdf
+  - /assets/bandi/2020/14/01.%20Atto%20Aggiuntivo%20CONTRATTO%20QUADRO%20SIA_PagoPA%20spa_final_signed.pdf
+  - /assets/bandi/2020/14/02.%20Allegato%201a%20-%20RTD_LS_final_signed.pdf
+  - /assets/bandi/2020/14/03.%20Allegato%201b%20-%20Fatturazione%20Automatica_DF_LS_final_signed.pdf
+  - /assets/bandi/2020/14/04.%20Allegato%201c%20-%20Bonus%20Pagamenti%20Digitali_SL_final_signed.pdf
+  - /assets/bandi/2020/14/05.%20Allegato%202%20-%20corrispettivi%20RTD%20e%20FA_final_signed.pdf
+  - /assets/bandi/2020/14/06.%20Allegato%203%20-%20Livelli%20di%20Servizio_PagoPA_CentroStella%20RTD%20v1.4_signed.pdf
+  - /assets/bandi/2020/14/07.%20Allegato%204%20-%20Sicurezza_pagoPA_CentroStella%20final_signed.pdf
+  - /assets/bandi/2020/15/01.%20Determina%20adesione%20SPC%20Cloud%20Lotto%202%20-%20servizi%20Leonardo_s.pdf
+  - /assets/bandi/2020/15/03.%20Nomina%20a%20responsabile%20Leonardo.pdf
+  - /assets/bandi/2020/16/01.%20determina%20Adesione%20CC2_s.pdf
+  - /assets/bandi/2020/16/03.%20determina%20OdF%20successivo%20n.2_GV.pdf
+  - /assets/bandi/2020/16/05.%20determina%20OdF%20successivo%20n.%203%20-%20signed.pdf
+  - /assets/bandi/2020/16/07.%20determina%20OdF%20successivo%20n.4_GV.pdf
+  - /assets/bandi/2020/16/09.%20Consorzio_%20Acapo%20Nomina%20Responsabile.pdf
+  - /assets/bandi/2020/16/10.%20Acapo_nomina%20a%20responsabile.pdf
+  - /assets/bandi/2020/16/11.%20Relazione%20tecnica_Lotto%203.pdf
+  - /assets/bandi/2020/17/01.%20Determina%20upgrade%20velocita_%20MailUP_s.pdf
+  - /assets/bandi/2020/17/02.%20ordine_upgrade_velocita_.pdf
+  - /assets/bandi/2020/18/01.%20Determina%20per%20attivazione%20II%20Account%20MAILUP_s.pdf
+  - /assets/bandi/2020/18/02.%20ordine_II_Account_MailUP_s.pdf
+  - /assets/bandi/2020/19/01.%20DETERMINA%20UPGRADE%20MAILUP.pdf
+  - /assets/bandi/2020/19/02.%20Conferma%20d_ordine%2002637.pdf
+  - /assets/bandi/2020/19/03.%20Conferma%20d_ordine%2002638.pdf
+  - /assets/bandi/2020/20/01.%20Determina%20affidamento%20servizi%20di%20supporto%20Premier%20Azure%20.pdf
+  - /assets/bandi/2020/20/02.%20Lettera%20accettazione%20offerta.pdf_signed-signed.pdf
+  - /assets/bandi/2020/20/03.%20FY21%20-%20%20Microsoft%20Premier%20Support%20for%20PagoPA_Redacted.pdf
+  - /assets/bandi/2020/20/04.%20Microsoft%20-%20DPA%20dicembre%202020.pdf
+  - /assets/bandi/2020/20/05.%20Richieste%20di%20chiarimenti%20pervenute%20e%20risposte.pdf
+  - /assets/bandi/2020/20/06.%20All.%201%20-%20Determina%20di%20aggiudicazione%20-%20AS_SDAPA_Azure%20-%20signed.pdf
+  - /assets/bandi/2020/21/01.%20Determina%20acquisto%20servizio%20INSTABUG.pdf
+  - /assets/bandi/2020/21/02.%20Primo%20contratto%20-%20SOW%20_%20Terms%20updated%20signed.pdf
+  - /assets/bandi/2020/21/03.%20Upgrade%20-%20Pagopa-%20Instabug%20SOW%20Amendment_ss.pdf
+  - /assets/bandi/2020/21/04.%20Upgrade%20PagoPA%20SPA.-Instabug%20-%20SOW%20_%20Terms-June7_ss.pdf
+  - /assets/bandi/2020/21/05.%20Determina%20II%20acquisto%20servizio%20INSTABUG.pdf
+  - /assets/bandi/2020/21/06.%20Upgrade%20PagoPa%20S.P.A%20-%20Instabug%20%20SOW%20_%20Terms%20-%20SIGNED%20by%20PAGOPA.pdf
+  - /assets/bandi/2020/21/07.%20Instabug_DPA.pdf
+  - /assets/bandi/2020/21/08.%20Instabug_Amendment%201%20to%20DPA.pdf
+  - /assets/bandi/2020/22/01.%20Determina%20tool%20MIXPANEL.pdf
+  - /assets/bandi/2020/22/02.%20Primo%20contratto_Mixpanel_Redacted.pdf
+  - /assets/bandi/2020/22/03.%20Determina%20upgrade%20tool%20MIXPANEL.pdf
+  - /assets/bandi/2020/22/04.%20Secondo%20contratto%20-%20upgrade_Mixpanel_Redacted.pdf
+  - /assets/bandi/2020/22/05.%20Mixpanel_DPA_EU%20Residency.pdf
+  - /assets/bandi/2020/22/06.%20Mixpanel_Amendment%20No.%201%20to%20DPA.pdf
+  - /assets/bandi/2020/22/07.%20Mixpanel_Security%20and%20Architecture%20Overview.pdf
+  - /assets/bandi/2020/23/01.%20determina%20servizi%20di%20comunicazione%20progetto%20IO.pdf
+  - /assets/bandi/2020/23/02.%20Determina_aumento_prestazioni.pdf
+  - /assets/bandi/2020/23/03.%20Determina_posticipo_scadenza.pdf
+  - /assets/bandi/2020/24/01.%20Determina%20adesione%20SPC2%20-%20Fastweb.pdf
+  - /assets/bandi/2020/25/01.%20Determina%20attivit%C3%A0%20testing%20IO%20e%20altri%20prodotti_s.pdf
+  - /assets/bandi/2020/25/02.%20Contratto%20Quadro%20per%20testing%20app%20IO%20e%20altri%20prodotti_s-2%20(5).pdf
+  - /assets/bandi/2020/25/03.%20Comunicazione%20Scadenza.pdf_signed.pdf
+  - /assets/bandi/2020/25/04.%20Determina%20aumento%20contratto%20App-quality-signed.pdf
+  - /assets/bandi/2020/25/05.%20Nota%20aumento%20contratto%20App%20quality_Signed.pdf
+  - /assets/bandi/2020/26/01.%20Determina%20OdA%20Buoni%20Pasto%20in%20Convenzione-Lotto%208.pdf
+  - /assets/bandi/2020/27/01.%20determina%20Adesione%20CC2_s.pdf
+  - /assets/bandi/2020/27/03.%20determina%20OdF%20n.2.pdf
+  - /assets/bandi/2020/27/05.%20determina%20OdF%20n.3.pdf
+  - /assets/bandi/2020/27/07.%20determina%20OdF%20n.4.pdf
+  - /assets/bandi/2020/28/01.%20Determina.pdf
+  - /assets/bandi/2020/28/02.%20Invito.pdf
+  - /assets/bandi/2020/28/03.%20Capitolato.pdf
+  - /assets/bandi/2020/28/04.%20Disciplinare.pdf
+  - /assets/bandi/2020/28/09.%20all.%205%20-%20Regole%20Sistema%20Eprocurement.pdf
+  - /assets/bandi/2020/28/10.%20Schema%20contratto.pdf
+  - /assets/bandi/2020/28/11.%20ELENCO%20INVITATI%20-%20PARTECIPANTI%20-%20AMMESSI.docx.pdf
+  - /assets/bandi/2020/28/12.%20Provvedimento%20di%20Nomina%20Commissione.pdf
+  - /assets/bandi/2020/28/13.%20Comunicazione%20di%20aggiudicazione.pdf
+  - /assets/bandi/2020/28/14.%20Contratto.pdf
+  - /assets/bandi/2020/28/15.%20DPA%20-%20Atto%20di%20designazione%20Responsabile%20del%20Trattamento.pdf
+  - /assets/bandi/2020/30/01_Determina.pdf
+  - /assets/bandi/2020/30/02.%20Contratto.pdf
+  - /assets/bandi/2020/31/01.%20Determina.pdf
+  - /assets/bandi/2021/01/01.%20determina%20AS_SDAPA_Azure-signed.pdf
+  - /assets/bandi/2021/01/02.%20Lettera_Invito_AS_2652750.pdf_signed.pdf
+  - /assets/bandi/2021/01/03.%20Capitolato_oneri%20AS_Sda%20ICT_ID_2652750.pdf
+  - /assets/bandi/2021/01/03.01.%20Allegato_1_DGUE_acquisizione%20servizi%20cloud%20Azure.pdf
+  - /assets/bandi/2021/01/03.02.%20Allegato_2_dichiarazione_integrativa_e%20di%20tracciabilita_.pdf
+  - /assets/bandi/2021/01/03.03.%20Allegato_3_Dichiarazione%20Di%20Avvalimento%20As%20Sdapa%20Ict20180618.pdf
+  - /assets/bandi/2021/01/03.04.%20Allegato_4_Dichiarazione%20sostitutiva%20antimafia.pdf
+  - /assets/bandi/2021/01/03.05.%20Allegato_5_Dichiarazione_Offerta%20economica%20.pdf
+  - /assets/bandi/2021/01/03.06.%20AS%20SDAPA%20Azure%20-%20Allegato%206%20-%20Classificazione%20CSP%20(Documento%20AGID)%20(1).pdf
+  - /assets/bandi/2021/01/03.07.%20Allegato_7%20Capitolato%20Tecnico.pdf
+  - /assets/bandi/2021/01/03.08.%20Allegato_8_AS%20SDAPA%20Azure%20-%20Capitolato%20tecnico%20Parte%20II%20-%20ID%202652750.pdf
+  - /assets/bandi/2021/01/03.09.%20Allegato_9_Progetto%20ai%20sensi%20dell%E2%80%99art.%2023%20commi%2014%20e%2015%20del%20Codice.pdf
+  - /assets/bandi/2021/01/03.10.%20Allegato_10_Prospetto%20economico%20AS%20Sda%20ICT%20_%20ID%202652750.pdf
+  - /assets/bandi/2021/01/03.11.%20Allegato_11_Schema%20di%20contratto_AS%20Sda%20ICT%20_%20ID%202652750.pdf
+  - /assets/bandi/2021/02/All_a_Servizio_Assistenza_PagoPA.pdf
+  - /assets/bandi/2021/02/All_b_Flussi_di_Lavoro.pdf
+  - /assets/bandi/2021/02/All_c_Livelli_di_Servizio_e_Penali.pdf
+  - /assets/bandi/2021/02/All_d_Infrastruttura_tecnologica.pdf
+  - /assets/bandi/2021/02/All_e_Schema_DPA.pdf
+  - /assets/bandi/2021/02/Allegato%2001%20Relazione%20tecnico%20illustrativa.pdf
+  - /assets/bandi/2021/02/Allegato%2002%20Bando%20di%20gara.pdf
+  - /assets/bandi/2021/02/Allegato%2003%20Disciplinare%20di%20gara.pdf
+  - /assets/bandi/2021/02/Allegato%2004%20Domanda%20di%20partecipazione.pdf
+  - /assets/bandi/2021/02/Allegato%2005%20MODELLO%20per%20avvalimento%20per%20impresa%20ausiliaria.pdf
+  - /assets/bandi/2021/02/Allegato%2006%20MODELLO%20per%20dichiarazioni%20ulteriori.pdf
+  - /assets/bandi/2021/02/Allegato%2007%20MODELLO%20DGUE.pdf
+  - /assets/bandi/2021/02/Allegato%2008%20Dichiarazione%20sostitutiva%20antimafi.pdf
+  - /assets/bandi/2021/02/Allegato%2009%20Modulo%20per%20attestazione%20pagamento%20imposta%20di%20bollo.pdf
+  - /assets/bandi/2021/02/Allegato%2010%20Schema%20Accordo%20Quadro%20Contact%20Center.pdf
+  - /assets/bandi/2021/02/Allegato%2012%20Elenco%20del%20personale%20attualmente%20impiegato.pdf
+  - /assets/bandi/2021/02/Capitolato_tecnico_servizi_CC.pdf
+  - /assets/bandi/2021/02/Determina%20a%20contrarre_Contact%20Center.pdf
+  - /assets/bandi/2021/02/Nomina%20-%20della%20Commissione%20per%20la%20gara%20relativa%20all'affidamento%20del%20Servizio%20Contact%20Center.pdf
+  - /assets/bandi/2021/02/Nomina%20CV-1%20membro%20della%20Commissione%20giudicatrice.pdf
+  - /assets/bandi/2021/02/Nomina%20CV-2%20membro%20della%20Commissione%20giudicatrice.pdf
+  - /assets/bandi/2021/02/Nomina%20CV-3%20membro%20della%20Commissione%20giudicatrice.pdf
+  - /assets/bandi/2021/03/01.%20determina%20OdF%20integrativi%20n.%205%20e%20n.%206.pdf
+  - /assets/bandi/2021/04/All.%2002%20CAPITOLATO%20SERVIZI%20VA_PT%20E%20SC.pdf
+  - /assets/bandi/2021/04/All.%2003%20-%20Disciplinare%20Telematico.docx.pdf
+  - /assets/bandi/2021/04/AVVISO%20DI%20MANIFESTAZIONE%20DI%20INTERESSE.docx.pdf
 ---
-
-Questa sezione contiene documenti, informazioni e dati organizzati secondo lo schema indicato da:
-
-- [D.Lgs. n. 33/2013](http://www.gazzettaufficiale.it/eli/id/2013/04/05/13G00076/sg) "Riordino della disciplina riguardante gli obblighi di pubblicità, trasparenza e diffusione di informazioni da parte delle pubbliche amministrazioni", come modificato dal D.Lgs. n. 97/2016;
-
-- [Determinazione n. 1134 dell'Autorità nazionale Anticorruzione](http://www.anticorruzione.it/portal/public/classic/AttivitaAutorita/AttiDellAutorita/_Atto?ca=7019) "Nuove linee guida per l'attuazione della normativa in materia di prevenzione della corruzione e trasparenza da parte delle società e degli enti di diritto privato controllati e partecipati dalle pubbliche amministrazioni e degli enti pubblici economici" dell'8 novembre 2017
-
-<div class="link-list-wrapper">
-  <ul class="link-list">
-    <li><a class="list-item icon-left" href="{% link it/pagopa-spa/societa-trasparente/disposizioni-generali/index.md %}">
-        <svg class="icon icon-primary"><use xlink:href="{{ site.baseurl }}{{ site.data.t.sprite-url }}#it-chevron-right"></use></svg>
-        <span>Disposizioni generali</span>
-    </a></li>
-    <li><a class="list-item icon-left" href="{% link it/pagopa-spa/societa-trasparente/organizzazione/index.md %}">
-      <svg class="icon icon-primary"><use xlink:href="{{ site.baseurl }}{{ site.data.t.sprite-url }}#it-chevron-right"></use></svg>
-      <span>Organizzazione</span>
-    </a></li>
-    <li><a class="list-item icon-left" href="{% link it/pagopa-spa/societa-trasparente/personale/index.md %}">
-      <svg class="icon icon-primary"><use xlink:href="{{ site.baseurl }}{{ site.data.t.sprite-url }}#it-chevron-right"></use></svg>
-      <span>Personale</span>
-    </a></li>
-    <li><a class="list-item icon-left" href="{% link it/pagopa-spa/societa-trasparente/consulenti-e-collaboratori/index.md %}">
-      <svg class="icon icon-primary"><use xlink:href="{{ site.baseurl }}{{ site.data.t.sprite-url }}#it-chevron-right"></use></svg>
-      <span>Consulenti e collaboratori</span>
-    </a></li>
-    <li><a class="list-item icon-left" href="{% link it/pagopa-spa/societa-trasparente/selezione-del-personale/index.md %}">
-      <svg class="icon icon-primary"><use xlink:href="{{ site.baseurl }}{{ site.data.t.sprite-url }}#it-chevron-right"></use></svg>
-      <span>Selezione del personale</span>
-    </a></li>
-    <li><a class="list-item icon-left" href="{% link it/pagopa-spa/societa-trasparente/bandi-gara-contratti/index.md %}">
-      <svg class="icon icon-primary"><use xlink:href="{{ site.baseurl }}{{ site.data.t.sprite-url }}#it-chevron-right"></use></svg>
-      <span>Bandi di gara e contratti</span>
-    </a></li>
-    <li><a class="list-item icon-left" href="{% link it/pagopa-spa/societa-trasparente/bilanci/index.md %}">
-      <svg class="icon icon-primary"><use xlink:href="{{ site.baseurl }}{{ site.data.t.sprite-url }}#it-chevron-right"></use></svg>
-      <span>Bilanci</span>
-    </a></li>
-    <li><a class="list-item icon-left" href="{% link it/pagopa-spa/societa-trasparente/immobili-e-patrimonio/index.md %}">
-      <svg class="icon icon-primary"><use xlink:href="{{ site.baseurl }}{{ site.data.t.sprite-url }}#it-chevron-right"></use></svg>
-      <span>Beni immobili e gestione patrimonio</span>
-    </a></li>
-    <li><a class="list-item icon-left" href="{% link it/pagopa-spa/societa-trasparente/controlli-rilievi/index.md %}">
-      <svg class="icon icon-primary"><use xlink:href="{{ site.baseurl }}{{ site.data.t.sprite-url }}#it-chevron-right"></use></svg>
-      <span>Controlli e rilievi sull'amministrazione</span>
-    </a></li>
-    <li><a class="list-item icon-left" href="{% link it/pagopa-spa/societa-trasparente/altri-contenuti/anticorruzione/index.md %}">
-      <svg class="icon icon-primary"><use xlink:href="{{ site.baseurl }}{{ site.data.t.sprite-url }}#it-chevron-right"></use></svg>
-      <span>Altri contenuti</span>
-    </a></li>
-  </ul>
-</div>
- 
-**Privacy**: i dati personali pubblicati sono riutilizzabili solo alle condizioni previste dalla normativa vigente sul riuso dei dati pubblici (direttiva comunitaria 2003/98/CE e D.Lgs. 36/2006 di recepimento della stessa) in termini compatibili con gli scopi per i quali sono stati raccolti e nel rispetto delle norme sulla protezione dei dati personali.
-
-<hr>
-
-<div class="small" role="alert">
-<b>Dati di accesso a questa sezione</b> (aggiornati al 31/12/2020): numero di accessi 23. 561, tempo medio di permanenza 46''.
-</div>

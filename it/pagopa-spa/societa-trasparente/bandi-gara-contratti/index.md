@@ -6,7 +6,13 @@ lang: it
 ref: bandi-gara-contratti
 order: 25
 child_of_ref: societa-trasparente
+sitemap: false
+redirect_to: https://pagopa.portaleamministrazionetrasparente.it/pagina566_bandi-di-gara-e-contratti.html
+redirect_from:
+  - /it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/
+  - /it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2019/
+  - /it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/
+  - /it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2021/
+  - /it/pagopa-spa/societa-trasparente/bandi-gara-contratti/tabelle/
+  - /it/pagopa-spa/societa-trasparente/bandi-gara-contratti/tabelle/2020/
 ---
-
-* [Atti delle amministrazioni aggiudicatrici e degli enti aggiudicatori distintamente per ogni procedura](./atti-amministrazioni-aggiudicatrici)
-* [Pubblicazioni ex art. 1, comma 32, L. 190/2012](./tabelle/)

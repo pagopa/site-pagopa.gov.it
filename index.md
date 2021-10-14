@@ -1,65 +1,74 @@
 ---
 layout: default
 title: Home
-hero_title: Pagamenti semplici e sicuri per la Pubblica Amministrazione
-hero_description: pagoPA è la piattaforma digitale che consente ai cittadini di pagare in modo più naturale, veloce e moderno e che solleva le amministrazioni dai costi e dai ritardi dei metodi di incasso tradizionali.
+hero_title: Paga come vuoi,<br>quando vuoi!
+hero_description: pagoPA è la piattaforma digitale che ti permette di effettuare pagamenti verso la Pubblica Amministrazione e non solo, in maniera trasparente e intuitiva.
 lang: it
 ref: homepage
+redirect_from:
+  - /it/pagopa/
 order: 1
+blocks: 
+  - title: Un sistema semplice e trasparente per i tuoi pagamenti verso le PA
+    label: Per i cittadini
+    body: "pagoPA è la piattaforma nazionale che ti permette di scegliere, secondo le tue abitudini e preferenze, come pagare tributi, imposte o rette verso la Pubblica Amministrazione e altri soggetti aderenti che forniscono servizi al cittadino."
+    buttons:
+      - label: Scopri di più
+        url: "/it/cittadini/vantaggi/"
+        css: "btn  btn-primary px-5 d-block d-lg-inline mr-lg-3 mb-2"
+      - label: Dove pagare
+        url: "/it/cittadini/dove-pagare/"
+        css: "btn btn-outline-primary px-5 d-block d-lg-inline"
+    img: "/assets/images/home/home-1.jpg"
+  - title: Un modo più semplice per gestire e rendicontare i pagamenti
+    label: Per le Pubbliche Amministrazioni
+    body: "pagoPA permette alle Pubbliche Amministrazioni di gestire gli incassi in modo centralizzato, offrendo servizi automatici di rendicontazione e riconciliazione con un significativo risparmio nei costi di gestione."
+    buttons:
+      - label: Scopri di più
+        url: "/it/pubbliche-amministrazioni/vantaggi/"
+        css: "btn  btn-primary px-5 d-block d-lg-inline mr-lg-3 mb-2"
+      - label: Come aderire
+        url: "/it/pubbliche-amministrazioni/come-aderire/"
+        css: "btn btn-outline-primary px-5 d-block d-lg-inline"
+    img: "/assets/images/home/home-2.jpg"
+  - title: Milioni di cittadini e imprese da raggiungere con i tuoi servizi
+    label: Per i PSP
+    body: "Con pagoPA, hai un accesso diretto al settore dei pagamenti per i servizi pubblici e puoi promuovere la tua offerta multicanale da un'unica piattaforma, portando valore aggiunto a una vasta platea di nuovi utenti."
+    buttons:
+      - label: Scopri di più
+        url: "/it/prestatori-servizi-di-pagamento/vantaggi/"
+        css: "btn  btn-primary px-5 d-block d-lg-inline mr-lg-3 mb-2"
+      - label: Come aderire
+        url: "/it/prestatori-servizi-di-pagamento/come-aderire/"
+        css: "btn btn-outline-primary px-5 d-block d-lg-inline"
+    img: "/assets/images/home/home-3.jpg"
 ---
 
 {% include hero.html %}
 
 <main>
-<div  class="container my-5 ">
-    <div class="row">
-        <div class="col-12">
-            {% include pages/home/home-video.html %}
-        </div>
+<div  class="container my-3 my-md-5 ">
+    <section class="my-3 my-lg-5">
+      {% for block in page.blocks %}
+        {% capture alt %}{% cycle "odd","even" %}{%endcapture%}
+        {% include components/text-block.html alt=alt source=block %}
+      {%endfor%}
+    </section>
+    <section class="my-3 my-md-5">
+      {% include components/grid-posts.html %}
+    </section>
+    <section class="my-3 my-md-5">
+      {% include components/dashboard.html %}
+    </section>
     </div>
-    <div class="row" id="newsletter">
+</main>
+<div class="py-3"></div>
+<section id="newsletter" class="section-newsletter" >
+        <div class="container py-3 py-lg-5">
+          <div class="row">
             <div class="col-12 col-lg-8 offset-lg-2">
                 {% include pages/home/home-newsletter-box.html %}
             </div>
-        </div>
-    </div>
-</main>
-
-<div class="col-12">
-  <div class="section section-muted">
-    <div class="section-content">
-      <div class="card-deck">
-        <div class="card shadow border-0 mg-md-4">
-          <div class="card-header">
-            Pubbliche Amministrazioni
-          </div>
-          <div class="card-body">
-            <p class="card-text"><b>Tutte le Pubbliche Amministrazioni devono aderire al nuovo sistema per legge</b>, e possono integrarsi sia in modalità diretta che in modalità indiretta per mezzo di intermediari tecnologici.</p>
-            <a class="read-more" href="{{ site.baseurl }}/it/pubbliche-amministrazioni">
-              <span class="text">Leggi di più</span>
-              <svg class="icon">
-                <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
-              </svg>
-            </a>
           </div>
         </div>
-        <div class="card shadow border-0 mg-md-4">
-          <div class="card-header">
-            Prestatori Servizi di Pagamento
-          </div>
-          <div class="card-body">
-            <p class="card-text">I Prestatori di Servizi di Pagamento (PSP) come <b>le banche, le poste, gli istituti di pagamento e ogni altro soggetto abilitato ad eseguire servizi di pagamento</b>, aderiscono su base volontaria al sistema pagoPA, per erogare i propri servizi di pagamento a cittadini e imprese attraverso il nodo di pagoPA.</p>
-            <a class="read-more" href="{{ site.baseurl }}/it/prestatori-servizi-di-pagamento">
-              <span class="text">Leggi di più</span>
-              <svg class="icon">
-                <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-arrow-right"></use>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- contenuto di esempio END -->
-    </div>
-
-  </div>
-</div>
+</section>
