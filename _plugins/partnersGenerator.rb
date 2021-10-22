@@ -17,7 +17,14 @@ Jekyll::Hooks.register :site, :after_init do |doc, payload|
         downloadFiles.each do |fileName| 
             dirname = "_data/"
             fileitem = Down.download(downloadHost + fileName, open_timeout: 5)
-            File.write(dirname + fileName, fileitem.read)
+            # try to avoid 'NaN' values
+            if fileName.include? ".yml"
+                filecontent = fileitem.read
+                filecontent_clean = filecontent.gsub! '.nan', ''
+                File.write(dirname + fileName, filecontent_clean)
+            else
+                File.write(dirname + fileName, fileitem.read)
+            end
         end
     rescue
         # fallback in case we cannot download the source file
