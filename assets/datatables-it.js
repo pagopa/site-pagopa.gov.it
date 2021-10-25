@@ -116,5 +116,4 @@ $(document).ready(function() {
             $intermediaritable.column(2).search('').draw();
         }
     });
-
 });
