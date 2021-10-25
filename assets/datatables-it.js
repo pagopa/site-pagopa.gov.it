@@ -29,8 +29,11 @@ $(document).ready(function() {
         "ordering": false,
         "language": it_datatables,
         "dom": "tip",
+        "drawCallback": function( settings ) {
+            $('[data-toggle="tooltip"]').tooltip();
         }
-        );
+        }
+    );
     $('#elencopsp__search').keyup(function() {
         var value = $(this).val();
         $elencopsp.search(value).draw();
@@ -113,5 +116,5 @@ $(document).ready(function() {
             $intermediaritable.column(2).search('').draw();
         }
     });
-    $('[data-toggle="tooltip"]').tooltip();
+
 });
