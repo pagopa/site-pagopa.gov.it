@@ -4,6 +4,7 @@ layout: default
 {% assign partner = site.data.partner-dettagli | where_exp:"item","item['ragionesociale'] == page.title" | first %}
 {% assign enti = site.data.ec_pt | where_exp: "item", "item['denominazione Ente']" | where_exp: "item", "item['Codice Fiscale'] contains partner['CF']"  %}
 {% assign enti_group = enti | sort: "denominazione Ente" | group_by_exp: "name","name['denominazione Ente'] | slice: 0,1"  %}
+{% assign intermediario = site.data.intermediari['PT'] | where_exp:"item","item['Codice Fiscale'] contains page['CF del Contraente']" | first %}
 
 <div class="{% if page.layout_extra == nil %}container{%endif%} my-2">
   {%- include breadcrumbs.html -%}
@@ -16,7 +17,11 @@ layout: default
     <div class="col-12">
       <div class="mx-md-3">
         <h1>{{ page.title }}</h1>
-        <p class="lead">Partner qualificato con {{enti.size}} enti intermediati</p>
+
+        <p class="lead">Partner qualificato 
+        {% if intermediario['Conteggio di denominazione Ente'] %}
+        con {{intermediario['Conteggio di denominazione Ente']}} enti intermediati</p>
+        {% endif %}
 
         <div class="entry">
          <div class="row">
