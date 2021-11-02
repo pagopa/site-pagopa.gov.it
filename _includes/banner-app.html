@@ -1,51 +1,56 @@
 <div class="banner-app">
-    <div class="banner-app__inner">
-        <div class="row">
-            
-            <div class="col-12 col-lg-8">
-                <div class="banner-app__title d-flex align-items-center">
-                    <img class="mr-2" src="/assets/images/logo-io-servizi.svg" alt="Logo App IO">
-                    <span>Paga con IO</span>
-                </div>
-                <div class="banner-app__body">
-                    <ul class="list-unstyled">
-                        <li class="list-item">
-                            <svg class="icon icon-sm icon-white mr-2">
-                                <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-check"></use>
-                            </svg>
-                            Usa i metodi di pagamento salvati nel tuo Portafoglio 
-                        </li>
-                        <li class="list-item my-2">
-                            <svg class="icon icon-sm icon-white mr-2">
-                                <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-check"></use>
-                            </svg>
-                            Scegli il gestore della transazione (PSP) a te più conveniente
-                        </li>
-                        <li class="list-item">
-                            <svg class="icon icon-sm icon-white mr-2">
-                                <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-check"></use>
-                            </svg>
-                            Conserva le ricevute in un unico posto 
-                        </li>
-                    </ul>
-                    <div class="mt-3 mt-md-5">
-                        <a href="https://io.italia.it" title="Scarica l'app" class="btn btn-sm btn-primary px-5 mr-md-2 mb-2 d-block d-md-inline">Scarica l'app</a>
-                        <a href="#" title="Guarda il video" class="btn btn-sm btn-outline-primary px-5 playvideo mb-2 mb-md-0 d-block d-md-inline"
-                        data-url="https://www.youtube.com/embed/2URN1LNLpbU?rel=0" 
-                        >Guarda il video</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-4 ">
-                <div class="banner-app__preview position-relative text-center d-none d-lg-block">
-                    <img alt="Schermata App IO" srcset="
-                    /assets/images/appIO-2x.png 2x,
-                    /assets/images/appIO.png 1x
-                    "
-                    src="/assets/images/appIO.png">
-                </div>
-            </div>
+    <div class="row">
+        <div class="col-12 col-md-6 d-md-flex">
+            <div class="banner-app__inner  ">
+                        <div class="banner-app__title d-flex align-items-center">
+                            <span>Paga con IO</span>
+                            <img class="ml-auto" src="/assets/images/logo-io-servizi.svg" alt="Logo App IO">
+                        </div>
+                        <div class="banner-app__body d-flex flex-column">
+                            <ul class="list-unstyled mb-3 mb-md-5">
+                                <li class="list-item">
+                                    <svg class="icon icon-sm icon-white mr-2">
+                                        <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-check"></use>
+                                    </svg>
+                                    Usa i metodi di pagamento salvati nel tuo Portafoglio 
+                                </li>
+                                <li class="list-item my-2">
+                                    <svg class="icon icon-sm icon-white mr-2">
+                                        <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-check"></use>
+                                    </svg>
+                                    Scegli il gestore della transazione (PSP) a te più conveniente
+                                </li>
+                                <li class="list-item">
+                                    <svg class="icon icon-sm icon-white mr-2">
+                                        <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-check"></use>
+                                    </svg>
+                                    Conserva le ricevute in un unico posto 
+                                </li>
+                            </ul>
+                            <div class="mt-auto">
+                                <a role="button" href="https://io.italia.it" title="Scarica l'app" class="btn btn-sm btn-primary px-5 mr-md-2 mb-2 d-block d-md-inline">Scarica l'app</a>
+                                <a role="button" href="#" title="Guarda il video" class="btn btn-sm btn-outline-primary px-5 playvideo mb-2 mb-md-0 d-block d-md-inline"
+                                data-url="https://www.youtube.com/embed/2URN1LNLpbU?rel=0" 
+                                >Guarda il video</a>
+                            </div>
+                        </div>
+            </div><!--/banner-app__inner-->
         </div>
-    </div><!--/banner-app__inner-->
+    <div class="col-12 col-md-6 d-md-flex">
+        <div class="banner-app__inner d-flex flex-column mt-2 mt-md-0">
+                    <div class="banner-app__title d-flex align-items-center">
+                        <span>Non hai l’app? Paga online</span>
+                    </div>
+                    <div class="banner-app__body d-flex flex-column">
+                        <p class="mb-3">Usa la tua carta di credito o debito e paga il tuo avviso senza alcuna registrazione. 
+                            <strong>Potrai scegliere il gestore della transazione (PSP) a te più conveniente.</strong></p>
+                        <div class="mt-auto">
+                            <a role="button" href="https://checkout.pagopa.it/" title="Paga ora" class="btn btn-sm btn-primary px-5 mr-md-2 mb-2 d-block d-md-inline"
+                            >Paga ora</a>
+                        </div>
+                    </div>
+        </div><!--/banner-app__inner-->
+    </div><!--col -->
+    </div><!--/row-->
 </div>
 {% include videoplayer.html %}

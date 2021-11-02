@@ -141,3 +141,9 @@ navigation:
     news:
       name: "Notizie"
       url: "/it/notizie/"
+    paga:
+      name: "Paga"
+      url: "/it/cittadini/dove-pagare/"
+      role: "button"
+      css: "ml-auto d-none d-lg-flex"
+      css_inner: "btn btn-white text-primary py-1 px-5"
