@@ -1,3 +1,5 @@
+{% assign buildTime = site.time | date: '%Y%m%d%H%M' %}
+
 <!-- window.__PUBLIC_PATH__ points to fonts folder location -->
 <script src="{{ site.baseurl }}/assets/fonts.js"></script>
 
@@ -8,7 +10,7 @@
 <script src="{{ site.baseurl }}/assets/bootstrap-italia/dist/js/bootstrap-italia.min.js"></script>
 
 <!-- Main JS -->
-<script src="{{ site.baseurl }}/assets/main.js"></script>
+<script src="{{ site.baseurl }}{{'/assets/main.js?' | append: buildTime }}"></script>
 <script src="{{ site.baseurl }}/assets/animate.js"></script>
 
 <!-- Custom --->
