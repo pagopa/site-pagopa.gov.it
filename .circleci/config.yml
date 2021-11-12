@@ -22,7 +22,9 @@ anchor_2: &add_ssh_keys
   fingerprints:
     - "23:6b:c6:c6:90:b3:65:e6:84:01:b7:4e:c8:c1:e8:4d"
 
-version: 2
+version: 2.1
+orbs:
+  aws-cli: circleci/aws-cli@2.0.3
 jobs:
   build:
     <<: *defaults
@@ -80,11 +82,18 @@ jobs:
 
   deploy:
     <<: *defaults
+    executor: aws-cli/default
     steps:
       - attach_workspace:
           at: /home/circleci
 
       - add_ssh_keys: *add_ssh_keys
+
+      # Deploy the site to AWS
+      - aws-cli/install
+      - run:
+          name: "Deploy to S3"
+          command: aws s3 sync _site "s3://$AWS_BUCKET_NAME" --delete
 
       # Deploy the site to GitHub Pages
       - checkout:
