@@ -93,8 +93,8 @@ jobs:
       - aws-cli/install
       - run:
           name: "Deploy to S3 & refresh Cloudfront"
-          command: |
-            aws s3 sync _site "s3://$AWS_BUCKET_NAME" --delete && aws cloudfront create-invalidation --distribution-id "$AWS_CLOUDFRONT_ID" --paths '/*'
+          command: aws s3 sync _site "s3://$AWS_BUCKET_NAME" --delete
+          #  aws s3 sync _site "s3://$AWS_BUCKET_NAME" --delete && aws cloudfront create-invalidation --distribution-id "$AWS_CLOUDFRONT_ID" --paths '/*'
 
       # Deploy the site to GitHub Pages
       - checkout:
