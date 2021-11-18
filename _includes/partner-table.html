@@ -95,7 +95,7 @@
                   </div>
                   <div class="modal-body pt-0">
                     {% assign entintermediati = intermediari | where_exp:"item", "item['Codice Fiscale'] contains ptqualificato['CF']" | first %}
-                    <a href="../partner-qualificati/{{ptqualificato['CF']}}" class="partner-table__detail__number">{{entintermediati['Conteggio di denominazione Ente']}} Enti intermediati &rarr;
+                    <a href="../partner-qualificati/{{ptqualificato['CF']}}.html" class="partner-table__detail__number">{{entintermediati['Conteggio di denominazione Ente']}} Enti intermediati &rarr;
                     </a>
                     {% include tipi-qualificati.html
                         types=page.secondtypes
