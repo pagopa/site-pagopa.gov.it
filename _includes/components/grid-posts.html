@@ -12,7 +12,7 @@
     {% for post in posts limit: postslimit %}
         <article class="col-12 col-lg-4 {% if include.readmore %}d-flex flex-column pb-3{%endif%}">
         <a class="component-posts__item  d-flex flex-column text-decoration-none {% if include.readmore %}mb-2{%endif%}" title="Leggi {{post.title | inspect}}"
-           href="{{ site.baseurl }}{{ post.url }}" >
+           href="{{ site.baseurl }}{{ post.url }}.html" >
             <div class="component-posts__item__img my-3">
                         <img src="{{post.image_thumb | default: post.image | default: placeholder}}" class="img-fluid" alt="{{post.title | escape}}">
             </div>
@@ -21,7 +21,7 @@
         </a>
         {% if include.readmore %}
         <a class="component-posts__item__readmore mt-auto read-more"
-            href="{{ site.baseurl }}{{ post.url }}"
+            href="{{ site.baseurl }}{{ post.url }}.html"
            title="{{post.title | escape}}">Leggi di più &rarr;
         </a>{% endif %}
         </article>
