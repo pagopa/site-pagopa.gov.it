@@ -7,6 +7,8 @@ excerpt_separator: <!--more-->
 image: /assets/images/posts/taritefa2.png
 image_thumb: 
 child_of_ref: notizie
+redirect_from: 
+    - /it/notizie/2021-04-30-indicazioni-incasso-tributo/
 ---
 
 Il [D. M. 21 ottobre 2020](https://www.gazzettaufficiale.it/eli/id/2020/11/06/20A05962/sg) del Ministero dell’economia e delle finanze ha definito le modalità di versamento unificato, per le annualità 2021 e seguenti, della tassa sui rifiuti (TARI), della tariffa corrispettiva e del tributo per l’esercizio delle funzioni di tutela, protezione e igiene dell’ambiente (TEFA) mediante la piattaforma pagoPA. In considerazione di quanto stabilito da tale provvedimento, PagoPA spa ha introdotto una nuova modalità di generazione dell’avviso “multi-beneficiario” che a fronte di un unico pagamento  comporta l’accredito pro quota delle somme ai rispettivi Enti impositori - Comuni (che avranno un ruolo attivo) per la TARI e Provincia/Città Metropolitana/Regione (che avranno un ruolo passivo) per la TEFA.
