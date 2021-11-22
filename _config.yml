@@ -65,10 +65,10 @@ future: true
 collections:
   ptqualificati:
     output: true
-    permalink: /it/pubbliche-amministrazioni/partner-qualificati/:name
+    permalink: /it/pubbliche-amministrazioni/partner-qualificati/:name.html
   posts:
     output: true
-    permalink: /it/notizie/:name
+    permalink: /it/notizie/:name.html
 
 defaults:
   - scope:
