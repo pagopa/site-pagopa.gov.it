@@ -25,10 +25,12 @@
                     </use>
                   </svg>
                   </a>
+                  {% unless page.ref == 'cittadini-dove-pagare' %}
                   <a role="button" class="d-block d-lg-none btn btn-sm btn-white py-1 px-3 text-primary" rel="nofollow" href="https://checkout.pagopa.it/"
                      title="Paga online">
                   <span class="">Paga</span>
                   </a>
+                  {% endunless %}
                 </div>
               </div>
             </div>
@@ -69,13 +71,15 @@
                   {% endcomment %}
                   {% assign current_lang_menu_child_pages = site.pages | where: "lang", page.lang | where_exp: "page", "page.not_on_menu != true" | where_exp: "page", "page.order != nil" | where: "child_of_ref", menu_page_ref | sort: "order" %}
                   {% if current_lang_menu_child_pages.size == 0 %}
-                  <li class="nav-item {{menu_page_data.css}}">
-                    <a class="nav-link" href="{{menu_page_data.url}}" 
-                       {%if menu_page_data.role %}role="menu_page_data.role" {%endif%}
-                       title="{{menu_page_data.name}}">
-                      <span class="{{menu_page_data.css_inner}}">{{menu_page_data.name}}</span>
-                    </a>
-                  </li>
+                    {% unless page.ref == menu_page_data.condition_unless_ref %}
+                    <li class="nav-item {{menu_page_data.css}}">
+                      <a class="nav-link" href="{{menu_page_data.url}}" 
+                        {%if menu_page_data.role %}role="menu_page_data.role" {%endif%}
+                        title="{{menu_page_data.name}}">
+                        <span class="{{menu_page_data.css_inner}}">{{menu_page_data.name}}</span>
+                      </a>
+                    </li>
+                    {% endunless %}
                   {% else %}
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
