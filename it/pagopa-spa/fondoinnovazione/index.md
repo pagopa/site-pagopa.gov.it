@@ -15,4 +15,6 @@ redirect_from:
   - /it/pagopa-spa/fondoinnovazione/Manuale_operativo_CIE.pdf
   - /it/pagopa-spa/fondoinnovazione/Manuale_operativo_pagoPA.pdf
   - /it/pagopa-spa/fondoinnovazione/Manuale_operativo_Spid.pdf
+  - /it/pagopa/documentazione/
+  - /fondoinnovazione/
 ---
