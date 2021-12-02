@@ -249,8 +249,9 @@ $(function() {
     });
 
     // track Checkout site calls
-    $("a[href^='https://checkout.pagopa.it']").click(function(event) {
-        ga('send', 'event', 'button', 'click', 'Paga con Checkout', 1);
+    $("*[data-ga-send-title]").click(function() {
+        var sendTitle = $(this).attr('data-ga-send-title') || "";
+        ga('send', 'event', 'button', 'click', sendTitle, 1);
     });
 
 

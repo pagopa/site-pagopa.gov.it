@@ -145,5 +145,6 @@ navigation:
       name: "Paga"
       url: "/it/cittadini/dove-pagare/"
       role: "button"
+      condition_unless_ref: "cittadini-dove-pagare"
       css: "ml-auto d-none d-lg-flex"
       css_inner: "btn btn-white text-primary py-1 px-5"
