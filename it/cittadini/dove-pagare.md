@@ -48,7 +48,7 @@ pagaoffline:
 
 {% include banner-app.html %}
 
-<div class="py-2 py-md-4"></div>
+<div class="py-4"></div>
 
 {:.heading-border-bottom .pb-2 .my-md-5}
 ### Paga online

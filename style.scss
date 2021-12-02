@@ -753,7 +753,7 @@ body.page--partner-intermediari-elenco {
 
 .banner-app {
   &__inner {
-    box-shadow: 0px 0px 80px rgba(0, 43, 85, 0.1);
+    box-shadow: 0px 0px 30px rgba(0, 43, 85, 0.1);
     background-color: #fff;
     padding: 2rem;
   }
@@ -763,6 +763,7 @@ body.page--partner-intermediari-elenco {
   }
   &__body {
     margin-top: 1rem;
+    flex: 1;
 
     .icon {
       background-color: #00cf86;
