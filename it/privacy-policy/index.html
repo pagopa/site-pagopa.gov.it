@@ -124,13 +124,18 @@
             <div class="it-right-zone flex-column">
               <div class="it-helpdesk d-md-flex">
                 <div class="it-btn-container">
-                  <a class="d-block it-helpdesk-anchor" href="/it/helpdesk/">
+                  <a class="d-none d-lg-block it-helpdesk-anchor" href="/it/helpdesk/"
+                     title="Visita la pagina di aiuto all'uso della piattaforma">
                   <span class="mr-2">Serve aiuto?</span>
-                  <svg class="icon icon-primary it-helpdesk-icon d-none d-lg-inline">
+                  <svg class="icon icon-primary it-helpdesk-icon d-none d-lg-inline" aria-hidden="true">
                     <use
                       xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-comment">
                     </use>
                   </svg>
+                  </a>
+                  <a role="button" class="d-block d-lg-none btn btn-sm btn-white py-1 px-3 text-primary" rel="nofollow" href="https://checkout.pagopa.it/"
+                     title="Paga online">
+                  <span class="">Paga</span>
                   </a>
                 </div>
               </div>
@@ -283,13 +288,34 @@
                   
                   
                   
-                  <li class="nav-item">
-                    <a class="nav-link" href="/it/notizie/"><span>Notizie</span></a>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="/it/notizie/" 
+                       
+                       title="Notizie">
+                      <span class="">Notizie</span>
+                    </a>
+                  </li>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <li class="nav-item ml-auto d-none d-lg-flex">
+                    <a class="nav-link" href="/it/cittadini/dove-pagare/" 
+                       role="menu_page_data.role" 
+                       title="Paga">
+                      <span class="btn btn-white text-primary py-1 px-5">Paga</span>
+                    </a>
                   </li>
                   
                   
                 </ul>
                 <ul class="navbar-nav navbar-other mt-auto mb-3 d-lg-none">
+                  <li class="nav-item py-0 ">
+                    <a class="nav-link  px-3 py-2 font-weight-normal" href="/it/helpdesk/" title="Visita la pagina di aiuto all'uso della piattaforma">Serve aiuto?</a>
+                  </li>
                   <li class="nav-item py-0 ">
                     <a class="nav-link  px-3 py-2 font-weight-normal" href="https://www.pagopa.it" title="Visita il sito web aziendale">PagoPA S.p.A.</a>
                   </li>
@@ -533,7 +559,7 @@ L’Utente  può cancellare in ogni momento autonomamente l’iscrizione dalla n
 <script src="/assets/bootstrap-italia/dist/js/bootstrap-italia.min.js"></script>
 
 <!-- Main JS -->
-<script src="/assets/main.js?202112011207"></script>
+<script src="/assets/main.js?202112020907"></script>
 <script src="/assets/animate.js"></script>
 
 <!-- Custom --->
