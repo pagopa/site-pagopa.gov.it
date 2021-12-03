@@ -53,6 +53,14 @@
     - 
       label: Asset grafici
       url: "https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/materiale_sviluppatori/avviso-pagopa-assets.zip"
+- title: "Brand Assets"
+  docs:
+    -
+      label: Regolamento
+      url: "https://www.pagopa.gov.it/assets/download/pagoPA-regolamento-marchio.pdf"
+    -
+      label: Brand Guidelines
+      url: "https://www.pagopa.gov.it/assets/download/pagoPA-brand-guidelines.pdf"
 - title: "Portale TARI/TEFA"
   docs:
     - 
