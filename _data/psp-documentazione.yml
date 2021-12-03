@@ -42,3 +42,11 @@
     - 
       label: Service Agreement for Subscription to the pagoPA Electronic Payments System
       url: 'https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/pagopa-service-agreement-psp.pdf'
+- title: "Brand Assets"
+  docs:
+    -
+      label: Regolamento
+      url: "https://www.pagopa.gov.it/assets/download/pagoPA-regolamento-marchio.pdf"
+    -
+      label: Brand Kit pagoPA
+      url: "https://www.pagopa.gov.it/assets/download/pagoPA-brand-guidelines.pdf"
