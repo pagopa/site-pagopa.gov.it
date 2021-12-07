@@ -35,7 +35,7 @@ vantaggi:
     -
       title: Intermediario tecnologico
       noshadow: true
-      desc: "È un soggetto appartenente alla Pubblica Amministrazione che offre ad altri soggetti aderenti, PSP e/o Enti Creditori, un servizio tecnologico per il collegamento e per lo scambio dei flussi con la piattaforma pagoPA, nel pieno rispetto delle Linee Guida."
+      desc: "È un soggetto appartenente alla Pubblica Amministrazione che offre ad altri soggetti aderenti un servizio tecnologico per il collegamento e per lo scambio dei flussi con la piattaforma pagoPA, nel pieno rispetto delle Linee Guida."
       img: "/assets/images/pictograms/payments.svg"
       more:
         label: Vedi gli intermediari 
