@@ -249,9 +249,15 @@ $(function() {
     });
 
     // track Checkout site calls
-    $("*[data-ga-send-title]").click(function() {
+    $("*[data-ga-send-title]").click(function(e) {
+        e.preventDefault();
         var sendTitle = $(this).attr('data-ga-send-title') || "";
-        ga('send', 'event', 'button', 'click', sendTitle, 1);
+        var sendUrl = $(this).attr('href') || "";
+        ga('send', 'event', 'button', 'click', sendTitle, 1, {
+            hitCallback: function() {
+                window.location.href = sendUrl;
+            }
+          });
     });
 
 
