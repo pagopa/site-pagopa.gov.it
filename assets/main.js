@@ -253,11 +253,16 @@ $(function() {
         e.preventDefault();
         var sendTitle = $(this).attr('data-ga-send-title') || "";
         var sendUrl = $(this).attr('href') || "";
-        ga('send', 'event', 'button', 'click', sendTitle, 1, {
-            hitCallback: function() {
-                window.location.href = sendUrl;
-            }
-          });
+        try {
+            ga('send', 'event', 'button', 'click', sendTitle, 1, {
+                hitCallback: function() {
+                    window.location.href = sendUrl;
+                }
+              });
+          } catch (error) {
+            window.location.href = sendUrl;
+        }
+        
     });
 
 
