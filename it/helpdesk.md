@@ -25,18 +25,18 @@ gridbody:
       url: "https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/index.html"
   -
     img: "/assets/images/pictograms/mail.svg"
-    title: Scrivi a helpdesk@pagopa.it
+    title: Scrivi a pagamenti@assistenza.pagopa.it
     desc: "Allega dati utili per capire meglio il tuo problema, come ad esempio i dati del pagamento, il metodo scelto e screenshot."
     more:
       label: Invia un’email
-      url: "mailto:helpdesk@pagopa.it"
+      url: "mailto:pagamenti@assistenza.pagopa.it"
   -
     img: "/assets/images/pictograms/telefono.svg"
-    title: Chiamaci allo 02/66897805
+    title: Chiamaci allo 06/45202323
     desc: "Tieni a portata la documentazione in tuo possesso, così gli operatori potranno aiutarti al meglio."
     more:
       label: Chiama
-      url: "tel://+390266897805"
+      url: "tel://+390645202323"
 ---
 
 {%include components/grid-simple.html 
