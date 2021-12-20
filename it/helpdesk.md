@@ -32,7 +32,7 @@ gridbody:
       url: "mailto:pagamenti@assistenza.pagopa.it"
   -
     img: "/assets/images/pictograms/telefono.svg"
-    title: Chiamaci allo 06/45202323
+    title: Chiamaci allo 06.4520.2323
     desc: "Tieni a portata la documentazione in tuo possesso, così gli operatori potranno aiutarti al meglio."
     more:
       label: Chiama
