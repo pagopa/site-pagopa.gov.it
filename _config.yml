@@ -66,6 +66,9 @@ collections:
   ptqualificati:
     output: true
     permalink: /it/pubbliche-amministrazioni/partner-qualificati/:name.html
+  pspservizi:
+    output: true
+    permalink: /it/prestatori-servizi-di-pagamento/elenco-PSP-attivi/:name.html
   posts:
     output: true
     permalink: /it/notizie/:name.html

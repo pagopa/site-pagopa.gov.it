@@ -1,0 +1,99 @@
+{
+  "last_Run": "20211217",
+  "notebookVersion": "0.1.0",
+  "content":
+      [
+      {
+          "psp_rag_soc": "Intesa Sanpaolo S.p.A",
+          "cf": "IS1",
+          "content": [
+              {
+                  "nome_servizio": "CBILL",
+                  "canale_mod_pag": 4.0,
+                  "descrizione_canale_mod_pag": " Modello di pagamento attivato presso il psp",
+                  "inf_desc_serv": "Con CBILL \u00e8 possibile pagare avvisi pagoPA. Eur 1,30 su ATM - Internet Banking e Inbiz Imprese. Eur 3,50 per pagamenti sportello/contanti",
+                  "importo_minimo": 0.0,
+                  "importo_massimo": 99999999.99,
+                  "costo_fisso": 1.3,
+                  "on_us": "N"
+              },
+              {
+                  "nome_servizio": "Pagamento con Carte",
+                  "canale_mod_pag": 1.0,
+                  "descrizione_canale_mod_pag": "Modello di pagamento immediato multibeneficiario",
+                  "inf_desc_serv": "Clienti e non delle Banche del Gruppo Intesa Sanpaolo possono disporre pagamenti con carte di pagamento VISA-MASTERCARD",
+                  "importo_minimo": 500.0,
+                  "importo_massimo": 1500.0,
+                  "costo_fisso": 2.0,
+                  "on_us": "Y"
+              },
+              {
+                  "nome_servizio": "Pagamento con Carte",
+                  "canale_mod_pag": 1.0,
+                  "descrizione_canale_mod_pag": "Modello di pagamento immediato multibeneficiario",
+                  "inf_desc_serv": "Clienti e non delle Banche del Gruppo Intesa Sanpaolo possono disporre pagamenti con carte di pagamento VISA-MASTERCARD",
+                  "importo_minimo": 150.0,
+                  "importo_massimo": 500.0,
+                  "costo_fisso": 1.25,
+                  "on_us": "Y"
+              },
+              {
+                  "nome_servizio": "Pago in Conto",
+                  "canale_mod_pag": 1.0,
+                  "descrizione_canale_mod_pag": "Modello di pagamento immediato multibeneficiario",
+                  "inf_desc_serv": "Il servizio e' disponibile per tutti i clienti del Gruppo Intesa Sanpaolo titolari del contratto servizi via Internet",
+                  "importo_minimo": 0.0,
+                  "importo_massimo": 999999999.99,
+                  "costo_fisso": 0.0,
+                  "on_us": "N"
+              },
+              {
+                  "nome_servizio": "PayPal",
+                  "canale_mod_pag": 1.0,
+                  "descrizione_canale_mod_pag": "Modello di pagamento immediato multibeneficiario",
+                  "inf_desc_serv": "Con PayPal puoi pagare su PagoPA online in modo facile e sicuro. Commissioni \u20ac1,50. Si applicano le condizioni di uso PayPal",
+                  "importo_minimo": 0.0,
+                  "importo_massimo": 999999999.99,
+                  "costo_fisso": 1.5,
+                  "on_us": "N"
+              }
+          ]
+      },
+      {
+          "psp_rag_soc": "Banca Monte dei Paschi di Siena",
+          "cf": "BMPS2",
+          "content": [
+              {
+                  "nome_servizio": "Pagamento CBILL",
+                  "canale_mod_pag": 4.0,
+                  "descrizione_canale_mod_pag": " Modello di pagamento attivato presso il psp",
+                  "inf_desc_serv": "Con CBILL puoi consultare e pagare online gli avvisi di pagamento emessi da Pubbliche Amministrazioni e gestori di pubblici servizi.",
+                  "importo_minimo": 0.0,
+                  "importo_massimo": 99999999.99,
+                  "costo_fisso": 1.5,
+                  "on_us": "N"
+              },
+              {
+                  "nome_servizio": "MPS pagamento con carta di credito",
+                  "canale_mod_pag": 1.0,
+                  "descrizione_canale_mod_pag": "Modello di pagamento immediato multibeneficiario",
+                  "inf_desc_serv": "Con MPS puoi effettuare pagamenti online con carta di credito a favore di Pubbliche Amministrazioni e gestori di pubblici servizi.",
+                  "importo_minimo": 500.0,
+                  "importo_massimo": 1500.0,
+                  "costo_fisso": 2.75,
+                  "on_us": "Y"
+              },
+              {
+                  "nome_servizio": "MPS pagamento con carta di credito",
+                  "canale_mod_pag": 1.0,
+                  "descrizione_canale_mod_pag": "Modello di pagamento immediato multibeneficiario",
+                  "inf_desc_serv": "Con MPS puoi effettuare pagamenti online con carta di credito a favore di Pubbliche Amministrazioni e gestori di pubblici servizi.",
+                  "importo_minimo": 0.0,
+                  "importo_massimo": 100.0,
+                  "costo_fisso": 1.0,
+                  "on_us": "Y"
+              }
+          ]
+      }
+  ]
+}
