@@ -5,7 +5,7 @@
       [
       {
           "psp_rag_soc": "Intesa Sanpaolo S.p.A",
-          "cf": "IS1",
+          "cf": "00799960158",
           "content": [
               {
                   "nome_servizio": "CBILL",
@@ -61,7 +61,7 @@
       },
       {
           "psp_rag_soc": "Banca Monte dei Paschi di Siena",
-          "cf": "BMPS2",
+          "cf": "00884060526",
           "content": [
               {
                   "nome_servizio": "Pagamento CBILL",

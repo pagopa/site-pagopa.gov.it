@@ -5,3 +5,4 @@ _site
 _data/ec_pt.yml
 _data/intermediari.yml
 _data/psp.csv
+_pspservizi/*

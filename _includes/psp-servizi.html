@@ -1,18 +1,47 @@
-{% assign psp = site.data.output_elenco_servizi.content | find: "cf","page.cf" | first %}
-{% assign services = psp.content | group_by: 'nome_servizio' %}
+{% assign services = page.services | group_by: 'nome_servizio' %}
 <div class="row">
-	<div class="col-md-8 mb-2 mb-md-4">
-		<h1 class="page-title" >Costi applicati da {{ page.title_hero | default: page.title }}</h1>
-	</div>
+  <div class="col-md-12 mb-2 mb-md-4">
+    <h1 class="page-title">
+      Costi applicati da {{ page.title_hero | default: page.title }}
+    </h1>
+  </div>
 </div>
-<div class="sidebar-wrapper it-line-left-side">
-  <h3 class="no_toc">FILTRA PER METODO</h3>
-  <div class="sidebar-linklist-wrapper">
-    <div class="link-list-wrapper">
-      <ul class="link-list">
-        {% for service in services %}
-        <li>
-          <a class="list-item medium" href="#{{service.name}}"><span>{{service.name}}</span></a>
+<div class="row">
+  <div class="col-md-4 mb-2 mb-md-2">
+    <div class="sidebar-wrapper it-line-left-side">
+      <h3 class="no_toc">FILTRA PER METODO:</h3>
+      <div class="sidebar-linklist-wrapper">
+        <div class="link-list-wrapper">
+          <ul class="link-list">
+            {% for service in services %}
+            <li>
+              <a class="list-item medium" href="#{{service.name}}"
+                ><span>{{service.name}}</span></a
+              >
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-8 mb-2 mb-md-10">
+    <div class="it-list-wrapper">
+      <ul class="it-list">
+        {% for service in services %} {% assign items = service.items | sort:
+        'importo_minimo' %}
+        <li class="pt-4">
+          <div class="it-right-zone border-bottom" id="{{service.name}}">
+            <span class="text"><h4>{{service.name}}</h4></span>
+          </div>
+          {% for item in items %}
+          <div class="it-right-zone">
+            <span class="text"
+              >Per importi da {{item['importo_minimo']}}€ a
+              {{item['importo_massimo']}}€</span
+            >
+          </div>
+          {% endfor %}
         </li>
         {% endfor %}
       </ul>
