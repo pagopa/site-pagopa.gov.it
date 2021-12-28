@@ -25,12 +25,16 @@ Jekyll::Hooks.register :site, :after_init do |doc, payload|
   services['content'].each do |psp|
     name = psp['cf']
     topass = Hash.new
+    topass['layout'] = 'page'
     topass['cf'] = psp['cf']
     topass['title'] = psp['psp_rag_soc']
     topass['lang'] = 'it'
-    topass['child_of_ref'] = 'psp-servizi-elenco'
+    topass['child_of_ref'] = 'elenco-psp-attivi'
+    topass['omit_pagehead'] = true
 
-    File.open(dir+name+".md", "w") { |file| file.write(topass.to_yaml + '---') }
+    File.open(dir+name+".md", "w") { |file| file.write(topass.to_yaml + '---' + '
+
+{% include psp-servizi.html %}') }
   end
    
 end
