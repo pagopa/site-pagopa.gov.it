@@ -51,11 +51,11 @@
           {% for item in items %}
           <div class="it-right-zone mb-4 d-flex justify-content-between">
             <span class="text">
-              Per importi da {{item['importo_minimo']}} € a
-              {{item['importo_massimo']}} €
+              Per importi da {{item['importo_minimo'] | money_format }} € a
+              {{item['importo_massimo']  | money_format }} €
             </span>
             <span class="text" style="font-weight: 600;">
-              Costo transazione: {{item['costo_fisso']}} €
+              Costo transazione: {{item['costo_fisso']  | money_format }} €
             </span>
           </div>
           {% endfor %}
