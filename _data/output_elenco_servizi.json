@@ -6,6 +6,7 @@
       {
           "psp_rag_soc": "Intesa Sanpaolo S.p.A",
           "cf": "00799960158",
+          "url_informazioni_psp": "http://localhost:4000/it/prestatori-servizi-di-pagamento/elenco-PSP-attivi",
           "content": [
               {
                   "nome_servizio": "CBILL",

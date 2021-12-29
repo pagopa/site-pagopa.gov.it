@@ -32,6 +32,7 @@ Jekyll::Hooks.register :site, :after_init do |doc, payload|
     topass['lang'] = 'it'
     topass['child_of_ref'] = 'prestatori-servizi-di-pagamento-elenco-psp-attivi'
     topass['omit_pagehead'] = true
+    topass['url_informazioni_psp'] = psp['url_informazioni_psp']
     topass['services'] = psp['content']
 
     File.open(dir+name+".md", "w") { |file| file.write(topass.to_yaml + '---' + '

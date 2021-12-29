@@ -1,13 +1,13 @@
 {% assign services = page.services | group_by: 'nome_servizio' %}
 <div class="row">
   <div class="col-md-12 mb-2 mb-md-4">
-    <h1 class="page-title">
+    <h3 class="page-title">
       Costi applicati da {{ page.title_hero | default: page.title }}
-    </h1>
+    </h3>
   </div>
 </div>
-<div class="row">
-  <div class="col-md-4 mb-2 mb-md-2">
+<div class="row mt-5">
+  <div class="col-md-3 mb-2 mb-md-2">
     <div class="sidebar-wrapper it-line-left-side">
       <h3 class="no_toc">FILTRA PER METODO:</h3>
       <div class="sidebar-linklist-wrapper">
@@ -20,30 +20,67 @@
               >
             </li>
             {% endfor %}
+            {% if page.url_informazioni_psp != nil %}
+            <li>
+              <a class="list-item medium" href="#convenzioni"
+                ><span>Convenzioni</span></a
+              >
+            </li>
+            {% endif %}
           </ul>
         </div>
       </div>
     </div>
   </div>
-  <div class="col-md-8 mb-2 mb-md-10">
+  <div class="col-md-9 mb-2 mb-md-10">
     <div class="it-list-wrapper">
       <ul class="it-list">
         {% for service in services %} {% assign items = service.items | sort:
         'importo_minimo' %}
-        <li class="pt-4">
-          <div class="it-right-zone border-bottom" id="{{service.name}}">
+        {% if forloop.index == 1 %}
+        <li class="pt-3">
+        {% else %}
+        <li class="pt-5">
+        {% endif %}
+          <div
+            class="it-right-zone border-bottom border-light mb-4"
+            id="{{service.name}}"
+          >
             <span class="text"><h4>{{service.name}}</h4></span>
           </div>
           {% for item in items %}
-          <div class="it-right-zone">
-            <span class="text"
-              >Per importi da {{item['importo_minimo']}}€ a
-              {{item['importo_massimo']}}€</span
-            >
+          <div class="it-right-zone mb-4 d-flex justify-content-between">
+            <span class="text">
+              Per importi da {{item['importo_minimo']}} € a
+              {{item['importo_massimo']}} €
+            </span>
+            <span class="text" style="font-weight: 600;">
+              Costo transazione: {{item['costo_fisso']}} €
+            </span>
           </div>
           {% endfor %}
         </li>
         {% endfor %}
+        {% if page.url_informazioni_psp != nil %}
+        <li class="pt-5">
+          <div
+            class="it-right-zone border-bottom border-light mb-4"
+            id="convenzioni"
+          >
+            <span class="text"><h4>Convenzioni</h4></span>
+          </div>
+          <div class="it-right-zone mb-4 d-flex justify-content-between">
+            <span class="text">
+             {{ page.title }} può applicare costi differenti in caso di convenzioni.
+            </span>
+            <span class="text" style="font-weight: 600;">
+              <a href="{{ page.url_informazioni_psp }}">
+              SCOPRI DI PIÙ &rarr;
+              </a>
+            </span>
+          </div>
+        </li>
+        {% endif %}
       </ul>
     </div>
   </div>
