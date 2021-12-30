@@ -43,6 +43,11 @@ a.read-more {
   text-decoration: none;
 }
 
+.it-list-wrapper .it-list a:hover {
+  box-shadow: none;
+  color: #06c;
+}
+
 #mainlogo {
   height: 32px;
   width: auto;

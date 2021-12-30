@@ -7,36 +7,71 @@
   </div>
 </div>
 <div class="row mt-5">
-  <div class="col-md-3 mb-2 mb-md-2">
-    <div class="sidebar-wrapper it-line-left-side">
-      <h3 class="no_toc">FILTRA PER METODO:</h3>
-      <div class="sidebar-linklist-wrapper">
-        <div class="link-list-wrapper">
-          <ul class="link-list">
-            {% for service in services %}
-            <li>
-              <a class="list-item medium" href="#{{service.name}}"
-                ><span>{{service.name}}</span></a
-              >
-            </li>
-            {% endfor %}
-            {% if page.url_informazioni_psp != nil %}
-            <li>
-              <a class="list-item medium" href="#convenzioni"
-                ><span>Convenzioni</span></a
-              >
-            </li>
-            {% endif %}
-          </ul>
+  <div class="col-12 col-lg-3 affix-parent">
+    <nav
+      class="
+        component-sidebarnav
+        navbar
+        it-navscroll-wrapper
+        navbar-expand-lg
+        it-bottom-navscroll it-left-side
+        affix-top
+        border-0
+      "
+    >
+      <button
+        class="custom-navbar-toggler"
+        type="button"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        data-target="#navbarNav"
+      >
+        <span class="it-list"></span>
+        FILTRA PER METODO
+      </button>
+      <div class="navbar-collapsable" id="navbarNav">
+        <div class="overlay"></div>
+        <div class="close-div sr-only">
+          <button class="btn close-menu" type="button">
+            <span class="it-close"></span>Chiudi
+          </button>
+        </div>
+        <a class="it-back-button" href="#"><svg class="icon icon-sm icon-primary align-top">
+          <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-chevron-left"></use>
+        </svg><span>Indietro </span></a>
+        <div class="menu-wrapper">
+          <div class="link-list-wrapper">
+            <h3 class="no_toc">FILTRA PER METODO:</h3>
+            <ul class="link-list">
+              {% for service in services %}
+              <li>
+                <a class="list-item medium" 
+                  data-attribute="forward" 
+                  aria-hidden="true"
+                  href="#{{service.name}}"
+                  >
+                  <span>{{service.name}}</span>
+                </a>
+              </li>
+              {% endfor %} {% if page.url_informazioni_psp != nil %}
+              <li>
+                <a class="list-item medium" href="#convenzioni"
+                  ><span>Convenzioni</span></a
+                >
+              </li>
+              {% endif %}
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
+    </nav>
   </div>
-  <div class="col-md-9 mb-2 mb-md-10">
+  <div class="col-12 col-lg-9 mb-2 mb-md-10">
     <div class="it-list-wrapper">
       <ul class="it-list">
-        {% for service in services %} {% assign items = service.items | sort:
-        'importo_minimo' %}
+        {% for service in services %} 
+        {% assign items = service.items | sort: 'importo_minimo' %} 
         {% if forloop.index == 1 %}
         <li class="pt-3">
         {% else %}
@@ -49,19 +84,19 @@
             <span class="text"><h4>{{service.name}}</h4></span>
           </div>
           {% for item in items %}
-          <div class="it-right-zone mb-4 d-flex justify-content-between">
+          <div class="it-right-zone mb-4 d-flex flex-wrap justify-content-between">
             <span class="text">
-              Per importi da {{ item['importo_minimo'] | plus: 0.01 | money_format: 2 }} € a
-              {{ item['importo_massimo'] | money_format: 2 }} €
+              Per importi da {{ item['importo_minimo'] | plus: 0.01 |
+              money_format: 2 }} € a {{ item['importo_massimo'] | money_format:
+              2 }} €
             </span>
-            <span class="text" style="font-weight: 600;">
-              Costo transazione: {{ item['costo_fisso'] | money_format: 2 }} €
+            <span class="text" style="font-weight: 600">
+              Costo: {{ item['costo_fisso'] | money_format: 2 }} €
             </span>
           </div>
           {% endfor %}
         </li>
-        {% endfor %}
-        {% if page.url_informazioni_psp != nil %}
+        {% endfor %} {% if page.url_informazioni_psp != nil %}
         <li class="pt-5">
           <div
             class="it-right-zone border-bottom border-light mb-4"
@@ -69,13 +104,18 @@
           >
             <span class="text"><h4>Convenzioni</h4></span>
           </div>
-          <div class="it-right-zone mb-4 d-flex justify-content-between">
+          <div class="it-right-zone mb-4 d-flex flex-wrap justify-content-between">
             <span class="text">
-             {{ page.title }} può applicare costi differenti in caso di convenzioni.
+              {{ page.title }} può applicare costi differenti in caso di
+              convenzioni.
             </span>
-            <span class="text" style="font-weight: 600;">
-              <a href="{{ page.url_informazioni_psp }}">
-              SCOPRI DI PIÙ &rarr;
+            <span class="text" style="font-weight: 600">
+              <a
+                href="{{ page.url_informazioni_psp }}"
+                class="component-posts__item__readmore mt-auto read-more"
+                title="Scopri le convenzioni"
+              >
+                SCOPRI DI PIÙ &rarr;
               </a>
             </span>
           </div>
