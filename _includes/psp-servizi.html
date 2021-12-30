@@ -55,7 +55,7 @@
               {{ item['importo_massimo'] | money_format: 2 }} €
             </span>
             <span class="text" style="font-weight: 600;">
-              Costo transazione: {{ item['costo_fisso'] | money_format: 2 }} €
+              Costo: {{ item['costo_fisso'] | money_format: 2 }} €
             </span>
           </div>
           {% endfor %}
