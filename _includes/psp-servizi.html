@@ -8,8 +8,7 @@
 </div>
 <div class="row mt-5">
   <div class="col-12 col-lg-3 affix-parent">
-    <nav
-      class="
+    <nav class="
         component-sidebarnav
         navbar
         it-navscroll-wrapper
@@ -17,16 +16,9 @@
         it-bottom-navscroll it-left-side
         affix-top
         border-0
-      "
-    >
-      <button
-        class="custom-navbar-toggler"
-        type="button"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-        data-target="#navbarNav"
-      >
+      ">
+      <button class="custom-navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation" data-target="#navbarNav">
         <span class="it-list"></span>
         FILTRA PER METODO
       </button>
@@ -38,27 +30,21 @@
           </button>
         </div>
         <a class="it-back-button" href="#"><svg class="icon icon-sm icon-primary align-top">
-          <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-chevron-left"></use>
-        </svg><span>Indietro </span></a>
+            <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-chevron-left"></use>
+          </svg><span>Indietro </span></a>
         <div class="menu-wrapper">
           <div class="link-list-wrapper">
             <h3 class="no_toc">FILTRA PER METODO:</h3>
             <ul class="link-list">
               {% for service in services %}
               <li>
-                <a class="list-item medium" 
-                  data-attribute="forward" 
-                  aria-hidden="true"
-                  href="#{{service.name}}"
-                  >
+                <a class="list-item medium" data-attribute="forward" aria-hidden="true" href="#{{service.name}}">
                   <span>{{service.name}}</span>
                 </a>
               </li>
               {% endfor %} {% if page.url_informazioni_psp != nil %}
               <li>
-                <a class="list-item medium" href="#convenzioni"
-                  ><span>Convenzioni</span></a
-                >
+                <a class="list-item medium" href="#convenzioni"><span>Convenzioni</span></a>
               </li>
               {% endif %}
             </ul>
@@ -70,27 +56,26 @@
   <div class="col-12 col-lg-9 mb-2 mb-md-10">
     <div class="it-list-wrapper">
       <ul class="it-list">
-        {% for service in services %} 
-        {% assign items = service.items | sort: 'importo_minimo' %} 
+        {% for service in services %}
+        {% assign items = service.items | sort: 'importo_minimo' %}
         {% if forloop.index == 1 %}
         <li class="pt-3">
-        {% else %}
+          {% else %}
         <li class="pt-5">
-        {% endif %}
-          <div
-            class="it-right-zone border-bottom border-light mb-4"
-            id="{{service.name}}"
-          >
-            <span class="text"><h4>{{service.name}}</h4></span>
+          {% endif %}
+          <div class="it-right-zone border-bottom border-light mb-4" id="{{service.name}}">
+            <span class="text">
+              <h4>{{service.name}}</h4>
+            </span>
           </div>
           {% for item in items %}
           <div class="it-right-zone mb-4 row">
             <span class="text col-12 col-md-9 col-lg-10">
               Per importi da {{ item['importo_minimo'] | plus: 0.01 | money_format: 2 }} €
               {% if item['importo_massimo'] >= 999999999 %}
-               in su
+              in su
               {% else %}
-               a {{ item['importo_massimo'] | money_format: 2 }} €
+              a {{ item['importo_massimo'] | money_format: 2 }} €
               {% endif %}
             </span>
             <span class="text col-12 col-md-3 col-lg-2 text-md-right" style="font-weight: 600">
@@ -101,23 +86,19 @@
         </li>
         {% endfor %} {% if page.url_informazioni_psp != nil %}
         <li class="pt-5">
-          <div
-            class="it-right-zone border-bottom border-light mb-4"
-            id="convenzioni"
-          >
-            <span class="text"><h4>Convenzioni</h4></span>
+          <div class="it-right-zone border-bottom border-light mb-4" id="convenzioni">
+            <span class="text">
+              <h4>Convenzioni</h4>
+            </span>
           </div>
           <div class="it-right-zone mb-4 row">
             <span class="text col-12 col-lg-10">
               {{ page.title }} può applicare costi differenti in caso di
               convenzioni.
             </span>
-            <a
-              href="{{ page.url_informazioni_psp }}"
+            <a href="{{ page.url_informazioni_psp }}"
               class="component-posts__item__readmore read-more col-12 col-xl-2 text-lg-right justify-content-xl-end"
-              style="font-weight: 600"
-              title="Scopri le convenzioni"
-            >
+              style="font-weight: 600" title="Scopri le convenzioni">
               SCOPRI DI PIÙ &rarr;
             </a>
           </div>
