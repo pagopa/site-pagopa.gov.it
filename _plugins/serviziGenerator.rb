@@ -34,7 +34,7 @@ Jekyll::Hooks.register :site, :after_init do |doc, payload|
     topass['omit_pagehead'] = true
     topass['url_informazioni_psp'] = psp['url_informazioni_psp']
     topass['services'] = psp['content'].select { |service|
-      service['canale_mod_pag'] <= 1
+      service['canale_mod_pag'] == 0 || service['canale_mod_pag'] == 1
     }
 
     File.open(dir+name+".md", "w") { |file| file.write(topass.to_yaml + '---' + '
