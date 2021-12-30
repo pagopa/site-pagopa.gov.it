@@ -84,13 +84,13 @@
             <span class="text"><h4>{{service.name}}</h4></span>
           </div>
           {% for item in items %}
-          <div class="it-right-zone mb-4 d-flex flex-wrap justify-content-between">
-            <span class="text">
+          <div class="it-right-zone mb-4 row">
+            <span class="text col-12 col-md-9 col-lg-10">
               Per importi da {{ item['importo_minimo'] | plus: 0.01 |
               money_format: 2 }} € a {{ item['importo_massimo'] | money_format:
               2 }} €
             </span>
-            <span class="text" style="font-weight: 600">
+            <span class="text col-12 col-md-3 col-lg-2 text-md-right" style="font-weight: 600">
               Costo: {{ item['costo_fisso'] | money_format: 2 }} €
             </span>
           </div>
@@ -104,20 +104,19 @@
           >
             <span class="text"><h4>Convenzioni</h4></span>
           </div>
-          <div class="it-right-zone mb-4 d-flex flex-wrap justify-content-between">
-            <span class="text">
+          <div class="it-right-zone mb-4 row">
+            <span class="text col-12 col-lg-10">
               {{ page.title }} può applicare costi differenti in caso di
               convenzioni.
             </span>
-            <span class="text" style="font-weight: 600">
-              <a
-                href="{{ page.url_informazioni_psp }}"
-                class="component-posts__item__readmore mt-auto read-more"
-                title="Scopri le convenzioni"
-              >
-                SCOPRI DI PIÙ &rarr;
-              </a>
-            </span>
+            <a
+              href="{{ page.url_informazioni_psp }}"
+              class="component-posts__item__readmore read-more col-12 col-xl-2 text-lg-right justify-content-xl-end"
+              style="font-weight: 600"
+              title="Scopri le convenzioni"
+            >
+              SCOPRI DI PIÙ &rarr;
+            </a>
           </div>
         </li>
         {% endif %}
