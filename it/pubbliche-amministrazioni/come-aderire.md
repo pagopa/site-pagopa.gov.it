@@ -16,7 +16,7 @@ footerbanner:
     url: "https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneC.html"
 passi:
     - title: Chiedi le credenziali di primo accesso
-      desc: "Per accedere al Portale delle Adesioni e iniziare la registrazione, invia una PEC a <presidio@pec.pagopa.it>."
+      desc: "Per accedere al Portale delle Adesioni e iniziare la registrazione, scrivi a <credenziali@assistenza.pagopa.it>."
     - title: Nomina il Referente dei Pagamenti
       desc: "Accedi al Portale e indica il Referente a cui verranno inviate le credenziali per l’accesso vero e proprio."
     - title: Scarica e invia la Lettera di Adesione
