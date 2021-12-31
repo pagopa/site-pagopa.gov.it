@@ -24,7 +24,7 @@ L’articolo 2359 del codice civile precisa che ai fini dell’applicazione dei 
 
 Infine, all’articolo 2 del D.Lgs. n. 175/2016 è ulteriormente precisato che _“Il controllo può sussistere anche quando, in applicazione di norme di legge o statutarie o di patti parasociali, per le decisioni finanziarie e gestionali strategiche relative all’attività sociale è richiesto il consenso unanime di tutte le parti che condividono il controllo”_.
 
-Infine, si precisa che i soggetti obbligati all’utilizzo di pagoPA, siano essi PA o gestori di pubblici servizi o società a controllo pubblico, ove ricorrano tutti i requisiti (nessuno escluso) indicati nella [lettera di esenzione](/it/pubbliche-amministrazioni/lettera-esenzione.rtf) possono fare istanza alla PagoPA S.p.A. (via mail all’indirizzo [helpdesk@pagopa.it](mailto:helpdesk@pagopa.it)), inviando in allegato la lettera di esenzione debitamente compilata e sottoscritta.
+Infine, si precisa che i soggetti obbligati all’utilizzo di pagoPA, siano essi PA o gestori di pubblici servizi o società a controllo pubblico, ove ricorrano tutti i requisiti (nessuno escluso) indicati nella [lettera di esenzione](/it/pubbliche-amministrazioni/lettera-esenzione.rtf) possono fare istanza alla PagoPA S.p.A. (via mail all’indirizzo [pagamenti@assistenza.pagopa.it](mailto:pagamenti@assistenza.pagopa.it), inviando in allegato la lettera di esenzione debitamente compilata e sottoscritta.
 
 
 ### Documentazione
