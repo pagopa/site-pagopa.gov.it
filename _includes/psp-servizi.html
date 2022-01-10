@@ -1,4 +1,5 @@
 {% assign services = page.services | group_by: 'nome_servizio' %}
+{% assign max_amount = 999999999 %}
 <div class="row">
   <div class="col-md-12 mb-2 mb-md-4">
     <h3 class="page-title">
@@ -34,7 +35,7 @@
           </svg><span>Indietro </span></a>
         <div class="menu-wrapper">
           <div class="link-list-wrapper">
-            <h3 class="no_toc">FILTRA PER METODO:</h3>
+            <h3 class="no_toc">FILTRA PER METODO</h3>
             <ul class="link-list">
               {% for service in services %}
               <li>
@@ -59,7 +60,7 @@
         {% for service in services %}
         {% assign items = service.items | sort: 'importo_minimo' %}
         {% if forloop.index == 1 %}
-        <li class="pt-3">
+        <li class="pt-2">
           {% else %}
         <li class="pt-5">
           {% endif %}
@@ -72,7 +73,7 @@
           <div class="it-right-zone mb-4 row">
             <span class="text col-12 col-md-9 col-lg-10">
               Per importi da {{ item['importo_minimo'] | plus: 0.01 | money_format: 2 }} €
-              {% if item['importo_massimo'] >= 999999999 %}
+              {% if item['importo_massimo'] >= max_amount %}
               in su
               {% else %}
               a {{ item['importo_massimo'] | money_format: 2 }} €
