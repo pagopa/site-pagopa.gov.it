@@ -1,0 +1,44 @@
+
+<form class="needs-validation" novalidate>
+  <div class="component-grid-by-step my-4 my-md-5">
+    <div class="row">
+    {% for item in include.source %}
+      <div class="component-grid-by-step__singlestep col-lg pr-lg-3 {% unless forloop.last %}with-border{%endunless%}">
+        <div class="component-grid-by-step__inner">
+          <div class="component-grid-by-step__number float-left float-lg-none mr-2">
+              {% if forloop.index < 10 %}0{% endif %}{{forloop.index}}
+          </div>
+          <div class="component-grid-by-step__title">{{item.title}}</div>
+          {% if item.type == "number" %}
+          <div class="form-group">
+            <input type="number" class="form-control mt-5" id={{item.label}} required>
+            <label for={{item.label}}>{{item.desc}}</label>
+            <div class="invalid-feedback">Devi inserire un importo</div>
+          </div>
+          {% elsif item.type == "select" %}
+            {% assign options = site.data[{{item.options}}] %}
+            <div class="form-group">
+              <div class="bootstrap-select-wrapper mt-5">
+                <select title="{{item.desc}}" class="form-control" id={{item.label}}>
+                  {% for option in options %}
+                    <option for={{item.label}} value={{option}}>{{option}}</option>
+                  {% endfor %}
+                </select>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+    <span  class="col-12 col-md-4 col-lg-4" style="height: 41px; margin-top: 143px;">
+      <button type="submit" class="btn btn-primary btn-sm btn-icon mr-4">
+        <span>Mostra risultati</span>
+        <svg class="icon icon-white ml-2">
+        <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-search"></use>
+        </svg>
+      </button>
+      Ricomincia
+    </span>
+    </div>
+  </div>
+</form>

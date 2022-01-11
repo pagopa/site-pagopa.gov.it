@@ -21,6 +21,7 @@ Jekyll::Hooks.register :site, :after_init do |doc, payload|
   dir = "_pspservizi/"
   file = File.read('_data/output_elenco_servizi.json')
   services = JSON.parse(file)
+  paymentMethods = Array.new
 
   services['content'].each do |psp|
     name = psp['cf']
@@ -40,6 +41,17 @@ Jekyll::Hooks.register :site, :after_init do |doc, payload|
     File.open(dir+name+".md", "w") { |file| file.write(topass.to_yaml + '---' + '
 
 {% include psp-servizi.html %}') }
+
+    topass['services'].each do |pspService|
+      if not paymentMethods.any? { |elem|
+          elem == pspService['nome_servizio']
+        }
+        paymentMethods.push(pspService['nome_servizio'])        
+      end
+    end
   end
+
+  dir = "_data/"
+  File.open(dir+"servizi"+".yml", "w") { |file| file.write(paymentMethods.to_yaml + '---') }
    
 end
