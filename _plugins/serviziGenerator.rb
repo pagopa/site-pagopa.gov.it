@@ -15,7 +15,12 @@ end
 
 Jekyll::Hooks.register :site, :pre_render do |site|
 
-  pspdir = "_pspservizi/"
+  pspdir = "_pspservizi"
+  Dir.mkdir(pspdir) unless File.exists?(pspdir)
+
+  jsondir = "assets/jsonpsp"
+  Dir.mkdir(jsondir) unless File.exists?(jsondir)
+
   data_hash = JSON.parse(fileitem.read)
   # PSP listed in a graph
   psp_dict = {}
@@ -64,7 +69,7 @@ Jekyll::Hooks.register :site, :pre_render do |site|
     front_matter['url_informazioni_psp'] = element['url_informazioni_psp']
     front_matter['services'] = value
     # Let's create a markdown page
-    File.open(pspdir + name.to_s + ".md", "w") { |file| file.write(
+    File.open(pspdir + '/' + name.to_s + ".md", "w") { |file| file.write(
       front_matter.to_yaml + '---' + '
       {% include psp-servizi.html %}
       '
