@@ -2,56 +2,78 @@
 require 'json'
 require 'down'
 
-#downloadHost = "https://pdnd-prod-dl-1-public-data.s3.eu-central-1.amazonaws.com/dashboard/pagopa/"
-#downloadFiles = "output_elenco_servizi.json"
+isDevMode = ENV['JEKYLL_ENV']=='production' ? false : true
+downloadUrl = "https://pdnd-prod-dl-1-public-data.s3.eu-central-1.amazonaws.com/dashboard/pagopa/output_elenco_servizi.json"
 
-Jekyll::Hooks.register :site, :after_init do |doc, payload|
-
-=begin
+begin
   # DOWLOAD DATA FROM REPO
-  begin
-    dirname = "_data/"
-    fileitem = Down.download(downloadHost + fileName, open_timeout: 5)
-        File.write(dirname + fileName, fileitem.read)
-  rescue
-      # fallback in case we cannot download the source file
-      puts "Files unreachable"
-  end
-=end
-  dir = "_pspservizi/"
-  file = File.read('_data/output_elenco_servizi.json')
-  services = JSON.parse(file)
-  paymentMethods = Array.new
+  fileitem = Down.download(downloadUrl, open_timeout: 15)
+rescue
+    # fallback in case we cannot download the source file
+    raise "File unreachable"
+end
 
-  services['content'].each do |psp|
-    name = psp['cf']
-    topass = Hash.new
-    topass['layout'] = 'page'
-    topass['cf'] = psp['cf']
-    topass['ref'] = psp['cf']
-    topass['title'] = psp['psp_rag_soc']
-    topass['lang'] = 'it'
-    topass['child_of_ref'] = 'prestatori-servizi-di-pagamento-elenco-psp-attivi'
-    topass['omit_pagehead'] = true
-    topass['url_informazioni_psp'] = psp['url_informazioni_psp']
-    topass['services'] = psp['content'].select { |service|
-      service['canale_mod_pag'] == 0 || service['canale_mod_pag'] == 1
-    }
+Jekyll::Hooks.register :site, :pre_render do |site|
 
-    File.open(dir+name+".md", "w") { |file| file.write(topass.to_yaml + '---' + '
+  pspdir = "_pspservizi/"
+  data_hash = JSON.parse(fileitem.read)
+  # PSP listed in a graph
+  psp_dict = {}
+  # Stuffs arranged by tipo_vers_cod
+  psp_by_method = {}
 
-{% include psp-servizi.html %}') }
+  data_hash['content'].each_with_index do |item, index|
+    # Let's create a dict of PSP to arrange data by a graph instead a flat structure
+    next if item['is_duplicated'] == true || item['codice_abi'] == nil
 
-    topass['services'].each do |pspService|
-      if not paymentMethods.any? { |elem|
-          elem == pspService['nome_servizio']
-        }
-        paymentMethods.push(pspService['nome_servizio'])        
-      end
+    # Useful to generate a single page PSP
+    if psp_dict.key?(item['codice_abi'])
+      psp_dict[item['codice_abi']].push(item)
+    else
+      psp_dict[item['codice_abi']] = []
+      psp_dict[item['codice_abi']].push(item)
+    end
+
+    # Useful to generate N json for N pay methods (aka tipo_vers_cod)
+    if psp_by_method.key?(item['tipo_vers_cod'])
+      psp_by_method[item['tipo_vers_cod']].push(item)
+    else
+      psp_by_method[item['tipo_vers_cod']] = []
+      psp_by_method[item['tipo_vers_cod']].push(item)
+    end
+
+    # If in DEV mode we can skip a lot of computation...
+    if isDevMode && psp_dict.size > 20
+      puts "+++++ DEV MODE: only 20 PSP catched +++++++"
+      break
     end
   end
 
-  dir = "_data/"
-  File.open(dir+"servizi"+".yml", "w") { |file| file.write(paymentMethods.to_yaml + '---') }
-   
+  # Create a new md file for every psp
+  psp_dict.each do |key, value|
+    # every item of the hash as a specific set of info suplicated, so we can use the first one
+    element = value[0]
+    name = element['codice_abi']
+    front_matter = Hash.new
+    front_matter['layout'] = 'page'
+    front_matter['ref'] = element['codice_abi']
+    front_matter['title'] = element['psp_rag_soc']
+    front_matter['lang'] = 'it'
+    front_matter['child_of_ref'] = 'prestatori-servizi-di-pagamento-elenco-psp-attivi'
+    front_matter['omit_pagehead'] = true
+    front_matter['url_informazioni_psp'] = element['url_informazioni_psp']
+    front_matter['services'] = value
+    # Let's create a markdown page
+    File.open(pspdir + name.to_s + ".md", "w") { |file| file.write(
+      front_matter.to_yaml + '---' + '
+      {% include psp-servizi.html %}
+      '
+    ) }
+  end
+
+  # Create a json file for every "payment method"
+  psp_by_method.each do |key, value|
+    File.write('assets/jsonpsp/'+ key.downcase + '.json', JSON.dump(value))
+  end
+
 end
