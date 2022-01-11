@@ -16,10 +16,7 @@ end
 Jekyll::Hooks.register :site, :pre_render do |site|
 
   pspdir = "_pspservizi"
-  Dir.mkdir(pspdir) unless File.exists?(pspdir)
-
   jsondir = "assets/jsonpsp"
-  Dir.mkdir(jsondir) unless File.exists?(jsondir)
 
   data_hash = JSON.parse(fileitem.read)
   # PSP listed in a graph
