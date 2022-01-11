@@ -13,7 +13,7 @@ rescue
     raise "File unreachable"
 end
 
-Jekyll::Hooks.register :site, :pre_render do |site|
+Jekyll::Hooks.register :site, :after_init do |site|
 
   pspdir = "_pspservizi"
   jsondir = "assets/jsonpsp"
