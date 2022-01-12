@@ -7,3 +7,4 @@ _data/intermediari.yml
 _data/psp.csv
 assets/jsonpsp/*.json
 _pspservizi/*.md
+_data/psp-metodi.yml

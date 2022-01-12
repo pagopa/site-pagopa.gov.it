@@ -17,11 +17,12 @@
           </div>
           {% elsif item.type == "select" %}
             {% assign options = site.data[{{item.options}}] %}
+            {% assign labels = site.data.t[{{item.options}}][page.lang] %}
             <div class="form-group">
               <div class="bootstrap-select-wrapper mt-5">
                 <select title="{{item.desc}}" class="form-control" id={{item.label}}>
                   {% for option in options %}
-                    <option for={{item.label}} value={{option}}>{{option}}</option>
+                    <option for={{item.label}} value={{option}}>{{labels[option] | default: option}}</option>
                   {% endfor %}
                 </select>
               </div>

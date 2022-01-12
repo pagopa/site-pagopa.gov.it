@@ -75,7 +75,10 @@ Jekyll::Hooks.register :site, :after_init do |site|
 
   # Create a json file for every "payment method"
   psp_by_method.each do |key, value|
-    File.write('assets/jsonpsp/'+ key.downcase + '.json', JSON.dump(value))
+    File.write(jsondir + '/' + key.downcase + '.json', JSON.dump(value))
   end
+
+  # Create a yml with payment methods (useful for "Confronta tariffe")
+  File.write('_data/psp-metodi.yml', psp_by_method.keys.to_yaml )
 
 end
