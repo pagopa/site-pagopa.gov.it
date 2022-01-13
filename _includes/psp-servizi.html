@@ -1,5 +1,6 @@
-{% assign services = page.services | group_by: 'nome_servizio' %}
-{% assign max_amount = 999999999 %}
+{% assign t = site.data.t.psp-metodi[page.lang] %}
+{% assign services = page.services %}
+{% assign localmenu = '' %}
 <div class="row">
   <div class="col-md-12 mb-2 mb-md-4">
     <h3 class="page-title">
@@ -8,7 +9,54 @@
   </div>
 </div>
 <div class="row mt-5">
-  <div class="col-12 col-lg-3 affix-parent">
+  <div class="col-12 col-lg-9 mb-2 order-lg-2">
+    <div class="it-list-wrapper">
+        {% for method in services %}
+        {% assign methodName = method[0] %}
+        {% capture localmenu %}{{localmenu}},{{method[0]}}{%endcapture%}
+          <div class="it-right-zone border-bottom border-light mb-4 {%if forloop.index0 > 0 %} mt-5 {%endif%}" id="{{methodName}}">
+            <span class="text">
+              <h4>{{t[methodName] | default: methodName}}</h4>
+            </span>
+          </div>
+          {% assign groupeditemlist = method[1] %}
+          {% for groupitem in groupeditemlist %}
+            {% assign itemlistName = groupitem[0] %}
+            {% assign itemlist = groupitem[1] %}
+            <h5 class="font-weight-semibold {%if forloop.index0 > 0 %} mt-4 {%endif%}">
+              {% if itemlistName==true %}Carte emesse da {{page.title}}
+              {% elsif itemlistName==false %}Tutte le altre carte 
+              {% else %}
+                {{itemlistName}}
+              {% endif %}
+            </h5>
+            {% include psp-servizi-linea.html items=itemlist %}
+          {% endfor %}
+        {% endfor %}
+
+        {% if page.url_informazioni_psp != nil %}
+          <div class="it-right-zone border-bottom border-light mb-4 mt-5" id="convenzioni">
+            <span class="text">
+              <h4>Convenzioni</h4>
+            </span>
+          </div>
+          <ul class="it-list">
+          <li class="it-right-zone mb-4 row">
+            <span class="text col-12 col-lg-10 mb-2">
+              {{ page.title }} può applicare costi differenti in caso di
+              convenzioni.
+            </span>
+            <a href="{{ page.url_informazioni_psp }}"
+              class="component-posts__item__readmore read-more col-12 col-xl-2 text-lg-right justify-content-xl-end"
+              style="font-weight: 600" title="Scopri le convenzioni">
+              SCOPRI DI PIÙ &rarr;
+            </a>
+          </li>
+        </ul>
+        {% endif %}
+    </div>
+  </div>
+  <div class="col-12 col-lg-3 affix-parent order-lg-1">
     <nav class="
         component-sidebarnav
         navbar
@@ -37,10 +85,11 @@
           <div class="link-list-wrapper">
             <h3 class="no_toc">FILTRA PER METODO</h3>
             <ul class="link-list">
-              {% for service in services %}
+              {% assign localmenu_splitted = localmenu | split: ',' %}
+              {% for service in localmenu_splitted offset: 1 %}
               <li>
-                <a class="list-item medium" data-attribute="forward" aria-hidden="true" href="#{{service.name}}">
-                  <span>{{service.name}}</span>
+                <a class="list-item medium" data-attribute="forward" aria-hidden="true" href="#{{service}}">
+                  <span>{{t[service] | default: service}}</span>
                 </a>
               </li>
               {% endfor %} {% if page.url_informazioni_psp != nil %}
@@ -53,59 +102,5 @@
         </div>
       </div>
     </nav>
-  </div>
-  <div class="col-12 col-lg-9 mb-2 mb-md-10">
-    <div class="it-list-wrapper">
-      <ul class="it-list">
-        {% for service in services %}
-        {% assign items = service.items | sort: 'importo_minimo' %}
-        {% if forloop.index == 1 %}
-        <li class="pt-2">
-          {% else %}
-        <li class="pt-5">
-          {% endif %}
-          <div class="it-right-zone border-bottom border-light mb-4" id="{{service.name}}">
-            <span class="text">
-              <h4>{{service.name}}</h4>
-            </span>
-          </div>
-          {% for item in items %}
-          <div class="it-right-zone mb-4 row">
-            <span class="text col-12 col-md-9 col-lg-10">
-              Per importi da {{ item['importo_minimo'] | plus: 0.01 | money_format: 2 }} €
-              {% if item['importo_massimo'] >= max_amount %}
-              in su
-              {% else %}
-              a {{ item['importo_massimo'] | money_format: 2 }} €
-              {% endif %}
-            </span>
-            <span class="text col-12 col-md-3 col-lg-2 text-md-right" style="font-weight: 600">
-              Costo: {{ item['costo_fisso'] | money_format: 2 }} €
-            </span>
-          </div>
-          {% endfor %}
-        </li>
-        {% endfor %} {% if page.url_informazioni_psp != nil %}
-        <li class="pt-5">
-          <div class="it-right-zone border-bottom border-light mb-4" id="convenzioni">
-            <span class="text">
-              <h4>Convenzioni</h4>
-            </span>
-          </div>
-          <div class="it-right-zone mb-4 row">
-            <span class="text col-12 col-lg-10 mb-2">
-              {{ page.title }} può applicare costi differenti in caso di
-              convenzioni.
-            </span>
-            <a href="{{ page.url_informazioni_psp }}"
-              class="component-posts__item__readmore read-more col-12 col-xl-2 text-lg-right justify-content-xl-end"
-              style="font-weight: 600" title="Scopri le convenzioni">
-              SCOPRI DI PIÙ &rarr;
-            </a>
-          </div>
-        </li>
-        {% endif %}
-      </ul>
-    </div>
   </div>
 </div>

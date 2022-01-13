@@ -151,5 +151,6 @@ navigation:
 psp-metodi:
   en:
   it:
-    PO: Pagamento PO
-    CP: Pagamento CP
+    carte: Carte
+    conto: Conto Corrente
+    altri: App e altri metodi

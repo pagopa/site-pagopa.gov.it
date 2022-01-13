@@ -1,0 +1,19 @@
+{% assign items_sorted = include.items | sort: "importo_minimo" %}
+{% assign max_amount = 99999999 %}
+<ul class="it-list">
+    {% for service in items_sorted %}
+    <li class="{%if forloop.index0 > 0 %} pt-4 {% else %} pt-2 {%endif%} it-right-zone row">
+        <span class="text col-12 col-md-9 col-lg-10">
+        Per importi da {{ service['importo_minimo'] | plus: 0.01 | money_format: 2 }} €
+        {% if service['importo_massimo'] >= max_amount %}
+        in su
+        {% else %}
+        a {{ service['importo_massimo'] | money_format: 2 }} €
+        {% endif %}
+        </span>
+        <span class="text col-12 col-md-3 col-lg-2 text-md-right font-weight-semibold" >
+        Costo: {{ service['costo_fisso'] | money_format: 2 }} €
+        </span>
+    </li>
+    {% endfor %}
+</ul>

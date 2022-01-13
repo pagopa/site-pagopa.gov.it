@@ -1,0 +1,18 @@
+---
+carte:
+  condition:
+    - carte
+  label: carte
+  group_by: on_us
+  sort_dir: reverse
+conto:
+  condition:
+    - conto
+  label: Conto corrente
+  group_by: nome_servizio
+altri:
+  condition:
+    - altri_wisp
+    - altri_io
+  label: WISP
+  group_by: nome_servizio
