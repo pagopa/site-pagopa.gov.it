@@ -19,7 +19,7 @@ def groupServices(services, pspConfig)
   pspConfig.each do |pspItem, pspItemValue|
     services_perItem = []
     pspItemValue['condition'].each do |condition|
-      services_selected_by_condition = services.select{|item| item[condition]==true and item['canale_mod_pag_code'] < 3 }
+      services_selected_by_condition = services.select{|item| item[condition]==true }
       if services_selected_by_condition.size > 0
         services_perItem.concat services_selected_by_condition
       end
@@ -38,8 +38,15 @@ Jekyll::Hooks.register :site, :after_init do |site|
   pspConfig = YAML.load_file('_data/psp-metodi.yml')
 
   data_hash = JSON.parse(fileitem.read)
+
+  # drop items with canale_mod_pag_code < 3
+  content_filtered = data_hash['content'].select{|item| item['canale_mod_pag_code'] < 3 }
+  # and save as json (useful in "confronta tariffe")
+  File.write(jsondir + '/psp-services.json', JSON.dump(content_filtered))
+  File.write(jsondir + '/psp-metodi.json', JSON.dump(pspConfig))
+
   # PSP listed in a graph
-  psp_dict = data_hash['content'].group_by{|h| h['codice_abi']}
+  psp_dict = content_filtered.group_by{|h| h['codice_abi']}
   # Stuffs arranged by tipo_vers_cod
   psp_by_method = {}
 
@@ -55,7 +62,7 @@ Jekyll::Hooks.register :site, :after_init do |site|
     front_matter['child_of_ref'] = 'prestatori-servizi-di-pagamento-elenco-psp-attivi'
     front_matter['omit_pagehead'] = true
     front_matter['url_informazioni_psp'] = element['url_informazioni_psp']
-    front_matter['services'] = groupServices(value, pspConfig)
+    front_matter['services'] = groupServices(value, pspConfig.select{|key, value| value['script']==true })
     next if front_matter['services'].empty? or name==''
 
     # Let's create a markdown page
