@@ -1035,6 +1035,21 @@ body[class|="page--prestatori-servizi-di-pagamento"] {
   }
 }
 
+// trasparenza
+.psp-compare {
+  &__result__logo img {
+    max-height: 32px;
+    height: auto;
+    max-width: 150px;
+  }
+  &__results__header {
+    visibility: hidden;
+    &.on {
+      visibility: visible;
+    }
+  }
+}
+
 //animations
 .animate {
   &.fade-in {

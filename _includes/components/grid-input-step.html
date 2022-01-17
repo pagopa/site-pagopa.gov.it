@@ -1,28 +1,28 @@
 
 {% assign where_field = site.data.psp-pagamenti %}
 <form class="needs-validation psp-compare" id="psp-compare">
-  <div class="component-grid-by-step my-4 my-md-5">
+  <div class="component-grid-by-step my-4">
     <div class="row">
-      <div class="component-grid-by-step__singlestep col-lg pr-lg-3 with-border">
+      <div class="component-grid-by-step__singlestep col-lg pr-lg-3 py-3 with-border">
       <div class="component-grid-by-step__inner">
         <div class="component-grid-by-step__number float-left float-lg-none mr-2">01
         </div>
         <div class="component-grid-by-step__title">Qual è l'importo da pagare?</div>
-        <div class="form-group">
-          <input type="number" class="form-control mt-5" 
-                 min="1" max="99999999"
+        <div class="form-group m-0">
+          <input type="text" class="form-control mt-5" 
+                 inputmode="numeric"
                  id="psp-compare__amount" required>
           <label for="psp-compare__amount">Digita un importo</label>
           <div class="invalid-feedback">Devi inserire un importo</div>
         </div>
       </div><!---/inner-->
       </div><!--/singlestep-->
-      <div class="component-grid-by-step__singlestep col-lg pr-lg-3 with-border">
+      <div class="component-grid-by-step__singlestep col-lg pr-lg-3 py-3 with-border">
       <div class="component-grid-by-step__inner">
         <div class="component-grid-by-step__number float-left float-lg-none mr-2">02
         </div>
         <div class="component-grid-by-step__title">Dove preferisci pagare?</div>
-        <div class="form-group">
+        <div class="form-group m-0">
           <div class="bootstrap-select-wrapper mt-5">
             <label>Scegli dove pagare</label>
             <select title="Seleziona..." class="form-control" id="psp-compare__where" required>
@@ -35,12 +35,12 @@
         </div>
       </div><!---/inner-->
       </div><!--/singlestep-->
-      <div class="component-grid-by-step__singlestep col-lg pr-lg-3 with-border">
+      <div class="component-grid-by-step__singlestep col-lg pr-lg-3 py-3 with-border">
       <div class="component-grid-by-step__inner">
         <div class="component-grid-by-step__number float-left float-lg-none mr-2">03
         </div>
         <div class="component-grid-by-step__title">Con quale metodo vuoi pagare?</div>
-        <div class="form-group">
+        <div class="form-group m-0">
           <div class="bootstrap-select-wrapper mt-5 disabled psp-compare__by__wrapper">
             <label>Scegli come pagare</label>
             <select title="" class="form-control" id="psp-compare__by" disabled required>
@@ -49,17 +49,16 @@
         </div>
       </div><!---/inner-->
       </div><!--/singlestep-->
-      <div class="component-grid-by-step__singlestep col-lg pr-lg-3 ">
-        <div class="component-grid-by-step__inner">
-        <span  class="col-12 col-md-4 col-lg-4" >
-          <button id="psp-compare__submit" type="submit" class="btn btn-primary btn-sm btn-icon mr-4" disabled>
+      <div class="component-grid-by-step__singlestep col-lg pr-lg-3 py-3 d-flex">
+        <div class="component-grid-by-step__inner mt-auto">
+          <button id="psp-compare__submit" type="submit" class="btn btn-primary btn-sm btn-icon mb-3" disabled>
             <span>Mostra risultati</span>
             <svg class="icon icon-white ml-2">
             <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-search"></use>
             </svg>
           </button>
-          Ricomincia
-        </span>
+          <a href="#" role="button" class="font-weight-semibold text-decoration-none"
+             id="psp-compare__reset">Ricomincia</a>
         </div><!---/inner-->
       </div><!--/singlestep-->
     </div><!---/row-->

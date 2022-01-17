@@ -7,24 +7,8 @@ lang: it
 order: 4
 ref: cittadini-trasparenza-costi
 child_of_ref: cittadini
-passi:
-  -
-    title: Qual è l'importo da pagare?
-    type: number
-    label: importo
-    desc: Digita un importo
-  -
-    title: Dove preferisci pagare?
-    type: select
-    label: checkout
-    desc: Scegli dove pagare
-    options: psp-pagamenti
-  -
-    title: Con quale metodo vuoi pagare?
-    type: select
-    label: metodo
-    desc: Scegli come pagare
-    options: psp-metodi
+handlebars: true
 ---
 
 {% include components/grid-input-step.html source=page.passi %}
+{% include components/trasparenza-costi.html source=page.passi %}

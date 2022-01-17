@@ -42,7 +42,7 @@ Jekyll::Hooks.register :site, :after_init do |site|
   # drop items with canale_mod_pag_code < 3
   content_filtered = data_hash['content'].select{|item| item['canale_mod_pag_code'] < 3 }
   # and save as json (useful in "confronta tariffe")
-  File.write(jsondir + '/psp-services.json', JSON.dump(content_filtered))
+  File.write(jsondir + '/psp-services.json', JSON.dump(content_filtered.sort_by { |k| [k["costo_fisso"], k["psp_rag_soc"]] }))
   File.write(jsondir + '/psp-metodi.json', JSON.dump(pspConfig))
 
   # PSP listed in a graph
