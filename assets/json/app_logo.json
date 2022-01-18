@@ -1,0 +1,14 @@
+{
+  "paypal": {
+    "name": "PayPal",
+    "logo_url": "https://assets.cdn.io.italia.it/logos/apps/paypal.png"
+  },
+  "postepay": {
+    "name": "PostePay",
+    "logo_url": "https://assets.cdn.io.italia.it/logos/apps/paga-con-postepay.png"
+  },
+  "satispay": {
+    "name": "Satispay",
+    "logo_url": "https://assets.cdn.io.italia.it/logos/apps/satispay.png"
+  }
+}

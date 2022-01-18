@@ -5,8 +5,13 @@
                 <div class="component-footer-banner__title">{{page.footerbanner.title}}</div>
                 <div class="component-footer-banner__desc">{{page.footerbanner.desc | markdownify}}</div>
                 <div class="component-footer-banner__cta text-center">
+                    {% unless page.footerbanner.modal-target %}
                     <a title="{{page.footerbanner.title}}" href="{{page.footerbanner.url}}"
                     class="btn btn-sm btn-outline-primary text-uppercase">{{page.footerbanner.cta}}</a>
+                    {% else %}
+                    <button class="btn btn-sm btn-outline-primary text-uppercase"
+                    data-toggle="modal" data-target="{{page.footerbanner.modal-target}}">{{page.footerbanner.cta}}</a>
+                    {%endunless%}
                 </div>
             </div>
         </div>

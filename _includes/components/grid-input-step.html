@@ -9,11 +9,10 @@
         </div>
         <div class="component-grid-by-step__title">Qual è l'importo da pagare?</div>
         <div class="form-group m-0">
-          <input type="text" class="form-control mt-5" 
-                 inputmode="numeric"
-                 id="psp-compare__amount" required>
-          <label for="psp-compare__amount">Digita un importo</label>
-          <div class="invalid-feedback">Devi inserire un importo</div>
+            <input type="text" class="form-control mt-5" 
+                  inputmode="numeric" maxlength="12"
+                  id="psp-compare__amount" required>
+            <label for="psp-compare__amount">Digita un importo</label>
         </div>
       </div><!---/inner-->
       </div><!--/singlestep-->
@@ -23,8 +22,8 @@
         </div>
         <div class="component-grid-by-step__title">Dove preferisci pagare?</div>
         <div class="form-group m-0">
-          <div class="bootstrap-select-wrapper mt-5">
-            <label>Scegli dove pagare</label>
+          <div class="bootstrap-select-wrapper psp-compare__where__wrapper mt-5">
+            <label>Scegli un canale</label>
             <select title="Seleziona..." class="form-control" id="psp-compare__where" required>
               {% for item in where_field %}
                 <option for="psp-compare__where" value="{{item['name']}}"
@@ -42,7 +41,7 @@
         <div class="component-grid-by-step__title">Con quale metodo vuoi pagare?</div>
         <div class="form-group m-0">
           <div class="bootstrap-select-wrapper mt-5 disabled psp-compare__by__wrapper">
-            <label>Scegli come pagare</label>
+            <label>Scegli un metodo</label>
             <select title="" class="form-control" id="psp-compare__by" disabled required>
             </select>
           </div>
@@ -50,15 +49,15 @@
       </div><!---/inner-->
       </div><!--/singlestep-->
       <div class="component-grid-by-step__singlestep col-lg pr-lg-3 py-3 d-flex">
-        <div class="component-grid-by-step__inner mt-auto">
+        <div class="component-grid-by-step__inner mt-auto d-flex flex-md-column">
           <button id="psp-compare__submit" type="submit" class="btn btn-primary btn-sm btn-icon mb-3" disabled>
             <span>Mostra risultati</span>
             <svg class="icon icon-white ml-2">
             <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-search"></use>
             </svg>
           </button>
-          <a href="#" role="button" class="font-weight-semibold text-decoration-none"
-             id="psp-compare__reset">Ricomincia</a>
+          <button type="reset" class="btn btn-sm  font-weight-semibold text-primary mb-3 mb-md-0 px-md-0 text-left"
+             id="psp-compare__reset">Ricomincia</button>
         </div><!---/inner-->
       </div><!--/singlestep-->
     </div><!---/row-->

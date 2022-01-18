@@ -8,7 +8,16 @@ order: 4
 ref: cittadini-trasparenza-costi
 child_of_ref: cittadini
 handlebars: true
+footerbanner:
+    title: Sei sempre tu a scegliere!
+    desc: "Quando paghi con l’app IO, sul sito dell’Ente o sul sito di pagoPA, puoi sempre selezionare il gestore della transazione a te più conveniente. "
+    cta: Come si fa?
+    url: "#"
+    modal-target: "#sceltaPSP"
 ---
 
-{% include components/grid-input-step.html source=page.passi %}
-{% include components/trasparenza-costi.html source=page.passi %}
+{% include components/grid-input-step.html  %}
+{% include components/trasparenza-costi.html  %}
+{% include modal-choosepsp.html %}
+
+
