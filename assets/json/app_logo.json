@@ -1,4 +1,8 @@
 {
+  "bancomatpay": {
+    "name": "BANCOMAT Pay",
+    "logo_url": "https://assets.cdn.io.italia.it/logos/apps/bancomat-pay.png"
+  },
   "paypal": {
     "name": "PayPal",
     "logo_url": "https://assets.cdn.io.italia.it/logos/apps/paypal.png"
