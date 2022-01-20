@@ -6,6 +6,7 @@ $(function() {
     var compile = Handlebars.compile(template);
     var $results_nodata = $("#psp-compare__noresults");
     var $results_header = $(".psp-compare__results__header");
+    var $results_wrapper = $("#psp-compare__results");
     var $results = $("#psp-compare__results__data");
     var $size = $("#psp-compare__results__size");
     var $amount = $("#psp-compare__amount");
@@ -102,6 +103,8 @@ $(function() {
         } else {
             $results_nodata.addClass("d-none");
         }
+        $results_wrapper.attr("tabindex", 3);
+        $results_wrapper.focus();
     });
     $("#psp-compare").on("reset", function() {
         $results.empty();
@@ -116,5 +119,7 @@ $(function() {
         $submit.attr("disabled", "disabled");
         $amount.focus();
         $results_nodata.addClass("d-none");
+        $results_wrapper.attr("tabindex", "-1");
+        
     });
 });
