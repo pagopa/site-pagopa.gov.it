@@ -1049,6 +1049,10 @@ body[class|="page--prestatori-servizi-di-pagamento"] {
     }
   }
 }
+#psp-compare__results {
+  border: 0;
+  box-shadow: none;
+}
 body.page--cittadini-trasparenza-costi {
   .component-grid-by-step__number {
     @media (max-width: 991px) {
