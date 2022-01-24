@@ -15,4 +15,8 @@
   name: checkout
   active:
     - carte
+- label: Uffici Postali
+  name: ""
+  active:
+  disabled: true
 ---

@@ -1,6 +1,14 @@
 ---
 ---
 
+.bootstrap-select-wrapper
+  .dropdown.bootstrap-select
+  .dropdown-menu
+  li.disabled
+  a {
+  color: #cacacc;
+}
+
 .it-hero-wrapper {
   // ONLY FOR VIDEO IN HOME
   height: 70vh;
