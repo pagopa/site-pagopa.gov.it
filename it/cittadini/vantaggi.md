@@ -15,6 +15,9 @@ vantaggi:
       img: "/assets/images/pictograms/trasparente.svg"
       title: Trasparente
       desc: "Con pagoPA, sei tu a decidere quale Prestatore di Servizi di Pagamento (PSP) ti conviene di più: prima di pagare, confronta i costi associati a ciascuna delle modalità disponibili e scegli con quale effettuare l’operazione, in tutta libertà."
+      more:
+        label: Fai una prova
+        url: "/it/cittadini/trasparenza-costi/"
     -
       img: "/assets/images/pictograms/semplice.svg"
       title: Semplice
@@ -24,6 +27,9 @@ Per pagare, inquadra il codice QR con l’app IO o la tua app preferita. In alte
       img: "/assets/images/pictograms/multicanale.svg"
       title: Comoda
       desc: "Usa il canale che preferisci: pagoPA è integrata in app IO, nel tuo home banking e in numerosi altri servizi online disponibili h24. Puoi anche pagare gli avvisi pagoPA in banca, negli uffici postali e in tutti gli esercenti convenzionati sul territorio."
+      more:
+        label: Dove pagare
+        url: "/it/cittadini/dove-pagare/"
     -
       img: "/assets/images/pictograms/affidabile.svg"
       title: Affidabile
