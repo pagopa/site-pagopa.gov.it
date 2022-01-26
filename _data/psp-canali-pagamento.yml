@@ -15,7 +15,11 @@
   name: checkout
   active:
     - carte
-- label: Uffici Postali
+- label: Altri canali online
+  name: ""
+  active:
+  disabled: true
+- label: Canali sul territorio
   name: ""
   active:
   disabled: true
