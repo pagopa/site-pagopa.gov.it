@@ -51,15 +51,20 @@
       </div><!---/inner-->
       </div><!--/singlestep-->
       <div class="component-grid-by-step__singlestep col-lg pr-lg-3 py-3 d-flex">
-        <div class="component-grid-by-step__inner mt-auto d-flex flex-md-column">
-          <button id="psp-compare__submit" type="submit" class="btn btn-primary btn-sm btn-icon mb-3" disabled>
+        <div class="component-grid-by-step__inner mt-auto ">
+          <button id="psp-compare__submit" type="submit" class="btn btn-primary btn-sm btn-icon" disabled>
             <span>Mostra risultati</span>
-            <svg class="icon icon-white ml-2" aria-hidden="true">
+            <svg class="icon icon-white ml-2 " aria-hidden="true">
             <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-search"></use>
             </svg>
           </button>
-          <button type="reset" class="btn btn-sm  font-weight-semibold text-primary mb-3 mb-md-0 px-md-0 text-left"
-             id="psp-compare__reset">Ricomincia</button>
+          <button type="reset" class="btn btn-sm border border-danger btn-icon ml-2 ml-lg-0 ml-xl-2 mt-lg-2 mt-xl-0 p-2"
+             id="psp-compare__reset">
+             <span class="sr-only" >Ricomincia</span>
+             <svg class="icon icon-danger " aria-hidden="true" alt="Ricomincia">
+              <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-delete"></use>
+              </svg>
+          </button>
         </div><!---/inner-->
       </div><!--/singlestep-->
     </div><!---/row-->
