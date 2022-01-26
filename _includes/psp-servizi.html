@@ -4,8 +4,11 @@
 <div class="row">
   <div class="col-md-12 mb-2 mb-md-4">
     <h3 class="page-title">
-      Costi applicati da {{ page.title_hero | default: page.title }}
+      Commissioni applicate da {{ page.title_hero | default: page.title }}
     </h3>
+    <p>Dati aggiornati al {% include date.html date=site.time %}.<br>
+      Le commissioni qui riportate sono applicate dal PSP sui canali gestiti da PagoPA S.p.A., come l’app IO e i pagamenti iniziati dal sito dell’Ente Creditore. 
+    </p>
   </div>
 </div>
 <div class="row mt-5">
