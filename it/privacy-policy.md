@@ -5,9 +5,6 @@ description:
 lang: it
 ref: privacy-policy
 ---
-{:.text-muted}
-Ultimo aggiornamento: 20 gennaio 2022
-
 ## Informativa sul trattamento dei dati personali
 {: .h3 }
 
@@ -106,7 +103,7 @@ Potrai esercitare i tuoi diritti inviando specifica richiesta tramite il nostro 
 
 Il Titolare si riserva il diritto di apportare alla presente informativa, a propria esclusiva discrezione ed in qualunque momento, tutte le modifiche ritenute opportune o rese obbligatorie dalle norme di volta in volta vigenti, dandone adeguata pubblicità agli Utenti. Si prega dunque di consultare spesso questa pagina, prendendo a riferimento la data di ultima modifica indicata in fondo alla stessa. In caso di mancata accettazione delle modifiche effettuate, l’Utente è invitato a cessare l’utilizzo del Sito e a chiedere al Titolare la rimozione dei propri dati personali; salvo quanto diversamente specificato, la precedente versione dell’informativa continuerà ad applicarsi ai dati personali raccolti sino a quel momento.
 
-**Data di ultima modifica**: 20 gennaio 2022
+**Data di ultima modifica**: 27 gennaio 2022
 
 <br>
 
@@ -132,7 +129,7 @@ I cookies vengono conservati per un periodo non superiore a 6 mesi dal momento d
 
 I tuoi feedback sono importanti per migliorare il Sito, anche sulle questioni privacy! Se qualcosa che riguarda la tua privacy non ti convince, non ti è chiaro o ritieni che dovremmo agire diversamente, scrivici utilizzando il [form dedicato](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8){:target="_blank"} alla gestione delle richieste degli interessati.
 
-**Data di ultima modifica**: 20 gennaio 2022
+**Data di ultima modifica**: 27 gennaio 2022
 
 <br>
 
@@ -159,7 +156,7 @@ Tuttavia, per utilizzare il servizio è necessaria una connessione dati. Possono
 ### 3. Responsabilità e obblighi dell’Utente
 {: .h4}
 #### a. Uso conforme e obblighi dell’Utente
-{: .h5.font-italic}
+{: .h6.font-italic}
 Utilizzando il Sito e le sue funzionalità, l’Utente accetta i presenti ToS e si impegna a rispettarli in ogni momento. L’Utente può utilizzare il Sito e le sue funzionalità esclusivamente per gli scopi autorizzati dai presenti ToS e in conformità alla legge applicabile.
 L’Utente si impegna, in particolare, a non utilizzare, direttamente o indirettamente, il Sito e le sue funzionalità:
 * in violazione dei diritti della Società o di terzi;
@@ -171,14 +168,14 @@ L’Utente si impegna, in particolare, a non utilizzare, direttamente o indirett
 * per trasmettere virus, malware o altri codici dannosi per qualsivoglia dispositivo o sistema.
 
 #### b. Misure a disposizione della nostra Società
-{: .h5.font-italic}
+{: .h6.font-italic}
 
 Tu sei responsabile per tutte le attività e le operazioni effettuate sul Sito, per eventuali perdite o danni subiti dalla Società o da terzi in caso di violazioni di questi ToS, nonché dell’utilizzo improprio o illecito del Sito.
 \
 Tieni presente che, senza pregiudizio delle azioni a disposizione della Società o di terzi ai sensi della legge applicabile, la nostra Società può adottare autonomamente tutte le misure necessarie, inclusa la sospensione o l’interruzione del Sito, dell’utilizzo delle funzionalità del Sito da parte dell’Utente, qualora l’Utente ne faccia un utilizzo illecito o altrimenti vietato, oppure commetta una violazione sostanziale o reiterata dei ToS.
 
 #### c. Responsabilità dell’Utente, indennizzo e manleva
-{: .h5.font-italic}
+{: .h6.font-italic}
 L’Utente si obbliga a manlevare e tenere indenne la nostra Società e i suoi dipendenti, dirigenti e amministratori da qualsiasi domanda, reclamo o azione legale da parte di terzi, nonché da qualsiasi danno, perdita o spesa (incluse le ragionevoli spese legali necessarie per resistere le predette azioni) da chiunque subiti, direttamente o indirettamente, in relazione, in conseguenza o in connessione:
 * alle attività e alla condotta dell’Utente nell’utilizzo del Sito e delle sue funzionalità;
 * alle dichiarazioni, ai dati e alle informazioni comunque fornite dall’Utente;
@@ -217,5 +214,5 @@ Nelle ipotesi in cui l’Utente non sia qualificato quale consumatore ai sensi d
 Ai sensi degli articoli 1341 e 1342 del codice civile, proseguendo l’Utente dichiara espressamente di aver letto, compreso e accettato i seguenti articoli dei presenti termini e condizioni d’uso: **(3)** Responsabilità e obblighi dell’Utente; **(4)** Esclusioni e limitazione di responsabilità della Società; **(5)** Modifiche ai ToS.
 
 
-**Data di ultima modifica**: 20 gennaio 2022
+**Data di ultima modifica**: 27 gennaio 2022
 
