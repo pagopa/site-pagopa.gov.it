@@ -2,8 +2,8 @@
 layout: page
 title: Trasparenza costi
 title_hero: Scopri i costi applicati dai gestori aderenti
-description: "Ogni gestore aderente a pagoPA (detto anche PSP, Prestatore di Servizio di Pagamento) ti permette di effettuare pagamenti su diversi canali e con metodi a te più comodi. Per una scelta più consapevole, consulta i costi applicati dai gestori: puoi filtrare per importo, canale e metodo di pagamento."
-subdescription: "Il simulatore mostra i costi di commissione applicati dai PSP sui canali gestiti da PagoPA S.p.A., come l’app IO e i pagamenti iniziati dal sito dell’Ente. Non appena disponibili, verranno mostrate anche le commissioni dei canali gestiti direttamente dai PSP"
+description: "Ogni PSP (Prestatore di Servizi di Pagamento) aderente a pagoPA ti permette di effettuare pagamenti su diversi canali e con i metodi a te più comodi. Per una scelta consapevole, consulta i costi applicati da ogni gestore: puoi filtrare per importo, canale e metodo di pagamento."
+subdescription: "Ad oggi, il simulatore mostra i costi di commissione applicati dai PSP sui canali gestiti da PagoPA S.p.A., come l'app IO e i pagamenti iniziati dal sito dell'Ente. Nei prossimi aggiornamenti, il simulatore includerà progressivamente anche le commissioni applicate dai PSP sui loro canali."
 lang: it
 order: 4
 ref: cittadini-trasparenza-costi
