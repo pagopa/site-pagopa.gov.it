@@ -5,6 +5,11 @@ title_hero: Sei tu a scegliere dove pagare!
 description: "Con pagoPA puoi gestire i tuoi pagamenti verso la Pubblica Amministrazione in modo semplice e immediato, sui canali fisici e su quelli online: verifica le opzioni disponibili e scegli quelle più adatte alle tue esigenze."
 lang: it
 order: 2
+footerbanner:
+  title: Per una scelta trasparente
+  desc: "Scopri i costi applicati dai vari gestori a bordo di pagoPA: potrai scegliere liberamente in base alle tue esigenze."
+  cta: Vedi i costi
+  url: "/it/cittadini/trasparenza-costi/"
 ref: cittadini-dove-pagare
 child_of_ref: cittadini
 redirect_from:
