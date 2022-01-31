@@ -96,27 +96,22 @@ jobs:
           command: |
             aws s3 sync _site "s3://$AWS_BUCKET_NAME" --delete && aws cloudfront create-invalidation --distribution-id "$AWS_CLOUDFRONT_ID" --paths '/*'
 
-      # Deploy the site to GitHub Pages
-      - checkout:
-          path: /tmp/gh-pages
-      - deploy:
-          name: Deploy
+  deploypsp:
+    <<: *defaults
+    executor: aws-cli/default
+    steps:
+      - attach_workspace:
+          at: /home/circleci
+
+      - add_ssh_keys: *add_ssh_keys
+
+      # Deploy the site to AWS
+      - aws-cli/install
+      - run:
+          name: "Deploy to S3 & refresh Cloudfront specific URLs"
           command: |
-            git config --global user.email vitofalco@gmail.com
-            git config --global user.name "Deploy Bot"
+            aws s3 sync _site "s3://$AWS_BUCKET_NAME" --delete && aws cloudfront create-invalidation --distribution-id "$AWS_CLOUDFRONT_ID" --paths '/it/prestatori-servizi-di-pagamento/*' '/assets/jsonpsp/*'
 
-            cd /tmp/gh-pages
-            git checkout gh-pages || git checkout --orphan gh-pages
-            git rm -rf .
-
-            cp -a /home/circleci/site-pagopa.gov.it/_site/. .
-            # no more needed -> echo "www.pagopa.gov.it" > CNAME
-            # copy .circleci as well so that the branch filter is honored
-            mkdir -p .circleci && cp -a /home/circleci/site-pagopa.gov.it/.circleci/. .circleci/.
-
-            git add -A
-            git commit -m "Automated deployment to GitHub Pages: ${CIRCLE_SHA1}" --allow-empty
-            git push origin gh-pages
 
 workflows:
   version: 2
@@ -140,11 +135,10 @@ workflows:
             branches:
               only:
                 - master
-                - gh-pages-deploy
   scheduled:
     triggers:
       - schedule:
-          cron: "0 12 10 * *"
+          cron: "0 15 10 * *"
           filters:
             branches:
               only:
@@ -161,5 +155,24 @@ workflows:
             branches:
               only:
                 - master
-                - gh-pages-deploy
+  dailypsp:
+    triggers:
+      - schedule:
+          cron: "0 12 * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - build:
+          filters:
+            branches:
+              ignore: gh-pages
+      - deploypsp:
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - master
                 
