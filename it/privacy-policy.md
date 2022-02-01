@@ -103,7 +103,7 @@ Potrai esercitare i tuoi diritti inviando specifica richiesta tramite il nostro 
 
 Il Titolare si riserva il diritto di apportare alla presente informativa, a propria esclusiva discrezione ed in qualunque momento, tutte le modifiche ritenute opportune o rese obbligatorie dalle norme di volta in volta vigenti, dandone adeguata pubblicità agli Utenti. Si prega dunque di consultare spesso questa pagina, prendendo a riferimento la data di ultima modifica indicata in fondo alla stessa. In caso di mancata accettazione delle modifiche effettuate, l’Utente è invitato a cessare l’utilizzo del Sito e a chiedere al Titolare la rimozione dei propri dati personali; salvo quanto diversamente specificato, la precedente versione dell’informativa continuerà ad applicarsi ai dati personali raccolti sino a quel momento.
 
-**Data di ultima modifica**: 27 gennaio 2022
+**Data di ultima modifica**: 1 febbraio 2022
 
 <br>
 
@@ -129,7 +129,7 @@ I cookies vengono conservati per un periodo non superiore a 6 mesi dal momento d
 
 I tuoi feedback sono importanti per migliorare il Sito, anche sulle questioni privacy! Se qualcosa che riguarda la tua privacy non ti convince, non ti è chiaro o ritieni che dovremmo agire diversamente, scrivici utilizzando il [form dedicato](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8){:target="_blank"} alla gestione delle richieste degli interessati.
 
-**Data di ultima modifica**: 27 gennaio 2022
+**Data di ultima modifica**: 1 febbraio 2022
 
 <br>
 
@@ -214,5 +214,5 @@ Nelle ipotesi in cui l’Utente non sia qualificato quale consumatore ai sensi d
 Ai sensi degli articoli 1341 e 1342 del codice civile, proseguendo l’Utente dichiara espressamente di aver letto, compreso e accettato i seguenti articoli dei presenti termini e condizioni d’uso: **(3)** Responsabilità e obblighi dell’Utente; **(4)** Esclusioni e limitazione di responsabilità della Società; **(5)** Modifiche ai ToS.
 
 
-**Data di ultima modifica**: 27 gennaio 2022
+**Data di ultima modifica**: 1 febbraio 2022
 
