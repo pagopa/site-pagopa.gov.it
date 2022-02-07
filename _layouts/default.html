@@ -1,13 +1,20 @@
+{% assign production_mode = false %}
+{% if jekyll.environment == 'production' -%}
+  {% assign production_mode = true %}
+{% endif %}
 <!doctype html>
 <html lang="it">
 
 <head>
   <meta http-equiv="Content-Security-Policy" 
-        content="default-src 'self'; connect-src 'self' https://pdnd-prod-dl-1-public-data.s3.eu-central-1.amazonaws.com https://www.google-analytics.com https://api.io.italia.it; font-src 'self'; frame-src https://www.youtube.com https://pagopa.applytojob.com https://www.youtube-nocookie.com  https://www.google.com https://www.recaptcha.net https://recaptcha.google.com/recaptcha/; img-src 'self' data:; script-src 'self' https://www.google-analytics.com  https://www.gstatic.com https://www.google.com https://www.recaptcha.net https://www.gstatic.com/recaptcha/; style-src 'self' 'unsafe-inline'">
+        content="default-src 'self'; connect-src 'self' *.onetrust.com *.cookielaw.org https://pdnd-prod-dl-1-public-data.s3.eu-central-1.amazonaws.com https://www.google-analytics.com https://api.io.italia.it; font-src 'self'; frame-src https://www.youtube.com https://pagopa.applytojob.com https://www.youtube-nocookie.com  https://www.google.com https://www.recaptcha.net https://recaptcha.google.com/recaptcha/; img-src 'self' data: *.onetrust.com; script-src 'self' *.onetrust.com *.cookielaw.org https://www.google-analytics.com  https://www.gstatic.com https://www.google.com https://www.recaptcha.net https://www.gstatic.com/recaptcha/; style-src 'self' 'unsafe-inline'">
   {%- include styles.html -%}
   {%- include meta.html -%}
-  {%- if jekyll.environment == 'production' -%}
-  {%- include analytics/google-analytics.html -%}
+  
+  <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="f82f5dd3-2f92-47e9-bff0-b90a36646503{% unless production_mode %}-test{% endunless %}" ></script>
+
+  {%- if production_mode -%}
+    {%- include analytics/google-analytics.html -%}
   {%- endif -%}
   <script src="https://www.recaptcha.net/recaptcha/api.js" async defer></script>
 </head>
@@ -16,7 +23,6 @@
   {%- include header/header.html -%}
   {{ content }}
   {%- include footer/footer.html -%}
-  {%- include cookiebar.html -%}
   {%- include scripts.html -%}
 </body>
 
