@@ -6,8 +6,8 @@ description: "Con pagoPA puoi gestire i tuoi pagamenti verso la Pubblica Amminis
 lang: it
 order: 2
 footerbanner:
-  title: Per una scelta trasparente
-  desc: "Scopri i costi applicati dai vari gestori a bordo di pagoPA: potrai scegliere liberamente in base alle tue esigenze."
+  title: Per una scelta consapevole
+  desc: "Se paghi con l'app IO o dal sito dell’Ente, puoi sempre scegliere il gestore della transazione (PSP) in base ai costi che applica."
   cta: Vedi i costi
   url: "/it/cittadini/trasparenza-costi/"
 ref: cittadini-dove-pagare

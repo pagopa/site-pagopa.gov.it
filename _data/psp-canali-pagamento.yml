@@ -15,12 +15,4 @@
   name: checkout
   active:
     - carte
-- label: Altri canali online
-  name: ""
-  active:
-  disabled: true
-- label: Canali fisici
-  name: ""
-  active:
-  disabled: true
 ---
