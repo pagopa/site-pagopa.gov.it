@@ -30,11 +30,12 @@
 	</thead>
 	<tbody>
 		{% for item in psp %}
-		{% assign is_link = psp_services | where_exp: "elem", "item.CodiceABI == elem.ref" %}
+		{% assign itemAbi = item.CodiceABI | downcase }} %}
+		{% assign is_link = psp_services | where_exp: "elem", "itemAbi == elem.ref" %}
 			<tr>
 				<td class="elencopsp__denominazione">
 					{% if is_link.size > 0 %}
-					<a href="/it/prestatori-servizi-di-pagamento/elenco-PSP-attivi/{{item.CodiceABI}}.html">{{item.Denominazione }}</a>
+					<a href="/it/prestatori-servizi-di-pagamento/elenco-PSP-attivi/{{itemAbi}}.html">{{item.Denominazione }}</a>
 					{% else %}
 					{{item.Denominazione}}
 					{% endif %}

@@ -53,10 +53,10 @@ Jekyll::Hooks.register :site, :after_init do |site|
   psp_dict.each_with_index do |(key, value), index|
     # every item of the hash as a specific set of info duplicated, so we can use the first one
     element = value[0]
-    name = element['codice_abi']
+    name = element['codice_abi'].downcase
     front_matter = Hash.new
     front_matter['layout'] = 'psp'
-    front_matter['ref'] = element['codice_abi']
+    front_matter['ref'] = element['codice_abi'].downcase
     front_matter['title'] = element['psp_rag_soc']
     front_matter['lang'] = 'it'
     front_matter['child_of_ref'] = 'prestatori-servizi-di-pagamento-elenco-psp-attivi'
@@ -66,7 +66,7 @@ Jekyll::Hooks.register :site, :after_init do |site|
     next if front_matter['services'].empty? or name==''
 
     # Let's create a markdown page
-    File.open(pspdir + '/' + name.to_s + ".md", "w") { |file| file.write(
+    File.open(pspdir + '/' + name.to_s.downcase + ".md", "w") { |file| file.write(
       front_matter.to_yaml + '---' + '
       '
     ) }
