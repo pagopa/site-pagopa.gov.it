@@ -34,11 +34,6 @@ Jekyll::Hooks.register :site, :after_init do |doc, payload|
     dir = "_ptqualificati/"
     partners = YAML.load_file('_data/partner-dettagli.yml')
 
-    Dir.foreach(dir) do |f|
-        fn = File.join(dir, f)
-        File.delete(fn) if f != '.' && f != '..'
-    end
-
     partners.each do |partner|
         name = partner['CF']
         topass = Hash.new
