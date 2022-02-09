@@ -11,9 +11,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    eventmachine (1.2.7-x64-mingw32)
     ffi (1.13.1)
-    ffi (1.13.1-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
@@ -68,7 +66,6 @@ GEM
 PLATFORMS
   ruby
   universal-darwin-20
-  x64-mingw32
   x86_64-darwin-18
   x86_64-darwin-19
 
@@ -81,4 +78,4 @@ DEPENDENCIES
   kramdown-parser-gfm (~> 1.1.0)
 
 BUNDLED WITH
-   2.3.3
+   2.2.3
