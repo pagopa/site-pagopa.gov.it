@@ -1,0 +1,38 @@
+---
+carte:
+  condition:
+    - carte
+  label: Carte
+  group_by: on_us
+  sort_dir: reverse
+  script: true
+  compared: true
+conto:
+  condition:
+    - conto
+  label: Conto corrente
+  group_by: nome_servizio
+  script: true
+  compared: true
+altri:
+  condition:
+    - altri_wisp
+    - altri_io
+  label: WISP
+  group_by: nome_servizio
+  script: true
+  compared: false
+app:
+  condition:
+    - altri_io
+  label: App e altri
+  group_by: nome_servizio
+  script: false
+  compared: true
+wisp:
+  condition:
+    - altri_wisp
+  label: App e altri
+  group_by: nome_servizio
+  script: false
+  compared: true

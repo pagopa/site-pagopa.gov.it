@@ -5,6 +5,11 @@ title_hero: Sei tu a scegliere dove pagare!
 description: "Con pagoPA puoi gestire i tuoi pagamenti verso la Pubblica Amministrazione in modo semplice e immediato, sui canali fisici e su quelli online: verifica le opzioni disponibili e scegli quelle più adatte alle tue esigenze."
 lang: it
 order: 2
+footerbanner:
+  title: Per una scelta consapevole
+  desc: "Se paghi con l'app IO o dal sito dell’Ente, puoi sempre scegliere il gestore della transazione (PSP) in base ai costi che applica."
+  cta: Vedi i costi
+  url: "/it/cittadini/trasparenza-costi/"
 ref: cittadini-dove-pagare
 child_of_ref: cittadini
 redirect_from:

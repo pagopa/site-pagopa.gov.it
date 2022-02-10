@@ -1,0 +1,85 @@
+<div id="psp-compare__results" tabindex="-1" role="status" class="mt-md-5">
+    <h4 class="border-bottom border-light psp-compare__results__header"><span id="psp-compare__results__size"></span></h4>
+    <section id="psp-compare__results__data" class="mt-2"></section>
+    <div id="psp-compare__noresults" class="mt-2 p-5 d-none">
+        <div class="p-md-5 text-center">
+            <img src="/assets/images/pictograms/question.svg" alt="Nessun risultato trovato" height="64">
+            <p class="my-4">Non abbiamo trovato nessun gestore con i filtri selezionati.</p>
+        </div>
+    </div>
+        {%raw%}
+        <script id="psp-compare__result-template" type="text/x-handlebars">
+        <div class="row" role="list">
+            {{#each this}}
+            <article class="psp-compare__result col-lg-4 py-2 px-2" role="listitem">
+                <div class="psp-compare__result__inner p-4 shadow-sm h-100 d-flex flex-column justify-content-between">
+                    <div class="psp-compare__result__logo" aria-hidden="true">
+                        {{#ifEquals tipo_vers_cod 'MYBK'}}
+                        <img src="/assets/images/pictograms/mybank.svg" title="Logo MyBank" >
+                        {{else}}
+                        <img src="https://assets.cdn.io.italia.it/logos/abi/{{codice_abi}}.png" title="Logo {{psp_rag_soc}}" >
+                        {{/ifEquals}}
+                    </div>
+                    <div class="my-4">
+                        <div class="psp-compare__result__pspname primary-color mb-1 small">{{psp_rag_soc}}</div>
+                        <div class="psp-compare__result__cost primary-color h5 font-weight-semibold">Costo: <span class="psp-compare__result__cost__amount">{{commaConvert costo_fisso}}</span> €</div>
+                    </div>
+                    {{#if carte}}
+                        {{#if on_us}}
+                        <div class="psp-compare__result__on_us font-weight-semibold text-secondary small d-flex align-items-center carta">
+                            <div class=" mr-2"  aria-hidden="true">
+                                <svg class="icon icon-sm"><use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle"></use></svg>
+                            </div>
+                            <div class="d-block flex-grow-1">Valido per le carte emesse da {{psp_rag_soc}}</div>
+                        </div>
+                        {{else}}
+                        <div class="psp-compare__result__not_us font-weight-semibold text-secondary small d-flex align-items-center carta">
+                            <div class="mr-2">
+                                <svg class="icon icon-sm" ><use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle"></use></svg>
+                            </div>
+                            <div class="flex-grow-1">Valido per tutte le carte, anche se non sei cliente {{psp_rag_soc}}</div>
+                        </div>
+                        {{/if}}
+                    {{/if}}
+                    {{#if conto}}
+                        <div class="font-weight-semibold text-secondary small d-flex align-items-center mb-1 conto">
+                            <div class=" mr-2"  aria-hidden="true">
+                                <svg class="icon icon-sm"><use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-pa"></use></svg>
+                            </div>
+                            {{#ifEquals tipo_vers_cod 'MYBK'}}
+                            <div class="d-block flex-grow-1">Pagamento tramite il tuo conto corrente</div>
+                            {{else}}
+                            <div class="d-block flex-grow-1">{{nome_servizio}}</div>
+                            {{/ifEquals}}
+                        </div>
+                        <div class="font-weight-semibold text-secondary small d-flex align-items-center">
+                            <div class=" mr-2"  aria-hidden="true">
+                                <svg class="icon icon-sm" ><use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle"></use></svg>
+                            </div>
+                            <div class="flex-grow-1">Valido per i clienti 
+                                {{#ifEquals tipo_vers_cod 'MYBK'}}
+                                delle <a href="https://mybank.eu/banche-e-psp-aderenti/" target="_blank" title="Elenco banche aderenti">
+                                    banche aderenti al servizio Mybank
+                                </a>
+                                {{else}}
+                                {{psp_rag_soc}}
+                                {{/ifEquals}}
+                            </div>
+                        </div>
+                    {{/if}}
+                    {{#checkBoolOr altri_wisp altri_io}}
+                        <div class="font-weight-semibold text-secondary small d-flex align-items-center mb-1 wisp__or__app">
+                            <div class=" mr-2"  aria-hidden="true">
+                                <img src="{{appLogoUrl nome_servizio}}" height="24" alt="Logo {{nome_servizio}}">
+                            </div>
+                            <div class="d-block flex-grow-1">{{nome_servizio}}</div>
+                        </div>
+                    {{/checkBoolOr}}
+                </div>
+            </article>
+            {{/each}}
+        </div><!--/row-->
+        </script>
+        {%endraw%}
+    
+</div>

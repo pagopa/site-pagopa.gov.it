@@ -1,0 +1,18 @@
+---
+# "active" is a relation with psp-metodi keys
+- label: App IO
+  name: app
+  active:
+    - carte
+    - app
+- label: Sito dell'Ente
+  name: sito
+  active:
+    - carte
+    - conto
+    - wisp
+- label: Sito pagoPA
+  name: checkout
+  active:
+    - carte
+---

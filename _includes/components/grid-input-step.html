@@ -1,0 +1,72 @@
+
+{% assign where_field = site.data.psp-canali-pagamento %}
+<form class="needs-validation psp-compare" id="psp-compare" tabindex="2">
+  <div class="component-grid-by-step my-4">
+    <div class="row">
+      <div class="component-grid-by-step__singlestep col-lg pr-lg-3 py-3 with-border">
+      <div class="component-grid-by-step__inner">
+        <div class="component-grid-by-step__number float-left float-lg-none mr-2">01
+        </div>
+        <div class="component-grid-by-step__title">Qual è l'importo da pagare?</div>
+        <div class="form-group m-0">
+            <input type="text" class="form-control mt-5" 
+                  inputmode="numeric" maxlength="12"
+                  aria-required="true"
+                  id="psp-compare__amount" required>
+            <label for="psp-compare__amount">Digita un importo</label>
+        </div>
+      </div><!---/inner-->
+      </div><!--/singlestep-->
+      <div class="component-grid-by-step__singlestep col-lg pr-lg-3 py-3 with-border">
+      <div class="component-grid-by-step__inner">
+        <div class="component-grid-by-step__number float-left float-lg-none mr-2">02
+        </div>
+        <div class="component-grid-by-step__title">Dove preferisci pagare?</div>
+        <div class="form-group m-0">
+          <div class="bootstrap-select-wrapper psp-compare__where__wrapper mt-5">
+            <label for="psp-compare__where">Scegli un canale</label>
+            <select title="Seleziona..." class="form-control" id="psp-compare__where" required aria-required="true">
+              {% for item in where_field %}
+                <option for="psp-compare__where" value="{{item['name']}}"
+                        {% if item['disabled'] %}disabled{% endif %}
+                        data-actived="{% for n in item['active'] %}{{n}},{%endfor%}">{{item['label'] | default: item['name']}} {% if item['disabled'] %}(in arrivo){% endif %}</option>
+              {%endfor%}
+            </select>
+          </div>
+        </div>
+      </div><!---/inner-->
+      </div><!--/singlestep-->
+      <div class="component-grid-by-step__singlestep col-lg pr-lg-3 py-3">
+      <div class="component-grid-by-step__inner">
+        <div class="component-grid-by-step__number float-left float-lg-none mr-2">03
+        </div>
+        <div class="component-grid-by-step__title">Con quale metodo vuoi pagare?</div>
+        <div class="form-group m-0">
+          <div class="bootstrap-select-wrapper mt-5 disabled psp-compare__by__wrapper">
+            <label for="psp-compare__by">Scegli un metodo</label>
+            <select title="" class="form-control" id="psp-compare__by" disabled required aria-required="true">
+            </select>
+          </div>
+        </div>
+      </div><!---/inner-->
+      </div><!--/singlestep-->
+      <div class="component-grid-by-step__singlestep col-lg pr-lg-3 py-3 d-flex">
+        <div class="component-grid-by-step__inner mt-auto ">
+          <button id="psp-compare__submit" type="submit" class="btn btn-primary btn-sm btn-icon" disabled>
+            <span>Mostra risultati</span>
+            <svg class="icon icon-white ml-2 " aria-hidden="true">
+            <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-search"></use>
+            </svg>
+          </button>
+          <button type="reset" class="btn btn-sm border border-danger btn-icon ml-2 ml-lg-0 ml-xl-2 mt-lg-2 mt-xl-0 p-2"
+             id="psp-compare__reset">
+             <span class="sr-only" >Ricomincia</span>
+             <svg class="icon icon-danger " aria-hidden="true" alt="Ricomincia">
+              <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-delete"></use>
+              </svg>
+          </button>
+        </div><!---/inner-->
+      </div><!--/singlestep-->
+    </div><!---/row-->
+  </div>
+</form>

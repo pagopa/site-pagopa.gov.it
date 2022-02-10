@@ -148,3 +148,9 @@ navigation:
       condition_unless_ref: "cittadini-dove-pagare"
       css: "ml-auto d-none d-lg-flex"
       css_inner: "btn btn-white text-primary py-1 px-5"
+psp-metodi:
+  en:
+  it:
+    carte: Carte
+    conto: Conto Corrente
+    altri: App e altri metodi

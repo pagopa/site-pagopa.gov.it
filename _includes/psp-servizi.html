@@ -1,0 +1,109 @@
+{% assign t = site.data.t.psp-metodi[page.lang] %}
+{% assign services = page.services %}
+{% assign localmenu = '' %}
+<div class="row">
+  <div class="col-md-12 mb-2 mb-md-4">
+    <h3 class="page-title">
+      Commissioni applicate da {{ page.title_hero | default: page.title }}
+    </h3>
+    <p>Dati aggiornati al {% include date.html date=site.time %}.<br>
+      Le commissioni qui riportate sono applicate dal PSP sui canali gestiti da PagoPA S.p.A., come l’app IO e i pagamenti iniziati dal sito dell’Ente Creditore. 
+    </p>
+  </div>
+</div>
+<div class="row mt-5">
+  <div class="col-12 col-lg-9 mb-2 order-lg-2">
+    <div class="it-list-wrapper">
+        {% for method in services %}
+        {% assign methodName = method[0] %}
+        {% capture localmenu %}{{localmenu}},{{method[0]}}{%endcapture%}
+          <div class="it-right-zone border-bottom border-light mb-4 {%if forloop.index0 > 0 %} mt-5 {%endif%}" id="{{methodName}}">
+            <span class="text">
+              <h4>{{t[methodName] | default: methodName}}</h4>
+            </span>
+          </div>
+          {% assign groupeditemlist = method[1] %}
+          {% for groupitem in groupeditemlist %}
+            {% assign itemlistName = groupitem[0] %}
+            {% assign itemlist = groupitem[1] %}
+            <h5 class="font-weight-semibold {%if forloop.index0 > 0 %} mt-4 {%endif%}">
+              {% if itemlistName==true %}Carte emesse da {{page.title}}
+              {% elsif itemlistName==false %}Tutte le altre carte 
+              {% else %}
+                {{itemlistName}}
+              {% endif %}
+            </h5>
+            {% include psp-servizi-linea.html items=itemlist %}
+          {% endfor %}
+        {% endfor %}
+
+        {% if page.url_informazioni_psp != nil %}
+          <div class="it-right-zone border-bottom border-light mb-4 mt-5" id="convenzioni">
+            <span class="text">
+              <h4>Convenzioni</h4>
+            </span>
+          </div>
+          <ul class="it-list">
+          <li class="it-right-zone mb-4 row">
+            <span class="text col-12 col-lg-10 mb-2">
+              {{ page.title }} può applicare costi differenti in caso di
+              convenzioni.
+            </span>
+            <a href="{{ page.url_informazioni_psp }}"
+              class="component-posts__item__readmore read-more col-12 col-xl-2 text-lg-right justify-content-xl-end"
+              style="font-weight: 600" title="Scopri le convenzioni">
+              SCOPRI DI PIÙ &rarr;
+            </a>
+          </li>
+        </ul>
+        {% endif %}
+    </div>
+  </div>
+  <div class="col-12 col-lg-3 affix-parent order-lg-1">
+    <nav class="
+        component-sidebarnav
+        navbar
+        it-navscroll-wrapper
+        navbar-expand-lg
+        it-bottom-navscroll it-left-side
+        affix-top
+        border-0
+      ">
+      <button class="custom-navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation" data-target="#navbarNav">
+        <span class="it-list"></span>
+        FILTRA PER METODO
+      </button>
+      <div class="navbar-collapsable" id="navbarNav">
+        <div class="overlay"></div>
+        <div class="close-div sr-only">
+          <button class="btn close-menu" type="button">
+            <span class="it-close"></span>Chiudi
+          </button>
+        </div>
+        <a class="it-back-button" href="#"><svg class="icon icon-sm icon-primary align-top">
+            <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-chevron-left"></use>
+          </svg><span>Indietro </span></a>
+        <div class="menu-wrapper">
+          <div class="link-list-wrapper">
+            <h3 class="no_toc">FILTRA PER METODO</h3>
+            <ul class="link-list">
+              {% assign localmenu_splitted = localmenu | split: ',' %}
+              {% for service in localmenu_splitted offset: 1 %}
+              <li>
+                <a class="list-item medium" data-attribute="forward" aria-hidden="true" href="#{{service}}">
+                  <span>{{t[service] | default: service}}</span>
+                </a>
+              </li>
+              {% endfor %} {% if page.url_informazioni_psp != nil %}
+              <li>
+                <a class="list-item medium" href="#convenzioni"><span>Convenzioni</span></a>
+              </li>
+              {% endif %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>

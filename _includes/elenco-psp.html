@@ -1,6 +1,8 @@
 {% assign psp = site.data.psp | where_exp: "item", "item.Denominazione != nil" |  sort: 'Denominazione' %}
 {% assign outofdate = site.data.psp-outofdate %}
 {% assign last_update = psp[1].last_update %}
+{% assign psp_services = site.pspservizi %}
+
 <div class="row">
 	<div class="col-md-8 mb-2 mb-md-4">
 		<h1 class="page-title" >{{ page.title_hero | default: page.title }}</h1>
@@ -28,11 +30,15 @@
 	</thead>
 	<tbody>
 		{% for item in psp %}
-
+		{% assign itemAbi = item.CodiceABI | downcase }} %}
+		{% assign is_link = psp_services | where_exp: "elem", "itemAbi == elem.ref" %}
 			<tr>
 				<td class="elencopsp__denominazione">
-					{{item.Denominazione }}
-					
+					{% if is_link.size > 0 %}
+					<a href="/it/prestatori-servizi-di-pagamento/elenco-PSP-attivi/{{itemAbi}}.html">{{item.Denominazione }}</a>
+					{% else %}
+					{{item.Denominazione}}
+					{% endif %}
 				</td>
 				<td class="elencopsp__ofd" >
 					{% if outofdate contains item.CodiceFiscale %}
