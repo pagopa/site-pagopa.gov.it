@@ -48,11 +48,8 @@
 - title: Avviso di pagamento
   docs:
     - 
-      label: Specifiche dell'avviso di pagamento
-      url: "https://github.com/pagopa/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/documentazione_collegata/guidatecnica_avvisoanalogico_v2.2.1_con_alleg.pdf"
-    - 
-      label: Asset grafici
-      url: "https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/materiale_sviluppatori/avviso-pagopa-assets.zip"
+      label: Linee Guida per la progettazione degli avvisi di pagamento pagoPA
+      url: "https://docs.pagopa.it/avviso-pagamento/"
 - title: "Brand Assets"
   docs:
     -
