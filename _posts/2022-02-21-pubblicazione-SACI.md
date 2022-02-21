@@ -4,7 +4,7 @@ title: "Modello di pagamento presso PSP con Ente multi‑beneficiario"
 lang: it
 excerpt_separator: <!--more-->
 image: /assets/images/posts/news-saci.jpg
-image_thumb: /assets/images/posts/news-saci.jpg
+image_thumb: /assets/images/posts/news-saci-t.jpg
 child_of_ref: notizie
 caption: "Foto di Marcel Strauß (da Unsplash)"
 ---
