@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 image: /assets/images/posts/news-saci.jpg
 image_thumb: /assets/images/posts/news-saci-t.jpg
 child_of_ref: notizie
-caption: "Foto di Marcel Strauß (da Unsplash)"
+caption: "Foto di Markus Spiske (da Unsplash)"
 ---
 
 PagoPA S.p.A. ha pubblicato la **versione 2.0.0** delle _Specifiche Attuative dei Codici Identificativi di versamento, riversamento e rendicontazione_ (SACI), alle quali tutti i soggetti aderenti alla piattaforma pagoPA dovranno adeguarsi **entro e non oltre il 01-06-2022**.
