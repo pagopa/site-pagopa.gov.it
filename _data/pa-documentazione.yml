@@ -26,9 +26,6 @@
     - 
       label: Repository su Github
       url: 'https://github.com/pagopa/pagopa-api'
-    - 
-      label: Toolkit per la generazione di posizioni debitorie e avvisi di pagamento
-      url: "https://github.com/pagopa/pagopa-toolkit-os-codebase"
 - title: Tassonomia
   docs:
    - 
