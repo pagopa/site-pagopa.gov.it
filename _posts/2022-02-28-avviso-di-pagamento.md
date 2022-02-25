@@ -8,7 +8,7 @@ caption: "Esempio di avviso pagoPA"
 child_of_ref: notizie
 ---
 
-Da oggi, la [Documentazione per le Pubbliche Amministrazioni]("https://docs.pagopa.it/avviso-pagamento/") consultabile dal nostro sito offre un nuovo strumento a supporto degli Enti Creditori che emettono avvisi di pagamento pagoPA. Si tratta di una **guida online, articolata in diverse sezioni interattive, che raccoglie tutte le indicazioni e le specifiche tecniche** utili a produrre l’avviso (cartaceo o digitale), grazie al quale i cittadini possono pagare un servizio, un tributo, una retta o altri importi dovuti a un ente pubblico tramite la piattaforma pagoPA.  
+Da oggi, la [Documentazione per le Pubbliche Amministrazioni](https://www.pagopa.gov.it/it/pubbliche-amministrazioni/documentazione/) consultabile dal nostro sito offre un nuovo strumento a supporto degli Enti Creditori che emettono avvisi di pagamento pagoPA. Si tratta di una **guida online, articolata in diverse sezioni interattive, che raccoglie tutte le indicazioni e le specifiche tecniche** utili a produrre l’avviso (cartaceo o digitale), grazie al quale i cittadini possono pagare un servizio, un tributo, una retta o altri importi dovuti a un ente pubblico tramite la piattaforma pagoPA.  
 <!--more-->
 
 La [nuova guida tecnica](https://docs.pagopa.it/avviso-pagamento/) intende uniformare e semplificare la produzione degli avvisi di pagamento da parte degli Enti Creditori, fornendo a tutti le stesse regole di progettazione, in modo da: 
