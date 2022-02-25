@@ -2,7 +2,7 @@
   docs:
     - 
       label: SACI - Specifiche attuative dei codici identificativi di versamento, riversamento e rendicontazione
-      url: "https://github.com/pagopa/pagopa-codici-docs/blob/master/files/SACI-v1.4.0.pdf"
+      url: "https://docs.pagopa.it/saci"
     - 
       label: SANP - Specifiche Attuative del Nodo dei Pagamenti-SPC
       url: 'https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs'
@@ -26,9 +26,6 @@
     - 
       label: Repository su Github
       url: 'https://github.com/pagopa/pagopa-api'
-    - 
-      label: Toolkit per la generazione di posizioni debitorie e avvisi di pagamento
-      url: "https://github.com/pagopa/pagopa-toolkit-os-codebase"
 - title: Tassonomia
   docs:
    - 
