@@ -21,7 +21,7 @@ La [nuova guida tecnica](https://docs.pagopa.it/avviso-pagamento/) intende unifo
 
 L’ascolto costante delle esigenze di tutti i soggetti integrati alla piattaforma e la stretta collaborazione con le amministrazioni sul territorio ha consentito a PagoPA di mappare le casistiche di pagamento più frequenti; in seguito, grazie anche alla partecipazione attiva di alcuni Enti (come, ad esempio, il Comune di Vicenza o l’Università degli Studi di Roma Tor Vergata) è stato possibile definire i **principali modelli di avviso** e metterli a disposizione di tutte le PA tramite questa guida, fornendo per ciascuno **diversi esempi, opzioni e template** da scaricare per la personalizzazione. 
 
-L’utilizzo di tali modelli è obbligatorio per tutti gli Enti creditori aderenti a PagoPA. 
+L’utilizzo di tali modelli è obbligatorio per tutti gli Enti creditori aderenti a pagoPA. 
 Clicca [qui](https://docs.pagopa.it/avviso-pagamento/) per saperne di più. 
 
 
