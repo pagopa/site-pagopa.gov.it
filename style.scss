@@ -1098,7 +1098,11 @@ body.page--cittadini-trasparenza-costi {
 .ukraine-donation-link-inner {
   display: flex;
   align-items: center;
-  padding: 0 34px; // Total: 40px (6px container padding included)
+  padding: 0 16px;
+
+  @media (min-width: 768px) {
+    padding: 0 24px;
+  }
 }
 
 .ukraine-donation-link-icon {

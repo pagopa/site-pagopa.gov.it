@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+
+{% if page.ref == 'cittadini-dove-pagare' %}
+  {% include donation-ukraine-section.html %}
+{% endif %}
+
 {% unless page.omit_breadcrumbs %}
 <div class="container my-2 my-md-4">
   {%- include breadcrumbs.html -%}
