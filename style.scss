@@ -1075,6 +1075,40 @@ body.page--cittadini-trasparenza-costi {
   }
 }
 
+/*
+** Ukraine Donation — Integration
+*/
+
+.ukraine-donation-link {
+  background-color: #00254c;
+  color: white;
+  text-decoration: none;
+  line-height: 1.25;
+
+  &:hover {
+    color: white;
+    text-decoration: none;
+
+    .ukraine-donation-link-text {
+      text-decoration: underline;
+    }
+  }
+}
+
+.ukraine-donation-link-inner {
+  display: flex;
+  align-items: center;
+  padding: 0 34px; // Total: 40px (6px container padding included)
+}
+
+.ukraine-donation-link-icon {
+  padding-right: 12px;
+}
+
+/*
+** END Ukraine Donation
+*/
+
 //animations
 .animate {
   &.fade-in {
