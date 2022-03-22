@@ -4,8 +4,10 @@ title: Donazioni Ucraina
 description:
 lang: it
 ref: privacy-policy-donazioni-ucraina
+noindex: true
 ---
-## Termini e condizioni d'uso
+
+## Termini e condizioni d'uso - v.1.0 (22 Marzo 2022)
 {: .h3 }
 
 Questi termini regolano esclusivamente l’uso del Servizio per le donazioni a favore dell’emergenza in Ucraina e si aggiungono agli altri termini e condizioni applicabili che regolano l’uso dei prodotti e servizi della Società da parte degli utenti finali, comprese le informative privacy. Se usi il Servizio tramite l’App IO, oltre a questi termini si applicano i termini e condizioni d’uso e l’informativa privacy dell’app IO, sempre disponibili in app e all’indirizzo [io.italia.it/app-content/tos_privacy](https://io.italia.it/app-content/tos_privacy.html){:target="_blank"}, se invece usi il Servizio tramite il [Sito dedicato](https://checkout.pagopa.it/dona){:target="_blank"}, oltre a questi termini si applicano i termini e condizioni d’uso e l’informativa privacy disponibili all'indirizzo [checkout.pagopa.it](https://checkout.pagopa.it){:target="_blank"}.
@@ -41,7 +43,11 @@ A fronte dell’emergenza in Ucraina, la Società ha deciso di mettere a disposi
 
 Il Servizio si avvale delle infrastrutture e delle interfacce gestite dalla Società, nonché della collaborazione dei PSP e degli enti e delle organizzazioni che volontariamente aderiscono all’iniziativa.
 
-L’utilizzo del Servizio per effettuare le Donazioni non prevede alcun corrispettivo a favore della Società. Alcuni PSP potrebbero applicare commissioni alla transazione, e tale importo ti verrà mostrato prima di completare la transazione. L’intero importo scelto per la Donazione (al netto delle eventuali commissioni) verrà versato direttamente sul conto dell’ente e/o dell’organizzazione a cui scegli di donare.
+Se effettui la donazione tramite carta di credito/debito direttamente dalla sezione “Carta di credito/debito” i PSP ivi disponibili non ti applicheranno alcuna commissione. Se invece utilizzi modalità di pagamento disponibili in una sezione diversa da “Carta di credito/debito” i PSP potrebbero applicare una commissione alla transazione; in ogni caso l’importo della commissione ti verrà mostrato sempre prima di completare la transazione. 
+ 
+L’utilizzo del Servizio per effettuare le Donazioni non prevede alcun corrispettivo a favore della Società. 
+ 
+L’intero importo scelto per la Donazione (al netto delle eventuali commissioni) verrà versato direttamente sul conto dell’ente e/o dell’organizzazione a cui scegli di donare.
 
 Per effettuare Donazioni, potrai utilizzare i metodi di pagamento compatibili con il Servizio, e se sei già un utilizzatore dell’App IO o della Piattaforma pagoPA non dovrai inserire i dati solitamente associati alla tua posizione debitoria, ovvero Codice Avviso e Codice Fiscale Ente Creditore, ma solo scegliere il Beneficiario a cui vuoi donare e il valore della Donazione, scegliendo tra i tagli disponibili. Se vuoi donare importi di valore superiore, potrai ripetere la Donazione più volte. 
 
