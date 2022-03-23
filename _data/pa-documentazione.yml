@@ -47,11 +47,14 @@
     - 
       label: Guida Tecnica per la progettazione degli avvisi di pagamento pagoPA
       url: "https://docs.pagopa.it/avviso-pagamento/"
-- title: "Brand Assets"
+- title: "Brand"
   docs:
     -
       label: Regolamento
       url: "https://www.pagopa.gov.it/assets/download/pagoPA-regolamento-marchio.pdf"
     -
-      label: Brand Guidelines
+      label: Linee Guida
       url: "https://www.pagopa.gov.it/assets/download/pagoPA-brand-guidelines.pdf"
+    -
+      label: Logo pagoPA
+      url: "https://www.pagopa.gov.it/assets/download/pagoPA-brand-assets.zip"
