@@ -10,11 +10,6 @@ child_of_ref: cos-e-pago-pa
 redirect_from:
   - /it/pagopa/helpdesk/
   - /it/documentazione/faq/
-footerbanner:
-  title: Sei un Ente Creditore o PSP?
-  desc: Per domande tecniche relative all’implementazione di pagoPA, puoi aprire una segnalazione direttamente su GitHub
-  cta: Apri segnalazione
-  url: "https://github.com/pagopa/pagopa-api/issues"
 gridbody:
   -
     img: "/assets/images/pictograms/ricevute.svg"
@@ -37,10 +32,34 @@ gridbody:
     more:
       label: Chiama
       url: "tel://+390645202323"
+entiaiuto:
+  -
+    title: Domande tecniche
+    desc: "Per chiarimenti sulle specifiche d’implementazione di pagoPA, come ad esempio SACI e SANP, puoi aprire una segnalazione su GitHub."
+    more:
+      label: Vai su GitHub
+      url: "https://github.com/pagopa/pagopa-api/issues"
+  -
+    title: Assistenza dedicata
+    desc: "Per tutte le altre richieste, puoi aprire direttamente un ticket nella tua area riservata. In alternativa, chiamaci allo [06.4520.2323](tel://+390645202323) o scrivi un’e-mail a <pagamenti@assistenza.pagopa.it>"
+    more:
+      label: Accedi all'Area Riservata
+      url: "https://partner.assistenza.pagopa.it"
 ---
 
 {%include components/grid-simple.html 
           source=page.gridbody
           columns=3
+          css_wrapper="my-3 my-md-5 img-64"
+          %}
+
+<div class="py-3"></div>
+
+### Enti, Partner Tecnologici e PSP
+{:.border-bottom .border-light .pb-2}
+
+{%include components/grid-simple.html 
+          source=page.entiaiuto
+          columns=2
           css_wrapper="my-3 my-md-5 img-64"
           %}
