@@ -44,7 +44,7 @@ entiaiuto:
     desc: "Per tutte le altre richieste, puoi aprire direttamente un ticket nella tua area riservata. In alternativa, chiamaci allo [06.4520.2323](tel://+390645202323) o scrivi un’e-mail a <pagamenti@assistenza.pagopa.it>"
     more:
       label: Accedi all'Area Riservata
-      url: "#"
+      url: "https://partner.assistenza.pagopa.it"
 ---
 
 {%include components/grid-simple.html 
