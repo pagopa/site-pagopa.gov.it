@@ -73,7 +73,7 @@ $(function() {
         var actitems = $selected.attr('data-actived').slice(0,-1).split(',');
         var menu = [
             {
-                text: "Qualsiasi",
+                text: "Tutti",
                 value: ""
             }
         ];
