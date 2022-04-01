@@ -71,7 +71,12 @@ $(function() {
     $where.change(function() {
         var $selected = $( "#psp-compare__where option:selected" );
         var actitems = $selected.attr('data-actived').slice(0,-1).split(',');
-        var menu = [];
+        var menu = [
+            {
+                text: "Tutti",
+                value: "all"
+            }
+        ];
         actitems.forEach(function(el) {
             menu.push(
                 {
@@ -91,7 +96,11 @@ $(function() {
         var amount = $amount.val().replace(',','.');
         var by = $by.val();
         var results_data = $.grep(services, function(n, i){
-            return  (parseFloat(amount) > n['importo_minimo'] && parseFloat(amount) <= n['importo_massimo']) && n[by]==true;
+            if (by!=="all") {
+                return  (parseFloat(amount) > n['importo_minimo'] && parseFloat(amount) <= n['importo_massimo']) && n[by]==true;
+            } else {
+                return  parseFloat(amount) > n['importo_minimo'] && parseFloat(amount) <= n['importo_massimo'];
+            }
           });
         var result_size_string = results_data.length==1 ? 'risultato' : 'risultati';
         $size.text(results_data.length.toString() + ' ' + result_size_string);
