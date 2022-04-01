@@ -74,7 +74,7 @@ $(function() {
         var menu = [
             {
                 text: "Qualsiasi",
-                value: "all"
+                value: ""
             }
         ];
         actitems.forEach(function(el) {
@@ -84,6 +84,8 @@ $(function() {
                     value: metodi[el]['condition'][0] || el,
                 }
             );
+            // populate "all" filter
+            menu[0]['value'] = menu[0]['value'] + ',' + metodi[el]['condition'][0];
         });
         $by.removeAttr('disabled');
         $by_wrapper.removeClass('disabled');
@@ -94,12 +96,18 @@ $(function() {
     $("#psp-compare").on("submit", function(e) {
         e.preventDefault();
         var amount = $amount.val().replace(',','.');
-        var by = $by.val();
+        var by = $by.val().split(',');
         var results_data = $.grep(services, function(n, i){
-            if (by!=="all") {
-                return  (parseFloat(amount) > n['importo_minimo'] && parseFloat(amount) <= n['importo_massimo']) && n[by]==true;
+            if (by.length < 2) {
+                return  (parseFloat(amount) > n['importo_minimo'] && parseFloat(amount) <= n['importo_massimo']) && n[by[0]]==true;
             } else {
-                return  parseFloat(amount) > n['importo_minimo'] && parseFloat(amount) <= n['importo_massimo'];
+                // only TRUE values
+                var NKeys = Object.keys(n).filter(function(key) {
+                    return n[key];
+                    });
+                // check if there's at least a method matching
+                var checkMethods = NKeys.length > 0 && NKeys.filter(x => by.includes(x));
+                return  (parseFloat(amount) > n['importo_minimo'] && parseFloat(amount) <= n['importo_massimo']) && checkMethods.length > 0;
             }
           });
         var result_size_string = results_data.length==1 ? 'risultato' : 'risultati';
