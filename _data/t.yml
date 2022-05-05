@@ -75,6 +75,9 @@ footer-links:
     privacy-policy:
       name: "Privacy policy"
       url: "/it/privacy-policy/"
+    privacy-policy-assistenza:
+      name: "Privacy policy assistenza"
+      url: "https://www.pagopa.it/it/privacy-policy-assistenza/"
     societa-trasparente:
       name: "Società Trasparente"
       url: "https://pagopa.portaleamministrazionetrasparente.it/"
