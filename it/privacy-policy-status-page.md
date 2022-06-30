@@ -8,34 +8,34 @@ noindex: true
 ---
 
 ## Informativa sul trattamento dei dati personali
-{: .h3 }
+{: .h3}
 
-La presente informativa, resa ai sensi degli artt. 13-14 del Regolamento (UE) 2016/679 (di seguito il **“Regolamento”** o **“GDPR”**), descrive le modalità del trattamento dei dati personali degli utenti (di seguito **“Interessato/i”** o genericamente **“Utente/i”**) che visitano il sito web Status Page alla pagina [https://status.pagopa.gov.it]{https://status.pagopa.gov.it} (di seguito **“Sito”**). 
+La presente informativa, resa ai sensi degli artt. 13-14 del Regolamento (UE) 2016/679 (di seguito il **“Regolamento”** o **“GDPR”**), descrive le modalità del trattamento dei dati personali degli utenti (di seguito **“Interessato/i”** o genericamente **“Utente/i”**) che visitano il sito web Status Page alla pagina [https://status.pagopa.gov.it](https://status.pagopa.gov.it) (di seguito **“Sito”**). 
 Il Sito mostra le performance della piattaforma pagoPA (di seguito **“Piattaforma”**) e informa in modo trasparente gli Utenti su eventuali disservizi temporanei della Piattaforma stessa, al fine di rendere più trasparente il servizio erogato, nonché migliorare la qualità del medesimo.
 
-### Titolare del trattamento dei dati
+### Titolare del trattamento e base giuridica
 {: .h4}
 
 Il Titolare del trattamento è PagoPA S.p.A., ( di seguito **“Titolare”** o la **“Società”**) con sede in Roma, Piazza Colonna 370, CAP - 00187, n. di iscrizione a Registro Imprese di Roma, CF e P.IVA 15376371009. 
-E-mail: [info@pagopa.it]{mailto:info@pagopa.it}.
+E-mail: [info@pagopa.it](mailto:info@pagopa.it).
 La Società tratta i dati personali in qualità di Titolare del trattamento sulla base dell’esercizio del compito di interesse pubblico di cui all’art. 6, comma 1, lett. e) del GDPR.
-Per ogni domanda inerente il trattamento di dati personali si prega di scrivere utilizzando il [form]{https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8} dedicato alla gestione delle richieste degli interessati.
+Per ogni domanda inerente il trattamento di dati personali si prega di scrivere utilizzando il [form](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8) dedicato alla gestione delle richieste degli interessati.
 
 ### Data protection officer (DPO) o Responsabile Protezione Dati (RPD)
 {: .h4}
 
-PagoPA S.p.A. ha nominato un proprio Responsabile della Protezione dei dati, ai sensi dell’art. 37 del Regolamento, che può essere contattato tramite il presente form di contatto. Il [form]{https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8} è altresì disponibile sul sito web della Società ovvero www.pagopa.it nella sezione “Diritto alla protezione dei dati personali”. 
+PagoPA S.p.A. ha nominato un proprio Responsabile della Protezione dei dati, ai sensi dell’art. 37 del Regolamento, che può essere contattato tramite il presente form di contatto. Il [form](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8) è altresì disponibile sul sito web della Società ovvero www.pagopa.it nella sezione “Diritto alla protezione dei dati personali”. 
 
 ### Categorie di soggetti ai quali i dati personali possono essere comunicati e finalità della comunicazione
 {: .h4}
 
 La Società potrà comunicare alcuni dati personali a soggetti terzi dei quali si avvale per lo svolgimento di attività connesse alla gestione del Sito.
 In particolare, i dati personali potranno essere comunicati a società esterne che offrono alla Società taluni servizi e ai soggetti cui la comunicazione sia dovuta in forza di obblighi di legge. I suddetti soggetti potranno trattare i dati in qualità di responsabili per conto della Società o di titolari autonomi nel rispetto delle disposizioni di legge.
-L’elenco completo dei responsabili del trattamento può essere richiesto alla Società scrivendo sul [form]{https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8} di contatto presente nella sezione “Diritto alla protezione dei dati personali” del [sito web]{https://www.pagopa.it/it/} della Società. 
+L’elenco completo dei responsabili del trattamento può essere richiesto alla Società scrivendo sul [form](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8) di contatto presente nella sezione “Diritto alla protezione dei dati personali” del [sito web](https://www.pagopa.it/it/) della Società. 
 Non è prevista alcuna forma di diffusione dei dati personali a soggetti indeterminati.
 Tra i responsabili del trattamento di cui la Società si avvale:
 
-* Atlassian PTY Ltd., Level 6, 341 George Street, Sydney NSW 2000 - Australia - [eudatarep@atlassian.com]{mailto:eudatarep@atlassian.com} - company incorporated and registered under Australian law. ACN: 102 443 916; ABN: 53 102 443 916; TFN: 796 192 619 - VAT number: EU372001951. 
+* Atlassian PTY Ltd., Level 6, 341 George Street, Sydney NSW 2000 - Australia - [eudatarep@atlassian.com](mailto:eudatarep@atlassian.com) - company incorporated and registered under Australian law. ACN: 102 443 916; ABN: 53 102 443 916; TFN: 796 192 619 - VAT number: EU372001951. 
 
 ### Dati personali trattati e finalità del trattamento
 {: .h4}
@@ -48,20 +48,7 @@ I dati trattati sono necessari primariamente per la fruizione del Sito al fine d
  
 I dati personali dell’Utente possono essere utilizzati inoltre dal Titolare in giudizio o nelle fasi propedeutiche alla sua eventuale instaurazione per la difesa da abusi perpetrati dall’Utente.
 
-Per maggiori informazioni è sempre disponibile il [form]{https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8} dedicato alla gestione delle richieste degli interessati disponibile nella sezione “Diritto alla protezione dei dati personali” del sito internet della Società [https://www.pagopa.it/it/]{https://www.pagopa.it/it}. 
-
-### Tempi di conservazione dei dati
-{: .h4}
-I dati personali acquisiti tramite il presente Sito sono conservati per il tempo necessario: i) per il corretto svolgimento dei servizi erogati dal Sito, ii) per motivi di interesse pubblico, e iii) per l’adempimento degli obblighi legali connessi.
-
-Nel rispetto dei principi di proporzionalità e necessità, i dati non sono conservati per periodi più lunghi rispetto a quelli indispensabili alla realizzazione delle finalità sopra indicate e dunque al diligente utilizzo del Sito. Per maggiori informazioni è possibile scrivere tramite il presente [form di contatto](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8){:target="_blank"}.
-
-### Trasferimento transfrontaliero dei dati
-{: .h4}
-
-La Società si avvale di fornitori europei e non per l’erogazione dei propri servizi. Abbiamo concluso con tali fornitori accordi di servizio ai sensi dell’art. 28 del Regolamento. Tutti i fornitori sono conformi al GDPR. In particolare, ancor di più, i fornitori che risiedono al di fuori dello Spazio Economico Europeo (SEE), compresi gli USA,  sono stati adeguatamente selezionati e oltre ad esser nominati ai sensi dell’art. 28 GDPR, e nel rispetto degli articoli 46, 47 e 49 del GDPR, hanno stipulato le Clausole Contrattuali Standard della Commissione Europea per garantire adeguati livelli di tutela, oltre a eventuali misure supplementari ove possibili e necessarie per rafforzare i livelli di tutela stessi.
-
-Per maggiori informazioni è possibile scrivere tramite il presente [form di contatto](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8){:target="_blank"}.
+Per maggiori informazioni è sempre disponibile il [form](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8) dedicato alla gestione delle richieste degli interessati disponibile nella sezione “Diritto alla protezione dei dati personali” del sito internet della Società [https://www.pagopa.it/it/](https://www.pagopa.it/it). 
 
 ### Modalità del trattamento
 {: .h4}
@@ -81,22 +68,23 @@ Il Titolare, nello svolgimento delle proprie attività e per erogare i propri se
 
 I dati personali relativi agli Utenti sono trattati per il tempo strettamente necessario al perseguimento delle finalità per le quali sono stati raccolti. Nel rispetto dei principi di proporzionalità e necessità, i dati non sono conservati per periodi più lunghi rispetto a quelli indispensabili alla realizzazione delle finalità sopra indicate e dunque al diligente svolgimento delle attività.
 
-Per maggiori informazioni è sempre disponibile il [form]{https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8} dedicato alla gestione delle richieste degli interessati disponibile nella sezione “Diritto alla protezione dei dati personali” del sito internet della Società [https://www.pagopa.it/it/]{https://www.pagopa.it/it/}. 
+Per maggiori informazioni è sempre disponibile il [form](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8) dedicato alla gestione delle richieste degli interessati disponibile nella sezione “Diritto alla protezione dei dati personali” del sito internet della Società [https://www.pagopa.it/it/](https://www.pagopa.it/it/). 
 
 ### Trasferimento transfrontaliero dei dati
-I dati personali potranno essere trasferiti fuori dall’Unione Europea da parte di fornitori di servizi di cui la Società si avvale per attività connesse alla gestione del Sito. Tale trasferimento, ove ricorra il caso, verrà disciplinato con i fornitori di servizi mediante il ricorso a clausole contrattuali standard adottate dalla Commissione europea con la decisione 2021/914/UE ed eventuali successive modifiche o, in alternativa, sulla base di una decisione di adeguatezza della Commissione europea e/o di ogni altro strumento consentito dalla normativa di riferimento. La lista dei fornitori coinvolti, comprensivi delle garanzie poste in essere, può essere richiesta in qualsiasi momento, utilizzando il [form]{https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8} dedicato alla gestione delle richieste degli interessati disponibile nella sezione “Diritto alla protezione dei dati personali” del sito internet della Società [https://www.pagopa.it/it/]{https://www.pagopa.it/it/}.
+I dati personali potranno essere trasferiti fuori dall’Unione Europea da parte di fornitori di servizi di cui la Società si avvale per attività connesse alla gestione del Sito. Tale trasferimento, ove ricorra il caso, verrà disciplinato con i fornitori di servizi mediante il ricorso a clausole contrattuali standard adottate dalla Commissione europea con la decisione 2021/914/UE ed eventuali successive modifiche o, in alternativa, sulla base di una decisione di adeguatezza della Commissione europea e/o di ogni altro strumento consentito dalla normativa di riferimento. La lista dei fornitori coinvolti, comprensivi delle garanzie poste in essere, può essere richiesta in qualsiasi momento, utilizzando il [form](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8) dedicato alla gestione delle richieste degli interessati disponibile nella sezione “Diritto alla protezione dei dati personali” del sito internet della Società [https://www.pagopa.it/it/](https://www.pagopa.it/it/).
 
 ### Diritti degli interessati
 {: .h4}
 
 Gli Utenti, ai quali i dati personali si riferiscono, hanno il diritto di esercitare nei casi previsti e nei limiti di legge i diritti loro riconosciuti ai sensi degli artt. da 15 a 22 del GDPR.
-Le richieste dovranno essere inoltrate alla Società. Gli Interessati possono, altresì, contattare il Responsabile della protezione dei dati per tutte le questioni inerenti il trattamento dei propri dati personali e l'esercizio dei propri diritti, utilizzando il presente [form]{https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8} dedicato alla gestione delle richieste degli interessati disponibile nella sezione “Diritto alla protezione dei dati personali” del sito internet della Società [https://www.pagopa.it/it/]{https://www.pagopa.it/it/. 
+Le richieste dovranno essere inoltrate alla Società. Gli Interessati possono, altresì, contattare il Responsabile della protezione dei dati per tutte le questioni inerenti il trattamento dei propri dati personali e l'esercizio dei propri diritti, utilizzando il presente [form](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8) dedicato alla gestione delle richieste degli interessati disponibile nella sezione “Diritto alla protezione dei dati personali” del sito internet della Società [https://www.pagopa.it/it/](https://www.pagopa.it/it/). 
 
 Gli Interessati che ritengano che il trattamento dei dati personali a loro riferiti, effettuato dal Titolare del trattamento, avvenga in violazione di quanto previsto dal Regolamento, hanno il diritto di proporre reclamo al Garante, come previsto dall’art. 77 del Regolamento stesso, o di adire le opportune sedi giudiziarie (art. 79 del Regolamento).
 Di seguito si trasmettono i dati di contatto ed i riferimenti dell’**Autorità di controllo - Garante per la protezione dei dati personali**:
-Indirizzo e-mail: garante@gpdp.it
-Indirizzo PEC: protocollo@pec.gpdp.it
-Sito web: https://www.garanteprivacy.it 
+
+* Indirizzo e-mail: garante@gpdp.it
+* Indirizzo PEC: protocollo@pec.gpdp.it
+* Sito web: https://www.garanteprivacy.it 
 
 ### Modifiche
 {: .h4}
@@ -130,4 +118,4 @@ Di seguito invece le istruzioni rese disponibili dai relativi fornitori ai link 
 
 Data di ultimo aggiornamento: 30.06.2022
 
-I tuoi feedback sono importanti per migliorare il Sito, anche sulle questioni privacy! Se qualcosa che riguarda la tua privacy non ti convince, non ti è chiaro o ritieni che dovremmo agire diversamente, scrivici utilizzando il [form]{https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8} dedicato alla gestione delle richieste degli Interessati.
+I tuoi feedback sono importanti per migliorare il Sito, anche sulle questioni privacy! Se qualcosa che riguarda la tua privacy non ti convince, non ti è chiaro o ritieni che dovremmo agire diversamente, scrivici utilizzando il [form](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8) dedicato alla gestione delle richieste degli Interessati.
