@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Status Page
+title: Privacy Policy - Status Page
 description:
 lang: it
-ref: privacy-policy-status-Page
+ref: privacy-policy-status-page
 noindex: true
 ---
 
