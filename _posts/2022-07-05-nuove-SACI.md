@@ -8,7 +8,7 @@ caption: "Foto di Beatriz Pérez Moya (da Unsplash)"
 child_of_ref: notizie
 ---
 
-PagoPA S.p.A. ha pubblicato la **versione 3.0.0 delle Specifiche Attuative dei Codici Identificativi di versamento, riversamento e rendicontazione (SACI)**.
+PagoPA S.p.A. ha pubblicato la **[versione 3.0.0](https://docs.pagopa.it/saci)** **delle Specifiche Attuative dei Codici Identificativi di versamento, riversamento e rendicontazione (SACI)**.
 
 La nuova release allinea la gestione dell’**Identificativo Univoco di Versamento (IUV)** e dei **Flussi di Rendicontazione al nuovo Modello Unico di Pagamento**, introdotto dalle [SANP](https://docs.pagopa.it/sanp).
 
