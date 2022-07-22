@@ -88,8 +88,11 @@ footer-links:
       name: "Sicurezza"
       url: "/security.html"
     accessibilita:
-      name: "Dichiarazione di accessibilità"
+      name: "Accessibilità"
       url: "https://form.agid.gov.it/view/382576b5-a353-42ae-9fa2-2e87c3f1efcf/"
+    accessibilita:
+      name: "Stato piattaforma"
+      url: "https://status.pagopa.gov.it"
 newsletter:
   it:
     title: "Resta aggiornato, iscriviti alla newsletter!"
