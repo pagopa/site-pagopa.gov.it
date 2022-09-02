@@ -69,7 +69,7 @@ $(function() {
     });
 
     // manage "trasparenza costi"
-    $where.change(function() {
+    $where.change(function(event) {
         var $selected = $( "#psp-compare__where option:selected" );
         var actitems = $selected.attr('data-actived').slice(0,-1).split(',');
         var menu = [
@@ -92,6 +92,10 @@ $(function() {
         $by_wrapper.removeClass('disabled');
         $by_wrapper.setOptionsToSelect(menu);
         $submit.removeAttr("disabled");
+        // submit when is triggered
+        if (event.isTrigger) {
+            $form.submit();
+        }
     });
 
     $("#psp-compare").on("submit", function(e) {
@@ -146,11 +150,10 @@ $(function() {
         var params = Object.fromEntries(urlSearchParams.entries());
         var amountByUrl = (params.amount && !isNaN(parseInt(params.amount))) ? true : false;
         if (amountByUrl) {
+            var amountParsed = parseInt(params.amount) / 100;
             $amount.focus();
-            $amount.val(params.amount);
+            $amount.val(amountParsed.toFixed(2).toString().replace(".", ","));
             $where.val("checkout").trigger("change");
-            $submit.removeAttr("disabled");
-            $form.submit();
         }
     });
 });
