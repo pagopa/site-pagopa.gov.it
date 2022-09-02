@@ -4,6 +4,7 @@ $(function() {
     var app_logos = {};
     var template = $("#psp-compare__result-template").html();
     var compile = Handlebars.compile(template);
+    var $form = $("#psp-compare");
     var $results_nodata = $("#psp-compare__noresults");
     var $results_header = $(".psp-compare__results__header");
     var $results_wrapper = $("#psp-compare__results");
@@ -138,5 +139,18 @@ $(function() {
         $results_nodata.addClass("d-none");
         $results_wrapper.attr("tabindex", "-1");
         
+    });
+
+    $(window).on("load", function () {
+        var urlSearchParams = new URLSearchParams(window.location.search);
+        var params = Object.fromEntries(urlSearchParams.entries());
+        var amountByUrl = (params.amount && !isNaN(parseInt(params.amount))) ? true : false;
+        if (amountByUrl) {
+            $amount.focus();
+            $amount.val(params.amount);
+            $where.val("checkout").trigger("change");
+            $submit.removeAttr("disabled");
+            $form.submit();
+        }
     });
 });
