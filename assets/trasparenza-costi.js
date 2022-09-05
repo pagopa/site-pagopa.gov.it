@@ -52,14 +52,31 @@ $(function() {
         });
     }
 
-    $.get( "/assets/jsonpsp/psp-metodi.json").done(function(data) {
-        metodi = data;
-    });
-    $.get( "/assets/jsonpsp/psp-services.json").done(function(data) {
-        services = data;
-    });
+    function loadByAmount() {
+        // THIS Function check if autofill the form using the amount parsed in querystring
+        var urlSearchParams = new URLSearchParams(window.location.search);
+        var params = Object.fromEntries(urlSearchParams.entries());
+        var amountByUrl = (params.amount && !isNaN(parseInt(params.amount))) ? true : false;
+        if (amountByUrl) {
+            var amountParsed = parseInt(params.amount) / 100;
+            $amount.focus();
+            $amount.val(amountParsed.toFixed(2).toString().replace(".", ","));
+            $where.val("checkout").trigger("change");
+        }
+    }
+
     $.get( "/assets/json/app_logo.json").done(function(data) {
         app_logos = data;
+    });
+
+    $.get( "/assets/jsonpsp/psp-metodi.json").done(function(data) {
+        metodi = data;
+    }).done(function() {
+        $.get( "/assets/jsonpsp/psp-services.json").done(function(data) {
+            services = data;
+        }).done(function() {
+            loadByAmount();
+        });
     });
 
     $("#psp-compare__amount").keyup(function(){
@@ -94,6 +111,7 @@ $(function() {
         $submit.removeAttr("disabled");
         // submit when is triggered
         if (event.isTrigger) {
+            $by.val(menu[0].value).trigger("change");
             $form.submit();
         }
     });
@@ -145,15 +163,4 @@ $(function() {
         
     });
 
-    $(window).on("load", function () {
-        var urlSearchParams = new URLSearchParams(window.location.search);
-        var params = Object.fromEntries(urlSearchParams.entries());
-        var amountByUrl = (params.amount && !isNaN(parseInt(params.amount))) ? true : false;
-        if (amountByUrl) {
-            var amountParsed = parseInt(params.amount) / 100;
-            $amount.focus();
-            $amount.val(amountParsed.toFixed(2).toString().replace(".", ","));
-            $where.val("checkout").trigger("change");
-        }
-    });
 });
