@@ -144,7 +144,9 @@ $(function() {
             $results_nodata.addClass("d-none");
         }
         $results_wrapper.attr("tabindex", 3);
-        $results_wrapper.focus();
+        if (e.isTrigger===undefined) {
+            $results_wrapper.focus();
+        }
     });
     $("#psp-compare").on("reset", function() {
         $results.empty();
@@ -160,7 +162,6 @@ $(function() {
         $amount.focus();
         $results_nodata.addClass("d-none");
         $results_wrapper.attr("tabindex", "-1");
-        
     });
 
 });
