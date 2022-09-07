@@ -26,7 +26,7 @@ passi:
 docs: 
     -
      label: Portale delle Adesioni - Manuale Utente
-     url: "https://github.com/pagopa/lg-pagopa-docs/raw/master/documentazione_tecnica_collegata/adesione/"
+     url: "https://docs.pagopa.it/portale-delle-adesioni/"
     -
      label: "Elenco degli Enti Creditori aderenti a pagoPA"
      url: "https://www.pagopa.gov.it/data/pagopa-ec.csv"
