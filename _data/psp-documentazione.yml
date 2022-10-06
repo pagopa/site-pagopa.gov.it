@@ -6,9 +6,6 @@
     - 
       label: SANP - Specifiche Attuative del Nodo dei Pagamenti-SPC
       url: 'https://docs.pagopa.it/sanp'
-    -
-      label: Pagamenti presso POS fisici
-      url: "https://github.com/pagopa/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/documentazione_collegata/monografia-pos-fisici-v2.0.1.pdf"
     - 
       label: Pagamento della Tassa Automobilistica
       url: 'https://github.com/italia/lg-pagopa-docs/blob/master/documentazione_tecnica_collegata/documentazione_collegata/bollo_auto_mod_4_0.zip'
