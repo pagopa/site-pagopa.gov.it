@@ -12,19 +12,13 @@
 - title: API e materiali per gli sviluppatori
   docs:
     - 
-      label: pagoPA API
-      url: "https://pagopa.github.io/pagopa-api/"
-    - 
       label: Repository su Github
       url: 'https://github.com/pagopa/pagopa-api'
 - title: Tassonomia
   docs:
    - 
-      label: Tassonomia dei servizi (formato XLSX)
-      url: 'https://drive.google.com/file/d/13xOd__Qd4pwKHr3wjE-73NAB2O7UKmIt/view'
-   - 
-      label: Tassonomia dei servizi (formato JSON)
-      url: 'https://github.com/pagopa/pagopa-api/blob/develop/taxonomy/tassonomia.json'
+      label: Tassonomia dei servizi
+      url: 'https://docs.pagopa.it/sanp/ente-creditore/tassonomia-dei-servizi-di-incasso'
    - 
       label: Contribuisci al miglioramento della Tassonomia
       url: 'https://survey.pagopa.it/238313'
