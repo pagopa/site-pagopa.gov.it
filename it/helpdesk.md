@@ -22,7 +22,7 @@ gridbody:
   -
     img: "/assets/images/pictograms/mail.svg"
     title: Scrivi a pagamenti@assistenza.pagopa.it
-    desc: "Allega dati utili per capire meglio il tuo problema, come ad esempio i dati del pagamento, il metodo scelto e screenshot."
+    desc: "Inviaci un'e-mail da una casella normale (non PEC). Includi informazioni utili a capire meglio il tuo problema, come i dati del pagamento o il metodo scelto."
     more:
       label: Invia un’email
       url: "mailto:pagamenti@assistenza.pagopa.it"
@@ -42,7 +42,7 @@ entiaiuto:
       url: "https://github.com/pagopa/pagopa-api/issues"
   -
     title: Assistenza dedicata
-    desc: "Per tutte le altre richieste, puoi aprire direttamente un ticket nella tua area riservata. In alternativa, chiamaci allo [06.4520.2323](tel://+390645202323) o scrivi un’e-mail a <pagamenti@assistenza.pagopa.it>"
+    desc: "Per tutte le altre richieste, puoi aprire direttamente un ticket nella tua area riservata. In alternativa, chiamaci allo [06.4520.2323](tel://+390645202323) o invia un’e-mail da una casella normale (non PEC) a <pagamenti@assistenza.pagopa.it>."
     more:
       label: Accedi all'Area Riservata
       url: "https://partner.assistenza.pagopa.it"

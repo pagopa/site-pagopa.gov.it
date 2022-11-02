@@ -32,3 +32,10 @@
 {% if page.ref == 'cittadini-trasparenza-costi' %}
     <script src="{{ site.baseurl }}/assets/trasparenza-costi.js"></script>
 {% endif %}
+
+{% if page.js %}
+    {% for script in page.js %}
+    <script src="{{ site.baseurl }}{{script.url}}" charset="UTF-8"
+        {% if script.id %}id="{{script.id}}" {% endif %} ></script>
+    {% endfor %}
+{% endif %}
