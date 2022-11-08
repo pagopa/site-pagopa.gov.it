@@ -1,0 +1,74 @@
+name: "Deploy AWS"
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'src/app/**'
+      - '.github/workflows/*.yml'
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning' 
+        type: choice
+        options:
+        - info
+        - warning
+        - debug
+      environment:
+        description: 'Which environment to update.'
+        type: choice
+        default: 'prod'
+        required: true 
+        options:
+        - prod
+env:
+ AWS_REGION: eu-south-1
+ IAM_ROLE: arn:aws:iam::476761402556:role/GitHubActionDeploy
+ ENVIRONMENT:  prod
+ AWS_BUCKET: pagopa.gov.it
+ AWS_CLOUDFRONT_ID: EQ48YU0B7VEBZ
+
+defaults:
+  run:
+    shell: bash
+    working-directory: src/app
+
+permissions:
+  id-token: write   # This is required for requesting the JWT
+  contents: read    # This is required for actions/checkout
+
+jobs:
+  deploy:
+    name: "deploy"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          role-to-assume: ${{ env.IAM_ROLE }}
+          aws-region: ${{ env.AWS_REGION }}
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - name: Build
+        run: |
+          yarn install
+          yarn build
+      - name: Check 
+        run: | 
+          pwd
+          ls -lrt
+      - name: s3-publish
+        uses: jonelantha/gatsby-s3-action@v1
+        with:
+          dest-s3-bucket: ${{ env.AWS_BUCKET }}
+          cloudfront-id-to-invalidate: ${{ env.AWS_CLOUDFRONT_ID }}
+          public-source-path: src/app/public
