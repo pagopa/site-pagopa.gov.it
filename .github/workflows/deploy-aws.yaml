@@ -12,13 +12,6 @@ on:
         - info
         - warning
         - debug
-      environment:
-        description: 'Which environment to update.'
-        type: choice
-        default: 'prod'
-        required: true 
-        options:
-        - prod
 env:
  AWS_REGION: eu-south-1
  IAM_ROLE: arn:aws:iam::476761402556:role/GitHubActionDeploy
