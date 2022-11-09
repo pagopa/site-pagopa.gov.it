@@ -28,18 +28,9 @@ on:
 env:
  AWS_REGION: eu-south-1
  IAM_ROLE: arn:aws:iam::476761402556:role/GitHubActionDeploy
- ENVIRONMENT:  prod
+ JEKYLL_ENV: production
  AWS_BUCKET: pagopa.gov.it
  AWS_CLOUDFRONT_ID: EQ48YU0B7VEBZ
-
-defaults:
-  run:
-    shell: bash
-    working-directory: src/app
-
-permissions:
-  id-token: write   # This is required for requesting the JWT
-  contents: read    # This is required for actions/checkout
 
 jobs:
   deploy:
@@ -54,21 +45,20 @@ jobs:
         with:
           role-to-assume: ${{ env.IAM_ROLE }}
           aws-region: ${{ env.AWS_REGION }}
-      - name: Use Node.js
-        uses: actions/setup-node@v2
+      - name: Bundle
+        uses: ruby/setup-ruby@v1
         with:
-          node-version: 16
+          ruby-version: '2.7'
+          bundler-cache: true
       - name: Build
-        run: |
-          yarn install
-          yarn build
+        run: bundle exec jekyll build --config _config.yml
+        env:
+          JEKYLL_ENV: production
       - name: Check 
         run: | 
           pwd
           ls -lrt
-      - name: s3-publish
-        uses: jonelantha/gatsby-s3-action@v1
-        with:
-          dest-s3-bucket: ${{ env.AWS_BUCKET }}
-          cloudfront-id-to-invalidate: ${{ env.AWS_CLOUDFRONT_ID }}
-          public-source-path: src/app/public
+      - name: "Deploy to AWS S3"
+        run: aws s3 sync --dryrun ./_site/ s3://${{ env.AWS_BUCKET }} --acl public-read --delete 
+      - name: "Create AWS Cloudfront Invalidation"
+        run: aws cloudfront create-invalidation --distribution-id ${{ env.AWS_CLOUDFRONT_ID }} --paths "/*"
