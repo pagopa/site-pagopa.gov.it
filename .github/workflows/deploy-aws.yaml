@@ -1,12 +1,6 @@
 name: "Deploy AWS"
 
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - 'src/app/**'
-      - '.github/workflows/*.yml'
   workflow_dispatch:
     inputs:
       logLevel:
@@ -54,11 +48,7 @@ jobs:
         run: bundle exec jekyll build --config _config.yml
         env:
           JEKYLL_ENV: production
-      - name: Check 
-        run: | 
-          pwd
-          ls -lrt
       - name: "Deploy to AWS S3"
         run: aws s3 sync --dryrun ./_site/ s3://${{ env.AWS_BUCKET }} --acl public-read --delete 
       - name: "Create AWS Cloudfront Invalidation"
-        run: aws cloudfront create-invalidation --distribution-id ${{ env.AWS_CLOUDFRONT_ID }} --paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id ${{ env.AWS_CLOUDFRONT_ID }} --paths "/dummy"
