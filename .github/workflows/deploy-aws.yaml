@@ -1,6 +1,11 @@
 name: "Deploy AWS"
 
 on:
+  push:
+    branches:
+      - master
+  schedule:
+      - cron: "0 12 * * *"
   workflow_dispatch:
     inputs:
       logLevel:
@@ -18,6 +23,10 @@ env:
  JEKYLL_ENV: production
  AWS_BUCKET: pagopa.gov.it
  AWS_CLOUDFRONT_ID: EQ48YU0B7VEBZ
+
+permissions:
+  id-token: write   # This is required for requesting the JWT
+  contents: read    # This is required for actions/checkout
 
 jobs:
   deploy:
@@ -42,6 +51,6 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: "Deploy to AWS S3"
-        run: aws s3 sync --dryrun ./_site/ s3://${{ env.AWS_BUCKET }} --acl public-read --delete 
+        run: aws s3 sync ./_site/ s3://${{ env.AWS_BUCKET }} --acl public-read --delete 
       - name: "Create AWS Cloudfront Invalidation"
-        run: aws cloudfront create-invalidation --distribution-id ${{ env.AWS_CLOUDFRONT_ID }} --paths "/dummy"
+        run: aws cloudfront create-invalidation --distribution-id ${{ env.AWS_CLOUDFRONT_ID }} --paths "/*"
