@@ -17,26 +17,22 @@ on:
         - info
         - warning
         - debug
-env:
- AWS_REGION: eu-south-1
- IAM_ROLE: arn:aws:iam::476761402556:role/GitHubActionDeploy
- JEKYLL_ENV: production
- AWS_BUCKET: pagopa.gov.it
- AWS_CLOUDFRONT_ID: EQ48YU0B7VEBZ
-
-permissions:
-  id-token: write   # This is required for requesting the JWT
-  contents: read    # This is required for actions/checkout
 
 jobs:
   deploy:
     name: "deploy"
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write   # This is required for requesting the JWT
+      contents: read    # This is required for actions/checkout
     steps:
       - name: Checkout
         uses: actions/checkout@v2
       
       - name: Configure AWS Credentials
+        env:
+          AWS_REGION: eu-south-1
+          IAM_ROLE: arn:aws:iam::476761402556:role/GitHubActionDeploy
         uses: aws-actions/configure-aws-credentials@v1
         with:
           role-to-assume: ${{ env.IAM_ROLE }}
@@ -51,6 +47,10 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: "Deploy to AWS S3"
+        env:
+          AWS_BUCKET: pagopa.gov.it          
         run: aws s3 sync ./_site/ s3://${{ env.AWS_BUCKET }} --acl public-read --delete 
       - name: "Create AWS Cloudfront Invalidation"
+        env:
+          AWS_CLOUDFRONT_ID: EQ48YU0B7VEBZ
         run: aws cloudfront create-invalidation --distribution-id ${{ env.AWS_CLOUDFRONT_ID }} --paths "/*"
