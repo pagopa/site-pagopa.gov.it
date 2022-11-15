@@ -33,12 +33,12 @@ jobs:
         env:
           AWS_REGION: eu-south-1
           IAM_ROLE: arn:aws:iam::476761402556:role/GitHubActionDeploy
-        uses: aws-actions/configure-aws-credentials@v1
+        uses: aws-actions/configure-aws-credentials@67fbcbb121271f7775d2e7715933280b06314838
         with:
           role-to-assume: ${{ env.IAM_ROLE }}
           aws-region: ${{ env.AWS_REGION }}
       - name: Bundle
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@c4fe7bd15ddbfcd5e07e47bf2f2cae90581d6091
         with:
           ruby-version: '2.7'
           bundler-cache: true
