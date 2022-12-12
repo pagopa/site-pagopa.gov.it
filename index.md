@@ -44,7 +44,6 @@ blocks:
     img: "/assets/images/home/home-3.jpg"
 ---
 
-{% include donation-ukraine-section.html %}
 
 {% include hero.html %}
 
