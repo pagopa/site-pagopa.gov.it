@@ -4,7 +4,7 @@ title: "Pubblicate le linee guida per l’utilizzo del marchio pagoPA"
 lang: it
 excerpt_separator: <!--more-->
 image: /assets/images/posts/brand.png
-caption: ‘Integrato con pagoPA’, il badge per mostrare la compatibilità di un servizio con la piattaforma pagoPA. Foto di  Pawel Czerwinski (da Unsplash)
+caption: ‘Integrato con pagoPA’, il badge per mostrare la compatibilità di un servizio con la piattaforma pagoPA. (Sfondo di Pawel Czerwinski, da Unsplash)
 child_of_ref: notizie
 ---
 
