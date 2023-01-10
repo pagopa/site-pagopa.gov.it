@@ -30,11 +30,8 @@
 - title: "Brand"
   docs:
     -
+      label: Linee Guida
+      url: "https://docs.pagopa.it/linee-guida-brand-pagopa/"
+    -
       label: Regolamento
       url: "https://www.pagopa.gov.it/assets/download/pagoPA-regolamento-marchio.pdf"
-    -
-      label: Linee Guida
-      url: "https://www.pagopa.gov.it/assets/download/pagoPA-brand-guidelines.pdf"
-    -
-      label: Logo pagoPA
-      url: "https://www.pagopa.gov.it/assets/download/pagoPA-brand-assets.zip"
