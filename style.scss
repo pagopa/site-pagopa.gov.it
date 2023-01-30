@@ -1,6 +1,13 @@
 ---
 ---
 
+.text-decoration-hover {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .bootstrap-select-wrapper
   .dropdown.bootstrap-select
   .dropdown-menu

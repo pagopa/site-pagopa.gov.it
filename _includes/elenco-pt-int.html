@@ -53,7 +53,7 @@
                     {% assign detailpage = allptint | where_exp: "item", "item.permalink contains CF" | first  %}
 
                 <tr>
-                    <td><a href="{{detailpage.permalink}}.html" title="Pagina di dettaglio {{intermediario['Intermediario Partner']}}">
+                    <td><a href="{{detailpage.permalink}}.html" class="text-decoration-hover" title="Pagina di dettaglio {{intermediario['Intermediario Partner']}}">
                         {{intermediario['Intermediario Partner']}}
                         </a>
                     </td>
