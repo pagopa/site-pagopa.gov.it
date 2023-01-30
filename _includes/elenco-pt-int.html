@@ -1,4 +1,5 @@
 {% assign intermediari = site.data.intermediari  %}
+{% assign bl = site.data["intermediari-bl"]  %}
 
 <div class="row">
 <div class="col-12 col-lg-3">
@@ -49,11 +50,13 @@
             {% for intermediariotype in intermediari %}
                 {% assign intermediarilist = intermediariotype[1] | where_exp: "item", "item['Intermediario Partner']" %}
                 {% for intermediario in intermediarilist %}
-                <tr>
-                    <td>{{intermediario['Intermediario Partner']}}</td>
-                    <td>{{intermediario['Conteggio di denominazione Ente']}}</td>
-                    <td>{{intermediariotype[0]}}</td>
-                </tr>
+                    {% unless bl contains intermediario["Codice Fiscale"] %}
+                    <tr>
+                        <td>{{intermediario['Intermediario Partner']}}</td>
+                        <td>{{intermediario['Conteggio di denominazione Ente']}}</td>
+                        <td>{{intermediariotype[0]}}</td>
+                    </tr>
+                    {% endunless %}
                 {%endfor%}
             {%endfor%}
         </tbody>
