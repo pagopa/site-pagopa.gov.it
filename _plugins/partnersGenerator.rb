@@ -32,17 +32,38 @@ Jekyll::Hooks.register :site, :after_init do |doc, payload|
     end
 
     dir = "_ptqualificati/"
-    partners = YAML.load_file('_data/partner-dettagli.yml')
+    ptqualdata = YAML.load_file('_data/partner-dettagli.yml')
+    ptquallist = Array.new
 
-    partners.each do |partner|
-        name = partner['CF']
-        topass = Hash.new
-        topass['CF del Contraente'] = partner['CF']
-        topass['title'] = partner['ragionesociale']
-        topass['lang'] = 'it'
-        topass['child_of_ref'] = 'partner-qualificati-elenco'
+    ptqualdata.each do |partner|
+        ptquallist.push(partner['CF'].to_s)
+    end
 
-        File.open(dir+name+".md", "w") { |file| file.write(topass.to_yaml + '---') }
+    dir = "_pt/"
+    ptintermediari = YAML.load_file('_data/intermediari.yml')
+    blacklist = ['idIntermediario1', '15376371009']
+
+    # GENERATE PT/INTERMEDIARI STUFFS
+    ptintermediari.each do |key, list|
+        pttype = key
+        list.each do |item|
+            name = item['Codice Fiscale'].to_s
+            qualified = ptquallist.include?(name) ? true : false
+            if blacklist.include?(name)
+                next
+            end
+            topass = Hash.new
+            topass['CF del Contraente'] = item['Codice Fiscale']
+            topass['title'] = item['Intermediario Partner']
+            topass['lang'] = 'it'
+            topass['child_of_ref'] = qualified ? "partner-qualificati-elenco" : "partner-intermediari-elenco"
+            topass['qualified'] = qualified
+            topass['type'] = pttype
+            topass['numenti'] = item['Conteggio di denominazione Ente']
+            topass['permalink'] = qualified ? "/it/pubbliche-amministrazioni/partner-qualificati/"+name : "/it/pubbliche-amministrazioni/partner-intermediari/"+name
+
+            File.open(dir+name+".md", "w") { |file| file.write(topass.to_yaml + '---') }
+        end
     end
    
 end

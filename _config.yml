@@ -63,9 +63,10 @@ plugins:
 future: true
 
 collections:
-  ptqualificati:
+  pt:
     output: true
-    permalink: /it/pubbliche-amministrazioni/partner-qualificati/:name.html
+    permalink: /:permalink
+    output_ext: .html
   pspservizi:
     output: true
     permalink: /it/prestatori-servizi-di-pagamento/elenco-PSP-attivi/:name.html
@@ -76,9 +77,9 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "ptqualificati"
+      type: "pt"
     values:
-      layout: partner-qualificato
+      layout: partner-layout
 
 # Exclude these files from your production _site
 exclude:

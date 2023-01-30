@@ -1,5 +1,5 @@
 {% assign intermediari = site.data.intermediari  %}
-
+{% assign allptint = site.pt %}
 <div class="row">
 <div class="col-12 col-lg-3">
     <div class="orderIntermediari">
@@ -49,8 +49,14 @@
             {% for intermediariotype in intermediari %}
                 {% assign intermediarilist = intermediariotype[1] | where_exp: "item", "item['Intermediario Partner']" %}
                 {% for intermediario in intermediarilist %}
+                    {% assign CF = intermediario['Codice Fiscale'] %}
+                    {% assign detailpage = allptint | where_exp: "item", "item.permalink contains CF" | first  %}
+
                 <tr>
-                    <td>{{intermediario['Intermediario Partner']}}</td>
+                    <td><a href="{{detailpage.permalink}}.html" title="Pagina di dettaglio {{intermediario['Intermediario Partner']}}">
+                        {{intermediario['Intermediario Partner']}}
+                        </a>
+                    </td>
                     <td>{{intermediario['Conteggio di denominazione Ente']}}</td>
                     <td>{{intermediariotype[0]}}</td>
                 </tr>
