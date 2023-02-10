@@ -2,6 +2,7 @@
 {% assign allptint = site.pt %}
 {% assign rowsdettagli = site.data.partner-dettagli %}
 {% assign qsfilters = site.data.quadro-sinottico-servizi.items | where_exp: "item", "page.secondtypes contains item.type" | sort: 'label' %}
+{% assign bl = site.data["intermediari-bl"]  %}
 
 <div class="row">
 <div class="col-12 col-lg-3">
@@ -88,6 +89,7 @@
                     {% assign CF = intermediario['Codice Fiscale'] %}
                     {% assign detailpage = allptint | where_exp: "item", "item.permalink contains CF" | first  %}
                     {% assign ptqualificato = rowsdettagli | where_exp: "item", "item.CF contains CF" | first %}
+                    {% unless bl contains CF %}
 
                 <tr>
                     <td><a href="{{detailpage.permalink}}.html" class="text-decoration-hover" title="Pagina di dettaglio {{intermediario['Intermediario Partner']}}">
@@ -112,6 +114,7 @@
                     <td  >{% if ptqualificato[qs.alias] %}1{%endif%}</td>
                     {% endfor %}
                 </tr>
+                    {% endunless %}
                 {%endfor%}
             {%endfor%}
         </tbody>
