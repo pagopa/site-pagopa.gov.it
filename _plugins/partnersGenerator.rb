@@ -49,14 +49,12 @@ Jekyll::Hooks.register :site, :after_init do |doc, payload|
         list.each do |item|
             name = item['Codice Fiscale'].to_s
             qualified = ptquallist.include?(name) ? true : false
-            if blacklist.include?(name)
-                next
-            end
+            next if blacklist.include?(name)
             topass = Hash.new
             topass['CF del Contraente'] = item['Codice Fiscale']
             topass['title'] = item['Intermediario Partner']
             topass['lang'] = 'it'
-            topass['child_of_ref'] = qualified ? "partner-qualificati-elenco" : "partner-intermediari-elenco"
+            topass['child_of_ref'] = "partner-intermediari-elenco"
             topass['qualified'] = qualified
             topass['type'] = pttype
             topass['numenti'] = item['Conteggio di denominazione Ente']
