@@ -7,12 +7,7 @@ ref: partner-qualificati-elenco
 child_of_ref: partner-qualificati
 order: 43
 omit_pagehead: true
-usedatatables: true
-firsttypes: ['Sm', 'Sb']
-secondtypes: ['Sva', 'Sd']
-redirect_from: 
-    - /it/pubbliche-amministrazioni/partner-qualificati/partner-qualificati-tabella.html
+redirect_to: /it/pubbliche-amministrazioni/partner-intermediari-elenco/#qualificati
 ---
 
-{% include partner-table.html %}
 

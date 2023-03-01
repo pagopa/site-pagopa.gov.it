@@ -1,11 +1,13 @@
 ---
 layout: default
 ---
-{% assign partner = site.data.partner-dettagli | where_exp:"item","item['ragionesociale'] == page.title" | first %}
-{% assign enti = site.data.ec_pt | where_exp: "item", "item['denominazione Ente']" | where_exp: "item", "item['Codice Fiscale'] contains partner['CF']"  %}
+{% assign CF = page['CF del Contraente'] %}
+{% assign enti = site.data.ec_pt | where_exp: "item", "item['denominazione Ente']" | where_exp: "item", "item['Codice Fiscale'] contains CF"  %}
 {% assign enti_group = enti | sort: "denominazione Ente" | group_by_exp: "name","name['denominazione Ente'] | slice: 0,1"  %}
-{% assign intermediario = site.data.intermediari['PT'] | where_exp:"item","item['Codice Fiscale'] contains page['CF del Contraente']" | first %}
-
+{% assign pttype = "Partner" %}
+{% if page.type=="I" %}
+   {% assign pttype = "Intermediario" %}
+{% endif %}
 <div class="{% if page.layout_extra == nil %}container{%endif%} my-2">
   {%- include breadcrumbs.html -%}
 </div>
@@ -18,10 +20,12 @@ layout: default
       <div class="mx-md-3">
         <h1>{{ page.title }}</h1>
 
-        <p class="lead">Partner qualificato 
-        {% if intermediario['Conteggio di denominazione Ente'] %}
-        con {{intermediario['Conteggio di denominazione Ente']}} enti intermediati</p>
-        {% endif %}
+        <p class="lead">
+        {{pttype}} 
+          {% if page.qualified %}qualificato{%endif%}
+          {% if page.numenti %}
+          con {{page.numenti}} enti intermediati</p>
+          {% endif %}
 
         <div class="entry">
          <div class="row">

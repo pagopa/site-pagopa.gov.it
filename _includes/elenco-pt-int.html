@@ -1,8 +1,34 @@
 {% assign intermediari = site.data.intermediari  %}
+{% assign allptint = site.pt %}
+{% assign rowsdettagli = site.data.partner-dettagli %}
+{% assign qsfilters = site.data.quadro-sinottico-servizi.items | where_exp: "item", "page.secondtypes contains item.type" | sort: 'label' %}
 {% assign bl = site.data["intermediari-bl"]  %}
 
 <div class="row">
 <div class="col-12 col-lg-3">
+    <div class="filterIntermediario">
+        <div class="rounded p-3">
+            <div class="filterIntermediario__title" >
+            Filtra per
+            </div>
+
+            <div class="my-2">
+                <div class="form-check ">
+                    <input name="filtergroup" id="checkbox1" type="radio" class="filter-checkbox" value="3:true" data-hash="#qualificati">
+                    <label for="checkbox1">Partner qualificati</label>
+                </div>
+                <div class="form-check ">
+                    <input name="filtergroup" id="checkbox2" type="radio" class="filter-checkbox" value="2:PT" data-hash="#partner">
+                    <label for="checkbox2">Partner</label>
+                </div>
+                <div class="form-check ">
+                    <input name="filtergroup" id="checkbox3" type="radio" class="filter-checkbox" value="2:I" data-hash="#intermediari">
+                    <label for="checkbox3">Intermediari</label>
+                </div>
+            </div>
+            <a href="#" class="filterIntermediario__reset small" title="Rimuovi i filtri impostati">Rimuovi filtro</a>
+        </div>
+    </div>
     <div class="orderIntermediari">
         <div class="p-3">
             <div class="orderIntermediari__title" >
@@ -18,44 +44,76 @@
               </div>
         </div>
     </div>
-    <div class="filterIntermediario">
+    <div class="filterPartner">
         <div class="rounded p-3">
-            <div class="filterIntermediario__title" >
-            Filtra per
+            <div class="filterPartner__title" >
+            Funzionalità offerte
             </div>
-
+            <div class="filterPartner__select d-flex align-items-center " data-toggle="collapse" data-target="#collapseFilters" aria-expanded="false" aria-controls="collapseFilters">
+                <span class="mr-2">Seleziona una o più funzionalità</span>
+                <svg class="icon icon-xs ml-auto filterPartner__expand"><use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-expand"></use></svg>
+                <svg class="icon icon-xs ml-auto filterPartner__collapse"><use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-collapse"></use></svg>
+            </div>
+            <div class="collapse " id="collapseFilters" >
             <div class="my-2">
+                {% for qs in qsfilters %}
+                {% assign tableIndex = forloop.index0 | plus: 4 %}
+                {%comment%} Plus 4 cause attributes start from the 4th columns {%endcomment%}
                 <div class="form-check ">
-                    <input name="filtergroup" id="checkbox1" type="radio" class="filter-checkbox" value="PT">
-                    <label for="checkbox1">Partner</label>
+                    <input id="checkbox{{tableIndex}}" type="checkbox" class="filter-checkbox" value="{{tableIndex}}">
+                    <label for="checkbox{{tableIndex}}">{{qs.label}}</label>
                 </div>
-                <div class="form-check ">
-                    <input name="filtergroup" id="checkbox2" type="radio" class="filter-checkbox" value="I">
-                    <label for="checkbox2">Intermediari</label>
-                </div>
+                {% endfor %}
+            </div>
             </div>
         </div>
     </div>
 </div><!--/col-lg-3-->
-<div class="col-12 col-lg-9">
+<div class="col-12 col-lg-9 ptcol d-none">
     <table id="intermediaritable" class="table dt-responsive nowrap w-100">
         <thead>
             <tr>
                 <th>Nome</th>
                 <th>Enti intermediati</th>
-                <th data-visible="false">Tipo</th>
+                <th data-visible="false" >Tipo</th>
+                <th data-orderable="false" ></th>
+                {% for qs in qsfilters %}
+                <th data-visible="false">{{qs.label}} </th>
+                {% endfor %}
             </tr>
         </thead>
         <tbody>
             {% for intermediariotype in intermediari %}
                 {% assign intermediarilist = intermediariotype[1] | where_exp: "item", "item['Intermediario Partner']" %}
                 {% for intermediario in intermediarilist %}
-                    {% unless bl contains intermediario["Codice Fiscale"] %}
-                    <tr>
-                        <td>{{intermediario['Intermediario Partner']}}</td>
-                        <td>{{intermediario['Conteggio di denominazione Ente']}}</td>
-                        <td>{{intermediariotype[0]}}</td>
-                    </tr>
+                    {% assign CF = intermediario['Codice Fiscale'] %}
+                    {% assign detailpage = allptint | where_exp: "item", "item.permalink contains CF" | first  %}
+                    {% assign ptqualificato = rowsdettagli | where_exp: "item", "item.CF contains CF" | first %}
+                    {% unless bl contains CF %}
+
+                <tr>
+                    <td><a href="{{detailpage.permalink}}.html" class="text-decoration-hover" title="Pagina di dettaglio {{intermediario['Intermediario Partner']}}">
+                        {{intermediario['Intermediario Partner']}}
+                        {% if detailpage.qualified  %}
+                        <span class="ml-2 badge bg-primary text-white">Qualificato</span>
+                        {% endif %}
+                        </a>
+                    </td>
+                    <td>{{intermediario['Conteggio di denominazione Ente']}}
+                    </td>
+                    <td>{{intermediariotype[0]}}</td>
+                    <td>
+                        {% if detailpage.qualified  %}
+                        <span class="d-none" aria-hidden="true">true</span>
+                        <a href="#"  data-toggle="modal" data-target="#modal{{CF}}">
+                            <svg class="icon icon-primary icon-sm"><use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle"></use></svg>
+                        </a>
+                        {% endif %}
+                    </td>
+                    {% for qs in qsfilters %}
+                    <td  >{% if ptqualificato[qs.alias] %}1{%endif%}</td>
+                    {% endfor %}
+                </tr>
                     {% endunless %}
                 {%endfor%}
             {%endfor%}
@@ -64,5 +122,35 @@
     </table>
 </div><!--/col-lg-10-->
 </div><!--/row-->
+
+<div class="partner-table__list">
+    {% for ptqualificato in rowsdettagli %}
+        {% assign detailpage = allptint | where_exp: "item", "item.permalink contains ptqualificato.CF" | first  %}
+
+        <div class="partner-table__detail modal fade" tabindex="-1" role="dialog" id="modal{{ptqualificato.CF}}">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <div class="modal-title">{{ptqualificato.ragionesociale}}</div>
+                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <svg class="icon icon-primary">
+                           <use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-close"></use>
+                        </svg>
+                     </button>
+                  </div>
+                  <div class="modal-body pt-0">
+                    <a href="{{detailpage.permalink}}.html" class="partner-table__detail__number">{{detailpage.numenti}} Enti intermediati &rarr;
+                    </a>
+                    {% include tipi-qualificati.html
+                        types=page.secondtypes
+                        comparedata=ptqualificato
+                        %}
+                  </div>
+               </div>
+            </div>
+        </div><!--/partner-table__detail-->
+    {% endfor %}
+
+</div><!--/partner-table__list-->
 
 

@@ -23,7 +23,7 @@ vantaggi:
       img: "/assets/images/pictograms/completed.svg"
       more:
         label: Vedi i partner qualificati 
-        url: "../partner-qualificati-elenco/"
+        url: "../partner-intermediari-elenco/#qualificati"
     -
       title: Partner tecnologico
       noshadow: true
@@ -31,7 +31,7 @@ vantaggi:
       img: "/assets/images/pictograms/puzzle.svg"
       more:
         label: Vedi i partner 
-        url: "../partner/"
+        url: "../partner-intermediari-elenco/#partner"
     -
       title: Intermediario tecnologico
       noshadow: true
@@ -39,7 +39,7 @@ vantaggi:
       img: "/assets/images/pictograms/payments.svg"
       more:
         label: Vedi gli intermediari 
-        url: "../intermediari-tecnologici/"
+        url: "../partner-intermediari-elenco/#intermediari"
 ---
 
 
