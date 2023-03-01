@@ -8,9 +8,9 @@ ref: helpdesk
 order: 25
 child_of_ref: cos-e-pago-pa
 redirect_from:
-  - /it/pagopa/helpdesk/
-  - /it/documentazione/faq/
   - /assistenza/
+  - /it/helpdesk/
+  - /it/pagopa/helpdesk
 gridbody:
   -
     img: "/assets/images/pictograms/ricevute.svg"
