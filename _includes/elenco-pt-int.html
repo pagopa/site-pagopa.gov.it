@@ -92,7 +92,7 @@
                     {% unless bl contains CF %}
 
                 <tr>
-                    <td><a href="{{detailpage.permalink}}.html" class="text-decoration-hover" title="Pagina di dettaglio {{intermediario['Intermediario Partner']}}">
+                    <td><a href="{{detailpage.permalink}}" class="text-decoration-hover" title="Pagina di dettaglio {{intermediario['Intermediario Partner']}}">
                         {{intermediario['Intermediario Partner']}}
                         {% if detailpage.qualified  %}
                         <span class="ml-2 badge bg-primary text-white">Qualificato</span>
@@ -139,7 +139,7 @@
                      </button>
                   </div>
                   <div class="modal-body pt-0">
-                    <a href="{{detailpage.permalink}}.html" class="partner-table__detail__number">{{detailpage.numenti}} Enti intermediati &rarr;
+                    <a href="{{detailpage.permalink}}" class="partner-table__detail__number">{{detailpage.numenti}} Enti intermediati &rarr;
                     </a>
                     {% include tipi-qualificati.html
                         types=page.secondtypes
