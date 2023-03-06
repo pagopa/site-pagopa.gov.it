@@ -10,7 +10,7 @@ child_of_ref: cos-e-pago-pa
 redirect_from:
   - /assistenza/
   - /it/helpdesk/
-  - /it/pagopa/helpdesk
+  - /it/pagopa/helpdesk/
 gridbody:
   -
     img: "/assets/images/pictograms/ricevute.svg"

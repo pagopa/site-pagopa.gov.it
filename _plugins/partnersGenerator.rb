@@ -58,7 +58,7 @@ Jekyll::Hooks.register :site, :after_init do |doc, payload|
             topass['qualified'] = qualified
             topass['type'] = pttype
             topass['numenti'] = item['Conteggio di denominazione Ente']
-            topass['permalink'] = qualified ? "/it/pubbliche-amministrazioni/partner-qualificati/"+name : "/it/pubbliche-amministrazioni/partner-intermediari/"+name
+            topass['permalink'] = qualified ? "/it/pubbliche-amministrazioni/partner-qualificati/"+name : "/it/pubbliche-amministrazioni/partner-intermediari/"+name+".html"
 
             File.open(dir+name+".md", "w") { |file| file.write(topass.to_yaml + '---') }
         end
