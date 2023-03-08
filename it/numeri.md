@@ -11,6 +11,7 @@ child_of_ref: cos-e-pago-pa
 redirect_from:
   - /it/pagopa/dashboard/
   - /it/pagopa/numeri-e-roadmap/
+  - /it/dashboard/
 ---
 
 {% include dashboard.html %}
