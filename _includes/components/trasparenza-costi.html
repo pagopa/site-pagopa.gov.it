@@ -75,6 +75,17 @@
                             <div class="d-block flex-grow-1">{{nome_servizio}}</div>
                         </div>
                     {{/checkBoolOr}}
+                    {{#ifEquals psp_id 'BIC32698'}}
+                    <!-- LIS PAY DISCLAIMER-->
+                    <div class="font-weight-semibold text-secondary small d-flex align-items-center">
+                        <div class=" mr-2"  aria-hidden="true">
+                            <svg class="icon icon-sm" ><use xlink:href="/assets/bootstrap-italia/dist/svg/sprite.svg#it-info-circle"></use></svg>
+                        </div>
+                        <div class="flex-grow-1">Valido per il pagamento di marche da bollo
+                        </div>
+                    </div>
+                    {{/ifEquals}}
+
                 </div>
             </article>
             {{/each}}
