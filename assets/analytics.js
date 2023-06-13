@@ -13,3 +13,12 @@ _paq.push(["enableLinkTracking"]);
   g.src = "/assets/matomo.js";
   s.parentNode.insertBefore(g, s);
 })();
+
+document.addEventListener("DOMContentLoaded", function () {
+  //drop old GA cookies
+  var cookies = Cookies.get();
+  var gaCookies = Object.keys(cookies).filter((k) => k.startsWith("_g"));
+  for (var gc in gaCookies) {
+    Cookies.remove(gaCookies[gc], { path: "", domain: ".pagopa.gov.it" });
+  }
+});
