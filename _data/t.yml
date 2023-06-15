@@ -70,7 +70,7 @@ footer-links:
       url: "https://www.pagopa.it/it/lavora-con-noi"
     security:
       name: "Security"
-      url: "/security.html"
+      url: "https://www.pagopa.it/it/responsible-disclosure-policy/"
   it:
     privacy-policy:
       name: "Privacy policy"
@@ -86,7 +86,7 @@ footer-links:
       url: "https://www.pagopa.it/it/lavora-con-noi"
     security:
       name: "Sicurezza"
-      url: "/security.html"
+      url: "https://www.pagopa.it/it/responsible-disclosure-policy/"
     accessibilita:
       name: "Dichiarazione di accessibilità"
       url: "https://form.agid.gov.it/view/382576b5-a353-42ae-9fa2-2e87c3f1efcf/"
