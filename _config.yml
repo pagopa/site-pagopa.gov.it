@@ -73,6 +73,10 @@ collections:
   posts:
     output: true
     permalink: /it/notizie/:name.html
+  diccilatua:
+    output: true
+    permalink: /diccilatua/:name.html
+    layout: redirect
 
 defaults:
   - scope:
