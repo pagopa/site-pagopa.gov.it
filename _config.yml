@@ -75,7 +75,7 @@ collections:
     permalink: /it/notizie/:name.html
   diccilatua:
     output: true
-    permalink: /diccilatua/:name.html
+    permalink: /diccilatua/:name/index.html
     layout: redirect
 
 defaults:
