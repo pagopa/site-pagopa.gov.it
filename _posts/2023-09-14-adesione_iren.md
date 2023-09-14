@@ -19,5 +19,6 @@ Tra gli ultimi in ordine di tempo, anche il [gruppo Iren](https://www.gruppoiren
 - gli uffici postali;
 - i supermercati aderenti;
 e molti altri esercenti convenzionati sul territorio. 
-Nell'ultima bolletta recapitata, la società ha fornito ai propri clienti le indicazioni per poter pagare in semplicità e in completa sicurezza attraverso la piattaforma pagoPA, scegliendo se farlo comodamente da casa, in mobilità dal proprio smartphone o tablet, o attraverso i tradizionali punti fisici. 
+Nell'ultima bolletta recapitata, la società ha fornito ai propri clienti le indicazioni per poter pagare in semplicità e in completa sicurezza attraverso la piattaforma pagoPA, scegliendo se farlo comodamente da casa, in mobilità dal proprio smartphone o tablet, o attraverso i tradizionali punti fisici.
+
 [Leggi il comunicato sul sito di Iren](https://www.gruppoiren.it/it/media/comunicati-stampa/2023/PagoPA-Iren-aderisce-alla-piattaforma-grazie-alla-tecnologia-di-Nexi.html)
