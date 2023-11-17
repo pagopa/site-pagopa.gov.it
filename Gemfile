@@ -5,3 +5,4 @@ gem 'jekyll-feed', '~> 0.15.1'
 gem 'jekyll-redirect-from', '~> 0.16.0'
 gem 'kramdown-parser-gfm', '~> 1.1.0'
 gem 'down', '~> 5.2'
+gem "jekyll-minifier", "~> 0.1.10"
