@@ -14,7 +14,7 @@ PagoPA S.p.A. ha pubblicato una nuova versione delle **Specifiche Attuative del 
 
 <!--more-->
 
-Gli aggiornamenti di entrambi i documenti, allegati alle ["Linee guida per l'effettuazione dei pagamenti elettronici a favore delle pubbliche amministrazioni e dei gestori di pubblici servizi"](https://www.gazzettaufficiale.it/eli/id/2018/07/03/18A04494/sg), prevedono importanti novità per ottimizzare il processo di pagamento sulla [piattaforma pagoPA] (https://www.pagopa.gov.it/).
+Gli aggiornamenti di entrambi i documenti, allegati alle ["Linee guida per l'effettuazione dei pagamenti elettronici a favore delle pubbliche amministrazioni e dei gestori di pubblici servizi"](https://www.gazzettaufficiale.it/eli/id/2018/07/03/18A04494/sg), prevedono importanti novità per ottimizzare il processo di pagamento sulla [piattaforma pagoPA](https://www.pagopa.gov.it/).
 Nel dettaglio, le nuove versioni includono le istruzioni relative a:
 - la **nuova funzionalità di Stand In**, che permette agli utenti di pagare gli avvisi pagoPA anche quando **i sistemi degli Enti creditori sono indisponibili**;
 - le modalità di aggiornamento dei **costi di notificazione** di [SEND - Servizio Notifiche Digitali](https://notifichedigitali.pagopa.it/), nel caso di integrazione in modalità asincrona con la piattaforma pagoPA; 
