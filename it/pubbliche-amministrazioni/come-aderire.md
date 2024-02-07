@@ -11,16 +11,14 @@ order: 2
 child_of_ref: pubbliche-amministrazioni
 footerbanner:
     title: Hai domande o dubbi?
-    desc: "Leggi le domande frequenti sull’adesione a pagoPA da parte degli Enti Creditori, oppure scrivi a: account@pagopa.it"
+    desc: "Leggi le domande frequenti sull’adesione a pagoPA da parte degli Enti Creditori, oppure scrivi a: <areariservata@assistenza.pagopa.it>"
     cta: Leggi le FAQ
     url: "https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneC.html"
 passi:
     - title: Aderisci alla piattaforma pagoPA
-      desc: "Clicca [qui](https://selfcare.pagopa.it/onboarding/prod-pagopa) e accedi tramite SPID o CIE per avviare la procedura di adesione alla piattaforma pagoPA. 
-      
-      Per ulteriore supporto invia una mail ad <areariservata@assistenza.pagopa.it>"
+      desc: "Clicca [qui](https://selfcare.pagopa.it/onboarding/prod-pagopa) e accedi tramite SPID o CIE per avviare la procedura di adesione alla piattaforma pagoPA."
     - title: Nomina gli Amministratori
-      desc: "Cerca dall’Indice della Pubblica Amministrazione (IPA) l’ente per cui vuoi richiedere l’adesione e inserisci i dati del Legale Rappresentante e di uno o più Amministratori, che potranno accedere alla piattaforma in qualità di Referente dei Pagamenti."
+      desc: "Cerca dall’Indice della Pubblica Amministrazione (IPA) l’ente per cui vuoi richiedere l’adesione e inserisci i dati del Legale Rappresentante e di uno o più Amministratori."
     - title: Firma il contratto e completa l’adesione
       desc: "Ricevi il contratto tramite la PEC dell’Ente: il Legale Rappresentante dovrà firmarlo digitalmente e inviarlo a PagoPA S.p.A. utilizzando il link ricevuto via mail."
     - title: Scegli la modalità diretta o indiretta
