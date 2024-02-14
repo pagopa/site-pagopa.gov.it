@@ -2,7 +2,11 @@
 layout: page
 title: Come aderire
 title_hero: Come aderire a pagoPA
-description: Per legge, tutte le PA (centrali, locali e autorità amministrative indipendenti), i gestori di pubblici servizi e le società a controllo pubblico (non quotate), devono aderire a pagoPA. Attraverso l'Area Riservata puoi aderire in qualità di Ente Creditore.
+description: "Per legge, tutte le PA (centrali, locali e autorità amministrative indipendenti), i gestori di pubblici servizi e le società a controllo pubblico (non quotate), devono aderire a pagoPA.
+
+
+
+Attraverso l'Area Riservata puoi aderire in qualità di Ente Creditore."
 lang: it
 ref: pubbliche-amministrazioni-come-aderire
 redirect_from:
@@ -16,7 +20,11 @@ footerbanner:
     url: "https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneC.html"
 passi:
     - title: Aderisci alla piattaforma pagoPA
-      desc: "Clicca [qui](https://selfcare.pagopa.it/onboarding/prod-pagopa) e accedi tramite SPID o CIE per avviare la procedura di adesione alla piattaforma pagoPA. Per ulteriore supporto invia una e-mail ad <areariservata@assistenza.pagopa.it>"
+      desc: "Clicca [qui](https://selfcare.pagopa.it/onboarding/prod-pagopa) e accedi tramite SPID o CIE per avviare la procedura di adesione alla piattaforma pagoPA.
+      
+
+
+      Per ulteriore supporto invia una e-mail ad <areariservata@assistenza.pagopa.it>"
     - title: Nomina gli Amministratori
       desc: "Cerca dall'Indice della Pubblica Amministrazione (IPA) l'ente per cui vuoi richiedere l'adesione e inserisci i dati del Legale Rappresentante e di uno o più Amministratori (Referenti dei Pagamenti)."
     - title: Firma il contratto e completa l'adesione
