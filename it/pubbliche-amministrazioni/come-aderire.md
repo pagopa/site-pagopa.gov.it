@@ -15,7 +15,7 @@ footerbanner:
     cta: Leggi le FAQ
     url: "https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneC.html"
 passi:
-    - title: Come aderire a pagoPA
+    - title: Aderisci alla piattaforma pagoPA
       desc: "Clicca [qui](https://selfcare.pagopa.it/onboarding/prod-pagopa) e accedi tramite SPID o CIE per avviare la procedura di adesione alla piattaforma pagoPA. Per ulteriore supporto invia una e-mail ad <areariservata@assistenza.pagopa.it>"
     - title: Nomina gli Amministratori
       desc: "Cerca dall'Indice della Pubblica Amministrazione (IPA) l'ente per cui vuoi richiedere l'adesione e inserisci i dati del Legale Rappresentante e di uno o più Amministratori (Referenti dei Pagamenti)."
