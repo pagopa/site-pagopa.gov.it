@@ -18,7 +18,7 @@ passi:
     - title: Come aderire a pagoPA
       desc: "Clicca [qui](https://selfcare.pagopa.it/onboarding/prod-pagopa) e accedi tramite SPID o CIE per avviare la procedura di adesione alla piattaforma pagoPA. Per ulteriore supporto invia una e-mail ad <areariservata@assistenza.pagopa.it>"
     - title: Nomina gli Amministratori
-      desc: "Cerca dall’Indice della Pubblica Amministrazione (IPA) l’ente per cui vuoi richiedere l’adesione e inserisci i dati del Legale Rappresentante e di uno o più Amministratori (Referenti dei Pagamenti)."
+      desc: "Cerca dall'Indice della Pubblica Amministrazione (IPA) l'ente per cui vuoi richiedere l'adesione e inserisci i dati del Legale Rappresentante e di uno o più Amministratori (Referenti dei Pagamenti)."
     - title: Firma il contratto e completa l'adesione
       desc: "Ricevi il contratto tramite la PEC dell'Ente: il Legale Rappresentante dovrà firmarlo digitalmente e inviarlo a PagoPA S.p.A. utilizzando il link ricevuto via e-mail."
     - title: Scegli la modalità diretta o indiretta
