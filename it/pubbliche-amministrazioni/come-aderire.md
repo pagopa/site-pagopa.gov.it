@@ -2,7 +2,11 @@
 layout: page
 title: Come aderire
 title_hero: Come aderire a pagoPA
-description: Per legge, tutte le PA (centrali, locali e autorità amministrative indipendenti), i gestori di pubblici servizi e le società a controllo pubblico (non quotate), devono aderire a pagoPA. Usa il Portale delle Adesioni (PdA) per aderire in qualità di Ente creditore.
+description: "Per legge, tutte le PA (centrali, locali e autorità amministrative indipendenti), i gestori di pubblici servizi e le società a controllo pubblico (non quotate), devono aderire a pagoPA.
+
+
+
+Attraverso l'Area Riservata puoi aderire in qualità di Ente Creditore."
 lang: it
 ref: pubbliche-amministrazioni-come-aderire
 redirect_from:
@@ -11,28 +15,32 @@ order: 2
 child_of_ref: pubbliche-amministrazioni
 footerbanner:
     title: Hai domande o dubbi?
-    desc: "Leggi le domande frequenti sull’adesione a pagoPA da parte degli Enti Creditori, oppure scrivi a: account@pagopa.it"
+    desc: "Leggi le domande frequenti sull'adesione a pagoPA da parte degli Enti Creditori, oppure scrivi a: <account@pagopa.it>"
     cta: Leggi le FAQ
     url: "https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneC.html"
 passi:
-    - title: Chiedi le credenziali di primo accesso
-      desc: "Per accedere al Portale delle Adesioni e iniziare la registrazione, scrivi a <credenziali@assistenza.pagopa.it>."
-    - title: Nomina il Referente dei Pagamenti
-      desc: "Accedi al Portale e indica il Referente a cui verranno inviate le credenziali per l’accesso vero e proprio."
-    - title: Scarica e invia la Lettera di Adesione
-      desc: "Fai sottoscrivere la lettera dal tuo rappresentante legale e inviala tramite l’apposita funzione all’interno del Portale."
+    - title: Aderisci alla piattaforma pagoPA
+      desc: "Clicca [qui](https://selfcare.pagopa.it/onboarding/prod-pagopa) e accedi tramite SPID o CIE per avviare la procedura di adesione alla piattaforma pagoPA.
+      
+
+
+      Per ulteriore supporto invia una e-mail ad <areariservata@assistenza.pagopa.it>"
+    - title: Nomina gli Amministratori
+      desc: "Cerca dall'Indice della Pubblica Amministrazione (IPA) l'ente per cui vuoi richiedere l'adesione e inserisci i dati del Legale Rappresentante e di uno o più Amministratori (Referenti dei Pagamenti)."
+    - title: Firma il contratto e completa l'adesione
+      desc: "Ricevi il contratto tramite la PEC dell'Ente: il Legale Rappresentante dovrà firmarlo digitalmente e inviarlo a PagoPA S.p.A. utilizzando il link ricevuto via e-mail."
     - title: Scegli la modalità diretta o indiretta
-      desc: "Puoi farti carico di tutte le attività d’implementazione, oppure nominare un [Intermediario o Partner tecnologico](../partner-intermediari/)."
+      desc: "Dopo aver completato l'adesione, potrai scegliere di integrare il tuo ente  a pagoPA in modalità diretta oppure di avvalerti di un [Intermediario o Partner tecnologico](../partner-intermediari/)."
 docs: 
     -
-     label: Portale delle Adesioni - Manuale Utente
-     url: "https://docs.pagopa.it/portale-delle-adesioni/"
-    -
-     label: "Elenco degli Enti Creditori aderenti a pagoPA"
-     url: "https://www.pagopa.gov.it/data/pagopa-ec.csv"
+     label: Manuale Utente per Enti Creditori
+     url: "https://docs.pagopa.it/manuale-back-office-pagopa/"
     -
      label: "Enti Creditori aderenti al servizio CBILL"
      url: "https://www.cbill.it/chi-puoi-pagare"
+    -
+     label: "Elenco degli Enti Creditori aderenti a pagoPA"
+     url: "https://www.pagopa.gov.it/data/pagopa-ec.csv"
     -
      label: "È obbligatorio aderire a pagoPA?"
      url: "../obbligatorieta/"
