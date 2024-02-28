@@ -34,7 +34,7 @@ passi:
 docs: 
     -
      label: Manuale Utente per Enti Creditori
-     url: "https://docs.pagopa.it/manuale-back-office-pagopa/"
+     url: "https://developer.pagopa.it/pago-pa/guides/manuale-bo-ec"
     -
      label: "Enti Creditori aderenti al servizio CBILL"
      url: "https://www.cbill.it/chi-puoi-pagare"

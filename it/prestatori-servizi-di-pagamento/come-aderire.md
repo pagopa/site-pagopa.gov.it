@@ -61,10 +61,10 @@ docs:
       url: "https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/pagopa-service-agreement-psp.pdf"
     - 
       label: SACI - Specifiche attuative dei codici identificativi di versamento, riversamento e rendicontazione
-      url: "https://docs.pagopa.it/saci"
+      url: "https://developer.pagopa.it/pago-pa/guides/saci"
     - 
       label: SANP - Specifiche Attuative del Nodo dei Pagamenti-SPC
-      url: 'https://docs.italia.it/italia/pagopa/pagopa-specifichepagamenti-docs/it/master/index.html'
+      url: 'https://developer.pagopa.it/pago-pa/guides/sanp'
 ---
 
 

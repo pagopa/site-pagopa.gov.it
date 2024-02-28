@@ -2,10 +2,10 @@
   docs:
     - 
       label: SACI - Specifiche attuative dei codici identificativi di versamento, riversamento e rendicontazione
-      url: "https://docs.pagopa.it/saci"
+      url: "https://developer.pagopa.it/pago-pa/guides/saci"
     - 
       label: SANP - Specifiche Attuative del Nodo dei Pagamenti-SPC
-      url: 'https://docs.pagopa.it/sanp'
+      url: "https://developer.pagopa.it/pago-pa/guides/sanp"
     - 
       label: Linee Guida pubblicate sulla Gazzetta Ufficiale
       url: "https://www.gazzettaufficiale.it/eli/id/2018/07/03/18A04494/sg"
@@ -13,15 +13,15 @@
   docs:
     - 
       label: Repository su Github
-      url: 'https://github.com/pagopa/pagopa-api'
+      url: "https://github.com/pagopa/pagopa-api"
 - title: Tassonomia
   docs:
    - 
       label: Tassonomia dei servizi
-      url: 'https://docs.pagopa.it/sanp/ente-creditore/tassonomia-dei-servizi-di-incasso'
+      url: "https://developer.pagopa.it/pago-pa/guides/sanp/ente-creditore/tassonomia-dei-servizi-di-incasso"
    - 
       label: Contribuisci al miglioramento della Tassonomia
-      url: 'https://survey.pagopa.it/238313'
+      url: "https://survey.pagopa.it/238313"
 - title: Piani di test
   docs:
     - 
@@ -31,12 +31,12 @@
   docs:
     - 
       label: Guida Tecnica per la progettazione degli avvisi di pagamento pagoPA
-      url: "https://docs.pagopa.it/avviso-pagamento/"
+      url: "https://developer.pagopa.it/pago-pa/guides/avviso-pagamento"
 - title: "Brand"
   docs:
     -
       label: Linee Guida
-      url: "https://docs.pagopa.it/linee-guida-brand-pagopa/"
+      url: "https://developer.pagopa.it/pago-pa/guides/linee-guida-brand-pagopa"
     -
       label: Regolamento
       url: "https://www.pagopa.gov.it/assets/download/pagoPA-regolamento-marchio.pdf"
