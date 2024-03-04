@@ -27,4 +27,4 @@ un nuovo strumento di pubblicazione maggiormente intuitivo, la rimozione dei cap
 
 Le SANP rappresentano l[’Allegato B alle “Linee guida per l’effettuazione dei pagamenti elettronici a favore delle pubbliche amministrazioni e dei gestori di pubblici servizi”](https://www.gazzettaufficiale.it/eli/id/2018/07/03/18A04494/sg) e devono essere utilizzate in combinazione con queste ultime, nonché con [l’Allegato A (SACI)](https://developer.pagopa.it/pago-pa/guides/saci).
 
-Clicca [qui](https://developer.pagopa.it/pago-pa/guides/sanp) per consultare l’ultima release delle Specifiche Attuative.
+Clicca [qui](https://developer.pagopa.it/pago-pa/guides) per consultare l’ultima release delle Specifiche Attuative.
