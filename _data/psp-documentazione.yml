@@ -2,10 +2,10 @@
   docs:
     - 
       label: SACI - Specifiche attuative dei codici identificativi di versamento, riversamento e rendicontazione
-      url: "https://docs.pagopa.it/saci"
+      url: "https://developer.pagopa.it/pago-pa/guides/saci"
     - 
       label: SANP - Specifiche Attuative del Nodo dei Pagamenti-SPC
-      url: 'https://docs.pagopa.it/sanp'
+      url: 'https://developer.pagopa.it/pago-pa/guides/sanp'
     - 
       label: Linee Guida pubblicate sulla Gazzetta Ufficiale
       url: "https://www.gazzettaufficiale.it/eli/id/2018/07/03/18A04494/sg"
@@ -31,7 +31,7 @@
   docs:
     -
       label: Linee Guida
-      url: "https://docs.pagopa.it/linee-guida-brand-pagopa/"
+      url: "https://developer.pagopa.it/pago-pa/guides/linee-guida-brand-pagopa"
     -
       label: Regolamento
       url: "https://www.pagopa.gov.it/assets/download/pagoPA-regolamento-marchio.pdf"

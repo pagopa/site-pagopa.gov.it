@@ -13,7 +13,7 @@ In particolare, la nuova release si pone l’obiettivo di migliorare la qualità
 
 <!--more-->
 
-Nel  dettaglio, la[ versione 3.0.0 delle SANP](https://docs.pagopa.it/sanp/specifiche-attuative-del-nodo-dei-pagamenti-spc/premessa) include le **istruzioni** relative a:
+Nel  dettaglio, la[ versione 3.0.0 delle SANP](https://developer.pagopa.it/pago-pa/guides/sanp/3.0.0) include le **istruzioni** relative a:
 
 - introduzione di una **nuova modalità di connessione**
 - evoluzione del pagamento presso l'Ente Creditore
@@ -25,6 +25,6 @@ Nel  dettaglio, la[ versione 3.0.0 delle SANP](https://docs.pagopa.it/sanp/speci
 Per facilitarne l’implementazione e ridurre i rischi legati ad errori interpretativi, la consultazione della nuova versione delle SANP è stata migliorata a partire da tre elementi: 
 un nuovo strumento di pubblicazione maggiormente intuitivo, la rimozione dei capitoli già presenti nelle SACI (Specifiche Attuative dei Codici Identificativi di versamento, riversamento e rendicontazione) e l'introduzione del Changelog, una sezione iniziale che, per ogni aggiornamento delle Specifiche, indica in sintesi i cambiamenti apportati.
 
-Le SANP rappresentano l[’Allegato B alle “Linee guida per l’effettuazione dei pagamenti elettronici a favore delle pubbliche amministrazioni e dei gestori di pubblici servizi”](https://www.gazzettaufficiale.it/eli/id/2018/07/03/18A04494/sg) e devono essere utilizzate in combinazione con queste ultime, nonché con [l’Allegato A (SACI)](http://docs.pagopa.it/saci).
+Le SANP rappresentano l[’Allegato B alle “Linee guida per l’effettuazione dei pagamenti elettronici a favore delle pubbliche amministrazioni e dei gestori di pubblici servizi”](https://www.gazzettaufficiale.it/eli/id/2018/07/03/18A04494/sg) e devono essere utilizzate in combinazione con queste ultime, nonché con [l’Allegato A (SACI)](https://developer.pagopa.it/pago-pa/guides/saci).
 
-Clicca [qui](https://docs.pagopa.it/sanp/specifiche-attuative-del-nodo-dei-pagamenti-spc/premessa) per consultare l’ultima release delle Specifiche Attuative.
+Clicca [qui](https://developer.pagopa.it/pago-pa/guides) per consultare l’ultima release delle Specifiche Attuative.

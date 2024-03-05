@@ -12,7 +12,7 @@ caption: "Foto di Markus Spiske (da Unsplash)"
 PagoPA S.p.A. ha pubblicato la **versione 2.0.0** delle _Specifiche Attuative dei Codici Identificativi di versamento, riversamento e rendicontazione_ (SACI), alle quali tutti i soggetti aderenti alla piattaforma pagoPA dovranno adeguarsi **entro e non oltre il 01-06-2022**.
 <!--more-->
 
-La [nuova _release_ delle SACI](https://docs.pagopa.it/saci) migliora la fruibilità delle informazioni, con l’obiettivo generale di semplificare il contenuto ed evitare possibili errate interpretazioni, a partire da tre elementi: l’utilizzo di una nuovo strumento di pubblicazione che permette di consultarle in modo più intuitivo, la rimozione di capitoli già presenti nelle SANP (Specifiche Attuative del Nodo dei Pagamenti) e l’introduzione del “Changelog” ovvero di una sezione iniziale che, per ogni aggiornamento delle Specifiche, indica in sintesi i cambiamenti apportati.
+La [nuova _release_ delle SACI](https://developer.pagopa.it/pago-pa/guides/saci/2.0.0) migliora la fruibilità delle informazioni, con l’obiettivo generale di semplificare il contenuto ed evitare possibili errate interpretazioni, a partire da tre elementi: l’utilizzo di una nuovo strumento di pubblicazione che permette di consultarle in modo più intuitivo, la rimozione di capitoli già presenti nelle SANP (Specifiche Attuative del Nodo dei Pagamenti) e l’introduzione del “Changelog” ovvero di una sezione iniziale che, per ogni aggiornamento delle Specifiche, indica in sintesi i cambiamenti apportati.
 
 Più nel dettaglio, nella versione 2.0.0 delle SACI vengono fornite le istruzioni per la gestione di: 
 
@@ -23,4 +23,4 @@ Più nel dettaglio, nella versione 2.0.0 delle SACI vengono fornite le istruzion
 
 Le SACI rappresentano l’**Allegato A** alle “_[Linee guida per l'effettuazione dei pagamenti elettronici a favore delle pubbliche amministrazioni e dei gestori di pubblici servizi](https://www.gazzettaufficiale.it/eli/id/2018/07/03/18A04494/sg)_" e devono essere utilizzate in combinazione con quest’ultime, nonché con l'**Allegato B** (SANP).
 
-Clicca [qui](https://docs.pagopa.it/saci) per consultare l’ultima _release_ delle Specifiche Attuative.
+Clicca [qui](https://developer.pagopa.it/pago-pa/guides/) per consultare l’ultima _release_ delle Specifiche Attuative.
