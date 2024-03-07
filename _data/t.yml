@@ -129,6 +129,9 @@ topright-links:
     io:
       name: "IO"
       url: "https://io.italia.it/"
+    send:
+      name: "SEND"
+      url: "https://notifichedigitali.pagopa.it/"
 navigation:
   en:
   it:
