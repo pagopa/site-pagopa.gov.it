@@ -93,3 +93,9 @@ exclude:
   - README.md
   - CNAME
   - vendor
+
+include:
+  # Allow dashboard assets starting with _
+  - _next*
+  - _app.js
+  - _app.css
