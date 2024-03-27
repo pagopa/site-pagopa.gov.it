@@ -8,7 +8,10 @@ ref: homepage
 redirect_from:
   - /it/pagopa/
 order: 1
-blocks: 
+js:
+  -
+    url: /assets/dashboard/_next/static/chunks/pages/widget.js
+blocks:
   - title: Un sistema semplice e trasparente per i tuoi pagamenti verso le PA
     label: Per i cittadini
     body: "pagoPA è la piattaforma nazionale che ti permette di scegliere, secondo le tue abitudini e preferenze, come pagare tributi, imposte o rette verso la Pubblica Amministrazione e altri soggetti aderenti che forniscono servizi al cittadino."
