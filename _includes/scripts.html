@@ -24,11 +24,10 @@
     <script src="{{ site.baseurl }}/assets/datatables-it.js"></script>
 {% endif %}
 {% if page.ref == 'homepage' or page.ref == 'dashboard' %}
-    <link href="{{ site.baseurl }}/assets/dashboard/app/js/app.js" rel="preload" as="script">
-    <link href="{{ site.baseurl }}/assets/dashboard/app/js/chunk-vendors.js" rel="preload" as="script">
-
-    <script src="{{ site.baseurl }}/assets/dashboard/app/js/chunk-vendors.js"></script>
-    <script src="{{ site.baseurl }}/assets/dashboard/app/js/app.js"></script>
+    <script defer="" crossorigin="" nomodule="" src="{{ site.baseurl }}/assets/dashboard/_next/static/chunks/polyfills.js"></script>
+    <script src="{{ site.baseurl }}/assets/dashboard/_next/static/chunks/webpack.js" defer="" crossorigin=""></script>
+    <script src="{{ site.baseurl }}/assets/dashboard/_next/static/chunks/main.js" defer="" crossorigin=""></script>
+    <script src="{{ site.baseurl }}/assets/dashboard/_next/static/chunks/pages/_app.js" defer="" crossorigin=""></script>
 {% endif %}
 
 {% if page.ref == 'cittadini-trasparenza-costi' %}

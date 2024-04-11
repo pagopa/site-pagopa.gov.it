@@ -8,6 +8,9 @@ lang: it
 ref: dashboard
 order: 23
 child_of_ref: cos-e-pago-pa
+js:
+  -
+    url: /assets/dashboard/_next/static/chunks/pages/index.js
 redirect_from:
   - /it/pagopa/dashboard/
   - /it/pagopa/numeri-e-roadmap/
