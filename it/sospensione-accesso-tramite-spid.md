@@ -43,8 +43,7 @@ Le carte scadute verranno automaticamente rimosse.
 ### English
 {: .h4 }
 
-Access via SPID (Public Digital Identity System) temporarily suspended
-{: .highlight}
+**Access via SPID (Public Digital Identity System) temporarily suspended**
 
 We are updating the pagoPA platform in order to offer you new payment methods and a more simplified and accessible experience in general.For this reason, access with SPID is not currently available. **Management of the payment process is still ensured.**
 
@@ -78,12 +77,11 @@ Expired cards will be removed automatically.
 ### Deutsch
 {: .h4 }
 
-Anmeldung mit SPID vorübergehend nicht möglich
-{: .highlight}
+**Anmeldung mit SPID vorübergehend nicht möglich**
 
 Wir aktualisieren die pagoPA-Plattform mit dem Ziel, Ihnen neue Zahlungsmethoden und ein allgemein einfacheres, hürdenfreieres Erlebnis zu bieten. 
 
-Deshalb steht die Anmeldung mit SPID momentan nicht zur Verfügung. *Die Verwaltung von Zahlungsvorgängen ist trotzdem gewährleistet.*
+Deshalb steht die Anmeldung mit SPID momentan nicht zur Verfügung. **Die Verwaltung von Zahlungsvorgängen ist trotzdem gewährleistet.**
 
 #### Wie können Sie währenddessen vorgehen?
 {: .h5 }
@@ -110,8 +108,7 @@ Sie haben außerdem die Möglichkeit, Ihr Recht auszuüben, einschließlich der 
 ### Français
 {: .h4 }
 
-Suspension temporaire de l’accès par SPID
-{: .highlight}
+**Suspension temporaire de l’accès par SPID**
 
 Nous mettons à jour la plateforme pagoPA afin de vous offrir de nouveaux moyens de paiement et de rendre son utilisation plus simple et plus accessible. L’accès par SPID n’est donc pas disponible actuellement. **La gestion des paiements est tout de même assurée.**
 
@@ -141,12 +138,11 @@ Les cartes périmées sont automatiquement annulées.
 ### Slovenščina
 {: .h4 }
 
-Začasna prekinitev dostopa prek sistema SPID
-{: .highlight}
+**Začasna prekinitev dostopa prek sistema SPID**
 
 Platformo pagoPA posodabljamo z namenom, da bi vam ponudili nove načine plačevanja in na splošno poenostavljeno in dostopnejšo izkušnjo. 
 
-Zato dostop s sistemom SPID trenutno ni na voljo. *Vendar je upravljanje plačilnega postopka kljub temu zagotovljeno.*
+Zato dostop s sistemom SPID trenutno ni na voljo. **Vendar je upravljanje plačilnega postopka kljub temu zagotovljeno.**
 
 #### Kaj lahko storite medtem?
 {: .h5 }
