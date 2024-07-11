@@ -73,11 +73,14 @@ footer-links:
       url: "https://www.pagopa.it/it/responsible-disclosure-policy/"
   it:
     privacy-policy:
-      name: "Privacy policy"
-      url: "/it/privacy-policy/"
+      name: "Informativa privacy"
+      url: "/it/informativa-privacy/"
     privacy-policy-assistenza:
-      name: "Privacy policy assistenza"
+      name: "Informativa privacy assistenza"
       url: "https://www.pagopa.it/it/privacy-policy-assistenza/"
+    note-legali:
+      name: "Note legali"
+      url: "/it/note-legali/"
     societa-trasparente:
       name: "Società Trasparente"
       url: "https://pagopa.portaleamministrazionetrasparente.it/"
@@ -95,7 +98,7 @@ newsletter:
     title: "Resta aggiornato, iscriviti alla newsletter!"
     placeholder: "Inserisci il tuo indirizzo e-mail"
     submit_button: "Iscriviti"
-    disclaimer: "Inserendo il tuo indirizzo email stai accettando la nostra [informativa sul trattamento dei dati personali per la newsletter](/it/privacy-policy/)."
+    disclaimer: "Inserendo il tuo indirizzo email stai accettando la nostra [informativa sul trattamento dei dati personali per la newsletter](/it/informativa-newsletter/)."
     first_par: Vorrei ricevere novità di pagoPA per
     second_par: campo obbligatorio, con possibilità di risposta multipla
     success: Iscrizione alla newsletter avvenuta con successo!

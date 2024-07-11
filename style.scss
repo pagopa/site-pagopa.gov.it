@@ -1165,3 +1165,13 @@ body.page--cittadini-trasparenza-costi {
 .page--pubbliche-amministrazioni-come-aderire p {
   overflow-wrap: break-word;
 }
+
+.otnotice-sections {
+  .otnotice-section {
+      h2 {
+      font-size: 30px !important;
+      font-weight: 700 !important;
+      line-height: 32px !important;
+    }
+  }
+}
