@@ -25,7 +25,7 @@ function submitNewsletter(token) {
             type: "post",
             data: JSON.stringify(data),
             success: function(data, textStatus, xhr) {
-                if (xhr.status==200 && xhr.statusText=="OK") {
+                if (xhr.status==200) {
                     newsletterResponse(true);
                 } else {
                     newsletterResponse(false);
