@@ -4,7 +4,7 @@ require 'down'
 require 'yaml'
 
 isDevMode = ENV['JEKYLL_ENV']=='production' ? false : true
-downloadUrl = "https://pdnd-prod-dl-1-public-data.s3.eu-central-1.amazonaws.com/dashboard/pagopa/output_elenco_servizi.json"
+downloadUrl = "https://afm-fee-reporting-d.s3.eu-central-1.amazonaws.com/output_elenco_servizi.json"
 
 begin
   # DOWLOAD DATA FROM REPO
