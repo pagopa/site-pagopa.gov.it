@@ -26,5 +26,25 @@
   "apple pay": {
     "name": "Apple Pay",
     "logo_url": "/assets/images/apple-pay.png"
+  },
+  "bancopostaimpresa": {
+    "name": "BancoPostaImpresa",
+    "logo_url": "/assets/images/bancopostaimpresa.png"
+  },
+  "bancoposta": {
+    "name": "BancoPosta",
+    "logo_url": "/assets/images/bancoposta.png"
+  },
+  "sondrio": {
+    "name": "Sondrio",
+    "logo_url": "/assets/images/bpsondrioscrigno.png"
+  },
+  "iconto": {
+    "name": "iconto",
+    "logo_url": "/assets/images/iconto.png"
+  },
+  "intesa sanpaolo": {
+    "name": "Intesa Sanpaolo",
+    "logo_url": "/assets/images/intesasanpaolo.png"
   }
 }
