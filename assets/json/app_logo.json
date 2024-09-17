@@ -18,5 +18,13 @@
   "mybank": {
     "name": "MyBank",
     "logo_url": "/assets/images/mybank.png"
+  },
+  "applepay": {
+    "name": "ApplePay",
+    "logo_url": "/assets/images/apple-pay.png"
+  },
+  "apple pay": {
+    "name": "Apple Pay",
+    "logo_url": "/assets/images/apple-pay.png"
   }
 }
