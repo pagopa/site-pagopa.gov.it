@@ -4,6 +4,7 @@
   name: app
   active:
     - carte
+    - conto
     - app
 - label: Sito pagoPA
   name: sito
