@@ -14,5 +14,9 @@
   "satispay": {
     "name": "Satispay",
     "logo_url": "https://assets.cdn.io.italia.it/logos/apps/satispay.png"
+  },
+  "mybank": {
+    "name": "MyBank",
+    "logo_url": "/assets/images/mybank.png"
   }
 }
