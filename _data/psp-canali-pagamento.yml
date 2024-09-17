@@ -5,14 +5,10 @@
   active:
     - carte
     - app
-- label: Sito dell'Ente
+- label: Sito pagoPA
   name: sito
   active:
     - carte
     - conto
     - wisp
-- label: Sito pagoPA
-  name: checkout
-  active:
-    - carte
 ---
