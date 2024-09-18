@@ -17,7 +17,7 @@ conto:
 conto_app:
   condition:
     - conto_app
-  label: Conto corrente (app)
+  label: Conto corrente
   group_by: nome_servizio
   script: true
   compared: true
