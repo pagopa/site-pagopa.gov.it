@@ -5,7 +5,7 @@ description:
 lang: it
 ref: accessibilita
 sitemap: false
-redirect_to: https://form.agid.gov.it/view/382576b5-a353-42ae-9fa2-2e87c3f1efcf/
+redirect_to: https://form.agid.gov.it/view/8cf8ca00-773d-11ef-b8bf-4f02c3f2bc4b
 redirect_from:
   - /accessibilita/
 ---
