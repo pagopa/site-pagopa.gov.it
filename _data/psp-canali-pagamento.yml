@@ -3,7 +3,7 @@
 - label: App IO
   name: app
   active:
-    - carte
+    - carte_app
     - conto_app
     - app
 - label: Sito pagoPA
