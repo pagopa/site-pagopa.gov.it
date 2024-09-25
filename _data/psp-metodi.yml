@@ -7,6 +7,14 @@ carte:
   sort_dir: reverse
   script: true
   compared: true
+carte_app:
+  condition:
+    - carte_app
+  label: Carte
+  group_by: on_us
+  sort_dir: reverse
+  script: true
+  compared: true
 conto:
   condition:
     - conto
