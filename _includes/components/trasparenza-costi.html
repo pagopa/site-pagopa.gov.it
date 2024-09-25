@@ -24,7 +24,7 @@
                         <div class="psp-compare__result__pspname primary-color mb-1 small">{{psp_rag_soc}}</div>
                         <div class="psp-compare__result__cost primary-color h5 font-weight-semibold">Costo: <span class="psp-compare__result__cost__amount">{{commaConvert costo_fisso}}</span> €</div>
                     </div>
-                    {{#if carte}}
+                    {{#checkBoolOr carte carte_app}}
                         {{#if on_us}}
                         <div class="psp-compare__result__on_us font-weight-semibold text-secondary small d-flex align-items-center carta">
                             <div class=" mr-2"  aria-hidden="true">
@@ -40,7 +40,7 @@
                             <div class="flex-grow-1">Valido per tutte le carte, anche se non sei cliente {{psp_rag_soc}}</div>
                         </div>
                         {{/if}}
-                    {{/if}}
+                    {{/checkBoolOr}}
                     {{#if conto}}
                         <div class="font-weight-semibold text-secondary small d-flex align-items-center mb-1 conto">
                             <div class=" mr-2"  aria-hidden="true">
