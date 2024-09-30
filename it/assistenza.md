@@ -28,11 +28,11 @@ gridbody:
       url: "mailto:pagamenti@assistenza.pagopa.it"
   -
     img: "/assets/images/pictograms/telefono.svg"
-    title: Chiamaci allo 06.9318.9500
+    title: Chiamaci allo 06.4520.2323
     desc: "Tieni a portata la documentazione in tuo possesso, così gli operatori potranno aiutarti al meglio."
     more:
       label: Chiama
-      url: "tel://+390693189500"
+      url: "tel://+390645202323"
 entiaiuto:
   -
     title: Domande tecniche
@@ -42,7 +42,7 @@ entiaiuto:
       url: "https://github.com/pagopa/pagopa-api/issues"
   -
     title: Assistenza dedicata
-    desc: "Per tutte le altre richieste, puoi aprire direttamente un ticket nella tua area riservata. In alternativa, chiamaci allo [06.9318.9500](tel://+390693189500) o invia un’e-mail da una casella normale (non PEC) a <pagamenti@assistenza.pagopa.it>."
+    desc: "Per tutte le altre richieste, puoi aprire direttamente un ticket nella tua area riservata. In alternativa, chiamaci allo [06.4520.2323](tel://+390645202323) o invia un’e-mail da una casella normale (non PEC) a <pagamenti@assistenza.pagopa.it>."
     more:
       label: Accedi all'Area Riservata
       url: "https://partner.assistenza.pagopa.it"
