@@ -45,7 +45,7 @@ entiaiuto:
     desc: "Per tutte le altre richieste, puoi aprire direttamente un ticket nella tua area riservata. In alternativa, chiamaci allo [06.9318.9500](tel://+390693189500) o invia un’e-mail da una casella normale (non PEC) a <pagamenti@assistenza.pagopa.it>."
     more:
       label: Accedi all'Area Riservata
-      url: "https://partner.assistenza.pagopa.it"
+      url: "https://selfcare.pagopa.it/"
 ---
 
 {%include components/grid-simple.html 
