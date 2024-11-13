@@ -14,48 +14,48 @@
 <div class="row mt-5">
   <div class="col-12 col-lg-9 mb-2 order-lg-2">
     <div class="it-list-wrapper">
-        {% for method in services %}
-        {% assign methodName = method[0] %}
-        {% capture localmenu %}{{localmenu}},{{method[0]}}{%endcapture%}
-          <div class="it-right-zone border-bottom border-light mb-4 {%if forloop.index0 > 0 %} mt-5 {%endif%}" id="{{methodName}}">
-            <span class="text">
-              <h4>{{t[methodName] | default: methodName}}</h4>
-            </span>
-          </div>
-          {% assign groupeditemlist = method[1] %}
-          {% for groupitem in groupeditemlist %}
-            {% assign itemlistName = groupitem[0] %}
-            {% assign itemlist = groupitem[1] %}
-            <h5 class="font-weight-semibold {%if forloop.index0 > 0 %} mt-4 {%endif%}">
-              {% if itemlistName==true %}Carte emesse da {{page.title}}
-              {% elsif itemlistName==false %}Tutte le altre carte 
-              {% else %}
-                {{itemlistName}}
-              {% endif %}
-            </h5>
-            {% include psp-servizi-linea.html items=itemlist %}
-          {% endfor %}
+      {% for method in services %}
+      {% assign methodName = method[0] %}
+      {% capture localmenu %}{{localmenu}},{{method[0]}}{%endcapture%}
+        <div class="it-right-zone border-bottom border-light mb-4 {%if forloop.index0 > 0 %} mt-5 {%endif%}" id="{{methodName}}">
+          <span class="text">
+            <h4>{{t[methodName] | default: methodName}}</h4>
+          </span>
+        </div>
+        {% assign groupeditemlist = method[1] %}
+        {% for groupitem in groupeditemlist %}
+          {% assign itemlistName = groupitem[0] %}
+          {% assign itemlist = groupitem[1] %}
+          <h5 class="font-weight-semibold {%if forloop.index0 > 0 %} mt-4 {%endif%}">
+            {% if itemlistName==true %}Carte emesse da {{page.title}}
+            {% elsif itemlistName==false %}Tutte le altre carte 
+            {% else %}
+              {{itemlistName}}
+            {% endif %}
+          </h5>
+          {% include psp-servizi-linea.html items=itemlist %}
         {% endfor %}
+      {% endfor %}
 
-        {% if page.url_informazioni_psp != nil %}
-          <div class="it-right-zone border-bottom border-light mb-4 mt-5" id="trasparenza">
-            <span class="text">
-              <h4>Trasparenza</h4>
-            </span>
-          </div>
-          <ul class="it-list">
-          <li class="it-right-zone mb-4 row">
-            <span class="text col-12 col-lg-10 mb-2">
-              Consulta i documenti di trasparenza forniti da {{ page.title }}
-            </span>
+      <div class="it-right-zone border-bottom border-light mb-4 mt-5" id="trasparenza">
+        <span class="text">
+          <h4>Trasparenza</h4>
+        </span>
+      </div>
+      <ul class="it-list">
+        <li class="it-right-zone mb-4 row">
+          <span class="text col-12 col-lg-10 mb-2">
+            Consulta i documenti di trasparenza forniti da {{ page.title }}
+          </span>
+          {% if page.url_informazioni_psp != 'None' %}
             <a href="{{ page.url_informazioni_psp }}"
               class="component-posts__item__readmore read-more col-12 col-xl-2 text-lg-right justify-content-xl-end"
               style="font-weight: 600" title="Apri documenti">
               APRI DOCUMENTI &rarr;
             </a>
-          </li>
-        </ul>
-        {% endif %}
+          {% endif %}
+        </li>
+      </ul>
     </div>
   </div>
   <div class="col-12 col-lg-3 affix-parent order-lg-1">
