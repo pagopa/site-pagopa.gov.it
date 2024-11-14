@@ -161,5 +161,6 @@ psp-metodi:
   en:
   it:
     carte: Carte
+    carte_app: Carte App
     conto: Conto Corrente
     altri: App e altri metodi
