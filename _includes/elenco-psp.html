@@ -30,7 +30,7 @@
 	</thead>
 	<tbody>
 		{% for item in psp %}
-		{% assign itemAbi = item.CodiceABI | downcase }} %}
+		{% assign itemAbi = item.CodiceABI | downcase %}
 		{% assign is_link = psp_services | where_exp: "elem", "itemAbi == elem.ref" %}
 			<tr>
 				<td class="elencopsp__denominazione">
