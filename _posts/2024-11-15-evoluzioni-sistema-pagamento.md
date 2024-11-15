@@ -8,7 +8,6 @@ caption: Esempio di schermata
 child_of_ref: notizie
 ---
 
-# Come evolve il sistema di pagamento di pagoPA
 Abbiamo introdotto sulla piattaforma di pagamento pagoPA alcuni cambiamenti **infrastrutturali e di design**, con l’obiettivo di rendere più efficienti i processi e permettere ulteriori implementazioni e migliorie nei prossimi mesi. 
 
 Accedendo a un pagamento attraverso il sito di un Ente creditore o di pagoPA, gli utenti **potrebbero notare un diverso aspetto**, e alcune novità volte a migliorare l’esperienza di pagamento, ad esempio quando si pagano più avvisi con una sola transazione.
