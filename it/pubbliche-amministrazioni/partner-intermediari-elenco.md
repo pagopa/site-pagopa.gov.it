@@ -12,6 +12,13 @@ usedatatables: true
 redirect_from:
   - /it/pubbliche-amministrazioni/partner/
   - /it/pubbliche-amministrazioni/intermediari-tecnologici/
+maintenance: true
 ---
 
-{% include elenco-pt-int.html %}
+{% if page.maintenance == true %}
+  <div class="alert alert-info mb-5" role="alert">
+    Pagina in manutenzione
+  </div>
+{% else %}
+  {% include elenco-pt-int.html %}
+{% endif %}
