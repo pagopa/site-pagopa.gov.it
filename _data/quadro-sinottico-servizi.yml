@@ -1,233 +1,89 @@
 functionalities:
-    "1": Funzionalità di piattaforma
-    "2": Funzionalità di supporto e assistenza
-    "3": Funzionalità accessorie
+    "1": Requisiti funzionali
+    "2": Standard di performance
+    "3": Servizi a valore aggiunto
 items: 
   - 
-    label: Gestione Archivio Pagamenti in Attesa
-    alias: gestarchpagatt
-    type: Sm
+    label: Rispetto SLA disponibilità servizio di pagamento
+    alias: 
+    type: nd
     func: "1"
-    desc: Sistema Funzionale che permette all'EC di creare, visualizzare, modificare le proprie posizioni debitorie tramite scambio dati M2M o manualmente
+    desc: "_Non devono_ essere violati gli SLA indicati nella sezione 'Disponibilità del servizio' di [questa pagina](https://developer.pagopa.it/pago-pa/guides/sanp/appendici/indicatori-di-qualita-per-i-soggetti-aderenti/livelli-di-servizio-enti-creditori)."
   - 
-    label: Messa a disposizione dei documenti scambiati con pagoPA (RT,RPT, flussi di rendicontazione)
-    alias: dispdocumenti
-    type: Sva
+    label: Causali di pagamento "parlanti" - To be
+    alias: 
+    type: nd
     func: "1"
-    desc: Il Parter Tecnologico mette a disposizione i flussi in formato XML all'Ente per inviarle in conservazione digitale
+    desc: "_È richiesto_ l'inserimento di una causale parlante, chiara e conforme alle best practice pagoPA per ogni posizione debitoria gestita dal Partner Tecnologico, in coerenza con le Linee Guida definite. - **TO BE**"
   - 
-    label: Integrazione con e@bollo
-    alias: ebollo
-    type: Sm
+    label: Tassonomia precisa
+    alias: 
+    type: nd
     func: "1"
-    desc: Integrazione del servizi di @e.bollo dell'Agenzia delle Entrate, come da linee guida pagoPA
+    desc: "_Deve essere_ garantita l'associazione di tutti i pagamenti ad un codice tassonomico presente all'interno dell'elenco pubblicato nelle [SANP](https://developer.pagopa.it/pago-pa/guides/sanp/ente-creditore/tassonomia-dei-servizi-di-incasso)."
   - 
-    label: Scarico flussi di rendicontazione
-    alias: flussirendicont
-    type: Sva
-    func: "1"
-    desc: Possibilità per l'EC di scaricare un report contenente tutti i flussi di rendicontazione inviati dai diversi PSP in ogni giornata operativa
-  - 
-    label: Modelli di pagamento
-    alias: modpagamento
-    type: Sm
-    func: "1"
-    desc: Capacità di innescare pagamenti con ogni modello previsto da linee guida pagoPA e allegati
-  - 
-    label: Profilazione personale EC con diversi ruoli e permessi
-    alias: profpermessi
-    type: Sb
-    func: "1"
-    desc: Possibilità di creare e gestire utenti differenti che abbiano visione e capacità di modifica di diverse tab del back office o diversi servizi
-  - 
-    label: Rateizzazione
-    alias: rateizzazione
-    type: Sb
-    func: "1"
-    desc: Capacità di gestire i pagamenti rateali
-  - 
-    label: Attualizzazione del debito
-    alias: attdebito
-    type: Sb
-    func: "1"
-    desc: Funzionalità che permette l'attualizzazione in tempo reale dell'importo del debito, nel momento in cui il cittadino sta effettuando il pagamento, in modo che l'importo pagato sia quello corretto perchè indicato dall'EC
-  - 
-    label: Disponibilità della ricevuta telematica
-    alias: disprictel
-    type: Sb
-    func: "1"
-    desc: Funzione di front end che consente al pagatore di recuperare ricevuta di ogni pagamento effettuato in vavore dell'EC
-  - 
-    label: Gestione Carrello multi beneficiario multi pagatore
-    alias: gestcarrmulti
-    type: Sb
-    func: "1"
-    desc: Possibilità di effettuare molteplici pagamenti in unica soluzione, anche a beneficio di diversi EC e/o con diversi soggetti pagatori
-  - 
-    label: Front-End Pagamenti on line
-    alias: fepagonline
-    type: Sd
-    func: "1"
-    desc: "Funzionalità di front end che complessivamente rendono disponibili: pagamenti con modello 1, creazione posizioni debitorie spontanee, conoscere esito pagamento, ecc"
-  - 
-    label: Invio esito pagamento
-    alias: esitopag
-    type: Sva
-    func: "1"
-    desc: Il Partner Tecnologico è in grado di inviare tramite WS l'esito del pagamento alla PA
-  - 
-    label: Possibilità invio PEC
-    alias: inviopec
-    type: Sva
-    func: "1"
-    desc: Possibilità di collegare il back office al server di posta elettronica della PA così da poter inviare gli avvisi di pagamento via PEC della PA
-  - 
-    label: Avvisatura massiva
-    alias: avvisaturamassiva
-    type: Sva
-    func: "1"
-    desc: Possibilità di creare un unico PDF con più avvisi di pagamento
-  - 
-    label: Invio automatico flussi al postalizzatore
-    alias: inviopostalizzatore
-    type: Sva
-    func: "1"
-    desc: Possibilità di inviare un tracciato o un file al postalizzatore della PA direttamente da back office
-  - 
-    label: Avvisatura singola
-    alias: avvisaturasingola
-    type: Sva
-    func: "1"
-    desc: Possibilità di stampare o inviare via email un singolo avviso di pagamento generato da back office
-  - 
-    label: Servizi di quadratura del flusso di pagamenti
-    alias: quadraturaflusso
-    type: Sd
-    func: "1"
-    desc: Verifica della coerenza dei dati del FdR con quelli di pagamento
-  - 
-    label: Gestione del giornale degli eventi
-    alias: gesteventi
-    type: Sb
+    label: Numero enti intermediati o transazioni gestite 
+    alias: 
+    type: nd
     func: "2"
-    desc: Gestione delle informazioni previste nella struttura "Giornale degli eventi" di cui alle SANP
+    desc: "_È richiesto_ gestire oltre 10 enti intermediati oppure almeno 250.000 transazioni nel periodo compreso tra la data di presentazione della richiesta di qualificazione e l'inizio delle verifiche previste dal Regolamento del modello di qualificazione."
   - 
-    label: Help Desk e gestione degli incident
-    alias: hdincident
-    type: Sd
+    label: Rispetto SLA tempi di risposta delle primitive
+    alias: 
+    type: nd
     func: "2"
-    desc: Presenza di un servizio di assistenza di primo e secondo livello
+    desc: "_Non devono_ verificarsi violazioni degli SLA indicati nella sezione 'Gestione dei timeout verso gli EC' in [questa pagina](https://developer.pagopa.it/pago-pa/guides/sanp/appendici/indicatori-di-qualita-per-i-soggetti-aderenti/livelli-di-servizio-enti-creditori), nel periodo compreso tra la data di presentazione della richiesta di qualificazione e la data di inizio delle verifiche previste dal Regolamento del modello di qualificazione dei Partner Tecnologici."
   - 
-    label: Disponibilità di manuali per l'utenza on line
-    alias: manualiutenza
-    type: Sva
+    label: Zero Incident
+    alias: 
+    type: nd
     func: "2"
-    desc: Distribuzione di manuali ai cittadini o possibilità di scaricarli da front end
+    desc: "_Non devono_ verificarsi eventi che abbiano comportato l'attivazione dello Stand In, ad eccezione dei fermi programmati previsti dalle SANP, come dettagliato [qui](https://developer.pagopa.it/pago-pa/guides/sanp/appendici/indicatori-di-qualita-per-i-soggetti-aderenti/livelli-di-servizio-enti-creditori), nei mesi che intercorrono tra la data di presentazione della richiesta di qualificazione e la data di inizio delle verifiche previste dal Regolamento del modello di qualificazione dei Partner Tecnologici."
   - 
-    label: Export dell'APA
-    alias: exportapa
-    type: Sva
+    label: "Integrazione tramite API Asincrone/sincrone"
+    alias: 
+    type: nd
     func: "2"
-    desc: Funzionalità che permette di esportare come file l'archivio delle posizioni debitorie
+    desc: "Nel caso di integrazione tramite API sincrone o asincrone, _deve essere_ garantito il conferimento di tutti i dati delle posizioni debitorie all'Archivio Centralizzato Avvisi ('ACA') mediante l'utilizzo delle API di creazione e aggiornamento del servizio di Gestione Posizioni Debitorie ('GPD'), nei mesi che intercorrono tra la data di presentazione della richiesta di qualificazione e la data di inizio delle verifiche previste dal Regolamento del modello di qualificazione dei Partner Tecnologici."
   - 
-    label: Formazione
-    alias: formazione
-    type: Sva
+    label: Utilizzo funzionalità pagamenti spontanei
+    alias: 
+    type: nd
     func: "2"
-    desc: Formazione all'EC sul sistema pagoPA e sulla soluzione tecnologica
+    desc: "_Deve essere_ mantenuta attiva e funzionante la funzionalità per la gestione dei pagamenti spontanei su tutte le stazioni operative del Partner Tecnologico."
   - 
-    label: Gestione Autorizzazione stampa in proprio
-    alias: autstampa
-    type: Sva
+    label: Opzioni di pagamento
+    alias: 
+    type: nd
     func: "2"
-    desc: Il Partner Tecnologico si prende in carico, nel rispetto dei vincoli formali, il processo di richiesta di autorizzazione alla stampa in proprio nei confronti di Poste Italiane
+    desc: "_Deve essere_ mantenuta attiva e funzionante la funzionalità per la gestione delle opzioni di pagamento su tutte le stazioni operative del Partner Tecnologico."
   - 
-    label: Iniziative di diffusione
-    alias: diffusione
-    type: Sva
+    label: Adeguamento all’ultima versione SANP
+    alias: 
+    type: nd
     func: "2"
-    desc: Supporto all'EC per l'erogazione di iniziative di diffusione sul territorio 
+    desc: "_È richiesta_ la conformità alle specifiche SANP/SACI per almeno il 50% degli enti intermediati nei mesi che intercorrono tra la data di presentazione della richiesta di qualificazione e la data di inizio delle verifiche previste dal Regolamento del modello di qualificazione dei Partner Tecnologici. Le tempistiche di adeguamento sono relative alle sole funzionalità obbligatorie così come dettagliate all'interno della Circolare trimestrale pagoPA disponibile a [questa pagina](https://docs.pagopa.it/circolare-trimestrale)."
   - 
-    label: Iniziative di comunicazione
-    alias: comunicazione
-    type: Sva
+    label: Rispetto dei requisiti formali per l'integrazione asincrona
+    alias: 
+    type: nd
     func: "2"
-    desc: Supporto all'EC nella definizione di una strategia di comunicazione con i cittadini
+    desc: "_È richiesto_ il rispetto dei requisiti di validazione formale per almeno il 95% dei caricamenti delle posizioni debitorie effettuati tramite API asincrone."
   - 
-    label: Gestione incassi extra Nodo
-    alias: extranodo
-    type: Sd
+    label: Corretta gestione delle ricevute di pagamento
+    alias: 
+    type: nd
     func: "2"
-    desc: Capacità di gestire gestire i pagamenti effettuati con servizi diversi da pagoPA fra cui quelli effettuati con servizi esplicitamente derogati dalle LG (per cassa, SDD, ecc) 
+    desc: "_È richiesto_ di ottenere almeno il 95% di riscontri positivi alla primitiva paSendRT (outcome OK nella response)."
   - 
-    label: Integrazione con piattaforma App IO
-    alias: appio
-    type: Sd
+    label: Integrazione nativa con IO
+    alias: 
+    type: nd
     func: "3"
-    desc: Integrazione del back office con l'app IO
+    desc: "_Deve essere_ garantito che almeno il 50% degli enti intermediati, nei mesi che intercorrono tra la data di presentazione della domanda e la data di inizio delle verifiche previste dal Regolamento del modello di qualificazione dei Partner Tecnologici, trasmetta per ogni posizione debitoria il relativo messaggio su IO, insieme alle comunicazioni e agli avvisi di pagamento."
   - 
-    label: Riconciliazione
-    alias: riconciliazione
-    type: Sd
+    label: Integrazione nativa con SEND
+    alias: 
+    type: nd
     func: "3"
-    desc: Capacità del Partner Tecnologico di fornire l'export dei dati necessari al SW gestionale per effettuale la riconciliazione automatica del pagamento e la produzione della reversale di incasso
-  - 
-    label: Pagamento con POS
-    alias: pos
-    type: Sva
-    func: "3"
-    desc: Fornire all'EC la possibilità di incassare tramite POS con procedura pagoPA
-  - 
-    label: Integrazione con ANPR
-    alias: anpr
-    type: Sva
-    func: "3"
-    desc: Integrazione dell'Archivio posizioni debitorie con ANPR, nel rispetto dei vincoli formali
-  - 
-    label: "SIOPE +"
-    alias: siope
-    type: Sva
-    func: "3"
-    desc: Integrazione con il sistema SIOPE + in particolare import dei flussi bancari dal giornale di cassa per confronto con rendicontazione incassi 
-  - 
-    label: Codifica dati per analisi pagamenti
-    alias: coddatipag
-    type: Sva
-    func: "3"
-    desc: Creazione di una codifica per ogni tipologia di tributo / incasso al fine di analizzare le tipolgie di entrate e la relativa diffusione 
-  - 
-    label: Fascicolo del cittadino
-    alias: fasccittadino
-    type: Sva
-    func: "3"
-    desc: Possibilità per il cittadino, dopo essersi autenticato, di visionare tutte le posizioni debitorie a proprio carico
-  - 
-    label: Interoperabilità con contabilità
-    alias: intercontabilita
-    type: Sva
-    func: "3"
-    desc: Capacità del partner tecnologico di integrarsi con il software di contabilità presente nell'Ente tramite la messa a disposizione di interfacce applicative (WS) per il caricamento/interrogazione delle posizioni e delle relative imputazioni contabili se presenti
-  - 
-    label: Interoperabilità con gestionali
-    alias: itnergest
-    type: Sva
-    func: "3"
-    desc: Capacità del partner tecnologico di integrarsi con i gestionali già presenti nell'Ente Creditore
-  - 
-    label: Front end multilingue
-    alias: femultilingue
-    type: Sva
-    func: "3"
-    desc: Disponibilità di front end multilingue (inglese,francese, tedesco, sloveno)
-  - 
-    label: Integrabilità con altri front-end
-    alias: altrife
-    type: Sva
-    func: "3"
-    desc: La piattaforma di pagamento può essere configurata per utilizzare front-end non nativi
-  - 
-    label: Bilinguismo
-    alias: bilingue
-    type: Sb
-    func: "3"
-    desc: Multilingue per regioni e province autonome in cui vige il bilinguismo
+    desc: "_È richiesta_ l'attivazione del servizio di attualizzazione delle spese di notifica SEND in modalità sincrona per tutti gli enti integrati, con garanzia di aggiornamento degli importi."

@@ -7,8 +7,8 @@ lang: it
 ref: partner-qualificati
 child_of_ref: partner-intermediari
 order: 43
-firsttypes: ['Sm', 'Sb']
-secondtypes: ['Sva', 'Sd']
+firsttypes: ['nd']
+secondtypes: [ ]
 redirect_from:
   - /it/pubbliche-amministrazioni/quadro-sinottico/
 ---
@@ -26,13 +26,4 @@ Monitorate da PagoPA S.p.A.
            types=page.firsttypes %}
 
 <div class="py-4"></div>
-
-
-### Funzionalità distintive e a valore aggiunto
-
-{:.lead }
-Dichiarate dal Partner Qualificato
-
-{% include tipi-qualificati.html
-           types=page.secondtypes %}
 
