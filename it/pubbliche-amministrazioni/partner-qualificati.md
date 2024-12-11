@@ -11,6 +11,11 @@ firsttypes: ['nd']
 secondtypes: [ ]
 redirect_from:
   - /it/pubbliche-amministrazioni/quadro-sinottico/
+footerbanner:
+  title: Vuoi diventare un Partner tecnologico qualificato?
+  desc: "Scarica il modulo, firmalo digitalmente e invialo via PEC all’indirizzo: account@pec.pagopa.it"
+  cta: Scarica il modulo
+  url: "/it/pubbliche-amministrazioni/lettera-accettazione-qualificazione.pdf"  
 ---
 
 <div class="mb-5 ">
