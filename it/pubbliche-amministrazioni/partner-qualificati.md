@@ -2,7 +2,7 @@
 layout: page
 title: Partner qualificati
 title_hero: L’integrazione a pagoPA è ancora più semplice con i Partner Qualificati
-description: I Partner Qualificati garantiscono un set standard di funzionalità legate alla piattaforma pagoPA. Le PA possono così valutare più facilmente i servizi offerti e garantire un’esperienza ottimale ai propri cittadini.
+description: I Partner Qualificati garantiscono un set standard di funzionalità legate alla piattaforma pagoPA. La Qualificazione tecnologica è funzionale alla mera connessione con la piattaforma pagoPA che permette di ottimizzare le integrazioni.
 lang: it
 ref: partner-qualificati
 child_of_ref: partner-intermediari
