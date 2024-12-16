@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Elenco aderenti
-title_hero: Partner e intermediari tecnologici
+title_hero: Partner e intermediari tecnologici (con i precedenti requisiti di qualificazione)
 lang: it
 ref: partner-intermediari-elenco
 child_of_ref: partner-intermediari
@@ -12,7 +12,7 @@ usedatatables: true
 redirect_from:
   - /it/pubbliche-amministrazioni/partner/
   - /it/pubbliche-amministrazioni/intermediari-tecnologici/
-maintenance: true
+maintenance: false
 ---
 
 {% if page.maintenance == true %}
