@@ -15,7 +15,7 @@ footerbanner:
 vantaggi:
     -
       title: Partner tecnologico qualificato
-      desc: "E’ un soggetto che, a seguito della manifestazione di volontà di sottoporsi ad una verifica da parte della PagoPA S.p.A., abbia, con esito positivo, soddisfatto i requisiti interni tecnici (qualitativi e quantitativi) funzionali alla sola connessione con la Piattaforma pagoPA."
+      desc: "E’ un soggetto che, a seguito della manifestazione di volontà di sottoporsi ad una verifica da parte di PagoPA S.p.A., abbia, con esito positivo, soddisfatto i requisiti interni tecnici (qualitativi e quantitativi) funzionali alla sola connessione con la piattaforma pagoPA."
       buttons:
         -
          label: Scopri di più
