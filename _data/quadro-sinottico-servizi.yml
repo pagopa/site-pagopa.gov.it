@@ -26,7 +26,7 @@ items:
     alias: 
     type: nd
     func: "2"
-    desc: "_È richiesto_ gestire oltre 10 enti intermediati oppure almeno 250.000 transazioni nel periodo compreso tra la data di presentazione della richiesta di qualificazione e l'inizio delle verifiche previste dal Regolamento del modello di qualificazione."
+    desc: "_È richiesto_ gestire oltre 5 enti intermediati oppure almeno 250.000 transazioni nel periodo compreso tra la data di presentazione della richiesta di qualificazione e l'inizio delle verifiche previste dal Regolamento del modello di qualificazione."
   - 
     label: Rispetto SLA tempi di risposta delle primitive
     alias: 
