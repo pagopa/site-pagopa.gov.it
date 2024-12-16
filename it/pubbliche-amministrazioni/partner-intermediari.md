@@ -9,7 +9,7 @@ child_of_ref: pubbliche-amministrazioni
 order: 2
 footerbanner:
   title: Vuoi diventare un Partner tecnologico qualificato?
-  desc: "Scarica il modulo, firmalo digitalmente e invialo via PEC all’indirizzo: account@pec.pagopa.it"
+  desc: "Scarica il modulo, firmalo digitalmente ed invialo via PEC all'indirizzo presente nell'accordo"
   cta: Scarica il modulo
   url: "/it/pubbliche-amministrazioni/lettera-accettazione-qualificazione.pdf"
 vantaggi:
