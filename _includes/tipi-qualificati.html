@@ -28,7 +28,7 @@
                         {% endif %}
                         <span class="tipi-qualificati__label">{{item.label}}</span>
                         </div>
-                        {% unless comparedata%}<div class="">{{item.desc}}</div>{%endunless%}
+                        {% unless comparedata%}<div class="">{{item.desc || markdownify}}</div>{%endunless%}
                     </div>
                 </div>
                 {% endfor %}
