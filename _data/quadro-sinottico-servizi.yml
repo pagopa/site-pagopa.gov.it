@@ -10,12 +10,6 @@ items:
     func: "1"
     desc: "_Non devono_ essere violati gli SLA indicati nella sezione 'Disponibilità del servizio' di [questa pagina](https://developer.pagopa.it/pago-pa/guides/sanp/appendici/indicatori-di-qualita-per-i-soggetti-aderenti/livelli-di-servizio-enti-creditori)."
   - 
-    label: Causali di pagamento "parlanti" - To be
-    alias: 
-    type: nd
-    func: "1"
-    desc: "_È richiesto_ l'inserimento di una causale parlante, chiara e conforme alle best practice pagoPA per ogni posizione debitoria gestita dal Partner Tecnologico, in coerenza con le Linee Guida definite. - **TO BE**"
-  - 
     label: Tassonomia precisa
     alias: 
     type: nd
