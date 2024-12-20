@@ -1,21 +1,21 @@
 ---
 layout: page
 title: Partner qualificati
-title_hero: L’integrazione a pagoPA è ancora più semplice con i Partner Qualificati
-description: I Partner Qualificati garantiscono un set standard di funzionalità legate alla piattaforma pagoPA. Le PA possono così valutare più facilmente i servizi offerti e garantire un’esperienza ottimale ai propri cittadini.
+title_hero: L’integrazione a pagoPA con i Partner Qualificati
+description: I Partner Qualificati garantiscono un set standard di funzionalità legate alla piattaforma pagoPA. La Qualificazione tecnologica è funzionale alla mera connessione con la piattaforma pagoPA che permette di ottimizzare le integrazioni.
 lang: it
 ref: partner-qualificati
 child_of_ref: partner-intermediari
 order: 43
-firsttypes: ['Sm', 'Sb']
-secondtypes: ['Sva', 'Sd']
+firsttypes: ['nd']
+secondtypes: [ ]
 redirect_from:
   - /it/pubbliche-amministrazioni/quadro-sinottico/
 footerbanner:
   title: Vuoi diventare un Partner tecnologico qualificato?
-  desc: "Scarica il modulo, firmalo digitalmente e invialo via PEC all’indirizzo: account@pec.pagopa.it"
+  desc: "Scarica il modulo, firmalo digitalmente ed invialo via PEC all'indirizzo presente nell'accordo"
   cta: Scarica il modulo
-  url: "/it/pubbliche-amministrazioni/lettera-accettazione-qualificazione.pdf"
+  url: "/it/pubbliche-amministrazioni/accordo_pt_qualificati_12_2024.pdf"
 ---
 
 <div class="mb-5 ">
@@ -31,13 +31,4 @@ Monitorate da PagoPA S.p.A.
            types=page.firsttypes %}
 
 <div class="py-4"></div>
-
-
-### Funzionalità distintive e a valore aggiunto
-
-{:.lead }
-Dichiarate dal Partner Qualificato
-
-{% include tipi-qualificati.html
-           types=page.secondtypes %}
 

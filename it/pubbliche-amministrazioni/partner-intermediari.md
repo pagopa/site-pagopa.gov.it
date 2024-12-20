@@ -6,16 +6,16 @@ Le attività tecniche possono essere affidate anche a molteplici soggetti, che s
 lang: it
 ref: partner-intermediari
 child_of_ref: pubbliche-amministrazioni
-order: 3
+order: 2
 footerbanner:
   title: Vuoi diventare un Partner tecnologico qualificato?
-  desc: "Scarica il modulo, firmalo digitalmente e invialo via PEC all’indirizzo: account@pec.pagopa.it"
+  desc: "Scarica il modulo, firmalo digitalmente ed invialo via PEC all'indirizzo presente nell'accordo"
   cta: Scarica il modulo
-  url: "/it/pubbliche-amministrazioni/lettera-accettazione-qualificazione.pdf"
+  url: "/it/pubbliche-amministrazioni/accordo_pt_qualificati_12_2024.pdf"
 vantaggi:
     -
       title: Partner tecnologico qualificato
-      desc: "È un soggetto che ha accettato di sottoporsi a una procedura di qualificazione e di sottoscrivere un accordo di servizio con PagoPA S.p.A."
+      desc: "È un soggetto che, a seguito della manifestazione di volontà di sottoporsi ad una verifica da parte di PagoPA S.p.A., abbia, con esito positivo, soddisfatto i requisiti interni tecnici (qualitativi e quantitativi) funzionali alla sola connessione con la piattaforma pagoPA."
       buttons:
         -
          label: Scopri di più
@@ -24,14 +24,6 @@ vantaggi:
       more:
         label: Vedi i partner qualificati 
         url: "../partner-intermediari-elenco/#qualificati"
-    -
-      title: Partner tecnologico
-      noshadow: true
-      desc: "È un soggetto imprenditoriale di cui l’Ente Creditore si avvale in via strumentale per l’esecuzione delle attività tecniche relative alla fornitura dei servizi IT, non necessariamente caratterizzabili, per l’interfacciamento con la piattaforma pagoPA."
-      img: "/assets/images/pictograms/puzzle.svg"
-      more:
-        label: Vedi i partner 
-        url: "../partner-intermediari-elenco/#partner"
     -
       title: Intermediario tecnologico
       noshadow: true
@@ -45,6 +37,6 @@ vantaggi:
 
 {%include components/grid.html 
           source=page.vantaggi
-          columns=3
+          columns=2
           css_wrapper="my-3 my-md-4 img-64"
           %}
