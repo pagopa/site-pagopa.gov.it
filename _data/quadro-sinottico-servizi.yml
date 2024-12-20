@@ -34,11 +34,11 @@ items:
     func: "2"
     desc: "_Non devono_ verificarsi eventi che abbiano comportato l'attivazione dello Stand In, ad eccezione dei fermi programmati previsti dalle SANP, come dettagliato [qui](https://developer.pagopa.it/pago-pa/guides/sanp/appendici/indicatori-di-qualita-per-i-soggetti-aderenti/livelli-di-servizio-enti-creditori), nei mesi che intercorrono tra la data di presentazione della richiesta di qualificazione e la data di inizio delle verifiche previste dal Regolamento del modello di qualificazione dei Partner Tecnologici."
   - 
-    label: "Integrazione tramite API Asincrone/sincrone"
+    label: "Integrazione tramite API Sincrone"
     alias: 
     type: nd
     func: "2"
-    desc: "Nel caso di integrazione tramite API sincrone o asincrone, _deve essere_ garantito il conferimento di tutti i dati delle posizioni debitorie all'Archivio Centralizzato Avvisi ('ACA') mediante l'utilizzo delle API di creazione e aggiornamento del servizio di Gestione Posizioni Debitorie ('GPD'), nei mesi che intercorrono tra la data di presentazione della richiesta di qualificazione e la data di inizio delle verifiche previste dal Regolamento del modello di qualificazione dei Partner Tecnologici."
+    desc: "Nel caso di integrazione tramite API sincrone, _deve essere_ garantito il conferimento di tutti i dati delle posizioni debitorie all'Archivio Centralizzato Avvisi ('ACA') mediante l'utilizzo delle API di creazione e aggiornamento del servizio di Gestione Posizioni Debitorie ('GPD'), nei mesi che intercorrono tra la data di presentazione della richiesta di qualificazione e la data di inizio delle verifiche previste dal Regolamento del modello di qualificazione dei Partner Tecnologici."
   - 
     label: Utilizzo funzionalità pagamenti spontanei
     alias: 
