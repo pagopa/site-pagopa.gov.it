@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Elenco aderenti
-title_hero: Partner e intermediari tecnologici (con i precedenti requisiti di qualificazione)
-description: 
+title_hero: Partner e intermediari tecnologici
+description: A partire dal 1° febbraio 2025, il Partner Tecnologico verrà qualificato ai sensi della nuova procedura di qualificazione; nelle more dell’azione del nuovo processo, resteranno pubbliche le liste emanate ai sensi del precedente processo di qualificazione. La lista aggiornata dei Partner Qualificati verrà pubblicata nel corso del mese di Luglio 2025.
 lang: it
 ref: partner-intermediari-elenco
 child_of_ref: partner-intermediari
