@@ -93,10 +93,11 @@
                       <div class="link-list-wrapper">
                         <ul class="link-list py-3">
                           {% for menu_child_page in current_lang_menu_child_pages %}
-                            <li class="">
-                              <a class="list-item"
-                                  href="{{ site.baseurl }}{{menu_child_page.url}}"><span>{{menu_child_page.title}}</span></a>
-                            </li>
+                          <li class="nav-item {% if menu_child_page.url == '/it/cittadini/la-tua-area-personale/' %} border-top-item bold-item {% endif %}">
+                            <a class="list-item" href="{{ site.baseurl }}{{menu_child_page.url}}">
+                              <span>{{menu_child_page.title}}</span>
+                            </a>
+                          </li>                          
                           {% endfor %}
                         </ul>
                       </div>

@@ -1175,3 +1175,43 @@ body.page--cittadini-trasparenza-costi {
     }
   }
 }
+
+.border-top-item {
+  position: relative;
+  padding-top: 8px;
+  margin-top: 8px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 0.5px;
+    background-color: #e6e9f2;
+  }
+}
+
+.bold-item a {
+  font-weight: bold;
+}
+
+.it-header-slim-wrapper .navbar-nav .nav-item:last-child {
+  padding: 0 !important;
+  margin-left: 8px;
+}
+
+.it-header-slim-wrapper .navbar-nav .nav-item:last-child a {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #013c79;
+  font-weight: bold!important;
+}
+
+.it-header-slim-wrapper .navbar-nav .nav-item:last-child a:hover {
+  background-color: #01254c;
+  font-weight: bold!important;
+  color: #fff!important;
+}

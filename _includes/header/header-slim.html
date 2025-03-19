@@ -19,7 +19,7 @@
               <ul class="navbar-nav ml-auto mr-0 border-right-0">
                 {% for link in toprightlinks %}
                 {% assign linkdata = link | last %}
-                <li class="nav-item py-0 py-md-3 {% unless forloop.last %}nav-item-w-divider{%endunless%}">
+                <li class="nav-item py-0 py-md-3 {% unless forloop.last or linkdata.name == 'SEND' %}nav-item-w-divider{%endunless%}">
                   <a class="nav-link text-white px-0 py-2 py-md-0 px-md-3" href="{{linkdata.url}}" title="{{linkdata.name}}">{{linkdata.name}}</a>
                 </li>
                 {% endfor %}

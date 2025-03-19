@@ -135,6 +135,9 @@ topright-links:
     send:
       name: "SEND"
       url: "https://notifichedigitali.pagopa.it/"
+    area-personale:
+      name: "Area Personale"
+      url: "https://developers.italia.it/it/software/github.com/pagopa/oneidentity.html"
 navigation:
   en:
   it:
