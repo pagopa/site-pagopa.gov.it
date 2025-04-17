@@ -5,6 +5,11 @@ title_hero: Paga come vuoi, quando vuoi
 description: "pagoPA è la piattaforma nazionale che ti permette di scegliere, secondo le tue abitudini e preferenze, come pagare tributi, imposte o rette verso la Pubblica Amministrazione e altri soggetti aderenti che forniscono servizi al cittadino."
 lang: it
 order: 1
+footerbanner:
+  title: Le tue ricevute pagoPA, in un unico posto
+  desc: "Nella tua area personale puoi consultare le ricevute degli avvisi pagoPA in modo semplice e veloce, in qualsiasi momento."
+  cta: Accedi
+  url: "https://developers.italia.it/it/software/github.com/pagopa/oneidentity.html"
 ref: cittadini-vantaggi
 child_of_ref: cittadini
 redirect_from:
@@ -21,23 +26,23 @@ vantaggi:
     -
       img: "/assets/images/pictograms/semplice.svg"
       title: Semplice
-      desc: "L’avviso pagoPA contiene tutte le informazioni che ti servono, in un formato standard e di facile comprensione.
-Per pagare, inquadra il codice QR con l’app IO o la tua app preferita. In alternativa, utilizza i dati riportati sull’avviso per tutti gli altri canali di pagamento che lo richiedono."
+      desc: "L’avviso pagoPA contiene tutte le informazioni che ti servono, in un formato standard e di facile comprensione. Per pagare, inquadra il codice QR con l’app IO o la tua app di pagamento preferita.\n\n
+In alternativa, utilizza i dati riportati sull’avviso."
     -
       img: "/assets/images/pictograms/multicanale.svg"
       title: Comoda
-      desc: "Usa il canale che preferisci: pagoPA è integrata in app IO, nel tuo home banking e in numerosi altri servizi online disponibili h24. Puoi anche pagare gli avvisi pagoPA in banca, negli uffici postali e in tutti gli esercenti convenzionati sul territorio."
+      desc: "Usa il canale che preferisci: pagoPA è integrata nell’app IO, nel tuo home banking e in numerosi altri servizi online disponibili h24. Puoi anche pagare gli avvisi pagoPA in banca, negli uffici postali e in tutti gli esercenti convenzionati sul territorio."
       more:
         label: Dove pagare
         url: "/it/cittadini/dove-pagare/"
     -
       img: "/assets/images/pictograms/affidabile.svg"
       title: Affidabile
-      desc: "Hai sempre la certezza di pagare l'importo dovuto: se varia nel tempo per interessi di mora o saldi parziali, pagoPA lo aggiorna in automatico per te."
+      desc: "Hai sempre la certezza di pagare l’importo dovuto: grazie a pagoPA gli Enti possono aggiornarlo in automatico, così paghi sempre quanto dovuto ed eviti more o altri interessi."
     -
       img: "/assets/images/pictograms/completed.svg"
       title: Immediata
-      desc: "Per ogni pagamento, pagoPA ti invia subito l'esito: se è andato a buon fine, è la conferma che l'Ente Creditore incasserà l'importo. Se paghi dall'app IO, lo storico delle operazioni è sempre a portata di mano."
+      desc: "Per ogni pagamento, pagoPA ti invia l’esito: se è andato a buon fine, è la conferma che l’Ente Creditore incasserà l’importo."
     -
       img: "/assets/images/pictograms/bank.svg"
       title: Sicura
