@@ -47,7 +47,7 @@ blocks:
     img: "/assets/images/home/home-3.jpg"
 ---
 
-
+{% include phishing-alert-section.html %}
 {% include hero.html %}
 
 <main>

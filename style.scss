@@ -1175,3 +1175,35 @@ body.page--cittadini-trasparenza-costi {
     }
   }
 }
+
+.phishing-alert-link {
+  background-color: #01254c;
+  color: white;
+  text-decoration: none;
+  line-height: 1.25;
+
+  &:hover {
+    color: white;
+    text-decoration: none;
+
+    .phishing-alert-link-text {
+      text-decoration: underline;
+    }
+  }
+}
+
+.phishing-alert-link-inner {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+
+  @media (min-width: 992px) {
+    padding: 0 24px;
+  }
+}
+
+.phishing-alert-link-icon {
+  height: 24px;
+  width: auto;
+  padding-right: 12px;
+}
