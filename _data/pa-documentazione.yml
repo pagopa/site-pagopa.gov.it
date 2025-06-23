@@ -45,3 +45,11 @@
     -
       label: Portale delle Adesioni - Manuale Utente
       url: "https://docs.pagopa.it/portale-delle-adesioni/"
+- title: "Elenco degli Enti Creditori con casi di IBAN errati"
+  docs:
+    -
+      label: Elenco degli EC che risultano avere un IBAN che non consente ai PSP abilitati sulla piattaforma di accreditare all'ente le somme di loro spettanza
+      url: "https://docs.google.com/spreadsheets/d/1wK_6SlvC4q7ToWGxZpg3lYx0g38jBGdByi0mekow4DU/edit?gid=0#gid=0"
+    -
+      label: Elenco  “Storico Enti con IBAN errati”
+      url: "https://docs.google.com/spreadsheets/d/1Vn9rUYgGWGcONS__wHzFifO1Cs2ojpkCr1VDTkev5p0/edit?gid=0#gid=0"
