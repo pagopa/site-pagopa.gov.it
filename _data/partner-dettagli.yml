@@ -14,90 +14,6 @@
   autstampa: true
   diffusione: true
   comunicazione: true
-  appio: false
-  riconciliazione: true
-  pos: true
-  anpr: false
-  siope: true
-  coddatipag: true
-  fasccittadino: false
-  intercontabilita: true
-  intergest: true
-  CF: "00053810149"
-  ragionesociale: Banca Popolare di Sondrio
-  "Confermo di erogare i servizi obbligatori tipologia Sm e Sb": true
-  extranodo: true
-  femultilingue: true
-  altrife: true
-  referenze: "
-  Università degli Studi di Milano Bicocca - Tasse Studenti\n
-  IVASS Istituto per la Vigilanza sulle Assicurazioni - Contribuzione annuale\n
-  Ente Nazionale di Previdenza Ed Assistenza per gli Psicologi - Contribuzioni previdenziali periodiche\n
-  Comune di Aosta - Tari/Tributi (acquedotto, cosap)\n
-  Azienda Regionale per L'Edilizia Residenziale della Valle D'Aosta - Affitti alloggi\n
-  AGCM - Contribuzione annuale\n
-  Consiglio Nazionale degli Ingegneri - Quota iscrizione annuale\n
-  Collegio dei Geometri e dei Geometri Laureati della Provincia di Milano – Quota iscrizione annuale\n
-  Ordine Architetti Pianificatori Paesaggisti e Conservatori di Roma e  Provincia - Quota iscrizione annuale\n
-  Ordine Architetti Pianificatori Paesaggisti e Conservatori di Roma e  Provincia - Quota iscrizione annuale"
-- dispdocumenti: true
-  flussirendicont: true
-  fepagonline: true
-  esitopag: true
-  inviopec: true
-  avvisaturamassiva: true
-  inviopostalizzatore: true
-  avvisaturasingola: true
-  quadraturaflusso: true
-  hdincident: true
-  manualiutenza: true
-  exportapa: true
-  formazione: true
-  autstampa: true
-  diffusione: true
-  comunicazione: true
-  appio: true
-  riconciliazione: true
-  pos: true
-  anpr: false
-  siope: true
-  coddatipag: true
-  fasccittadino: true
-  intercontabilita: true
-  intergest: true
-  CF: "02554480349"
-  ragionesociale: Next Step Solution
-  "Confermo di erogare i servizi obbligatori tipologia Sm e Sb": true
-  extranodo: true
-  femultilingue: true
-  altrife: true
-  referenze: "
-  Riscossione Sicilia (PA) - RAV e Accesso agli atti\n
-  Comune di Modena (MO) - Sanzioni CDS et al.\n
-  Comune di Cesena (FC) - Servizi scolastici et al.\n
-  Comune di Fidenza (PR) - Luci votive et al.\n
-  Unione Pedemontana Parmense - Sanzioni CDS et al.\n
-  Unione Tresinaro Secchia - Diritti di segreteria et al.\n
-  ASPES spa  - Luci Votive\n
-  Unione dei comuni del Distretto Ceramico - Sportello unico edilizia et al.\n
-  Comune di Cervia (RA) - Costi e Oneri di urbanizzazione et al.\n
-  Comune di Medesano (PR) - Occupazione Suolo Pubblico et al."
-- dispdocumenti: true
-  flussirendicont: true
-  fepagonline: true
-  esitopag: true
-  inviopec: true
-  avvisaturamassiva: true
-  inviopostalizzatore: true
-  avvisaturasingola: true
-  quadraturaflusso: true
-  hdincident: true
-  manualiutenza: true
-  exportapa: true
-  formazione: true
-  autstampa: true
-  diffusione: true
-  comunicazione: true
   appio: true
   riconciliazione: true
   pos: true
@@ -180,48 +96,6 @@
   exportapa: true
   formazione: true
   autstampa: false
-  diffusione: false
-  comunicazione: false
-  appio: true
-  riconciliazione: true
-  pos: true
-  anpr: false
-  siope: true
-  coddatipag: true
-  fasccittadino: true
-  intercontabilita: true
-  intergest: true
-  CF: "11311050964"
-  ragionesociale: "eRemind srl - PMPAY"
-  "Confermo di erogare i servizi obbligatori tipologia Sm e Sb": true
-  extranodo: true
-  femultilingue: true
-  altrife: true
-  referenze: "
-  ANAS SPA - incassi\n
-  Università di Catania - Esame Di Stato\n
-  Università di Catania - Immatricolazione\n
-  Università degli Studi di Cassino e del Lazio Meridionale - Pagamento tasse e contributi\n
-  Comune di Portici - Anagrafe certificati\n
-  Comune di Portici - Polizia Municipale\n
-  Comune di Como - Refezione Scolastica\n
-  Comune di Como - Permessi ZTL\n
-  Alperia Smart Service SRL - Gas Naturale\n
-  Alperia Smart Service SRL - Energia Elettrica"
-- dispdocumenti: true
-  flussirendicont: true
-  fepagonline: true
-  esitopag: true
-  inviopec: false
-  avvisaturamassiva: true
-  inviopostalizzatore: true
-  avvisaturasingola: true
-  quadraturaflusso: true
-  hdincident: true
-  manualiutenza: true
-  exportapa: true
-  formazione: true
-  autstampa: false
   diffusione: true
   comunicazione: true
   appio: true
@@ -250,216 +124,6 @@
   Comune di Quarrata -Mensa scolastica et al.\n
   IPASVI - Pagamento quota associativa\n
   Edisu Pavia- Rette studenti"
-- dispdocumenti: true
-  flussirendicont: true
-  fepagonline: true
-  esitopag: true
-  inviopec: false
-  avvisaturamassiva: true
-  inviopostalizzatore: false
-  avvisaturasingola: true
-  quadraturaflusso: true
-  hdincident: true
-  manualiutenza: false
-  exportapa: true
-  formazione: true
-  autstampa: true
-  diffusione: true
-  comunicazione: true
-  appio: true
-  riconciliazione: true
-  pos: true
-  anpr: false
-  siope: false
-  coddatipag: true
-  fasccittadino: true
-  intercontabilita: true
-  intergest: true
-  CF: "06423240727"
-  ragionesociale: Progetti e Soluzioni Spa
-  "Confermo di erogare i servizi obbligatori tipologia Sm e Sb": true
-  extranodo: false
-  femultilingue: true
-  altrife: true
-  referenze: "
-  Comune di Missaglia (LC) - pre e post scuola et al.\n
-  Comune di Cusano Milanino (MI) - centri estivi et al.\n
-  Consorzio di Bonifica Bacchiglione (PD) - contributo consortile\n
-  Comune di Marcignago (PV) - switch off completo\n
-  Comune di Fondi (LT) - servizi demo anagrafici\n
-  Comune di Druento (TO) - sportello polifunzionale et al.\n
-  Comune di Scaldasole (PV) - switch off completo\n
-  Unione Dei Comuni Collinari Del Vergante (NO) - switch off completo\n
-  Comune di Trivolzio (PV) - switch off completo\n
-  Comune di Bracciano (Roma) - switch off completo"
-- dispdocumenti: true
-  flussirendicont: true
-  fepagonline: true
-  esitopag: true
-  inviopec: true
-  avvisaturamassiva: true
-  inviopostalizzatore: true
-  avvisaturasingola: true
-  quadraturaflusso: true
-  hdincident: true
-  manualiutenza: false
-  exportapa: true
-  formazione: true
-  autstampa: true
-  diffusione: false
-  comunicazione: true
-  appio: false
-  riconciliazione: true
-  pos: false
-  anpr: false
-  siope: false
-  coddatipag: true
-  fasccittadino: true
-  intercontabilita: true
-  intergest: true
-  CF: "06092371001"
-  ragionesociale: Italriscossioni Società Italiana di Fiscalità Locale S.r.l.
-  "Confermo di erogare i servizi obbligatori tipologia Sm e Sb": true
-  extranodo: true
-  femultilingue: false
-  altrife: false
-  referenze: "Collegio Provinciale Geometri e Geometri Laureati di Latina - Servizio di nuova iscrizione et al.\n
-  Ordine Degli Ingegneri della Provincia di Firenze - Servizio di riscossione quote annue et al.\n
-  Ordine delle Professioni Infermieristiche di Torino - Servizio di pagamento corsi et al.\n
-  Ordine Dei Medici Chirurghi e Degli Odontoiatri della Provincia di Vibo Valentia - Servizio di nuova iscrizione et al.\n
-  Ordine Dei Medici Chirurghi e Degli Odontoiatri della Provincia di Napoli - Servizio di nuova iscrizione et al.\n
-  Ordine dei Geologi della Sardegna - Servizio di nuova iscrizione et al.\n
-  Ordine dei Medici Chirurghi e degli Odontoiatri della provincia di Reggio Emilia - Servizio di nuova iscrizione et al.\n
-  Ordine dei Medici Veterinari della Provincia di Cuneo - Servizio di nuova iscrizione et al.\n
-  Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di Alessandria - Servizio di nuova iscrizione et al.\n
-  Ordine dei Medici Chirurghi e degli Odontoiatri della Provincia di Palermo - Servizio di riscossione quote annue et al."
-- dispdocumenti: true
-  flussirendicont: true
-  fepagonline: true
-  esitopag: true
-  inviopec: true
-  avvisaturamassiva: true
-  inviopostalizzatore: true
-  avvisaturasingola: true
-  quadraturaflusso: true
-  hdincident: true
-  manualiutenza: true
-  exportapa: true
-  formazione: true
-  autstampa: true
-  diffusione: true
-  comunicazione: true
-  appio: false
-  riconciliazione: true
-  pos: true
-  anpr: false
-  siope: true
-  coddatipag: true
-  fasccittadino: true
-  intercontabilita: true
-  intergest: true
-  CF: "02098391200"
-  ragionesociale: Unimatica SPA
-  "Confermo di erogare i servizi obbligatori tipologia Sm e Sb": true
-  extranodo: true
-  femultilingue: true
-  altrife: true
-  referenze: "
-  Città Metropolitana di Bologna - Contravvenzioni al Codice della Strada\n
-  Min. Interno - Dip. VVF e Protezione Civile - Prevenzione Incendi DPR 151/2011\n
-  Comune di Patti - Diritti di segreteria\n
-  Comune di Gattinara - Imposta pubblicità\n
-  Comune di Volpiano - Rette Asilo Nido\n
-  Comune di Vigevano - Luci votive\n
-  Ordine degli Avvocati di Torino - Pagamenti verso Ordine\n
-  Comune di Aprilia - Diritti di Segreteria et al.\n
-  Unione Alta Val Susa - Diritti di istruttoria SUAP delle valli\n
-  Azienda Territoriale per la Casa del Piemonte Centrale - Servizi territoriali per la Casa"
-- dispdocumenti: true
-  flussirendicont: true
-  fepagonline: true
-  esitopag: true
-  inviopec: true
-  avvisaturamassiva: true
-  inviopostalizzatore: true
-  avvisaturasingola: true
-  quadraturaflusso: true
-  hdincident: true
-  manualiutenza: true
-  exportapa: true
-  formazione: true
-  autstampa: true
-  diffusione: true
-  comunicazione: true
-  appio: true
-  riconciliazione: true
-  pos: true
-  anpr: true
-  siope: true
-  coddatipag: true
-  fasccittadino: true
-  intercontabilita: true
-  intergest: true
-  CF: "01727860221"
-  ragionesociale: Dedagroup Public Services s.r.l.
-  "Confermo di erogare i servizi obbligatori tipologia Sm e Sb": true
-  extranodo: true
-  femultilingue: true
-  altrife: true
-  referenze: "
-  Comune di Milano - Multe et al.\n
-  Comune di Chiampo - servizi scolastici et al.\n
-  Comune di Lonato del Garda - lampade votive (avvisi multidovuto) et al.\n
-  Comune di Legnano - TARI et al.\n
-  Provincia di Salerno - COSAP et al.\n
-  Comune di Grado - Accesso ZTL et al.\n
-  Comune di Piacenza - servizi scolastici et al.\n
-  Comune di Pergine Valsugana - diritti et al.\n
-  Ordine degli Psicologi della Lombardia - Tassa iscrizione et al.\n
-  C.S.E.A - riscossione diritti
-  "
-- dispdocumenti: true
-  flussirendicont: true
-  fepagonline: true
-  esitopag: true
-  inviopec: false
-  avvisaturamassiva: true
-  inviopostalizzatore: false
-  avvisaturasingola: true
-  quadraturaflusso: true
-  hdincident: true
-  manualiutenza: false
-  exportapa: false
-  formazione: true
-  autstampa: true
-  diffusione: false
-  comunicazione: false
-  appio: false
-  riconciliazione: true
-  pos: false
-  anpr: false
-  siope: true
-  coddatipag: false
-  fasccittadino: false
-  intercontabilita: false
-  intergest: true
-  CF: "02789990922"
-  ragionesociale: Noviservice S.r.l.
-  "Confermo di erogare i servizi obbligatori tipologia Sm e Sb": true
-  extranodo: false
-  femultilingue: false
-  altrife: true
-  referenze: "
-  Ordine Professioni Infermieristiche Siena - Quote Iscrizione\n
-  Ordine delle Professioni Infermieristiche di Pisa - Quote Iscrizione\n
-  Ordine delle Professioni Infermieristiche di Lucca - Quote iscrizione\n
-  Ordine delle Professioni Infermieristiche di Latina - Quote Iscrizione\n
-  Ordine Professioni Infermieristiche Grosseto - Quote Iscrizione\n
-  Ordine Infermieri Interprovinciale Firenze Pistoia - Quote Iscrizione\n
-  Ordine delle Professioni Infermieristiche di Arezzo - Quote Iscrizione\n
-  Comune di Pimonte - TARI\n
-  Comune di Petruro Irpino - TARI\n
-  Comune di San Mango Piemonte - Lampade Votive"
 - dispdocumenti: true
   "flussirendicont": true
   "fepagonline": true
@@ -521,49 +185,6 @@
   "comunicazione": true
   "appio": true
   riconciliazione: true
-  "pos": false
-  "anpr": false
-  "siope": false
-  coddatipag: true
-  "fasccittadino": true
-  "intercontabilita": true
-  "intergest": true
-  "CF": "12105121003"
-  "ragionesociale": "NOVARES SPA"
-  "Confermo di erogare i servizi obbligatori tipologia Sm e Sb": true
-  "extranodo": true
-  "Integrazione SDI": ""
-  "femultilingue": false
-  "altrife": true
-  referenze: "
-  Comune di Castelbianco - Servizio idrico\n
-  Comune di Castelbianco - Trasporto scolastico\n
-  Comune di Castelbianco - Diritti cimiteriali\n
-  Aiga S.p.a. - Riscossione ordinaria et al.\n
-  Autorita' di sistema portuale del Mar Tirreno centro-settentrionale - Riscossione ordinaria et al.\n
-  S.E.A. Servizi ed Ambiente s.p.a. - Riscossione coattiva di tutte le entrate et al.\n
-  Comune di Marano Equo - Riscossione coattiva TARI-IMU et al.\n
-  Comune di Marano Equo - Riscossione ordinaria et al.\n
-  Comune di Marano Equo - Riscossione ordinaria et al.\n
-  Comune di Cineto Romano - Riscossione coattiva TARI et al."
-- dispdocumenti: true
-  "flussirendicont": true
-  "fepagonline": true
-  "esitopag": true
-  "inviopec": true
-  "avvisaturamassiva": true
-  "inviopostalizzatore": true
-  "avvisaturasingola": true
-  "quadraturaflusso": true
-  "hdincident": true
-  "manualiutenza": true
-  "exportapa": true
-  formazione: true
-  "autstampa": true
-  "diffusione": true
-  "comunicazione": true
-  "appio": true
-  riconciliazione: true
   "pos": true
   "anpr": true
   "siope": true
@@ -589,52 +210,6 @@
   Comune di Alessandria - Diritti di Segreteria et al.\n
   Unione Montana dei Comuni dell'Appennino Reggiano - Trasporto scolastico et al.\n
   Unione dei Comuni Montani della Val Trompia - Trasporto Scolastico et al."
-- Informazioni cronologiche: 20/11/2020 13.26.41
-  dispdocumenti: true
-  flussirendicont: true
-  fepagonline: true
-  esitopag: true
-  inviopec: true
-  avvisaturamassiva: true
-  inviopostalizzatore: true
-  avvisaturasingola: true
-  quadraturaflusso: true
-  hdincident: true
-  manualiutenza: true
-  exportapa: true
-  formazione: true
-  autstampa: true
-  diffusione: true
-  comunicazione: true
-  appio: false
-  riconciliazione: true
-  pos: true
-  anpr: false
-  siope: true
-  coddatipag: true
-  fasccittadino: false
-  intercontabilita: true
-  intergest: true
-  CF: 01265230902
-  Recapito telefonico del Delegato (fisso e mobile): ""
-  ragionesociale: Numera Sistemi e Informatica S.p.a.
-  Nome e Cognome del Delegato: ""
-  "Confermo di erogare i servizi obbligatori tipologia Sm e Sb": true
-  extranodo: true
-  Integrazione SDI: ""
-  femultilingue: true
-  altrife: true
-  referenze: "
-  COMUNE DE L'AQUILA - Recuperi Tassa rifiuti\n
-  CCAM CONSORZIO COMUNI ACQUEDOTTO MONFERRATO - DEBITO_NETAPAY (servizio idrico)\n
-  MAN MUSEO D'ARTE DELLA PROVINCIA DI NUORO - Pagamento generico\n
-  ISTITUTO ZOOPROFILATTICO SPERIMENTALE LAZIO TOSCANA M. ALEANDRI - Prestazioni sanitarie verso privati a pagamento\n
-  ACCADEMIA DI BELLE ARTI DI FIRENZE - Contributo accademico\n
-  ENTE PARCO NAZIONALE ARCIPELAGO LA MADDALENA - Incassi Autorizzazioni\n
-  A.S.P.O. AZIENDA SERVIZI PUBBLICI OLBIA - Ticket trasporto scuolabus\n
-  ISTITUTO SUPERIORE DI STUDI MUSICALI TCHAIKOVSKY - CONTRIBUTO ESAMI AMMISSIONI\n
-  CONSIGLIO NOTARILE DI MODENA - Ricerca Testamento\n
-  A.M.A. AZIENDA MOBILITA' AQUILANA - SANZIONE PER MANCANZA DI VALIDO TITOLO DI VIAGGIO"
 - Informazioni cronologiche: 2/4/2021 11:39:11
   dispdocumenti: true
   flussirendicont: true
@@ -679,8 +254,7 @@
   A.S.A. - Azienda Servizi Ambientali S.P.A. - Servizi Ambientali\n
   OPI Napoli - Quote associative/iscrizioni\n
   Istituto Zooprofilattico dell'Abruzzo e del Molise - Incassi Vari (prestazioni veterinarie, esami clinici)"
-- Informazioni cronologiche: 09/03/2022 12.43.43
-  dispdocumenti: true
+- dispdocumenti: true
   flussirendicont: true
   fepagonline: true
   esitopag: true
@@ -700,70 +274,115 @@
   riconciliazione: true
   pos: true
   anpr: false
-  siope: false
-  coddatipag: false
-  fasccittadino: true
+  siope: true
+  coddatipag: true
+  fasccittadino: false
   intercontabilita: true
   intergest: true
-  CF: 02177970783
-  ragionesociale: Sintax S.r.l.
+  CF: "01931590762"
+  ragionesociale: Wemapp Srl
   Confermo di erogare i servizi obbligatori tipologia Sm e Sb: true
   extranodo: true
   Integrazione SDI: ""
-  femultilingue: true
+  femultilingue: false
   altrife: true
-  referenze: "
-  Comune di COTRONEI - TARI, IDRICO, ALTRO\n
-  GAMMA TRIBUTI SRL - COATTIVO\n
-  Comune di PIETRAPAOLA - IDRIC\n
-  Comune di VIBO VALENTIA - TARI, IDRICO, ALTRO\n
-  Comune di PIEVE A NIEVOLE - TARI\n
-  Comune di TERRAVECCHIA -  IDRICO\n
-  Comune di TIRIOLO - IDRIC\n
-  Comune di BAGHERIA - IDRICO\n
-  Comune di MONTEFIORE CONCA - TARI, IDRICO, ALTRO\n
-  Comune di SAN VITO LO CAPO - COATTIVO"
-- Informazioni cronologiche: 22/12/2022 9.03.35
-  dispdocumenti: true
+  referenze: ""
+- dispdocumenti: true
   flussirendicont: true
   fepagonline: true
   esitopag: true
-  inviopec: false
+  inviopec: true
   avvisaturamassiva: true
-  inviopostalizzatore: false
+  inviopostalizzatore: true
   avvisaturasingola: true
   quadraturaflusso: true
   hdincident: true
   manualiutenza: true
   exportapa: true
   formazione: true
-  autstampa: false
-  diffusione: false
+  autstampa: true
+  diffusione: true
   comunicazione: true
   appio: true
   riconciliazione: true
-  pos: false
+  pos: true
   anpr: false
-  siope: false
+  siope: true
   coddatipag: true
-  fasccittadino: true
+  fasccittadino: false
   intercontabilita: true
   intergest: true
-  CF: "10893490960"
-  ragionesociale: Optimia Srls
+  CF: "10241261006"
+  ragionesociale: ERAMUS SRL
   Confermo di erogare i servizi obbligatori tipologia Sm e Sb: true
-  extranodo: false
+  extranodo: true
   Integrazione SDI: ""
-  femultilingue: true
+  femultilingue: false
   altrife: true
-  referenze: "
-  Comune di Vermezzo con Zelo - SERVIZI SCOLASTICI\n
-  Comune di Albairate - SERVIZI SCOLASTICI\n
-  Comune di Povoletto - SERVIZI SCOLASTICI\n
-  Comune di Premariacco - SERVIZI SCOLASTICI\n
-  Comune di Dogliani - SERVIZI SCOLASTICI\n
-  Comune di Valdilana - SERVIZI SCOLASTICI\n
-  Comune di Santo Stefano Belbo - SERVIZI SCOLASTICI\n
-  Comune di Dormelletto - SERVIZI SCOLASTICI\n
-  Comune di Sant'Antonino di Susa - SERVIZI SCOLASTICI\n
-  Comune di Arconate - SERVIZI SCOLASTICI"
+  referenze: "Comune di Civitavecchia"
+- dispdocumenti: true
+  flussirendicont: true
+  fepagonline: true
+  esitopag: true
+  inviopec: true
+  avvisaturamassiva: true
+  inviopostalizzatore: true
+  avvisaturasingola: true
+  quadraturaflusso: true
+  hdincident: true
+  manualiutenza: true
+  exportapa: true
+  formazione: true
+  autstampa: true
+  diffusione: true
+  comunicazione: true
+  appio: true
+  riconciliazione: true
+  pos: true
+  anpr: false
+  siope: true
+  coddatipag: true
+  fasccittadino: false
+  intercontabilita: true
+  intergest: true
+  CF: "00384350435"
+  ragionesociale: Halley Informatica S.r.l.
+  Confermo di erogare i servizi obbligatori tipologia Sm e Sb: true
+  extranodo: true
+  Integrazione SDI: ""
+  femultilingue: false
+  altrife: true
+  referenze: "Provincia di Avellino"
+- dispdocumenti: true
+  flussirendicont: true
+  fepagonline: true
+  esitopag: true
+  inviopec: true
+  avvisaturamassiva: true
+  inviopostalizzatore: true
+  avvisaturasingola: true
+  quadraturaflusso: true
+  hdincident: true
+  manualiutenza: true
+  exportapa: true
+  formazione: true
+  autstampa: true
+  diffusione: true
+  comunicazione: true
+  appio: true
+  riconciliazione: true
+  pos: true
+  anpr: false
+  siope: true
+  coddatipag: true
+  fasccittadino: false
+  intercontabilita: true
+  intergest: true
+  CF: "01321400192"
+  ragionesociale: Consorzio Informatica Territorio SpA
+  Confermo di erogare i servizi obbligatori tipologia Sm e Sb: true
+  extranodo: true
+  Integrazione SDI: ""
+  femultilingue: false
+  altrife: true
+  referenze: "Comune di Crema"
