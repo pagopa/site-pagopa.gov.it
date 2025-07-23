@@ -11,7 +11,7 @@ footerbanner:
   title: Vuoi diventare un Partner tecnologico qualificato?
   desc: "Scarica il modulo, firmalo digitalmente ed invialo via PEC all'indirizzo presente nell'accordo"
   cta: Scarica il modulo
-  url: "/it/pubbliche-amministrazioni/accordo_pt_qualificati_12_2024.pdf"
+  url: "/it/pubbliche-amministrazioni/accordo_pt_qualificati_07_2025.pdf"
 vantaggi:
     -
       title: Partner tecnologico qualificato
