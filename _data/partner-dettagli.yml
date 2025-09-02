@@ -386,3 +386,36 @@
   femultilingue: false
   altrife: true
   referenze: "Comune di Crema"
+- dispdocumenti: true
+  flussirendicont: true
+  fepagonline: true
+  esitopag: true
+  inviopec: true
+  avvisaturamassiva: true
+  inviopostalizzatore: true
+  avvisaturasingola: true
+  quadraturaflusso: true
+  hdincident: true
+  manualiutenza: true
+  exportapa: true
+  formazione: true
+  autstampa: true
+  diffusione: true
+  comunicazione: true
+  appio: true
+  riconciliazione: true
+  pos: true
+  anpr: false
+  siope: true
+  coddatipag: true
+  fasccittadino: false
+  intercontabilita: true
+  intergest: true
+  CF: "05883740481"
+  ragionesociale: Etruria P.A. S.P.A.
+  Confermo di erogare i servizi obbligatori tipologia Sm e Sb: true
+  extranodo: true
+  Integrazione SDI: ""
+  femultilingue: false
+  altrife: true
+  referenze: "Comune di Cortona"
