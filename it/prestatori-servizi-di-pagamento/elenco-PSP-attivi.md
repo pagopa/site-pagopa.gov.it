@@ -13,7 +13,7 @@ footerbanner:
     title: Trasparenza bancaria
     desc: "Consulta i Fogli informativi e le Informative privacy forniti dai Prestatori di Servizi di Pagamento"
     cta: Leggi i documenti
-    url: "https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/elenco-PSP-attivi/trasparenza-bancaria"
+    url: "https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/trasparenza-bancaria"
 ---
 
 {% include elenco-psp.html %}
