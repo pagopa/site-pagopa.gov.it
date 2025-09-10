@@ -3,9 +3,8 @@ layout: page
 title: Trasparenza bancaria
 description:
 lang: it
-ref: prestatori-servizi-di-pagamento-elenco-psp-attivi
+ref: prestatori-servizi-di-pagamento
 order: 1
-child_of_ref: elenco-PSP-attivi
 ---
 
 ## American Express Payments Europe S.L. - Succursale per l'Italia
