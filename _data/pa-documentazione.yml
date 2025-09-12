@@ -19,9 +19,6 @@
    - 
       label: Tassonomia dei servizi
       url: "https://developer.pagopa.it/pago-pa/guides/sanp/ente-creditore/tassonomia-dei-servizi-di-incasso"
-   - 
-      label: Contribuisci al miglioramento della Tassonomia
-      url: "https://survey.pagopa.it/238313"
 - title: Piani di test
   docs:
     - 
