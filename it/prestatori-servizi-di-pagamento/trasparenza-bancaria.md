@@ -62,3 +62,8 @@ order: 1
 
 - [Foglio informativo](https://trasparenza.unicredit.it/pdfprod/GP19_SERVIZIO+DI+PAGAMENTO+DIGITALE+A+FAVORE+DELLA+PUBBLICAAMMINISTRAZIONE.pdf)
 - [Informativa Privacy](https://www.unicredit.it/content/dam/ucpublic/it/footer/doc/privacy/BU2926_IT.pdf)
+
+## Worldpay.LLC.
+{: .h4}
+
+- [Foglio informativo](https://assets.ctfassets.net/zhwqbd2ar3b8/1xIywTXPjGMjtjLSHT2I6A/1acc566a6947c35e1ae5bc76d987f6ab/Foglio_Informativo_Worldpay_IT__1_.pdf)
