@@ -22,6 +22,12 @@ order: 1
 - [Foglio informativo](https://www.gruppo.mps.it/ap_trasparenzaweb/Documenti%5C103049466.pdf)
 - [Informativa Privacy](https://www.mps.it/static/upload/inf/informativa-privacy-pagopa.pdf)
 
+## Banca Sella S.p.A.
+{: .h4}
+
+- [Foglio informativo](https://www.sella.it/SSRDocumentDisplayer?dtdPG=890_00_BSE)
+- [Informativa Privacy](https://www.sella.it/-/informativa-sul-trattamento-dei-dati-personali-per-i-servizi-di-pagamento)
+
 ## ICONTO S.R.L.
 {: .h4}
 
