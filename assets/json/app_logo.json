@@ -46,5 +46,9 @@
   "intesa sanpaolo": {
     "name": "Intesa Sanpaolo",
     "logo_url": "/assets/images/intesasanpaolo.png"
+  },
+  "klarna": {
+    "name": "Klarna",
+    "logo_url": "/assets/images/klarna.png"
   }
 }
