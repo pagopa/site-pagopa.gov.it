@@ -1,0 +1,28 @@
+- title: Piattaforma pagoPA
+  docs:
+    - 
+      label: Informativa sul trattamento dei dati personali
+      url: "/it/privacy/piattaforma-pagopa-privacy-policy"
+- title: Servizio di assistenza al cittadino
+  docs:
+    - 
+      label: Privacy Policy e Termini e Condizioni di utilizzo Assistenza
+      url: 'https://www.pagopa.it/it/privacy-policy-assistenza/'
+- title: Sito web pagopPA.gov.it
+  docs:
+    - 
+      label: Informativa sul trattamento dei dati personali
+      url: "/it/privacy/sito-web-govit-informativa-privacy"
+- title: Sito web pagoPA Checkout
+  docs:
+    - 
+      label: Informativa sul trattamento dei dati personali
+      url: "https://checkout.pagopa.it/privacypolicy/it.html"
+    -
+      label: Termini e condizioni d'uso
+      url: "https://checkout.pagopa.it/termini-di-servizio"
+- title: Newsletter
+  docs:
+    - 
+      label: Informativa sul trattamento dei dati personali
+      url: "/it/privacy/informativa-newsletter"

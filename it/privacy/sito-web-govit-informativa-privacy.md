@@ -2,7 +2,7 @@
 layout: page
 title: Informativa Privacy
 lang: it
-ref: informativa-privacy
+ref: sito-web-govit-informativa-privacy
 redirect_from: 
     - /it/privacy-policy
 ---
