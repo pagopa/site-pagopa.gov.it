@@ -1,5 +1,10 @@
-
-# Informativa sul trattamento dei dati personali
+---
+layout: page
+title: Informativa sul trattamento dei dati personali
+lang: it
+ref: sito-web-govit-informativa-privacy
+child_of_ref: privacy
+---
 
 ai sensi degli artt. 13-14 del Regolamento (UE) 2016/679
 
