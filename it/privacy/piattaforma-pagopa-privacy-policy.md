@@ -27,6 +27,7 @@ Questo documento descrive i trattamenti dei tuoi dati personali che vengono effe
 Il titolare del trattamento è la società PagoPA S.p.A. con sede in Piazza Colonna 370 00187 Roma – Italia, PEC [pagopa@pec.governo.it](mailto:pagopa@pec.governo.it).
 
 ## Data protection officer (DPO) o Responsabile Protezione Dati (RPD)
+{: .h4}
 
 Il DPO di PagoPA S.p.A. può essere contattato attraverso il presente [form di contatto](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8) o al seguente recapito fisico: indirizzo: Via Sardegna n. 38 – 00187, ROMA (sede operativa della Società).
 
@@ -43,6 +44,7 @@ Il DPO di PagoPA S.p.A. può essere contattato attraverso il presente [form di c
 - tassonomia del pagamento
 
 ### Finalità
+{: .h5}
 
 1. consentirti di effettuare il pagamento;  
 2. miglioramento dei servizi erogati nonché per lo sviluppo e la valorizzazione del patrimonio informativo di PagoPA S.p.A., previa anonimizzazione/aggregazione;  
@@ -52,10 +54,12 @@ Il DPO di PagoPA S.p.A. può essere contattato attraverso il presente [form di c
 6. fornirti assistenza.
 
 ### Base giuridica del trattamento
+{: .h5}
 
 PagoPA S.p.A. tratterà i tuoi dati per l’esecuzione di un compito di interesse pubblico per tutte le finalità, inoltre, per l’adempimento di un obbligo legale al quale è soggetto il titolare del trattamento (finalità C, D ed E).
 
 ### Tempi di conservazione dei dati
+{: .h5}
 
 I dati verranno conservati per 10 anni dall’acquisizione. Per maggiori informazioni è possibile scrivere tramite il presente [form di contatto](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8).
 
