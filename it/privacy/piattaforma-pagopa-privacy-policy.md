@@ -11,7 +11,7 @@ ai sensi degli artt. 13-14 del Regolamento (UE) 2016/679
 Questo documento descrive i trattamenti dei tuoi dati personali che vengono effettuati da PagoPA S.p.A. connessi all’utilizzo della Piattaforma pagoPA.
 
 - [Titolare del trattamento dei dati](#titolare-del-trattamento-dei-dati)
-- [Data protection officer (DPO) o Responsabile Protezione Dati (RPD)](#data-protection-officer-\(dpo\)-o-responsabile-protezione-dati-\(rpd\))
+- [Data protection officer (DPO) o Responsabile Protezione Dati (RPD)](#data-protection-officer-dpo-o-responsabile-protezione-dati-rpd)
 - [Dati personali trattati](#dati-personali-trattati)
 - [Finalità](#finalità)
 - [Base giuridica del trattamento](#base-giuridica-del-trattamento)
