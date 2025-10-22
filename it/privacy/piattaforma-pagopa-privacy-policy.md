@@ -35,6 +35,7 @@ Il DPO di PagoPA S.p.A. può essere contattato attraverso il presente [form di c
 {: .h4}
 
 ### Dati personali trattati
+{: .h5}
 
 - dati anagrafici del debitore (qualora valorizzati dall’Ente Creditore);  
 - dati di contatto del debitore (qualora valorizzati dall’Ente Creditore) o indicati dall’interessato in fase di pagamento (es. email);  
