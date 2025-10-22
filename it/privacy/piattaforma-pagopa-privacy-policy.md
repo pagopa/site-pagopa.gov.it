@@ -56,7 +56,7 @@ Il DPO di PagoPA S.p.A. può essere contattato attraverso il presente [form di c
 ### Base giuridica del trattamento
 {: .h5}
 
-PagoPA S.p.A. tratterà i tuoi dati per l’esecuzione di un compito di interesse pubblico per tutte le finalità, inoltre, per l’adempimento di un obbligo legale al quale è soggetto il titolare del trattamento (finalità C, D ed E).
+PagoPA S.p.A. tratterà i tuoi dati per l’esecuzione di un compito di interesse pubblico per tutte le finalità, inoltre, per l’adempimento di un obbligo legale al quale è soggetto il titolare del trattamento (finalità 3, 4 e 5).
 
 ### Tempi di conservazione dei dati
 {: .h5}
@@ -95,5 +95,7 @@ Potrai esercitare i tuoi diritti inviando specifica richiesta tramite il nostro 
 ## Modifiche
 {: .h4}
 
-Il Titolare si riserva il diritto di apportare alla presente informativa, a propria esclusiva discrezione ed in qualunque momento, tutte le modifiche ritenute opportune o rese obbligatorie dalle norme di volta in volta vigenti, dandone adeguata pubblicità agli utenti. Si prega dunque di consultare spesso questa pagina, prendendo a riferimento la data di ultima modifica indicata in fondo alla stessa. 
+Il Titolare si riserva il diritto di apportare alla presente informativa, a propria esclusiva discrezione ed in qualunque momento, tutte le modifiche ritenute opportune o rese obbligatorie dalle norme di volta in volta vigenti, dandone adeguata pubblicità agli utenti. Si prega dunque di consultare spesso questa pagina, prendendo a riferimento la data di ultima modifica indicata in fondo alla stessa.
+
+**Data di ultimo aggiornamento: 22.10.2025**
 
