@@ -21,7 +21,7 @@ passi:
       buttons:
         -
          label: Scarica il modello
-         url: "/it/prestatori-servizi-di-pagamento/accordo_di_servizio_psp.pdf"
+         url: "/it/prestatori-servizi-di-pagamento/accordo_di_servizio_mono_standard_ott_2025_signed.pdf"
          css: "btn btn-xs btn-outline-primary d-lg-block px-5"
     -
       title: Firma l’accordo digitalmente
