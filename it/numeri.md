@@ -1,8 +1,8 @@
 ---
 layout: page
 layout_wide: 1
-title: Dashboard
-description: In questa pagina sono disponibili i dati relativi alla piattaforma dei pagamenti pagoPA, aggiornati quotidianamente.
+title:
+description:
 description_og: Tutti i dati della piattaforma pagoPA, aggiornati quotidianamente
 lang: it
 ref: dashboard
