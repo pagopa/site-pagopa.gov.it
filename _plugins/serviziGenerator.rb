@@ -61,7 +61,9 @@ Jekyll::Hooks.register :site, :after_init do |site|
     front_matter['lang'] = 'it'
     front_matter['child_of_ref'] = 'prestatori-servizi-di-pagamento-elenco-psp-attivi'
     front_matter['omit_pagehead'] = true
-    front_matter['url_informazioni_psp'] = element['url_informazioni_psp']
+    unless element['url_informazioni_psp'].nil? || element['url_informazioni_psp'] == "None"
+      front_matter['url_informazioni_psp'] = [{ 'label' => 'Qui va la descrizione del documento', 'url' => element['url_informazioni_psp'] }]
+    end
     front_matter['services'] = groupServices(value, pspConfig.select{|key, value| value['script']==true })
     next if front_matter['services'].empty? or name==''
 
