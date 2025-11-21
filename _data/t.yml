@@ -78,6 +78,9 @@ footer-links:
     note-legali:
       name: "Note legali"
       url: "/it/note-legali/"
+    contestazioni:
+      name: "Contestazioni"
+      url: "https://assistenza.pagopa.gov.it/hc/it/articles/40847946287761-Contestazioni-Pagamenti-pagoPA"
     societa-trasparente:
       name: "Società Trasparente"
       url: "https://pagopa.portaleamministrazionetrasparente.it/"
@@ -128,10 +131,10 @@ topright-links:
       url: "https://www.agid.gov.it/it/agenzia/piano-triennale"
     io:
       name: "IO"
-      url: "https://io.italia.it/"
+      url: "https://ioapp.it/"
     send:
       name: "SEND"
-      url: "https://notifichedigitali.pagopa.it/"
+      url: "https://notifichedigitali.it/"
 navigation:
   en:
   it:
