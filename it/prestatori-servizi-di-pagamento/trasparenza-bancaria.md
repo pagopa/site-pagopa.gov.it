@@ -25,7 +25,7 @@ order: 1
 ## Banca Sella S.p.A.
 {: .h4}
 
-- [Foglio informativo](https://www.sella.it/SSRDocumentDisplayer?dtdPG=890_00_BSE)
+- [Foglio informativo](https://www.sella.it/SSRDisplayerI?docCode=SERVIZIO_DI_PAGAMENTO_PAGOPA_DI_BANCA_SELLA)
 - [Informativa Privacy](https://www.sella.it/-/informativa-sul-trattamento-dei-dati-personali-per-i-servizi-di-pagamento)
 
 ## ICONTO S.R.L.
