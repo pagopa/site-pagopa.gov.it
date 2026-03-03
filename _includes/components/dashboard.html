@@ -12,46 +12,61 @@
   </h3>
   <div class="d-md-flex my-3">
     <div id="__next">
-      <style data-emotion="css 9jls1k">
-        .css-9jls1k {
+      <style data-emotion="css gi70de">
+        .css-gi70de {
           display: -webkit-box;
           display: -webkit-flex;
           display: -ms-flexbox;
           display: flex;
-          -webkit-flex-direction: row;
-          -ms-flex-direction: row;
-          flex-direction: row;
-          -webkit-align-items: center;
-          -webkit-box-align: center;
-          -ms-flex-align: center;
-          align-items: center;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
           padding-top: 16px;
         }
-        .css-9jls1k > :not(style):not(style) {
-          margin: 0;
-        }
-        .css-9jls1k > :not(style) ~ :not(style) {
-          margin-left: 48px;
-        }
-        /* Workaround to fix mobile layout of "I nostri numeri" section */
-        @media (max-width: 992px) {
-          .css-9jls1k {
+        @media (min-width: 0px) {
+          .css-gi70de {
             -webkit-flex-direction: column;
             -ms-flex-direction: column;
             flex-direction: column;
-            -webkit-align-items: flex-start;
-            -webkit-box-align: start;
-            -ms-flex-align: start;
-            align-items: flex-start;
-            word-break: break-all;
           }
-          .css-9jls1k > :not(style) ~ :not(style) {
-            margin-left: 0;
+          .css-gi70de > :not(style):not(style) {
+            margin: 0;
+          }
+          .css-gi70de > :not(style) ~ :not(style) {
             margin-top: 48px;
           }
         }
+        @media (min-width: 900px) {
+          .css-gi70de {
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+          }
+          .css-gi70de > :not(style):not(style) {
+            margin: 0;
+          }
+          .css-gi70de > :not(style) ~ :not(style) {
+            margin-left: 48px;
+          }
+        }
+        @media (min-width: 0px) {
+          .css-gi70de {
+            -webkit-align-items: flex-start;
+            -webkit-box-align: flex-start;
+            -ms-flex-align: flex-start;
+            align-items: flex-start;
+          }
+        }
+        @media (min-width: 900px) {
+          .css-gi70de {
+            -webkit-align-items: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+          }
+        }
       </style>
-      <div class="MuiStack-root css-9jls1k">
+      <div class="MuiStack-root css-gi70de">
         <style data-emotion="css 18zsr3k">
           .css-18zsr3k {
             display: -webkit-box;
@@ -70,8 +85,8 @@
           }
         </style>
         <div class="MuiStack-root css-18zsr3k">
-          <style data-emotion="css 4y8kkh">
-            .css-4y8kkh {
+          <style data-emotion="css 3bzci7">
+            .css-3bzci7 {
               margin: 0;
               font-family:
                 "Titillium Web", "Titillium Web Fallback", sans-serif;
@@ -84,9 +99,9 @@
               line-height: 3rem;
             }
           </style>
-          <div class="MuiTypography-root MuiTypography-body1 css-4y8kkh">#</div>
-          <style data-emotion="css 1cj4sal">
-            .css-1cj4sal {
+          <div class="MuiTypography-root MuiTypography-body1 css-3bzci7">#</div>
+          <style data-emotion="css 18i4onl">
+            .css-18i4onl {
               margin: 0;
               font-family:
                 "Titillium Web", "Titillium Web Fallback", sans-serif;
@@ -99,19 +114,19 @@
               line-height: 1.75rem;
             }
           </style>
-          <div class="MuiTypography-root MuiTypography-body1 css-1cj4sal">
+          <div class="MuiTypography-root MuiTypography-body1 css-18i4onl">
             Transazioni pagoPA nel
             <!-- -->2026
           </div>
         </div>
         <div class="MuiStack-root css-18zsr3k">
-          <div class="MuiTypography-root MuiTypography-body1 css-4y8kkh">#</div>
-          <div class="MuiTypography-root MuiTypography-body1 css-1cj4sal">
+          <div class="MuiTypography-root MuiTypography-body1 css-3bzci7">#</div>
+          <div class="MuiTypography-root MuiTypography-body1 css-18i4onl">
             Valore economico
           </div>
         </div>
         <div class="MuiStack-root css-18zsr3k">
-          <div class="MuiTypography-root MuiTypography-body1 css-4y8kkh">#</div>
+          <div class="MuiTypography-root MuiTypography-body1 css-3bzci7">#</div>
           <style data-emotion="css u4p24i">
             .css-u4p24i {
               display: -webkit-box;
@@ -128,12 +143,12 @@
             }
           </style>
           <div class="MuiStack-root css-u4p24i">
-            <div class="MuiTypography-root MuiTypography-body1 css-1cj4sal">
+            <div class="MuiTypography-root MuiTypography-body1 css-18i4onl">
               Tasso di crescita vs
               <!-- -->2025
             </div>
-            <style data-emotion="css 5qfe2j">
-              .css-5qfe2j {
+            <style data-emotion="css 1wf493t">
+              .css-1wf493t {
                 text-align: center;
                 -webkit-flex: 0 0 auto;
                 -ms-flex: 0 0 auto;
@@ -141,30 +156,27 @@
                 font-size: 1.5rem;
                 padding: 8px;
                 border-radius: 50%;
+                overflow: visible;
                 color: rgba(0, 0, 0, 0.54);
                 -webkit-transition: background-color 150ms
                   cubic-bezier(0.4, 0, 0.2, 1) 0ms;
                 transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1)
                   0ms;
-                --IconButton-hoverBg: rgba(0, 0, 0, 0.04);
               }
-              .css-5qfe2j:hover {
-                background-color: var(--IconButton-hoverBg);
+              .css-1wf493t:hover {
+                background-color: rgba(0, 0, 0, 0.04);
               }
               @media (hover: none) {
-                .css-5qfe2j:hover {
+                .css-1wf493t:hover {
                   background-color: transparent;
                 }
               }
-              .css-5qfe2j.Mui-disabled {
+              .css-1wf493t.Mui-disabled {
                 background-color: transparent;
                 color: rgba(0, 0, 0, 0.26);
-              }
-              .css-5qfe2j.MuiIconButton-loading {
-                color: transparent;
               }</style
-            ><style data-emotion="css mfslm7">
-              .css-mfslm7 {
+            ><style data-emotion="css 1yxmbwk">
+              .css-1yxmbwk {
                 display: -webkit-inline-box;
                 display: -webkit-inline-flex;
                 display: -ms-inline-flexbox;
@@ -204,46 +216,43 @@
                 font-size: 1.5rem;
                 padding: 8px;
                 border-radius: 50%;
+                overflow: visible;
                 color: rgba(0, 0, 0, 0.54);
                 -webkit-transition: background-color 150ms
                   cubic-bezier(0.4, 0, 0.2, 1) 0ms;
                 transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1)
                   0ms;
-                --IconButton-hoverBg: rgba(0, 0, 0, 0.04);
               }
-              .css-mfslm7::-moz-focus-inner {
+              .css-1yxmbwk::-moz-focus-inner {
                 border-style: none;
               }
-              .css-mfslm7.Mui-disabled {
+              .css-1yxmbwk.Mui-disabled {
                 pointer-events: none;
                 cursor: default;
               }
               @media print {
-                .css-mfslm7 {
+                .css-1yxmbwk {
                   -webkit-print-color-adjust: exact;
                   color-adjust: exact;
                 }
               }
-              .css-mfslm7:hover {
-                background-color: var(--IconButton-hoverBg);
+              .css-1yxmbwk:hover {
+                background-color: rgba(0, 0, 0, 0.04);
               }
               @media (hover: none) {
-                .css-mfslm7:hover {
+                .css-1yxmbwk:hover {
                   background-color: transparent;
                 }
               }
-              .css-mfslm7.Mui-disabled {
+              .css-1yxmbwk.Mui-disabled {
                 background-color: transparent;
                 color: rgba(0, 0, 0, 0.26);
-              }
-              .css-mfslm7.MuiIconButton-loading {
-                color: transparent;
               }</style
             ><button
-              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-mfslm7"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1yxmbwk"
               tabindex="0"
               type="button"
-              aria-label="Confronto fra il periodo 1 gennaio - 22 gennaio 2026 rispetto allo stesso periodo del 2025"
+              aria-label="Confronto fra il periodo 1 gennaio - 3 marzo 2026 rispetto allo stesso periodo del 2025"
             >
               <svg
                 width="20"
@@ -257,18 +266,14 @@
                   fill="#215C76"
                 ></path>
               </svg></button
-            ><style data-emotion="css 1f5p11z">
-              .css-1f5p11z {
+            ><style data-emotion="css 1e2dcm1">
+              .css-1e2dcm1 {
                 z-index: 1500;
-                pointer-events: none;
-                pointer-events: auto;
                 pointer-events: none;
               }</style
-            ><style data-emotion="css 1vxh2dt">
-              .css-1vxh2dt {
+            ><style data-emotion="css okvapm">
+              .css-okvapm {
                 z-index: 1500;
-                pointer-events: none;
-                pointer-events: auto;
                 pointer-events: none;
               }
             </style>
