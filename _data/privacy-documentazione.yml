@@ -26,3 +26,8 @@
     - 
       label: Informativa sul trattamento dei dati personali
       url: "/it/privacy/informativa-newsletter"
+- title: SEPA Request to Pay (Avvisi pagoPA)
+  docs:
+    - 
+      label: Informativa sul trattamento dei dati personali
+      url: "/it/privacy/privacy-policy-srtp"
