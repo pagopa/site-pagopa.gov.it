@@ -6,6 +6,7 @@ ref: srtp-informativa-privacy
 child_of_ref: privacy
 redirect_from:
   - /rtp/privacy
+  - /rtp/privacy/
 ---
 
 ai sensi degli artt. 13-14 del Regolamento (UE) 2016/679
