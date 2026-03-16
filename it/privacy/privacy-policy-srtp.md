@@ -29,7 +29,7 @@ Questo documento descrive i trattamenti dei tuoi dati personali che vengono effe
 ## Titolare del trattamento dei dati
 {: .h4}
 
-Il titolare del trattamento è la società PagoPA S.p.A. con sede in Piazza Colonna 370 00187 Roma – Italia, PEC [pagopa@pec.governo.it](mailto:pagopa@pec.governo.it).
+Il titolare del trattamento è la società PagoPA S.p.A. con sede in Piazza Colonna 370 00187 Roma – Italia, PEC [pagopaspa@pec.pagopa.it](mailto:pagopaspa@pec.pagopa.it).
 
 ## Data protection officer (DPO) o Responsabile Protezione Dati (RPD) {#dpo-rpd}
 {: .h4}
