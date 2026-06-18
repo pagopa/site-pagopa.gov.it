@@ -49,7 +49,11 @@
                             {{#ifEquals tipo_vers_cod 'MYBK'}}
                             <div class="d-block flex-grow-1">Pagamento tramite il tuo conto corrente</div>
                             {{else}}
+                            {{#ifEquals tipo_vers_cod 'RFPB'}}
+                            <div class="d-block flex-grow-1">Pagamento tramite il tuo conto corrente</div>
+                            {{else}}
                             <div class="d-block flex-grow-1">{{nome_servizio}}</div>
+                            {{/ifEquals}}
                             {{/ifEquals}}
                         </div>
                         <div class="font-weight-semibold text-secondary small d-flex align-items-center">
@@ -62,7 +66,13 @@
                                     banche aderenti al servizio Mybank
                                 </a>
                                 {{else}}
+                                {{#ifEquals tipo_vers_cod 'RFPB'}}
+                                delle <a href="https://www.fabrick.com/it-it/fabrick-pay-by-bank/copertura-banche/" target="_blank" title="Elenco banche aderenti">
+                                    banche aderenti al servizio Fabrick Pay by Bank
+                                </a>
+                                {{else}}
                                 {{psp_rag_soc}}
+                                {{/ifEquals}}
                                 {{/ifEquals}}
                             </div>
                         </div>
