@@ -50,5 +50,9 @@
   "klarna": {
     "name": "Klarna",
     "logo_url": "/assets/images/klarna.png"
+  },
+  "google pay": {
+    "name": "Google Pay",
+    "logo_url": "/assets/images/google-pay.png"
   }
 }
