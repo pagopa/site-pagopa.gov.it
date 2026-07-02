@@ -25,8 +25,8 @@
       label: Accordo di servizio per l’adesione al sistema dei pagamenti elettronici pagoPA
       url: "/it/prestatori-servizi-di-pagamento/accordo_di_servizio_monostandard_2026_signed.pdf"
     - 
-      label: Service Agreement for Subscription to the pagoPA Electronic Payments System
-      url: 'https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/pagopa-service-agreement-psp.pdf'
+      label: pagoPA Service Agreement - Courtesy copy - non binding. The Italian version prevails
+      url: '/it/prestatori-servizi-di-pagamento/monostandard_eng_copia_di_cortesia.pdf'
 - title: "Brand"
   docs:
     -
