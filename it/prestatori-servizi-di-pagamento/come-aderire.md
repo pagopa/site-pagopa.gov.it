@@ -57,8 +57,8 @@ tariffe:
         css: "pt-3 mt-auto"
 docs:
     - 
-      label: pagoPA Service Agreement (English)
-      url: "https://www.pagopa.gov.it/it/prestatori-servizi-di-pagamento/pagopa-service-agreement-psp.pdf"
+      label: pagoPA Service Agreement - Courtesy copy - non binding. The Italian version prevails
+      url: "/it/prestatori-servizi-di-pagamento/monostandard_eng_copia_di_cortesia.pdf"
     - 
       label: SACI - Specifiche attuative dei codici identificativi di versamento, riversamento e rendicontazione
       url: "https://developer.pagopa.it/pago-pa/guides/saci"
