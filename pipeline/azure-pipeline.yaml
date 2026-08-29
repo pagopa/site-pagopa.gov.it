@@ -1,0 +1,57 @@
+trigger:
+  branches:
+    include:
+      - master
+
+parameters:
+  - name: 'SUBSCRIPTION'
+    displayName: 'Azure subscription hosting the infrastructure built with terraform'
+    type: string
+    default: PAGOPA-SERVICE-CONN
+  - name: 'STORAGE_ACCOUNT'
+    displayName: 'Storage account for static website hosting.'
+    type: string
+    default: pagopawebsite
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+  endpoint: 'pagopa'
+
+jobs:
+  - job: build_and_deploy_website
+    steps:
+      # 1. Install Jekyll
+      - task: Bash@3
+        displayName: Install Jekyll
+        inputs:
+          targetType: 'inline'
+          failOnStderr: false
+          script: |
+            sudo apt-get install ruby-full build-essential zlib1g-dev -y
+            echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+            echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+            echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+            source ~/.bashrc
+            echo "Install jekyll"
+            sudo gem install jekyll bundler
+      # 2. Build.
+      - task: Bash@3
+        displayName: Build
+        inputs:
+          targetType: 'inline'
+          failOnStandardError: false
+          script: |
+            bundle install
+            bundle exec jekyll build
+      # 3. Deploy
+      - task: AzureCLI@2
+        displayName: Deploy
+        inputs:
+          azureSubscription: '${{ parameters.SUBSCRIPTION }}'
+          scriptType: 'bash'
+          scriptLocation: 'inlineScript'
+          failOnStandardError: false
+          inlineScript: |
+            echo "Copy file to the storage account"
+            az storage blob upload-batch --account-name ${{ parameters.STORAGE_ACCOUNT }} -s /home/vsts/work/1/s/_site/ -d '$web'
