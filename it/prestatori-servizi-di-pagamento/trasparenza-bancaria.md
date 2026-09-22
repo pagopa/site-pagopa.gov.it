@@ -75,3 +75,8 @@ child_of_submenu: pagoPA
 {: .h4}
 
 - [Foglio informativo](https://assets.ctfassets.net/zhwqbd2ar3b8/1xIywTXPjGMjtjLSHT2I6A/1acc566a6947c35e1ae5bc76d987f6ab/Foglio_Informativo_Worldpay_IT__1_.pdf)
+
+## Nexi Payments S.p.A.
+{: .h4}
+
+- [Foglio informativo](https://www.nexi.it/content/dam/nexinew/download/trasparenza/esercenti/siapay/siapay_FI_avvisi_pagopa.pdf)
