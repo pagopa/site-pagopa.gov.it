@@ -21,7 +21,7 @@ passi:
       buttons:
         -
          label: Scarica il modello
-         url: "/it/prestatori-servizi-di-pagamento/accordo_di_servizio_monostandard_2026_signed.pdf"
+         url: "/it/prestatori-servizi-di-pagamento/Accordo_di_servizio_Monostandard_09_2026_signed.pdf"
          css: "btn btn-xs btn-outline-primary d-lg-block px-5"
     -
       title: Firma l’accordo digitalmente
@@ -58,7 +58,7 @@ tariffe:
 docs:
     - 
       label: pagoPA Service Agreement - Courtesy copy - non binding. The Italian version prevails
-      url: "/it/prestatori-servizi-di-pagamento/monostandard_eng_copia_di_cortesia.pdf"
+      url: "/it/prestatori-servizi-di-pagamento/ENG_Accordo_di_servizio_MONO_09_2026.pdf"
     - 
       label: SACI - Specifiche attuative dei codici identificativi di versamento, riversamento e rendicontazione
       url: "https://developer.pagopa.it/pago-pa/guides/saci"
